@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(winget install:*)",
+      "Bash(hugo version:*)",
+      "Bash(choco install:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+<nav class="navbar">
+  <div class="navbar-logo">
+    <a href="/"><img src="/images/biglogo.png" alt="{{ .Site.Title }}"></a>
+  </div>
+
+  <ul class="navbar-menu">
+    <!-- 我是啥人 dropdown -->
+    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/aboutme/") (hasPrefix .RelPermalink "/bio/") (hasPrefix .RelPermalink "/media/") (hasPrefix .RelPermalink "/preface/") (hasPrefix .RelPermalink "/history/") (hasPrefix .RelPermalink "/photo/") (hasPrefix .RelPermalink "/gallery/") (hasPrefix .RelPermalink "/contact_us/") }}active{{ end }}">
+      <span>我是啥人</span>
+      <ul class="navbar-dropdown">
+        <li><a href="/aboutme/">簡介</a></li>
+        <li><a href="/bio/">傳記與年表</a></li>
+        <li><a href="/media/">受訪與報導</a></li>
+        <li><a href="/preface/">著作序</a></li>
+        <li><a href="/history/">參與歷史事件</a></li>
+        <li><a href="/photo/">寫真館</a></li>
+        <li><a href="/gallery/">作品集</a></li>
+        <li><a href="https://www.facebook.com/uijin.ang" target="_blank">
+          <svg width="16" height="16" fill="currentColor" style="vertical-align: middle; margin-right: 5px;">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+          花思木
+        </a></li>
+        <li><a href="/contact_us/">聯絡我</a></li>
+      </ul>
+    </li>
+
+    <!-- 論文 dropdown -->
+    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/paper/") (hasPrefix .RelPermalink "/plan/") (hasPrefix .RelPermalink "/colloquium/") }}active{{ end }}">
+      <span>論文</span>
+      <ul class="navbar-dropdown">
+        <li><a href="/paper/">學術論文</a></li>
+        <li><a href="/plan/">研究計畫報告</a></li>
+        <li><a href="/colloquium/">研討會論文</a></li>
+      </ul>
+    </li>
+
+    <!-- 著書 dropdown -->
+    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/book/") (hasPrefix .RelPermalink "/write/") (hasPrefix .RelPermalink "/translate/") (hasPrefix .RelPermalink "/publish/") }}active{{ end }}">
+      <span>著書</span>
+      <ul class="navbar-dropdown">
+        <li><a href="/book/">專書</a></li>
+        <li><a href="/write/">編著</a></li>
+        <li><a href="/translate/">翻譯</a></li>
+        <li><a href="/publish/">治言齋書肆</a></li>
+      </ul>
+    </li>
+
+    <!-- Regular links -->
+    <li {{ if hasPrefix .RelPermalink "/essay/" }}class="active"{{ end }}>
+      <a href="/essay/">雜文</a>
+    </li>
+    <li {{ if hasPrefix .RelPermalink "/lecture/" }}class="active"{{ end }}>
+      <a href="/lecture/">演講</a>
+    </li>
+    <li {{ if hasPrefix .RelPermalink "/study/" }}class="active"{{ end }}>
+      <a href="/study/">研究網站</a>
+    </li>
+    <li {{ if hasPrefix .RelPermalink "/teach/" }}class="active"{{ end }}>
+      <a href="/teach/">教學網站</a>
+    </li>
+    <li {{ if hasPrefix .RelPermalink "/news/" }}class="active"{{ end }}>
+      <a href="/news/">最新動態</a>
+    </li>
+  </ul>
+
+  <div class="navbar-search">
+    <button class="navbar-search-btn" aria-label="搜尋">
+      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.35-4.35"/>
+      </svg>
+    </button>
+  </div>
+</nav>

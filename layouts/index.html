@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="homepage">
+    <!-- Header with logo and carousel -->
+    <header class="homepage-header">
+      <div class="homepage-logo">
+        <img src="/images/biglogo.png" alt="{{ .Site.Title }}">
+      </div>
+      <div class="homepage-carousel">
+        <div class="carousel-track">
+          <img src="/images/h01.jpg" alt="圖片 1">
+          <img src="/images/h02.jpg" alt="圖片 2">
+          <img src="/images/h03.jpg" alt="圖片 3">
+          <img src="/images/h04.jpg" alt="圖片 4">
+          <img src="/images/h05.jpg" alt="圖片 5">
+          <img src="/images/h06.jpg" alt="圖片 6">
+          <img src="/images/h07.jpg" alt="圖片 7">
+          <img src="/images/h08.jpg" alt="圖片 8">
+          <img src="/images/h09.jpg" alt="圖片 9">
+          <img src="/images/h10.jpg" alt="圖片 10">
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content with photo and navigation -->
+    <div class="homepage-content">
+      <div class="homepage-photo">
+        <img src="/images/photo.png" alt="洪惟仁教授">
+      </div>
+
+      <nav class="homepage-nav">
+        <ul>
+          <li>
+            <a href="/aboutme/">
+              <span class="nav-title-zh">我是啥人</span>
+              <span class="nav-title-en">About Me</span>
+            </a>
+          </li>
+          <li>
+            <a href="/paper/">
+              <span class="nav-title-zh">論　　文</span>
+              <span class="nav-title-en">Articles</span>
+            </a>
+          </li>
+          <li>
+            <a href="/book/">
+              <span class="nav-title-zh">著　　書</span>
+              <span class="nav-title-en">Books</span>
+            </a>
+          </li>
+          <li>
+            <a href="/essay/">
+              <span class="nav-title-zh">雜　　文</span>
+              <span class="nav-title-en">Essays</span>
+            </a>
+          </li>
+          <li>
+            <a href="/lecture/">
+              <span class="nav-title-zh">演　　講</span>
+              <span class="nav-title-en">Lectures</span>
+            </a>
+          </li>
+          <li>
+            <a href="/study/">
+              <span class="nav-title-zh">研究網站</span>
+              <span class="nav-title-en">Research Websites</span>
+            </a>
+          </li>
+          <li>
+            <a href="/teach/">
+              <span class="nav-title-zh">教學網站</span>
+              <span class="nav-title-en">Teaching Websites</span>
+            </a>
+          </li>
+          <li>
+            <a href="/news/">
+              <span class="nav-title-zh">最新動態</span>
+              <span class="nav-title-en">Recent Updates</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Footer -->
+    <footer class="homepage-footer">
+      {{ .Site.Params.copyright }}
+    </footer>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

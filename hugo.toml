@@ -1,0 +1,181 @@
+baseURL = '/'
+languageCode = 'zh-tw'
+title = '治言齋'
+defaultContentLanguage = 'zh-tw'
+hasCJKLanguage = true
+
+[params]
+  description = '洪惟仁教授個人網站'
+  author = '洪惟仁 Ang Uijin'
+  copyright = '洪惟仁 版權所有©2024 Uijin Ang All Rights Reserved.'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'monokai'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = '首頁'
+    url = '/'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'aboutme'
+    name = '我是啥人'
+    weight = 2
+
+  [[menu.main]]
+    identifier = 'aboutme-intro'
+    name = '簡介'
+    parent = 'aboutme'
+    url = '/aboutme/'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'aboutme-bio'
+    name = '傳記與年表'
+    parent = 'aboutme'
+    url = '/bio/'
+    weight = 2
+
+  [[menu.main]]
+    identifier = 'aboutme-media'
+    name = '受訪與報導'
+    parent = 'aboutme'
+    url = '/media/'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'aboutme-preface'
+    name = '著作序'
+    parent = 'aboutme'
+    url = '/preface/'
+    weight = 4
+
+  [[menu.main]]
+    identifier = 'aboutme-history'
+    name = '參與歷史事件'
+    parent = 'aboutme'
+    url = '/history/'
+    weight = 5
+
+  [[menu.main]]
+    identifier = 'aboutme-photo'
+    name = '寫真館'
+    parent = 'aboutme'
+    url = '/photo/'
+    weight = 6
+
+  [[menu.main]]
+    identifier = 'aboutme-gallery'
+    name = '作品集'
+    parent = 'aboutme'
+    url = '/gallery/'
+    weight = 7
+
+  [[menu.main]]
+    identifier = 'aboutme-facebook'
+    name = '花思木'
+    parent = 'aboutme'
+    url = 'https://www.facebook.com/uijin.ang'
+    weight = 8
+
+  [[menu.main]]
+    identifier = 'aboutme-contact'
+    name = '聯絡我'
+    parent = 'aboutme'
+    url = '/contact_us/'
+    weight = 9
+
+  [[menu.main]]
+    identifier = 'paper'
+    name = '論文'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'paper-academic'
+    name = '學術論文'
+    parent = 'paper'
+    url = '/paper/'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'paper-plan'
+    name = '研究計畫報告'
+    parent = 'paper'
+    url = '/plan/'
+    weight = 2
+
+  [[menu.main]]
+    identifier = 'paper-colloquium'
+    name = '研討會論文'
+    parent = 'paper'
+    url = '/colloquium/'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'book'
+    name = '著書'
+    weight = 4
+
+  [[menu.main]]
+    identifier = 'book-books'
+    name = '專書'
+    parent = 'book'
+    url = '/book/'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'book-write'
+    name = '編著'
+    parent = 'book'
+    url = '/write/'
+    weight = 2
+
+  [[menu.main]]
+    identifier = 'book-translate'
+    name = '翻譯'
+    parent = 'book'
+    url = '/translate/'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'book-publish'
+    name = '治言齋書肆'
+    parent = 'book'
+    url = '/publish/'
+    weight = 4
+
+  [[menu.main]]
+    identifier = 'essay'
+    name = '雜文'
+    url = '/essay/'
+    weight = 5
+
+  [[menu.main]]
+    identifier = 'lecture'
+    name = '演講'
+    url = '/lecture/'
+    weight = 6
+
+  [[menu.main]]
+    identifier = 'study'
+    name = '研究網站'
+    url = '/study/'
+    weight = 7
+
+  [[menu.main]]
+    identifier = 'teach'
+    name = '教學網站'
+    url = '/teach/'
+    weight = 8
+
+  [[menu.main]]
+    identifier = 'news'
+    name = '最新動態'
+    url = '/news/'
+    weight = 9

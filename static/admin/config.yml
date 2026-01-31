@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: mainr
+
+media_folder: "static/images"
+public_folder: "/images"
+
+# 這是為了讓預覽畫面能顯示中文
+locale: "zh_Hant"
+
+collections:
+  # 1. 「最新動態」管理 (對應 content/news 資料夾)
+  - name: "news"
+    label: "最新動態"
+    folder: "content/news"
+    create: true # 允許教授新增文章
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "發布日期", name: "date", widget: "datetime"}
+      - {label: "內容", name: "body", widget: "markdown"}
+
+  # 2. 「單頁面」管理 (對應 content/aboutme.md 等獨立檔案)
+  - name: "pages"
+    label: "獨立頁面"
+    files:
+      - name: "about"
+        label: "我是啥人 (簡介)"
+        file: "content/aboutme.md"
+        fields:
+          - {label: "標題", name: "title", widget: "string"}
+          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "內容", name: "body", widget: "markdown"}
