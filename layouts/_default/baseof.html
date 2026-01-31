@@ -6,6 +6,7 @@
   <title>{{ .Title }} - {{ .Site.Title }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="stylesheet" href="/css/style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   {{ block "navbar" . }}{{ partial "navbar.html" . }}{{ end }}
