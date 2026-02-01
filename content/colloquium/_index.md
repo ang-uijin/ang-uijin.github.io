@@ -1,0 +1,65 @@
+---
+title: "研討會論文"
+date: 2025-01-01
+---
+
+- <span class="date">2009/03/23</span>〈宜蘭地區的語言分佈<span class="source">東華大學原住民族學院‧第四次台灣的語言方言分佈與族群遷徙工作坊論文。</span>
+- <span class="date">2009/02/19</span>〈高屏地區的語言方言分佈與民族遷徙<span class="source">高雄中山大學文學院‧第三次台灣的語言方言分佈與族群遷徙工作坊論文。</span>
+- <span class="date">2009/02/14</span>〈台灣地區的語言分佈<span class="source">吉隆坡‧馬來亞大學‧馬來西亞2009華語國際學術研討會論文。</span>
+- <span class="date">2008/12/27</span>〈台北地區漢語方言的分佈<span class="source">中央研究院台灣史研究所‧第二次台灣的語言方言分佈與族群遷徙工作坊論文。</span>
+- <span class="date">2008/11/22</span>（與許世融、黃卓權合撰），〈新竹地區的語言分佈<span class="source">國立中央大學客家學院客家語文研究所‧第八屆國際客方言研討會。</span>
+- <span class="date">2008/11/17</span>（與程士毅合撰），〈南投地區的語言分佈<span class="source">國立台中教育大學‧第一次台灣的語言方言分佈與族群遷徙工作坊。</span>
+- <span class="date">2008/10/18</span>（與程士毅合撰），〈水沙連地區的語言分佈<span class="source">國立暨南國際大學‧地方文史與區域研究：劉枝萬與水沙連研究學術研討會。</span>
+- <span class="date">2008/09/06</span>〈論閩南語書寫法的發展<span class="source">國立臺灣師範大學‧第七屆臺灣語言及其教學國際學術研討會。</span>
+- <span class="date">2008/07/25</span>（與潘科元合撰），〈漳泉競爭中鼻化元音的輔音化<span class="source">國立彰化師範大學‧第廿六屆全國聲韻學學術研討會。</span>
+- <span class="date">2008/01/10</span>〈台灣話停頓與轉調的語法制約：兼論其教學法<span class="source">廣東湛江師範學院‧第十屆閩方言研討會。</span>
+- <span class="date">2007/09/28</span>(與簡秀梅合著)，〈關廟方言區「出歸時」現象的漸層分布：一個社會地理方言學的研究<span class="source">中央研究院語言研究所‧語言微觀分佈國際研討會。</span>
+- <span class="date">2007/09/08</span>〈小川尚義對漢語研究的貢獻<span class="source">台中教育大學‧台灣語言學一百周年語言學國際學術研討會：紀念台灣語言學先驅小川尚義教授。</span>
+- <span class="date">2006/11/07</span>(與簡秀梅合著)，〈關廟方言區「出歸時」字類回頭演變之社會方言學研究<span class="source">中興大學‧社會語言學與功能語言學國際研討會。</span>
+- <span class="date">2006/11/05</span>(與張素蓉合著)，〈台中縣海線地區泉州腔的漸層分布：一個社會地理方言學的研究<span class="source">元智大學‧社會語言學與功能語言學國際研討會。</span>
+- <span class="date">2006/10/27</span>（與黃以丞合撰），〈中古入聲在現代華語的衍化<span class="source">國立中山大學中文系‧第廿四屆全國聲韻學學術研討會。</span>
+- <span class="date">2006/05/25</span>〈台北地區閩南語的方言類型與方言分區<span class="source">IACL-14 & IsCLL-10 Joint Conference，Academia Sinica, Taipei, Taiwan.</span>
+- <span class="date">2006/03/04</span>〈語言競爭在台灣：以桃園縣為例<span class="source">馬來亞大學：第一屆馬來西亞漢語語言學國際學術會議。</span>
+- <span class="date">2005/10/25</span>〈從兩個時期製作的方言地圖看台灣閩南語的變化<span class="source">福州，福州師範大學：第九屆閩方言國際學術研討會。</span>
+- <span class="date">2005/10/21</span>〈台灣語言的使用場域<span class="source">台北，中央研究院語言研究所：語言政策的多元文化思考系列研討會－台灣南島語的語言活力。</span>
+- <span class="date">2005/05/28</span>〈變化中的台灣話<span class="source">台北，國立台灣師範大學教育學院：國科會九十三年度語言學門研究成果發表會。</span>
+- <span class="date">2005/05/14</span>〈切韻音系聲母的內部構擬<span class="source">台中，靜宜大學中文系：廿三屆聲韻學研討會論文。</span>
+- <span class="date">2005/01/08</span>〈五校台語系課程比較<span class="source">台北，國立台灣師範大學：大學台灣人文學問系所之現況與展望研討會論文。</span>
+- <span class="date">2004/12/04</span>(合著)，〈高屏地區的語言分佈<span class="source">台北，中央研究院語言研究所：第二屆漢語方言小型研討會－客家語研究論文。</span>
+- <span class="date">2004/05/28</span>〈方言學的體系：共時與歷時的聯繫<span class="source">新竹，國立新竹師範學院：第二屆語言、文獻與調查學術研討會論文。</span>
+- <span class="date">2004/05/22</span>〈變化中的台灣話<span class="source">台中，靜宜大學：第五屆台灣語言及其教學國際學術研討會論文。</span>
+- <span class="date">2004/05/15</span>〈台灣閩南語聲調的演變潮流：一個社會方言學的調查研究<span class="source">台北，台北市立師範學院：第二十二屆全國聲韻學學術研討會論文。</span>
+- <span class="date">2003/12/27</span>〈方言調查詞表的必要性與設計方法<span class="source">台北，第七屆世界華語文教學研討會論文。</span>
+- <span class="date">2003/11/28</span>〈結構擴散：以台灣話的音變為例<span class="source">(Structural diffusion: on the sound change in Taiwanese Southern Min)，La Trobe University, Melbourne, Australia: 36th International Conference on Sino-Tibetan Languages and Linguistics.</span>
+- <span class="date">2003/11/09</span>〈閩南語的方言比較與通變系統<span class="source">海口，海南大學：第八屆閩方言國際學術研討會論文。</span>
+- <span class="date">2003/10/25</span>〈台灣話j聲母的衰退：一個社會方言學的調查研究<span class="source">高雄師範大學：第八屆國際暨廿一屆全國聲韻學學術研討會。</span>
+- <span class="date">2002/09/26</span>〈台灣語言政策何去何從<span class="source">台北，淡江大學：各國語言政策─多元文化與族群平等學術研討會論文。</span>
+- <span class="date">2002/09/07</span>〈台灣泉州腔央元音的崩潰與地理、社會階層的相關性<span class="source">北京，北京語言大學語言研究所：首屆社會語言學國際學術研討會論文。</span>
+- <span class="date">2002/08/23</span>〈漢語格位危機及其救濟手段<span class="source">名古屋，愛知大學：第十一屆國際中國語言學會年會(IACL-11)國際學術研討會論文。</span>
+- <span class="date">2002/04/24</span>〈閩南語轉調的語言層次(一)：句法、語義與語用的制約<span class="source">高雄，國立中山大學：第四屆台灣語言及其教學國際研討會論文。</span>
+- <span class="date">2002/04/12</span>〈變化中的汐止音：一個台灣社會方言學的個案研究<span class="source">台南，成功大學中文系：第二十屆全國聲韻學學術研討會論文。</span>
+- <span class="date">2001/11/22</span>〈台灣漢語共時方言學：歷史與展望<span class="source">台北，中央研究院語言研究所籌備處：「漢語方言調查研究」小型研討會論文。</span>
+- <span class="date">2001/11/03</span>〈台灣漢語共時方言學：歷史與展望<span class="source">廈門，廈門大學：第七屆國際閩方言研討會論文。</span>
+- <span class="date">2001/11/02</span>〈跨世紀桃園語言社會學調查報告<span class="source">台北，輔仁大學：台灣社會學學會「生活/社會新視界：理論與實際的對話」學術研討會論文。</span>
+- <span class="date">2001/05</span>〈閩南語有標元音的崩潰與介音的消長<span class="source">台北，國立政治大學：第七屆國際聲韻學學術研討會論文。</span>
+- <span class="date">2000/10</span>〈閩南語會話教學網路化<span class="source">桃園，元智大學中國語文系：The Fourth International Conference on Multi-media Language Education, ROCMELIA, October, 2000。</span>
+- <span class="date">2000/05/20</span>〈古漢語人稱代詞的演變與格變化<span class="source">台北，輔仁大學：第十八屆聲韻學學術研討會論文。</span>
+- <span class="date">2000/05/05</span>〈台北愛悅情歌<span class="source">桃園，元智大學中國語文系：海峽兩岸民間文學研討會論文</span>
+- <span class="date">2000/03/25</span>〈中文拼音應以優選論方式選定<span class="source">中央研究院語言學研究所籌備處：漢字拼音系統研討會論文。</span>
+- <span class="date">1999/07</span>〈漢語複數形式的類型與衍化<span class="source">福州，福州師範大學：中國語言學會第十屆學術年會暨國際中國語文研究會論文。</span>
+- <span class="date">1999/06</span>〈漢語、閩南語的鼻音音節類型<span class="source">香港，香港科技大學：第六屆閩方言國際研討會論文。</span>
+- <span class="date">1999/05</span>〈漢語送氣音與鼻音衍化的動機與類型<span class="source">台北，台灣大學：第六屆國際暨第十七屆中華民國聲韻學學術研討會論文。</span>
+- <span class="date">1998/10</span>〈漢語送氣音與鼻音衍化的限制與策略<span class="source">瑞典，Lunds大學：第31屆漢藏語國際研討會論文。</span>
+- <span class="date">1998/03</span>〈閩南語音系衍化類型<span class="source">彰化，國立彰化師範大學：第十六屆全國聲韻學學術研討會論文。</span>
+- <span class="date">1997/06/06</span>〈1997台灣公共場所使用語言調查<span class="source">新竹，國立新竹師範學院：台灣語言發展學術研討會論文。</span>
+- <span class="date">1997/06</span>〈台灣話虛實語素在不同詞彙結構位置中的音長<span class="source">台北，國立台灣師範大學：1997全國英美文學、語言學論文研討會論文。</span>
+- <span class="date">1997/02</span>〈閩南語濁音與鼻音的互補分佈<span class="source">泉州，華僑大學：第五屆閩方言研討會論文。</span>
+- <span class="date">1996/06</span>〈從閩南語聲母的鼻化、去鼻化看漢語的音節類型<span class="source">新竹，國立新竹師範學院：第十四屆全國聲韻學學術研討會論文。</span>
+- <span class="date">1995/11</span>〈台文文學个分類與分期<span class="source">台北，淡水工商管理學院：慶祝建校30周年台灣文學研討會論文。</span>
+- <span class="date">1995/06</span>〈閩南語輕聲及其語法、語用關係<span class="source">台北，國立台灣大學：第二屆台灣語言國際研討會論文。</span>
+- <span class="date">1994/12/10</span>〈台灣的語言戰爭及戰略分析<span class="source">台北，國立師範大學：第一屆台灣本土文化學術研討會論文。</span>
+- <span class="date">1994/05</span>〈小川尚義與高本漢漢語語音研究的比較（節要）<span class="source">新竹，國立清華大學：第十二屆中華民國聲韻學學術研究會論文。</span>
+- <span class="date">1993/10/21</span>〈現代斗六方言與黃有實《台灣十五音辭典》及《十五音》音系比較<span class="source">台北，國立中央圖書館台灣分館：台灣分館館藏與台灣史研究研討會論文。</span>
+- <span class="date">1993/03/27</span>〈廈門音開合對調(flip-flop)的歷史原因<span class="source">台北，國立師範大學：第一屆台灣語言國際研討會論文。</span>
+- <span class="date">1993/01</span>〈大牛椆方言—台灣客語區內一個來自惠州的漳州方言島<span class="source">香港，中文大學：第三屆閩方言研討會論文。</span>
+- <span class="date">1990/08/09</span>〈《彙音妙悟》的音讀—二百年前的泉州音系<span class="source">汕頭，汕頭大學：第二屆閩方言研討會論文。

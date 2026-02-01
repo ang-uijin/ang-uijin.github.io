@@ -402,6 +402,19 @@ body {
   font-size: 17px;
 }
 
+/* 列表頁日期和來源樣式 */
+.content-section .date {
+  color: #888;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.content-section .source {
+  color: #888;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
 .content-section strong {
   font-weight: 700;
   color: #222;
@@ -421,6 +434,148 @@ body {
   color: #666;
   font-size: 14px;
   border-top: 1px solid #ddd;
+}
+
+/* Photo gallery styles */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.photo-item {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.photo-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.photo-item a {
+  display: block;
+}
+
+.photo-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  border-radius: 0;
+}
+
+.photo-caption {
+  padding: 15px;
+}
+
+.photo-caption strong {
+  display: block;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.photo-caption p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Course tabs styles (for /teach/ page) */
+.course-container {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.course-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.course-tab {
+  padding: 10px 16px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  transition: all 0.2s ease;
+}
+
+.course-tab:hover {
+  background: #e8e8e8;
+  color: #333;
+}
+
+.course-tab.active {
+  background: #2c5282;
+  color: #fff;
+  border-color: #2c5282;
+}
+
+.course-content {
+  display: none;
+  padding: 20px 0 0 0;
+}
+
+.course-content.active {
+  display: block;
+}
+
+.course-content h3 {
+  font-size: 22px;
+  color: #2c5282;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #2c5282;
+}
+
+.course-content h4 {
+  font-size: 17px;
+  color: #444;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.course-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-content ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.course-content ul li:last-child {
+  border-bottom: none;
+}
+
+.course-content ul li a {
+  color: #2c5282;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.course-content ul li a:hover {
+  color: #29998e;
+  text-decoration: underline;
 }
 
 /* Responsive design */

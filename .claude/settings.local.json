@@ -4,7 +4,11 @@
       "Bash(winget install:*)",
       "Bash(hugo version:*)",
       "Bash(choco install:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(git config:*)",
+      "WebFetch(domain:uijin.idv.tw)",
+      "Bash(hugo:*)",
+      "Bash(ls:*)"
     ]
   }
 }

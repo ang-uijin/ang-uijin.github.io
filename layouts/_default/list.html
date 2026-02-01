@@ -1,0 +1,63 @@
+{{ define "main" }}
+{{ $section := .Section }}
+{{ $hasSubnav := false }}
+{{ $subnavTitle := "" }}
+{{ $subnavItems := slice }}
+
+{{/* Define section navigation for list pages */}}
+{{ if in (slice "bio" "media" "preface" "history" "photo" "gallery") $section }}
+  {{ $hasSubnav = true }}
+  {{ $subnavTitle = "我是啥人" }}
+  {{ $subnavItems = slice
+    (dict "url" "/aboutme/" "title" "簡介")
+    (dict "url" "/bio/" "title" "傳記與年表")
+    (dict "url" "/media/" "title" "受訪與報導")
+    (dict "url" "/preface/" "title" "著作序")
+    (dict "url" "/history/" "title" "參與歷史事件")
+    (dict "url" "/photo/" "title" "寫真館")
+    (dict "url" "/gallery/" "title" "作品集")
+    (dict "url" "https://www.facebook.com/uijin.ang" "title" "花思木" "external" true)
+    (dict "url" "/contact_us/" "title" "聯絡我")
+  }}
+{{ else if in (slice "paper" "plan" "colloquium") $section }}
+  {{ $hasSubnav = true }}
+  {{ $subnavTitle = "論文" }}
+  {{ $subnavItems = slice
+    (dict "url" "/paper/" "title" "學術論文")
+    (dict "url" "/plan/" "title" "研究計畫報告")
+    (dict "url" "/colloquium/" "title" "研討會論文")
+  }}
+{{ else if in (slice "book" "write" "translate" "publish") $section }}
+  {{ $hasSubnav = true }}
+  {{ $subnavTitle = "著書" }}
+  {{ $subnavItems = slice
+    (dict "url" "/book/" "title" "專書")
+    (dict "url" "/write/" "title" "編著")
+    (dict "url" "/translate/" "title" "翻譯")
+    (dict "url" "/publish/" "title" "治言齋書肆")
+  }}
+{{ end }}
+
+{{/* Render section navigation if applicable */}}
+{{ if $hasSubnav }}
+<div class="section-nav">
+  <div class="section-nav-title">{{ $subnavTitle }}</div>
+  <ul class="section-nav-menu">
+    {{ range $subnavItems }}
+      <li>
+        <a href="{{ .url }}" {{ if .external }}target="_blank" rel="noopener"{{ end }} {{ if eq $.RelPermalink .url }}class="active"{{ end }}>
+          {{ .title }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+
+<main class="main-content">
+  <article class="content-section">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+</main>
+{{ end }}

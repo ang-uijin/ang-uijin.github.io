@@ -40,4 +40,27 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+  // Course tabs functionality (for /teach/ page)
+  const courseTabs = document.querySelectorAll('.course-tab');
+  const courseContents = document.querySelectorAll('.course-content');
+
+  if (courseTabs.length > 0) {
+    courseTabs.forEach(tab => {
+      tab.addEventListener('click', function() {
+        const courseId = this.getAttribute('data-course');
+
+        // Remove active class from all tabs and contents
+        courseTabs.forEach(t => t.classList.remove('active'));
+        courseContents.forEach(c => c.classList.remove('active'));
+
+        // Add active class to clicked tab and corresponding content
+        this.classList.add('active');
+        const targetContent = document.getElementById(courseId);
+        if (targetContent) {
+          targetContent.classList.add('active');
+        }
+      });
+    });
+  }
 });
