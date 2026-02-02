@@ -8,7 +8,12 @@
       "Bash(git config:*)",
       "WebFetch(domain:uijin.idv.tw)",
       "Bash(hugo:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "WebSearch",
+      "WebFetch(domain:pascalmichaillat.org)",
+      "WebFetch(domain:www.founderjar.com)",
+      "Bash(taskkill:*)",
+      "Bash(node --check:*)"
     ]
   }
 }

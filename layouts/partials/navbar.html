@@ -3,6 +3,13 @@
     <a href="/"><img src="/images/biglogo.png" alt="{{ .Site.Title }}"></a>
   </div>
 
+  <!-- 漢堡選單按鈕（行動裝置） -->
+  <button class="navbar-toggle" aria-label="開啟選單" aria-expanded="false">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
+
   <ul class="navbar-menu">
     <!-- 我是啥人 dropdown -->
     <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/aboutme/") (hasPrefix .RelPermalink "/bio/") (hasPrefix .RelPermalink "/media/") (hasPrefix .RelPermalink "/preface/") (hasPrefix .RelPermalink "/history/") (hasPrefix .RelPermalink "/photo/") (hasPrefix .RelPermalink "/gallery/") (hasPrefix .RelPermalink "/contact_us/") }}active{{ end }}">
