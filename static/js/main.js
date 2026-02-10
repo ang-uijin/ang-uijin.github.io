@@ -102,6 +102,66 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  // Lightbox 燈箱功能 (for /photo/ page)
+  const lightboxTriggers = document.querySelectorAll('.lightbox-trigger');
+
+  if (lightboxTriggers.length > 0) {
+    // 建立 lightbox overlay
+    const overlay = document.createElement('div');
+    overlay.className = 'lightbox-overlay';
+    overlay.innerHTML = `
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="關閉">&times;</button>
+        <img src="" alt="">
+        <div class="lightbox-caption"></div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+
+    const lightboxImg = overlay.querySelector('img');
+    const lightboxCaption = overlay.querySelector('.lightbox-caption');
+    const closeBtn = overlay.querySelector('.lightbox-close');
+
+    // 點擊照片開啟 lightbox
+    lightboxTriggers.forEach(trigger => {
+      trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        const imgSrc = this.getAttribute('href');
+        const caption = this.closest('.photo-item').querySelector('.photo-caption strong');
+
+        lightboxImg.src = imgSrc;
+        lightboxImg.alt = caption ? caption.textContent : '';
+        lightboxCaption.textContent = caption ? caption.textContent : '';
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    // 關閉 lightbox
+    function closeLightbox() {
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    closeBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      closeLightbox();
+    });
+
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) {
+        closeLightbox();
+      }
+    });
+
+    // ESC 鍵關閉
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && overlay.classList.contains('active')) {
+        closeLightbox();
+      }
+    });
+  }
+
   // Course tabs functionality (for /teach/ page)
   const courseTabs = document.querySelectorAll('.course-tab');
   const courseContents = document.querySelectorAll('.course-content');
