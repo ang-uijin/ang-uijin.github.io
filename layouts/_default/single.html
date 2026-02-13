@@ -5,7 +5,7 @@
 {{ $subnavItems := slice }}
 
 {{/* Define section navigation for specific pages */}}
-{{ if eq .File.Path "aboutme.md" }}
+{{ if or (eq .File.Path "aboutme.md") (eq .File.Path "contact_us.md") }}
   {{ $hasSubnav = true }}
   {{ $subnavTitle = "我是啥人" }}
   {{ $subnavItems = slice

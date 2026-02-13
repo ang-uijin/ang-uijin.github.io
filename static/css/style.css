@@ -20,7 +20,7 @@
   --color-accent-gold: #B8860B;     /* 古金色 - 標題 */
   --color-accent-link: #A0522D;     /* 赭石色 - 連結 */
   --color-accent-hover: #CD853F;    /* 秘魯色 - 懸停 */
-  --color-accent-active: #29998E;   /* 青綠色 - 活躍狀態 */
+  --color-accent-active: #722F37;   /* 酒紅色 - 活躍狀態 */
 
   /* 邊框和陰影 */
   --color-border: #E5DED5;
@@ -914,6 +914,67 @@ body {
 .btn-outline:hover {
   background: var(--color-accent-primary);
   color: white;
+}
+
+/* ===================================
+   聯絡我
+   =================================== */
+.contact-section {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding: 40px 20px;
+}
+
+.contact-section .contact-image {
+  max-width: 200px;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+}
+
+.contact-section .contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-section .contact-greeting {
+  font-size: 28px;
+  font-family: var(--font-serif);
+  color: var(--color-text-primary);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.contact-section .contact-email {
+  font-size: 20px;
+  color: var(--color-text-secondary);
+  font-family: var(--font-sans);
+  margin-bottom: 24px;
+}
+
+.contact-section .contact-btn {
+  display: inline-block;
+  padding: 12px 32px;
+  background: var(--color-accent-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-bottom: none;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-section .contact-btn:hover {
+  background: var(--color-accent-gold);
+  color: white;
+  border-bottom: none;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 /* ===================================
