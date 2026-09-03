@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main class="main-content" data-pagefind-body>
+  <article class="content-section post">
+    <h1>{{ .Title }}</h1>
+    <p class="post-meta">
+      <span class="date">{{ with .Params.dateText }}{{ . }}{{ else }}{{ .Date.Format "2006/01/02" }}{{ end }}</span>
+      {{ with .Params.source }}<span class="source">{{ . }}</span>{{ end }}
+    </p>
+    {{ .Content }}
+    {{ with .Params.link }}<p><a href="{{ . }}" target="_blank" rel="noopener">原始貼文</a></p>{{ end }}
+    <p class="post-back"><a href="{{ .Parent.RelPermalink }}">← 回{{ .Parent.Title }}</a></p>
+  </article>
+</main>
+{{ end }}

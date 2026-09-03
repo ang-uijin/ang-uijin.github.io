@@ -1324,6 +1324,95 @@ body {
 }
 
 /* ===================================
+   最新動態（部落格列表與單篇）
+   =================================== */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-item {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-item .date {
+  margin-right: 10px;
+}
+
+.post-item > a {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.post-summary {
+  margin: 6px 0 0;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+}
+
+.post-meta {
+  margin-top: -10px;
+  margin-bottom: 24px;
+}
+
+.post-back {
+  margin-top: 36px;
+}
+
+.course-empty {
+  color: var(--color-text-muted);
+}
+
+/* ===================================
+   搜尋頁
+   =================================== */
+.search-page {
+  --pagefind-ui-primary: var(--color-accent-primary);
+  --pagefind-ui-text: var(--color-text-primary);
+  --pagefind-ui-background: var(--color-bg-card);
+  --pagefind-ui-border: var(--color-border);
+  --pagefind-ui-tag: var(--color-bg-secondary);
+  --pagefind-ui-border-radius: 6px;
+  --pagefind-ui-font: var(--font-sans);
+}
+
+.search-suggest {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.search-suggest-label {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.search-suggest button {
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-suggest button:hover {
+  border-color: var(--color-accent-primary);
+  color: var(--color-accent-primary);
+}
+
+/* ===================================
    列印樣式
    =================================== */
 @media print {
