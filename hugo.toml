@@ -4,6 +4,7 @@ title = '治言齋'
 defaultContentLanguage = 'zh-tw'
 hasCJKLanguage = true
 enableRobotsTXT = true
+timeZone = 'Asia/Taipei'
 
 [params]
   description = '洪惟仁教授個人網站'
