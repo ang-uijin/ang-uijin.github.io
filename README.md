@@ -28,17 +28,8 @@ static/js       前端腳本（輪播、選單、燈箱、教學網站分頁）
 static/files    論文、講義等 PDF
 static/images   照片與圖片
 static/song     民間歌謠教學研究網（2004 年建置的靜態站，原樣保存）
-static/admin    後台（Sveltia CMS）
 hugo.toml       網站設定與選單
 ```
-
-## 內容管理
-
-網站內容可在 `/admin/` 以 [Sveltia CMS](https://github.com/sveltia/sveltia-cms) 編輯，登入需要具備此 repository 寫入權限的 GitHub 帳號。儲存後會自動 commit 並觸發部署。
-
-## 部署
-
-推送到 `main` 分支後，GitHub Actions（`.github/workflows/hugo.yml`）會建置網站並發佈到 GitHub Pages：https://ang-uijin.github.io/
 
 ## 版權
 
