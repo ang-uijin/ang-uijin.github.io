@@ -2,6 +2,7 @@ backend:
   name: github
   repo: ang-uijin/ang-uijin.github.io
   branch: main
+  base_url: https://sveltia-cms-auth.tesiniong.workers.dev
 
 media_folder: "static/images"
 public_folder: "/images"
