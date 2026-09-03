@@ -1,0 +1,202 @@
+.a {
+	font-size: 15px;
+	color: #000000;
+}
+.b {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	font-variant: normal;
+}
+.titel {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #996633;
+}
+.b2 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+
+}
+.titel2 {
+	
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.a2 {
+	font-size: 16px;
+}
+a:visited {
+    font-size: 16px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+
+}
+a:hover {
+	font-weight: bold;
+	color: #333333;
+	border-bottom:1px #000 solid; padding-bottom:1px;
+     background:rgba(255,255,255,0.5);
+    transition: all 0.3s ease-in-out;
+
+}
+a:active {
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+
+}
+a:link {
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+    }
+.personname {
+
+	font-size: 16px;
+}
+.name {
+
+	font-size: 16px;
+	font-weight: normal;
+	font-variant: normal;
+}
+.big {
+	font-size: 40px;
+	color: #000000;
+	font-weight: bold;
+
+}
+
+/*td {
+    padding:20px;
+}
+*/
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.wrapper {
+    margin: 10px;
+  display: grid;
+  grid-template-columns: 260px 260px;
+}
+
+.col {
+  height: 100%;
+}
+
+div[class*="container"] {
+  text-align: center;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+ BUTTON STYLING
+*/
+
+.btn {
+    text-align: center;
+  position: relative;
+  color: white;
+  width: 256px;
+  height: 64px;
+  line-height: 64px;
+  transition: all 0.3s;
+  span {
+    transition: all 0.3s;
+    tranform: scale(1, 1);
+  }
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.btn-one::before {
+  left: 4px;
+  z-index: 1;
+
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(0.1, 1);
+}
+
+.btn-one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.btn-one::after {
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-one:hover::after {
+  transform: scale(1, 0.1);
+  opacity: 0;
+}
+
+/* BTN TWO */
+.btn-two::before,
+.btn-two::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}

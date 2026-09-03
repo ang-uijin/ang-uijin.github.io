@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body style="margin: 10px;background: #CC9999 ; max-width: 800px">
+
+ <h2>◎ 什麼是歌謠</h2>　
+
+ 
+    <div class="tab">
+  <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'infor1')">壹、兩種不同的文學</button>
+  <button class="tablinks" onclick="openCity(event, 'infor2')">貳、摻入商業性的文學</button>
+  <button class="tablinks" onclick="openCity(event, 'infor3')">參、添加音樂性的文學</button>
+ <button class="tablinks" onclick="openCity(event, 'infor4')">肆、「歌謠」的定性</button>
+</div>
+
+<div id="infor1" class="tabcontent">
+  <h3>壹、兩種不同的文學</h3>
+  <table border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td class="a2">一般學者認為文學創作分為二大類，一是作家文學，一是民間文學。這兩種文學有本質上的差異。主要以創作者的背景身份區分，作家文學通常是識字的知識階層，而民間文學主要是不識字的一般庶民。<br>
+      由創作者的背景的不同衍生了兩大類不同性質的文學。因為作家多半是識字的文人，因此作家文學的作者通常只有一人，但民間文學則是社區集體的創作，作者是整個社區的參與者；作家是用文字作為創作媒體，一般庶民不識字，只能用口傳的方式創作。作家文學寫出來的作品是書面語，可以流傳久遠，影響的時間和空間可能很大，創作的作品通常都有具名，因此作家通常相當愛惜羽毛，創作比較嚴謹，不輕易發表作品，作品一發表就成定本，作家通常不希望自己的作品被人輕易修改，著作權意識較強；民間文學當然也有創作者，但民間文學的作品一出聲便消失，只能記憶在聽眾的心裡，好的作品可望繼續流傳，但是人的記憶力有限，沒有一個人能夠像錄音機一樣把聽到別人說過的、甚至自己說過的，一字不漏地重新播放出來，因此在流傳的過程中，原始作品被改編、重編是不可避免的，也因此民間文學作品幾乎沒有定本，篇章越長異文越多。民間文學的作者也不計較自己的創作被人輕易修改。<br>
+      因為作家使用的創作媒體是文字，而通常有文字的語言都是一個國家的標準語或共通語，即使是方言文學也傾向於這個方言的共通形式；一般庶民只能用自己的方言說故事、唸謠、唱歌等，所以方言性很強，民間文學和方言學是分不開的。作家文學傳播的方式是單向的，有不定在的聽眾；民間文學是口語文學，傳播的方式是雙向的，展演的內容常受現場氣氛與聽眾反應的影響而變化。這也是作家文學多定本而民間文學多異文的緣故。</td>
+  </tr>
+</table>
+<p class="a2"><br>
+  茲將上述兩種文學的性質列表比較如下：<br>
+  (1.1) 作家文學與民間文學性質比較表</p>
+<table width="100%" border="1">
+  <tr> 
+    <td width="25%">&nbsp;</td>
+    <td width="39%">作家文學</td>
+    <td width="36%">民間文學</td>
+  </tr>
+  <tr> 
+    <td>創作者身份 </td>
+    <td>知識階層</td>
+    <td>不定數的一般庶民</td>
+  </tr>
+  <tr> 
+    <td>創作者人數 </td>
+    <td>作家個人 </td>
+    <td>社區集體</td>
+  </tr>
+  <tr> 
+    <td>創作媒體</td>
+    <td> 文字</td>
+    <td>口傳</td>
+  </tr>
+  <tr> 
+    <td>著作權意識</td>
+    <td>有</td>
+    <td>無</td>
+  </tr>
+  <tr> 
+    <td>創作量 </td>
+    <td>少</td>
+    <td>大</td>
+  </tr>
+  <tr> 
+    <td>傳播方式</td>
+    <td>單向傳播</td>
+    <td>雙向</td>
+  </tr>
+  <tr> 
+    <td>版本</td>
+    <td>通常寫定即成定本</td>
+    <td>隨時空、個人變化而有異文</td>
+  </tr>
+  <tr> 
+    <td>語言</td>
+    <td>通常是標準語或共通語</td>
+    <td>方言 </td>
+  </tr>
+</table>
+</div>
+
+<div id="infor2" class="tabcontent">
+  <h3>貳、摻入商業性的文學</h3>
+  <p>在作家文學和民間文學的兩個極端中間有一個廣大的灰色地帶，就是不純的民間文學或作家文學。我們可以按照上述的分類標準，把這個灰色地帶分為「俗文學」和「大眾文學」。所以有這兩種文學，最重要的原因是商業性的摻入。<br>
+  純粹的民間文學只是自娛、娛人或為教育、禮儀的目的而流傳，純粹的作家文學或稱為「純文學」原則上是作家為了實現自我、發抒心情或交際唱和而作，創作的基本動機都沒有摻入商業的目的。但無論是民間文學和作家文學的作品都可以達到自娛、娛人的目的，因而也容易被商品化。<br>
+  作家創作作品被商品化時，創作者不只要考慮作品的藝術性，更重要的是必須考慮作品的銷路，為了銷路有時也不得不犧牲藝術性，這樣創作出來的作品就變成了「大眾文學」，如武俠小說、言情小說屬於這一類。<br>
+  民間文學如果摻入商業目的就變成了「俗文學」，如說書、說唱、鼓詞、戲劇等。商品化的「俗文學」通常會加入音樂、戲劇的成分而成多媒體創作，並且篇幅比較長。<br>
+  俗文學和大眾文學的差別是俗文學較多民間文學的性質，而大眾文學較多作家文學的性質。比如說唱與流行歌是台灣最重要的兩種商業性歌曲，但流行歌是有版權的，流行歌屬於大眾文學的一種，流行歌作者創作短短的一首歌曲，可以賺數千、數萬的版稅，流行歌有定本，不能隨便改動字句，每一個人的歌詞都一樣；但說唱往往是即興的，說書、說唱屬於俗文學的一種，講古師傅或走唱的歌手許多是盲人或不識字的文盲，雖然有的是根據所謂「古冊」(講本)或「歌仔冊」(唱本)，但是實際講古或演唱通常不會完全根據原本，時常會改動內容、字句，每一個人唱的都不一樣，每一次唱的也不一樣，異文很多，表現了民間文學的本質。<br>
+  由民間文學而俗文學而大眾文學到純文學可以說是一個連續體，兩個極端比較容易分別，但是中間的小類之間有時界線相當模糊，不易區分。有些人分不清楚「歌謠」和「流行歌」的分別，往往把台語流行歌、台語說唱都當成是「台灣歌謠」，其實它們各自屬於不同類的文學。<br>
+  文人通常喜歡自栩其作品最具藝術性，為了區隔其他的文學，他們往往把文人創作的文學稱為「純文學」、把文人創作的歌曲稱為「藝術歌曲」、非票房取向的電影叫做「藝術電影」，好像只有文人創作的作品才是藝術，其他的都不是藝術。其實這是一種偏見，各種不同的文學都是藝術作品，都具有藝術性。藝術性當然也可以評比，創作的嚴肅性、創作的動機、藝術的性質……都可以作為評比的標準，但不是單一的標準。
+  </p>
+
+
+</div>
+
+<div id="infor3" class="tabcontent">
+  <h3>參、添加音樂性的文學</h3>
+    <p>純粹的語言或文字所創作的文學作品也可以加上其他的藝術成分，作家文學，如詩詞加上音樂成分所展演出來的就是所謂「詩詞吟唱」，進一步編成「歌曲」；民間文學散文體的故事如神話、傳說、故事等通常是沒有音樂成分的，但韻文體就添加了音樂性了，可以分為「民謠」和「民歌」兩種，合稱為「歌謠」。<br>
+  音樂的成分主要有兩種：節奏與旋律，添加的成分不同，構成不同的文學展演形式。作家文學的朗讀和民間文學中的散文體展演既沒有節奏也沒有旋律；但「民謠」只有節奏而沒有旋律，「詩吟」則相反，只有旋律而沒有節奏；至於「民歌」和「流行歌」等所有的「歌唱」都是兼有節奏和旋律的。如果以節奏和旋律作為添加材料來區分，其區別可以作成下表：<br>
+  (1.2)</p>
+  <table width="100%" border="1">
+  <tr> 
+    <td width="14%">&nbsp;</td>
+    <td width="24%"><div align="center">講古/朗讀 </div></td>
+    <td width="19%"><div align="center">詩吟 </div></td>
+    <td width="20%"><div align="center">唸謠 </div></td>
+    <td width="23%"><div align="center">歌唱</div></td>
+  </tr>
+  <tr> 
+    <td>節奏</td>
+    <td><div align="center" style="font-size: 30px">-</div></td>
+    <td><div align="center" style="font-size: 30px">-</div></td>
+    <td><div align="center" style="font-size: 30px">+</div></td>
+    <td><div align="center" style="font-size: 30px">+</div></td>
+  </tr>
+  <tr> 
+    <td>旋律</td>
+    <td><div align="center" style="font-size: 30px">-</div></td>
+    <td><div align="center" style="font-size: 30px">+</div></td>
+    <td><div align="center" style="font-size: 30px">-</div></td>
+    <td><div align="center" style="font-size: 30px">+</div></td>
+  </tr>
+</table>
+<p>坊間出現了一些所謂「古詩吟唱」的商品，細聽其音樂，既有節奏，又有旋律，這只是「唱」而不是「吟」，真正的「吟」是沒有節奏的；有人說「謠」沒有音樂性，而「歌」有旋律性，這個看法不完全正確。觀上表可知，只有講古及朗讀才完全不具音樂性，「謠」只是沒有旋律性，但還有節奏性，而「歌」則節奏與旋律兼具。另外有一種小類，節奏或旋律都非常簡單的，叫做「吟誦」，可以視為歌唱下的一個小類。唸經或古文吟誦屬於這一類。
+</p>
+</div>
+    
+    
+    <div id="infor4" class="tabcontent">
+  <h3>肆、「歌謠」的定性</h3>
+        <p>依前述的分析，我們可以把所謂的「歌謠」定性為：</p>
+<p>1) 是民間文學而不是作家文學；<br>
+  2) 是不具商業性的民間文學；<br>
+  3) 是添加音樂性的民間文學。</p>
+<p>在這個定義下，所謂「台灣歌謠」限定為台灣的「民間歌謠」，它是民間文學，所以不包括所謂的「說唱」或「唸歌仔」，也不包括添加戲劇性的「歌仔戲」，當然更不包括「台語流行歌」在內。本文把「台灣歌謠」分為「民謠」和「民歌」兩種。民謠最主要的是「台灣童謠」、「台灣童謎」，童謎可以不具節奏性，即使有，節奏性也較低，但童謠的節奏性很強。台北的「民歌」主要是相褒歌，相當於客家的山歌，但相褒歌的音樂比較簡單、朴拙，客家山歌比較複雜、花俏，有點像閩南語的「唸歌仔」。本文的研究限定在閩南語的「歌謠」。</p>
+    </div>
+    
+    
+    <h2>◎ 台北的民間歌謠</h2>　<p>撰文：洪惟仁　(2004)　《<a href="pdf/台北的民間歌謠.pdf"><font color="#000066">下載全文</font></a>》</p> 
+<p><strong>第一節　台北地區的歌謠文獻及其利用</strong>　<a href="#top"><img src="images/gotop.gif" width="15" height="15" border="0"></a></p>
+　　　壹、民間歌謠的文獻<br>
+　　　　　(一) 採集時地與發音人背景的紀錄<br>
+　　　　　(二) 注音、譯註與說明<br>
+　　　貳、台北地區的歌謠採集<br>
+　　　參、台北歌謠文獻資料的利用<br>
+　　　　　一、 歌謠產地的考證<br>
+　　　　　二、 歌謠產生時代的考證<br>
+
+<p><strong>第二節　台北的民謠</strong>　<a href="#top"><img src="images/gotop.gif" width="15" height="15" border="0"></a></p>
+　　　壹、民謠的分類<br>
+　　　貳、母謠<br>
+　　　　　一、育囝歌<br>
+　　　　　二、教囝歌<br>
+　　　　　三、急口令<br>
+　　　　　四、謎猜<br>
+　　　參、小兒謠<br>
+　　　　　一、玩韻謠<br>
+　　　　　二、遊戲謠<br>
+　　　肆、成人謠<br>
+　　　　　一、儀式謠<br>
+　　　　　二、諷世謠<br>
+<p><strong>第三節　台北的民歌　<a href="#top"><img src="images/gotop.gif" width="15" height="15" border="0"></a></strong></p>
+     壹、歌謠的分類<br>
+　　　貳、雜唸仔<br>
+　　　參、認識台北的褒歌<br>
+　　　　　一、台北茶業的發展與褒歌的流行<br>
+　　　　　二、褒歌的格律<br>
+　　　　　三、褒歌的方言<br>
+　　　　　四、褒歌的音樂<br>
+　　　肆、閑仔歌<br>
+　　　　　一、雜歌<br>
+　　　　　二、苦戀情歌<br>
+　　　　　三、愛悅情歌<br>
+　　　　　伍、相褒歌<br>
+
+
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
