@@ -45,7 +45,7 @@ date: 2025-01-01
 - <span class="date">2004/12</span>[〈變化中的台灣話—真實時間的比較〉](/files/paper/2004變化中的台灣話─真實時間的比較.pdf) <span class="source">載《漢藏語研究：龔煌城先生七秩壽慶論文集》。中央研究院語言研究所《語言暨語言學》專刊外編之四，pp.851~886。</span>
 - <span class="date">2004</span>[〈變化中的汐止音：一個台灣社會方言學的個案研究〉](/files/paper/2004變化中的汐止音.pdf) <span class="source">學生書局《聲韻論叢》13: 219-250.</span>
 - <span class="date">2004</span>[〈世紀初桃園語言社會學調查報告〉](/files/paper/2004世紀初桃園語言社會學調查報告.pdf) <span class="source">《台灣語文研究》2:99-124</span>
-- <span class="date">2003/06</span>《音變的動機與方向：漳泉競爭與台灣普通腔的形成》 <span class="source">(The Motivation and Direction of Sound Change: On the Competition of Minnan Dialects Chang-chou and Chüan-chou, and the Emergence of General Taiwanese)，國立清華大學博士論文</span>
+- <span class="date">2003/06</span>[《音變的動機與方向：漳泉競爭與台灣普通腔的形成》](/files/paper/2003音變的動機與方向：漳泉競爭與台灣普通腔的形成（修正版）.pdf) <span class="source">(The Motivation and Direction of Sound Change: On the Competition of Minnan Dialects Chang-chou and Chüan-chou, and the Emergence of General Taiwanese)，國立清華大學博士論文</span>
 - <span class="date">2003/01</span>[〈桃園大牛椆方言的形成與發展──發祥地的追溯與語言層次、共時演變的分析〉](/files/paper/2003.1JTLL-1大牛椆的形成與發展.pdf) <span class="source">《台灣語文研究》1.1:25-67。</span>
 - <span class="date">2003</span>[〈台灣泉州腔央元音的崩潰與語音標記性〉](/files/paper/2003台灣泉州腔央元音的崩潰（中國社會語言學）.pdf) <span class="source">北京，《中國社會語言學》創刊號pp，34~56。</span>
 - <span class="date">2002</span>[〈台灣的語言政策如何規畫〉](/files/paper/2007台灣的語言政策如何規畫.pdf) <span class="source">載施正鋒編《各國語言政策—多元文化與族群平等》前衛出版社。</span>
@@ -139,7 +139,7 @@ date: 2025-01-01
 - <span class="date">2007/01</span>〈台灣閩南語羅馬字拼音方案的優點在那裏？〉 <span class="source">《台灣文學館通訊》14:50-53。修正版上傳洪惟仁主編網站《台灣閩南語羅馬字拼音方案及其發音學習網》「參考資料」。</span>
 - <span class="date">2001/08</span>〈中文拼音應恢復威妥瑪式〉 <span class="source">中央研究院語言研究所籌備處出版，李壬癸主編《漢語拼音討論集》pp. 171~172。</span>
 - <span class="date">2001/08</span>(與連金發等合著)〈通用拼音？中國通用？世界通用？〉 <span class="source">中央研究院語言研究所籌備處出版，李壬癸主編《漢語拼音討論集》pp. 183~185。</span>
-- <span class="date">1996/05</span>〈論閩南語教材的書寫問題〉 <span class="source">載《教育部八十年度獎助鄉土語言研究著作得獎作品論文集》pp.1~10。</span>
+- <span class="date">1996/05</span>[〈論閩南語教材的書寫問題〉](/files/paper/1996論閩南語教材的書寫問題.pdf) <span class="source">載《教育部八十年度獎助鄉土語言研究著作得獎作品論文集》pp.1~10。</span>
 - <span class="date">1995/02</span>〈論閩南語母語教育的書寫問題〉 <span class="source">曹逢甫、蔡美慧編《台灣閩南語論文集》pp. 319~336，文鶴出版公司。1</span>
 - <span class="date">1992/02</span>〈鶴佬語語源學概論〉 <span class="source">收入《台語文學與台語文字》pp.197~255。</span>
 - <span class="date">1990/08</span>〈《雉雞若啼》字解〉 <span class="source">載《雉雞若啼—黃勁連台語歌詩選》pp. 1~40，台南：台笠出版社。</span>
@@ -147,22 +147,22 @@ date: 2025-01-01
 
 ### 文學研究
 
-- <span class="date">2020</span>〈台北褒歌个情歌〉 <span class="source">《臺江台語文學》36:215-230</span>
+- <span class="date">2020</span>[〈台北褒歌个情歌〉](/files/paper/2020台北褒歌个情歌.pdf) <span class="source">《臺江台語文學》36:215-230</span>
 - <span class="date">2020</span>[〈黃勁連先生个台語文學思想佮實踐〉](/files/paper/黃勁連先生个台語文學思想佮實踐-洪惟仁-海翁台語文學-217期-頁5-15-2020.01.pdf) <span class="source">《海翁台語文學》217:5-15</span>
-- <span class="date">2020</span>〈黃勁連先生个台語貢獻〉 <span class="source">《臺江》，33:216-234</span>
+- <span class="date">2020</span>[〈黃勁連先生个台語貢獻〉](/files/paper/2020黃勁連先生个台語貢獻.pdf) <span class="source">《臺江》，33:216-234</span>
 - <span class="date">2010</span>[〈台語文學个分類與分期（上）：自開台至1995年〉](/files/paper/台語文學个分類與分期（上）（自開台至1995年）-洪惟仁-海翁台語文學-101期-頁4-22-2010.05.pdf) <span class="source">《海翁台語文學》101:4-22。</span>
 - <span class="date">2010</span>[〈台語文學个分類與分期（下）：自開台至1995年〉](/files/paper/台語文學个分類與分期（下）（自開台至1995年）-洪惟仁-海翁台語文學-102期-頁4-35-2010.06.pdf) <span class="source">《海翁台語文學》102:4-35。</span>
 - <span class="date">2009</span>〈台灣語言學與台灣文學研究〉 <span class="source">國立中興大學台灣文學研究所：《跨越疆界‧縱橫領域：台灣文學跨領域研究工作坊成果報告集》。</span>
 - <span class="date">2008</span>〈吟詩新論〉（上、下） <span class="source">載《國文天地》23.8(272):57~60（上）；23.9(273):56~65（65）。</span>
 - <span class="date">2007/11/25</span>[〈台語文學與台灣語言學研究〉](/files/paper/台語文學和台灣語言學研究.pdf) <span class="source">《第四屆台灣語言文學國際學術研討會論文集》pp.1-9，真理大學語文學院台灣語言學系。</span>
-- <span class="date">2005/06</span>〈祖先智慧的寶石：哲諺〉 <span class="source">載《國文天地》20.9(237):95~100。</span>
+- <span class="date">2005/06</span>[〈祖先智慧的寶石：哲諺〉](/files/paper/2005.2-〈祖先智慧的寶石──哲諺〉，《國文天地》20.9_95-100.pdf) <span class="source">載《國文天地》20.9(237):95~100。</span>
 - <span class="date">2004/10</span>[〈台北褒歌中的情歌〉](/files/paper/台北褒歌中的情歌.pdf) <span class="source">《傳統藝術雙月刊》47:6-9</span>
 - <span class="date">2001/10</span>[〈台北褒歌之美〉](/files/teach/taiwan-documents/台北褒歌之美.pdf) <span class="source">《傳統藝術雙月刊》15:14-17</span>
-- <span class="date">2000/05</span>〈台北愛悅情歌〉 <span class="source">「海峽兩岸民間文學研討會論文集」。元智大學中國語文系。</span>
+- <span class="date">2000/05</span>[〈台北愛悅情歌〉](/files/paper/2000台北愛悅情歌.pdf) <span class="source">「海峽兩岸民間文學研討會論文集」。元智大學中國語文系。</span>
 
 ### 教學研究
 
-- <span class="date">2004/12/01</span>〈中師台語系的成立與展望〉 <span class="source">《國文天地》20.7(235): 81~84。</span>
+- <span class="date">2004/12/01</span>[〈中師台語系的成立與展望〉](/files/paper/2004中師台語系的成立與展望.pdf) <span class="source">《國文天地》20.7(235): 81~84。</span>
 - <span class="date">2002/11/01</span>[〈母語教學的意義與方法〉](/files/paper/母語教學的意義與方法-洪惟仁-國文天地-210期-頁4-15-2002.11.pdf) <span class="source">《國文天地》210: 4-15。</span>
 - <span class="date">2000/10</span>[〈閩南語會話教學網路化〉](/files/paper/閩南語會話網路化.pdf) <span class="source">《第四屆國際電腦多媒體語文教學研討會論文集》(The Proceedings of the Fourth International Conference on Multimedia Language Education)， pp. 303~313。</span>
 - <span class="date">1998/05</span>[〈閩南語母語教材的編輯〉](/files/paper/閩南語母語教材的編輯.pdf) <span class="source">董忠司編《台灣語言及其教學國際研討會論文集論文集》pp. 453~474，新竹：全民書局。</span>
