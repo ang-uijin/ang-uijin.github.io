@@ -32,16 +32,12 @@ date: 2025-01-01
 <div class="course-content active" id="phonology">
   <h3>比較音韻學</h3>
 
-  <h4>教學大綱</h4>
-  <p>本課程教導學生有關現代共時音韻學、漢語歷史語音學的基本知識...</p>
-  <!-- 或連結 PDF: <a href="/files/teach/phonology/syllabus.pdf" target="_blank">教學大綱 (PDF)</a> -->
-
   <h4>講義教材</h4>
   <ul>
-    <li><a href="/files/teach/phonology/cover.pdf" target="_blank">講義封面</a></li>
-    <li><a href="/files/teach/phonology/lecture01.pdf" target="_blank">第一講　台灣閩南語源流與演變</a></li>
-    <li><a href="/files/teach/phonology/lecture02.pdf" target="_blank">第二講　...</a></li>
-    <!-- 依此格式繼續新增講義 -->
+    <li><a href="/files/teach/phonology/00比較音韻學講義封面.pdf" target="_blank">講義封面</a></li>
+    <li><a href="/files/teach/phonology/01第一講　比較音韻學綱要.pdf" target="_blank">第一講　比較音韻學綱要</a></li>
+    <li><a href="/files/teach/phonology/02第二講　閩南語的通變系統.pdf" target="_blank">第二講　閩南語的通變系統</a></li>
+    <li><a href="/files/teach/phonology/台灣閩南語方言字音類型表.pdf" target="_blank">台灣閩南語方言字音類型表</a></li>
   </ul>
 </div>
 
@@ -50,12 +46,22 @@ date: 2025-01-01
   <h3>漢語語音與音韻</h3>
 
   <h4>教學大綱</h4>
-  <p>課程說明...</p>
+  <p>本課程教導學生現代共時音韻學、漢語歷史語音學的基本知識和研究方法，建立漢語語言學研究的基礎，並培養文字修辭與韻文鑑賞的能力。</p>
 
   <h4>講義教材</h4>
   <ul>
-    <li><a href="/files/teach/chinese-phonetics/lecture01.pdf" target="_blank">第一講　...</a></li>
-    <!-- 依此格式繼續新增講義 -->
+    <li><a href="/files/teach/chinese-phonetics/00語音學與音位學講義封面.pdf" target="_blank">講義封面</a></li>
+    <li><a href="/files/teach/chinese-phonetics/01語音學.pdf" target="_blank">01 語音學</a></li>
+    <li><a href="/files/teach/chinese-phonetics/02-0音位學.pdf" target="_blank">02-0 音位學</a></li>
+    <li><a href="/files/teach/chinese-phonetics/02-1華語音標系統.pdf" target="_blank">02-1 華語音標系統</a></li>
+    <li><a href="/files/teach/chinese-phonetics/02-2華語拼音系統對照表.pdf" target="_blank">02-2 華語拼音系統對照表</a></li>
+    <li><a href="/files/teach/chinese-phonetics/02-3台灣閩南語音標系統.pdf" target="_blank">02-3 台灣閩南語音標系統</a></li>
+    <li><a href="/files/teach/chinese-phonetics/02-4台灣客語音標系統.pdf" target="_blank">02-4 台灣客語音標系統</a></li>
+  </ul>
+
+  <h4>附件</h4>
+  <ul>
+    <li><a href="/files/teach/chinese-phonetics/發音圖.bmp" target="_blank">發音圖</a></li>
   </ul>
 </div>
 
@@ -64,11 +70,18 @@ date: 2025-01-01
   <h3>閩南語概論</h3>
 
   <h4>教學大綱</h4>
-  <p>課程說明...</p>
+  <p>閩南語是台灣最重要的語言之一，多數學生的母語。本課程將使學生深刻了解閩南語的音韻、構詞法、句法等重要概念，以作為研究漢語音韻學、訓詁學之基礎訓練，對於有志於母語教學或閩南語文學、閩南語民間文學、民間戲曲的同學也是一種重要的基礎訓練。</p>
 
   <h4>講義教材</h4>
   <ul>
-    <li><a href="/files/teach/minnan-intro/lecture01.pdf" target="_blank">第一講　...</a></li>
+    <li><a href="/files/teach/minnan-intro/01第一講　台灣閩南語源流與演變.pdf" target="_blank">第一講　台灣閩南語源流與演變</a></li>
+    <li><a href="/files/teach/minnan-intro/02第二講　閩南語概台灣的語言與文化.pdf" target="_blank">第二講　閩南語概台灣的語言與文化</a></li>
+    <li><a href="/files/teach/minnan-intro/03第三講　閩南語民間文學.pdf" target="_blank">第三講　閩南語民間文學</a></li>
+    <li><a href="/files/teach/minnan-intro/04第四講　閩南語諺語.pdf" target="_blank">第四講　閩南語諺語</a></li>
+    <li><a href="/files/teach/minnan-intro/05第五講　閩南語音韻系統.pdf" target="_blank">第五講　閩南語音韻系統</a></li>
+    <li><a href="/files/teach/minnan-intro/06第六講　閩南語詞彙特色.pdf" target="_blank">第六講　閩南語詞彙特色</a></li>
+    <li><a href="/files/teach/minnan-intro/07第七講　台灣話的語法特色.pdf" target="_blank">第七講　台灣話的語法特色</a></li>
+    <li><a href="/files/teach/minnan-intro/08第八講　本土語文教學的理論與實踐.pdf" target="_blank">第八講　本土語文教學的理論與實踐</a></li>
   </ul>
 </div>
 
@@ -186,11 +199,12 @@ date: 2025-01-01
 <div class="course-content" id="folklore-intro">
   <h3>民間文學概論</h3>
 
-  <h4>教學大綱</h4>
-  <p>課程說明...</p>
-
   <h4>講義教材</h4>
-  <p><em>（尚無講義）</em></p>
+  <ul>
+    <li><a href="/files/teach/folklore-intro/01民間文學概論.pdf" target="_blank">民間文學概論</a></li>
+    <li><a href="/files/teach/folklore-intro/02民謠概論.pdf" target="_blank">民謠概論</a></li>
+    <li><a href="/files/teach/folklore-intro/03民歌概論.pdf" target="_blank">民歌概論</a></li>
+  </ul>
 </div>
 
 <!-- 民間歌謠 -->
@@ -219,22 +233,25 @@ date: 2025-01-01
 <div class="course-content" id="taiwan-customs">
   <h3>台灣民俗</h3>
 
-  <h4>教學大綱</h4>
-  <p>課程說明...</p>
-
-  <h4>講義教材</h4>
-  <p><em>（尚無講義）</em></p>
+  <h4>2006年大甲媽祖進香團人文之旅</h4>
+  <ul>
+    <li>大甲媽祖進香過程研究</li>
+    <li><a href="/files/teach/taiwan-customs/02大甲媽祖進香團陣頭之研究.pdf" target="_blank">大甲媽祖進香團陣頭之研究</a></li>
+    <li><a href="/files/teach/taiwan-customs/03台灣媽祖傳說及其本土化現象.pdf" target="_blank">台灣媽祖傳說及其本土化現象</a></li>
+  </ul>
 </div>
 
 <!-- 台灣語言文獻 -->
 <div class="course-content" id="taiwan-documents">
   <h3>台灣語言文獻</h3>
 
-  <h4>教學大綱</h4>
-  <p>課程說明...</p>
-
   <h4>講義教材</h4>
-  <p><em>（尚無講義）</em></p>
+  <ul>
+    <li><a href="/files/teach/taiwan-documents/台文文學个分類與分期.pdf" target="_blank">台文文學个分類與分期（上）（下）：自開台至1995年</a></li>
+    <li><a href="/files/teach/taiwan-documents/台北褒歌之美.pdf" target="_blank">台北褒歌之美</a></li>
+    <li><a href="/files/teach/taiwan-documents/台語文學的分期完稿.pdf" target="_blank">台語文學的分期完稿</a></li>
+    <li><a href="/files/teach/taiwan-documents/閩南語辭書的類型與發展.pdf" target="_blank">閩南語辭書的類型與發展</a></li>
+  </ul>
 </div>
 
 </div>
