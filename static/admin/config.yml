@@ -1,24 +1,28 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: ang-uijin/ang-uijin.github.io
   branch: main
 
 media_folder: "static/images"
 public_folder: "/images"
 
-# 這是為了讓預覽畫面能顯示中文
-locale: "zh_Hant"
-
 collections:
-  # ===== 最新動態 (可新增多篇文章) =====
+  # ===== 最新動態：一篇一檔 =====
   - name: "news"
     label: "最新動態"
+    label_singular: "動態"
     folder: "content/news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    media_folder: "/static/files/news"
+    public_folder: "/files/news"
+    sortable_fields: ["date", "title"]
     fields:
       - {label: "標題", name: "title", widget: "string"}
-      - {label: "發布日期", name: "date", widget: "datetime"}
-      - {label: "內容", name: "body", widget: "markdown"}
+      - {label: "日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false}
+      - {label: "出處（可不填）", name: "source", widget: "string", required: false}
+      - {label: "原始連結（可不填）", name: "link", widget: "string", required: false}
+      - {label: "內文", name: "body", widget: "markdown"}
 
   # ===== 我是啥人 =====
   - name: "aboutme"
@@ -29,56 +33,56 @@ collections:
         file: "content/aboutme.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "bio"
         label: "傳記與年表"
         file: "content/bio/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "media"
         label: "受訪與報導"
         file: "content/media/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "preface"
         label: "著作序"
         file: "content/preface/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "history"
         label: "參與歷史事件"
         file: "content/history/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "photo"
         label: "寫真館"
         file: "content/photo/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "gallery"
         label: "作品集"
         file: "content/gallery/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "contact"
         label: "聯絡我"
         file: "content/contact_us.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
 
   # ===== 論文 =====
@@ -90,21 +94,21 @@ collections:
         file: "content/paper/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "plan"
         label: "研究計畫報告"
         file: "content/plan/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "colloquium"
         label: "研討會論文"
         file: "content/colloquium/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
 
   # ===== 著書 =====
@@ -116,28 +120,28 @@ collections:
         file: "content/book/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "write"
         label: "編著"
         file: "content/write/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "translate"
         label: "翻譯"
         file: "content/translate/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "publish"
         label: "治言齋書肆"
         file: "content/publish/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
 
   # ===== 其他 =====
@@ -149,26 +153,26 @@ collections:
         file: "content/essay/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "lecture"
         label: "演講"
         file: "content/lecture/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "study"
         label: "研究網站"
         file: "content/study/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
       - name: "teach"
         label: "教學網站"
         file: "content/teach/_index.md"
         fields:
           - {label: "標題", name: "title", widget: "string"}
-          - {label: "更新日期", name: "date", widget: "datetime"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}

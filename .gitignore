@@ -27,3 +27,4 @@ CLAUDE.md
 # 內部文件與本機工具設定，不進公開 repo
 /docs/
 /.claude/
+.hugo_build.lock
