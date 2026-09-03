@@ -1,6 +1,7 @@
 ---
 title: "受訪與報導"
 date: 2025-01-01
+description: "洪惟仁教授的受訪紀錄與媒體報導，包含公視台語台專訪、口述歷史訪談與影音連結。"
 ---
 
 <span class="date">2026/07/06</span>[臺灣語言保存調查地圖化｜專訪地理語言學專家 洪惟仁(ANG Uijin)｜台灣新眼界．文化新台灣 20260706｜完整版](https://www.youtube.com/watch?v=voqlorTfSWs)

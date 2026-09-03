@@ -1,6 +1,7 @@
 ---
 title: "聯絡我"
 date: 2025-01-01
+description: "與洪惟仁教授聯絡的方式。"
 ---
 
 <div class="contact-section">

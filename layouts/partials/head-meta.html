@@ -1,0 +1,18 @@
+{{- $desc := "" -}}
+{{- with .Description }}{{ $desc = . }}{{ else }}{{ $desc = .Site.Params.description }}{{ end -}}
+{{- $title := "" -}}
+{{- if .IsHome }}{{ $title = .Site.Title }}{{ else }}{{ $title = printf "%s - %s" .Title .Site.Title }}{{ end -}}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "images/og-card.png" | absURL }}">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ "images/og-card.png" | absURL }}">

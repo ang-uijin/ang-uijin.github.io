@@ -2,6 +2,7 @@
 title: "簡介"
 date: 2024-01-01
 draft: false
+description: "臺灣語言學者洪惟仁教授簡介：學經歷、研究領域與著作概況。專長為閩南語音韻學、地理語言學與社會語言學。"
 ---
 
 <div style="text-align: center; margin-bottom: 30px;">

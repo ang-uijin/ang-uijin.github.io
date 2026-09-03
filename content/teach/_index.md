@@ -1,6 +1,7 @@
 ---
 title: "教學網站"
 date: 2025-01-01
+description: "洪惟仁教授的教學網站：18 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、民間文學概論等。"
 ---
 
 <div class="course-container">

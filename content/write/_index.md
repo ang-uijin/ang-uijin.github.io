@@ -1,6 +1,7 @@
 ---
 title: "編著"
 date: 2025-01-01
+description: "洪惟仁教授的編著作品 19 種，包含辭書、教材與論文集。"
 ---
 
 - <span class="date">2011/09(總編輯)</span>《台灣語文研究‧第六卷第二期：語言地理學專號》<span class="source">台北：萬卷樓圖書有限公司</span>

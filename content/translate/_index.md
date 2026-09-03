@@ -1,6 +1,7 @@
 ---
 title: "翻譯"
 date: 2025-01-01
+description: "洪惟仁教授的翻譯作品 20 種。"
 ---
 
 - <span class="date">1989/01</span>《書道全集第九卷唐III‧五代》<span class="source">文學 -（日文中譯），台北：大陸書局</span>

@@ -7,7 +7,7 @@ enableRobotsTXT = true
 timeZone = 'Asia/Taipei'
 
 [params]
-  description = '洪惟仁教授個人網站'
+  description = '臺灣語言學者洪惟仁教授的個人網站「治言齋」，收錄學術論文、專書、雜文、演講與教學資料，研究領域為閩南語音韻學、地理語言學與社會語言學。'
   author = '洪惟仁 Ang Uijin'
   copyright = '洪惟仁 版權所有©2026 Uijin Ang All Rights Reserved.'
 

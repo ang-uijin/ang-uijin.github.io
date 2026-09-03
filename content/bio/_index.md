@@ -1,6 +1,7 @@
 ---
 title: "傳記與年表"
 date: 2025-01-01
+description: "洪惟仁教授的自傳、履歷與生平年表，以及懷念師長的文章。"
 ---
 
 <span class="date">2024/10/27</span> [洪惟仁履歷網路版](/files/bio/洪惟仁履歷網路版.pdf)

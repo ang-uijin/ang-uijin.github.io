@@ -1,6 +1,7 @@
 ---
 title: "專書"
 date: 2025-01-01
+description: "洪惟仁教授的專書著作，包含《臺灣語言地圖集》、《閩南地區方言地圖集》、《臺灣方言之旅》等 21 種。"
 ---
 
 - <span class="date">2025</span>《臺灣西部方言地圖集》（Dialectal Atlas of Western Taiwan）<span class="source">幻華創造</span>
