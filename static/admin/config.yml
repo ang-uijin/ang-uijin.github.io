@@ -38,6 +38,8 @@ collections:
       - name: "bio"
         label: "傳記與年表"
         file: "content/bio/_index.md"
+        media_folder: "/static/files/bio"
+        public_folder: "/files/bio"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -45,6 +47,8 @@ collections:
       - name: "media"
         label: "受訪與報導"
         file: "content/media/_index.md"
+        media_folder: "/static/files/media"
+        public_folder: "/files/media"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -52,6 +56,8 @@ collections:
       - name: "preface"
         label: "著作序"
         file: "content/preface/_index.md"
+        media_folder: "/static/files/preface"
+        public_folder: "/files/preface"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -59,6 +65,8 @@ collections:
       - name: "history"
         label: "參與歷史事件"
         file: "content/history/_index.md"
+        media_folder: "/static/files/history"
+        public_folder: "/files/history"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -66,6 +74,8 @@ collections:
       - name: "photo"
         label: "寫真館"
         file: "content/photo/_index.md"
+        media_folder: "/static/images/photo"
+        public_folder: "/images/photo"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -73,6 +83,8 @@ collections:
       - name: "gallery"
         label: "作品集"
         file: "content/gallery/_index.md"
+        media_folder: "/static/images/gallery"
+        public_folder: "/images/gallery"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -92,6 +104,8 @@ collections:
       - name: "academic"
         label: "學術論文"
         file: "content/paper/_index.md"
+        media_folder: "/static/files/paper"
+        public_folder: "/files/paper"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -99,6 +113,8 @@ collections:
       - name: "plan"
         label: "研究計畫報告"
         file: "content/plan/_index.md"
+        media_folder: "/static/files/plan"
+        public_folder: "/files/plan"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -106,6 +122,8 @@ collections:
       - name: "colloquium"
         label: "研討會論文"
         file: "content/colloquium/_index.md"
+        media_folder: "/static/files/colloquium"
+        public_folder: "/files/colloquium"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -118,6 +136,8 @@ collections:
       - name: "books"
         label: "專書"
         file: "content/book/_index.md"
+        media_folder: "/static/files/book"
+        public_folder: "/files/book"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -125,6 +145,8 @@ collections:
       - name: "write"
         label: "編著"
         file: "content/write/_index.md"
+        media_folder: "/static/files/write"
+        public_folder: "/files/write"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -132,6 +154,8 @@ collections:
       - name: "translate"
         label: "翻譯"
         file: "content/translate/_index.md"
+        media_folder: "/static/files/translate"
+        public_folder: "/files/translate"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -139,6 +163,8 @@ collections:
       - name: "publish"
         label: "治言齋書肆"
         file: "content/publish/_index.md"
+        media_folder: "/static/files/publish"
+        public_folder: "/files/publish"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -151,6 +177,8 @@ collections:
       - name: "essay"
         label: "雜文"
         file: "content/essay/_index.md"
+        media_folder: "/static/files/essay"
+        public_folder: "/files/essay"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -158,6 +186,8 @@ collections:
       - name: "lecture"
         label: "演講"
         file: "content/lecture/_index.md"
+        media_folder: "/static/files/lecture"
+        public_folder: "/files/lecture"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -172,6 +202,8 @@ collections:
       - name: "teach"
         label: "教學網站"
         file: "content/teach/_index.md"
+        media_folder: "/static/files/teach"
+        public_folder: "/files/teach"
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}

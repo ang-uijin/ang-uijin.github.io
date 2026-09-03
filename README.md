@@ -38,7 +38,7 @@ hugo.toml       網站設定與選單
 
 ## 部署
 
-推送到 `main` 分支後，GitHub Actions（`.github/workflows/hugo.yml`）會建置網站並發佈到 GitHub Pages。`netlify.toml` 提供 Netlify 的同等設定。
+推送到 `main` 分支後，GitHub Actions（`.github/workflows/hugo.yml`）會建置網站並發佈到 GitHub Pages：https://ang-uijin.github.io/
 
 ## 版權
 

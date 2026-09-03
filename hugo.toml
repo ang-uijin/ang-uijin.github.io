@@ -1,8 +1,9 @@
-baseURL = '/'
+baseURL = 'https://ang-uijin.github.io/'
 languageCode = 'zh-tw'
 title = '治言齋'
 defaultContentLanguage = 'zh-tw'
 hasCJKLanguage = true
+enableRobotsTXT = true
 
 [params]
   description = '洪惟仁教授個人網站'
