@@ -61,11 +61,11 @@
 </div>
 {{ end }}
 
-<main class="main-content" data-pagefind-body>
+<main class="main-content">
   <article class="content-section">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{ with .Params.items }}{{ partial "entry-list.html" $ }}{{ end }}
+    {{ with .RegularPages }}{{ partial "entry-list.html" .ByWeight }}{{ end }}
   </article>
 </main>
 {{ end }}

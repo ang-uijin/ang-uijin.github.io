@@ -11,6 +11,23 @@ timeZone = 'Asia/Taipei'
   author = '洪惟仁 Ang Uijin'
   copyright = '洪惟仁 版權所有©2026 Uijin Ang All Rights Reserved.'
 
+# 書目條目（content/<section>/*.md）只用來組列表頁，本身不產生網頁、不進 sitemap，
+# 也不進 site.RegularPages（只留在各自 section 的 .RegularPages 裡）。
+# 放這裡而不放 _index.md 的 cascade，是因為後台存檔會重寫 _index.md。
+[[cascade]]
+  [cascade.build]
+    render = 'never'
+    list = 'local'
+  [cascade.target]
+    kind = 'page'
+    path = '{/book,/colloquium,/commentary,/essay,/history,/lecture,/paper,/plan,/preface,/study,/translate,/write}/**'
+
+# 首頁多出一份 index.json 給站內搜尋用；section 頁一律不出 RSS
+# （否則 12 個書目 section 會把 445 條沒有網址的條目當成文章列出來）。
+[outputs]
+  home = ['html', 'rss', 'json']
+  section = ['html']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

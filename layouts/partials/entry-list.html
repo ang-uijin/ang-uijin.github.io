@@ -1,6 +1,7 @@
 {{/*
-  書目列表。資料在頁面 front matter 的 items，每筆有：
-    date / title / source（文字）、link（外部網址）、file（本站檔案）、category（可留空）
+  書目列表。傳進來的是一個 section 底下的條目頁（content/<section>/*.md，依 weight 排好），
+  每條的 front matter 有：
+    title / date_text / source（文字）、link（外部網址）、file（本站檔案）、category（可留空）
   規則：link 有填就用 link，沒有才用 file，兩個都空就只顯示標題（跟舊站後台一致）。
   html：進階逃生口。填了就整條原樣輸出，上面的欄位全部忽略；
         用在表單湊不出來的特殊排版（例如一條裡有兩個連結、要加粗體）。
@@ -8,19 +9,20 @@
 */}}
 {{ $cat := "" }}
 {{ $open := false }}
-{{ range .Params.items }}
-  {{ if ne .category $cat }}
+{{ range . }}
+  {{ $c := .Params.category | default "" }}
+  {{ if ne $c $cat }}
     {{ if $open }}</ul>{{ end }}
-    {{ $cat = .category }}
-    {{ with .category }}<h3 id="{{ . | urlize }}">{{ . }}</h3>{{ end }}
+    {{ $cat = $c }}
+    {{ with $c }}<h3 id="{{ . | urlize }}">{{ . }}</h3>{{ end }}
     <ul>
     {{ $open = true }}
   {{ end }}
   {{ if not $open }}<ul>{{ $open = true }}{{ end }}
-  {{ with .html }}
+  {{ with .Params.html }}
   <li>{{ . | safeHTML }}</li>
   {{ else }}
-  <li><span class="date">{{ .date }}</span>{{ $href := "" }}{{ with .link }}{{ $href = . }}{{ else }}{{ with .file }}{{ $href = . }}{{ end }}{{ end }}{{ if $href }}<a href="{{ $href }}"{{ if hasPrefix $href "http" }} target="_blank" rel="noopener"{{ end }}>{{ .title }}</a>{{ else }}{{ .title }}{{ end }}{{ with .source }} <span class="source">{{ . }}</span>{{ end }}</li>
+  <li><span class="date">{{ .Params.date_text }}</span>{{ $href := "" }}{{ with .Params.link }}{{ $href = . }}{{ else }}{{ with .Params.file }}{{ $href = . }}{{ end }}{{ end }}{{ if $href }}<a href="{{ $href }}"{{ if hasPrefix $href "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}{{ with .Params.source }} <span class="source">{{ . }}</span>{{ end }}</li>
   {{ end }}
 {{ end }}
 {{ if $open }}</ul>{{ end }}

@@ -4,6 +4,9 @@ backend:
   branch: main
   base_url: https://sveltia-cms-auth.tesiniong.workers.dev
 
+# 檔名最長 60 字（Actions 的 Linux 檔名上限 255 bytes，中文一字 3 bytes）
+slug: {maxlength: 60}
+
 media_folder: "static/images"
 public_folder: "/images"
 
@@ -25,8 +28,313 @@ collections:
       - {label: "原始連結（可不填）", name: "link", widget: "string", required: false}
       - {label: "內文", name: "body", widget: "markdown"}
 
-# 以下 20 個固定頁面用 singletons 攤平：側邊欄第一層，點一下直接開編輯器。
-# divider 只是分隔線，保留原本我是啥人／論文／著書／其他的分組順序。
+  # 以下 12 個書目頁是 entry collection：一條書目一個檔（content/<section>/*.md），
+  # 後台搜尋直接搜到單篇。weight 是排序用，列表頁的「排序」模式拖曳會自動改；
+  # 新增的條目 weight 為 0，Hugo 會排在最底下，要調位置就進排序模式拖。
+  # index_file 是各頁自己的 _index.md（標題、頁面說明）。
+
+  - divider: true
+
+  # ===== 我是啥人 =====
+  - name: "preface"
+    label: "著作序"
+    label_singular: "一筆序言"
+    folder: "content/preface"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    media_folder: "/static/files/preface"
+    public_folder: "/files/preface"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+  - name: "history"
+    label: "參與歷史事件"
+    label_singular: "一筆紀錄"
+    folder: "content/history"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    media_folder: "/static/files/history"
+    public_folder: "/files/history"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+
+  - divider: true
+
+  # ===== 論文 =====
+  - name: "paper"
+    label: "學術論文"
+    label_singular: "一筆書目"
+    folder: "content/paper"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    view_groups:
+      - {label: "分類", field: "category"}
+    media_folder: "/static/files/paper"
+    public_folder: "/files/paper"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "分類", name: "category", widget: "string", required: false, hint: "同一個分類的條目要排在一起（用列表的排序功能拖）；留空就不分類"}
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+  - name: "plan"
+    label: "研究計畫報告"
+    label_singular: "一筆計畫報告"
+    folder: "content/plan"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    media_folder: "/static/files/plan"
+    public_folder: "/files/plan"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+  - name: "colloquium"
+    label: "研討會論文"
+    label_singular: "一筆論文"
+    folder: "content/colloquium"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    media_folder: "/static/files/colloquium"
+    public_folder: "/files/colloquium"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+
+  - divider: true
+
+  # ===== 著書 =====
+  - name: "book"
+    label: "專書"
+    label_singular: "一筆書目"
+    folder: "content/book"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    media_folder: "/static/files/book"
+    public_folder: "/files/book"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+  - name: "write"
+    label: "編著"
+    label_singular: "一筆書目"
+    folder: "content/write"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    media_folder: "/static/files/write"
+    public_folder: "/files/write"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+  - name: "translate"
+    label: "翻譯"
+    label_singular: "一筆書目"
+    folder: "content/translate"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    media_folder: "/static/files/translate"
+    public_folder: "/files/translate"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+
+  - divider: true
+
+  # ===== 其他 =====
+  - name: "essay"
+    label: "雜文"
+    label_singular: "一筆文章"
+    folder: "content/essay"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    view_groups:
+      - {label: "分類", field: "category"}
+    media_folder: "/static/files/essay"
+    public_folder: "/files/essay"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+        - {label: "舊網址（轉址用，不要動）", name: "aliases", widget: "list", required: false}
+    fields:
+      - {label: "分類", name: "category", widget: "string", required: false, hint: "同一個分類的條目要排在一起（用列表的排序功能拖）；留空就不分類"}
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+  - name: "commentary"
+    label: "評論"
+    label_singular: "一筆文章"
+    folder: "content/commentary"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    view_groups:
+      - {label: "分類", field: "category"}
+    media_folder: "/static/files/commentary"
+    public_folder: "/files/commentary"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "分類", name: "category", widget: "string", required: false, hint: "同一個分類的條目要排在一起（用列表的排序功能拖）；留空就不分類"}
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+  - name: "lecture"
+    label: "演講"
+    label_singular: "一筆演講"
+    folder: "content/lecture"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    media_folder: "/static/files/lecture"
+    public_folder: "/files/lecture"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+        - {label: "舊網址（轉址用，不要動）", name: "aliases", widget: "list", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+  - name: "study"
+    label: "研究網站"
+    label_singular: "一筆網站"
+    folder: "content/study"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+
+# 以下 8 個手寫頁面用 singletons：側邊欄第一層，點一下直接開編輯器。
 singletons:
 
   # ===== 我是啥人 =====
@@ -55,48 +363,6 @@ singletons:
       - {label: "標題", name: "title", widget: "string"}
       - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
       - {label: "內容", name: "body", widget: "markdown"}
-  - name: "preface"
-    label: "著作序"
-    file: "content/preface/_index.md"
-    media_folder: "/static/files/preface"
-    public_folder: "/files/preface"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆序言"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-  - name: "history"
-    label: "參與歷史事件"
-    file: "content/history/_index.md"
-    media_folder: "/static/files/history"
-    public_folder: "/files/history"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆紀錄"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
   - name: "photo"
     label: "寫真館"
     file: "content/photo/_index.md"
@@ -125,138 +391,7 @@ singletons:
 
   - divider: true
 
-  # ===== 論文 =====
-  - name: "academic"
-    label: "學術論文"
-    file: "content/paper/_index.md"
-    media_folder: "/static/files/paper"
-    public_folder: "/files/paper"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆書目"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "分類", name: "category", widget: "string", required: false, hint: "同一個分類要連續排在一起；留空就不分類"}
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-  - name: "plan"
-    label: "研究計畫報告"
-    file: "content/plan/_index.md"
-    media_folder: "/static/files/plan"
-    public_folder: "/files/plan"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆計畫報告"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-  - name: "colloquium"
-    label: "研討會論文"
-    file: "content/colloquium/_index.md"
-    media_folder: "/static/files/colloquium"
-    public_folder: "/files/colloquium"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆論文"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-
-  - divider: true
-
   # ===== 著書 =====
-  - name: "books"
-    label: "專書"
-    file: "content/book/_index.md"
-    media_folder: "/static/files/book"
-    public_folder: "/files/book"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "書目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆書目"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", hint: "例：2019 或 1993/06"}
-          - {label: "書名／標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面五欄會被忽略。用在表單湊不出來的排版。"}
-  - name: "write"
-    label: "編著"
-    file: "content/write/_index.md"
-    media_folder: "/static/files/write"
-    public_folder: "/files/write"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆書目"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-  - name: "translate"
-    label: "翻譯"
-    file: "content/translate/_index.md"
-    media_folder: "/static/files/translate"
-    public_folder: "/files/translate"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆書目"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
   - name: "publish"
     label: "治言齋書肆"
     file: "content/publish/_index.md"
@@ -270,90 +405,6 @@ singletons:
   - divider: true
 
   # ===== 其他 =====
-  - name: "essay"
-    label: "雜文"
-    file: "content/essay/_index.md"
-    media_folder: "/static/files/essay"
-    public_folder: "/files/essay"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆文章"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "分類", name: "category", widget: "string", required: false, hint: "同一個分類要連續排在一起；留空就不分類"}
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-  - name: "commentary"
-    label: "評論"
-    file: "content/commentary/_index.md"
-    media_folder: "/static/files/commentary"
-    public_folder: "/files/commentary"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆文章"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "分類", name: "category", widget: "string", required: false, hint: "同一個分類要連續排在一起；留空就不分類"}
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-  - name: "lecture"
-    label: "演講"
-    file: "content/lecture/_index.md"
-    media_folder: "/static/files/lecture"
-    public_folder: "/files/lecture"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆演講"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-  - name: "study"
-    label: "研究網站"
-    file: "content/study/_index.md"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
-      - label: "條目"
-        name: "items"
-        widget: "list"
-        label_singular: "一筆網站"
-        summary: "{{fields.date}}　{{fields.title}}"
-        fields:
-          - {label: "年份／日期", name: "date", widget: "string", required: false, hint: "例：2019 或 1993/06"}
-          - {label: "標題", name: "title", widget: "string"}
-          - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
-          - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
-          - {label: "出處", name: "source", widget: "string", required: false}
-          - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
   - name: "teach"
     label: "教學網站"
     file: "content/teach/_index.md"
