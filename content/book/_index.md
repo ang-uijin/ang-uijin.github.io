@@ -86,7 +86,7 @@ items:
   - date: 1992/02
     title: 《台語文學與台語文字》
     link: ''
-    file: ''
+    file: /files/book/台語文學與台語文字.pdf
     source: 台北：前衛出版社
   - date: 1986/11
     title: 《回歸鄉土回歸傳統》
@@ -112,5 +112,5 @@ items:
     title: 《台語文學與台語文字》
     link: ''
     file: /files/book/台語文學與台語文字.pdf
-    source: ''
+    source: 前衛出版社
 ---
