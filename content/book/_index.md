@@ -81,7 +81,7 @@ items:
   - date: 1992/02
     title: 《台灣方言之旅》
     link: ''
-    file: /files/book/台語文學與台語文字.pdf
+    file: ''
     source: 台北：前衛出版社。1994, 10修訂再版，2010, 07修訂三版
   - date: 1992/02
     title: 《台語文學與台語文字》
@@ -108,9 +108,4 @@ items:
     link: ''
     file: ''
     source: 國立台灣師範大學國文研究所碩士論文
-  - date: 1992/02
-    title: 《台語文學與台語文字》
-    link: ''
-    file: /files/book/台語文學與台語文字.pdf
-    source: 前衛出版社
 ---
