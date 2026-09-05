@@ -1373,14 +1373,38 @@ body {
 /* ===================================
    搜尋頁
    =================================== */
-.search-page {
-  --pagefind-ui-primary: var(--color-accent-primary);
-  --pagefind-ui-text: var(--color-text-primary);
-  --pagefind-ui-background: var(--color-bg-card);
-  --pagefind-ui-border: var(--color-border);
-  --pagefind-ui-tag: var(--color-bg-secondary);
-  --pagefind-ui-border-radius: 6px;
-  --pagefind-ui-font: var(--font-sans);
+.search-form input {
+  width: 100%;
+  padding: 10px 14px;
+  font: inherit;
+  font-size: 17px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-bg-card);
+  color: var(--color-text-primary);
+}
+
+.search-form input:focus {
+  outline: none;
+  border-color: var(--color-accent-primary);
+}
+
+.search-status {
+  margin: 16px 0 0;
+  color: var(--color-text-muted);
+  font-size: 15px;
+}
+
+.search-page h2 {
+  margin-top: 36px;
+  font-size: 20px;
+}
+
+.search-page mark {
+  background: #f3e3a8;
+  background: color-mix(in srgb, var(--color-accent-gold) 35%, transparent);
+  color: inherit;
+  padding: 0 1px;
 }
 
 .search-suggest {

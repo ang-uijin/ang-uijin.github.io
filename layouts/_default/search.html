@@ -1,9 +1,15 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+{{/*
+  站內搜尋：精確比對（子字串、不分大小寫），資料來自建置時產生的 /index.json（見 layouts/index.json）。
+  書目：關鍵字出現在標題、出處或分類就算命中，結果依原本的頁面／分類分組、用跟列表頁一樣的格式列出。
+  其他頁面：關鍵字出現在標題或內文就列出來，附上前後文。
+*/}}
 <main class="main-content">
   <article class="content-section search-page">
     <h1>{{ .Title }}</h1>
-    <div id="search"></div>
+    <form class="search-form" role="search" onsubmit="return false">
+      <input type="search" id="search-input" placeholder="輸入關鍵字：篇名、書名、出處或分類" autocomplete="off" autofocus>
+    </form>
     <div class="search-suggest">
       <span class="search-suggest-label">推薦搜尋</span>
       <button type="button" data-q="地理語言學">地理語言學</button>
@@ -14,35 +20,103 @@
       <button type="button" data-q="文獻研究">文獻研究</button>
       <button type="button" data-q="文字研究">文字研究</button>
     </div>
+    <p class="search-status" id="search-status"></p>
+    <div id="search-results"></div>
   </article>
 </main>
-<script src="/pagefind/pagefind-ui.js"></script>
 <script>
-  window.addEventListener('DOMContentLoaded', function () {
-    var ui = new PagefindUI({
-      element: '#search',
-      showSubResults: true,
-      showImages: false,
-      excerptLength: 40,
-      translations: {
-        placeholder: '輸入關鍵字',
-        clear_search: '清除',
-        load_more: '載入更多',
-        search_label: '搜尋本站',
-        filters_label: '篩選',
-        zero_results: '找不到「[SEARCH_TERM]」',
-        many_results: '找到 [COUNT] 筆「[SEARCH_TERM]」的結果',
-        one_result: '找到 [COUNT] 筆「[SEARCH_TERM]」的結果',
-        alt_search: '找不到「[SEARCH_TERM]」，改顯示「[DIFFERENT_TERM]」的結果',
-        search_suggestion: '找不到「[SEARCH_TERM]」，試試其他關鍵字：',
-        searching: '搜尋「[SEARCH_TERM]」中…'
+(function () {
+  var input = document.getElementById('search-input');
+  var status = document.getElementById('search-status');
+  var results = document.getElementById('search-results');
+  var index = null;
+  var pending = null;
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function mark(s, q) {
+    var re = new RegExp(esc(q).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+    return esc(s).replace(re, function (m) { return '<mark>' + m + '</mark>'; });
+  }
+  function has(s, lq) { return !!s && s.toLowerCase().indexOf(lq) !== -1; }
+
+  function entryHTML(e, q) {
+    if (e.html) return '<li>' + e.html + '</li>';
+    var title = mark(e.title, q);
+    if (e.href) {
+      title = '<a href="' + esc(e.href) + '"' + (/^http/.test(e.href) ? ' target="_blank" rel="noopener"' : '') + '>' + title + '</a>';
+    }
+    return '<li><span class="date">' + esc(e.date) + '</span>' + title +
+      (e.source ? ' <span class="source">' + mark(e.source, q) + '</span>' : '') + '</li>';
+  }
+
+  function render(q) {
+    var lq = q.toLowerCase();
+    var hits = index.entries.filter(function (e) {
+      return has(e.title, lq) || has(e.source, lq) || has(e.cat, lq) || has(e.html, lq);
+    });
+    var pages = index.pages.filter(function (p) { return has(p.title, lq) || has(p.text, lq); });
+    var out = '';
+    var lastPage = null, lastCat = null, open = false;
+    hits.forEach(function (e) {
+      if (e.page !== lastPage) {
+        if (open) { out += '</ul>'; open = false; }
+        out += '<h2><a href="' + esc(e.url) + '">' + esc(e.page) + '</a></h2>';
+        lastPage = e.page;
+        lastCat = null;
       }
+      if (e.cat !== lastCat) {
+        if (open) { out += '</ul>'; open = false; }
+        if (e.cat) out += '<h3>' + mark(e.cat, q) + '</h3>';
+        lastCat = e.cat;
+      }
+      if (!open) { out += '<ul>'; open = true; }
+      out += entryHTML(e, q);
     });
-    var q = new URLSearchParams(location.search).get('q');
-    if (q) ui.triggerSearch(q);
-    document.querySelectorAll('.search-suggest button').forEach(function (b) {
-      b.addEventListener('click', function () { ui.triggerSearch(b.dataset.q); });
-    });
+    if (open) out += '</ul>';
+    if (pages.length) {
+      out += '<h2>其他頁面</h2><ul>';
+      pages.forEach(function (p) {
+        var i = p.text.toLowerCase().indexOf(lq);
+        var snip = i < 0 ? p.text.slice(0, 60) : p.text.slice(Math.max(0, i - 25), i + q.length + 35);
+        out += '<li><a href="' + esc(p.url) + '">' + mark(p.title, q) + '</a> <span class="source">…' + mark(snip, q) + '…</span></li>';
+      });
+      out += '</ul>';
+    }
+    results.innerHTML = out;
+    status.textContent = (hits.length || pages.length)
+      ? '找到 ' + hits.length + ' 筆「' + q + '」的書目' + (pages.length ? '、' + pages.length + ' 個相關頁面' : '')
+      : '找不到「' + q + '」';
+  }
+
+  function search(q) {
+    q = q.trim();
+    if (history.replaceState) {
+      history.replaceState(null, '', q ? '?q=' + encodeURIComponent(q) : location.pathname);
+    }
+    if (!q) { results.innerHTML = ''; status.textContent = ''; return; }
+    if (!index) { pending = q; return; }
+    render(q);
+  }
+
+  fetch('/index.json').then(function (r) { return r.json(); }).then(function (d) {
+    index = d;
+    if (pending) { render(pending); pending = null; }
+  }).catch(function () { status.textContent = '搜尋索引載入失敗，請重新整理再試。'; });
+
+  var timer;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(function () { search(input.value); }, 150);
   });
+  document.querySelectorAll('.search-suggest button').forEach(function (b) {
+    b.addEventListener('click', function () { input.value = b.dataset.q; search(b.dataset.q); });
+  });
+  var q = new URLSearchParams(location.search).get('q');
+  if (q) { input.value = q; search(q); }
+})();
 </script>
 {{ end }}

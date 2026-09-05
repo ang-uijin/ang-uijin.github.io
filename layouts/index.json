@@ -1,0 +1,35 @@
+{{- /*
+  站內搜尋的索引（/index.json），由 /search/ 的 JavaScript 讀取。
+  entries：12 個書目 section 的每一條（不含網頁，只有列表資料），欄位與列表頁相同。
+  pages  ：其餘有文字內容的頁面（最新動態、簡介、傳記、受訪、教學……），存純文字給關鍵字比對用。
+*/ -}}
+{{- $sections := slice "book" "colloquium" "commentary" "essay" "history" "lecture" "paper" "plan" "preface" "study" "translate" "write" -}}
+{{- $entries := slice -}}
+{{- range $sections -}}
+  {{- with site.GetPage . -}}
+    {{- $sec := . -}}
+    {{- range .RegularPages.ByWeight -}}
+      {{- $entries = $entries | append (dict
+            "page" $sec.Title
+            "url" $sec.RelPermalink
+            "cat" (.Params.category | default "")
+            "date" (.Params.date_text | default "")
+            "title" .Title
+            "href" (.Params.link | default .Params.file | default "")
+            "source" (.Params.source | default "")
+            "html" (.Params.html | default "")) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $pages := slice -}}
+{{- range site.RegularPages -}}
+  {{- if ne .Params.layout "search" -}}
+    {{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "text" (.Plain | replaceRE `\s+` " ")) -}}
+  {{- end -}}
+{{- end -}}
+{{- range site.Sections -}}
+  {{- if and (not (in $sections .Section)) (ne .Section "news") -}}
+    {{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "text" (.Plain | replaceRE `\s+` " ")) -}}
+  {{- end -}}
+{{- end -}}
+{{- dict "entries" $entries "pages" $pages | jsonify -}}
