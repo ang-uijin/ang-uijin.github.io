@@ -154,6 +154,7 @@ collections:
               - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
               - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
               - {label: "出處", name: "source", widget: "string", required: false}
+              - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面五欄會被忽略。用在表單湊不出來的排版。"}
       - name: "write"
         label: "編著"
         file: "content/write/_index.md"
