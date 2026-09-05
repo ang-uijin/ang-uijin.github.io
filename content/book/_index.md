@@ -106,6 +106,6 @@ items:
   - date: 1971/06
     title: 《中國訓詁學之理論基礎》
     link: ''
-    file: /files/book/INDEX1.JPG
+    file: ''
     source: 國立台灣師範大學國文研究所碩士論文
 ---
