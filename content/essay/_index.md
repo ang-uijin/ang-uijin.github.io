@@ -2,13 +2,13 @@
 title: "雜文"
 date: 2025-01-01
 aliases: ["/essays/", "/essays"]
-description: "洪惟仁教授的隨筆雜文 36 篇，談臺語文運動、母語教育、辭書與臺灣語言文化。"
+description: "洪惟仁教授的隨筆雜文 49 篇，談臺語文運動、母語教育、辭書與臺灣語言文化。"
 ---
 
 ### 報導
 
 - <span class="date">2014/08</span>〈《台語文摘》佮「台語社」〉 <span class="source">《臺江臺語文學》11:46-58。</span>
-- <span class="date">2004/12</span>〈中師台語系的成立與展望〉 <span class="source">《國文天地》20.7:81-84。</span>
+- <span class="date">2004/12</span>[〈中師台語系的成立與展望〉](/files/paper/2004中師台語系的成立與展望.pdf) <span class="source">《國文天地》20.7:81-84。</span>
 - <span class="date">2004/06</span>〈一個台語系的誕生〉 <span class="source">《台灣文學館通訊》4:77-81。</span>
 - <span class="date">1989/07</span>(筆名洪鯤)，〈台語音標的檢討與協調〉 <span class="source">原刊《新文化》第六期，收入宜蘭縣政府編《本土語言教育問題研討會》，1990:135-142。</span>
 - <span class="date">1983/08</span>(筆名洪鯤)，〈表決部隊進行曲〉 <span class="source">原刊《夏潮論壇》第一卷第七期，收入《立法院的旗手蘇秋鎮》「為立法委員塑像」pp. 21-25。</span>
@@ -16,6 +16,7 @@ description: "洪惟仁教授的隨筆雜文 36 篇，談臺語文運動、母�
 
 ### 人物評介
 
+- <span class="date">2020/08</span>[〈懷念恩師王冬珍教授〉](/files/essay/2020懷念恩師王冬珍教授.pdf) <span class="source">《國文天地》36.3: 61-64。</span>
 - <span class="date">2014/02</span>〈王育德紀念講座〉（2014, 2/22台南市立圖書館演講，施俊州紀錄） <span class="source">收入施俊州主編《王育德紀念講座文集》（Ông Io̍k-tek Kì-liām Káng-tsō Bûn-chi̍p）pp.39-83。</span>
 - <span class="date">2012/11</span>（與陳麒仰合著）〈王育德个一生佮伊个成就〉 <span class="source">《臺江臺語文學》4:10-34。修正版收入施俊州主編《王育德紀念講座文集》（2014）pp.121-139。</span>
 - <span class="date">2006/04</span>〈吳守禮教授在閩南語文獻學上的貢獻〉 <span class="source">《台灣文學評論》6.2:22-26。</span>
@@ -27,8 +28,20 @@ description: "洪惟仁教授的隨筆雜文 36 篇，談臺語文運動、母�
 
 ### 隨筆
 
+- <span class="date">2008/02</span>[〈詩吟新論（下）〉](/files/essay/2008詩吟新論（下）.pdf) <span class="source">《國文天地》23.9: 56-65。</span>
+- <span class="date">2008/01</span>[〈詩吟新論（上）〉](/files/essay/2008詩吟新論（上）.pdf) <span class="source">《國文天地》23.8: 57-60。</span>
 - <span class="date">2003</span>〈台灣語文研究‧發刊詞〉 <span class="source">台灣語文研究 1.1: i–iv</span>
+- <span class="date">1995/02</span>[〈加學、加聽，做肥底〉](/files/essay/1995加學加聽做肥底.pdf) <span class="source">《台語這條路》pp. 1-48。</span>
+- <span class="date">1993/08</span>[〈本土語言教育應有的計劃與準備〉](/files/essay/1993本土語言教育應有的計劃與準備.pdf) <span class="source">《台灣評論》10: 27-29。</span>
 - <span class="date">1992/06/13</span>〈我的四十五年冤枉路〉 <span class="source">《自立晚報》本土副刊</span>
+- <span class="date">1992/02</span>[〈臺語辭典知多少？──歷來閩南語辭書簡介（下）〉](/files/essay/1992臺語辭典知多少（下）.pdf) <span class="source">《國文天地》7.9: 64-67。</span>
+- <span class="date">1992/01</span>[〈臺語辭典知多少？──歷來閩南語辭書簡介（中）〉](/files/essay/1992臺語辭典知多少（中）.pdf) <span class="source">《國文天地》7.8: 66-68。</span>
+- <span class="date">1991/12</span>[〈臺語辭典知多少？──歷來閩南語辭書簡介（上）〉](/files/essay/1991臺語辭典知多少（上）.pdf) <span class="source">《國文天地》7.7: 37-43。</span>
+- <span class="date">1991/09</span>[〈「誰」字的讀音〉](/files/essay/1991誰字的讀音.pdf) <span class="source">《國文天地》7.4: 9。</span>
+- <span class="date">1991/04</span>[〈「ㄎㄠˋㄅㄟ」的來源和寫法〉](/files/essay/1991ㄎㄠˋㄅㄟ的來源和寫法.pdf) <span class="source">《國文天地》6.11: 8-9。</span>
+- <span class="date">1991/03</span>[〈「丟丟銅」的來源與語源〉](/files/essay/1991丟丟銅的來源與語源.pdf) <span class="source">《國文天地》6.10: 63-65。</span>
+- <span class="date">1989/10</span>[〈ㄌㄜˋㄙㄜˋ？ㄌㄚㄐㄧ？〉](/files/essay/1989ㄌㄜˋㄙㄜˋ抑是ㄌㄚㄐㄧ.pdf) <span class="source">《國文天地》5.5: 7-8。</span>
+- <span class="date">1989/08</span>[〈「眭澔平」姓ㄒㄩˇ或姓ㄙㄨㄟ？〉](/files/essay/1989眭澔平姓ㄒㄩˇ或姓ㄙㄨㄟ.pdf) <span class="source">《國文天地》5.3: 7-8。</span>
 - <span class="date">1987/06/27</span>〈山雞頌〉 <span class="source">《自立晚報》本土副刊</span>
 - <span class="date">1987/01/28</span>〈青山、澗水、將拆的古廟〉 <span class="source">《自立晚報》本土副刊</span>
 - <span class="date">1987</span>〈我的丈人爸〉 <span class="source">《台灣時報》副刊</span>

@@ -15,6 +15,10 @@ timeZone = 'Asia/Taipei'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      # 書目的頁碼常寫成 43~80，Goldmark 會把一對 ~ 當成刪除線語法。
+      # 這個站用不到刪除線，直接關掉，~ 就永遠是普通字元。
+      strikethrough = false
   [markup.highlight]
     style = 'monokai'
 

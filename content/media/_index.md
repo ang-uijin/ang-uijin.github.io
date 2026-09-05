@@ -28,6 +28,8 @@ description: "洪惟仁教授的受訪紀錄與媒體報導，包含公視台語
 
 <span class="date">2018/11/23</span>[咱的故事](/files/media/咱的故事-洪惟仁.pdf) <span class="source">臺灣教研</span>
 
+<span class="date">2015/11</span>[〈非藍非綠唯黑白〉](/files/media/2015非藍非綠唯黑白.pdf) <span class="source">收入《重生與愛 2：桃園市人權歷史口述文集 第二冊》pp. 237-262。</span>
+
 <span class="date">2008</span>[洪惟仁─台灣閩南語趨勢變化調查](/files/media/2008《台語文運動口述紀錄》訪問決定版.pdf) <span class="source">楊允言、張學謙、呂美親主編《台語文運動：訪談暨史料彙編》</span>
 
 <span class="date">2003</span>認真負責 中語系洪惟仁教授 <span class="source">元智電子報名人報導 記者廖婉茹報導</span>
