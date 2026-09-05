@@ -16,7 +16,7 @@ description: 洪惟仁教授的專書著作，包含《臺灣語言地圖集》�
 - <span class="date">1996/06</span>《台灣話音韻入門—附台灣十五音字母》 <span class="source">台北：國立復興劇藝實驗學校</span>
 - <span class="date">1996/06</span>《『彙音妙悟』與古代泉州音》 <span class="source">台北：國立中央圖書館台灣分館</span>
 - <span class="date">1993/09</span>《台灣囡仔古》 <span class="source">《台語文摘》專刊第７期(合著)</span>
-- <span class="date">1993/06</span>[《台語經典笑話》](/files/book/洪惟仁(1999)。臺語經典笑話。台語文摘。.pdf)<span class="source">《台語文摘》專刊第６期</span>
+- <span class="date">1993/06</span>[《台語經典笑話》](/files/book/洪惟仁(1999)。臺語經典笑話。台語文摘。.pdf) <span class="source">《台語文摘》專刊第６期</span>
 - <span class="date">1993/03</span>[《台灣哲諺典》](/files/book/台灣哲諺典_compressed.pdf) <span class="source">《台語文摘》專刊第５期</span>
 - <span class="date">1992/02</span>《台灣語言危機》 <span class="source">台北：前衛出版社。</span>
 - <span class="date">1992/02</span>《台灣方言之旅》 <span class="source">台北：前衛出版社。1994, 10修訂再版，2010, 07修訂三版</span>
