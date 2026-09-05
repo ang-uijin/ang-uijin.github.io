@@ -159,8 +159,21 @@ timeZone = 'Asia/Taipei'
   [[menu.main]]
     identifier = 'essay'
     name = '雜文'
-    url = '/essay/'
     weight = 5
+
+  [[menu.main]]
+    identifier = 'essay-misc'
+    name = '雜文'
+    parent = 'essay'
+    url = '/essay/'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'essay-commentary'
+    name = '評論'
+    parent = 'essay'
+    url = '/commentary/'
+    weight = 2
 
   [[menu.main]]
     identifier = 'lecture'

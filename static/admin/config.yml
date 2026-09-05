@@ -184,6 +184,15 @@ collections:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
           - {label: "內容", name: "body", widget: "markdown"}
+      - name: "commentary"
+        label: "評論"
+        file: "content/commentary/_index.md"
+        media_folder: "/static/files/commentary"
+        public_folder: "/files/commentary"
+        fields:
+          - {label: "標題", name: "title", widget: "string"}
+          - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+          - {label: "內容", name: "body", widget: "markdown"}
       - name: "lecture"
         label: "演講"
         file: "content/lecture/_index.md"

@@ -27,6 +27,13 @@
     (dict "url" "/plan/" "title" "研究計畫報告")
     (dict "url" "/colloquium/" "title" "研討會論文")
   }}
+{{ else if in (slice "essay" "commentary") $section }}
+  {{ $hasSubnav = true }}
+  {{ $subnavTitle = "雜文" }}
+  {{ $subnavItems = slice
+    (dict "url" "/essay/" "title" "雜文")
+    (dict "url" "/commentary/" "title" "評論")
+  }}
 {{ else if in (slice "book" "write" "translate" "publish") $section }}
   {{ $hasSubnav = true }}
   {{ $subnavTitle = "著書" }}

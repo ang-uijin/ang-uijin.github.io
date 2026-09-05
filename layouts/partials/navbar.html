@@ -54,8 +54,13 @@
     </li>
 
     <!-- Regular links -->
-    <li {{ if hasPrefix .RelPermalink "/essay/" }}class="active"{{ end }}>
-      <a href="/essay/">雜文</a>
+    <!-- 雜文 dropdown -->
+    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/essay/") (hasPrefix .RelPermalink "/commentary/") }}active{{ end }}">
+      <span>雜文</span>
+      <ul class="navbar-dropdown">
+        <li><a href="/essay/">雜文</a></li>
+        <li><a href="/commentary/">評論</a></li>
+      </ul>
     </li>
     <li {{ if hasPrefix .RelPermalink "/lecture/" }}class="active"{{ end }}>
       <a href="/lecture/">演講</a>
