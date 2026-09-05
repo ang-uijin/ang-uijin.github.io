@@ -45,7 +45,7 @@ description: "洪惟仁教授的評論文章 105 篇，分語言、音標、文�
 - <span class="date">1987/10/10</span>[〈台語會消滅嗎？〉](/files/commentary/〈台語會消滅嗎？〉-《民進報週刊》〈台語信箱〉專欄收入《台灣語言危機》pp.-117-120。.pdf) <span class="source">《民進報週刊》〈台語信箱〉專欄收入《台灣語言危機》pp. 117-120。</span>
 - <span class="date">1987/08/24</span>[〈鐵公路局應實施多語服務〉](/files/commentary/〈鐵公路局應實施多語服務〉-一九八七年八月廿四日《自立晚報》自立論壇，收入《台灣語言危機》pp.-62-63。.pdf) <span class="source">一九八七年八月廿四日《自立晚報》自立論壇，收入《台灣語言危機》pp. 62-63。</span>
 - <span class="date">1987/07</span>[〈什麼是台灣人說台灣話？〉](/files/commentary/〈什麼是台灣人說台灣話？〉-《台灣新文化》第十期，收入《台灣語言危機》pp.-207-217。.pdf) <span class="source">《台灣新文化》第十期，收入《台灣語言危機》pp. 207-217。</span>
-- <span class="date">1987/05/28</span>[〈入境隨俗，落地生根──讀「一個中國人的想法」有感〉](/files/commentary/〈入境隨俗，落地生根──讀「一個中國人的想法」有感〉-原載一九八七年五月廿八日《自立晚報》副刊，收入《一些中國人的想法》，台北‧九大文化公司出版；又收入《台灣語言危機》pp.-181-193。.pdf) <span class="source">原載一九八七年五月廿八日《自立晚報》副刊，收入《一些中國人的想法》，台北‧九大文化公司出版；又收入《台灣語言危機》pp. 181-193。</span>
+- <span class="date">1987/05/28</span>[〈入境隨俗，落地生根──讀「一個中國人的想法」有感〉](/files/commentary/〈入境隨俗，落地生根──讀「一個中國人的想法」有感〉.pdf) <span class="source">原載一九八七年五月廿八日《自立晚報》副刊，收入《一些中國人的想法》，台北‧九大文化公司出版；又收入《台灣語言危機》pp. 181-193。</span>
 - <span class="date">1986/11</span>[〈語言的實用性與文化性〉](/files/commentary/〈語言的實用性與文化性〉-收入《回歸鄉土回歸傳統》pp.-64-65。.pdf) <span class="source">收入《回歸鄉土回歸傳統》pp. 64-65。</span>
 - <span class="date">1986/11</span>[〈荒唐的「語文法」〉](/files/commentary/〈荒唐的「語文法」〉-收入《回歸鄉土回歸傳統》pp.-68-74。.pdf) <span class="source">收入《回歸鄉土回歸傳統》pp. 68-74。</span>
 - <span class="date">1986/11</span>[〈為「台灣話」與「閩南語」正名〉](/files/commentary/〈為「台灣話」與「閩南語」正名〉-收入《回歸鄉土回歸傳統》pp.-66-67。.pdf) <span class="source">收入《回歸鄉土回歸傳統》pp. 66-67。</span>
