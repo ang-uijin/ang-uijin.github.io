@@ -142,7 +142,18 @@ collections:
         fields:
           - {label: "標題", name: "title", widget: "string"}
           - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-          - {label: "內容", name: "body", widget: "markdown"}
+          - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+          - label: "書目"
+            name: "items"
+            widget: "list"
+            label_singular: "一筆書目"
+            summary: "{{fields.date}}　{{fields.title}}"
+            fields:
+              - {label: "年份／日期", name: "date", widget: "string", hint: "例：2019 或 1993/06"}
+              - {label: "書名／標題", name: "title", widget: "string"}
+              - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+              - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+              - {label: "出處", name: "source", widget: "string", required: false}
       - name: "write"
         label: "編著"
         file: "content/write/_index.md"
