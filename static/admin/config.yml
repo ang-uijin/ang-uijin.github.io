@@ -28,10 +28,11 @@ collections:
       - {label: "原始連結（可不填）", name: "link", widget: "string", required: false}
       - {label: "內文", name: "body", widget: "markdown"}
 
-  # 以下 12 個書目頁是 entry collection：一條書目一個檔（content/<section>/*.md），
+  # 以下 14 個書目頁是 entry collection：一條書目一個檔（content/<section>/*.md），
   # 後台搜尋直接搜到單篇。weight 是排序用，列表頁的「排序」模式拖曳會自動改；
   # 新增的條目 weight 為 0，Hugo 會排在最底下，要調位置就進排序模式拖。
   # index_file 是各頁自己的 _index.md（標題、頁面說明）。
+  # sortable_fields 的「檔案」是給家銓盤點用的：照它排序，還沒有 PDF 的條目會排在一起。
 
   - divider: true
 
