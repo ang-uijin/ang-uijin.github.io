@@ -533,25 +533,42 @@ body {
 
 .section-nav-menu a {
   display: block;
-  padding: 10px 15px;
+  padding: 10px 15px 13px;
   background-color: transparent;
   color: var(--color-text-secondary);
   text-decoration: none;
-  border-radius: 0;
-  border-bottom: 3px solid transparent;
+  border-radius: 6px 6px 0 0;
   transition: all var(--transition-fast);
   font-size: 15px;
   font-weight: 500;
+  position: relative;
+}
+
+/* 底線從中間往兩邊展開，跟主選單同一個行為，只是顏色用酒紅、寬度到滿 */
+.section-nav-menu a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: var(--color-accent-active);
+  transform: translateX(-50%);
+  transition: width var(--transition-fast);
+}
+
+.section-nav-menu a:hover::after,
+.section-nav-menu a.active::after {
+  width: 100%;
 }
 
 .section-nav-menu a:hover {
   color: var(--color-accent-active);
-  border-bottom-color: currentcolor;
+  background-color: rgba(114, 47, 55, 0.06);
 }
 
 .section-nav-menu a.active {
   color: var(--color-accent-active);
-  border-bottom-color: var(--color-accent-active);
 }
 
 /* 主要內容區 */
@@ -665,7 +682,7 @@ body {
   color: var(--color-text-muted);
   font-size: 14px;
   margin-left: 8px;
-  font-style: italic;
+  font-family: var(--font-serif);
 }
 
 .content-section strong {
