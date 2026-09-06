@@ -3,7 +3,7 @@
   entries：12 個書目 section 的每一條（不含網頁，只有列表資料），欄位與列表頁相同。
   pages  ：其餘有文字內容的頁面（最新動態、簡介、傳記、受訪、教學……），存純文字給關鍵字比對用。
 */ -}}
-{{- $sections := slice "book" "colloquium" "commentary" "essay" "history" "lecture" "paper" "plan" "preface" "study" "translate" "write" -}}
+{{- $sections := slice "bio" "book" "colloquium" "commentary" "essay" "history" "lecture" "media" "paper" "plan" "preface" "study" "translate" "write" -}}
 {{- $entries := slice -}}
 {{- range $sections -}}
   {{- with site.GetPage . -}}

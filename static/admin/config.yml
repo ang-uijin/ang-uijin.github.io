@@ -36,6 +36,56 @@ collections:
   - divider: true
 
   # ===== 我是啥人 =====
+  - name: "bio"
+    label: "傳記與年表"
+    label_singular: "一筆紀錄"
+    folder: "content/bio"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
+    media_folder: "/static/files/bio"
+    public_folder: "/files/bio"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
+  - name: "media"
+    label: "受訪與報導"
+    label_singular: "一筆受訪"
+    folder: "content/media"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
+    media_folder: "/static/files/media"
+    public_folder: "/files/media"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "preface"
     label: "著作序"
     label_singular: "一筆序言"
@@ -44,6 +94,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     media_folder: "/static/files/preface"
     public_folder: "/files/preface"
     index_file:
@@ -58,7 +109,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "history"
     label: "參與歷史事件"
     label_singular: "一筆紀錄"
@@ -67,6 +119,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     media_folder: "/static/files/history"
     public_folder: "/files/history"
     index_file:
@@ -81,7 +134,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
 
   - divider: true
 
@@ -94,6 +148,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     view_groups:
       - {label: "分類", field: "category"}
     media_folder: "/static/files/paper"
@@ -111,7 +166,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "plan"
     label: "研究計畫報告"
     label_singular: "一筆計畫報告"
@@ -120,6 +176,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     media_folder: "/static/files/plan"
     public_folder: "/files/plan"
     index_file:
@@ -134,7 +191,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "colloquium"
     label: "研討會論文"
     label_singular: "一筆論文"
@@ -143,6 +201,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     media_folder: "/static/files/colloquium"
     public_folder: "/files/colloquium"
     index_file:
@@ -157,7 +216,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
 
   - divider: true
 
@@ -170,6 +230,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     media_folder: "/static/files/book"
     public_folder: "/files/book"
     index_file:
@@ -184,7 +245,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "write"
     label: "編著"
     label_singular: "一筆書目"
@@ -193,6 +255,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     media_folder: "/static/files/write"
     public_folder: "/files/write"
     index_file:
@@ -207,7 +270,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "translate"
     label: "翻譯"
     label_singular: "一筆書目"
@@ -216,6 +280,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     media_folder: "/static/files/translate"
     public_folder: "/files/translate"
     index_file:
@@ -230,7 +295,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
 
   - divider: true
 
@@ -243,6 +309,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     view_groups:
       - {label: "分類", field: "category"}
     media_folder: "/static/files/essay"
@@ -261,7 +328,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "commentary"
     label: "評論"
     label_singular: "一筆文章"
@@ -270,6 +338,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     view_groups:
       - {label: "分類", field: "category"}
     media_folder: "/static/files/commentary"
@@ -287,7 +356,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "lecture"
     label: "演講"
     label_singular: "一筆演講"
@@ -296,6 +366,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     media_folder: "/static/files/lecture"
     public_folder: "/files/lecture"
     index_file:
@@ -311,7 +382,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
   - name: "study"
     label: "研究網站"
     label_singular: "一筆網站"
@@ -320,6 +392,7 @@ collections:
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
     index_file:
       fields:
         - {label: "標題", name: "title", widget: "string"}
@@ -332,7 +405,8 @@ collections:
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
-      - {label: "順序", name: "weight", widget: "hidden", default: 0}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
 
 # 以下 8 個手寫頁面用 singletons：側邊欄第一層，點一下直接開編輯器。
 singletons:
@@ -341,24 +415,6 @@ singletons:
   - name: "intro"
     label: "簡介"
     file: "content/aboutme.md"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "內容", name: "body", widget: "markdown"}
-  - name: "bio"
-    label: "傳記與年表"
-    file: "content/bio/_index.md"
-    media_folder: "/static/files/bio"
-    public_folder: "/files/bio"
-    fields:
-      - {label: "標題", name: "title", widget: "string"}
-      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
-      - {label: "內容", name: "body", widget: "markdown"}
-  - name: "media"
-    label: "受訪與報導"
-    file: "content/media/_index.md"
-    media_folder: "/static/files/media"
-    public_folder: "/files/media"
     fields:
       - {label: "標題", name: "title", widget: "string"}
       - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
