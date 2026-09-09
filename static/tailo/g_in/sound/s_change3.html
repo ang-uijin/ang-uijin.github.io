@@ -1,0 +1,326 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; }
+.style18 {font-size: 12pt; font-weight: bold; }
+body {
+	margin-top: 0px;
+}
+.style19 {font-size: 13pt}
+.style24 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+.style26 {font-size: 13pt; font-weight: bold; }
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+
+<body>
+<table width="570" height="902" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" align="center" class="style24"> 第三課</td>
+        <td width="212" class="style24">變調</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="4"><img src="../../image/次要調型.gif" width="120" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19" height="15">&nbsp;</td>
+    <td width="32" height="15" align="center"><img src="../../image/square.gif" width="4" height="4" /></td>
+    <td height="15" colspan="2" class="style17">主聲調（本調和變調）所用的調型叫做「主要調型」，主聲調所用不到，</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td width="518" height="15" class="style17">只有在特殊情形下才用得到的調型，叫做「次要調型」。</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td height="15" align="center">&nbsp;</td>
+    <td height="15" colspan="2" align="center"><img src="../../image/square.gif" width="4" height="4" /></td>
+    <td height="15">「次要調型」多半是由主要調型系統分化出來的調型，如輕聲、感嘆詞、</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17">句末語助詞、疊音等變化調 。但有些外來語、合音、部分語助詞雖非主聲</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17">調直接衍生，卻都有自己的調型，他們的調讀雖然大部分採用主要調型，</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17">但是有些調型卻不出現在主要調型的清單裡，也就是說超出「八音」調型</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><span class="style17">之外而存在，所以叫做「次要調型」。</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2" align="center"><img src="../../image/square.gif" width="4" height="4" /></td>
+    <td height="15"><p>次要調型有三個：中升調、中降調、升降調。為了指稱的方便，模倣「八</p></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15">音」調序，我們把中升調稱為「第九聲」（記住所謂的第九聲不屬於主聲</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15">調），其餘沒有特殊的調序名稱。</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td height="217" colspan="4" align="center"><table width="476" height="198" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="2" align="center" bgcolor="#FDD6B3" class="style17"><img src="../../image/次要調型-pic.gif" width="408" height="182" /></td>
+        </tr>
+        
+        </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2" align="center">&nbsp;</td>
+    <td height="15" class="style17">以下的例子，未下標的就是「次要調型」：</td>
+  </tr>
+  
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2" align="center">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2" align="center" class="style18">&nbsp;</td>
+    <td height="15"><table width="200" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="32"><span class="style18">一</span></td>
+          <td><span class="snd-missing style18" style="cursor:pointer" onClick="setFileName('s_change331_title.wav')" title="音檔已佚失（Wayback 未存）">第九調</span></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><p>中升調又叫「第九聲」，在韻腹上標示如下所示的雙尖音號，如  ' <span class="style17"><img src="../../image/special/a_twopoint.png" width="9" height="15" /></span>'。出</p></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15">現的環境有三種：</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="350" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="125" height="19" style="cursor:pointer" onClick="setFileName('s_change331_004.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">1 三疊音詞變調：</td>
+          <td width="205" style="cursor:pointer" onClick="setFileName('s_change331_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">金金金 <span class="style19">k<span style="font-family:SILDoulosIPA;
+mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:&quot;Times New Roman&quot;;
+mso-char-type:symbol;mso-symbol-font-family:SILDoulosIPA"><img src="../../image/special/i_twopoint.png" width="9" height="15" /></span>m23kim<sub>22</sub>kim<sub>33</sub></span></td>
+          <td width="20" align="right">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="350" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="79" style="cursor:pointer" onClick="setFileName('s_change331_005.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">2 外來語：</td>
+          <td width="251" style="cursor:pointer" onClick="setFileName('s_change331_002.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">先生 <span class="style19">si<img src="../../image/special/a_twopoint.png" width="11" height="15" />n23se<sub>31</sub></span></td>
+          <td width="20" align="right">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="350" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="61" style="cursor:pointer" onClick="setFileName('s_change331_006.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">3 合音：</td>
+          <td width="269" style="cursor:pointer" onClick="setFileName('s_change331_003.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">下昏<span class="style26"><span lang=EN-US style='font-family:SILDoulosIPA;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:SILDoulosIPA'> <img src="../../image/special/i_twopoint.png" width="9" height="15" /></span></span><span class="style19"
+lang=EN-US>ng</span>23（晚上） </td>
+          <td width="20" align="right">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2" align="center" class="style18">&nbsp;</td>
+    <td height="15"><table width="200" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="32" height="19"><span class="style18">二</span></td>
+          <td><span class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_change312_title_005.wav')"  title="音檔已佚失（Wayback 未存）">中降調</span></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><p>中降調常出現在輕讀的虛詞，很像陰入本調，因此有人把它歸類為陰入聲</p></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15">，如「喂」寫成 <span class="style19">ueh</span> ，「奚」寫成<span class="style19"> heh</span> 。但請注意，輕讀音節的韻尾實際</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15">上都不會出現喉塞音，以下語助詞或合音詞後面的<span class="style19"> -h</span> 都只表示中降調
+    ，</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"> <span class="style19">-h</span> 不發喉塞音。</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="310" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="82" style="cursor:pointer" onClick="setFileName('s_change332_005.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">1 感嘆詞：</td>
+          <td><span class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_change332_001.wav')"  title="音檔已佚失（Wayback 未存）">ueh21! </span></span> 喂！</td>
+          <td width="14">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="310" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="82" style="cursor:pointer" onClick="setFileName('s_change332_006.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">2 語助詞：</td>
+          <td><span class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_change332_002.wav')"  title="音檔已佚失（Wayback 未存）">honnh<span class="style19" style="cursor:pointer">21</span></span><span class="style26">? </span> 乎？ </td>
+          <td width="14">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="310" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="82" style="cursor:pointer" onClick="setFileName('s_change332_007.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">3 合音詞：</td>
+          <td width="205"><span class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_change332_003.wav')"  title="音檔已佚失（Wayback 未存）">buaih<span class="style19" style="cursor:pointer">21</span></span> 無愛（不要）</td>
+          <td width="14">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="310" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="cursor:pointer" onClick="setFileName('s_change332_008.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">4 輕聲詞前字：</td>
+          <td style="cursor:pointer" onClick="setFileName('s_change332_004.wav')"  class="snd-missing" title="音檔已佚失（Wayback 未存）">落‧去 <span class="style19">lueh</span><span class="style19" style="cursor:pointer">21</span>（下去）</td>
+          <td width="14">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2" align="center" class="style18">&nbsp;</td>
+    <td height="15" class="style18"><table width="200" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="32">三</td>
+          <td><span class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_change312_title_009.wav')"  title="音檔已佚失（Wayback 未存）">升降調</span></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17">升降調沒有規定相當的調符，可以結合第九調的雙尖音號，如 <span class="style17">' <img src="../../image/special/a_twopoint.png" width="11" height="15" /> </span>'和語助</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17">詞的 <span class="style19">-h</span> 來標示，因為三疊音詞有規則可循，且隨語體而變化語調，不用特</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17"><p>殊符號。如：<br />
+    </p>    </td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="310" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="76" style="cursor:pointer" onClick="setFileName('s_change333_003.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">1 感嘆詞：</td>
+          <td width="207"style="cursor:pointer" onClick="setFileName('s_change333_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><span class="style19"
+lang=EN-US>h<img src="../../image/special/a_twopoint.png" width="11" height="15" />nnh</span>231嗄？</td>
+          <td width="27">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><table width="310" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="95" style="cursor:pointer" onClick="setFileName('s_change333_004.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">2 三疊音詞：</td>
+          <td width="188" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_change333_002.wav')" title="音檔已佚失（Wayback 未存）">kim</span>231<span style='mso-hansi-font-family:&quot;Times New Roman&quot;' lang=EN-US>kim</span><sub>22</sub> <span style='mso-hansi-font-family:&quot;Times New Roman&quot;' lang=EN-US>kim</span><sub>33</sub></td>
+          <td width="27">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

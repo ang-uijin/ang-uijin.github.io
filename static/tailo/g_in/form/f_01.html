@@ -1,0 +1,165 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; font-family: "細明體"; }
+body {
+	margin-top: 0px;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//.style23 {font-family: "細明體"}
+.style18 {font-size: 13pt}
+-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+<body>
+<table width="570" border="0" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td colspan="4" style="cursor:pointer" onClick="setFileName('f_01_title.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/羅馬字清單.gif" width="139" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19">&nbsp;</td>
+    <td width="23">&nbsp;</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="19">&nbsp;</td>
+    <td width="23" style="cursor:pointer" onClick="setFileName('f_01_sec01.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14"></td>
+    <td colspan="2"><p>教育部於2007年公告的「台灣閩南語羅馬字拼音方案」（以下簡稱為「台羅</p>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="2"><p>」）只用到26個羅馬字母中的17個。所有的音符都是用下列字母中的一</p>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="2"><p>至三個字母組成的：<br>
+    </p>    </td>
+  </tr>
+  <tr>
+    <td class="style17">&nbsp;</td>
+    <td class="style17">&nbsp;</td>
+    <td colspan="2" class="style17"><span class="style18">a, b, e, g, h, i, j,
+        k, l, m, n, o, p, (r,) s, t, u</span></td>
+  </tr>
+  
+  
+  <tr>
+    <td class="style17">&nbsp;</td>
+    <td class="snd-missing style17" style="cursor:pointer" onClick="setFileName('f_01_sec03.wav')" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14"></td>
+    <td colspan="2"><span class="style17">其中'</span><span class="style18">r</span><span class="style17">'只用於標示泉腔的央元音。普通腔的聲母只用16個音符，可</span></td>
+  </tr>
+  <tr>
+    <td class="style17">&nbsp;</td>
+    <td class="style17">&nbsp;</td>
+    <td colspan="2" class="style17"><p>以4個音符為一段，泉腔可插入一個 r（er）直接唸成：<br>
+    </p>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="snd-missing style17" style="cursor:pointer" onClick="setFileName('f_01_sec04.wav')" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14"></span></td>
+    <td colspan="2" class="style18"><table width="381" height="81" border="0" cellpadding="0" cellspacing="1">
+        <tr>
+          <td align="center" bgcolor="#CCCC99" class="style18">a [a]</td>
+          <td align="center" bgcolor="#CCCC99" class="style18">b [ber]</td>
+          <td align="center" bgcolor="#CCCC99" class="style18">e [e]</td>
+          <td align="center" bgcolor="#CCCC99" class="style18">g [ger]</td>
+          <td align="center" bgcolor="#CCCC99" class="style18">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FFFFCC" class="style18">h [her]</td>
+          <td align="center" bgcolor="#FFFFCC" class="style18">i [i]</td>
+          <td align="center" bgcolor="#FFFFCC" class="style18">j [jir]</td>
+          <td align="center" bgcolor="#FFFFCC" class="style18">k [ker]</td>
+          <td align="center" bgcolor="#FFFFCC" class="style18">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#CCCC99" class="style18">l [ler]</td>
+          <td align="center" bgcolor="#CCCC99" class="style18">m [mer]</td>
+          <td align="center" bgcolor="#CCCC99" class="style18">n [ner]</td>
+          <td align="center" bgcolor="#CCCC99" class="style18">o [o]</td>
+          <td align="center" bgcolor="#CCCC99" class="style18">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FFFFCC" class="style18">p [per]</td>
+          <td align="center" bgcolor="#FFFFCC" class="style18">r [er]</td>
+          <td align="center" bgcolor="#FFFFCC" class="style18">s [sir]</td>
+          <td align="center" bgcolor="#FFFFCC" class="style18">t [ter]</td>
+          <td align="center" bgcolor="#FFFFCC" class="style18">u [u]</td>
+        </tr>
+
+      </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td width="463">&nbsp;</td>
+    <td width="44">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">但也可以編成有節奏有旋律的「歌」。本書錄音CD 附有作者</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">所作的「字母歌」，請參考學習。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="snd-missing style17" style="cursor:pointer" onClick="setFileName('f_01_sec05.wav')" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14"></td>
+    <td colspan="2">字母歌</td>
+  </tr>
+  <tr>
+    <td colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

@@ -1,0 +1,310 @@
+<head>
+<meta charset="utf-8">
+<title>聲調對比練習</title>
+<style type="text/css">
+<!--
+.內文 {font-size: 12pt; }
+.英文13 {font-size: 13pt; }
+.灰色內文 {font-size: 12pt; color: <sub><sub>#</sub></sub>666666; }
+.style2 {font-size: 12pt; font-weight: bold; }
+body {
+	margin-top: 0px;
+}
+.灰色內文1 {font-size: 12pt; color: <sub>#</sub>666666; }
+.style4 {font-size: 13pt; font-weight: bold; }
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//.style25 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+-->
+</style>
+</head>
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+<body>
+<table width="570" height="565" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25" colspan="3" style="cursor:pointer" onClick="setFileName('e_change33_009.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" align="center" class="style25"> 第三課</td>
+        <td width="212" class="style25">變調</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="3" style="cursor:pointer" onClick="setFileName('e_change33_009.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/笑談四則.gif" width="120" height="21" /></td>
+  </tr>
+  
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="內文">以下是一些本調變調解釋差異引起歧義的例子，常引為笑話，做為茶餘酒</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="內文">後談笑助興之資。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="style2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><span class="內文">A、B兩個句子雖然表面上的調型一樣，但是一個是本調、一個是變調。</span></td>
+  </tr>
+  <tr>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="內文">注意句末及以 <sub><sub>#</sub></sub> 標示的是本調，其餘的都唸變調，凡是本調，調長都比較</td>
+  </tr>
+  <tr>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="內文">長。</td>
+  </tr>
+  <tr>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20" height="15" class="內文">&nbsp;</td>
+    <td width="32" height="15" align="center" class="內文">&nbsp;</td>
+    <td width="518" height="15" class="內文"><span class="style4">1. Sing<sub>22</sub>lí<sub>31</sub>    tsò<sub>31 </sub>b<span class="英文13">ô</span><sub>12</sub>,
+        tiàm<sub>11</sub> to<sub>31</sub>hó<sub>31</sub>.</span></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="473">A.生理<sub>#</sub>做無，店<sub>#</sub>倒（<span class="英文13">tó</span>）<sub>#</sub>好      <span class="灰色內文1"> （生意不好，店倒閉算了）</span></td>
+        <td width="34"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_change33_001.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="473">B.生理<sub>#</sub>做無，店<sub>#</sub>倒（<span class="英文13">tò</span>）好       <span class="灰色內文1"> 
+            （生意不好，店反倒好了）</span> </td>
+        <td width="34"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_change33_002.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><span class="style4">2. Tsò<sub>31 </sub>pîng<sub>22</sub>iu<sub>31</sub>,
+        ài<sub>31</sub> <u>sing<sub>22</sub>khun<sub>31</sub></u> tso<sub>31</sub>hué<sub>31 </sub></span></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="473">A.做朋友<sub>#</sub>愛<u>誠懇</u>（<span class="英文13">khun<sup>2</sup></span>）<sub>#</sub>作伙（<span class="灰色內文1">做朋友要誠懇在一起）</span></td>
+        <td width="34"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_change33_003.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="473">B.做朋友<sub>#</sub>愛<u>先睏</u>（<span class="英文13">khun<sup>3</sup></span>）做伙        （<span class="灰色內文1">做朋友要先睡在一起）</span></td>
+        <td width="34"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_change33_004.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">以上兩則笑談是同一個語音形式因為本調或變調解釋不同而引起的笑話。</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">以下則是應唸變調的詞錯唸了本調引起的笑話：</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><strong>3. 汝<u>袂使</u>（bē-sái）家治食</strong>        <span class="灰色內文1">（你不可自己吃）</span></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="455" class="英文13">Lí<sub>33</sub> bē<sub>1</sub><sub>1</sub><u>sa</u><u>́</u><u>i<sub>33</sub></u> ka<sub>22</sub>ti<sub>1</sub><sub>1</sub>          tsi<img src="../../image/special/a_longpoint.png" width="9" height="15" />h<sub>30</sub></td>
+        <td width="34"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_change33_005.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="455">如果把「使」唸成本調： </td>
+        <td width="34"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="455" class="英文13">Lí<sub>33</sub> bē<sub>1</sub><sub>1</sub><u>sái<sub>31</sub></u>,
+          ka<sub>22</sub>tī<sub>1</sub><sub>1</sub> tsi<img src="../../image/special/a_longpoint.png" width="9" height="15" />h<sub>30</sub>.</td>
+        <td width="34"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_change33_006.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="455">意思變成：「汝<u>賣屎</u>（<span class="英文13">sái</span>）<sub>#</sub>家治食」（<span class="灰色內文1">你賣大便自己吃） </span></td>
+        <td width="34"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">下面這個笑話是聲調相同，都用變調，只是恰巧同音而引起誤會的例子。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><strong>4. <span class="英文13">Guá<sub>33</sub>kā<sub>1</sub><sub>1</sub>lí<sub>33</sub>kóng<sub>31</sub>,
+          lí<sub>33</sub>khì<sub>3</sub>tshī<sub>22</sub>á<sub>31</sub>    be<sub>1</sub><sub>1</sub><u>sai</u></span><sub>33</sub><span class="英文13">kong<sub>31</sub>.</span></strong></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="455">A.我共汝講，汝去市仔袂使講（<span class="英文13">bē-sái kóng</span>）</td>
+        <td width="34"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_change33_007.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="455">（我告訴你，你到了市場不可說） </td>
+        <td width="34"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="英文13"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="455">B.我共汝講：「汝去市仔賣屎管（<span class="英文13">bē sái-kóng</span>）！」 </td>
+        <td width="34"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_change33_008.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="英文13"><table width="507" height="20" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="455">（<span class="灰色內文1">我告訴你：「你去市場賣大便吧！」）</span></td>
+        <td width="34"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" colspan="2" class="內文">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

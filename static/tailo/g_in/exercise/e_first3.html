@@ -1,0 +1,325 @@
+<head>
+<meta charset="utf-8">
+<title>聲調對比練習</title>
+<style type="text/css">
+<!--
+.內文 {font-size: 12pt; }
+.英文13 {font-size: 13pt; }
+.灰色內文 {font-size: 12pt; color: <sub>#</sub>666666; }
+.style2 {font-size: 12pt; font-weight: bold; }
+body {
+	margin-top: 0px;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//.style25 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+-->
+</style>
+</head>
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+<body>
+<table width="570" height="685" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25" colspan="3" cursor:pointer" onClick="setFileName('e_first53_003.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" align="center" class="style25"> 第五課</td>
+        <td width="212" class="style25">韻頭</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="3" cursor:pointer" onClick="setFileName('e_first53_003.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/囡仔歌.gif" width="89" height="21" /></td>
+  </tr>
+  
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="內文">熟唸以下具有韻頭的囡仔歌：</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" align="center" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td width="32" height="15" align="center" class="內文"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
+    <td width="518" height="15" class="snd-missing style2" style="cursor:pointer" onClick="setFileName('e_first53_004.wav')" title="音檔已佚失（Wayback 未存）">正月正</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_first53_001.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">正月正、鑼鼓聲、砲仔聲</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="英文13">Tsiann-gu<img src="../../image/special/e_longpoint.png" width="8" height="15" />h
+            tsiann lô-kóo-siann phàu-á-siann.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="英文13">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="英文13"><table width="410" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="英文13">Phi-phi ph<img src="../../image/special/o_longpoint.png" width="9" height="13" />k-ph<img src="../../image/special/o_longpoint.png" width="9" height="13" />k <span class="內文">彈三聲</span></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="英文13">Phi-phi ph<img src="../../image/special/o_longpoint.png" width="9" height="13" />k-ph<img src="../../image/special/o_longpoint.png" width="9" height="13" />k
+      tuānn sann siann.</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">狡怪囡仔<sub>#</sub><img src="../../image/special/om.png" width="16" height="16">耳仔<sub>#</sub>喝毋驚</td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="英文13">Káu-kuài gín-á om hīnn-á huah <img src="../../image/special/m_overline.png" width="15" height="13" /> kiann.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="3" align="center"><img src="../../image/line.gif" width="510" height="2" /></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center" class="內文"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
+    <td height="15" class="snd-missing style2" style="cursor:pointer" onClick="setFileName('e_first53_005.wav')" title="音檔已佚失（Wayback 未存）">喂喂喂</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_first53_002.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">喂！喂！喂！臺灣<sub>#</sub>出甜粿</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="英文13">Ué! ué! ué! Tâi-uân tshut tinn-kué.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">甜粿<sub>#</sub>真好食，臺灣<sub>#</sub>出木屐</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td class="英文13">Tinn-kué tsin hó-tsi<img src="../../image/special/a_longpoint.png" width="9" height="15" />h,
+            Tâi-uân tshut b<img src="../../image/special/a_longpoint.png" width="9" height="15" />k-ki<img src="../../image/special/a_longpoint.png" width="9" height="15" />h.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">木屐<sub>#</sub>真好穿，臺灣<sub>#</sub>出佳鴒</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td class="英文13">B<img src="../../image/special/a_longpoint.png" width="9" height="15" />k-ki<img src="../../image/special/a_longpoint.png" width="9" height="15" />h
+            tsin hó tshīng, Tâi-uân tshut ka-līng.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">佳鴒<sub>#</sub>爻講話，臺灣<sub>#</sub>出棉被</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td class="英文13">Ka-līng gâu kóng-uē, Tâi-uân tshut
+            mî-phuē.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">棉被<sub>#</sub>蓋會燒，臺灣<sub>#</sub>出芎蕉</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="英文13">Mî-phuē kah ē-sio, Tâi-uân tshut kin-tsio.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">芎蕉<sub>#</sub>軟苕苕，臺灣<sub>#</sub>出大橋</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="19" class="英文13">Kin-tsio nńg-siô-sio, Tâi-uân tshut
+            tuā-kiô.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">大橋<sub>#</sub>造袂了，臺灣出粉鳥</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="英文13">Tuā kiô  tsō  bē liáu ,
+            Tâi-uân<sup> </sup> tshut-hún-tsiáu.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">粉鳥<sub>#</sub>飛峘峘，臺灣<sub>#</sub>出狀元</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文"><table width="410" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="英文13">Hún-tsiáu pue kuân-kuân, tâi-uân tshut tsiōng-guân.</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="20" height="15">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+    <td height="15" class="內文">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

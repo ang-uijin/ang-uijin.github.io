@@ -1,0 +1,715 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; }
+.style22 {font-size: 12pt; font-weight: bold; }
+body {
+	margin-top: 0px;
+}
+.style23 {font-size: 13pt}
+.style24 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+.style25 {font-size: 14pt}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//-->
+</style>
+</head>
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+<body>
+
+</head>
+
+<body>
+<table width="570" height="2101" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" align="center" class="style24"> 第二課</td>
+        <td width="212" class="style24">聲調</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="4"><img src="../../image/調值.gif" width="120" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19" height="15">&nbsp;</td>
+    <td width="32" height="15">&nbsp;</td>
+    <td height="15" colspan="2" class="style17"><p>「調值」是聲調的具體面貌，包括三種不同的性質：調階、調長、調勢，</p></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">不同聲調性質構成不同的調型。用「調階」、「調長」、「調勢」三個特</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">徵就可以完全掌握各種不同的調型。</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="19" height="15">&nbsp;</td>
+    <td height="15"><div align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></div></td>
+    <td height="15" colspan="2" class="style22">調階：低調<span class="style17">、</span>中調<span class="style17">、高調</span> </td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td width="518" height="15" class="style17">臺灣話一個音節（<span class="style23">syllable</span>）負載兩個「調素」（<span class="style23">tiāu-sòo
+    , toneme</span>），</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17">每一個調素都具有一個不同的「調階」（<span class="style23">tiāu-kai
+    , register</span>）。臺灣話普</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17">通腔的調階有三個：「高調」（<span class="style23">ko-tiāu, </span>或「峘調」<span class="style23">kuân-tiāu
+        , high
+    
+    tone=3</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17"><span class="style25">）、</span>「中調」<span class="style25">（</span><span class="style23">tiong-tiāu
+        , middle tone=2</span><span class="style25">）、</span>「低調」<span class="style25">（</span><span class="style23">kē-tiāu
+        / te-</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17"><span class="style23"> tiāu,low tone=1</span>）。以下以長平調為例來說明臺灣話三種不同的調階。調</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" class="style17">階的高低用1 , 2 , 3標示，1表低調，2表中調，3表高調。列如下表：</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="82" colspan="4" align="center"><table width="391" height="223" border="0" cellpadding="0" cellspacing="1">
+        <tr>
+          <td align="center" bgcolor="#FBA399"><span class="style17">低調（陰去）</span></td>
+          <td align="center" bgcolor="#FDD6B3"><span class="style17">中調（陽去）</span></td>
+          <td align="center" bgcolor="#FBA399"><span class="style17">高調（陰平）</span></td>
+        </tr>
+        <tr>
+          <td height="20" align="center" bgcolor="#FBA399">11</td>
+          <td align="center" bgcolor="#FDD6B3">22</td>
+          <td align="center" bgcolor="#FBA399"><p>33</p>          </td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">句 </td>
+                <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_003.wav')" title="音檔已佚失（Wayback 未存）">kù</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">舊 </td>
+              <td><span class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_002.wav')" title="音檔已佚失（Wayback 未存）">k</span>ū</td>
+            </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">龜</td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_001.wav')" title="音檔已佚失（Wayback 未存）">ku</td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">智</td>
+                <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_006.wav')" title="音檔已佚失（Wayback 未存）"> tì</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">治 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_005.wav')" title="音檔已佚失（Wayback 未存）">tī</td>
+            </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">豬 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_004.wav')" title="音檔已佚失（Wayback 未存）">ti</td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">再 </td>
+                <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_009.wav')" title="音檔已佚失（Wayback 未存）">tsài</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">在 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_008.wav')" title="音檔已佚失（Wayback 未存）">tsāi</td>
+            </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">知 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_007.wav')" title="音檔已佚失（Wayback 未存）">tsai</td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">夠 </td>
+                <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_012.wav')" title="音檔已佚失（Wayback 未存）">kàu</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">厚 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_011.wav')" title="音檔已佚失（Wayback 未存）">kāu</td>
+            </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">交 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_010.wav')" title="音檔已佚失（Wayback 未存）">kau</td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">鎮 </td>
+                <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_015.wav')" title="音檔已佚失（Wayback 未存）">tìn</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">陣 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_014.wav')" title="音檔已佚失（Wayback 未存）">tīn</td>
+            </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">珍 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_013.wav')" title="音檔已佚失（Wayback 未存）">tin</td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">敬 </td>
+                <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_018.wav')" title="音檔已佚失（Wayback 未存）">kìng</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">競 </td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_017.wav')" title="音檔已佚失（Wayback 未存）">kīng</td>
+            </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30">經</td>
+              <td class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone231_016.wav')" title="音檔已佚失（Wayback 未存）">king</td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="4" align="center"><img src="../../image/line.gif" width="510" height="2" /></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2"><div align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></div></td>
+    <td height="15" bordercolor="1" class="style22">調長：長調與短調</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" bordercolor="1" class="style17">閩南語聲調有「長調」（<span class="style23">t<img src="../../image/special/n_deltoid.png" width="10" height="13">g-tiāu</span>）（舒聲調）和「短調」（<span class="style23">té-tiāu</span>）（促</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" bordercolor="1" class="style17">聲調）的區別。促聲調（即入聲字的聲調）後半音節的調素被一個塞音所</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" bordercolor="1" class="style17">佔據，調尾的聲調無法顯現，成聲調的休止狀態（用[-0]標示），因而變</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" bordercolor="1" class="style17">成短調，謂之「促聲調」。但促聲調整個音節的調長（包括無聲的調尾）</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" bordercolor="1" class="style17">和舒聲調差不多，只是因為調尾無聲，聽起來比較短。下表是不同調高各</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15" bordercolor="1">有長調或短調的示<span class="style17">例：</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="267" colspan="4"><table width="558" height="222" border="0" align="center" cellpadding="1" cellspacing="1">
+      <tr>
+        <td width="51" height="22" align="center" bgcolor="#FCB574">&nbsp;</td>
+        <td width="26" align="center" bgcolor="#FCB574">長</td>
+        <td colspan="2" align="center" bgcolor="#FCB574" style="cursor:pointer" onClick="setFileName('s_tone232_019.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">舒聲字</td>
+        <td width="47" align="center" bgcolor="#FCB574">調類</td>
+        <td width="33" align="center" bgcolor="#FCB574">短</td>
+        <td colspan="2" align="center" bgcolor="#FCB574" style="cursor:pointer" onClick="setFileName('s_tone232_020.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"> 入聲字</td>
+        <td width="111" align="center" bgcolor="#FCB574">調類</td>
+      </tr>
+      <tr>
+        <td rowspan="3" align="center" bgcolor="#FBA399" style="cursor:pointer" onClick="setFileName('high.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">高調</td>
+        <td rowspan="3" align="center" bgcolor="#FEEDDE">33</td>
+        <td  align="center" bgcolor="#FEEDDE">珍</td>
+        <td  width="71" align="center" bgcolor="#FEEDDE" class="snd-missing style23" style="cursor:pointer"  onclick="setFileName('s_tone232_001.wav')" title="音檔已佚失（Wayback 未存）">tin</td>
+       
+        <td rowspan="3" align="center" bgcolor="#FEEDDE" style="cursor:pointer" onClick="setFileName('s_tone232_021.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陰平</td>
+        <td rowspan="3" align="center" bgcolor="#FEEDDE">30</td>
+        <td  align="center" bgcolor="#FEEDDE">直</td>
+        <td width="71" align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_002.wav')" title="音檔已佚失（Wayback 未存）">t<img src="../../image/special/i_longpoint.png" width="6" height="14" />t</td>
+       
+        <td rowspan="3" align="center" bgcolor="#FEEDDE" style="cursor:pointer" onClick="setFileName('s_tone232_024.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陽入（本調）</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#FEEDDE">新</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_003.wav')" title="音檔已佚失（Wayback 未存）">sin</td>
+      
+        <td align="center" bgcolor="#FEEDDE">實</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_004.wav')" title="音檔已佚失（Wayback 未存）">s<img src="../../image/special/i_longpoint.png" width="6" height="14" />t</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#FEEDDE">真</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_005.wav')" title="音檔已佚失（Wayback 未存）">tsin</td>
+        
+        <td align="center" bgcolor="#FEEDDE">一</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_006.wav')" title="音檔已佚失（Wayback 未存）">ts<img src="../../image/special/i_longpoint.png" width="6" height="14" />t</td>
+      </tr>
+      <tr>
+        <td rowspan="3" align="center" bgcolor="#FBA399" style="cursor:pointer" onClick="setFileName('midden.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">中調</td>
+        <td rowspan="3" align="center" bgcolor="#FDD6B3">22</td>
+        <td align="center" bgcolor="#FDD6B3">陣</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_007.wav')" title="音檔已佚失（Wayback 未存）">tīn</td>
+        
+        <td rowspan="3" align="center" bgcolor="#FDD6B3" style="cursor:pointer" onClick="setFileName('s_tone232_022.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陽去</td>
+        <td rowspan="3" align="center" bgcolor="#FDD6B3">20</td>
+        <td align="center" bgcolor="#FDD6B3">得</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_008.wav')" title="音檔已佚失（Wayback 未存）">tit</td>
+       
+        <td rowspan="3" align="center" bgcolor="#FDD6B3" style="cursor:pointer" onClick="setFileName('s_tone232_025.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陰入（本調）</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#FDD6B3">慎</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_009.wav')" title="音檔已佚失（Wayback 未存）">sīn</td>
+        
+        <td align="center" bgcolor="#FDD6B3">失</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_010.wav')" title="音檔已佚失（Wayback 未存）">sit</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#FDD6B3">盡</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_011.wav')" title="音檔已佚失（Wayback 未存）">tsīn</td>
+        
+        <td align="center" bgcolor="#FDD6B3">質</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_012.wav')" title="音檔已佚失（Wayback 未存）">tsit</td>
+      </tr>
+      <tr>
+        <td rowspan="3" align="center" bgcolor="#FBA399" style="cursor:pointer" onClick="setFileName('low.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">低調</td>
+        <td rowspan="3" align="center" bgcolor="#FEEDDE">11</td>
+        <td align="center" bgcolor="#FEEDDE">鎮</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_013.wav')" title="音檔已佚失（Wayback 未存）">tìn</td>
+        
+        <td rowspan="3" align="center" bgcolor="#FEEDDE" style="cursor:pointer" onClick="setFileName('s_tone232_023.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陰去</td>
+        <td rowspan="3" align="center" bgcolor="#FEEDDE">10</td>
+        <td align="center" bgcolor="#FEEDDE">直</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_014.wav')" title="音檔已佚失（Wayback 未存）">t<img src="../../image/special/i_longpoint.png" width="6" height="14" />t(-接)</td>
+       
+        <td rowspan="3" align="center" bgcolor="#FEEDDE" style="cursor:pointer" onClick="setFileName('s_tone232_024.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陽入（變調）</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#FEEDDE">信</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_015.wav')" title="音檔已佚失（Wayback 未存）">sìn</td>
+       
+        <td align="center" bgcolor="#FEEDDE">實</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_tone232_016.wav')" title="音檔已佚失（Wayback 未存）">s<img src="../../image/special/i_longpoint.png" width="6" height="14" />t(-在)</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#FEEDDE">進</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_017.wav')" title="音檔已佚失（Wayback 未存）">tsìn</td>
+        
+        <td align="center" bgcolor="#FEEDDE">一</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone232_018.wav')" title="音檔已佚失（Wayback 未存）">ts<img src="../../image/special/i_longpoint.png" width="6" height="14" />t<span class="style17">(-杯)</span></td>
+      </tr>
+    </table></td>
+  </tr>
+  
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="4" align="center"><img src="../../image/line.gif" width="510" height="2" /></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2"><div align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></div></td>
+    <td height="15"><span class="style22">調勢：平調、升調與降調</span></td>
+  </tr>
+  <tr>
+    <td height="19" colspan="3">&nbsp;</td>
+    <td height="19" class="style17">聲調並非只有平調，而是像地勢一樣有高低起伏，謂之「調勢」（<span class="style23">tiāu-</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><span class="style17"><span class="style23">sè，contour</span>）。音節調首、調尾的調高不變，是「平調」（</span><span class="style23">pênn-tiāu</span><span class="style17"> , </span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><span class="style17"><span class="style23">level tone</span>），前低後高就是「升調」（</span><span class="style23">sing-tiāu</span><span class="style17">，</span>或<span class="style17">「起調」</span><span class="style23">khí-tiāu<span class="style17">，</span> </span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><span class="style23">rising tone</span><span class="style17">），前高後低就是「降調」（</span><span class="style23">kàng-tiāu</span><span class="style17">，或</span><span class="style23"><span class="style17">「落調」</span>l<img src="../../image/special/o_longpoint.png" width="9" height="13">h-tiāu<span class="style17">， </span></span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td height="15"><span class="style23">    fallingtone<span class="style17">）。</span></span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="115" colspan="4" align="center"><table width="391" height="223" border="0" cellpadding="0" cellspacing="1">
+        <tr>
+          <td align="center" bgcolor="#FBA399"style="cursor:pointer" onClick="setFileName('s_tone233_016.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><span class="style17">平調（陰平）</span></td>
+          <td align="center" bgcolor="#FDD6B3"style="cursor:pointer" onClick="setFileName('s_tone233_017.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><span class="style17">升調（陽平）</span></td>
+          <td align="center" bgcolor="#FBA399"style="cursor:pointer" onClick="setFileName('s_tone233_018.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><span class="style17">降調（陰上）</span></td>
+        </tr>
+        <tr>
+          <td height="20" align="center" bgcolor="#FBA399">33</td>
+          <td align="center" bgcolor="#FDD6B3">12</td>
+          <td align="center" bgcolor="#FBA399"><p>31</p>          </td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">豬 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_001.wav')" title="音檔已佚失（Wayback 未存）">ti</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">池</td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_002.wav')" title="音檔已佚失（Wayback 未存）"> tî</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">抵</td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_003.wav')" title="音檔已佚失（Wayback 未存）"> tí</td>
+              </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">交 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_004.wav')" title="音檔已佚失（Wayback 未存）">kau</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">猴 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_005.wav')" title="音檔已佚失（Wayback 未存）">kâu</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">狗 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_006.wav')" title="音檔已佚失（Wayback 未存）">káu</td>
+              </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">心 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_007.wav')" title="音檔已佚失（Wayback 未存）">sim</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">尋 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_008.wav')" title="音檔已佚失（Wayback 未存）">sîm</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">審 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_009.wav')" title="音檔已佚失（Wayback 未存）">sím</td>
+              </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">真 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_010.wav')" title="音檔已佚失（Wayback 未存）">tsin</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">秦 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_011.wav')" title="音檔已佚失（Wayback 未存）">tsîn</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">診 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_012.wav')" title="音檔已佚失（Wayback 未存）">tsín</td>
+              </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">經 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_013.wav')" title="音檔已佚失（Wayback 未存）">king</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FDD6B3"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">窮 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_014.wav')" title="音檔已佚失（Wayback 未存）">kîng</td>
+              </tr>
+          </table></td>
+          <td align="center" bgcolor="#FBA399"><table width="77" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30">景 </td>
+                <td class="snd-missing style23"style="cursor:pointer" onClick="setFileName('s_tone233_015.wav')" title="音檔已佚失（Wayback 未存）">kíng</td>
+              </tr>
+          </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="4" align="center"><img src="../../image/line.gif" width="510" height="2" /></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2"><div align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></div></td>
+    <td height="15"><span class="style22">本調的調型</span></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" class="style17">本調只有七個，缺第六聲，「呼八音」（<span class="style23">hoo-pat-im</span>）時通常以第二聲補</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" class="style17">缺。八音本調的調型如下（以tong為例）：</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center"><table width="399" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="98" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('s_tone234_001.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+        <td width="98" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('s_tone234_002.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+        <td width="98" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('s_tone234_003.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+        <td width="105" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('s_tone234_004.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center"><table width="399" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="98" align="center" class="style17">陰平</td>
+        <td width="98" align="center" class="style17">陰上</td>
+        <td width="98" align="center" class="style17">陰去</td>
+        <td width="105" align="center" class="style17">陰入</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center"><table width="399" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="99" align="center" class="style17">第 1 聲</td>
+        <td width="95" align="center" class="style17">第 2 聲</td>
+        <td width="103" align="center" class="style17">第 3 聲</td>
+        <td width="102" align="center" class="style17">第 4 聲</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4" align="center"><img src="../../image/2-3-4本調的特性01.gif" width="405" height="82" /></td>
+  </tr>
+  <tr>
+    <td height="20" colspan="4" align="center" class="style17"><table width="408" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="102" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('s_tone234_005.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+        <td width="102" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('s_tone234_006.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+        <td width="102" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('s_tone234_007.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+        <td width="105" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('s_tone234_008.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4" align="center" class="style17"><table width="408" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="102" align="center" class="style17">陽平</td>
+        <td width="106" align="center" class="style17">（陽上）</td>
+        <td width="97" align="center" class="style17">陽去</td>
+        <td width="102" align="center" class="style17">陽入</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4" align="center" class="style17"><table width="408" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="103" align="center" class="style17">第 5 聲</td>
+        <td width="108" align="center" class="style17">(第 6 聲)</td>
+        <td width="96" align="center" class="style17">第 7 聲</td>
+        <td width="104" align="center" class="style17">第 8 聲</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4" align="center" class="style17"><img src="../../image/2-3-4本調的特性02.gif" width="406" height="85" /></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3" align="center" class="style17">&nbsp;</td>
+    <td height="15" class="style17">比較各聲調的調型，我們發現陰四聲或陽四聲調階（不計缺6聲）的發展</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3" align="center" class="style17">&nbsp;</td>
+    <td height="15" class="style17">有一個連續性，請<span class="style17">看下表：</span></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4" align="center" class="style17"><table width="318" height="32" border="0" cellpadding="1" cellspacing="1">
+      <tr>
+        <td width="45" align="center" class="style17"><img src="../../image/音鈕.gif" style="cursor:pointer"  onClick="setFileName('s_tone234_009.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+        <td width="59" align="center" class="style17">&nbsp;</td>
+        <td width="38" align="center" class="style17">&nbsp;</td>
+        <td width="38" align="center" class="style17">&nbsp;</td>
+        <td width="38" align="center" class="style17">&nbsp;</td>
+        <td width="38" align="center" class="style17">&nbsp;</td>
+        <td width="40" align="center" class="style17">&nbsp;</td>
+      </tr>
+
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4" align="center" class="style17"><table width="357" height="53" border="0" cellpadding="1" cellspacing="1">
+        <tr>
+          <td align="center" bgcolor="#CCCC99" class="style17">一</td>
+          <td align="center" bgcolor="#CCCC99" class="style17">二</td>
+          <td align="center" bgcolor="#CCCC99" class="style17">三</td>
+          <td align="center" bgcolor="#CCCC99" class="style17">四</td>
+          <td align="center" bgcolor="#CCCC99" class="style17">五</td>
+          <td align="center" bgcolor="#CCCC99" class="style17">七</td>
+          <td align="center" bgcolor="#CCCC99" class="style17">八</td>
+          <td rowspan="2" align="center" class="style17">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="middle" bgcolor="#F3F3F3" class="style17"><p align="center">33</p></td>
+          <td valign="middle" bgcolor="#F3F3F3" class="style17"><p align="center">31</p></td>
+          <td valign="middle" bgcolor="#F3F3F3" class="style17"><p align="center">11</p></td>
+          <td valign="middle" bgcolor="#F3F3F3" class="style17"><p align="center">20</p></td>
+          <td valign="middle" bgcolor="#F3F3F3" class="style17"><p align="center">12</p></td>
+          <td valign="middle" bgcolor="#F3F3F3" class="style17"><p align="center">22</p></td>
+          <td valign="middle" bgcolor="#F3F3F3" class="style17"><p align="center">30</p></td>
+        </tr>
+        </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4" align="center" class="style17"><table width="355" height="53" border="0" cellpadding="1" cellspacing="1">
+        <tr>
+          <td colspan="7" align="center" class="style17"><p align="center"><img src="../../image/2-3-4本調的特性03.gif" width="291" height="42" /></p></td>
+          <td width="22" align="center" class="style17">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center" class="style17">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3" align="center" class="style17">&nbsp;</td>
+    <td height="15" class="style17">調型比較抽象，記住上表所示的關係，對於記住調序，辨別調類是有幫助</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3" align="center" class="style17">&nbsp;</td>
+    <td height="15" class="style17"><span class="style17">的。</span></td>
+  </tr>
+  
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>
