@@ -1,0 +1,371 @@
+<head>
+<meta charset="utf-8">
+<title>音標測驗</title>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #E5D0BA;
+}
+.style12 {font-size: 16px}
+#Layer5 .style12 a {
+}
+.style17 {font-size: 12pt; font-family: "細明體"; }
+#Layer4 {	position:absolute;
+	left:261px;
+	top:114px;
+	width:608px;
+	height:383px;
+	z-index:4;
+	overflow: auto;
+}
+#Layer5 {
+	position:absolute;
+	left:186px;
+	top:133px;
+	width:610px;
+	height:31px;
+	z-index:5;
+}
+#Layer3 {	position:absolute;
+	left:113px;
+	top:118px;
+	width:116px;
+	height:320px;
+	z-index:3;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+.altbg1			{
+	color: #85645E;
+	background-color:#F0E3D7;	
+}
+.altbg2			{ background: #FFFFFF }
+
+/*NM_customscrollEnd*/
+//a:hover {
+	color: #C0C0C0;
+}
+.style13 {color: #333333;
+	font-size: 10pt;
+}
+.style19 {font-size: 10pt}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+-->
+</style>
+<style>
+.tl-bar{box-sizing:border-box;display:flex;align-items:center;gap:14px;padding:0 14px;height:38px;background:#5a3a1a;color:#f3e6cf;font:14px/1 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;white-space:nowrap;overflow:hidden}
+.tl-bar a{color:#ffd9a0;text-decoration:none}.tl-bar a:hover{text-decoration:underline}
+.tl-bar .t{font-weight:700;letter-spacing:.04em}.tl-bar .s{opacity:.8;font-size:12.5px}.tl-bar .r{margin-left:auto}
+@media (max-width:700px){.tl-bar{font-size:13px;gap:10px}.tl-bar .s{display:none}}
+</style></head>
+<script language="javascript" type="text/javascript">
+<!--
+
+var topoverArray=new Array();
+topoverArray.push("image/test1_toporiginal.gif");
+topoverArray.push("image/test2_toporiginal.gif");
+topoverArray.push("image/test3_toporiginal.gif");
+var topArray=new Array();
+topArray.push("image/test1_toporiginal.gif");
+topArray.push("image/test2_toporiginal.gif");
+topArray.push("image/test3_toporiginal.gif");
+//
+var imgoArray1=new Array();
+//imgoArray1.push("image/test11_original.gif");
+var imgoArray2=new Array();
+imgoArray2.push("image/test21_original.gif");
+imgoArray2.push("image/test22_original.gif");
+imgoArray2.push("image/test23_original.gif");
+imgoArray2.push("image/test24_original.gif");
+imgoArray2.push("image/test25_original.gif");
+imgoArray2.push("image/test26_original.gif");
+var imgoArray3=new Array();
+imgoArray3.push("image/test31_original.gif");
+imgoArray3.push("image/test32_original.gif");
+imgoArray3.push("image/test33_original.gif");
+imgoArray3.push("image/test34_original.gif");
+//
+var imghArray1=new Array();
+//imghArray1.push("image/test11_over.gif");
+var imghArray2=new Array();
+imghArray2.push("image/test21_original.gif");
+imghArray2.push("image/test22_original.gif");
+imghArray2.push("image/test23_original.gif");
+imghArray2.push("image/test24_original.gif");
+imghArray2.push("image/test25_original.gif");
+imghArray2.push("image/test26_original.gif");
+var imghArray3=new Array();
+imghArray3.push("image/test31_original.gif");
+imghArray3.push("image/test32_original.gif");
+imghArray3.push("image/test33_original.gif");
+imghArray3.push("image/test34_original.gif");
+//
+var imgcArray1=new Array();
+//imgcArray1.push("image/test11_click.gif");
+var imgcArray2=new Array();
+imgcArray2.push("image/test21_original.gif");
+imgcArray2.push("image/test22_original.gif");
+imgcArray2.push("image/test23_original.gif");
+imgcArray2.push("image/test24_original.gif");
+imgcArray2.push("image/test25_original.gif");
+imgcArray2.push("image/test26_original.gif");
+var imgcArray3=new Array();
+imgcArray3.push("image/test31_original.gif");
+imgcArray3.push("image/test32_original.gif");
+imgcArray3.push("image/test33_original.gif");
+imgcArray3.push("image/test34_original.gif");
+//
+function hover(obj, num1, num2){
+	if(obj.click){return;}
+	obj.src = eval("imghArray"+num1)[num2-1];
+}
+function out(obj, num1, num2){
+	if(obj.click){return;}
+	obj.src = eval("imgoArray"+num1)[num2-1];
+}
+function clickimg(obj, num1, num2){
+	for(var i=1;i<=topArray.length;i++){
+		for(var j=1;j<=eval("imgoArray"+i).length;j++){
+			var iobj=document.all["Img"+i+j];
+			iobj.click=false;
+			out(iobj, i, j);
+		}
+	}
+	if(obj==undefined){return;}
+	obj.click=true;
+	obj.src = eval("imgcArray"+num1)[num2-1];
+}
+//
+function image(obj){
+	var tmpNum=Number(obj.id.substr(2));
+	obj.background=topoverArray[tmpNum-1];	
+}
+function imageout(obj){
+	var tmpNum=Number(obj.id.substr(2));	
+	var tmpobj=document.all["tr"+tmpNum];
+	if(tmpobj.style.display=="block"){return;}
+	obj.background=topArray[tmpNum-1];	
+}
+function menu(obj){
+	var tmpNum=Number(obj.id.substr(2));
+	var oneflag=false;
+	for(var i=1;i<=topArray.length;i++){
+		var tmpobj=document.all["tr"+i];
+		if(tmpNum==i){			
+			if( tmpobj.style.display != "block" ){
+				tmpobj.style.display = "block";
+				oneflag = true;			
+			}
+		}else{
+			tmpobj.style.display = "none";
+		}
+	}	
+	for(var i=1;i<=topArray.length;i++){
+	tmpobj=document.all["td"+i];
+	imageout(tmpobj)
+	}
+	image(obj);
+	if(oneflag==true){
+		var obj2=document.all["Img"+tmpNum+"1"];
+		clickimg(obj2, tmpNum, 1);
+		if(document.all["a"+tmpNum+"1"]==undefined){
+			return;
+		}else{
+			var href = document.all["a"+tmpNum+"1"].href;
+			document.main.location.href = href;
+		}
+	}
+}
+function initclickimg(obj1, obj2, num1, num2){
+	menu(obj1);
+	clickimg(obj2, num1, num2)
+}
+function getURLParameters(argName) {
+	var sURL = window.document.URL.toString();
+	if (sURL.indexOf("?")>0) {
+		var arrParams = sURL.split("?");
+		var arrURLParams = arrParams[1].split("&");
+		var arrParamNames = new Array(arrURLParams.length);
+		var arrParamValues = new Array(arrURLParams.length);
+		var i = 0;
+		for (i=0; i<arrURLParams.length; i++) {
+			var sParam = arrURLParams[i].split("=");
+			arrParamNames[i] = sParam[0];
+			if (sParam[0] == argName) {
+				if (sParam[1] != "") {
+					return unescape(sParam[1]);
+				} else {
+					return "1";
+				}
+			}
+		}
+	}
+	return "1";
+}
+function resetpg(){
+	var num1 = (getURLParameters("num1"));
+	var num2 = (getURLParameters("num2"));
+	initclickimg(document.all["td"+num1], document.all["Img"+num1+num2], num1, num2)
+}
+-->
+</script>
+<body onLoad="resetpg();"><div class="tl-bar"><a href="/">← 回治言齋</a><span class="t">臺灣閩南語羅馬拼音及其發音學習網</span><span class="s">國立臺中教育大學臺灣語文學系　2007　·　Flash 內容以 Ruffle 重現</span><a class="r" href="notice.htm">說明</a></div>
+<table width="649" height="543" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="93" rowspan="4" valign="top" bgcolor="#E5D0BA"><img src="image/main_07.gif" width="93" height="21" /></td>
+    <td width="403"><img src="image/main_01.gif" width="403" height="52" /></td>
+    <td width="378" background="image/main_02.gif"><table width="378" height="51" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="223">&nbsp;</td>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td width="73" align="center" valign="bottom">&nbsp;</td>
+        <td width="82" align="center" valign="bottom"><span class="style13"><a href="declare.htm">版權聲明</a></span></td>
+      </tr>
+    </table></td>
+    <td width="93" rowspan="4" valign="top" bgcolor="#E5D0BA"><img src="image/main_07.gif" width="93" height="21" /></td>
+  </tr>
+  <tr>
+    <td height="51" colspan="2" align="left" valign="bottom" background="image/main_03.gif"><table width="780" height="50" border="0" cellpadding="1" cellspacing="1">
+      <tr>
+        <td width="39" rowspan="2">&nbsp;</td>
+        <td width="580" rowspan="2" align="left"> <div class="rf-swf" data-swf="flash/test_BT.swf" data-wmode="transparent" style="width:580px;height:36px"></div></td>
+        <td height="25" align="center" valign="middle" class="style13 style19"><span class="style13"><a href="guide.htm">網站導覽</a></span></td>
+        <td align="center" valign="middle" class="style13 style19"><a href="link.htm">相關連結</a></td>
+      </tr>
+      <tr>
+        <td align="left">&nbsp;</td>
+        <td width="75" align="left">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><table width="781" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="136" height="424" valign="top" style="background-image:url(image/main_04.gif);	background-repeat: no-repeat;">
+		<table width="123" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:15px 0px 0px 0px;">
+		
+          <tr>
+            <td id="td1" colspan="2" align="left" valign="top" onClick="javascript:menu(this);" background="image/test1_toporiginal.gif" onMouseOver="image(this);" onMouseOut="imageout(this);" style="height:25px; width:123px; background-repeat:no-repeat">
+			<a id="a11" href="g_in/test/test_in.html" target="main"><table id="tr1" style="display:block; margin:0px 0px 0px 0px;" border="0" cellspacing="0" cellpadding="0">
+            <tr><td></td></tr></table></a></td>
+          </tr>
+		  
+          <tr>
+            <td id="td2" colspan="2" align="left" valign="top" onClick="javascript:menu(this);" background="image/test2_toporiginal.gif"  onmouseover="image(this);" onMouseOut="imageout(this);" style="height:25px; width:123px; background-repeat:no-repeat">
+			<table id="tr2" style="display:none; margin:25px 0px 0px 0px;" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><a id="a21" href="g_in/test/test2-1-choose.html" target="main"><img id="Img21" src="image/test21_original.gif" border="0" onClick="clickimg(this, 2, 1);" onMouseOver="hover(this, 2, 1);" onMouseOut="out(this, 2, 1);" /></a></td>
+              </tr>
+              <tr>
+                <td><a id="a22" href="g_in/test/test2-2-choose.html" target="main"><img id="Img22" src="image/test22_original.gif" border="0" onClick="clickimg(this, 2, 2);" onMouseOver="hover(this, 2, 2);" onMouseOut="out(this, 2, 2);" /></a></td>
+              </tr>
+              <tr>
+                <td><a id="a23" href="g_in/test/test2-3-choose.html" target="main"><img id="Img23" src="image/test23_original.gif" border="0" onClick="clickimg(this, 2, 3);" onMouseOver="hover(this, 2, 3);" onMouseOut="out(this, 2, 3);" /></a></td>
+              </tr>
+              <tr>
+                <td><a id="a24" href="g_in/test/test2-4-choose.html" target="main"><img id="Img24" src="image/test24_original.gif" border="0" onClick="clickimg(this, 2, 4);" onMouseOver="hover(this, 2, 4);" onMouseOut="out(this, 2, 4);" /></a></td>
+              </tr>
+              <tr>
+                <td><a id="a25" href="g_in/test/test2-5-choose.html" target="main"><img id="Img25" src="image/test25_original.gif" border="0" onClick="clickimg(this, 2, 5);" onMouseOver="hover(this, 2, 5);" onMouseOut="out(this, 2, 5);" /></a></td>
+              </tr>
+              <tr>
+                <td><a id="a26" href="g_in/test/test2-6-choose.html" target="main"><img id="Img26" src="image/test26_original.gif" border="0" onClick="clickimg(this, 2, 6);" onMouseOver="hover(this, 2, 6);" onMouseOut="out(this, 2, 6);" /></a></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td id="td3" colspan="2" align="left" valign="top" onClick="javascript:menu(this);" background="image/test3_toporiginal.gif"  onmouseover="image(this);" onMouseOut="imageout(this);" style="height:25px; width:123px; background-repeat:no-repeat">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" style="display:none; margin:25px 0px 0px 0px;" id="tr3">
+              <tr>
+                <td><a id="a31" href="g_in/test/test3-1-choose.html" target="main"><img id="Img31" src="image/test31_original.gif" border="0" onClick="clickimg(this, 3, 1);" onMouseOver="hover(this, 3, 1);" onMouseOut="out(this, 3, 1);" /></a></td>
+              </tr>
+              <tr>
+                <td><a id="a32" href="g_in/test/test3-2-choose.html" target="main"><img id="Img32" src="image/test32_original.gif" border="0" onClick="clickimg(this, 3, 2);" onMouseOver="hover(this, 3, 2);" onMouseOut="out(this, 3, 2);" /></a></td>
+              </tr>
+              <tr>
+                <td><a id="a33" href="g_in/test/test3-3-choose.html" target="main"><img id="Img33" src="image/test33_original.gif" border="0" onClick="clickimg(this, 3, 3);" onMouseOver="hover(this, 3, 3);" onMouseOut="out(this, 3, 3);" /></a></td>
+              </tr>
+              <tr>
+                <td><a id="a34" href="g_in/test/test3-4-choose.html" target="main"><img id="Img34" src="image/test34_original.gif" border="0" onClick="clickimg(this, 3, 4);" onMouseOver="hover(this, 3, 4);" onMouseOut="out(this, 3, 4);" /></a></td>
+              </tr>
+            </table></td>
+          </tr>
+
+        </table></td>
+        <td width="640" background="image/main_05.gif"><table width="620" height="379" border="0" align="center" cellpadding="0" cellspacing="0" id="mainframe">
+          <tr>
+            <td><iframe src="g_in/test/test_in.html" name="main" width="620" height="379" scrolling="yes" frameborder="0" id="main" allowtransparency="true"></iframe></td>
+          </tr>
+<tr>
+            <td>&nbsp;</td>
+</tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="image/main_06.gif" width="781" height="33" /></td>
+  </tr>
+</table>
+
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+  publicPath: "/ruffle/", polyfills: false, autoplay: "on", unmuteOverlay: "hidden",
+  splashScreen: false, letterbox: "off", scale: "showAll", warnOnUnsupportedContent: false,
+  showSwfDownload: false, openUrlMode: "allow",
+  allowScriptAccess: true,                      // false 會擋掉 getURL 對目前分頁的導頁（空 target／_self），導覽鈕就點不動
+  base: location.href.replace(/[#?].*$/, "").replace(/[^\/]*$/, "")   // swf 內的 getURL 用相對路徑；Ruffle 把 base 當目錄接，所以給頁面所在目錄（給頁面網址會變成 sound.htm/word.htm）
+};
+</script>
+<script src="/ruffle/ruffle.js"></script>
+<script>
+(function () {
+  function boot() {
+    var api = window.RufflePlayer && window.RufflePlayer.newest && window.RufflePlayer.newest();
+    if (!api) { document.querySelectorAll(".rf-swf").forEach(function (el) { el.title = "Ruffle 載入失敗"; }); return; }
+    document.querySelectorAll(".rf-swf[data-swf]").forEach(function (el) {
+      var p = api.createPlayer();
+      p.style.display = "block";
+      if (el.getAttribute("data-fill")) { p.style.position = "absolute"; p.style.inset = "0"; p.style.width = "100%"; p.style.height = "100%"; }
+      else { p.style.width = el.style.width; p.style.height = el.style.height; }
+      el.appendChild(p);
+      p.ruffle().load({ url: el.getAttribute("data-swf"), wmode: el.getAttribute("data-wmode") || "window" });
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
+})();
+</script>
+</body>
+</html>

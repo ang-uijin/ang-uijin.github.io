@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>臺灣閩南語羅馬拼音及其發音學習網｜洪惟仁治言齋</title>
+<meta name="description" content="洪惟仁、簡佳敏 2007 年為國立臺中教育大學臺灣語文學系製作的臺羅拼音教學網站：拼音方案手冊、音韻清單、課文、發音練習、音標測驗、十五音字母表；原以 Flash 製作，2026 年以 Ruffle 重現。">
+<link rel="canonical" href="https://uijin.idv.tw/tailo/">
+<style>
+.tl-bar{box-sizing:border-box;display:flex;align-items:center;gap:14px;padding:0 14px;height:38px;background:#5a3a1a;color:#f3e6cf;font:14px/1 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;white-space:nowrap;overflow:hidden}
+.tl-bar a{color:#ffd9a0;text-decoration:none}.tl-bar a:hover{text-decoration:underline}
+.tl-bar .t{font-weight:700;letter-spacing:.04em}.tl-bar .s{opacity:.8;font-size:12.5px}.tl-bar .r{margin-left:auto}
+@media (max-width:700px){.tl-bar{font-size:13px;gap:10px}.tl-bar .s{display:none}}
+</style>
+<style>
+html,body{margin:0;min-height:100%;background:#964239}   /* 原站的 images/back_down.gif 沒存到，只留底色 */
+.intro{max-width:1000px;margin:0 auto;padding:0}
+.intro .rf-swf{position:relative;width:100%;aspect-ratio:1000/572;background:#336699;overflow:hidden}
+.intro .alt{color:#f3e6cf;font:14px/1.8 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;padding:14px;text-align:center}
+.intro .alt a{color:#ffd9a0}
+</style>
+</head>
+<body>
+<div class="tl-bar"><a href="/">← 回治言齋</a><span class="t">臺灣閩南語羅馬拼音及其發音學習網</span><span class="s">國立臺中教育大學臺灣語文學系　2007　·　Flash 內容以 Ruffle 重現</span><a class="r" href="notice.htm">說明</a></div>
+<div class="intro">
+  <div class="rf-swf" data-swf="flash/index.swf" data-wmode="window" data-fill="1"></div>
+  <p class="alt">片頭是 Flash 動畫，以 Ruffle 模擬播放；若沒有畫面，可直接進入
+    <a href="educate.htm">教育部公告　臺羅拼音手冊</a>、<a href="form.htm">音韻清單</a>、<a href="sound.htm">課文</a>、
+    <a href="exercise.htm">發音練習</a>、<a href="test.htm">音標測驗</a>、<a href="word.htm">台灣十五音字母表</a>、
+    <a href="consultation.htm">參考資料</a>、<a href="guide.htm">網站導覽</a>、<a href="declare.htm">版權聲明</a>、<a href="link.htm">相關連結</a>。</p>
+</div>
+
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+  publicPath: "/ruffle/", polyfills: false, autoplay: "on", unmuteOverlay: "hidden",
+  splashScreen: false, letterbox: "off", scale: "showAll", warnOnUnsupportedContent: false,
+  showSwfDownload: false, openUrlMode: "allow",
+  allowScriptAccess: true,                      // false 會擋掉 getURL 對目前分頁的導頁（空 target／_self），導覽鈕就點不動
+  base: location.href.replace(/[#?].*$/, "").replace(/[^\/]*$/, "")   // swf 內的 getURL 用相對路徑；Ruffle 把 base 當目錄接，所以給頁面所在目錄（給頁面網址會變成 sound.htm/word.htm）
+};
+</script>
+<script src="/ruffle/ruffle.js"></script>
+<script>
+(function () {
+  function boot() {
+    var api = window.RufflePlayer && window.RufflePlayer.newest && window.RufflePlayer.newest();
+    if (!api) { document.querySelectorAll(".rf-swf").forEach(function (el) { el.title = "Ruffle 載入失敗"; }); return; }
+    document.querySelectorAll(".rf-swf[data-swf]").forEach(function (el) {
+      var p = api.createPlayer();
+      p.style.display = "block";
+      if (el.getAttribute("data-fill")) { p.style.position = "absolute"; p.style.inset = "0"; p.style.width = "100%"; p.style.height = "100%"; }
+      else { p.style.width = el.style.width; p.style.height = el.style.height; }
+      el.appendChild(p);
+      p.ruffle().load({ url: el.getAttribute("data-swf"), wmode: el.getAttribute("data-wmode") || "window" });
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
+})();
+</script>
+
+</body>
+</html>

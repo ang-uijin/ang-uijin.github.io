@@ -1,0 +1,927 @@
+<head>
+<meta charset="utf-8">
+<title>聲母基本練習</title>
+<style type="text/css">
+<!--
+.內文 {font-size: 12pt; }
+.style22 {font-size: 12pt; font-weight: bold; }
+.style23 {font-size: 12pt; font-family: "細明體"; }
+body {
+	margin-top: 0px;
+}
+.style26 {font-size: 13pt}
+.style24 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//-->
+</style>
+</head>
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {"e_ma111_002.wav":1,"e_ma111_003.wav":1,"e_ma111_004.wav":1,"e_ma111_005.wav":1,"e_ma111_007.wav":1,"e_ma111_008.wav":1,"e_ma111_009.wav":1,"e_ma111_010.wav":1,"e_ma111_012.wav":1,"e_ma111_013.wav":1,"e_ma111_014.wav":1,"e_ma111_015.wav":1,"e_ma111_017.wav":1,"e_ma111_018.wav":1,"e_ma111_019.wav":1,"e_ma111_020.wav":1,"e_ma112_002.wav":1,"e_ma112_003.wav":1,"e_ma112_004.wav":1,"e_ma112_005.wav":1,"e_ma112_007.wav":1,"e_ma112_008.wav":1,"e_ma112_009.wav":1,"e_ma112_010.wav":1,"e_ma112_012.wav":1,"e_ma112_013.wav":1,"e_ma112_014.wav":1,"e_ma112_015.wav":1,"e_ma112_017.wav":1,"e_ma112_018.wav":1,"e_ma112_019.wav":1,"e_ma112_020.wav":1,"e_ma113_002.wav":1,"e_ma113_003.wav":1,"e_ma113_004.wav":1,"e_ma113_005.wav":1,"e_ma113_007.wav":1,"e_ma113_008.wav":1,"e_ma113_009.wav":1,"e_ma113_010.wav":1,"e_ma113_012.wav":1,"e_ma113_013.wav":1,"e_ma113_014.wav":1,"e_ma113_015.wav":1,"e_ma113_017.wav":1,"e_ma113_018.wav":1,"e_ma113_019.wav":1,"e_ma113_020.wav":1,"e_ma114_002.wav":1,"e_ma114_003.wav":1,"e_ma114_004.wav":1,"e_ma114_005.wav":1,"e_ma114_007.wav":1,"e_ma114_008.wav":1,"e_ma114_009.wav":1,"e_ma114_010.wav":1,"e_ma114_012.wav":1,"e_ma114_013.wav":1,"e_ma114_014.wav":1,"e_ma114_015.wav":1,"e_ma114_017.wav":1,"e_ma114_018.wav":1,"e_ma114_019.wav":1,"e_ma114_020.wav":1,"e_ma115_002.wav":1,"e_ma115_003.wav":1,"e_ma115_004.wav":1,"e_ma115_005.wav":1,"e_ma115_007.wav":1,"e_ma115_008.wav":1,"e_ma115_009.wav":1,"e_ma115_010.wav":1};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+<body>
+<table width="570" height="2071" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" align="center" class="style24"> 第一課</td>
+        <td width="212" class="style24">聲母</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="4"><img src="../../image/聲母基本練習.gif" width="162" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19" height="10">&nbsp;</td>
+    <td width="32" height="10" align="center">&nbsp;</td>
+    <td height="10" colspan="2" class="內文"><p>閩南語鼻音聲母的一套比較平常，但濁音的一套則比較特殊，非閩南人應</p></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="2">&nbsp;</td>
+    <td height="10" colspan="2" class="內文">特別著重於濁音的練習，非漢語人士應著重於送氣音的練習。以下 <span class="style26">b
+        , l ,</span></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="2">&nbsp;</td>
+    <td height="10" colspan="2" class="內文"><span class="style26"> g , j </span>是濁音，清聲母加了<span class="style26"> h-</span> 的是送氣音。 </td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="19" height="10">&nbsp;</td>
+    <td height="10"><div align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></div></td>
+    <td height="10" colspan="2" class="snd-missing style22" style="cursor:pointer" onClick="setFileName('s_ma142_022.wav')" title="音檔已佚失（Wayback 未存）">唇音</td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="369" colspan="4"><table width="417" height="364" border="0" align="center" cellpadding="1" cellspacing="1">
+      <tr>
+        <td width="65" rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">邊 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma111_001.wav')" title="音檔已佚失（Wayback 未存）">[p]</span> </td>
+            </tr>
+          </table></td>
+        <td width="68" bgcolor="#CCCC99" class="內文">北爿</td>
+        <td width="158" align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" align="left" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_002.wav')" title="播放">pak-pîng </td>
+            </tr>
+          </table></td>
+        <td width="113" height="15" bgcolor="#CCCC99" class="內文">北邊</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99" class="內文">北部</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" align="left" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_003.wav')" title="播放">pak-pōo </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99" class="內文">包辦</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" align="left" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_004.wav')" title="播放">pau-pān </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99" class="內文">備辦</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_005.wav')" title="播放">pī-pān </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">準備</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">波<span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma111_006.wav')" title="音檔已佚失（Wayback 未存）">[ph]</span> </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">普遍</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_007.wav')" title="播放">phóo-phiàn </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#F3F3F3" class="內文">扑歹</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_008.wav')" title="播放">phah-pháinn</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">打壞</td>
+      </tr>
+      <tr>
+        <td bgcolor="#F3F3F3" class="內文">扑破</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_009.wav')" title="播放">phah-phuà </td>
+          </tr>
+        </table></td>
+        <td bgcolor="#F3F3F3" class="內文"><p>打破 </p></td>
+      </tr>
+      <tr>
+        <td bgcolor="#F3F3F3" class="內文">漂撇</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_010.wav')" title="播放">phiau-phiat </td> 
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">瀟洒</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">文 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma111_011.wav')" title="音檔已佚失（Wayback 未存）">[m]</span> </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">媽媽</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer"  onClick="setFileName('e_ma111_012.wav')" title="播放">ma-ma</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99" class="內文">疼命命</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_013.wav')" title="播放">(thiànn) miā-miā </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">疼愛</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99" class="內文">幼麵麵</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_014.wav')" title="播放">(iù) mī-mī</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">幼嫩</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99" class="內文">咪咪芼芼</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_015.wav')" title="播放">mi-mi mauh-mauh </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">很慘</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">文 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma111_016.wav')" title="音檔已佚失（Wayback 未存）">[ b]</span> </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">文明</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_017.wav')" title="播放">bûn-bîng          </span></td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#F3F3F3" class="內文"><p>文物</p></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_018.wav')" title="播放">bûn-b<img src="../../image/special/u_longpoint.png" width="9" height="13" />t </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#F3F3F3" class="內文">目眉 </td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_019.wav')" title="播放"><span class="style26">b<img src="../../image/special/a_longpoint.png" width="9" height="15" />k-bâi          </span></td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">眉毛</td>
+      </tr>
+      <tr>
+        <td bgcolor="#F3F3F3" class="內文">無味 </td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" align="left" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma111_020.wav')" title="播放">bô-bī</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">沒味道</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="4"><div align="center"><img src="../../image/line.gif" width="510" height="2" /></div></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="10">&nbsp;</td>
+    <td height="10" colspan="2"><div align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></div></td>
+    <td width="518" height="10" bordercolor="1" class="snd-missing style22" style="cursor:pointer" onClick="setFileName('s_ma142_023.wav')" title="音檔已佚失（Wayback 未存）">舌音</td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4"><p>&nbsp;</p></td>
+  </tr>
+  <tr align="center">
+    <td height="373" colspan="4"><table width="400" height="253" border="0" cellpadding="1" cellspacing="1">
+      <tr class="內文">
+        <td width="51" rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">地<span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma112_001.wav')" title="音檔已佚失（Wayback 未存）"> [ t ]</span> </td>
+            </tr>
+          </table></td>
+        <td width="62" align="left" bgcolor="#CCCC99" class="內文">單獨</td>
+        <td width="131" align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_002.wav')" title="播放">tan-t<img src="../../image/special/o_longpoint.png" width="9" height="13" />k </td>
+            </tr>
+          </table></td>
+        <td width="86" bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">台中</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_003.wav')" title="播放">tâi-tiong </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">大同</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_004.wav')" title="播放">tāi-tông</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">擔當</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_005.wav')" title="播放">tam-tng </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr class="內文">
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">他 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma112_006.wav')" title="音檔已佚失（Wayback 未存）">[th]</span></td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文">太太</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_007.wav')" title="播放">thài-thài</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">探聽</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_008.wav')" title="播放">thàm-thiann</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">探討</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_009.wav')" title="播放">thàm-thó </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">頭痛</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_010.wav')" title="播放"><span class="style26"><span style='color:black' lang="EN-US" xml:lang="EN-US">tha&#770;u<sub># </sub>thia&#768;nn
+                    <o:p></o:p>
+              </span></span></td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr class="內文">
+        <td rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">柳 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma112_011.wav')" title="音檔已佚失（Wayback 未存）">[n] </span></td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#CCCC99" class="內文">年年</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_012.wav')" title="播放">nî-nî</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">爛爛</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_013.wav')" title="播放">nuā-nuā </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">靡爛</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">貓貓</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_014.wav')" title="播放">niau-niau</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">痲臉</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">軟軟</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_015.wav')" title="播放">nńg-nńg </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr class="內文">
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">柳 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma112_016.wav')" title="音檔已佚失（Wayback 未存）">[l] </span></td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文">老練</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_017.wav')" title="播放">láu-liān</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><p>能力</p></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_018.wav')" title="播放">l<span class="style26">îng-l<img src="../../image/special/i_longpoint.png" width="6" height="14" />k</span></td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">老人</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_019.wav')" title="播放">lāu-lâng </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">理論</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma112_020.wav')" title="播放">lí-lūn </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="4"><div align="center"><img src="../../image/line.gif" width="510" height="2" /></div></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="10">&nbsp;</td>
+    <td height="10" colspan="2" align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
+    <td height="10"><span class="snd-missing style22" style="cursor:pointer" onClick="setFileName('s_ma142_024.wav')" title="音檔已佚失（Wayback 未存）">牙音</span></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <td height="369" colspan="4"><table width="400" height="253" border="0" cellpadding="1" cellspacing="1">
+      <tr>
+        <td width="58" rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">求 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma113_001.wav')" title="音檔已佚失（Wayback 未存）">[k]</span></td>
+            </tr>
+          </table></td>
+        <td width="62" align="left" bgcolor="#CCCC99" class="內文">兼顧</td>
+        <td width="197" align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_002.wav')" title="播放">kiam-kòo</td>
+            </tr>
+          </table></td>
+        <td width="70" bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">家教</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_003.wav')" title="播放">ka-kàu </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">奇怪</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_004.wav')" title="播放">kî-kuài</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">解決</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_005.wav')" title="播放">kái-kuat </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">去<span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma113_006.wav')" title="音檔已佚失（Wayback 未存）"> [kh]</span> </td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文">開墾</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_007.wav')" title="播放">khai-khún </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">慷慨</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_008.wav')" title="播放">khóng-khài</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">空課</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_009.wav')" title="播放">khang-khuè </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文"><p>工作</p></td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">客氣</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_010.wav')" title="播放">kheh-khì</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">語 <span class="snd-missing style26" style="cursor:pointer"  onClick="setFileName('e_ma113_011.wav')" title="音檔已佚失（Wayback 未存）">[ng] </span></td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#CCCC99" class="內文">雅氣</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_012.wav')" title="播放">ngá （khì）</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">高雅</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">儼硬</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_013.wav')" title="播放">(giám) ngē </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">堅強</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">迎神</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_014.wav')" title="播放">ngiâ （sîn）</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">五穀</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_015.wav')" title="播放">ngó （kok）</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">語 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma113_016.wav')" title="音檔已佚失（Wayback 未存）">[g] </span></td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文">言語</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_017.wav')" title="播放">giân-gí</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><p>諺語</p></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_018.wav')" title="播放">gān-gí</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">外語</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_019.wav')" title="播放">guā-gí</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">礙虐</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma113_020.wav')" title="播放">gāi-gi<img src="../../image/special/o_longpoint.png" width="9" height="13" />h </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">不自然</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <td height="25" colspan="4"><img src="../../image/line.gif" width="510" height="2" /></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="10">&nbsp;</td>
+    <td height="10" colspan="2" align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
+    <td height="10"><span class="snd-missing style22" style="cursor:pointer" onClick="setFileName('s_ma142_025.wav')" title="音檔已佚失（Wayback 未存）">齒音</span></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <td height="369" colspan="4"><table width="400" height="253" border="0" cellpadding="1" cellspacing="1">
+      <tr>
+        <td rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">貞<span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma114_001.wav')" title="音檔已佚失（Wayback 未存）">[ts] </span></td>
+                          </tr>
+          </table></td>
+        <td width="62" align="left" bgcolor="#CCCC99" class="內文">組織</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_002.wav')" title="播放">tsoo-tsit</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">整齊</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_003.wav')" title="播放">tsíng-tsê </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">煮食</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_004.wav')" title="播放">tsú-tsi<img src="../../image/special/a_longpoint.png" width="9" height="15" />h</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">烹飪</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">種作</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_005.wav')" title="播放">tsìng-tsoh </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">耕作</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">出<span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma114_006.wav')" title="音檔已佚失（Wayback 未存）">[tsh]</span> </td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文">喢喙</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_007.wav')" title="播放">tshap-tshuì</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">插嘴</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">菜市</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_008.wav')" title="播放">tshài-tshī</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">猜測</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_009.wav')" title="播放">tshai-tshik </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">採取</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_010.wav')" title="播放">tshái-tshú</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">時 <span class="snd-missing style26" style="cursor:pointer" onClick="setFileName('e_ma114_011.wav')" title="音檔已佚失（Wayback 未存）">[s]</span> </td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#CCCC99" class="內文">相辭</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_012.wav')" title="播放">sio-sî</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">告辭</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">說謝</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_013.wav')" title="播放">sueh-siā </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">熟視</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_014.wav')" title="播放">s<img src="../../image/special/i_longpoint.png" width="6" height="14" />k-sāi </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">相識</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">相輸</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_015.wav')" title="播放">sio-su </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">打賭</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center">入<span class="snd-missing style26" style="cursor:pointer"  onClick="setFileName('e_ma114_016.wav')" title="音檔已佚失（Wayback 未存）"> [j]</span> </td>
+          </tr>
+        </table></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文">遮日</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_017.wav')" title="播放">jia-j<img src="../../image/special/i_longpoint.png" width="6" height="14" />t</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">遮太陽</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><p>認字</p></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_018.wav')" title="播放">jīn-jī</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">熱熱</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_019.wav')" title="播放">ju<img src="../../image/special/a_longpoint.png" width="9" height="15" />h-ju<img src="../../image/special/a_longpoint.png" width="9" height="15" />h </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">熱熱的</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">絨絨</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma114_020.wav')" title="播放">jiông-jiông </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">細碎</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <td height="25" colspan="4"><img src="../../image/line.gif" width="510" height="2" /></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="10">&nbsp;</td>
+    <td height="10" colspan="2" align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
+    <td height="10"><span class="snd-missing style22" style="cursor:pointer" onClick="setFileName('s_ma142_026.wav')" title="音檔已佚失（Wayback 未存）">喉音</span></td>
+  </tr>
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <td height="191" colspan="4"><table width="400" height="174" border="0" cellpadding="1" cellspacing="1">
+      <tr>
+        <td rowspan="4" bgcolor="#CCCC99" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" style="cursor:pointer" onClick="setFileName('e_ma115_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">英[<span class="style26">ø</span>] </td>
+            </tr>
+          </table></td>
+        <td width="62" align="left" bgcolor="#CCCC99" class="內文">姻緣</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma115_002.wav')" title="播放">im-iân</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">應用</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma115_003.wav')" title="播放">ìng-iōng </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">養育</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma115_004.wav')" title="播放">ióng-i<img src="../../image/special/o_longpoint.png" width="9" height="13" />k</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#CCCC99" class="內文">營養</td>
+        <td align="left" bgcolor="#CCCC99" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma115_005.wav')" title="播放">îng-ióng </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#CCCC99" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="4" bgcolor="#F3F3F3" class="內文"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" style="cursor:pointer" onClick="setFileName('e_ma115_006.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">喜[h] </td>
+            </tr>
+          </table></td>
+        <td align="left" bgcolor="#F3F3F3" class="內文">海風</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma115_007.wav')" title="播放">hái-hong</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">稀罕</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma115_008.wav')" title="播放">hi-hán</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="18" align="left" bgcolor="#F3F3F3" class="內文">戲園</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma115_009.wav')" title="播放">hì-h<img src="../../image/special/n_deltoid.png" width="10" height="13" />g </td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文"><p>戲院</p></td>
+      </tr>
+      <tr>
+        <td align="left" bgcolor="#F3F3F3" class="內文">和諧</td>
+        <td align="left" bgcolor="#F3F3F3" class="內文"><table width="151" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td width="124" class="snd-ok style26" style="cursor:pointer" onClick="setFileName('e_ma115_010.wav')" title="播放">hô-hâi</td>
+            </tr>
+          </table></td>
+        <td bgcolor="#F3F3F3" class="內文">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+
+  <tr>
+    <td height="10" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

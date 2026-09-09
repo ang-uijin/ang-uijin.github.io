@@ -1,0 +1,611 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; }
+body {
+	margin-top: 0px;
+}
+.style24 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//.style25 {font-size: 1pt}
+.style25 {font-size: 13pt}
+-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+<body>
+<table width="570" height="1315" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" height="23" align="center" class="style24"> 第三課</td>
+        <td width="212" class="style24">變調</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="4"><img src="../../image/台灣方音的變調差異.gif" width="186" height="21" lowsrc="../../image/本調與變調.gif" /></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="19" height="15">&nbsp;</td>
+    <td width="32" height="15" align="center">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">第二課介紹了本調的方言差，現在介紹變調的方言差。我們仍然分為七調</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td width="518" height="15" class="style17">類、八調類兩種系統說明。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center"><img src="../../image/small_mark.gif" width="9" height="8"></td>
+    <td height="15" colspan="2" class="style17"><strong>七調類系統</strong></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">七調類系統方言的調讀重要差異可以對照如下表，表中&quot;&gt;&quot;左邊小字是本調</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">調型，右邊是變調調型。</td>
+  </tr>
+  
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td height="150" colspan="4" align="center"><table width="499" height="121" border="0" cellpadding="0" cellspacing="1">
+      <tr>
+        <td align="center" bgcolor="#CCCC99">方音</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陰平</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_002.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陰上</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_003.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陰去</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_004.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陰入</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_009.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">喉陰入</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_005.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陽平</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_007.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陽去</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_008.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">陽入</td>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone242_title_010.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">喉陽入</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_tone251_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">南部腔</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>33</sub>&gt;22</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>31</sub>&gt;33</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>11</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;30</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>12</sub>&gt;22</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>30</sub>&gt;10</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>30</sub>&gt;11</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_change351_4_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">偏漳腔</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>33</sub>&gt;22</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>31</sub>&gt;33</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>11</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;30</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>12</sub>&gt;22</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;10</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;11</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99" style="cursor:pointer" onClick="setFileName('s_change351_1_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">偏泉腔</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>33</sub>&gt;22</td>
+        <td align="center" bgcolor="#F09A84"><sub>31</sub>&gt;23</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>11</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;30</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;31</td>
+        <td align="center" bgcolor="#F09A84"><sub>12</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>23</sub>&gt;10</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>23</sub>&gt;11</td>
+      </tr>
+    </table></td>
+  </tr>
+  
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">由上表可知，南部混合腔和偏漳腔完全相同，而偏泉腔（海口腔）變調的</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">特色主要在陰上變調、陽平變調，其餘各調比較一致。現在針對這兩個聲</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">調和其他容易混同的聲調變體列表對照如下：</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">陽平與陰平變調漳泉比較表</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center"><table width="350" height="180" border="0" cellpadding="0" cellspacing="1">
+      <tr bgcolor="#CCCC99">
+        <td width="122" align="center">&nbsp;</td>
+        <td width="105" align="center" style="cursor:pointer" onClick="setFileName('s_change351_1_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">偏泉腔</td>
+        <td width="102" align="center" style="cursor:pointer" onClick="setFileName('s_change351_1_006.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">普通腔/漳腔</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">神（陽平）學院</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_change351_1_002.wav')" title="音檔已佚失（Wayback 未存）"><span class="style25">sin<sub>11</sub>hak<sub>10</sub>inn<sub>22</sub></span></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_1_007.wav')" title="音檔已佚失（Wayback 未存）">sin<sub>22</sub>hak<sub>10</sub>inn<sub>22</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">新（陰平）學院</td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_1_003.wav')" title="音檔已佚失（Wayback 未存）">sin<sub>22</sub>hak<sub>10</sub>inn<sub>22</sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_1_008.wav')" title="音檔已佚失（Wayback 未存）">sin<sub>22</sub>hak<sub>10</sub>inn<sub>22</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">鋤（陽平）頭</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_1_004.wav')" title="音檔已佚失（Wayback 未存）">ti<sub>11</sub>thau<sub>12</sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_1_009.wav')" title="音檔已佚失（Wayback 未存）">ti<sub>22</sub>thau<sub>12</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">豬（陰平）頭</td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_1_005.wav')" title="音檔已佚失（Wayback 未存）">ti<sub>22</sub>thau<sub>12</sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_1_010.wav')" title="音檔已佚失（Wayback 未存）">ti<sub>22</sub>thau<sub>12</sub></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">偏漳腔和南部腔的陽平變調與陰平變調同樣是中調[22]，因此偏泉腔（海</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">口腔）可以區別的「神學院」sin<sub>11</sub>hak<sub>10</sub>inn<sub>22</sub>和「新學院」sin<sub>22</sub>hak<sub>10</sub>inn<sub>22</sub>都</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">唸成sin<sub>22</sub>hak<sub>10</sub>inn<sub>22</sub>，「鋤頭」ti<sub>11</sub>thau<sub>12</sub>和「豬頭」ti<sub>22</sub>thau<sub>12</sub>，都唸成ti<sub>22</sub>thau<sub>12</sub></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">，混同了。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">雖然偏泉腔可以分別陰平與陽平變調，但因為偏泉腔所有陽聲調的變調都</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">是低調 [11]或[10]，因此所有陽聲調的變調都無法分別。如下表所示泉腔</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">的陽平變調和陽去變調混同了：</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">陽平與陰平變調漳泉比較表</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center"><table width="329" height="170" border="0" cellpadding="0" cellspacing="1">
+      <tr bgcolor="#CCCC99">
+        <td width="122" align="center">&nbsp;</td>
+        <td width="105" align="center" style="cursor:pointer" onClick="setFileName('s_change351_1_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">偏泉腔</td>
+        <td width="102" align="center" style="cursor:pointer" onClick="setFileName('s_change351_1_006.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">普通腔/漳腔</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">流（陽平）水</td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_2_001.wav')" title="音檔已佚失（Wayback 未存）">lau<sub>11</sub>tsui<sub>31</sub></td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_2_005.wav')" title="音檔已佚失（Wayback 未存）">lau<sub>22</sub>tsui<sub>31</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">漏（陽去）水</td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_2_002.wav')" title="音檔已佚失（Wayback 未存）">lau<sub>11</sub>tsui<sub>31</sub><sub></sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_2_006.wav')" title="音檔已佚失（Wayback 未存）">lau<sub>11</sub>tsui<sub>31</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">茶（陽平）米</td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_2_003.wav')" title="音檔已佚失（Wayback 未存）">te<sub>11</sub>bi<sub>31</sub></td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_2_007.wav')" title="音檔已佚失（Wayback 未存）">te<sub>22</sub>bi<sub>31</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">袋（陽去）米</td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_2_004.wav')" title="音檔已佚失（Wayback 未存）">te<sub>11</sub>bi<sub>31</sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_2_008.wav')" title="音檔已佚失（Wayback 未存）">te<sub>11</sub>bi<sub>31</sub></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">臺灣普通腔及偏漳腔的陽平變調和陽去變調可以區別的，如「流水」</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">lau<sub>22</sub>tsui<sub>31</sub>、「漏水」lau<sub>11</sub>tsui<sub>31</sub>，偏泉腔都唸成lau<sub>11</sub>tsui<sub>31</sub>，混同了，「茶</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">米」、「袋米」也一樣。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">偏泉腔的陰上變調是高升調[23]，這樣的方言普遍流行於台灣西海岸的所</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">謂「海口腔」和澎湖腔，其他方言都是高平調[33]。台北地區陰上變調只</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">有老派還保存微升的唸法，大部分的人都已經平調化了。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">陰上變調漳泉比較表</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center"><table width="329" height="157" border="0" cellpadding="0" cellspacing="1">
+      <tr bgcolor="#CCCC99">
+        <td width="116" align="center">&nbsp;</td>
+        <td width="107" align="center" style="cursor:pointer" onClick="setFileName('s_change351_1_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">偏泉腔</td>
+        <td width="102" align="center" style="cursor:pointer" onClick="setFileName('s_change351_1_006.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">普通腔/漳腔</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">某（陰上）囝</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_3_001.wav')" title="音檔已佚失（Wayback 未存）">boo<sub>23</sub>kiann<sub>31</sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_3_005.wav')" title="音檔已佚失（Wayback 未存）">boo<sub>33</sub>kiann<sub>31</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">起（陰上）厝</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_3_002.wav')" title="音檔已佚失（Wayback 未存）">khi<sub>23</sub>tshu<sub>11</sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_3_006.wav')" title="音檔已佚失（Wayback 未存）">khi<sub>33</sub>tshu<sub>11</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">永（陰上）遠</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_3_003.wav')" title="音檔已佚失（Wayback 未存）">ing<sub>23</sub>uan<sub>31</sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_3_007.wav')" title="音檔已佚失（Wayback 未存）">ing<sub>33</sub>uan<sub>31</sub></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">好（陰上）額</td>
+        <td align="center" bgcolor="#FDD6B3" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_3_004.wav')" title="音檔已佚失（Wayback 未存）">ho<sub>23</sub>giah<sub>30</sub>/<sub>230</sub></td>
+        <td align="center" bgcolor="#FFFFCC" class="snd-missing style25" style="cursor:pointer" onClick="setFileName('s_change351_3_008.wav')" title="音檔已佚失（Wayback 未存）">ho<sub>33</sub>giah<sub>30</sub></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">此外，陰去和喉陰入變調大部分的方言都唸降調[31]，但臺南縣中部幾個</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">鄉鎮卻唸成高平調[33]。如「厝瓦」tshù-hiā [tshu<sub>31</sub>hia<sub>22</sub>]唸成[tshu<sub>33</sub>hia<sub>22</sub>]；</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">「扑球」<span class="style17">phah-kiû</span> [phah<sub>31</sub>kiu<sub>12</sub>]唸成[pha<sub>33</sub>kiu<sub>12</sub>]。陳水扁總統就是這樣的方</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+    <td height="15">言。</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="4" align="center"><img src="../../image/line.gif" width="510" height="2"></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center"><img src="../../image/small_mark.gif" width="9" height="8"></td>
+    <td height="15" colspan="2" class="style17"><strong>八調類系統</strong></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">八調類系統是泉州方言的特色，臺灣只有臺西、鹿港的老派還保存這種特</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">色。茲將臺灣普通腔、偏泉腔及泉州腔及新鹿港腔的變調差異對照如下表</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">：</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">閩南語主要方言變調比較表</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center"><table width="528" height="121" border="0" cellpadding="0" cellspacing="1">
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#CCCC99">陰平</td>
+        <td align="center" bgcolor="#CCCC99">陰上</td>
+        <td align="center" bgcolor="#CCCC99">陰去</td>
+        <td align="center" bgcolor="#CCCC99">陰入</td>
+        <td align="center" bgcolor="#CCCC99">喉陰入</td>
+        <td align="center" bgcolor="#CCCC99">陽平</td>
+        <td align="center" bgcolor="#CCCC99">陽上</td>
+        <td align="center" bgcolor="#CCCC99">陽去</td>
+        <td align="center" bgcolor="#CCCC99">陽入</td>
+        <td align="center" bgcolor="#CCCC99">喉陽入</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">普通腔</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>33</sub>&gt;22</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>31</sub>&gt;33</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>11</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;30</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>12</sub>&gt;22</td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>30</sub>&gt;10</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>30</sub>&gt;11</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">偏泉腔</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>33</sub>&gt;22</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>31</sub>&gt;33</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>11</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;30</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>20</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>12</sub>&gt;11</td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>30</sub>&gt;10</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>23</sub>&gt;11</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">泉州腔</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>33</sub>&gt;33</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>44</sub>&gt;24</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>21</sub>&gt;44</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>40</sub>&gt;40</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>40</sub>&gt;40</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>13</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>21</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>23</sub>&gt;10</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>23</sub>&gt;11</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">鹿港腔</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;22</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>31</sub>&gt;23</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>21</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>30</sub>&gt;30</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>30</sub>&gt;31</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>12</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>22</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>21</sub>&gt;11</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>23</sub>&gt;10</td>
+        <td align="center" bgcolor="#FFFFCC"><sub>23</sub>&gt;11</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">泉州腔有陽上調，其調值卻和偏漳腔及普通腔陽去相同，鹿港的調階只剩</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">三階，陰平和陽上都是第二階，但變調不同，陰平的變調和本調相同，陽</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">上的變調和其他的陽聲調相同，泉腔所有的陽聲調變調都變成低調[11]或</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">[10]。另外，泉腔（包括泉州腔、鹿港腔）的陰去、陽去本調同形，陰入</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">和喉陰入本、變調同形，雖然如此，本、變調一起考慮，調類上還是八調</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">類系統。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">調階上，泉州腔的主要特色是有四個調高的區別，陰去變調和陰上本調特</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">別高，唸第四度[44]，和普通腔的[31]相對應。其次是陰平本調[33]。不過</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">這種特色在臺灣幾乎快消失了。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">表上所示的新鹿港腔指鹿港街上的口音，這種口音已經沒有四個調階的區</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">別，[44]調下降為[31]，而陰平本調的[33]受到推擠，變成[22]，和陽上聲</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">的[22]混同了，臺西、東石也有這個趨勢。至於陰去和喉音入也向普通腔</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15">同化為[31]。</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

@@ -1,0 +1,879 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; font-family: "細明體"; }
+body {
+	margin-top: 0px;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//.style23 {font-family: "細明體"}
+.style18 {font-size: 12pt;  }
+.style20 {font-size: 13pt}
+.style21 {font-size: 12pt; font-weight: bold; }
+-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+<body>
+<table width="570" border="0" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td colspan="4"><img src="../../image/一般韻母.gif" width="120" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19">&nbsp;</td>
+    <td width="23">&nbsp;</td>
+    <td width="507" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2"><p>本表的內容與教育部《臺灣閩南語羅馬字拼音方案》所列的韻母表（簡稱「</p></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">部表」）基本上一致，但音韻分析不相同。主要的差別在於入聲韻的處理，</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">「部表」把所有的入聲歸為「入聲韻」，本表依照傳統閩南語音韻學的分析</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">，把入聲韻分為二類，以塞音<span class="style20">-p, -t, -k</span>收尾的韻母歸為閉尾韻，以與鼻輔音-</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2"><span class="style20">m, -n, -ng</span>收尾的「陽聲韻」配合成「八音」（<span class="style20">pat-im</span>），組成閉音節「字母</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">」；以喉塞音<span class="style20">-h</span>收尾的入聲韻歸入開尾韻，以與相對應的「陰聲韻」配合成</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">八音，組成開音節「字母」。「一般韻母」只列臺灣優勢音，漳泉特殊韻母</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">附錄於表後。下表中大字為「舒聲韻」，小字為「入聲韻」。「舒聲韻」與</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">「入聲韻」搭配成「字母」（<span class="style20">jī-bo</span>́）以便「呼八音」（<span class="style20">hoo-pat-im</span>）之用。</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2"><table width="90" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="27" align="center"><img src="../../image/square.gif" width="4" height="4"></td>
+          <td><span class="snd-missing style21" style="cursor:pointer" onClick="setFileName('form_03title_01.wav')" title="音檔已佚失（Wayback 未存）">開尾韻</span></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2"><table width="393" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="27" align="center">&nbsp;</td>
+        <td style="cursor:pointer" onClick="setFileName('s_end63_019.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">(一) 口音韻</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2" align="center"><table width="500" height="240" border="0" cellpadding="00" cellspacing="1">
+      <tr>
+        <td width="35" align="center" bgcolor="#CCCC99">阿 </td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_001.wav')" title="音檔已佚失（Wayback 未存）">a</td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">挨 </td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_003.wav')" title="音檔已佚失（Wayback 未存）">e </td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">伊 </td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_009.wav')" title="音檔已佚失（Wayback 未存）">i </td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_002.wav')" title="音檔已佚失（Wayback 未存）">ah </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_004.wav')" title="音檔已佚失（Wayback 未存）">eh </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_010.wav')" title="音檔已佚失（Wayback 未存）">ih </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">烏 </td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_005.wav')" title="音檔已佚失（Wayback 未存）">oo </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">呵</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_007.wav')" title="音檔已佚失（Wayback 未存）">o </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">污 </td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_017.wav')" title="音檔已佚失（Wayback 未存）">u </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_006.wav')" title="音檔已佚失（Wayback 未存）">ooh </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_008.wav')" title="音檔已佚失（Wayback 未存）">oh </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_018.wav')" title="音檔已佚失（Wayback 未存）">uh </td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">哀</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_001.wav')" title="音檔已佚失（Wayback 未存）">ai</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">甌</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_003.wav')" title="音檔已佚失（Wayback 未存）">au</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_002.wav')" title="音檔已佚失（Wayback 未存）">aih</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_004.wav')" title="音檔已佚失（Wayback 未存）">auh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">耶</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_011.wav')" title="音檔已佚失（Wayback 未存）">ia</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">腰</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_013.wav')" title="音檔已佚失（Wayback 未存）">io</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">憂</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_015.wav')" title="音檔已佚失（Wayback 未存）">iu</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">妖</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_007.wav')" title="音檔已佚失（Wayback 未存）">iau</td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_012.wav')" title="音檔已佚失（Wayback 未存）">iah</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_014.wav')" title="音檔已佚失（Wayback 未存）">ioh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_016.wav')" title="音檔已佚失（Wayback 未存）">iuh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_008.wav')" title="音檔已佚失（Wayback 未存）">iauh</td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">哇</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_019.wav')" title="音檔已佚失（Wayback 未存）">ua</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">椏</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_021.wav')" title="音檔已佚失（Wayback 未存）">ue</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">威</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_009.wav')" title="音檔已佚失（Wayback 未存）">ui</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">歪</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_011.wav')" title="音檔已佚失（Wayback 未存）">uai</td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_020.wav')" title="音檔已佚失（Wayback 未存）">uah</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first531_022.wav')" title="音檔已佚失（Wayback 未存）">ueh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_010.wav')" title="音檔已佚失（Wayback 未存）">uih</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end641_012.wav')" title="音檔已佚失（Wayback 未存）"><p>uaih</p></td>
+            </tr>
+        </table></td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="snd-missing style17" style="cursor:pointer" onClick="setFileName('form_03_01.wav')" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14"></span></td>
+    <td colspan="2">口音韻總發音</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2"><table width="393" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="27" align="center">&nbsp;</td>
+        <td style="cursor:pointer" onClick="setFileName('s_end63_020.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">(二) 鼻音韻</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2" align="center"><table width="500" height="240" border="0" cellpadding="00" cellspacing="1">
+      <tr>
+        <td width="35" align="center" bgcolor="#CCCC99">餡 </td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first532_001.wav')" title="音檔已佚失（Wayback 未存）"><span class="style20" style="cursor:pointer">ann</span></td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">嬰</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_003.wav')" title="音檔已佚失（Wayback 未存）"><span class="style20" style="cursor:pointer">enn</span></td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">燕</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_005.wav')" title="音檔已佚失（Wayback 未存）">inn</td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first532_002.wav')" title="音檔已佚失（Wayback 未存）">annh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_004.wav')" title="音檔已佚失（Wayback 未存）"><span class="style20" style="cursor:pointer">enn</span>h</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_006.wav')" title="音檔已佚失（Wayback 未存）"><p>innh</p></td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">惡 </td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_007.wav')" title="音檔已佚失（Wayback 未存）"><span class="style20" style="cursor:pointer">onn</span></td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">姆</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_009.wav')" title="音檔已佚失（Wayback 未存）">m</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">秧</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_011.wav')" title="音檔已佚失（Wayback 未存）">ng</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_008.wav')" title="音檔已佚失（Wayback 未存）">onnh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_010.wav')" title="音檔已佚失（Wayback 未存）">mh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_abd432_012.wav')" title="音檔已佚失（Wayback 未存）">ngh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">乃</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_001.wav')" title="音檔已佚失（Wayback 未存）">ainn</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">腦</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_003.wav')" title="音檔已佚失（Wayback 未存）">aunn</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_002.wav')" title="音檔已佚失（Wayback 未存）">ainnh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_004.wav')" title="音檔已佚失（Wayback 未存）">aunnh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">纓</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first532_013.wav')" title="音檔已佚失（Wayback 未存）">iann</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">鴦</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_005.wav')" title="音檔已佚失（Wayback 未存）">iunn</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">貓</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_007.wav')" title="音檔已佚失（Wayback 未存）">iaunn</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first532_014.wav')" title="音檔已佚失（Wayback 未存）">iannh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_006.wav')" title="音檔已佚失（Wayback 未存）">iunnh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_008.wav')" title="音檔已佚失（Wayback 未存）">iaunnh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">鞍</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first532_017.wav')" title="音檔已佚失（Wayback 未存）">uann</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">糜</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first532_019.wav')" title="音檔已佚失（Wayback 未存）">uenn</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">每</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_009.wav')" title="音檔已佚失（Wayback 未存）">uinn</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">關</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_011.wav')" title="音檔已佚失（Wayback 未存）">uainn</td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first532_018.wav')" title="音檔已佚失（Wayback 未存）">uannh</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_first532_020.wav')" title="音檔已佚失（Wayback 未存）"><span class="style20" style="cursor:pointer">(uennh)</span></td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_010.wav')" title="音檔已佚失（Wayback 未存）"><span class="style20" style="cursor:pointer">(uinnh)</span></td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end642_012.wav')" title="音檔已佚失（Wayback 未存）"><p>uainnh</p></td>
+            </tr>
+        </table></td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="snd-missing style17" style="cursor:pointer" onClick="setFileName('form_03_02.wav')" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14"></span></td>
+    <td colspan="2">鼻音韻總發音</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">註：鼻音韻的入聲字數都很少，其中打(  )的韻母表示只能與鼻音聲母搭</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">臺羅拼音因為鼻音已經標示在聲母，這些韻母都不用。但呼八音時仍可配，</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">當成空音呼出，羅列於上備而不用。</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="4" align="center"><img src="../../image/line.gif" width="510" height="2"></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2"><table width="90" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="27" align="center"><img src="../../image/square.gif" width="4" height="4"></td>
+        <td><span class="snd-missing style21" style="cursor:pointer" onClick="setFileName('form_03title_02.wav')" title="音檔已佚失（Wayback 未存）">閉尾韻</span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2" align="center"><table width="500" height="240" border="0" cellpadding="00" cellspacing="1">
+      <tr>
+        <td width="35" align="center" bgcolor="#CCCC99">庵</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_001.wav')" title="音檔已佚失（Wayback 未存）"><span class="style20" style="cursor:pointer">am</span></td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">安</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_003.wav')" title="音檔已佚失（Wayback 未存）">an</td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">尪</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_005.wav')" title="音檔已佚失（Wayback 未存）">ang</td>
+            </tr>
+        </table></td>
+        <td width="35" align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_002.wav')" title="音檔已佚失（Wayback 未存）">ap</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_004.wav')" title="音檔已佚失（Wayback 未存）">at</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_006.wav')" title="音檔已佚失（Wayback 未存）"><p>ak</p></td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">蔘</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_007.wav')" title="音檔已佚失（Wayback 未存）">om</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">汪</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_009.wav')" title="音檔已佚失（Wayback 未存）">ong</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_008.wav')" title="音檔已佚失（Wayback 未存）">op</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_010.wav')" title="音檔已佚失（Wayback 未存）">ok</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">音</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_019.wav')" title="音檔已佚失（Wayback 未存）">im</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">因</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_021.wav')" title="音檔已佚失（Wayback 未存）">in</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">英</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_023.wav')" title="音檔已佚失（Wayback 未存）"><p>ing<br>
+              </p></td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_020.wav')" title="音檔已佚失（Wayback 未存）">ip</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_022.wav')" title="音檔已佚失（Wayback 未存）">it</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_024.wav')" title="音檔已佚失（Wayback 未存）"><p>ik</p></td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">閹</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_011.wav')" title="音檔已佚失（Wayback 未存）">iam</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">煙</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_013.wav')" title="音檔已佚失（Wayback 未存）">ian</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">雙</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_015.wav')" title="音檔已佚失（Wayback 未存）">iang</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">雍</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_017.wav')" title="音檔已佚失（Wayback 未存）">iong</td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_012.wav')" title="音檔已佚失（Wayback 未存）">iap</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_014.wav')" title="音檔已佚失（Wayback 未存）">iat</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_016.wav')" title="音檔已佚失（Wayback 未存）">iak</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_018.wav')" title="音檔已佚失（Wayback 未存）"><p>iok</p></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">溫</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_029.wav')" title="音檔已佚失（Wayback 未存）">un</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">冤</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_025.wav')" title="音檔已佚失（Wayback 未存）">uan</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">嚾</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_027.wav')" title="音檔已佚失（Wayback 未存）">uang</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_030.wav')" title="音檔已佚失（Wayback 未存）">ut</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_026.wav')" title="音檔已佚失（Wayback 未存）">uat</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC"><table width="70" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" class="snd-missing style20" style="cursor:pointer" onClick="setFileName('s_end65_028.wav')" title="音檔已佚失（Wayback 未存）">uak</td>
+            </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99">&nbsp;</td>
+        <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="snd-missing style17" style="cursor:pointer" onClick="setFileName('form_03_03.wav')" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14"></span></td>
+    <td colspan="2">閉尾韻總發音</td>
+  </tr>
+  <tr>
+    <td colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

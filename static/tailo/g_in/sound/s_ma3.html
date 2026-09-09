@@ -1,0 +1,294 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; }
+body {
+	margin-top: 0px;
+}
+.style18 {font-size: 12pt; font-weight: bold; }
+.style19 {font-size: 13pt}
+.style20 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+<body>
+<table width="570" height="378" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" align="center" class="style20"> 第一課</td>
+        <td width="212" class="style20">聲母</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="4" style="cursor:pointer" onClick="setFileName('s_ma131_019.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/十八聲.gif" width="119" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19" height="15">&nbsp;</td>
+    <td width="23" height="15">&nbsp;</td>
+    <td height="15" colspan="2"><span class="style17">臺灣羅馬字用了十八個聲母音符：</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="80" colspan="4"><table width="400" border="0" align="center" cellpadding="1" cellspacing="1">
+      <tr>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20"><span class="style17">邊</span></td>
+              <td align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_001.wav')" title="音檔已佚失（Wayback 未存）">p-</span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#FDD6B3" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20"><span class="style17">波</span><span class="style19">&nbsp;</span></td>
+              <td align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_002.wav')" title="音檔已佚失（Wayback 未存）">ph-</span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="106" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><span class="style17">文</span> <span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_003.wav')" title="音檔已佚失（Wayback 未存）">m-</span>&nbsp;</td>
+              <td>&nbsp;<span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0"  onclick="setFileName('s_ma131_004.wav')" title="音檔已佚失（Wayback 未存）">/ b- </span></td>
+            </tr>
+          </table></td>
+        <td height="30" align="center" bgcolor="#FDD6B3" class="style17">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20"><span class="style17">地</span>&nbsp; </td>
+              <td align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_005.wav')" title="音檔已佚失（Wayback 未存）"> t- </span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#FDD6B3" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="20">他</td>
+            <td align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_006.wav')" title="音檔已佚失（Wayback 未存）">th-</span></td>
+          </tr>
+        </table>        </td>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="106" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><span class="style17">柳</span> <span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_007.wav')" title="音檔已佚失（Wayback 未存）">n-</span>&nbsp;</td>
+              <td style="cursor:pointer" onClick="setFileName('s_ma131_008.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">/ &nbsp;l-&nbsp;</td>
+            </tr>
+          </table></td>
+        <td height="30" align="center" bgcolor="#FDD6B3" class="style17">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20"><span class="style17">求</span></td>
+              <td align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_009.wav')" title="音檔已佚失（Wayback 未存）">k-&nbsp;</span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#FDD6B3" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="20">去</td>
+            <td align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_010.wav')" title="音檔已佚失（Wayback 未存）">kh-&nbsp;</span></td>
+          </tr>
+        </table>        </td>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="106" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><span class="style17">語</span><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_011.wav')" title="音檔已佚失（Wayback 未存）"> ng-</span></td>
+              <td>/&nbsp; <span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_012.wav')" title="音檔已佚失（Wayback 未存）">g-</span></td>
+            </tr>
+          </table></td>
+        <td height="30" align="center" bgcolor="#FDD6B3" class="style17">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="20">貞</td>
+            <td align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_013.wav')" title="音檔已佚失（Wayback 未存）">ts- </span></td>
+          </tr>
+        </table></td>
+        <td align="center" bgcolor="#FDD6B3" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20"><span class="style17">出</span><span class="style19">&nbsp; </span></td>
+              <td align="left" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_ma131_014.wav')" title="音檔已佚失（Wayback 未存）">tsh-</td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="106" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="20">時</td>
+            <td width="71" align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_015.wav')" title="音檔已佚失（Wayback 未存）">s-&nbsp;&nbsp;</span></td>
+          </tr>
+        </table>          </td>
+        <td height="30" align="center" bgcolor="#FDD6B3" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td><span class="style17">入</span><span style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_016.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"> j-&nbsp;          &nbsp;</span> </td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#F09A84" class="style17">&nbsp;</td>
+        <td align="center" bgcolor="#FDD6B3" class="style17"><table width="88" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20"><span class="style17">喜</span></td>
+              <td align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_017.wav')" title="音檔已佚失（Wayback 未存）">h- &nbsp;&nbsp;&nbsp;</span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#F09A84" class="style17"><table width="106" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20"><span class="style17">英</span></td>
+              <td width="71" align="left"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma131_018.wav')" title="音檔已佚失（Wayback 未存）">ø</span></td>
+            </tr>
+          </table></td>
+        <td height="30" align="center" bgcolor="#FDD6B3" class="style17">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2"><table width="393" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="27" align="center"><span class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_ma131_020.wav')" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14"></span></td>
+          <td>十八聲總發音</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td width="463" height="15">&nbsp;</td>
+    <td width="44" height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><p class="style17">傳統羅馬字都是採用十八個聲母的分析方式，其中的「英」字頭是「無聲</p></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><span class="style17">母」(習慣上用 <span class="style19"> ø</span> 表示)，不必標示，因此實際採用了十七個聲母符號。</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="4" align="center"><img src="../../image/line.gif" width="510" height="2" /></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15"><div align="center"></div></td>
+    <td height="15" colspan="2">十五音與十八聲差異對照表<span class="style17">：</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="19" colspan="4"><table width="335" height="126" border="0" align="center" cellpadding="1" cellspacing="1">
+      <tr>
+        <td width="103" align="center" bgcolor="#CCCC99" class="style18"><strong>十  五  音  </strong>  </td>
+        <td colspan="2" align="center" bgcolor="#CCCC99" class="style17"><strong>十  八  聲</strong></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#E3E3C8" class="style17">字頭</td>
+        <td width="104" align="center" bgcolor="#E3E3C8" class="style17">鼻音</td>
+        <td align="center" bgcolor="#E3E3C8" class="style17">濁音</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_007.wav')" title="音檔已佚失（Wayback 未存）">文 </span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#CCCC99" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_001.wav')" title="音檔已佚失（Wayback 未存）">m </span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#CCCC99" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_002.wav')" title="音檔已佚失（Wayback 未存）">b</span></td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#E3E3C8" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_008.wav')" title="音檔已佚失（Wayback 未存）">柳 </span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#E3E3C8" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_003.wav')" title="音檔已佚失（Wayback 未存）">n</span></td>
+            </tr>
+          </table></td>
+        <td align="center" bgcolor="#E3E3C8" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_004.wav')" title="音檔已佚失（Wayback 未存）">l</span></td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_009.wav')" title="音檔已佚失（Wayback 未存）">語 </span></td>
+          </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_005.wav')" title="音檔已佚失（Wayback 未存）">ng</span></td>
+          </tr>
+        </table></td>
+        <td align="center" bgcolor="#CCCC99" class="style17"><table width="74" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center"><span class="snd-missing style19" style="cursor:pointer" width="14" height="14" border="0" onClick="setFileName('s_ma132_006.wav')" title="音檔已佚失（Wayback 未存）">g</span></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,577 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//.style23 {font-family: "細明體"}
+.style20 {font-size: 13pt}
+.style21 {font-family: "Doulos SIL"}
+.style1 {color: #000000}
+-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+<body>
+<table width="570" border="0" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td colspan="4"><img src="../../image/例言.gif" width="95" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19">&nbsp;</td>
+    <td width="23">&nbsp;</td>
+    <td width="507" colspan="2"><table width="540" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  
+  
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2">一、《臺灣十五音字母表》是一種略加舉例註解的單字表，是了解臺灣語音</td>
+  </tr>
+  
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="500">系及音標最好的教材。這種單音字表脫胎於泉州《彙音妙悟》（1800）</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="500">或漳州《雅俗通十五音》（1818）之類傳統韻書，因傳統韻書收字甚多</td>
+      </tr>
+    </table>    </td>
+  </tr>
+  
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="500">，不便於閩南語音系全貌之理解，泉州廖綸璣乃於每一音節摘取一個常</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">用字，製為《拍掌知音》，是閩南語單音字表創作之始，相當於中古</td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">之《韻鏡》，而更精確。日本據臺以後積極對日本殖民地官員進行臺</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">灣語教育，乃參考傳統閩南語韻書編《成臺灣十五音及字母詳解》（</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">1896）及《訂正臺灣十五音字母詳解》（1901），後者為臺灣語言學</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">奠基者小川尚義所主編，也是一種簡註的單字表。本表即以《訂正臺</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">灣十五音字母詳解》為藍本，根據臺灣優勢音及臺灣泉州腔的音韻系</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">統重編而成。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2">二、本表之音韻系統係根據筆者對臺灣閩南語全面的方言調查的資料認定為</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">臺灣普通腔的韻母編為「臺灣普通腔字母」，共收46字母；超出此系</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">統的泉州腔韻母編入「臺灣泉州腔特殊字母」部分，共收6個字母，合</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">計52個字母，製成52個表。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2">三、每一「字母」包含五個舒聲韻及二個入聲韻。每一字母表縱列「十五音</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">」字頭，橫列所謂「八音」而實際只有7個聲調，得105個可能音節。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">其中有些實際上無相當詞素的可能音節，謂之「空音」（gap）；另外</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">一些有相當的詞素，但無相當的漢字或閩臺字，謂之「缺字」。各以</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">如下符號表之：</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491"><span class="style20">○</span> 空音</td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491"><span class="style20">□</span> 缺字 </td>
+      </tr>
+    </table></td>
+  </tr>
+  
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">凡有字者都儘量填入漢字、閩臺字，無字的以 <span class="style20">□</span> 標示，并舉例或附上</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">簡註，以便把音義結合起來，增加學習效果。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2">四、填入字或□的音節表示在「閩南語」是有音有詞的，但並非臺灣普通腔</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">就一定有這個音，本表是以臺灣普通腔為根據，但臺灣普通腔有些「</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">空音」在其他閩南語方言（如漳州腔或泉州腔）並非空音，本表也用</td>
+      </tr>
+    </table></td>
+  </tr>
+  
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">其他方言所有的詞素填入，因此表中顯示「有音有詞」的是閩南語的</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">全部而非臺灣優勢方言的全部。為了避免混淆，凡非臺灣普通腔的字</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">詞都附注來源「方言」。有些音讀有特殊的語用條件，也一并附註。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">附註符號表示： </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="330" colspan="4" align="center"><table width="466" height="374" border="0" cellpadding="0" cellspacing="1">
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（漳）</td>
+        <td bgcolor="#FFFFCC">漳州系方言，分佈於宜蘭、台北縣東北海岸、桃園縣北部及中南部平原、山區等偏漳腔地區。</td>
+      </tr>
+      
+      <tr>
+        <td width="73" align="center" bgcolor="#CCCC99">（浦）</td>
+        <td width="390" bgcolor="#FFFFCC">漳州系漳浦方言，殘存於台灣偏漳腔方言如宜蘭北部方言、台中太平鄉、南投名間鄉附近、台南關廟、高雄茄萣等地。</td>
+      </tr>
+      
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（湖西）</td>
+        <td bgcolor="#FFFFCC">漳州長泰腔方言，分佈於澎湖縣湖西鄉。</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（泉）</td>
+        <td bgcolor="#FFFFCC"><p>泉州系方言，分佈於台北盆地南舷地帶及西部海岸線的「海口腔」。 </p></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（同）</td>
+        <td bgcolor="#FFFFCC"><p>泉州系同安方言，分佈於台灣淡水河兩岸下游地區，新竹等少數海口腔。 </p></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（廈）</td>
+        <td bgcolor="#FFFFCC"><p>泉州系廈門方言，台北大稻埕方言近之。 </p></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（文）</td>
+        <td bgcolor="#FFFFCC">文讀音專用，專用於讀漢文，不用於口語者。</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（詩）</td>
+        <td bgcolor="#FFFFCC">吟詩中專用音，非漢文一般唸法。</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（童）</td>
+        <td bgcolor="#FFFFCC">兒童語。</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（方）</td>
+        <td bgcolor="#FFFFCC">來歷不明的方言。</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">（古）</td>
+        <td bgcolor="#FFFFCC">已成死語的古詞素。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">扣除這些「雜質」便是臺灣優勢方言的音韻系統了。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2">五、每一可能音節無論實際有無相當詞素均注上臺語羅馬字。縱列〈柳〉</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">〈邊〉〈求〉〈去〉〈地〉……表「十五音」字頭，但〈文〉〈柳〉</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">〈語〉三個字頭在鼻音韻之前鼻化，羅馬字以不同的鼻音符號標示，</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">如下表： </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center"><table width="300" height="120" border="0" cellpadding="0" cellspacing="1">
+      <tr bgcolor="#CCCC99">
+        <td align="center">&nbsp;</td>
+        <td align="center">鼻音韻</td>
+        <td align="center">非鼻音韻</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">文</td>
+        <td align="center" bgcolor="#FFFFCC" class="style20">m</td>
+        <td align="center" bgcolor="#FFFFCC" class="style20">b</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">柳</td>
+        <td align="center" bgcolor="#FFFFCC" class="style20">n</td>
+        <td align="center" bgcolor="#FFFFCC" class="style20">l</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99">語</td>
+        <td align="center" bgcolor="#FFFFCC" class="style20">ng</td>
+        <td align="center" bgcolor="#FFFFCC" class="style20">g</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2">六、橫列由左至右按陰平、上、去、入；陽平、上、去、入等傳統所謂「八</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="537" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">音」順序排列，舒聲、促聲并排，不另析為一表。傳統單音字表缺調</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="537" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">（如台灣話缺第六聲）仍為之空設一欄，本表為節省篇幅，缺調不空</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="537" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">設欄位，學者「呼八音」時，於所缺〈陽上〉第六聲可以自由以〈陰</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="538" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">上〉第二聲或〈陽去〉第七聲補缺，以便湊足「八音」，也可以不補</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="530" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">缺，直接跳過去，總之務使學者了解台灣話缺第六聲即可。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2">七、本表主要為訓練學者了解台灣話音韻系統、熟習音標、糾正發音而作，</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="540" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">學者應逐個「字母」，按第五課及第六課所教的方法，「先配十五音</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="540" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">」、「再呼八音」，逐音練習，全本唸過一遍，音標與發音當可熟練</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="540" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">矣。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="25" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2">八、本表只是「音節表」，並非韻書、又非字典，凡欲查字音、用字或字義</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><table width="540" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="30" align="center">&nbsp;</td>
+        <td width="491">者請查適用之字典或辭典。</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

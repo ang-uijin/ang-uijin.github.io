@@ -1,0 +1,169 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; font-family: "細明體"; }
+body {
+	margin-top: 0px;
+}
+.style18 {font-size: 13pt}
+.style19 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+.style21 {font-size: 13pt; font-weight: bold; }
+.style22 {font-size: 12pt}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+<body>
+<table width="570" height="504" border="0" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" height="17" align="center" class="style19"> 第一課</td>
+        <td width="212" class="style19">聲母</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="4"><img src="../../image/音節結構.gif" width="120" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19" rowspan="2">&nbsp;</td>
+    <td width="23" height="15">&nbsp;</td>
+    <td height="15" colspan="2"><span class="style17">臺灣話是漢語的一支<span class="style17">，漢語的音節有類似的「音節結構」（</span></span><span class="style18">im-tsiat-kiat-</span></td>
+  </tr>
+  <tr>
+    <td width="23" height="15">&nbsp;</td>
+    <td height="15" colspan="2"><span class="style17"><span class="style18">kòo</span>），<span class="style17">這個結構可以用下表來表示：</span></span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="80" colspan="4"><table width="252" height="60" border="0" align="center" cellpadding="1" cellspacing="1">
+      <tr>
+        <td rowspan="2" align="center" bgcolor="#E4BFCC"><span class="style17">聲母</span></td>
+        <td align="center" bgcolor="#9D6B71"><span class="style17">聲調</span></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#9D6B71"><span class="style17">韻母</span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" class="style17">&nbsp;</td>
+  </tr>
+  
+  
+  <tr>
+    <td height="15" colspan="2" class="style17">&nbsp;</td>
+    <td width="463" height="15" class="style17"><span class="style17">下表是一些例子：</span></td>
+    <td width="44" height="15" class="style17">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" class="style17">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="142" colspan="4"><table width="324" height="163" border="0" align="center" cellpadding="1" cellspacing="1" bordercolor="#999999">
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style19">聲母 </td>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style19">韻母 </td>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style19">聲調 </td>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style19">例字 </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">k</td>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">a</td>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">1</td>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_ma11_001.wav')" title="音檔已佚失（Wayback 未存）">家</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#CCCC99" class="style18">k</td>
+        <td align="center" bgcolor="#CCCC99" class="style18">ua</td>
+        <td align="center" bgcolor="#CCCC99" class="style18">1</td>
+        <td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_ma11_002.wav')" title="音檔已佚失（Wayback 未存）">歌 </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">k</td>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">ai</td>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">2</td>
+        <td align="center" bgcolor="#E3E3C8" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_ma11_003.wav')" title="音檔已佚失（Wayback 未存）">改 </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style18">k</td>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style18">uai</td>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style18">3</td>
+<td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_ma11_004.wav')" title="音檔已佚失（Wayback 未存）">怪 </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">k</td>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">uan</td>
+        <td align="center" valign="middle" bgcolor="#E3E3C8" class="style18">1</td>
+<td align="center" bgcolor="#E3E3C8" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_ma11_005.wav')" title="音檔已佚失（Wayback 未存）">關 </td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style18">k</td>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style18">uat</td>
+        <td align="center" valign="middle" bgcolor="#CCCC99" class="style18">4</td>
+<td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_ma11_006.wav')" title="音檔已佚失（Wayback 未存）">決 </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><span class="style17">呼唸學習先唸聲母、次以第一聲或第四聲唸韻母，最後再調整到主要要唸的</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="2">&nbsp;</td>
+    <td height="15" colspan="2"><span class="style17">聲調，就可以得到如例字的字音。</span></td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

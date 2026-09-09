@@ -1,0 +1,198 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; font-family: "細明體"; }
+body {
+	margin-top: 0px;
+}
+.style18 {font-size: 13pt}
+.style19 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+.style21 {font-size: 13pt; font-weight: bold; }
+.style22 {font-size: 12pt}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+<body>
+<table width="570" height="456" border="0" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td height="35" colspan="4"><img src="../image/版權聲明.gif" width="120" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19" rowspan="2">&nbsp;</td>
+    <td height="15" colspan="3">本網站由教育部補助國立臺中教育大學臺灣語文學系所建置。</td>
+  </tr>
+  <tr>
+    <td width="23" height="15">&nbsp;</td>
+    <td height="15" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center">1.</td>
+    <td height="15" colspan="2">歡迎合法連結本網站；但禁止以框架方式，將本網站全部或部分內容，內嵌</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">於任何網頁或網站中。</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">&nbsp;</td>
+    <td height="15" class="style17">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">&nbsp;</td>
+  </tr>
+  
+  
+  <tr>
+    <td height="15" class="style17">&nbsp;</td>
+    <td height="15" align="center" class="style17">2.</td>
+    <td height="15" colspan="2" class="style17">本網站內所有資料之著作權、所有權與智慧財產權，包括內容、文字、圖片</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">&nbsp;</td>
+    <td height="15" align="center" class="style17">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">、聲音、影像、軟體等均屬於臺中教育大學臺灣語文學系或經作者同意合法</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">&nbsp;</td>
+    <td height="15" align="center" class="style17">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">使用，受中華民國著作權法和國際智慧財產權相關法律條文保護。</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">&nbsp;</td>
+    <td height="15" align="center" class="style17">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center">3.</td>
+    <td height="15" colspan="2">未經國立臺中教育大學臺灣語文學系正式書面同意，不得擅自將全部或部份</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">的內容複製、重製、修改、編輯、轉載於任何形式之媒體，否則國立臺中教</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+    <td height="15" colspan="2">育大學臺灣語文學系將保留追究所有相關法律責任。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15" align="center"><img src="../image/square.gif" width="4" height="4"></td>
+    <td height="15" colspan="2"><p>《臺灣閩南語發音學入門》功勞者名單 </p></td>
+  </tr>
+  <tr>
+    <td height="196">&nbsp;</td>
+    <td height="196">&nbsp;</td>
+    <td height="196" colspan="2"><table width="500" height="379" border="0" cellpadding="0" cellspacing="1">
+      <tr>
+        <td width="238" bgcolor="#CCCC99"> 課文及練習著作</td>
+        <td width="259" bgcolor="#FFFFCC"><p>洪惟仁 </p></td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">《臺灣十五音》著作</td>
+        <td bgcolor="#FFFFCC">洪惟仁</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">《臺灣羅馬字拼音手冊》著作</td>
+        <td bgcolor="#FFFFCC">教育部國語推行委員會</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">《常用三百詞測驗題》著作</td>
+        <td bgcolor="#FFFFCC">簡佳敏初稿、洪惟仁校正</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">《常用字音測驗題》製作</td>
+        <td bgcolor="#FFFFCC"><p>根據教育部國語推行委員會著作之<br>
+          《臺灣閩南語常用詞詞典》，駱嘉鵬、嘉利博公司資料處理 </p></td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99"> <p>發音指導</p>          </td>
+        <td bgcolor="#FFFFCC"><p>洪惟仁、潘科元 </p></td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">《發音手冊》發音</td>
+        <td bgcolor="#FFFFCC">何吳雄、簡秀靜、洪惟仁</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">課文及練習發音</td>
+        <td bgcolor="#FFFFCC">黃以丞、尤思又、鄭清鴻、李雅雪、<br>
+          洪惟仁</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">聲音錄製</td>
+        <td bgcolor="#FFFFCC">洪敦謙、黃以丞</td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">錄音後製</td>
+        <td bgcolor="#FFFFCC">洪敦謙 </td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">校對與測試</td>
+        <td bgcolor="#FFFFCC"><p>潘科元、洪惟仁</p></td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCC99">《臺灣閩南語羅馬字及其發音學習網》多媒體網頁製作</td>
+        <td bgcolor="#FFFFCC">嘉利博資訊有限公司</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td height="15">&nbsp;</td>
+    <td width="463" height="15">&nbsp;</td>
+    <td width="44" height="15">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>

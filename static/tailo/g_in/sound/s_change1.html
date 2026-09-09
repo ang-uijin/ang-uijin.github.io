@@ -1,0 +1,203 @@
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style17 {font-size: 12pt; }
+body {
+	margin-top: 0px;
+}
+.style23 {font-size: 13pt; }
+.style24 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
+.style25 {font-size: 14pt}
+-->
+</style>
+<style type="text/css">
+<!--
+/*NM_customscroll*/
+BODY
+{
+background:transp0artent;
+SCROLLBAR-FACE-COLOR: #EBDFCD;
+SCROLLBAR-HIGHLIGHT-COLOR: #F4EEE3;
+SCROLLBAR-SHADOW-COLOR: #808080;
+SCROLLBAR-3DLIGHT-COLOR: #FBF9F4;
+SCROLLBAR-ARROW-COLOR: #333333;
+SCROLLBAR-TRACK-COLOR: #F1EADE;
+SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
+}
+/*NM_customscrollEnd*/
+//-->
+</style>
+</head>
+
+<script>
+var TL_SND = "../../voice/", TL_HAVE = {};
+function setFileName(f) {
+  var a = document.getElementById("tl-audio"); if (!a) return;
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  a.src = TL_SND + f; a.play().catch(function () {});
+}
+function tlNote(msg) {
+  var n = document.getElementById("tl-note");
+  if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+}
+</script>
+<style>
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+[onclick*="setFileName"]{cursor:pointer}
+.snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
+.snd-missing{cursor:default!important;text-decoration:none}
+img.snd-missing{opacity:.35}
+</style>
+
+<body>
+<table width="570" height="520" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" align="center" class="style24"> 第三課</td>
+        <td width="212" class="style24">變調</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="4"><img src="../../image/本調與變調.gif" width="141" height="21" /></td>
+  </tr>
+  <tr>
+    <td width="19" height="15">&nbsp;</td>
+    <td width="32" height="15">&nbsp;</td>
+    <td height="15" colspan="2" class="style17">臺灣話每一個實詞音節原則上都必須屬於「八音」中任何一個調類，雖然</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="3">&nbsp;</td>
+    <td width="518" height="10" class="style17">是同一個「調類」，在實際的言語中可以不同的唸法。請看以下的例子：</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="195" colspan="4"><table width="413" border="0" align="center" cellpadding="1" cellspacing="1">
+      <tr>
+        <td valign="top" bgcolor="#FDD6B3" class="style17"><table width="413" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="73" align="center" bgcolor="#FDD6B3">開開</td>
+            <td width="236" align="center" bgcolor="#FDD6B3"><table width="208" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_change31_001.wav')" title="音檔已佚失（Wayback 未存）"></span>khui-khui[khui<sub>22</sub>khui<sub>33</sub>]</td>
+                  
+                </tr>
+            </table></td>
+            <td width="104" align="center" bgcolor="#FDD6B3">開著、半開</td>
+          </tr>
+        </table></td>
+        </tr>
+      <tr>
+        <td valign="top" bgcolor="#FCB574" class="style17"><table width="413" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="73" align="center" bgcolor="#FCB574" class="style17">開‧開 </td>
+            <td width="236" align="center" bgcolor="#FCB574" class="style17"><table width="208" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_change31_002.wav')" title="音檔已佚失（Wayback 未存）">khui--khui[khui<sub>33</sub>khui<sub>1</sub>]</td>
+                  
+                </tr>
+            </table></td>
+            <td width="104" align="center" bgcolor="#FCB574" class="style17">打開 </td>
+          </tr>
+        </table></td>
+        </tr>
+      <tr>
+        <td valign="top" bgcolor="#FDD6B3" class="style17"><table width="413" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="73" align="center" bgcolor="#FDD6B3" class="style17">開開‧開 </td>
+            <td width="237" align="center" bgcolor="#FDD6B3" class="style17"><table width="208" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_change31_003.wav')"  title="音檔已佚失（Wayback 未存）"></span>khui<sub>22</sub>khui<sub>33</sub>khui<sub>1</sub></td>
+                  
+                </tr>
+            </table></td>
+            <td width="104" align="center" bgcolor="#FDD6B3" class="style17">一打開 </td>
+          </tr>
+        </table></td>
+        </tr>
+      <tr>
+        <td valign="top" bgcolor="#FCB574" class="style17"><table width="413" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="73" align="center" bgcolor="#FCB574" class="style17">開開開 </td>
+            <td width="236" align="center" bgcolor="#FCB574" class="style17"><table width="208" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_change31_004.wav')" title="音檔已佚失（Wayback 未存）"></span>khui<sub>23</sub>khui<sub>22</sub>khui<sub>33</sub></td>
+                  
+                </tr>
+            </table></td>
+            <td width="104" align="center" bgcolor="#FCB574" class="style17">大開 </td>
+          </tr>
+        </table></td>
+        </tr>
+      <tr>
+        <td valign="top" bgcolor="#FDD6B3" class="style17"><table width="413" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="73" align="center" bgcolor="#FDD6B3" class="style17">開開開 </td>
+            <td align="center" bgcolor="#FDD6B3" class="style17"><table width="208" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" class="snd-missing style23" style="cursor:pointer" onClick="setFileName('s_change31_005.wav')" title="音檔已佚失（Wayback 未存）">khui<sub>231</sub>khui<sub>22</sub>khui<sub>33</sub></td>
+                  
+                </tr>
+            </table></td>
+            <td width="104" align="center" bgcolor="#FDD6B3" class="style17">開得非常大 </td>
+          </tr>
+        </table></td>
+        </tr>
+      
+    </table>    </td>
+  </tr>
+  <tr>
+    <td colspan="3" rowspan="13">&nbsp;</td>
+    <td height="15" class="style17">一個「開」字有五種唸法：<span class="style23">khui<sub>33</sub>、khui<sub>22</sub>、khui<sub>1</sub>、khui<sub>23</sub>、khui<sub>231</sub>，</span></td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">就是這個字的「分調」（<span class="style23">allotone</span>）。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">其中 <span class="style23" lang=EN-US>khui<sub>33</sub></span>是「本調」（<span class="style23">basic
+    tone</span>），<span class="style23" lang=EN-US>khui<sub>22</sub></span> 是「變調」（<span class="style23">sandhi
+    </span></td>
+  </tr>
+  <tr>
+    <td height="15" class="style17"><span class="style23">tone</span>），其他是變化調。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">依照字所在的位置不同，分調之間按規則互相轉換，謂之「轉調」（<span class="style23">tone </span></td>
+  </tr>
+  <tr>
+    <td height="15" class="style17"><span class="style23">sandhi</span>）。</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">本調與變調是任何實詞所必備，謂之「主聲調」。另外還有輕聲調、仔變</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">調、三疊音詞變調…等分調，謂之「變化調」。變化調通常用於虛詞、半 </td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">虛詞，或因受緊鄰的虛詞影響而發生變化的實詞，分佈有限，所以又叫做</td>
+  </tr>
+  <tr>
+    <td height="15" class="style17">「次要分調」。</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<audio id="tl-audio" preload="none"></audio>
+</body>
+</html>
