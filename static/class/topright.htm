@@ -84,7 +84,7 @@ reload();
 
 </script>
  </head>
-<% if session("authority")=1 or session("authority")=2 then %>
+
 <body bgproperties="fixed"background="images/bg5.jpg" leftmargin="12" topmargin="27" onLoad="MM_preloadImages('images/funA_over.gif','images/funB_over.gif','images/funC_over.gif','images/funD_over.gif','images/funE_over.gif','images/funF_over.gif','images/funG_over.gif','images/funH_over.gif')">
 
 <div id="Layer1" style="position:absolute; left:212px; top:10px; width:83px; height:23px; z-index:1; visibility: hidden"><img src="images/funA_text.gif"></div>
@@ -110,16 +110,7 @@ reload();
 </table>
 </body>
 </html>
-<% else %>
-<body background="images/bg5.jpg" leftmargin="0" topmargin="38" bgproperties="fixed">
-<div align="center"><form action="notice.htm#backend" method="post" onSubmit="return isReady(this)" target="mainFrame"><font color="#993300">　學號</font> 
-  <input type="text" name="username" style='width: 50; background-color: #FFCC66; text-color: #000000; height: 21; color: #000000; border-style: solid; border-width: 1' size="8">
-  　<font color="#993300">密碼</font> 
-  <input type="password" name="password" style='width: 70; background-color: #FFCC66; text-color: #000000; height: 21; color: #000000; border-style: solid; border-width: 1' size="8">
-<input type="submit" value="確定" name="submit" style='width: 40; background-color: #FFCC66; text-color: #000000; height: 21; color: #000000; border-style: solid; border-width: 1'><input type="hidden" name="loginkey" value="loginpass"></form></div>
-</body>
-</html>
-<% end if %>
+
 
 
 

@@ -68,7 +68,9 @@ window.RufflePlayer.config = {
       var p = api.createPlayer();
       p.style.width = el.style.width; p.style.height = el.style.height; p.style.display = "block";
       el.appendChild(p);
-      p.ruffle().load({ url: el.getAttribute("data-swf"), wmode: el.getAttribute("data-wmode") || "window" });
+      var cfg = { url: el.getAttribute("data-swf"), wmode: el.getAttribute("data-wmode") || "window" };
+      if (el.getAttribute("data-renderer")) cfg.preferredRenderer = el.getAttribute("data-renderer");  // 音鈕用 canvas，避開 WebGL context 上限
+      p.ruffle().load(cfg);
     });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
