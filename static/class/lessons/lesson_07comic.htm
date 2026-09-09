@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<meta charset="utf-8">
+<TITLE></TITLE>
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+<link rel="stylesheet" href="lesson-opts.css" type="text/css">
+</HEAD>
+<BODY background="../images/bg6.jpg" scroll="auto" leftmargin="20" topmargin="20">
+<table width="586" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td colspan="3"><b><img src="../images/lesson-top.gif" width="586" height="20"></b></td>
+  </tr>
+  <tr> 
+    <td width="12" rowspan="7" background="../images/lesson-left.gif">&nbsp;</td>
+    <td rowspan="7" width="452">
+      <div align="center"><div class="rf-swf" data-swf="lesson_7.swf" data-wmode="window" style="width:408px;height:296px;display:inline-block;vertical-align:middle"></div></div>
+    </td>
+    <td height="35" width="55"><img src="../images/comic.gif" width="122" height="35"></td>
+  </tr>
+  <tr> 
+    <td height="35" width="55"><a href="lesson_07movie.htm"><img src="../images/movie_non.gif" width="122" height="35" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td height="35" width="55"><a href="lesson_07reading.htm"><img src="../images/reading_non.gif" width="122" height="35" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td height="35" width="55"><a href="lesson_07vocbulary.htm"><img src="../images/words_non.gif" width="122" height="35" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td height="35" width="55"><img src="../images/grammar_non.gif" width="122" height="35" border="0" title="原站未製作「文法」單元" style="opacity:.45;filter:grayscale(1)"></td>
+  </tr>
+  <tr> 
+    <td height="35" width="55"><a href="lesson_07pratice.htm"><img src="../images/practice_non.gif" width="122" height="35" border="0"></a></td>
+  </tr>
+  <tr>
+    <td background="../images/lesson-right.gif" height="100" width="122">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img src="../images/lesson-btm.gif" width="586" height="14"></td>
+  </tr>
+</table>
+<style>.rf-swf[data-missing]{border-radius:50%;background:#b9b1a4;opacity:.55;cursor:help}</style>
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+  publicPath: "/ruffle/", polyfills: false, autoplay: "on", unmuteOverlay: "hidden",
+  splashScreen: false, letterbox: "off", scale: "showAll", warnOnUnsupportedContent: false,
+  showSwfDownload: false, allowScriptAccess: false
+};
+</script>
+<script src="/ruffle/ruffle.js"></script>
+<script>
+(function () {
+  function boot() {
+    var api = window.RufflePlayer && window.RufflePlayer.newest && window.RufflePlayer.newest();
+    if (!api) { document.querySelectorAll(".rf-swf").forEach(function (el) { el.title = "Ruffle 載入失敗"; }); return; }
+    document.querySelectorAll(".rf-swf[data-swf]").forEach(function (el) {
+      if (!el.getAttribute("data-swf")) return;
+      var p = api.createPlayer();
+      p.style.width = el.style.width; p.style.height = el.style.height; p.style.display = "block";
+      el.appendChild(p);
+      p.ruffle().load({ url: el.getAttribute("data-swf"), wmode: el.getAttribute("data-wmode") || "window" });
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
+})();
+</script>
+</body>
+</HTML>

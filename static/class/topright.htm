@@ -1,0 +1,127 @@
+<html>
+ <head>
+   <title>台灣話e網成情_top</title>
+   <meta charset="utf-8">
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_showHideLayers() { //v3.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+   <script language="javascript">
+
+function isFilled(elm)
+{
+if(elm.value==""||elm.value.indexOf(" ")!="-1")
+		return false;
+else 
+
+return true;
+}
+
+function isReady(form)
+{
+	if(!isFilled(form.username)){
+		window.alert("請填入學號");
+        return false;}
+    if(!isFilled(form.userpassword)){
+		window.alert("請填入密碼");
+	    return false;}
+return true;
+reload();
+}
+
+
+</script>
+ </head>
+<% if session("authority")=1 or session("authority")=2 then %>
+<body bgproperties="fixed"background="images/bg5.jpg" leftmargin="12" topmargin="27" onLoad="MM_preloadImages('images/funA_over.gif','images/funB_over.gif','images/funC_over.gif','images/funD_over.gif','images/funE_over.gif','images/funF_over.gif','images/funG_over.gif','images/funH_over.gif')">
+
+<div id="Layer1" style="position:absolute; left:212px; top:10px; width:83px; height:23px; z-index:1; visibility: hidden"><img src="images/funA_text.gif"></div>
+  <div id="Layer2" style="position:absolute; left:212px; top:10px; width:83px; height:23px; z-index:1; visibility: hidden"><img src="images/funB_text.gif"></div>
+  <div id="Layer3" style="position:absolute; left:172px; top:10px; width:130px; height:23px; z-index:1; visibility: hidden"><img src="images/funC_text.gif"></div>
+  <div id="Layer4" style="position:absolute; left:212px; top:10px; width:83px; height:23px; z-index:1; visibility: hidden"><img src="images/funD_text.gif"></div>
+  
+<div id="Layer5" style="position:absolute; left:211px; top:10px; width:83px; height:23px; z-index:1; visibility: hidden"><img src="images/funE_text.gif"></div>
+  <div id="Layer6" style="position:absolute; left:212px; top:10px; width:83px; height:23px; z-index:1; visibility: hidden"><img src="images/funF_text.gif"></div>
+  <div id="Layer7" style="position:absolute; left:212px; top:10px; width:83px; height:23px; z-index:1; visibility: hidden"><img src="images/funG_text.gif"></div>
+  <div id="Layer8" style="position:absolute; left:212px; top:10px; width:83px; height:23px; z-index:1; visibility: hidden"><img src="images/funH_text.gif"></div>
+<table border="0" cellpadding="0" cellspacing="5">
+  <tr>
+    <td><a href="notice.htm#backend"  target="mainFrame" onClick="MM_nbGroup('down','group1','fun_A','images/funA_over.gif',1)" onMouseOver="MM_nbGroup('over','fun_A','images/funA_over.gif','images/funA_over.gif',1),MM_showHideLayers('Layer1','','show')" onMouseOut="MM_nbGroup('out'),MM_showHideLayers('Layer1','','hide')" target="mainFrame"><img name="fun_A" src="images/funA_non.gif" border="0" alt="登出系統"></a></td>
+    <td><a href="info.htm"      onClick="MM_nbGroup('down','group1','fun_B','images/funB_over.gif',1)" onMouseOver="MM_nbGroup('over','fun_B','images/funB_over.gif','images/funB_over.gif',1),MM_showHideLayers('Layer2','','show')" onMouseOut="MM_nbGroup('out'),MM_showHideLayers('Layer2','','hide')" target="mainFrame"><img name="fun_B" src="images/funB_non.gif" border="0" alt="使用說明"></a></td>
+    <td><a href="exam.htm"      onClick="MM_nbGroup('down','group1','fun_C','images/funC_over.gif',1)" onMouseOver="MM_nbGroup('over','fun_C','images/funC_over.gif','images/funC_over.gif',1),MM_showHideLayers('Layer3','','show')" onMouseOut="MM_nbGroup('out'),MM_showHideLayers('Layer3','','hide')" target="mainFrame"><img name="fun_C" src="images/funC_non.gif" border="0" alt="線上練習與測驗"></a></td>
+    <td><a href="grades.htm"    onClick="MM_nbGroup('down','group1','fun_D','images/funD_over.gif',1)" onMouseOver="MM_nbGroup('over','fun_D','images/funD_over.gif','images/funD_over.gif',1),MM_showHideLayers('Layer4','','show')" onMouseOut="MM_nbGroup('out'),MM_showHideLayers('Layer4','','hide')" target="mainFrame"><img name="fun_D" src="images/funD_non.gif" border="0" alt="成績查詢"></a></td>
+    <td><a href="download.htm"  onClick="MM_nbGroup('down','group1','fun_E','images/funE_over.gif',1)" onMouseOver="MM_nbGroup('over','fun_E','images/funE_over.gif','images/funE_over.gif',1),MM_showHideLayers('Layer5','','show')" onMouseOut="MM_nbGroup('out'),MM_showHideLayers('Layer5','','hide')" target="mainFrame"><img name="fun_E" src="images/funE_non.gif" border="0" alt="檔案下載"></a></td>
+    <td><a href="homework.htm"  onClick="MM_nbGroup('down','group1','fun_F','images/funF_over.gif',1)" onMouseOver="MM_nbGroup('over','fun_F','images/funF_over.gif','images/funF_over.gif',1),MM_showHideLayers('Layer6','','show')" onMouseOut="MM_nbGroup('out'),MM_showHideLayers('Layer6','','hide')" target="mainFrame"><img name="fun_F" src="images/funF_non.gif" border="0" alt="作業上傳"></a></td>
+    <td><a href="workplay.htm"  onClick="MM_nbGroup('down','group1','fun_G','images/funG_over.gif',1)" onMouseOver="MM_nbGroup('over','fun_G','images/funG_over.gif','images/funG_over.gif',1),MM_showHideLayers('Layer7','','show')" onMouseOut="MM_nbGroup('out'),MM_showHideLayers('Layer7','','hide')" target="mainFrame" ><img name="fun_G" src="images/funG_non.gif" border="0" alt="成果展示"></a></td>
+    <td><a href="notice.htm#backend" onClick="MM_nbGroup('down','group1','fun_H','images/funH_over.gif',1)" onMouseOver="MM_nbGroup('over','fun_H','images/funH_over.gif','images/funH_over.gif',1),MM_showHideLayers('Layer8','','show')" onMouseOut="MM_nbGroup('out'),MM_showHideLayers('Layer8','','hide')"target="mainFrame"><img name="fun_H" src="images/funH_non.gif" border="0" alt="留言討論"></a></td>
+  </tr>
+</table>
+</body>
+</html>
+<% else %>
+<body background="images/bg5.jpg" leftmargin="0" topmargin="38" bgproperties="fixed">
+<div align="center"><form action="notice.htm#backend" method="post" onSubmit="return isReady(this)" target="mainFrame"><font color="#993300">　學號</font> 
+  <input type="text" name="username" style='width: 50; background-color: #FFCC66; text-color: #000000; height: 21; color: #000000; border-style: solid; border-width: 1' size="8">
+  　<font color="#993300">密碼</font> 
+  <input type="password" name="password" style='width: 70; background-color: #FFCC66; text-color: #000000; height: 21; color: #000000; border-style: solid; border-width: 1' size="8">
+<input type="submit" value="確定" name="submit" style='width: 40; background-color: #FFCC66; text-color: #000000; height: 21; color: #000000; border-style: solid; border-width: 1'><input type="hidden" name="loginkey" value="loginpass"></form></div>
+</body>
+</html>
+<% end if %>
+
+
+
+
+

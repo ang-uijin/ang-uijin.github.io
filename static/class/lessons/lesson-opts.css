@@ -1,0 +1,8 @@
+.link{  color: #FF9933; text-decoration: none}
+.visited{  color: #FF9933; border-style: solid}
+.hover{  color: #FF9933; font-weight: bolder; text-decoration: none}
+
+.option {  color: #FF9900; text-decoration: none}
+a:link {  color: #FF9900; text-decoration: none}
+a:hover {  font-weight: bolder; color: #FF9933; text-decoration: none}
+a:visited {  color: #FF9900; text-decoration: none}

@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>關於這個網站的重現</title>
+<style>
+body{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;font-size:14px;line-height:1.9;color:#332}
+.box{max-width:640px;margin:20px auto;padding:18px 26px;background:rgba(255,255,255,.88);border:1px solid #c9b48a}
+h1{font-size:20px;color:#990000;margin:0 0 8px} h2{font-size:16px;color:#5a3a1a;margin:22px 0 4px;border-bottom:1px solid #d9c9a8}
+table{border-collapse:collapse;font-size:13px} td,th{border:1px solid #d9c9a8;padding:3px 8px;text-align:left;vertical-align:top}
+a{color:#993300}
+</style>
+</head>
+<body background="images/bg6.jpg" leftmargin="10" topmargin="10">
+<div class="box">
+<h1>關於「台灣話e網情深」的重現</h1>
+<p>「台灣話e網情深」是洪惟仁教授在 2000–2001 年間製作的台語教材網站，共十二課，每課有漫畫、小電影、課文朗讀與詞彙，
+2002 年獲僑務委員會九十一年度海華獎優良華語文教學軟體網頁組評選推薦獎。原站以 Macromedia Flash 5 製作，
+瀏覽器自 2021 年起不再支援 Flash，本站於 2026 年將原始檔整理後，改用開源的
+<a href="https://ruffle.rs/" target="_blank">Ruffle</a> 模擬器重現，內容與 2007 年的版本相同。</p>
+
+<h2 id="use">怎麼使用</h2>
+<p>左邊點課號進入該課，右上角四個分頁：<b>可愛漫畫</b>（Flash 動畫，按畫面裡的按鈕播放）、<b>小電影</b>、<b>念念課文</b>
+（點每一句前面的小圓鈕聽朗讀）、<b>沒學過的字</b>（詞彙與聯想）。第一次點播放時瀏覽器可能要求允許聲音。</p>
+
+<h2 id="missing">哪些東西沒有救回來</h2>
+<table>
+<tr><th>項目</th><th>狀況</th></tr>
+<tr><td>「文法」單元（十二課）</td><td>原站從未製作，按鈕一直是灰的；這裡保持灰色不可點</td></tr>
+<tr><td>「練習」單元</td><td>只有第一到第四課有；第五課、第六課、第七課、第八課、第九課、第十課、第十一課、第十二課在原始站與網際網路檔案館（Wayback Machine）的備份裡都找不到</td></tr>
+<tr><td>詞彙表（voc_list）</td><td>只有第一、二課有；第三課、第四課、第五課、第六課、第七課、第八課、第九課、第十課、第十一課、第十二課找不到</td></tr>
+<tr><td>朗讀音鈕</td><td>十二課 247 顆全部都在</td></tr>
+<tr><td>小電影</td><td>十二支都在；原檔是 Windows Media（wmv，320×240），已轉成 mp4 直接播放</td></tr>
+<tr><td id="backend">學生註冊、登入、成績、作業、留言板、最新消息</td><td>原本是 ASP 程式加資料庫的後台功能，舊主機已停止服務，無法重現；相關頁面只保留外觀</td></tr>
+<tr><td id="flash">「下載 Flash／Shockwave」</td><td>不再需要；本站已內建 Ruffle 模擬器</td></tr>
+</table>
+
+<h2 id="chars">用字</h2>
+<p>原站的詞彙與聯想頁用了 15 個 Big5「造字」（要安裝作者提供的造字檔才顯示得出來），本站改成 Unicode 對應字，多依教育部《臺灣台語常用詞辭典》用字；
+其中 ê 原站是自造字形，這裡暫用「个」。部分是擴充區漢字，舊系統的字型可能顯示成方框。</p>
+<table><tr><th>原碼</th><th>改用</th><th>音</th><th>例</th></tr><tr><td>FA41</td><td>𪜶</td><td>in</td><td>予𪜶</td></tr><tr><td>FA43</td><td>𨑨</td><td>tshit</td><td>𨑨迌</td></tr><tr><td>FA44</td><td>迌</td><td>thô</td><td>𨑨迌</td></tr><tr><td>FA46</td><td>啉</td><td>lim</td><td>啉茶</td></tr><tr><td>FA4C</td><td>媠</td><td>suí</td><td>真媠</td></tr><tr><td>FA4E</td><td>捾</td><td>kuānn</td><td>一捾</td></tr><tr><td>FA52</td><td>𤆬</td><td>tshuā</td><td>𤆬伊去</td></tr><tr><td>FA54</td><td>䘼</td><td>ńg</td><td>手䘼</td></tr><tr><td>FA58</td><td>䫌</td><td>phé</td><td>喙䫌</td></tr><tr><td>FA5A</td><td>𬦰</td><td>peh</td><td>𬦰山</td></tr><tr><td>FA6D</td><td>鮘</td><td>tāi</td><td>鮘仔</td></tr><tr><td>FA70</td><td>𥍉</td><td>nih</td><td>目一下𥍉</td></tr><tr><td>FA7E</td><td>塗</td><td>thôo</td><td>塗魠</td></tr><tr><td>FAAA</td><td>个</td><td>ê</td><td>真个／車个</td></tr><tr><td>FAAB</td><td>䆀</td><td>bái</td><td>袂䆀</td></tr></table>
+
+<h2 id="source">來源</h2>
+<p>2007 年版原始檔取自舊主機 <code>old.uijin.idv.tw/data/class/</code>（2026 年 9 月備份），缺的五課主動畫與兩支小電影由
+網際網路檔案館 2003–2007 年的存檔補齊。原始備份另存，不在本站。</p>
+<p><a href="mainframe.htm">← 回首頁</a></p>
+</div>
+</body>
+</html>

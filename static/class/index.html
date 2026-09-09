@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台灣話e網情深｜洪惟仁治言齋</title>
+<meta name="description" content="洪惟仁教授 2000–2001 年製作的十二課台語教材網站「台灣話e網情深」，2002 年僑委會海華獎推薦獎；Flash 內容以 Ruffle 重現。">
+<link rel="canonical" href="https://uijin.idv.tw/class/">
+<style>
+html,body{margin:0;height:100%;background:#efe7d8;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+.bar{box-sizing:border-box;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;background:#5a3a1a;color:#f3e6cf;font-size:14px;white-space:nowrap;overflow:hidden}
+.bar a{color:#ffd9a0;text-decoration:none}.bar a:hover{text-decoration:underline}
+.bar .t{font-weight:700;letter-spacing:.04em}.bar .s{opacity:.8;font-size:12.5px}
+.bar .r{margin-left:auto}
+.site{position:absolute;top:38px;left:0;right:0;bottom:0;overflow:auto}
+.grid{min-width:900px;height:100%;display:grid;grid-template-columns:140px 1fr 295px;grid-template-rows:64px 71px 1fr 36px}
+.grid iframe{width:100%;height:100%;border:0;display:block}
+#f-lefttop{grid-column:1;grid-row:1/3}#f-leftmenu{grid-column:1;grid-row:3}#f-leftbottom{grid-column:1;grid-row:4}
+#f-maintop{grid-column:2;grid-row:1}#f-topright{grid-column:3;grid-row:1}#f-main{grid-column:2/4;grid-row:2/5}
+@media (max-width:700px){.bar{font-size:13px;gap:10px}.bar .s{display:none}}
+</style>
+</head>
+<body>
+<div class="bar">
+  <a href="/">← 回治言齋</a>
+  <span class="t">台灣話e網情深</span>
+  <span class="s">洪惟仁　2000–2001 年製作的十二課台語教材　·　Flash 內容以 Ruffle 重現</span>
+  <a class="r" href="notice.htm" target="mainFrame">說明</a>
+</div>
+<div class="site"><div class="grid">
+  <iframe id="f-lefttop" name="topFrame" src="lefttop.htm" scrolling="no" title="標誌"></iframe>
+  <iframe id="f-leftmenu" name="leftFrame" src="leftmenu1-6.htm" scrolling="no" title="課程選單"></iframe>
+  <iframe id="f-leftbottom" name="leftbottom" src="leftbottom.htm" scrolling="no" title=""></iframe>
+  <iframe id="f-maintop" name="maintopFrame" src="maintop.htm" scrolling="no" title="進階選項"></iframe>
+  <iframe id="f-topright" name="rightFrame" src="topright.htm" scrolling="no" title="功能列"></iframe>
+  <iframe id="f-main" name="mainFrame" src="mainframe.htm" title="主內容"></iframe>
+</div></div>
+<script>
+// 深連結：index.html#lessons/lesson_07comic.htm → 主框載入該頁，第 7 課以後把左選單切到 7–12
+(function () {
+  var h = location.hash.replace(/^#/, "");
+  if (!h || /^[a-z]+:|^\/\/|\.\./i.test(h) || !/\.htm/i.test(h)) return;
+  document.getElementById("f-main").src = h;
+  var m = /lesson_(\d+)/i.exec(h);
+  if (m && parseInt(m[1], 10) >= 7) document.getElementById("f-leftmenu").src = "leftmenu7-12.htm";
+})();
+</script>
+</body>
+</html>
