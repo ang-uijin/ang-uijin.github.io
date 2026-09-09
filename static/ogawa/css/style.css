@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0; padding:0px; background:#CCC;}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;}
+
+#box{
+	width:100% ;
+	min-width:1300px;
+	height:auto;
+	margin:0 auto;
+	
+}
+
+#mainbox{
+	background:url(../images/bg.jpg);margin:0 auto;
+width:1300px;height:1201px;
+	
+	}
+
+

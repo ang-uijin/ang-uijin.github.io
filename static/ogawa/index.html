@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<title>語言地理學與歷史文化跨領域工作坊</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<style>
+.zz-bar{box-sizing:border-box;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;background:#5a3a1a;color:#f3e6cf;font-size:14px;white-space:nowrap;overflow:hidden;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+.zz-bar a{color:#ffd9a0;text-decoration:none}.zz-bar a:hover{text-decoration:underline;color:#ffd9a0}
+.zz-bar .t{font-weight:700;letter-spacing:.04em}.zz-bar .s{opacity:.8;font-size:12.5px}.zz-bar .r{margin-left:auto}
+@media (max-width:700px){.zz-bar{font-size:13px;gap:10px}.zz-bar .s{display:none}}
+</style>
+<style type="text/css">
+a{text-decoration: none;}
+a:hover { color:#F90;}
+
+	#abgneBlock {
+		margin-left:110px;
+		width: 592px;
+		height: 443px;
+		position: relative;
+		overflow: hidden;
+		border: 1px solid #ccc;
+	}
+	#abgneBlock ul.list {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		position: absolute;
+		width: 9999px;
+		height: 100%;
+	}
+	#abgneBlock ul.list li {
+		float: left;
+		width: 592px;
+		height: 100%;
+	}
+	#abgneBlock .list img{
+		width: 100%;
+		height: 100%;
+		border: 0;
+	}
+	#abgneBlock ul.playerControl {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		position: absolute;
+		bottom: 5px;
+		right: 5px;
+		height: 14px;
+	}
+	#abgneBlock ul.playerControl li {
+		float: left;
+		width: 23px;
+		height: 14px;
+		cursor: pointer;
+		margin: 0px 2px;
+		background: url(images/rect_ctrl.png) no-repeat 0 0;
+	}
+	#abgneBlock ul.playerControl li.current { 
+		background-position: -23px 0;
+	}
+
+
+</style>
+
+<script type="text/javascript">
+	$(function(){
+		// 先取得必要的元素並用 jQuery 包裝
+		// 再來取得 $block 的高度及設定動畫時間
+		var $block = $('#abgneBlock'),
+			$slides = $('ul.list', $block),
+			_width = $block.width(),
+			$li = $('li', $slides),
+			_animateSpeed = 600;
+
+		// 產生 li 選項
+		var _str = '';
+		for(var i=0, j=$li.length;i<j;i++){
+			// 每一個 li 都有自己的 className = playerControl_號碼
+			_str += '<li class="playerControl_' + (i+1) + '"></li>';
+		}
+
+		// 產生 ul 並把 li 選項加到其中
+		// 並幫 li 加上 mouseover 事件
+		$('<ul class="playerControl"></ul>').html(_str).appendTo($slides.parent()).css('left', function(){
+			// 把 .playerControl 移到置中的位置
+			return (_width - $(this).width()) / 2;
+		}).find('li').mouseover(function(){
+			var $this = $(this);
+			$this.addClass('current').siblings('.current').removeClass('current');
+			// 移動位置到相對應的號碼
+			$slides.stop().animate({
+				left: _width * $this.index() * -1
+			}, _animateSpeed);
+
+			return false;
+		}).eq(0).mouseover();
+	});
+</script>
+
+</head>
+
+<body>
+<div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">語言地理學與歷史文化跨領域工作坊</span><span class="s">洪惟仁主持　2008–2017 共十六次　·　網站依網際網路檔案館 2012–2023 年存檔重現</span><a class="r" href="notice.html">說明</a></div>
+
+<div id="box">
+<div style="background:url(images/bg.jpg);margin:0 auto;
+width:1300px;height:1201px;"> 
+
+<a href="index.html"><img src="images/logo.png" width="829" height="118" border="0" style="margin-left:230px; margin-top:15px;" /></a>
+
+<div style="font-size:22px; font-family:'微軟正黑體', '新細明體', '標楷體', 'Arial Black', Arial; color:#06C; font-weight:800; margin-left:290px; margin-top:40px;">
+
+│ <a href="news.html">最新消息</a> │ <a href="sing.html">工作坊報名專區</a> │ <a href="class.html">議程及論文下載</a> │ <a href="member.html">會員專區</a> │ <a href="links.html">相關連結</a> │ </div>
+
+<div style="height:850px; width:810px; margin-top:60px; margin-left:240px; ">
+
+  <div style="text-align:center; padding-top:60px;">
+  
+  <div id="abgneBlock">
+		<ul class="list">
+			
+			<li><a target="_blank" href="#"><img src="images/07.jpg"></a></li>
+			<li><a target="_blank" href="#"><img src="images/03.jpg"></a></li>
+			<li><a target="_blank" href="#"><img src="images/04.jpg"></a></li>
+			<li><a target="_blank" href="#"><img src="images/05.jpg"></a></li>
+            <li><a target="_blank" href="#"><img src="images/02.jpg"></a></li>
+            <li><a target="_blank" href="#"><img src="images/01.jpg"></a></li>
+           
+		</ul>
+	</div>
+  
+  <div style=" margin-top:30px; font-size:26px;font-family:'微軟正黑體', '新細明體', '標楷體', 'Arial Black', Arial; color:#F30; font-weight:bold;">語言地理學與歷史文化跨領域工作坊</div>
+  
+   <div style=" margin-top:10px; font-size:24px;font-family:'微軟正黑體', '新細明體', '標楷體', 'Arial Black', Arial; color: #F00;  font-weight:bold;">歡迎參觀！</div>
+  
+  </div>
+  
+  </div>
+
+
+
+<div style=" font-size:16px; margin-left:370px; margin-top:42px;">語言地理學與歷史文化跨領域工作坊　版權所有©2014 Uijin Ang All Right Reserved.　</div>
+
+
+</div>
+</div>
+</body>
+</html>
