@@ -1,0 +1,30 @@
+.test {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+a:visited {
+	font-size: 16px;
+	color: #ff9900;
+	text-decoration: none;
+
+}
+a:link {
+	font-size: 16px;
+	color: #ff9900;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 16px;
+	color: #ccff00;
+	text-decoration: underline;
+}
+.a {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.b {
+	font-size: 14px;
+	color: #000000;
+	text-decoration: underline;
+}

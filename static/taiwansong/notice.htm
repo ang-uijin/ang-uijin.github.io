@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>關於這個網站的重現</title>
+<style>
+body{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;font-size:14px;line-height:1.9;color:#332;background:#CC9999}
+.box{max-width:640px;margin:20px auto;padding:18px 26px;background:rgba(255,255,255,.88);border:1px solid #8a5a5a}
+h1{font-size:20px;color:#7a1f1f;margin:0 0 8px} h2{font-size:16px;color:#5a2a2a;margin:22px 0 4px;border-bottom:1px solid #c9a0a0}
+table{border-collapse:collapse;font-size:13px} td,th{border:1px solid #c9a0a0;padding:3px 8px;text-align:left;vertical-align:top}
+a{color:#7a1f1f}
+</style>
+</head>
+<body leftmargin="10" topmargin="10">
+<div class="box">
+<h1>關於「民間歌謠教學研究網」原版的重現</h1>
+<p>「民間歌謠教學研究網」是洪惟仁教授在 2004 年獲元智大學補助製作、2008 年前後陸續增補的相褒歌研究網站：
+486 首歌謠各有歌詞、中譯、演唱影片與說明，配上歌手分佈地圖、〈什麼是歌謠〉與〈台北的民間歌謠〉兩篇文章，以及五本相褒歌專著的掃描。
+原站的地圖與每首歌的音鈕以 Macromedia Flash 製作，影片是 QuickTime；瀏覽器早已不支援 Flash，
+本站於 2026 年將舊主機的原始檔整理後，改用開源的 <a href="https://ruffle.rs/" target="_blank">Ruffle</a> 模擬器重現 Flash，影片轉成 mp4 直接播放。</p>
+<p>這是 <b>2004–2008 年的原版</b>。2024 年另有重新製作的版本（<a href="/song/" target="_top">/song/</a>，139 首、影片在 YouTube），兩版並存，內容以原版為多。</p>
+
+<h2 id="use">怎麼使用</h2>
+<p>首頁四個入口：<b>民間歌謠論</b>（兩篇文章）、<b>歌謠分佈圖</b>（Flash 地圖，點台灣地圖區塊進入各地區，再點歌手看照片與曲目）、
+<b>歌謠欣賞</b>（依「閩南語民歌／閩南語歌謠／客家民謠／客家山歌」分類的曲目）、<b>相關資源</b>（五本專著的掃描與網站連結）。
+每首歌有「歌詞、中譯、影片、說明」四頁；歌詞頁下方的小圓鈕是這首歌的錄音（Flash 音鈕），點一下播放。第一次點播放時瀏覽器可能要求允許聲音。</p>
+
+<h2 id="missing">哪些東西沒有救回來</h2>
+<table>
+<tr><th>項目</th><th>狀況</th></tr>
+<tr><td>演唱影片</td><td>486 首歌的影片頁裡，舊主機上只留有 <b>111 支</b>影片（QuickTime，320×240），已轉成 mp4；其餘 375 首的影片檔舊主機上已經沒有（2026 年備份時 404），網際網路檔案館也沒有存，影片頁改成說明框</td></tr>
+<tr><td>歌詞圖</td><td>舊主機上整個 <code>TEXTS/</code> 目錄都不在了；126 張由本站 2024 年版所用的同一批原始檔補回，3 張兩邊都沒有</td></tr>
+<tr><td>專著掃描</td><td>五本專著共 1,299 頁，舊主機上掃描圖全部不在；網際網路檔案館存到 <b>256 張</b>（為了網站容量，寬度縮到 1,100 像素），其餘 1040 頁改成說明框。另有 14 個頁面本身也不在，補了能接上一頁／下一頁的說明頁</td></tr>
+<tr><td>地圖第三層（鄉鎮）</td><td>Flash 地圖連到的 38 個鄉鎮頁在舊主機上不存在；本站 2024 年版的副本裡有這些頁，但原站就沒有填入內容（只有「曲目：」空表），照樣放回</td></tr>
+<tr><td>〈台北的民間歌謠〉Word 檔、「台北的民間歌謠」曲目頁</td><td>備份與網際網路檔案館都沒有</td></tr>
+<tr><td id="forum">訪客留言板</td><td>原本是 ASP 程式加資料庫（CuteForum），舊主機已停止服務，留言內容沒有留存</td></tr>
+<tr><td>相關資源的外部網站連結</td><td>照原樣保留，多數網站已不存在</td></tr>
+</table>
+
+<h2 id="chars">用字</h2>
+<p>「相關資源」的專著歌名選單用了幾個 Big5「造字」（要安裝作者的造字檔才顯示得出來）。辨認得出的改成 Unicode 對應字，其餘以「〓」標示（滑鼠停在上面會顯示原碼），請教授指正：</p>
+<table><tr><th>原碼</th><th>改用</th><th>音</th><th>出處</th></tr><tr><td>FA45</td><td>刣</td><td>thâi</td><td>澎湖褒歌 29「一隻雞母毋甘刣」（刣 不在 Big5，依上下文推定，待教授確認）</td></tr><tr><td>FAAA</td><td>个</td><td>ê</td><td>澎湖菜瓜 92–94「一年个…」</td></tr><tr><td>FAAB</td><td>䆀</td><td>bái</td><td>澎湖褒歌 82「牽網講䆀就也好」、澎湖水調 267</td></tr>
+<tr><td>FA40</td><td>〓</td><td></td><td>link-main.htm「.htm">151.做官」</td></tr><tr><td>FA5C</td><td>〓</td><td></td><td>link-main.htm「htm">139.俺公也」</td></tr><tr><td>FAB5</td><td>〓</td><td></td><td>link-main.htm「.htm">2.一個矮〓」</td></tr><tr><td>FAB5</td><td>〓</td><td></td><td>link-main.htm「3.htm">2.一個矮」</td></tr></table>
+
+<h2 id="source">來源</h2>
+<p>原始檔取自舊主機 <code>old.uijin.idv.tw/TAIWANSONG/</code>（2026 年 9 月備份，4,154 檔）；掃描圖由網際網路檔案館 2007 年的存檔補回；
+歌詞圖與地圖第三層的頁面取自本站 2024 年版所用的同一批原始檔。原始備份另存，不在本站。</p>
+<p><a href="index.htm" target="_top">← 回首頁</a>　·　<a href="/" target="_top">回治言齋</a></p>
+</div>
+</body>
+</html>

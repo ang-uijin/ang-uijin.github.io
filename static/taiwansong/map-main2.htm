@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#CC9999" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="500" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td><div align="right"><a href="map-main.htm" target="_self">台灣</a>&gt;台北</div></td>
+  </tr>
+  <tr> 
+    <td> <div align="center"> </div></td>
+  </tr>
+  <tr> 
+    <td><div align="center"></div></td>
+  </tr>
+  <tr> 
+    <td><div align="right"></div></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td><div class="rf-swf" data-swf="mapimages/main2.swf" data-wmode="window" style="width:500px;height:400px;display:inline-block;vertical-align:middle"></div></td>
+  </tr>
+  <tr> 
+    <td><div align="right" class="a">請點取台北地區圓點</div></td>
+  </tr>
+  <tr> 
+    <td><div align="right"></div></td>
+  </tr>
+</table>
+<style>.rf-swf[data-missing]{border-radius:50%;background:#b9b1a4;opacity:.55;cursor:help}</style>
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+  publicPath: "/ruffle/", polyfills: false, autoplay: "on", unmuteOverlay: "hidden",
+  splashScreen: false, letterbox: "off", scale: "showAll", warnOnUnsupportedContent: false,
+  showSwfDownload: false, allowScriptAccess: false
+};
+</script>
+<script src="/ruffle/ruffle.js"></script>
+<script>
+(function () {
+  function boot() {
+    var api = window.RufflePlayer && window.RufflePlayer.newest && window.RufflePlayer.newest();
+    if (!api) { document.querySelectorAll(".rf-swf").forEach(function (el) { el.title = "Ruffle 載入失敗"; }); return; }
+    var base = location.href.replace(/[#?].*$/, "").replace(/[^/]*$/, "");   // 地圖 swf 的 getURL 是相對「網頁」的路徑，不是相對 swf
+    document.querySelectorAll(".rf-swf[data-swf]").forEach(function (el) {
+      if (!el.getAttribute("data-swf")) return;
+      var p = api.createPlayer();
+      p.style.width = el.style.width; p.style.height = el.style.height; p.style.display = "block";
+      el.appendChild(p);
+      var cfg = { url: el.getAttribute("data-swf"), base: base, wmode: el.getAttribute("data-wmode") || "window" };
+      if (el.getAttribute("data-renderer")) cfg.preferredRenderer = el.getAttribute("data-renderer");  // 音鈕用 canvas，避開 WebGL context 上限
+      p.ruffle().load(cfg);
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
+})();
+</script>
+</body>
+</html>
