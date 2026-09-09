@@ -44,7 +44,7 @@ function MM_swapImage() { //v3.0
 </table>
 <table width="550" border="0" cellpadding="0" cellspacing="0">
   <tr> 
-    <td> <div class="rf-swf" data-swf="Images/map.swf" data-wmode="window" style="width:550px;height:400px;display:inline-block;vertical-align:middle"></div></td>
+    <td> <div class="rf-swf" data-swf="Images/map.swf" data-wmode="window" data-links='[[341, 82, 388, 110, "map-main2.htm", "mainFrame"], [268, 100, 324, 138, "map-main3.htm", "mainFrame"]]' style="width:550px;height:400px;display:inline-block;vertical-align:middle"></div></td>
   </tr>
   <tr> 
     <td><div align="center" class="a">請點取台灣地圖區塊（只有大台北、桃竹苗兩區有資料）<br><a href="map-main2.htm" target="_self">大台北地區</a>　｜　<a href="map-main3.htm" target="_self">桃竹苗地區</a></div></td>
@@ -75,6 +75,19 @@ window.RufflePlayer.config = {
       var cfg = { url: el.getAttribute("data-swf"), base: base, wmode: el.getAttribute("data-wmode") || "window" };
       if (el.getAttribute("data-renderer")) cfg.preferredRenderer = el.getAttribute("data-renderer");  // 音鈕用 canvas，避開 WebGL context 上限
       p.ruffle().load(cfg);
+      var links = el.getAttribute("data-links");
+      if (links) {   // 地圖按鈕：swf 裡的 getURL 由這裡代做（Ruffle 的 getURL 不一定會跳頁）
+        links = JSON.parse(links); var down = -1;
+        function hit(e) { var r = el.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+          for (var i = 0; i < links.length; i++) { var L = links[i]; if (x >= L[0] && x <= L[2] && y >= L[1] && y <= L[3]) return i; } return -1; }
+        el.addEventListener("pointerdown", function (e) { if (e.button === 0) down = hit(e); }, true);
+        el.addEventListener("pointerup", function (e) {
+          if (e.button !== 0) return; var i = hit(e); if (i < 0 || i !== down) { down = -1; return; } down = -1;
+          var L = links[i], url = L[4], t = L[5];
+          if (t === "_blank") window.open(url); else if (t === "_top") window.top.location.href = url; else if (t === "_parent") window.parent.location.href = url; else location.href = url;
+        }, true);
+        el.style.cursor = "pointer";
+      }
     });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();

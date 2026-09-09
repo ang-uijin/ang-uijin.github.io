@@ -199,6 +199,19 @@ window.RufflePlayer.config = {
       var cfg = { url: el.getAttribute("data-swf"), base: base, wmode: el.getAttribute("data-wmode") || "window" };
       if (el.getAttribute("data-renderer")) cfg.preferredRenderer = el.getAttribute("data-renderer");  // 音鈕用 canvas，避開 WebGL context 上限
       p.ruffle().load(cfg);
+      var links = el.getAttribute("data-links");
+      if (links) {   // 地圖按鈕：swf 裡的 getURL 由這裡代做（Ruffle 的 getURL 不一定會跳頁）
+        links = JSON.parse(links); var down = -1;
+        function hit(e) { var r = el.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+          for (var i = 0; i < links.length; i++) { var L = links[i]; if (x >= L[0] && x <= L[2] && y >= L[1] && y <= L[3]) return i; } return -1; }
+        el.addEventListener("pointerdown", function (e) { if (e.button === 0) down = hit(e); }, true);
+        el.addEventListener("pointerup", function (e) {
+          if (e.button !== 0) return; var i = hit(e); if (i < 0 || i !== down) { down = -1; return; } down = -1;
+          var L = links[i], url = L[4], t = L[5];
+          if (t === "_blank") window.open(url); else if (t === "_top") window.top.location.href = url; else if (t === "_parent") window.parent.location.href = url; else location.href = url;
+        }, true);
+        el.style.cursor = "pointer";
+      }
     });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();

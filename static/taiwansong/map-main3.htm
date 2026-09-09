@@ -39,7 +39,7 @@ function MM_preloadImages() { //v3.0
     <td>&nbsp;</td>
   </tr>
   <tr> 
-    <td><div class="rf-swf" data-swf="mapimages/main3.swf" data-wmode="window" style="width:500px;height:400px;display:inline-block;vertical-align:middle"></div></td>
+    <td><div class="rf-swf" data-swf="mapimages/main3.swf" data-wmode="window" data-links='[[249, 61, 270, 82, "main3map/map-12.htm", "_self"], [341, 74, 362, 96, "main3map/map-05.htm", "_self"], [366, 53, 387, 74, "main3map/map-04.htm", "_self"], [242, 35, 264, 57, "main3map/map-11.htm", "_self"], [333, 46, 354, 67, "main3map/map-03.htm", "_self"], [236, 102, 257, 123, "main3map/map-15.htm", "_self"], [298, 117, 319, 138, "main3map/map-10.htm", "_self"], [376, 138, 397, 160, "main3map/map-07.htm", "_self"], [351, 102, 372, 123, "main3map/map-06.htm", "_self"], [314, 70, 335, 91, "main3map/map-08.htm", "_self"], [240, 132, 261, 154, "main3map/map-16.htm", "_self"], [180, 196, 201, 217, "main3map/map-27.htm", "_self"], [203, 220, 224, 241, "main3map/map-28.htm", "_self"], [280, 165, 301, 186, "main3map/map-17.htm", "_self"], [203, 95, 224, 117, "main3map/map-14.htm", "_self"], [305, 150, 327, 171, "main3map/map-18.htm", "_self"], [304, 207, 325, 228, "main3map/map-20.htm", "_self"], [276, 235, 298, 256, "main3map/map-22.htm", "_self"], [282, 198, 303, 219, "main3map/map-21.htm", "_self"], [246, 178, 267, 199, "main3map/map-24.htm", "_self"], [240, 202, 261, 223, "main3map/map-23.htm", "_self"], [211, 160, 232, 182, "main3map/map-25.htm", "_self"], [197, 145, 218, 166, "main3map/map-26.htm", "_self"], [153, 198, 174, 219, "main3map/map-30.htm", "_self"], [106, 303, 127, 325, "main3map/map-40.htm", "_self"], [97, 333, 119, 354, "main3map/map-42.htm", "_self"], [141, 368, 162, 390, "main3map/map-43.htm", "_self"], [72, 290, 94, 311, "main3map/map-39.htm", "_self"], [58, 310, 79, 331, "main3map/map-41.htm", "_self"], [103, 271, 124, 292, "main3map/map-36.htm", "_self"], [147, 248, 168, 269, "main3map/map-33.htm", "_self"], [229, 256, 250, 277, "main3map/map-29.htm", "_self"], [189, 278, 210, 299, "main3map/map-34.htm", "_self"], [171, 315, 192, 337, "main3map/map-38.htm", "_self"], [113, 225, 134, 246, "main3map/map-32.htm", "_self"], [265, 101, 286, 123, "main3map/map-13.htm", "_self"], [308, 99, 329, 121, "main3map/map-09.htm", "_self"], [338, 204, 359, 225, "main3map/map-19.htm", "_self"], [149, 220, 170, 241, "main3map/map-31.htm", "_self"], [197, 310, 218, 331, "main3map/map-35.htm", "_self"], [136, 295, 157, 317, "main3map/map-37.htm", "_self"], [330, 21, 352, 42, "main3map/map-02.htm", "_self"], [280, 24, 301, 45, "main3map/map-01.htm", "_self"], [353, 340, 409, 389, "map.htm", "_top"]]' style="width:500px;height:400px;display:inline-block;vertical-align:middle"></div></td>
   </tr>
   <tr> 
     <td><div align="right" class="a">請點取台北地區圓點</div></td>
@@ -72,6 +72,19 @@ window.RufflePlayer.config = {
       var cfg = { url: el.getAttribute("data-swf"), base: base, wmode: el.getAttribute("data-wmode") || "window" };
       if (el.getAttribute("data-renderer")) cfg.preferredRenderer = el.getAttribute("data-renderer");  // 音鈕用 canvas，避開 WebGL context 上限
       p.ruffle().load(cfg);
+      var links = el.getAttribute("data-links");
+      if (links) {   // 地圖按鈕：swf 裡的 getURL 由這裡代做（Ruffle 的 getURL 不一定會跳頁）
+        links = JSON.parse(links); var down = -1;
+        function hit(e) { var r = el.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+          for (var i = 0; i < links.length; i++) { var L = links[i]; if (x >= L[0] && x <= L[2] && y >= L[1] && y <= L[3]) return i; } return -1; }
+        el.addEventListener("pointerdown", function (e) { if (e.button === 0) down = hit(e); }, true);
+        el.addEventListener("pointerup", function (e) {
+          if (e.button !== 0) return; var i = hit(e); if (i < 0 || i !== down) { down = -1; return; } down = -1;
+          var L = links[i], url = L[4], t = L[5];
+          if (t === "_blank") window.open(url); else if (t === "_top") window.top.location.href = url; else if (t === "_parent") window.parent.location.href = url; else location.href = url;
+        }, true);
+        el.style.cursor = "pointer";
+      }
     });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();

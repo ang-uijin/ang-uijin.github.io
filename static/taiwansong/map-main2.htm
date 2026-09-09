@@ -39,7 +39,7 @@ function MM_preloadImages() { //v3.0
     <td>&nbsp;</td>
   </tr>
   <tr> 
-    <td><div class="rf-swf" data-swf="mapimages/main2.swf" data-wmode="window" style="width:500px;height:400px;display:inline-block;vertical-align:middle"></div></td>
+    <td><div class="rf-swf" data-swf="mapimages/main2.swf" data-wmode="window" data-links='[[139, 60, 161, 82, "map-14.htm", "_self"], [99, 104, 120, 125, "map-12.htm", "_self"], [176, 45, 197, 66, "map-13.htm", "_self"], [225, 54, 246, 75, "map-15.htm", "_self"], [198, 84, 220, 106, "map-10.htm", "_self"], [78, 125, 99, 146, "map-11.htm", "_self"], [239, 167, 260, 188, "map-08.htm", "_self"], [259, 141, 280, 163, "map-09.htm", "_self"], [345, 156, 367, 178, "map-02.htm", "_self"], [280, 167, 302, 188, "map-07.htm", "_self"], [315, 171, 336, 192, "map-06.htm", "_self"], [336, 198, 358, 219, "map-03.htm", "_self"], [181, 201, 202, 222, "map-04.htm", "_self"], [119, 230, 140, 251, "map-05.htm", "_self"], [413, 163, 434, 184, "map-01.htm", "_self"], [256, 87, 277, 108, "map-16.htm", "_self"], [308, 305, 364, 354, "map.htm", "_top"]]' style="width:500px;height:400px;display:inline-block;vertical-align:middle"></div></td>
   </tr>
   <tr> 
     <td><div align="right" class="a">請點取台北地區圓點</div></td>
@@ -73,6 +73,19 @@ window.RufflePlayer.config = {
       var cfg = { url: el.getAttribute("data-swf"), base: base, wmode: el.getAttribute("data-wmode") || "window" };
       if (el.getAttribute("data-renderer")) cfg.preferredRenderer = el.getAttribute("data-renderer");  // 音鈕用 canvas，避開 WebGL context 上限
       p.ruffle().load(cfg);
+      var links = el.getAttribute("data-links");
+      if (links) {   // 地圖按鈕：swf 裡的 getURL 由這裡代做（Ruffle 的 getURL 不一定會跳頁）
+        links = JSON.parse(links); var down = -1;
+        function hit(e) { var r = el.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+          for (var i = 0; i < links.length; i++) { var L = links[i]; if (x >= L[0] && x <= L[2] && y >= L[1] && y <= L[3]) return i; } return -1; }
+        el.addEventListener("pointerdown", function (e) { if (e.button === 0) down = hit(e); }, true);
+        el.addEventListener("pointerup", function (e) {
+          if (e.button !== 0) return; var i = hit(e); if (i < 0 || i !== down) { down = -1; return; } down = -1;
+          var L = links[i], url = L[4], t = L[5];
+          if (t === "_blank") window.open(url); else if (t === "_top") window.top.location.href = url; else if (t === "_parent") window.parent.location.href = url; else location.href = url;
+        }, true);
+        el.style.cursor = "pointer";
+      }
     });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
