@@ -1,0 +1,18 @@
+BODY { SCROLLBAR-FACE-COLOR: #E2EED9; SCROLLBAR-HIGHLIGHT-COLOR: #B8D6A3; SCROLLBAR-SHADOW-COLOR: 
+#B8D6A3; SCROLLBAR-3DLIGHT-COLOR: #91C278; SCROLLBAR-ARROW-COLOR: #91C278; SCROLLBAR-TRACK-COLOR: 
+#DAEACE; SCROLLBAR-DARKSHADOW-COLOR: #91C278; SCROLLBAR-BASE-COLOR: #B8D6A3 } 
+.note { font-size: 13px; color: #C6C6C6; text-decoration: none; font-family: "Arial"} 
+.text { font-family: "Arial"; font-size: 15px; text-decoration: none; line-height: 
+24px} .text-table { font-size: 13px; font-family: "Arial"}.alpha { filter: Alpha(Opacity=60); 
+font-family: "Arial"} A.button { font-size: 13px; color: #990000; background-image: 
+url(images/button.gif); filter: Alpha(Opacity=70); height: 22px; width: 115px; 
+padding-top: 4px; padding-left: 14px; font-family: "Arial"} A.button:visited { 
+font-size: 13px; color: #990000; background-image: url(images/button.gif); filter: 
+Alpha(Opacity=70); height: 22px; width: 115px; padding-top: 4px; padding-left: 
+14px; font-family: "Arial"} A.button:hover { font-size: 13px; color: #666666; 
+background-image: url(images/button-over.gif); filter: Alpha(Opacity=70); height: 
+22px; width: 115px; padding-top: 5px; padding-left: 15px; text-decoration: none; 
+font-family: "Arial"} a:link { color: #666666; text-decoration: none} a:hover 
+{ color: #666666; text-decoration: underline} a:visited { color: #666666; text-decoration: 
+none}hr { color: #9BC57C} 
+BODY { background-repeat: no-repeat }   /* 原站是 800×600 設計，寬視窗背景會平鋪；2026 加 */
