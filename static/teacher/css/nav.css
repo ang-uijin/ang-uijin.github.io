@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* == 10. Horizontal menu Background == */
+
+/*====================
+	Color Scheme Begin
+=====================================================================
+====================================================================*/
+
+/* Menu bar background color */
+#navigation, 
+#nav li ul li, 
+#nav li ul li a{
+background: #A2A2A2;
+z-index:999; 
+position: relative;
+}
+
+/* Menu Item text color */
+#nav li a, 
+#nav li a:hover, 
+#nav li ul li,
+#nav li ul li a,
+#nav li ul li a:hover  {
+color: #fff; 
+z-index:999; 
+font-family: "微軟正黑體", Arial, sans-serif, Helvetica, sans-serif;
+}
+
+/* Menu Item background color on hover */
+#nav li a:hover, 
+#nav li ul li a:hover  {
+background: #6E6E6E; 
+z-index:999;
+}
+
+/* Text Shadow */
+#nav li a, 
+#nav li a:hover, 
+#nav li ul li a:hover  {
+text-shadow:  1px 2px 5px #000; 
+color: #fff;
+z-index:999;
+}
+
+/* Search form colors */
+.searchform input, .searchform input:not(:focus){
+color:#B1B1B1; /*search form text color default*/
+background: #fff; /*search form background color default*/
+}
+.searchfield:focus{
+color: #000; /* search form text color after click */
+}
+
+/*=====================================================================
+=======================================================================
+	Color Scheme End
+====================*/
+
+#menu_div{
+clear: both;
+position: relative;
+top: 0;
+left: 0;
+} /* Free space to top specialy for menu */
+
+#navigation {
+position: fixed;
+font-family: "微軟正黑體", Arial, sans-serif, Helvetica, sans-serif;
+}
+
+#navigation, #menu_div {
+width: 1200px;;
+margin: 0 !important;
+padding: 0 !important;
+}
+
+#menu_div, #navigation, #menu, #nav{
+height: 45px; /* menu height */
+}
+
+#menu_div:hover,
+#navigation:hover,
+#nav li a:hover, #nav li ul a 
+{
+opacity: 0.95;/* Menu transparency on mouse hover*/
+} 
+
+#menu_div,
+#navigation, 
+#nav li a, 
+#menu_div:not(:hover), 
+#navigation:not(:hover)
+{
+opacity: 1;/* Menu transparency on mouse out */
+}
+
+
+#menu {
+width: 1200px;
+margin:0 auto; /*center the menu*/
+padding:0;
+position: relative;
+font-family: "微軟正黑體", Arial, sans-serif, Helvetica, sans-serif;
+}
+
+#nav{
+background: #A2A2A2;	
+width:1200px;
+margin:0 auto;
+
+position: relative;
+font-family: "微軟正黑體", Arial, sans-serif, Helvetica, sans-serif;
+
+}
+
+#nav li a,#nav li {
+width:200px;
+float: left;
+text-align:center;
+text-shadow:1px 2px  1px  #000000;
+
+}
+
+#nav li {
+
+list-style:none;
+position:relative;
+}
+
+#nav li a {
+line-height: 45px;
+padding:0 0px;
+text-decoration:none;
+margin:0;
+font-size:16px;
+font-weight:700;
+
+
+
+}
+
+/*====================
+	Submenu 
+=====================*/
+#nav li ul {
+display:none;
+position:absolute;
+left:0;
+top:100%;
+padding:0;
+margin:0;
+} /* hide submenu */
+
+#nav li:hover > ul {
+display:block;
+} /* show submenu on hover */
+
+#nav li ul li,#nav li ul li a {
+float:none;
+height: 35px; /* submenu item height */
+min-width: 150px; /* submenu item minimal width */
+line-height: 35px;
+border-right: 0;
+text-shadow: none;
+display:block;
+font-size:13px;
+font-weight:400;
+text-transform:inherit;
+} /* Submenu item */
+
+#nav li ul li {
+_display:inline; /* for IE */
+}
+
+/* == 12. Sub-Sub Menu == */
+#nav li ul li ul {
+display:none;
+}
+
+#nav li ul li:hover ul {
+left:100%;
+top:0;
+}
+
+/*====================
+	Search form 
+====================*/
+
+.searchform {
+position: absolute;
+right: 15px;
+top: 6px;
+display: inline-block;
+zoom: 1;
+*display: inline;
+border: 0;
+padding: 0;
+}
+.searchform input {
+font: normal 12px/100% Arial, Helvetica, sans-serif;
+}
+.searchform .searchfield {
+height: 27px;
+line-height: 27px;
+padding-left: 10px;
+padding-right: 10px;
+width: 150px;
+border: 2px solid #333;
+outline: none;
+-webkit-border-radius: 2em;
+-moz-border-radius: 2em;
+border-radius: 2em;
+-moz-box-shadow: inset 1px 1px 2px #A1A1A1;
+-webkit-box-shadow: inset 1px 1px 2px #A1A1A1;
+box-shadow: inner 1px 1px 2px #A1A1A1;
+}
+
+.searchfield:focus{
+font-weight: 700;
+width: 220px;
+}
+
+.searchfield:not(:focus){
+width: 150px;
+}
+
+
+/*========================
+		Transitions
+========================*/
+
+#nav li a:hover,
+#nav li ul li a:hover  {
+-webkit-transition-property:color, background; 
+-webkit-transition-duration: 0.5s, 0.5s; 
+-webkit-transition-timing-function: linear, ease-out;
+}
+
+.searchfield:focus,
+.searchfield:not(:focus){
+-webkit-transition-property:width; 
+-webkit-transition-duration: 0.5s, 0.5s; 
+-webkit-transition-timing-function: linear, ease-out;
+}
+
+#menu_div:hover,
+#navigation:hover,
+#nav li ul a, 
+#menu_div,
+#navigation, 
+#nav li a, 
+#menu_div:not(:hover), 
+#navigation:not(:hover)
+{
+-webkit-transition-property:opacity; 
+-webkit-transition-duration: 0.5s, 0.5s; /* duration in seconds */
+-webkit-transition-timing-function: linear, ease-out;
+} /* Menu transparency animation */
+
+
+
+
