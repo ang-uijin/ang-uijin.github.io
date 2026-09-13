@@ -1,7 +1,7 @@
 ---
-title: "治言齋書肆"
+title: 治言齋書肆
 date: 2025-01-01
-description: "治言齋書肆：洪惟仁教授著作的購書資訊與優惠辦法。"
+description: 治言齋書肆：洪惟仁教授著作的購書資訊與優惠辦法。
 ---
 
 ### 臺灣社會語言地理學研究I+II(修訂)：臺灣語言的分類與分區+臺灣語言地圖集（電子書）
@@ -14,7 +14,9 @@ description: "治言齋書肆：洪惟仁教授著作的購書資訊與優惠辦
 
 <a href="https://www.books.com.tw/products/0011001406?sloc=main" target="_blank">博客來</a>
 
----
+<a href="https://www.books.com.tw/products/0011001406?sloc=main" target="_blank">LAT上下冊購書優惠 20260910</a>LAT上下冊購書優惠 20260910.pdf
+
+***
 
 ### 臺灣社會語言地理學研究I+II(修訂)：臺灣語言的分類與分區+臺灣語言地圖集（實體書）
 
