@@ -161,12 +161,13 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
   <h3>民間歌謠</h3>
   <h4>教學大綱</h4>
   <p>所謂「民間歌謠」包括民間文學韻文部分的民歌、童謠、童謎等韻文部分，但不包括諺語、歇後語等。民歌是民間歌謠最精彩的部分，本課程除大陸民歌之外，將著重在客家山歌和閩南語「相褒歌」的研究。俗文學部分著重於說唱的研究。「歌」的部分除了文學部分之外也兼及音樂部分，讓學生了解語言和曲調之間的關係。</p>
+<ul><li><a href="[https://uijin.idv.tw/song/](https://uijin.idv.tw/song/)" target="_blank">民間歌謠網站</a></li></ul>
 </div>
 
 <div class="course-content" id="poetry-chanting">
   <h3>詩詞吟唱</h3>
   <p class="course-empty">課程資料整理中。</p>
-<ul><li><a href="[https://uijin.idv.tw/song/](https://uijin.idv.tw/song/)" target="_blank">民間歌謠網站</a></li></ul>
+<ul><li><a href="" target="_blank">詩吟新論20260909</a></li></ul>
 </div>
 
 <div class="course-content" id="taiwan-customs">
