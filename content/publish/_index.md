@@ -32,11 +32,27 @@ description: 治言齋書肆：洪惟仁教授著作的購書資訊與優惠辦�
 
 ### 閩南地區方言地圖集
 
+<img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/494295247_10223769125371213_5896927274159612427_n.jpg?stp=dst-jpg_tt6&cstp=mx1760x934&ctp=s1760x934&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GdqOAWq4UCUQ7kNvwFNLj9Q&_nc_oc=AdrYVRb0XprSmBq_qLwmXDp4QB-GGL3pIkg2npLsYS4UecHvZ-wzfFs6JTeG3pBAcoYUGMKkToMwYVd5TTPtD6mx&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_gid=hqOVs-6eDCgg9x9rdPirYw&_nc_ss=7b2a8&oh=00_AQKnvMy8VAhFvQ5QR9HvYENoL9Wvwq40JFQwUNZWbRsxDQ&oe=6AABFE0A" alt="閩南地區方言地圖集" style="max-width: 300px;">
+
+《閩南地區方言地圖集》出版了！
+
+這是洪惟仁教授繼《臺灣語言地圖集》（2019）之後又一部地理語言學力作正式出版了。
+
+《臺灣語言地圖集》是第一部臺灣所有語言的分區地圖集，屬於語言地理學的作品。《閩南地區方言地圖集》則是第一部福建閩南語地區方言變體分佈地圖集。本書原有「理論篇」和「地圖集」兩冊，因財政考慮，先出「地圖集」，「理論篇」有待他日出版。
+
+本地圖集地圖繪製的焦點區域（focal areas）在今廈門市、泉州市、漳州市及金門縣等福建閩南語區，亦即「臺灣話」及東南亞唐人「福建話」原鄉。但周邊潮州、龍巖、漳平、大田、莆仙等南部閩語過渡方言亦選擇代表性方言變體畫入地圖中，以求較完整地了解閩南語的分佈狀態及解釋閩南語方言變異的演變與擴散過程。
+
+本書共收地圖122張，全部高品質.。分為11章，其中聲母地圖1章、韻母地圖5章、聲調地圖2章、詞彙地圖1章、同語線束圖1章、方言分區圖1章。每一張地圖都附上例字及「地圖簡釋」，說明內容包括方言變體的類型，變體分佈狀態，祖語形式擬測，由祖語分化、演變為現代變異的歷史過程，可以說是一部解釋性地圖集。
+
+又附6個表，其中「地圖字類例字及變體對照表」及「主要方言區別性韻類表」提供區別性韻類、更多的涵字與韻類名稱的唸法，以便讀者更清楚各字類的內容與意義。【附表6】「閩南地區閩南語方言分類系統表」不但詳細羅列核心閩南語區的方言分類系統，並記載各層次方言的「分佈區」及「主要特色」。這些附表可以作為閩南語聲韻學與方言學的輔助教材。
+
 <a href="/files/publish/《閩南地區方言地圖集》簡介及優惠辦法2025.pdf" target="_blank">《閩南地區方言地圖集》簡介及優惠辦法2025</a>
 
 ***
 
 ### 臺灣西部方言地圖集
+<img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/483527823_10223287887260561_4480278304908960100_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s1417x1417&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=WGFdBPUWMUQQ7kNvwE8uTnK&_nc_oc=Adong8xoG_XelHjFzNr0-pAbiOPIe1ajhItpC1oiGoCoVDjVe3EP8OT2ZMtOZqdEKS5WvKleoaCN0gMSg3l_Ddgy&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_gid=7OTC82fPYGpOs0_NlUw0PA&_nc_ss=7b2a8&oh=00_AQKMeomcntHGPBCXa-sFS3gebIBMDv6r7dJE2oPhWIMamw&oe=6AABE7A5" alt="臺灣西部方言地圖集" style="max-width: 300px;">
+
 《臺灣西部方言地圖集》（DAWT，2025）是洪惟仁繼《臺灣語言地圖集》（LAT，2019）之後第二本勾劃臺灣語言的地圖集，也是繼《閩南地區方言地圖集》（DASM，2023）之後第二本閩南語方言變體的地圖集。
 
 本地圖集的出版有三個目的：
