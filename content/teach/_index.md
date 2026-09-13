@@ -168,6 +168,7 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
   <h3>詩詞吟唱</h3>
   <p class="course-empty">課程資料整理中。</p>
 <ul><li><a href="/files/teach/詩吟新論20260909.pdf" target="_blank">詩吟新論20260909</a></li></ul>
+<ul><li><a href="https://www.youtube.com/watch?v=IuSzZsSYpH4" target="_blank">20260830 治言齋學堂 - 蘇軾《定風波》</a></li></ul>
 </div>
 
 <div class="course-content" id="taiwan-customs">
