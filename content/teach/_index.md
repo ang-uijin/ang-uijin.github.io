@@ -166,7 +166,6 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
 <div class="course-content" id="poetry-chanting">
   <h3>詩詞吟唱</h3>
   <p class="course-empty">課程資料整理中。</p>
-
 <ul><li><a href="[https://uijin.idv.tw/song/](https://uijin.idv.tw/song/)" target="_blank">民間歌謠網站</a></li></ul>
 </div>
 
