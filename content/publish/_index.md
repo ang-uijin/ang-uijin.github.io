@@ -32,7 +32,7 @@ description: 治言齋書肆：洪惟仁教授著作的購書資訊與優惠辦�
 
 ### 閩南地區方言地圖集
 
-<img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/494295247_10223769125371213_5896927274159612427_n.jpg?stp=dst-jpg_tt6&cstp=mx1760x934&ctp=s1760x934&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GdqOAWq4UCUQ7kNvwFNLj9Q&_nc_oc=AdrYVRb0XprSmBq_qLwmXDp4QB-GGL3pIkg2npLsYS4UecHvZ-wzfFs6JTeG3pBAcoYUGMKkToMwYVd5TTPtD6mx&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_gid=hqOVs-6eDCgg9x9rdPirYw&_nc_ss=7b2a8&oh=00_AQKnvMy8VAhFvQ5QR9HvYENoL9Wvwq40JFQwUNZWbRsxDQ&oe=6AABFE0A" alt="閩南地區方言地圖集" style="max-width: 300px;">
+<img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/494295247_10223769125371213_5896927274159612427_n.jpg?stp=dst-jpg_tt6&cstp=mx1760x934&ctp=s1760x934&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GdqOAWq4UCUQ7kNvwFNLj9Q&_nc_oc=AdrYVRb0XprSmBq_qLwmXDp4QB-GGL3pIkg2npLsYS4UecHvZ-wzfFs6JTeG3pBAcoYUGMKkToMwYVd5TTPtD6mx&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_gid=hqOVs-6eDCgg9x9rdPirYw&_nc_ss=7b2a8&oh=00_AQKnvMy8VAhFvQ5QR9HvYENoL9Wvwq40JFQwUNZWbRsxDQ&oe=6AABFE0A" alt="閩南地區方言地圖集" style="max-width: 600px;">
 
 《閩南地區方言地圖集》出版了！
 
@@ -51,6 +51,7 @@ description: 治言齋書肆：洪惟仁教授著作的購書資訊與優惠辦�
 ***
 
 ### 臺灣西部方言地圖集
+
 <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/483527823_10223287887260561_4480278304908960100_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s1417x1417&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=WGFdBPUWMUQQ7kNvwE8uTnK&_nc_oc=Adong8xoG_XelHjFzNr0-pAbiOPIe1ajhItpC1oiGoCoVDjVe3EP8OT2ZMtOZqdEKS5WvKleoaCN0gMSg3l_Ddgy&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_gid=7OTC82fPYGpOs0_NlUw0PA&_nc_ss=7b2a8&oh=00_AQKMeomcntHGPBCXa-sFS3gebIBMDv6r7dJE2oPhWIMamw&oe=6AABE7A5" alt="臺灣西部方言地圖集" style="max-width: 300px;">
 
 《臺灣西部方言地圖集》（DAWT，2025）是洪惟仁繼《臺灣語言地圖集》（LAT，2019）之後第二本勾劃臺灣語言的地圖集，也是繼《閩南地區方言地圖集》（DASM，2023）之後第二本閩南語方言變體的地圖集。
