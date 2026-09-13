@@ -14,7 +14,7 @@ description: 治言齋書肆：洪惟仁教授著作的購書資訊與優惠辦�
 
 <a href="https://www.books.com.tw/products/0011001406?sloc=main" target="_blank">博客來</a>
 
-<a href="https://www.books.com.tw/products/0011001406?sloc=main" target="_blank">LAT上下冊購書優惠 20260910</a>LAT上下冊購書優惠 20260910.pdf
+<a href="/files/publish/LAT上下冊購書優惠 20260910.pdf" target="_blank">LAT上下冊購書優惠 20260910</a>
 
 ***
 
