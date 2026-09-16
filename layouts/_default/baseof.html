@@ -18,7 +18,7 @@
   </div>
 
   <footer class="content-footer">
-    {{ .Site.Params.copyright }}
+    {{ replaceRE "©\\d{4}" (printf "©%d" now.Year) .Site.Params.copyright }}
   </footer>
 
   <script src="/js/main.js"></script>

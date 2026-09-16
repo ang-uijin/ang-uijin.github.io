@@ -2,6 +2,9 @@
 <HEAD>
 <TITLE></TITLE>
 <meta charset="utf-8">
+<style>html[data-rom="tlpa"] .rom-tl,html:not([data-rom="tlpa"]) .rom-tp{display:none}.rom-sw{position:fixed;top:4px;right:6px;z-index:9;font:12px/1.2 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:rgba(255,255,255,.92);border:1px solid #c9b48a;border-radius:12px;padding:3px 6px 3px 9px;color:#5a3a1a;white-space:nowrap}.rom-sw button{font:inherit;background:none;border:0;padding:2px 6px;margin-left:2px;border-radius:8px;color:#8a6a3a;cursor:pointer}.rom-sw button[aria-pressed="true"]{background:#5a3a1a;color:#fff;cursor:default}.rom-sw a{color:#8a6a3a;text-decoration:none;margin-left:4px}</style>
+<script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
+
 <STYLE>
 BODY {
 SCROLLBAR-FACE-COLOR: #fcd800;
@@ -17,136 +20,139 @@ SCROLLBAR-FACE-COLOR: #fcd800;
 <link rel="stylesheet" href="voc_type.css" type="text/css">
 </HEAD>
 <BODY background="../../images/bg6.jpg" scroll="auto" leftmargin="0" topmargin="0">
+<div class="rom-sw" title="原站用 TLPA 標音，本站預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音<button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button><a href="../../notice.htm#rom" title="說明">?</a></div>
+<script>(function(){var d=document.documentElement,b=document.querySelectorAll(".rom-sw button");function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}for(var i=0;i<b.length;i++)b[i].onclick=function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}};show(d.getAttribute("data-rom"))})();</script>
+
 <table width="95%" border="0" cellpadding="8" cellspacing="0" class="voc_type">
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>斟酌　cim<sup>1</sup>ciok<sup>4</sup><br>
+    <td width="40%"><b>斟酌　<span class="rom-tp">cim<sup>1</sup>ciok<sup>4</sup></span><span class="rom-tl">tsim<sup>1</sup>-tsiok<sup>4</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">仔細、謹慎。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>頭家　thau<sup>5</sup>ke<sup>1</sup><br>
+    <td width="40%"><b>頭家　<span class="rom-tp">thau<sup>5</sup>ke<sup>1</sup></span><span class="rom-tl">thau<sup>5</sup>-ke<sup>1</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">老板。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>花菜　hue<sup>1</sup>chai<sup>3</sup><br>
+    <td width="40%"><b>花菜　<span class="rom-tp">hue<sup>1</sup>chai<sup>3</sup></span><span class="rom-tl">hue<sup>1</sup>-tshai<sup>3</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">花椰菜。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>下港　e<sup>7</sup>kang<sup>2</sup><br>
+    <td width="40%"><b>下港　<span class="rom-tp">e<sup>7</sup>kang<sup>2</sup></span><span class="rom-tl">e<sup>7</sup>-kang<sup>2</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">台灣北部人指中南部。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>水災　cui<sup>2</sup>cai<sup>1</sup><br>
+    <td width="40%"><b>水災　<span class="rom-tp">cui<sup>2</sup>cai<sup>1</sup></span><span class="rom-tl">tsui<sup>2</sup>-tsai<sup>1</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">水患。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>煞　suah<sup>4</sup><br>
+    <td width="40%"><b>煞　<span class="rom-tp">suah<sup>4</sup></span><span class="rom-tl">suah<sup>4</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">表示完成、結束之意。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>略仔　lioh<sup>8</sup>a<sup>2</sup><br>
+    <td width="40%"><b>略仔　<span class="rom-tp">lioh<sup>8</sup>a<sup>2</sup></span><span class="rom-tl">lioh<sup>8</sup>-a<sup>2</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">稍微。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>起　khi<sup>2</sup><br>
+    <td width="40%"><b>起　<span class="rom-tp">khi<sup>2</sup></span><span class="rom-tl">khi<sup>2</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">漲、漲價。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>淡薄仔　tam<sup>7</sup>poh<sup>8</sup>a<sup>2</sup><br>
+    <td width="40%"><b>淡薄仔　<span class="rom-tp">tam<sup>7</sup>poh<sup>8</sup>a<sup>2</sup></span><span class="rom-tl">tam<sup>7</sup>-poh<sup>8</sup>-a<sup>2</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">一點點。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>蕹菜　ing<sup>3</sup>chai<sup>3</sup><br>
+    <td width="40%"><b>蕹菜　<span class="rom-tp">ing<sup>3</sup>chai<sup>3</sup></span><span class="rom-tl">ing<sup>3</sup>-tshai<sup>3</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">空心菜。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>廿九　ji<sup>7</sup>kau<sup>2</sup><br>
+    <td width="40%"><b>廿九　<span class="rom-tp">ji<sup>7</sup>kau<sup>2</sup></span><span class="rom-tl">ji<sup>7</sup>-kau<sup>2</sup></span><br>
       </b></td>
     <td width="40%"><font size="3">二十九。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>敏豆　bin<sup>2</sup>tau<sup>7</sup></b></td>
+    <td width="40%"><b>敏豆　<span class="rom-tp">bin<sup>2</sup>tau<sup>7</sup></span><span class="rom-tl">bin<sup>2</sup>-tau<sup>7</sup></span></b></td>
     <td width="40%"><font size="3">四季豆。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>這暫仔　cit<sup>8</sup>cam<sup>7</sup>a<sup>2</sup></b></td>
+    <td width="40%"><b>這暫仔　<span class="rom-tp">cit<sup>8</sup>cam<sup>7</sup>a<sup>2</sup></span><span class="rom-tl">tsit<sup>8</sup>-tsam<sup>7</sup>-a<sup>2</sup></span></b></td>
     <td width="40%"><font size="3">這陣子。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>欠貨　khiam<sup>3</sup>hue<sup>3</sup></b></td>
+    <td width="40%"><b>欠貨　<span class="rom-tp">khiam<sup>3</sup>hue<sup>3</sup></span><span class="rom-tl">khiam<sup>3</sup>-hue<sup>3</sup></span></b></td>
     <td width="40%"><font size="3">缺貨。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b> 鱸魚　loo<sup>5</sup>hi<sup>5</sup></b></td>
+    <td width="40%"><b> 鱸魚　<span class="rom-tp">loo<sup>5</sup>hi<sup>5</sup></span><span class="rom-tl">loo<sup>5</sup>-hi<sup>5</sup></span></b></td>
     <td width="40%"><font size="3">鱸魚。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>鮮　chinn<sup>1</sup></b></td>
+    <td width="40%"><b>鮮　<span class="rom-tp">chinn<sup>1</sup></span><span class="rom-tl">tshinn<sup>1</sup></span></b></td>
     <td width="40%"><font size="3">新鮮。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>割　kuah<sup>4</sup></b></td>
+    <td width="40%"><b>割　<span class="rom-tp">kuah<sup>4</sup></span><span class="rom-tl">kuah<sup>4</sup></span></b></td>
     <td width="40%"><font size="3">批貨。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>活跳跳　uah<sup>8</sup>thiau<sup>3</sup>thiau<sup>3</sup></b></td>
+    <td width="40%"><b>活跳跳　<span class="rom-tp">uah<sup>8</sup>thiau<sup>3</sup>thiau<sup>3</sup></span><span class="rom-tl">uah<sup>8</sup>-thiau<sup>3</sup>-thiau<sup>3</sup></span></b></td>
     <td width="40%"><font size="3">活繃亂跳。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>幾圓　kui<sup>2</sup>inn<sup>5</sup></b></td>
+    <td width="40%"><b>幾圓　<span class="rom-tp">kui<sup>2</sup>inn<sup>5</sup></span><span class="rom-tl">kui<sup>2</sup>-inn<sup>5</sup></span></b></td>
     <td width="40%"><font size="3">幾塊錢。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>倚　ua<sup>2</sup></b></td>
+    <td width="40%"><b>倚　<span class="rom-tp">ua<sup>2</sup></span><span class="rom-tl">ua<sup>2</sup></span></b></td>
     <td width="40%"><font size="3">接近。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b>外儕　gua<sup>7</sup>ce<sup>7</sup></b></td>
+    <td width="40%"><b>外儕　<span class="rom-tp">gua<sup>7</sup>ce<sup>7</sup></span><span class="rom-tl">gua<sup>7</sup>-tse<sup>7</sup></span></b></td>
     <td width="40%"><font size="3">多少(錢)。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b> 攏總　long<sup>2</sup>cong<sup>2</sup></b></td>
+    <td width="40%"><b> 攏總　<span class="rom-tp">long<sup>2</sup>cong<sup>2</sup></span><span class="rom-tl">long<sup>2</sup>-tsong<sup>2</sup></span></b></td>
     <td width="40%"><font size="3">一共。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b> 小票　sio<sup>2</sup>phio<sup>3</sup></b></td>
+    <td width="40%"><b> 小票　<span class="rom-tp">sio<sup>2</sup>phio<sup>3</sup></span><span class="rom-tl">sio<sup>2</sup>-phio<sup>3</sup></span></b></td>
     <td width="40%"><font size="3">小鈔、零錢。</font></td>
   </tr>
   <tr> 
     <td width="20%"> <div align="center"><img src="../../images/sound.gif" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></div></td>
-    <td width="40%"><b> 大張=个　tua<sup>7</sup>tiunn<sup>1</sup>=e<sup>0</sup></b></td>
+    <td width="40%"><b> 大張=个　<span class="rom-tp">tua<sup>7</sup>tiunn<sup>1</sup></span><span class="rom-tl">tua<sup>7</sup>-tiunn<sup>1</sup></span>=<span class="rom-tp">e<sup>0</sup></span><span class="rom-tl">e<sup>0</sup></span></b></td>
     <td width="40%"><font size="3">大鈔。</font></td>
   </tr>
 </table>

@@ -1,7 +1,13 @@
 <meta charset="utf-8">
+<style>html[data-rom="tlpa"] .rom-tl,html:not([data-rom="tlpa"]) .rom-tp{display:none}.rom-sw{position:fixed;top:4px;right:6px;z-index:9;font:12px/1.2 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:rgba(255,255,255,.92);border:1px solid #c9b48a;border-radius:12px;padding:3px 6px 3px 9px;color:#5a3a1a;white-space:nowrap}.rom-sw button{font:inherit;background:none;border:0;padding:2px 6px;margin-left:2px;border-radius:8px;color:#8a6a3a;cursor:pointer}.rom-sw button[aria-pressed="true"]{background:#5a3a1a;color:#fff;cursor:default}.rom-sw a{color:#8a6a3a;text-decoration:none;margin-left:4px}</style>
+<script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
+
 
 <link rel="stylesheet" href="think_type.css" type="text/css">
 <body background="../../images/bg6.jpg" leftmargin="0" topmargin="0" scroll="no">
+<div class="rom-sw" title="原站用 TLPA 標音，本站預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音<button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button><a href="../../notice.htm#rom" title="說明">?</a></div>
+<script>(function(){var d=document.documentElement,b=document.querySelectorAll(".rom-sw button");function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}for(var i=0;i<b.length;i++)b[i].onclick=function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}};show(d.getAttribute("data-rom"))})();</script>
+
 
 <table width="100%" border="1" cellspacing="0" bordercolor="#FF9933">
   <tr>
@@ -15,37 +21,37 @@
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%"> 改札=个<br>
-            kai<sup>2</sup>cat<sup>4</sup>=e<sup>0</sup><br>
+            <span class="rom-tp">kai<sup>2</sup>cat<sup>4</sup></span><span class="rom-tl">kai<sup>2</sup>-tsat<sup>4</sup></span>=<span class="rom-tp">e<sup>0</sup></span><span class="rom-tl">e<sup>0</sup></span><br>
             驗票員</td>
         </tr>
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%">車長<br>
-            chia<sup>1</sup>tiunn<sup>2</sup> <br>
+            <span class="rom-tp">chia<sup>1</sup>tiunn<sup>2</sup></span><span class="rom-tl">tshia<sup>1</sup>-tiunn<sup>2</sup></span> <br>
             (火車)車長</td>
         </tr>
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%">車掌<br>
-            chia<sup>1</sup>ciang<sup>2</sup> <br>
+            <span class="rom-tp">chia<sup>1</sup>ciang<sup>2</sup></span><span class="rom-tl">tshia<sup>1</sup>-tsiang<sup>2</sup></span> <br>
             (汽車)車掌</td>
         </tr>
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%">站長<br>
-            cam<sup>7</sup>tiunn<sup>2</sup><br>
+            <span class="rom-tp">cam<sup>7</sup>tiunn<sup>2</sup></span><span class="rom-tl">tsam<sup>7</sup>-tiunn<sup>2</sup></span><br>
             站長</td>
         </tr>
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%">司機<br>
-            su<sup>1</sup>ki<sup>1</sup> <br>
+            <span class="rom-tp">su<sup>1</sup>ki<sup>1</sup></span><span class="rom-tl">su<sup>1</sup>-ki<sup>1</sup></span> <br>
             司機</td>
         </tr>
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%">運轉手<br>
-            un<sup>7</sup>cuan<sup>2</sup>chiu<sup>2</sup> <br>
+            <span class="rom-tp">un<sup>7</sup>cuan<sup>2</sup>chiu<sup>2</sup></span><span class="rom-tl">un<sup>7</sup>-tsuan<sup>2</sup>-tshiu<sup>2</sup></span> <br>
             司機</td>
         </tr>
       </table>

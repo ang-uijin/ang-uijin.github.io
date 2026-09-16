@@ -1,7 +1,13 @@
 <meta charset="utf-8">
+<style>html[data-rom="tlpa"] .rom-tl,html:not([data-rom="tlpa"]) .rom-tp{display:none}.rom-sw{position:fixed;top:4px;right:6px;z-index:9;font:12px/1.2 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:rgba(255,255,255,.92);border:1px solid #c9b48a;border-radius:12px;padding:3px 6px 3px 9px;color:#5a3a1a;white-space:nowrap}.rom-sw button{font:inherit;background:none;border:0;padding:2px 6px;margin-left:2px;border-radius:8px;color:#8a6a3a;cursor:pointer}.rom-sw button[aria-pressed="true"]{background:#5a3a1a;color:#fff;cursor:default}.rom-sw a{color:#8a6a3a;text-decoration:none;margin-left:4px}</style>
+<script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
+
 
 <link rel="stylesheet" href="think_type.css" type="text/css">
 <body background="../../images/bg6.jpg" leftmargin="0" topmargin="0" scroll="no">
+<div class="rom-sw" title="原站用 TLPA 標音，本站預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音<button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button><a href="../../notice.htm#rom" title="說明">?</a></div>
+<script>(function(){var d=document.documentElement,b=document.querySelectorAll(".rom-sw button");function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}for(var i=0;i<b.length;i++)b[i].onclick=function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}};show(d.getAttribute("data-rom"))})();</script>
+
 
 <table width="100%" border="1" cellspacing="0" bordercolor="#FF9933">
   <tr>
@@ -15,19 +21,19 @@
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%">魯肉飯<br>
-            loo<sup>2</sup>bah<sup>4</sup>png<sup>7</sup><br>
+            <span class="rom-tp">loo<sup>2</sup>bah<sup>4</sup>png<sup>7</sup></span><span class="rom-tl">loo<sup>2</sup>-bah<sup>4</sup>-png<sup>7</sup></span><br>
             魯肉飯</td>
         </tr>
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%">雞肉絲飯<br>
-            ke<sup>1</sup>bah<sup>4</sup>si<sup>1</sup>png<sup>7</sup><br>
+            <span class="rom-tp">ke<sup>1</sup>bah<sup>4</sup>si<sup>1</sup>png<sup>7</sup></span><span class="rom-tl">ke<sup>1</sup>-bah<sup>4</sup>-si<sup>1</sup>-png<sup>7</sup></span><br>
             雞肉飯</td>
         </tr>
         <tr> 
           <td width="4%"><img src="../../images/sound.gif" border="0" title="原站沒有附這一條的音檔，圖示只是裝飾" style="opacity:.4"></td>
           <td width="96%">羹飯<br>
-            kenn<sup>1</sup>png<sup>7</sup> <br>
+            <span class="rom-tp">kenn<sup>1</sup>png<sup>7</sup></span><span class="rom-tl">kenn<sup>1</sup>-png<sup>7</sup></span> <br>
             燴飯</td>
         </tr>
       </table>
