@@ -95,7 +95,7 @@
 
     <!-- Footer -->
     <footer class="homepage-footer">
-      {{ .Site.Params.copyright }}
+      {{ replaceRE "©\\d{4}" (printf "©%d" now.Year) .Site.Params.copyright }}
     </footer>
   </div>
 
