@@ -199,5 +199,17 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
 
 ## 推薦連結
 
-- <span class="date">2024</span>[阿土伯開講](https://taiwanschool.org/podcast?i=1) <span class="source">Podcast：這馬講台語</span>
+- <span class="date">2024</span>[阿土伯開講](https://taiwanschool.org/podcast?i=1) <span class="source">Podcast：這馬講台語，2024/09–11 共 12 集，各集連到 SoundOn（Apple Podcasts、Spotify、YouTube 也找得到）</span>
+  - <span class="date">2024/09/06</span>[001｜台語還是閩南語？「臺灣台語」？](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/81453751-7d8d-4a6a-a4be-44193d72586c)
+  - <span class="date">2024/09/14</span>[002｜台灣的語言競爭](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/f2be42c6-cbf4-4dc8-8dae-ed712071fcaf)
+  - <span class="date">2024/09/21</span>[003｜台灣的語言戰爭](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/ec7e22f5-344c-439a-9bc6-f65fc815284c)
+  - <span class="date">2024/09/28</span>[004｜台灣的語言生態](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/b058d735-1c41-45cc-995f-20602aaa5fbb)
+  - <span class="date">2024/10/05</span>[005｜語言的生存之道](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/613d7ac9-1206-4966-b990-14b14a1982f0)
+  - <span class="date">2024/10/12</span>[006｜台灣的語言政策](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/14983915-a8ad-4150-94ad-763c20546d3c)
+  - <span class="date">2024/10/19</span>[007｜台灣話的形成](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/5a1527a3-a278-4f5a-8d9b-08c5f3f769cb)
+  - <span class="date">2024/10/26</span>[008｜漳泉濫的台語](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/d7715203-d268-423c-950a-d83d859c4b91)
+  - <span class="date">2024/11/02</span>[009｜台語的多元腔調](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/1e6f2451-e6af-45cc-aea6-b5b1b259ceca)
+  - <span class="date">2024/11/09</span>[010｜歷來的閩南語字典](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/4526e3df-b174-49f6-a30a-e0e48cb45b56)
+  - <span class="date">2024/11/16</span>[011｜台語的書寫與文字](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/1ba37052-20e1-471a-8df0-f95545fafefa)
+  - <span class="date">2024/11/23</span>[012｜AI時代的台語](https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/1fe2f33c-9e6b-400f-af31-4b704de7dcfe)
 - <span class="date">2021/07/14</span>[【Fumi】三分鐘學會「韻類」，看懂台語專家洪惟仁老師研究的方言差！](https://www.youtube.com/watch?v=QV5rNRSsh3o) <span class="source">精銳台語文 sak 砲戰船 Elite Taigibun Sak Cannon Galleon</span>
