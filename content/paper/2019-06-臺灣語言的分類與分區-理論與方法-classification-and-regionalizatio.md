@@ -1,5 +1,5 @@
 ---
-weight: 7
+weight: 8
 category: 地理語言學
 date_text: 2019/06
 title: '《臺灣語言的分類與分區：理論與方法》（Classification and Regionalization of Languages in Taiwan: Theories and Methodologies /CRLT）'

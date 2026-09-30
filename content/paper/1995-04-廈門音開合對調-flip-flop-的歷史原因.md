@@ -1,5 +1,5 @@
 ---
-weight: 74
+weight: 75
 category: 歷史語言學
 date_text: 1995/04
 title: 〈廈門音開合對調(flip-flop)的歷史原因〉

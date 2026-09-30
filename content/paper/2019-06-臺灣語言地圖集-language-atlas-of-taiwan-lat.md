@@ -1,5 +1,5 @@
 ---
-weight: 8
+weight: 9
 category: 地理語言學
 date_text: 2019/06
 title: 《臺灣語言地圖集》（Language Atlas of Taiwan/LAT）
