@@ -183,5 +183,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     });
+
+    // Open the tab named in the URL hash (e.g. /teach/#online)
+    const hashCourse = window.location.hash.slice(1);
+    const hashTab = Array.from(courseTabs).find(t => t.getAttribute('data-course') === hashCourse);
+    if (hashTab) {
+      hashTab.click();
+    }
   }
 });

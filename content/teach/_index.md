@@ -25,6 +25,7 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
   <button class="course-tab" data-course="poetry-chanting">詩詞吟唱</button>
   <button class="course-tab" data-course="taiwan-customs">台灣民俗</button>
   <button class="course-tab" data-course="taiwan-documents">台灣語言文獻</button>
+  <button class="course-tab" data-course="online">線上教材</button>
   <button class="course-tab" data-course="links">推薦連結</button>
 </div>
 
@@ -192,6 +193,27 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
     <li><a href="/files/teach/taiwan-documents/台北褒歌之美.pdf" target="_blank">台北褒歌之美</a></li>
     <li><a href="/files/teach/taiwan-documents/台語文學的分期完稿-7.pdf" target="_blank">台語文學的分期</a></li>
     <li><a href="/files/teach/taiwan-documents/閩南語辭書的類型與發展.pdf" target="_blank">閩南語辭書的類型與發展</a></li>
+  </ul>
+</div>
+
+<div class="course-content" id="online">
+  <h3>線上教材</h3>
+  <p>洪惟仁歷年製作的教學網站。原站多已下線，2026 年重建後收在本站，點進去就能直接使用。</p>
+  <h4>台語教材</h4>
+  <ul>
+    <li><span class="date">2001</span><a href="/class/" target="_blank">台灣話e網情深</a> <span class="source">台語教材 12 課：漫畫、課文朗讀、詞彙、練習</span></li>
+    <li><span class="date">2007</span><a href="/tailo/" target="_blank">臺灣閩南語羅馬拼音及其發音學習網</a> <span class="source">課文、台灣十五音字母表、發音練習、音標測驗（發音錄音大多佚失）</span></li>
+    <li><span class="date">2015</span><a href="/teacher/" target="_blank">洪惟仁設計的教學資源</a> <span class="source">音標介紹、教材與教學方法講義、分類諺語 31 篇</span></li>
+  </ul>
+  <h4>民間歌謠</h4>
+  <ul>
+    <li><span class="date">2024</span><a href="/song/" target="_blank">民間歌謠網站</a> <span class="source">相褒歌的演唱影片與歌詞同頁對照</span></li>
+    <li><span class="date">2004</span><a href="/taiwansong/" target="_blank">民間歌謠教學研究網（2004–2008 年原版）</a> <span class="source">486 首歌謠的歌詞、中譯、演唱影片與說明，歌手分佈地圖，相褒歌專著</span></li>
+  </ul>
+  <h4>工作坊與研討會</h4>
+  <ul>
+    <li><span class="date">2012</span><a href="/ogawa/" target="_blank">語言、地理、歷史跨領域研究工作坊</a> <span class="source">2008–2017 年共十六次，存歷屆論文</span></li>
+    <li><span class="date">2007</span><a href="/ogawa100/" target="_blank">台灣語言學一百周年國際學術研討會</a> <span class="source">紀念小川尚義教授，存計畫緣起與十二篇講義</span></li>
   </ul>
 </div>
 
