@@ -4,6 +4,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=1200">
+<style>html[data-rom="tlpa"] .rom-tl,html:not([data-rom="tlpa"]) .rom-tp{display:none}.rom-sw{position:fixed;top:4px;right:6px;z-index:9;font:12px/1.2 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:rgba(255,255,255,.92);border:1px solid #c9b48a;border-radius:12px;padding:3px 6px 3px 9px;color:#5a3a1a;white-space:nowrap}.rom-sw button{font:inherit;background:none;border:0;padding:2px 6px;margin-left:2px;border-radius:8px;color:#8a6a3a;cursor:pointer}.rom-sw button[aria-pressed="true"]{background:#5a3a1a;color:#fff;cursor:default}.rom-sw a{color:#8a6a3a;text-decoration:none;margin-left:4px}</style>
+<script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
+<style>.zz-bar .rom-sw{position:static;margin-left:auto}.zz-bar .rom-sw+.r{margin-left:0}.zz-bar .rom-sw a,.zz-bar .rom-sw a:hover{color:#8a6a3a;text-decoration:none}</style>
+
 <title>台灣語文學會</title>
 <style>
 /* 治言齋存檔列（2026 年重建時加的，原站沒有） */
@@ -37,7 +41,8 @@ table, th, td {
 
 
 <body>
-<div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">洪惟仁設計的教學資源</span><span class="s">2015–2016 年的教學網站　·　2026 年整理重現</span><a class="r" href="notice.html">說明</a></div>
+<div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">洪惟仁設計的教學資源</span><span class="s">2015–2016 年的教學網站　·　2026 年整理重現</span><div class="rom-sw" title="原站用 TLPA 標音，本站預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音<button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button><a href="notice.html#rom" title="說明">?</a></div><a class="r" href="notice.html">說明</a></div>
+<script>(function(){var d=document.documentElement,b=document.querySelectorAll(".rom-sw button");function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}for(var i=0;i<b.length;i++)b[i].onclick=function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}};show(d.getAttribute("data-rom"))})();</script>
 
 <a name="aaa"></a>
 <div id="content2" > <a href="index.html"><img src="images/a_01.png" width="1200" height="158" border="0" ></a>
@@ -98,8 +103,8 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">有山</span> <span style=" ">便有水，有神</span> <span style=" ">便有鬼</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">iu<sup>2</sup>san<sup>1</sup>\ pian<sup>7</sup>iu<sup>2</sup>sui<sup>2</sup>\ 
-                  iu<sup>2</sup>sin<sup>5</sup>\ pian<sup>7</sup>iu<sup>2</sup>kui<sup>2</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">iu<sup>2</sup>san<sup>1</sup></span><span class="rom-tl">iú-san</span>\ <span class="rom-tp">pian<sup>7</sup>iu<sup>2</sup>sui<sup>2</sup></span><span class="rom-tl">piān-iú-suí</span>\ 
+                  <span class="rom-tp">iu<sup>2</sup>sin<sup>5</sup></span><span class="rom-tl">iú-sîn</span>\ <span class="rom-tp">pian<sup>7</sup>iu<sup>2</sup>kui<sup>2</sup></span><span class="rom-tl">piān-iú-kuí</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp; </td>           
           </tr>
               <tr>
@@ -108,7 +113,7 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">舉頭</span> <span style=" ">三尺</span> <span style=" ">有神明</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">giah<sup>8</sup>thau<sup>5</sup>\ sann<sup>1</sup>chioh<sup>4</sup>\ u<sup>7</sup>sin<sup>5</sup>bing<sup>5</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">giah<sup>8</sup>thau<sup>5</sup></span><span class="rom-tl">gia̍h-thâu</span>\ <span class="rom-tp">sann<sup>1</sup>chioh<sup>4</sup></span><span class="rom-tl">sann-tshioh</span>\ <span class="rom-tp">u<sup>7</sup>sin<sup>5</sup>bing<sup>5</sup></span><span class="rom-tl">ū-sîn-bîng</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">舉頭三尺有神明</span></span></td>           
               </tr>
               <tr>
@@ -117,8 +122,8 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">光‧人毋知，暗&#20010;也知</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">kng<sup>1</sup></span><span style=" ">‧</span><span lang="EN-US" style=" ">lang<sup>0</sup>\ m<sup>7</sup>cai<sup>1</sup>\ 
-                  am<sup>3</sup>=e<sup>0</sup>\ ia<sup>7</sup>cai<sup>1</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">kng<sup>1</sup></span><span class="rom-tl">kng</span></span><span style=" ">‧</span><span lang="EN-US" style=" "><span class="rom-tp">lang<sup>0</sup></span><span class="rom-tl">lang</span>\ <span class="rom-tp">m<sup>7</sup>cai<sup>1</sup></span><span class="rom-tl">m̄-tsai</span>\ 
+                  <span class="rom-tp">am<sup>3</sup></span><span class="rom-tl">àm</span>=<span class="rom-tp">e<sup>0</sup></span><span class="rom-tl">e</span>\ <span class="rom-tp">ia<sup>7</sup>cai<sup>1</sup></span><span class="rom-tl">iā-tsai</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style="font-family:全真中明體;mso-ascii-font-family:&quot;Times New Roman&quot;">人間不知，神明也知</span></span></td>           
               </tr>
               <tr>
@@ -127,7 +132,7 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">神</span> <span style=" ">愛扛，人</span> <span style=" ">愛妝</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">sin<sup>5</sup>\ ai<sup>3</sup>kng<sup>1</sup>\ lang<sup>5</sup>\ ai<sup>3</sup>cng<sup>1</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">sin<sup>5</sup></span><span class="rom-tl">sîn</span>\ <span class="rom-tp">ai<sup>3</sup>kng<sup>1</sup></span><span class="rom-tl">ài-kng</span>\ <span class="rom-tp">lang<sup>5</sup></span><span class="rom-tl">lâng</span>\ <span class="rom-tp">ai<sup>3</sup>cng<sup>1</sup></span><span class="rom-tl">ài-tsng</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">佛要金裝，人要衣裳</span></span></td>           
               </tr>
               <tr>
@@ -138,9 +143,9 @@ table, th, td {
                   &nbsp;<b><span style=" ">&nbsp;<span style=" mso-ascii-font-family:Arial">有燒香</span> 
                   <span style=" mso-ascii-font-family:Arial">有保庇，有食</span> 
                   <span style=" mso-ascii-font-family:Arial">有行氣</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;u<sup>7</sup>sio<sup>1</sup>hiunn<sup>1</sup>\ 
-                  u<sup>7</sup>po<sup>2</sup>pi<sup>3</sup>\ u<sup>7</sup>ciah<sup>8</sup>\ 
-                  u<sup>7</sup>kiann<sup>5</sup>khi<sup>3</sup></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span class="rom-tp">u<sup>7</sup>sio<sup>1</sup>hiunn<sup>1</sup></span><span class="rom-tl">ū-sio-hiunn</span>\ 
+                  <span class="rom-tp">u<sup>7</sup>po<sup>2</sup>pi<sup>3</sup></span><span class="rom-tl">ū-pó-pì</span>\ <span class="rom-tp">u<sup>7</sup>ciah<sup>8</sup></span><span class="rom-tl">ū-tsia̍h</span>\ 
+                  <span class="rom-tp">u<sup>7</sup>kiann<sup>5</sup>khi<sup>3</sup></span><span class="rom-tl">ū-kiânn-khì</span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">有燒香才會有保佑，有吃藥才有效</span></span></td>           
               </tr>
               <tr>
@@ -149,7 +154,7 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">無想貪、免信神</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">bo<sup>5</sup>siunn<sup>7</sup>tham<sup>1</sup>\ bian<sup>2</sup>sin<sup>3</sup>sin<sup>5</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">bo<sup>5</sup>siunn<sup>7</sup>tham<sup>1</sup></span><span class="rom-tl">bô-siūnn-tham</span>\ <span class="rom-tp">bian<sup>2</sup>sin<sup>3</sup>sin<sup>5</sup></span><span class="rom-tl">bián-sìn-sîn</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">不貪心，不必信神</span></span></td>           
               </tr>
               <tr>
@@ -158,7 +163,7 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">也著愛神，也著愛人</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">ia<sup>7</sup>tioh<sup>8</sup>ai<sup>3</sup>sin<sup>5</sup>\ ia<sup>7</sup>tioh<sup>8</sup>ai<sup>3</sup>jin<sup>5</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">ia<sup>7</sup>tioh<sup>8</sup>ai<sup>3</sup>sin<sup>5</sup></span><span class="rom-tl">iā-tio̍h-ài-sîn</span>\ <span class="rom-tp">ia<sup>7</sup>tioh<sup>8</sup>ai<sup>3</sup>jin<sup>5</sup></span><span class="rom-tl">iā-tio̍h-ài-jîn</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">盡人事，聽天命</span></span></td>          
               </tr>
               <tr>
@@ -167,7 +172,7 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">三圓佛仔</span> <span style=" ">栽七圓鬚</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">sann<sup>1</sup>inn<sup>5</sup>put<sup>8</sup>a<sup>2</sup>\ cai<sup>1</sup>chit<sup>4</sup>inn<sup>5</sup>chiu<sup>1</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">sann<sup>1</sup>inn<sup>5</sup>put<sup>8</sup>a<sup>2</sup></span><span class="rom-tl">sann-înn-pu̍t-á</span>\ <span class="rom-tp">cai<sup>1</sup>chit<sup>4</sup>inn<sup>5</sup>chiu<sup>1</sup></span><span class="rom-tl">tsai-tshit-înn-tshiu</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">三文神像栽七文鬍子</span></span></td>           
               </tr>
               <tr>
@@ -176,7 +181,7 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">近廟</span> <span style=" ">欺神</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">kin<sup>7</sup>bio<sup>7</sup>\ khi<sup>1</sup>sin<sup>5</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">kin<sup>7</sup>bio<sup>7</sup></span><span class="rom-tl">kīn-biō</span>\ <span class="rom-tp">khi<sup>1</sup>sin<sup>5</sup></span><span class="rom-tl">khi-sîn</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">外來和尚會唸經</span></span></td>           
               </tr>
               <tr>
@@ -185,7 +190,7 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">北港媽</span><span lang="EN-US" style=" ">(</span><span style=" ">祖</span><span lang="EN-US" style=" ">) </span><span style=" ">蔭外鄉</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">pak<sup>4</sup>kang<sup>2</sup>ma<sup>2</sup>(coo<sup>2</sup>)\ im<sup>3</sup>gua<sup>7</sup>hiunn<sup>1</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">pak<sup>4</sup>kang<sup>2</sup>ma<sup>2</sup></span><span class="rom-tl">pak-káng-má</span>(<span class="rom-tp">coo<sup>2</sup></span><span class="rom-tl">tsóo</span>)\ <span class="rom-tp">im<sup>3</sup>gua<sup>7</sup>hiunn<sup>1</sup></span><span class="rom-tl">ìm-guā-hiunn</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">北港媽祖保佑外鄉人</span></span></td>           
               </tr>
               <tr>
@@ -194,7 +199,7 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">白目眉</span> <span style=" ">興外境</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">peh<sup>8</sup>bak<sup>8</sup>bai<sup>5</sup>\ hing<sup>1</sup>gua<sup>7</sup>king<sup>2</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">peh<sup>8</sup>bak<sup>8</sup>bai<sup>5</sup></span><span class="rom-tl">pe̍h-ba̍k-bâi</span>\ <span class="rom-tp">hing<sup>1</sup>gua<sup>7</sup>king<sup>2</sup></span><span class="rom-tl">hing-guā-kíng</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">楚材晉用</span></span></td>            
               </tr>
               <tr>
@@ -203,8 +208,8 @@ table, th, td {
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">得失土地公</span> <span style=" ">飼無雞</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">tik<sup>4</sup>sit<sup>4</sup>thoo<sup>2</sup>ti<sup>7</sup>kong<sup>1</sup>\ 
-                  chi<sup>7</sup>bo<sup>5</sup>ke<sup>1</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">tik<sup>4</sup>sit<sup>4</sup>thoo<sup>2</sup>ti<sup>7</sup>kong<sup>1</sup></span><span class="rom-tl">tik-sit-thóo-tī-kong</span>\ 
+                  <span class="rom-tp">chi<sup>7</sup>bo<sup>5</sup>ke<sup>1</sup></span><span class="rom-tl">tshī-bô-ke</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">得罪土地公養不成雞</span></span></td>            
               </tr>
               <tr>
@@ -212,12 +217,12 @@ table, th, td {
                   <div align="right">13.</div>
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
-                  &nbsp;<b><span style=" ">&nbsp;<span style=" mso-ascii-font-family:Arial">土地公、土地婆，祈汝蟶、祈汝蠔，</span><span lang="EN-US">kau<sup>3</sup></span><span style=" mso-ascii-font-family:
+                  &nbsp;<b><span style=" ">&nbsp;<span style=" mso-ascii-font-family:Arial">土地公、土地婆，祈汝蟶、祈汝蠔，</span><span lang="EN-US"><span class="rom-tp">kau<sup>3</sup></span><span class="rom-tl">kàu</span></span><span style=" mso-ascii-font-family:
 Arial">時麼都無</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;thoo<sup>2</sup>ti<sup>7</sup>kong<sup>1</sup>\ 
-                  thoo<sup>2</sup>ti<sup>7</sup>po<sup>5</sup>\ he<sup>7</sup>li<sup>2</sup>than<sup>1</sup>\ 
-                  he<sup>7</sup>li<sup>2</sup>o<sup>5</sup>\ kau<sup>3</sup>si<sup>5</sup>\ 
-                  mih<sup>4</sup>to<sup>1</sup>bo<sup>5</sup></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span class="rom-tp">thoo<sup>2</sup>ti<sup>7</sup>kong<sup>1</sup></span><span class="rom-tl">thóo-tī-kong</span>\ 
+                  <span class="rom-tp">thoo<sup>2</sup>ti<sup>7</sup>po<sup>5</sup></span><span class="rom-tl">thóo-tī-pô</span>\ <span class="rom-tp">he<sup>7</sup>li<sup>2</sup>than<sup>1</sup></span><span class="rom-tl">hē-lí-than</span>\ 
+                  <span class="rom-tp">he<sup>7</sup>li<sup>2</sup>o<sup>5</sup></span><span class="rom-tl">hē-lí-ô</span>\ <span class="rom-tp">kau<sup>3</sup>si<sup>5</sup></span><span class="rom-tl">kàu-sî</span>\ 
+                  <span class="rom-tp">mih<sup>4</sup>to<sup>1</sup>bo<sup>5</sup></span><span class="rom-tl">mih-to-bô</span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">口惠而實不至</span></span></td>            
               </tr>
               <tr>
@@ -226,9 +231,9 @@ Arial">時麼都無</span></span></b><br>
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">問神</span> <span style=" ">著有毋著，請醫生</span> <span style=" ">著食藥</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;mng<sup>7</sup>sin<sup>5</sup>\ 
-                  toh<sup>8</sup>u<sup>7</sup>m<sup>7</sup>tioh<sup>8</sup>\ 
-                  chiann<sup>1</sup>i<sup>1</sup>sing<sup>1</sup>\ toh<sup>8</sup>ciah<sup>8</sup>ioh<sup>8</sup></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span class="rom-tp">mng<sup>7</sup>sin<sup>5</sup></span><span class="rom-tl">mn̄g-sîn</span>\ 
+                  <span class="rom-tp">toh<sup>8</sup>u<sup>7</sup>m<sup>7</sup>tioh<sup>8</sup></span><span class="rom-tl">to̍h-ū-m̄-tio̍h</span>\ 
+                  <span class="rom-tp">chiann<sup>1</sup>i<sup>1</sup>sing<sup>1</sup></span><span class="rom-tl">tshiann-i-sing</span>\ <span class="rom-tp">toh<sup>8</sup>ciah<sup>8</sup>ioh<sup>8</sup></span><span class="rom-tl">to̍h-tsia̍h-io̍h</span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style="font-family:全真中明體;mso-ascii-font-family:&quot;Times New Roman&quot;">問神就有不對之處，看醫生就得吃藥</span></span></td>            
               </tr>
               <tr>
@@ -239,8 +244,8 @@ Arial">時麼都無</span></span></b><br>
                   &nbsp;<b><span style=" ">&nbsp;<span style=" mso-ascii-font-family:Arial">尪公</span> 
                   <span style=" mso-ascii-font-family:Arial">聖，毋值尪媽</span> 
                   <span style=" mso-ascii-font-family:Arial">定</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">ang<sup>1</sup>kong<sup>1</sup>\ siann<sup>3</sup> m<sup>7</sup>tat<sup>8</sup>ang<sup>1</sup>ma<sup>2</sup>\ 
-                  tiann<sup>7</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">ang<sup>1</sup>kong<sup>1</sup></span><span class="rom-tl">ang-kong</span>\ <span class="rom-tp">siann<sup>3</sup> m<sup>7</sup>tat<sup>8</sup>ang<sup>1</sup>ma<sup>2</sup></span><span class="rom-tl">siànn m̄-ta̍t-ang-má</span>\ 
+                  <span class="rom-tp">tiann<sup>7</sup></span><span class="rom-tl">tiānn</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style=" ">丈夫不及妻子有決定權</span></span></td>            
               </tr>
               <tr>
@@ -249,9 +254,9 @@ Arial">時麼都無</span></span></b><br>
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">戇人</span> <span style=" ">拜公媽，那看</span> <span style=" ">那無來食</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;gong<sup>7</sup>lang<sup>5</sup>\ 
-                  pai<sup>3</sup>kong<sup>1</sup>ma<sup>2</sup>\ na<sup>2</sup>khuann<sup>3</sup>\ 
-                  na<sup>2</sup>bo<sup>5</sup>lai<sup>5</sup>ciah<sup>8</sup></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span class="rom-tp">gong<sup>7</sup>lang<sup>5</sup></span><span class="rom-tl">gōng-lâng</span>\ 
+                  <span class="rom-tp">pai<sup>3</sup>kong<sup>1</sup>ma<sup>2</sup></span><span class="rom-tl">pài-kong-má</span>\ <span class="rom-tp">na<sup>2</sup>khuann<sup>3</sup></span><span class="rom-tl">ná-khuànn</span>\ 
+                  <span class="rom-tp">na<sup>2</sup>bo<sup>5</sup>lai<sup>5</sup>ciah<sup>8</sup></span><span class="rom-tl">ná-bô-lâi-tsia̍h</span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style="font-family:全真中明體;mso-ascii-font-family:&quot;Times New Roman&quot;">傻人祭祖先，越看越奇怪怎麼沒來吃祭品</span></span></td>            
               </tr>
               <tr>
@@ -260,7 +265,7 @@ Arial">時麼都無</span></span></b><br>
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style=" ">&nbsp;<span style=" ">聖甲會食糕仔</span></span></b><br>        
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" ">siann<sup>3</sup>kah<sup>4</sup>e<sup>7</sup>ciah<sup>8</sup>ko<sup>1</sup>a<sup>2</sup></span></span><br>           
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; <span lang="EN-US">&nbsp;&nbsp;<span lang="EN-US" style=" "><span class="rom-tp">siann<sup>3</sup>kah<sup>4</sup>e<sup>7</sup>ciah<sup>8</sup>ko<sup>1</sup>a<sup>2</sup></span><span class="rom-tl">siànn-kah-ē-tsia̍h-ko-á</span></span></span><br>           
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style=" "><span style="font-family:全真中明體;mso-ascii-font-family:&quot;Times New Roman&quot;">靈到會吃糕餅</span></span></td>            
               </tr>
 

@@ -4,6 +4,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=1200">
+<style>html[data-rom="tlpa"] .rom-tl,html:not([data-rom="tlpa"]) .rom-tp{display:none}.rom-sw{position:fixed;top:4px;right:6px;z-index:9;font:12px/1.2 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:rgba(255,255,255,.92);border:1px solid #c9b48a;border-radius:12px;padding:3px 6px 3px 9px;color:#5a3a1a;white-space:nowrap}.rom-sw button{font:inherit;background:none;border:0;padding:2px 6px;margin-left:2px;border-radius:8px;color:#8a6a3a;cursor:pointer}.rom-sw button[aria-pressed="true"]{background:#5a3a1a;color:#fff;cursor:default}.rom-sw a{color:#8a6a3a;text-decoration:none;margin-left:4px}</style>
+<script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
+<style>.zz-bar .rom-sw{position:static;margin-left:auto}.zz-bar .rom-sw+.r{margin-left:0}.zz-bar .rom-sw a,.zz-bar .rom-sw a:hover{color:#8a6a3a;text-decoration:none}</style>
+
 <title>台灣語文學會</title>
 <style>
 /* 治言齋存檔列（2026 年重建時加的，原站沒有） */
@@ -38,7 +42,8 @@ table, th, td {
 
 
 <body>
-<div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">洪惟仁設計的教學資源</span><span class="s">2015–2016 年的教學網站　·　2026 年整理重現</span><a class="r" href="notice.html">說明</a></div>
+<div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">洪惟仁設計的教學資源</span><span class="s">2015–2016 年的教學網站　·　2026 年整理重現</span><div class="rom-sw" title="原站用 TLPA 標音，本站預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音<button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button><a href="notice.html#rom" title="說明">?</a></div><a class="r" href="notice.html">說明</a></div>
+<script>(function(){var d=document.documentElement,b=document.querySelectorAll(".rom-sw button");function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}for(var i=0;i<b.length;i++)b[i].onclick=function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}};show(d.getAttribute("data-rom"))})();</script>
 
 <a name="aaa"></a>
 <div id="content2" > <a href="index.html"><img src="images/a_01.png" width="1200" height="158" border="0" ></a>
@@ -100,7 +105,7 @@ table, th, td {
                   &nbsp;<b><span style="font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">破雨傘</span> <span style="  ">興展</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  ">phua<sup>3</sup>hoo<sup>7</sup>suann<sup>3</sup>\ hing<sup>3</sup>tian<sup>2</sup></span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  "><span class="rom-tp">phua<sup>3</sup>hoo<sup>7</sup>suann<sup>3</sup></span><span class="rom-tl">phuà-hōo-suànn</span>\ <span class="rom-tp">hing<sup>3</sup>tian<sup>2</sup></span><span class="rom-tl">hìng-tián</span></span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size: 12.0pt;        mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">比喻敝帚自珍</span>&nbsp;</span></td>  
@@ -113,7 +118,7 @@ table, th, td {
                   &nbsp;<b><span style="font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">棕蓑胡蠅──食毛</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">cang<sup>1</sup>sui<sup>1 </sup>hoo<sup>5</sup>sin<sup>5</sup>\ ciah<sup>8</sup>mo<sup>1</sup></span>&nbsp;&nbsp;</span><span lang="EN-US">&nbsp;</span><br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">cang<sup>1</sup>sui<sup>1</sup> hoo<sup>5</sup>sin<sup>5</sup></span><span class="rom-tl">tsang-sui hôo-sîn</span>\ <span class="rom-tp">ciah<sup>8</sup>mo<sup>1</sup></span><span class="rom-tl">tsia̍h-mo</span></span>&nbsp;&nbsp;</span><span lang="EN-US">&nbsp;</span><br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>    
               </tr>
               <tr>
@@ -136,8 +141,8 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">欺</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">sin<sup>1</sup>=li<sup>0</sup>\ bo<sup>5</sup>i<sup>1</sup>\<sup> </sup>pi<sup>7</sup>jin<sup>5</sup>\ 
-                  khi<sup>1</sup></span>&nbsp;&nbsp;</span><span lang="EN-US">&nbsp;</span><br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">sin<sup>1</sup></span><span class="rom-tl">sin</span>=<span class="rom-tp">li<sup>0</sup></span><span class="rom-tl">li</span>\ <span class="rom-tp">bo<sup>5</sup>i<sup>1</sup></span><span class="rom-tl">bô-i</span>\<sup> </sup><span class="rom-tp">pi<sup>7</sup>jin<sup>5</sup></span><span class="rom-tl">pī-jîn</span>\ 
+                  <span class="rom-tp">khi<sup>1</sup></span><span class="rom-tl">khi</span></span>&nbsp;&nbsp;</span><span lang="EN-US">&nbsp;</span><br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>    
               </tr>
               <tr>
@@ -148,7 +153,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="font-size: 12.0pt;        mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">白白布</span> <span style="  ">染甲烏</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">peh<sup>8</sup>xpoo<sup>3</sup>\<sup> </sup>ni<sup>2</sup>kah<sup>4</sup>oo<sup>1</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">peh<sup>8</sup>xpoo<sup>3</sup></span><span class="rom-tl">pe̍hx-pòo</span>\<sup> </sup><span class="rom-tp">ni<sup>2</sup>kah<sup>4</sup>oo<sup>1</sup></span><span class="rom-tl">ní-kah-oo</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>    
               </tr>
               <tr>
@@ -159,7 +164,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="font-size: 12.0pt;        mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">白布</span> <span style="  ">染甲變烏布</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  ">peh<sup>8</sup>poo<sup>3</sup>\<sup> </sup>ni<sup>2</sup>kah<sup>4</sup>pinn<sup>3</sup>oo<sup>1</sup>poo<sup>3</sup></span><br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  "><span class="rom-tp">peh<sup>8</sup>poo<sup>3</sup></span><span class="rom-tl">pe̍h-pòo</span>\<sup> </sup><span class="rom-tp">ni<sup>2</sup>kah<sup>4</sup>pinn<sup>3</sup>oo<sup>1</sup>poo<sup>3</sup></span><span class="rom-tl">ní-kah-pìnn-oo-pòo</span></span><br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>    
               </tr>
               <tr>
@@ -170,7 +175,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">卜食</span> <span style="  ">毋織穿</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">beh<sup>4</sup>ciah<sup>8</sup>\<sup> </sup>m<sup>7</sup>cit<sup>4</sup>ching<sup>7</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">beh<sup>4</sup>ciah<sup>8</sup></span><span class="rom-tl">beh-tsia̍h</span>\<sup> </sup><span class="rom-tp">m<sup>7</sup>cit<sup>4</sup>ching<sup>7</sup></span><span class="rom-tl">m̄-tsit-tshīng</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>    
               </tr>
               <tr>
@@ -186,9 +191,9 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">著是某</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">pang<sup>5</sup>king<sup>1</sup>lai<sup>7</sup>\<sup> 
-                  </sup>phah<sup>4</sup>m<sup>7</sup>kinn<sup>3</sup>khoo<sup>3</sup>\ 
-                  m<sup>7</sup>si<sup>7</sup>ang<sup>1</sup>\<sup> </sup>tioh<sup>8</sup>si<sup>7</sup>boo<sup>2</sup></span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">pang<sup>5</sup>king<sup>1</sup>lai<sup>7</sup></span><span class="rom-tl">pâng-king-lāi</span>\<sup> 
+                  </sup><span class="rom-tp">phah<sup>4</sup>m<sup>7</sup>kinn<sup>3</sup>khoo<sup>3</sup></span><span class="rom-tl">phah-m̄-kìnn-khòo</span>\ 
+                  <span class="rom-tp">m<sup>7</sup>si<sup>7</sup>ang<sup>1</sup></span><span class="rom-tl">m̄-sī-ang</span>\<sup> </sup><span class="rom-tp">tioh<sup>8</sup>si<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">tio̍h-sī-bóo</span></span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>    
               </tr>
               <tr>
@@ -199,7 +204,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">古井</span> <span style="  ">料準褲</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">koo<sup>2</sup>cenn<sup>2</sup>\<sup> </sup>liau<sup>7</sup>cun<sup>2</sup>khoo<sup>3</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">koo<sup>2</sup>cenn<sup>2</sup></span><span class="rom-tl">kóo-tsénn</span>\<sup> </sup><span class="rom-tp">liau<sup>7</sup>cun<sup>2</sup>khoo<sup>3</sup></span><span class="rom-tl">liāu-tsún-khòo</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>    
               </tr>
               <tr>
@@ -208,7 +213,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style="font-size: 12.0pt;        mso-bidi-language: AR-SA">褲帶 <span style="  ">結相連</span>&nbsp;</span></b><br>  
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  ">khoo<sup>3</sup>tua<sup>3</sup>\<sup> </sup>kat<sup>4</sup>sio<sup>1</sup>liam<sup>5</sup></span><br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  "><span class="rom-tp">khoo<sup>3</sup>tua<sup>3</sup></span><span class="rom-tl">khòo-tuà</span>\<sup> </sup><span class="rom-tp">kat<sup>4</sup>sio<sup>1</sup>liam<sup>5</sup></span><span class="rom-tl">kat-sio-liâm</span></span><br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>    
               </tr>
               <tr>
@@ -219,7 +224,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">翁某</span> <span style="  ">穿共領褲</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">ang<sup>1</sup>boo<sup>2</sup>\<sup> </sup>ching<sup>7</sup>kang<sup>7</sup>nia<sup>2</sup>khoo<sup>3</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">ang<sup>1</sup>boo<sup>2</sup></span><span class="rom-tl">ang-bóo</span>\<sup> </sup><span class="rom-tp">ching<sup>7</sup>kang<sup>7</sup>nia<sup>2</sup>khoo<sup>3</sup></span><span class="rom-tl">tshīng-kāng-niá-khòo</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>     
               </tr>
               <tr>
@@ -230,7 +235,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">褪一下褲，扑一下尻川</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">thng<sup>3</sup>cit<sup>8</sup>e<sup>7</sup>khoo<sup>3</sup>\ phah<sup>4</sup>cit<sup>8</sup>e<sup>7</sup>kha<sup>1</sup>chng<sup>1</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">thng<sup>3</sup>cit<sup>8</sup>e<sup>7</sup>khoo<sup>3</sup></span><span class="rom-tl">thǹg-tsi̍t-ē-khòo</span>\ <span class="rom-tp">phah<sup>4</sup>cit<sup>8</sup>e<sup>7</sup>kha<sup>1</sup>chng<sup>1</sup></span><span class="rom-tl">phah-tsi̍t-ē-kha-tshng</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size: 12.0pt;        mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">比喻乾脆讓人家去賺，免得麻煩</span>&nbsp;</span></td>    
@@ -243,8 +248,8 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">扑死一&#20010;賣布&#20010;，得無一條頭帛</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">phah<sup>4</sup>si<sup>2</sup>cit<sup>8</sup>e<sup>5</sup>be<sup>7</sup>poo<sup>3</sup>=e<sup>0</sup>\ 
-                  tit<sup>4</sup>bo<sup>5</sup>cit<sup>8</sup>tiau<sup>5</sup>thau<sup>5</sup>peh<sup>8</sup>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">phah<sup>4</sup>si<sup>2</sup>cit<sup>8</sup>e<sup>5</sup>be<sup>7</sup>poo<sup>3</sup></span><span class="rom-tl">phah-sí-tsi̍t-ê-bē-pòo</span>=<span class="rom-tp">e<sup>0</sup></span><span class="rom-tl">e</span>\ 
+                  <span class="rom-tp">tit<sup>4</sup>bo<sup>5</sup>cit<sup>8</sup>tiau<sup>5</sup>thau<sup>5</sup>peh<sup>8</sup></span><span class="rom-tl">tit-bô-tsi̍t-tiâu-thâu-pe̍h</span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="  
  
   mso-bidi-language:AR-SA">比喻沒賺到什麼，卻惹來一些麻煩</span></td>    
@@ -257,7 +262,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">有身穿，好行走</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">u<sup>7</sup>sin<sup>1</sup>ching<sup>7</sup>\ ho<sup>2</sup>kiann<sup>5</sup>cau<sup>2</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">u<sup>7</sup>sin<sup>1</sup>ching<sup>7</sup></span><span class="rom-tl">ū-sin-tshīng</span>\ <span class="rom-tp">ho<sup>2</sup>kiann<sup>5</sup>cau<sup>2</sup></span><span class="rom-tl">hó-kiânn-tsáu</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="  
  
   mso-bidi-language:AR-SA">比喻身穿漂亮可以到處走動</span></td>    
@@ -275,7 +280,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">大扮</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">ang<sup>5</sup>\ sui<sup>2</sup>\<sup> </sup>oo<sup>1</sup>\ tua<sup>7</sup>pan<sup>7</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">ang<sup>5</sup></span><span class="rom-tl">âng</span>\ <span class="rom-tp">sui<sup>2</sup></span><span class="rom-tl">suí</span>\<sup> </sup><span class="rom-tp">oo<sup>1</sup></span><span class="rom-tl">oo</span>\ <span class="rom-tp">tua<sup>7</sup>pan<sup>7</sup></span><span class="rom-tl">tuā-pān</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>     
               </tr>
               <tr>
@@ -286,9 +291,9 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">甘願做衫奴才，毋通到時</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">叫衫</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">叫袂來</span></span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">kam<sup>1</sup>guan<sup>7</sup>co<sup>3</sup>sann<sup>1</sup>no<sup>5</sup>cai<sup>5</sup>\ 
-                  m<sup>7</sup>thang<sup>1</sup>kau<sup>3</sup>si<sup>5</sup>\ 
-                  kio<sup>3</sup>sann<sup>1</sup>\ kio<sup>3</sup>be<sup>7</sup>lai<sup>5</sup>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">kam<sup>1</sup>guan<sup>7</sup>co<sup>3</sup>sann<sup>1</sup>no<sup>5</sup>cai<sup>5</sup></span><span class="rom-tl">kam-guān-tsò-sann-nô-tsâi</span>\ 
+                  <span class="rom-tp">m<sup>7</sup>thang<sup>1</sup>kau<sup>3</sup>si<sup>5</sup></span><span class="rom-tl">m̄-thang-kàu-sî</span>\ 
+                  <span class="rom-tp">kio<sup>3</sup>sann<sup>1</sup></span><span class="rom-tl">kiò-sann</span>\ <span class="rom-tp">kio<sup>3</sup>be<sup>7</sup>lai<sup>5</sup></span><span class="rom-tl">kiò-bē-lâi</span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>     
               </tr>
               <tr>
@@ -299,8 +304,8 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">細空</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">毋補，大空</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">補袂滇</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">se<sup>3</sup>khang<sup>1</sup>\ m<sup>7</sup>poo<sup>2</sup>\ tua<sup>7</sup>khang<sup>1</sup>\ 
-                  poo<sup>2</sup>be<sup>7</sup>tinn<sup>7</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">se<sup>3</sup>khang<sup>1</sup></span><span class="rom-tl">sè-khang</span>\ <span class="rom-tp">m<sup>7</sup>poo<sup>2</sup></span><span class="rom-tl">m̄-póo</span>\ <span class="rom-tp">tua<sup>7</sup>khang<sup>1</sup></span><span class="rom-tl">tuā-khang</span>\ 
+                  <span class="rom-tp">poo<sup>2</sup>be<sup>7</sup>tinn<sup>7</sup></span><span class="rom-tl">póo-bē-tīnn</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>     
               </tr>
               <tr>
@@ -316,7 +321,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">底</span> <span style="  ">原在</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">hia<sup>1</sup>\ phua<sup>3</sup>\<sup> </sup>te<sup>2</sup>\ guan<sup>5</sup>cai<sup>7</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">hia<sup>1</sup></span><span class="rom-tl">hia</span>\ <span class="rom-tp">phua<sup>3</sup></span><span class="rom-tl">phuà</span>\<sup> </sup><span class="rom-tp">te<sup>2</sup></span><span class="rom-tl">té</span>\ <span class="rom-tp">guan<sup>5</sup>cai<sup>7</sup></span><span class="rom-tl">guân-tsāi</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size: 12.0pt;        mso-bidi-language: AR-SA"><span style="font-family:全真中明體;mso-ascii-font-family:&quot;Times New Roman&quot;">比喻富家有根柢</span>&nbsp;</span></td>    
               </tr>
               <tr>
@@ -332,9 +337,9 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">坐牛車</span></span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">bo<sup>5</sup>kue<sup>3</sup>\ 
-                  ti<sup>3</sup>pu<sup>5</sup>hia<sup>1</sup> bo<sup>5</sup>kio<sup>7</sup>\ 
-                  ce<sup>7</sup>gu<sup>5</sup>chia<sup>1</sup>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">bo<sup>5</sup>kue<sup>3</sup></span><span class="rom-tl">bô-kuè</span>\ 
+                  <span class="rom-tp">ti<sup>3</sup>pu<sup>5</sup>hia<sup>1</sup> bo<sup>5</sup>kio<sup>7</sup></span><span class="rom-tl">tì-pû-hia bô-kiō</span>\ 
+                  <span class="rom-tp">ce<sup>7</sup>gu<sup>5</sup>chia<sup>1</sup></span><span class="rom-tl">tsē-gû-tshia</span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>     
               </tr>
               <tr>
@@ -344,7 +349,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">真珠</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">囥甲變老鼠仔屎</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">cin<sup>1</sup>cu<sup>1</sup>\ khng<sup>3</sup>kah<sup>4</sup>pian<sup>3</sup>niau<sup>2</sup>chi<sup>2</sup>a<sup>2</sup>sai<sup>2</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">cin<sup>1</sup>cu<sup>1</sup></span><span class="rom-tl">tsin-tsu</span>\ <span class="rom-tp">khng<sup>3</sup>kah<sup>4</sup>pian<sup>3</sup>niau<sup>2</sup>chi<sup>2</sup>a<sup>2</sup>sai<sup>2</sup></span><span class="rom-tl">khǹg-kah-piàn-niáu-tshí-á-sái</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>     
               </tr>
               <tr>
@@ -360,7 +365,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">著舊</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">sann<sup>1</sup>\ tioh<sup>8</sup>sin<sup>1</sup>\ lang<sup>5</sup>\ tioh<sup>8</sup>ku<sup>7</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">sann<sup>1</sup></span><span class="rom-tl">sann</span>\ <span class="rom-tp">tioh<sup>8</sup>sin<sup>1</sup></span><span class="rom-tl">tio̍h-sin</span>\ <span class="rom-tp">lang<sup>5</sup></span><span class="rom-tl">lâng</span>\ <span class="rom-tp">tioh<sup>8</sup>ku<sup>7</sup></span><span class="rom-tl">tio̍h-kū</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>     
               </tr>
               <tr>
@@ -376,9 +381,9 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">予尻川</span> <span style="  ">坐額</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">chui<sup>3</sup>\ 
-                  ciah<sup>8</sup>\<sup> </sup>hoo<sup>7</sup>kha<sup>1</sup>chng<sup>1</sup>\<sup> 
-                  </sup>ce<sup>7</sup>giah<sup>8</sup>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">chui<sup>3</sup></span><span class="rom-tl">tshuì</span>\ 
+                  <span class="rom-tp">ciah<sup>8</sup></span><span class="rom-tl">tsia̍h</span>\<sup> </sup><span class="rom-tp">hoo<sup>7</sup>kha<sup>1</sup>chng<sup>1</sup></span><span class="rom-tl">hōo-kha-tshng</span>\<sup> 
+                  </sup><span class="rom-tp">ce<sup>7</sup>giah<sup>8</sup></span><span class="rom-tl">tsē-gia̍h</span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;&nbsp;<span style="font-size: 12.0pt;        mso-bidi-language: AR-SA">&nbsp;</span></td>     
               </tr>
               <tr>
@@ -389,7 +394,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">貪熱</span> <span style="  ">無貪寒</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">tham<sup>1</sup>juah<sup>8</sup>\<sup> </sup>bo<sup>5</sup>tham<sup>1</sup>kuann<sup>5</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">tham<sup>1</sup>juah<sup>8</sup></span><span class="rom-tl">tham-jua̍h</span>\<sup> </sup><span class="rom-tp">bo<sup>5</sup>tham<sup>1</sup>kuann<sup>5</sup></span><span class="rom-tl">bô-tham-kuânn</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>   
               </tr>
               <tr>
@@ -400,7 +405,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">紅衫</span> <span style="  ">穿一半</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">ang<sup>5</sup>sann<sup>1</sup>\<sup> </sup>ching<sup>7</sup>cit<sup>8</sup>puann<sup>3</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">ang<sup>5</sup>sann<sup>1</sup></span><span class="rom-tl">âng-sann</span>\<sup> </sup><span class="rom-tp">ching<sup>7</sup>cit<sup>8</sup>puann<sup>3</sup></span><span class="rom-tl">tshīng-tsi̍t-puànn</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-family:全真中明體;mso-ascii-font-family:&quot;Times New Roman&quot;">比喻計程車司機常在馬路跑，較容易發生車禍流血身亡</span></td>    
               </tr>
               <tr>
@@ -411,8 +416,8 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   &nbsp;<b><span style="    font-size: 12.0pt;       mso-bidi-language: AR-SA"><span style="  
  
   mso-bidi-language:AR-SA">也好做面布，也好做桌布</span>&nbsp;</span></b><br> 
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  ">ia<sup>7</sup>ho<sup>2</sup>co<sup>3</sup>bin<sup>7</sup>poo<sup>3</sup>\ 
-                  ia<sup>7</sup>ho<sup>2</sup>co<sup>3</sup>toh<sup>4</sup>poo<sup>3</sup></span>&nbsp;</span>&nbsp;<br>  
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">ia<sup>7</sup>ho<sup>2</sup>co<sup>3</sup>bin<sup>7</sup>poo<sup>3</sup></span><span class="rom-tl">iā-hó-tsò-bīn-pòo</span>\ 
+                  <span class="rom-tp">ia<sup>7</sup>ho<sup>2</sup>co<sup>3</sup>toh<sup>4</sup>poo<sup>3</sup></span><span class="rom-tl">iā-hó-tsò-toh-pòo</span></span>&nbsp;</span>&nbsp;<br>  
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>     
               </tr>
               <tr>
@@ -420,7 +425,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
                   25.
                 </td>
                 <td width="456" height="43" class="text-17"><img src="01.gif" width="14" height="14" align="absmiddle"> 
-                  &nbsp;<b><span style="font-size: 12.0pt;       mso-bidi-language: AR-SA"><span lang="EN-US" style="  ">thai<sup>5</sup></span><span style=" mso-bidi-font-size:
+                  &nbsp;<b><span style="font-size: 12.0pt;       mso-bidi-language: AR-SA"><span lang="EN-US" style="  "><span class="rom-tp">thai<sup>5</sup></span><span class="rom-tl">thâi</span></span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">豬</span> <span style="  ">也這身，做醮</span><span style=" 
   mso-fareast-font-family:
@@ -428,8 +433,8 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">也這身</span>&nbsp;</span></b><br>   
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  ">thai<sup>5</sup>ti<sup>1</sup>\<sup> </sup>ia<sup>7</sup>cit<sup>4</sup>sin<sup>1</sup>\ 
-                  co<sup>3</sup>cio<sup>3</sup>\<sup> </sup>ia<sup>7</sup>cit<sup>4</sup>sin<sup>1</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>     
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  "><span class="rom-tp">thai<sup>5</sup>ti<sup>1</sup></span><span class="rom-tl">thâi-ti</span>\<sup> </sup><span class="rom-tp">ia<sup>7</sup>cit<sup>4</sup>sin<sup>1</sup></span><span class="rom-tl">iā-tsit-sin</span>\ 
+                  <span class="rom-tp">co<sup>3</sup>cio<sup>3</sup></span><span class="rom-tl">tsò-tsiò</span>\<sup> </sup><span class="rom-tp">ia<sup>7</sup>cit<sup>4</sup>sin<sup>1</sup></span><span class="rom-tl">iā-tsit-sin</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>     
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt;        mso-bidi-language: AR-SA">&nbsp;</span></td>     
               </tr>
               <tr>
@@ -442,7 +447,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
   mso-bidi-language:AR-SA">反形，衫</span> <span style="  ">穿顛倒爿</span>&nbsp;</span></b><br>   
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp; 
 
-                  <span lang="EN-US"><span lang="EN-US" style="  ">huan<sup>2</sup>hing<sup>5</sup>\ sann<sup>1</sup>\ ching<sup>7</sup>tian<sup>1</sup>to<sup>3</sup>ping<sup>5</sup></span>&nbsp;&nbsp;</span><br>    
+                  <span lang="EN-US"><span lang="EN-US" style="  "><span class="rom-tp">huan<sup>2</sup>hing<sup>5</sup></span><span class="rom-tl">huán-hîng</span>\ <span class="rom-tp">sann<sup>1</sup></span><span class="rom-tl">sann</span>\ <span class="rom-tp">ching<sup>7</sup>tian<sup>1</sup>to<sup>3</sup>ping<sup>5</sup></span><span class="rom-tl">tshīng-tian-tò-pîng</span></span>&nbsp;&nbsp;</span><br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt;        mso-bidi-language: AR-SA">&nbsp;</span></td>     
               </tr>
               <tr>
@@ -458,7 +463,7 @@ mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 mso-bidi-language:AR-SA"> </span><span style=" mso-bidi-font-size:
 10.0pt; 
   mso-bidi-language:AR-SA">雙頭澹</span>&nbsp;</span></b><br>   
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  ">chiu<sup>2</sup>kin<sup>1</sup>\ un<sup>3</sup>cui<sup>2</sup>\<sup> </sup>siang<sup>1</sup>thau<sup>5</sup>tam<sup>5</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>     
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="  "><span class="rom-tp">chiu<sup>2</sup>kin<sup>1</sup></span><span class="rom-tl">tshiú-kin</span>\ <span class="rom-tp">un<sup>3</sup>cui<sup>2</sup></span><span class="rom-tl">ùn-tsuí</span>\<sup> </sup><span class="rom-tp">siang<sup>1</sup>thau<sup>5</sup>tam<sup>5</sup></span><span class="rom-tl">siang-thâu-tâm</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>     
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt;        mso-bidi-language: AR-SA">&nbsp;</span></td>     
               </tr>
 

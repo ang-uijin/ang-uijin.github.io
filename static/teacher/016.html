@@ -4,6 +4,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=1200">
+<style>html[data-rom="tlpa"] .rom-tl,html:not([data-rom="tlpa"]) .rom-tp{display:none}.rom-sw{position:fixed;top:4px;right:6px;z-index:9;font:12px/1.2 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:rgba(255,255,255,.92);border:1px solid #c9b48a;border-radius:12px;padding:3px 6px 3px 9px;color:#5a3a1a;white-space:nowrap}.rom-sw button{font:inherit;background:none;border:0;padding:2px 6px;margin-left:2px;border-radius:8px;color:#8a6a3a;cursor:pointer}.rom-sw button[aria-pressed="true"]{background:#5a3a1a;color:#fff;cursor:default}.rom-sw a{color:#8a6a3a;text-decoration:none;margin-left:4px}</style>
+<script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
+<style>.zz-bar .rom-sw{position:static;margin-left:auto}.zz-bar .rom-sw+.r{margin-left:0}.zz-bar .rom-sw a,.zz-bar .rom-sw a:hover{color:#8a6a3a;text-decoration:none}</style>
+
 <title>台灣語文學會</title>
 <style>
 /* 治言齋存檔列（2026 年重建時加的，原站沒有） */
@@ -38,7 +42,8 @@ table, th, td {
 
 
 <body>
-<div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">洪惟仁設計的教學資源</span><span class="s">2015–2016 年的教學網站　·　2026 年整理重現</span><a class="r" href="notice.html">說明</a></div>
+<div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">洪惟仁設計的教學資源</span><span class="s">2015–2016 年的教學網站　·　2026 年整理重現</span><div class="rom-sw" title="原站用 TLPA 標音，本站預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音<button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button><a href="notice.html#rom" title="說明">?</a></div><a class="r" href="notice.html">說明</a></div>
+<script>(function(){var d=document.documentElement,b=document.querySelectorAll(".rom-sw button");function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}for(var i=0;i<b.length;i++)b[i].onclick=function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}};show(d.getAttribute("data-rom"))})();</script>
 
 <a name="aaa"></a>
 <div id="content2" > <a href="index.html"><img src="images/a_01.png" width="1200" height="158" border="0" ></a>
@@ -110,8 +115,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size: 
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">beh<sup>4</sup>ciu<sup>2</sup>\<sup> </sup>ciu<sup>2</sup>tit<sup>4</sup>ching<sup>1</sup>\ 
-                  beh<sup>4</sup>ke<sup>3</sup>\<sup> </sup>tioh<sup>8</sup>ke<sup>3</sup>tit<sup>4</sup>bing<sup>5</sup></span><br>   
+AR-SA"><span class="rom-tp">beh<sup>4</sup>ciu<sup>2</sup></span><span class="rom-tl">beh-tsiú</span>\<sup> </sup><span class="rom-tp">ciu<sup>2</sup>tit<sup>4</sup>ching<sup>1</sup></span><span class="rom-tl">tsiú-tit-tshing</span>\ 
+                  <span class="rom-tp">beh<sup>4</sup>ke<sup>3</sup></span><span class="rom-tl">beh-kè</span>\<sup> </sup><span class="rom-tp">tioh<sup>8</sup>ke<sup>3</sup>tit<sup>4</sup>bing<sup>5</sup></span><span class="rom-tl">tio̍h-kè-tit-bîng</span></span><br>   
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>     
           </tr>
               <tr>
@@ -131,8 +136,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size: 
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">te<sup>7</sup>it<sup>4</sup>\<sup> </sup>mng<sup>5</sup>hong<sup>1</sup>\ 
-                  te<sup>7</sup>ji<sup>7</sup>\<sup> </sup>coo<sup>2</sup>kong<sup>1</sup></span>&nbsp;</span><span lang="EN-US">&nbsp;</span><br>   
+AR-SA"><span class="rom-tp">te<sup>7</sup>it<sup>4</sup></span><span class="rom-tl">tē-it</span>\<sup> </sup><span class="rom-tp">mng<sup>5</sup>hong<sup>1</sup></span><span class="rom-tl">mn̂g-hong</span>\ 
+                  <span class="rom-tp">te<sup>7</sup>ji<sup>7</sup></span><span class="rom-tl">tē-jī</span>\<sup> </sup><span class="rom-tp">coo<sup>2</sup>kong<sup>1</sup></span><span class="rom-tl">tsóo-kong</span></span>&nbsp;</span><span lang="EN-US">&nbsp;</span><br>   
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>      
               </tr>
               <tr>
@@ -152,8 +157,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size: 
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">e<sup>7</sup>king<sup>2</sup>\<sup> </sup>king<sup>2</sup>sin<sup>1</sup>long<sup>5</sup>\ 
-                  be<sup>7</sup>king<sup>2</sup>\<sup> </sup>king<sup>2</sup>chan<sup>5</sup>cng<sup>1</sup></span>&nbsp;</span><span lang="EN-US">&nbsp;</span><br>   
+AR-SA"><span class="rom-tp">e<sup>7</sup>king<sup>2</sup></span><span class="rom-tl">ē-kíng</span>\<sup> </sup><span class="rom-tp">king<sup>2</sup>sin<sup>1</sup>long<sup>5</sup></span><span class="rom-tl">kíng-sin-lông</span>\ 
+                  <span class="rom-tp">be<sup>7</sup>king<sup>2</sup></span><span class="rom-tl">bē-kíng</span>\<sup> </sup><span class="rom-tp">king<sup>2</sup>chan<sup>5</sup>cng<sup>1</sup></span><span class="rom-tl">kíng-tshân-tsng</span></span>&nbsp;</span><span lang="EN-US">&nbsp;</span><br>   
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style=" 
   
  ">比喻不圖千畝地，只求好女婿</span></td>    
@@ -169,11 +174,11 @@ AR-SA">e<sup>7</sup>king<sup>2</sup>\<sup> </sup>king<sup>2</sup>sin<sup>1</sup>
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">king<sup>2</sup></span><span style="font-size:12.0pt;mso-bidi-font-size:
+AR-SA"><span class="rom-tp">king<sup>2</sup></span><span class="rom-tl">kíng</span></span><span style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;  
  ">‧</span><span lang="EN-US" style=" 
-mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA">a<sup>1</sup>\ king<sup>2</sup>\ 
-                  king<sup>2</sup>tioh<sup>8</sup>cit<sup>8</sup>e<sup>5</sup>be<sup>7</sup>ling<sup>5</sup>ging<sup>2</sup></span>&nbsp;</span>&nbsp;<br>    
+mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"><span class="rom-tp">a<sup>1</sup></span><span class="rom-tl">a</span>\ <span class="rom-tp">king<sup>2</sup></span><span class="rom-tl">kíng</span>\ 
+                  <span class="rom-tp">king<sup>2</sup>tioh<sup>8</sup>cit<sup>8</sup>e<sup>5</sup>be<sup>7</sup>ling<sup>5</sup>ging<sup>2</sup></span><span class="rom-tl">kíng-tio̍h-tsi̍t-ê-bē-lîng-gíng</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>      
               </tr>
               <tr>
@@ -190,9 +195,9 @@ mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-fo
 mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;  
  ">愛揀好良嬭</span>&nbsp;</span></b><br>    
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">be<sup>2</sup>chan<sup>5</sup>\<sup> 
-                  </sup>ai<sup>3</sup>king<sup>2</sup>ho<sup>2</sup>chan<sup>5</sup>te<sup>2</sup>\ 
-                  chua<sup>7</sup>boo<sup>2</sup>\<sup> </sup>ai<sup>3</sup>king<sup>2</sup>ho<sup>2</sup>niu<sup>5</sup>le<sup>2</sup></span><br>    
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">be<sup>2</sup>chan<sup>5</sup></span><span class="rom-tl">bé-tshân</span>\<sup> 
+                  </sup><span class="rom-tp">ai<sup>3</sup>king<sup>2</sup>ho<sup>2</sup>chan<sup>5</sup>te<sup>2</sup></span><span class="rom-tl">ài-kíng-hó-tshân-té</span>\ 
+                  <span class="rom-tp">chua<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-bóo</span>\<sup> </sup><span class="rom-tp">ai<sup>3</sup>king<sup>2</sup>ho<sup>2</sup>niu<sup>5</sup>le<sup>2</sup></span><span class="rom-tl">ài-kíng-hó-niû-lé</span></span><br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
   
  ">比喻買房屋要看屋樑，娶妻子要看丈母娘。</span></td>     
@@ -208,9 +213,9 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">bue<sup>7</sup>chua<sup>7</sup>boo<sup>2</sup>\ m<sup>7</sup>thang<sup>1</sup>chio<sup>3</sup>lang<sup>5</sup>boo<sup>2</sup>gau<sup>5</sup>cau<sup>2</sup>\<sup> 
-                  </sup>bue<sup>7</sup>senn<sup>1</sup>kiann<sup>2</sup>\<sup> </sup>m<sup>7</sup>thang<sup>1</sup>chio<sup>3</sup>lang<sup>5</sup>kiann<sup>2</sup>\ 
-                  gau<sup>5</sup>hau<sup>2</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">bue<sup>7</sup>chua<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">buē-tshuā-bóo</span>\ <span class="rom-tp">m<sup>7</sup>thang<sup>1</sup>chio<sup>3</sup>lang<sup>5</sup>boo<sup>2</sup>gau<sup>5</sup>cau<sup>2</sup></span><span class="rom-tl">m̄-thang-tshiò-lâng-bóo-gâu-tsáu</span>\<sup> 
+                  </sup><span class="rom-tp">bue<sup>7</sup>senn<sup>1</sup>kiann<sup>2</sup></span><span class="rom-tl">buē-senn-kiánn</span>\<sup> </sup><span class="rom-tp">m<sup>7</sup>thang<sup>1</sup>chio<sup>3</sup>lang<sup>5</sup>kiann<sup>2</sup></span><span class="rom-tl">m̄-thang-tshiò-lâng-kiánn</span>\ 
+                  <span class="rom-tp">gau<sup>5</sup>hau<sup>2</sup></span><span class="rom-tl">gâu-háu</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>      
               </tr>
               <tr>
@@ -224,10 +229,10 @@ AR-SA">bue<sup>7</sup>chua<sup>7</sup>boo<sup>2</sup>\ m<sup>7</sup>thang<sup>1<
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">bue<sup>7</sup>chua<sup>7</sup>boo<sup>2</sup>\ m<sup>7</sup>thang<sup>1</sup>chio<sup>3</sup>lang<sup>5</sup>boo<sup>2</sup>\ 
-                  hiau<sup>5</sup>\ bue<sup>7</sup>senn<sup>1</sup>kiann<sup>2</sup>\<sup> 
-                  </sup>m<sup>7</sup>thang<sup>1</sup>chio<sup>3</sup>lang<sup>5</sup>kiann<sup>2</sup>\ 
-                  kiau<sup>1</sup></span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">bue<sup>7</sup>chua<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">buē-tshuā-bóo</span>\ <span class="rom-tp">m<sup>7</sup>thang<sup>1</sup>chio<sup>3</sup>lang<sup>5</sup>boo<sup>2</sup></span><span class="rom-tl">m̄-thang-tshiò-lâng-bóo</span>\ 
+                  <span class="rom-tp">hiau<sup>5</sup></span><span class="rom-tl">hiâu</span>\ <span class="rom-tp">bue<sup>7</sup>senn<sup>1</sup>kiann<sup>2</sup></span><span class="rom-tl">buē-senn-kiánn</span>\<sup> 
+                  </sup><span class="rom-tp">m<sup>7</sup>thang<sup>1</sup>chio<sup>3</sup>lang<sup>5</sup>kiann<sup>2</sup></span><span class="rom-tl">m̄-thang-tshiò-lâng-kiánn</span>\ 
+                  <span class="rom-tp">kiau<sup>1</sup></span><span class="rom-tl">kiau</span></span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>      
               </tr>
               <tr>
@@ -241,7 +246,7 @@ AR-SA">bue<sup>7</sup>chua<sup>7</sup>boo<sup>2</sup>\ m<sup>7</sup>thang<sup>1<
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">bue<sup>7</sup>chua<sup>7</sup>boo<sup>2</sup>\<sup> </sup>si<sup>7</sup>gin<sup>2</sup>a<sup>2</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">bue<sup>7</sup>chua<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">buē-tshuā-bóo</span>\<sup> </sup><span class="rom-tp">si<sup>7</sup>gin<sup>2</sup>a<sup>2</sup></span><span class="rom-tl">sī-gín-á</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>      
               </tr>
               <tr>
@@ -261,8 +266,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">thinn<sup>1</sup>te<sup>7</sup>\<sup> </sup>inn<sup>5</sup>lin<sup>1</sup>x\ 
-                  chuan<sup>3</sup>go<sup>7</sup>\<sup> </sup>go<sup>7</sup>tuann<sup>1</sup>sin<sup>1</sup></span><br>    
+AR-SA"><span class="rom-tp">thinn<sup>1</sup>te<sup>7</sup></span><span class="rom-tl">thinn-tē</span>\<sup> </sup><span class="rom-tp">inn<sup>5</sup>lin<sup>1</sup></span><span class="rom-tl">înn-lin</span>x\ 
+                  <span class="rom-tp">chuan<sup>3</sup>go<sup>7</sup></span><span class="rom-tl">tshuàn-gō</span>\<sup> </sup><span class="rom-tp">go<sup>7</sup>tuann<sup>1</sup>sin<sup>1</sup></span><span class="rom-tl">gō-tuann-sin</span></span><br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>      
               </tr>
               <tr>
@@ -282,8 +287,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">in<sup>1</sup>ian<sup>5</sup>\ kau<sup>3</sup>\ m<sup>7</sup>si<sup>7</sup>mui<sup>5</sup>lang<sup>5</sup>\ 
-                  gau<sup>5</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">in<sup>1</sup>ian<sup>5</sup></span><span class="rom-tl">in-iân</span>\ <span class="rom-tp">kau<sup>3</sup></span><span class="rom-tl">kàu</span>\ <span class="rom-tp">m<sup>7</sup>si<sup>7</sup>mui<sup>5</sup>lang<sup>5</sup></span><span class="rom-tl">m̄-sī-muî-lâng</span>\ 
+                  <span class="rom-tp">gau<sup>5</sup></span><span class="rom-tl">gâu</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>       
               </tr>
               <tr>
@@ -303,8 +308,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">hue<sup>1</sup>\ bo<sup>5</sup>cho<sup>3</sup>khui<sup>1</sup>\ in<sup>1</sup>ian<sup>5</sup>\<sup> 
-                  </sup>bo<sup>5</sup>cho<sup>3</sup>tui<sup>3</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">hue<sup>1</sup></span><span class="rom-tl">hue</span>\ <span class="rom-tp">bo<sup>5</sup>cho<sup>3</sup>khui<sup>1</sup></span><span class="rom-tl">bô-tshò-khui</span>\ <span class="rom-tp">in<sup>1</sup>ian<sup>5</sup></span><span class="rom-tl">in-iân</span>\<sup> 
+                  </sup><span class="rom-tp">bo<sup>5</sup>cho<sup>3</sup>tui<sup>3</sup></span><span class="rom-tl">bô-tshò-tuì</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  "><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
   
  ">比喻天作良緣</span>&nbsp;</span></td>      
@@ -324,9 +329,9 @@ Arial"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">in<sup>1</sup>ian<sup>5</sup>\<sup> </sup>sio<sup>1</sup>tui<sup>3</sup>tioh<sup>8</sup>\ 
-                  cit<sup>8</sup>e<sup>5</sup>\ theh<sup>8</sup>phue<sup>7</sup>\<sup> 
-                  </sup>cit<sup>8</sup>e<sup>5</sup>\ theh<sup>8</sup>chioh<sup>8</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">in<sup>1</sup>ian<sup>5</sup></span><span class="rom-tl">in-iân</span>\<sup> </sup><span class="rom-tp">sio<sup>1</sup>tui<sup>3</sup>tioh<sup>8</sup></span><span class="rom-tl">sio-tuì-tio̍h</span>\ 
+                  <span class="rom-tp">cit<sup>8</sup>e<sup>5</sup></span><span class="rom-tl">tsi̍t-ê</span>\ <span class="rom-tp">theh<sup>8</sup>phue<sup>7</sup></span><span class="rom-tl">the̍h-phuē</span>\<sup> 
+                  </sup><span class="rom-tp">cit<sup>8</sup>e<sup>5</sup></span><span class="rom-tl">tsi̍t-ê</span>\ <span class="rom-tp">theh<sup>8</sup>chioh<sup>8</sup></span><span class="rom-tl">the̍h-tshio̍h</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
   
  ">比喻私奔</span></td>      
@@ -349,8 +354,8 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-si
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">it<sup>4</sup>\ cinn<sup>5</sup>cai<sup>5</sup>\ ji<sup>7</sup>\ lang<sup>5</sup>cai<sup>5</sup>\ 
-                  sann<sup>1</sup>\ khue<sup>1</sup>hai<sup>5</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">it<sup>4</sup></span><span class="rom-tl">it</span>\ <span class="rom-tp">cinn<sup>5</sup>cai<sup>5</sup></span><span class="rom-tl">tsînn-tsâi</span>\ <span class="rom-tp">ji<sup>7</sup></span><span class="rom-tl">jī</span>\ <span class="rom-tp">lang<sup>5</sup>cai<sup>5</sup></span><span class="rom-tl">lâng-tsâi</span>\ 
+                  <span class="rom-tp">sann<sup>1</sup></span><span class="rom-tl">sann</span>\ <span class="rom-tp">khue<sup>1</sup>hai<sup>5</sup></span><span class="rom-tl">khue-hâi</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-family:全真中明體;mso-ascii-font-family:&quot;Times New Roman&quot;">通常要得到女子的人緣，不但要英俊有錢而且要會說笑。</span></td>      
               </tr>
               <tr>
@@ -364,8 +369,8 @@ AR-SA">it<sup>4</sup>\ cinn<sup>5</sup>cai<sup>5</sup>\ ji<sup>7</sup>\ lang<sup
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">sia<sup>1</sup>ti<sup>1</sup>\<sup> </sup>sia<sup>1</sup>iunn<sup>5</sup>\<sup> 
-                  </sup>bo<sup>5</sup>sia<sup>1</sup>sin<sup>1</sup>niu<sup>5</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">sia<sup>1</sup>ti<sup>1</sup></span><span class="rom-tl">sia-ti</span>\<sup> </sup><span class="rom-tp">sia<sup>1</sup>iunn<sup>5</sup></span><span class="rom-tl">sia-iûnn</span>\<sup> 
+                  </sup><span class="rom-tp">bo<sup>5</sup>sia<sup>1</sup>sin<sup>1</sup>niu<sup>5</sup></span><span class="rom-tl">bô-sia-sin-niû</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>       
               </tr>
               <tr>
@@ -382,9 +387,9 @@ mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-fo
 mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;  
  ">毋嫁痴哥</span>&nbsp;</span></b><br>   
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">ho<sup>2</sup>thih<sup>4</sup>\<sup> 
-                  </sup>m<sup>7</sup>phah<sup>4</sup>chai<sup>3</sup>to<sup>1</sup>\ 
-                  ho<sup>2</sup>ca<sup>1</sup>boo<sup>2</sup>\<sup> </sup>m<sup>7</sup>ke<sup>3</sup>chi<sup>1</sup>ko<sup>1</sup>&nbsp;</span>&nbsp;<br>    
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">ho<sup>2</sup>thih<sup>4</sup></span><span class="rom-tl">hó-thih</span>\<sup> 
+                  </sup><span class="rom-tp">m<sup>7</sup>phah<sup>4</sup>chai<sup>3</sup>to<sup>1</sup></span><span class="rom-tl">m̄-phah-tshài-to</span>\ 
+                  <span class="rom-tp">ho<sup>2</sup>ca<sup>1</sup>boo<sup>2</sup></span><span class="rom-tl">hó-tsa-bóo</span>\<sup> </sup><span class="rom-tp">m<sup>7</sup>ke<sup>3</sup>chi<sup>1</sup>ko<sup>1</sup></span><span class="rom-tl">m̄-kè-tshi-ko</span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
   
  ">比喻好鐵打劍</span></td>      
@@ -403,11 +408,9 @@ mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-fo
 mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;  
  ">無長短跤話</span>&nbsp;</span></b><br>   
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">sann<sup>1</sup>lang<sup>5</sup>\<sup> 
-                  </sup>kang<sup>7</sup>goo<sup>7</sup>bak<sup>8</sup>\ jit<sup>8</sup>au<sup>7</sup>\ 
-                  <sup><span style="mso-spacerun: yes">&nbsp;</span></sup>bo<sup>5</sup>tng<sup>5</sup>te<sup>2</sup>kha<sup>1</sup>ue<sup>7<o:p>
-                  </o:p>
-                  </sup>&nbsp;</span>&nbsp;<br>    
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">sann<sup>1</sup>lang<sup>5</sup></span><span class="rom-tl">sann-lâng</span>\<sup> 
+                  </sup><span class="rom-tp">kang<sup>7</sup>goo<sup>7</sup>bak<sup>8</sup></span><span class="rom-tl">kāng-gōo-ba̍k</span>\ <span class="rom-tp">jit<sup>8</sup>au<sup>7</sup></span><span class="rom-tl">ji̍t-āu</span>\ 
+                  <sup><span style="mso-spacerun: yes">&nbsp;</span></sup><span class="rom-tp">bo<sup>5</sup>tng<sup>5</sup>te<sup>2</sup>kha<sup>1</sup>ue<sup>7</sup></span><span class="rom-tl">bô-tn̂g-té-kha-uē</span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>       
               </tr>
               <tr>
@@ -421,7 +424,7 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">chua<sup>7</sup>boo<sup>2</sup>cing<sup>5</sup>\ senn<sup>1</sup>kiann<sup>2</sup>au<sup>7</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">chua<sup>7</sup>boo<sup>2</sup>cing<sup>5</sup></span><span class="rom-tl">tshuā-bóo-tsîng</span>\ <span class="rom-tp">senn<sup>1</sup>kiann<sup>2</sup>au<sup>7</sup></span><span class="rom-tl">senn-kiánn-āu</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -435,8 +438,8 @@ AR-SA">chua<sup>7</sup>boo<sup>2</sup>cing<sup>5</sup>\ senn<sup>1</sup>kiann<su
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">beh<sup>4</sup>ke<sup>3</sup>siann<sup>5</sup>chi<sup>7</sup>\ khit<sup>4</sup>ciah<sup>8</sup>\ 
-                  m<sup>7</sup>ke<sup>3</sup>chau<sup>2</sup>te<sup>7</sup>\ ho<sup>2</sup>giah<sup>8</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">beh<sup>4</sup>ke<sup>3</sup>siann<sup>5</sup>chi<sup>7</sup></span><span class="rom-tl">beh-kè-siânn-tshī</span>\ <span class="rom-tp">khit<sup>4</sup>ciah<sup>8</sup></span><span class="rom-tl">khit-tsia̍h</span>\ 
+                  <span class="rom-tp">m<sup>7</sup>ke<sup>3</sup>chau<sup>2</sup>te<sup>7</sup></span><span class="rom-tl">m̄-kè-tsháu-tē</span>\ <span class="rom-tp">ho<sup>2</sup>giah<sup>8</sup></span><span class="rom-tl">hó-gia̍h</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>       
               </tr>
               <tr>
@@ -449,9 +452,9 @@ AR-SA">beh<sup>4</sup>ke<sup>3</sup>siann<sup>5</sup>chi<sup>7</sup>\ khit<sup>4
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">註定，毋是媒人</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">跤</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">爻行</span></span></b><br>   
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">in<sup>1</sup>ian<sup>5</sup>\<sup> 
-                  </sup>thinn<sup>1</sup>\ cu<sup>3</sup>tiann<sup>7</sup>\ m<sup>7</sup>si<sup>7</sup>mui<sup>5</sup>lang<sup>5</sup>\<sup> 
-                  </sup>kha<sup>1</sup>\ gau<sup>5</sup>kiann<sup>5</sup>&nbsp;</span>&nbsp;<br>    
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">in<sup>1</sup>ian<sup>5</sup></span><span class="rom-tl">in-iân</span>\<sup> 
+                  </sup><span class="rom-tp">thinn<sup>1</sup></span><span class="rom-tl">thinn</span>\ <span class="rom-tp">cu<sup>3</sup>tiann<sup>7</sup></span><span class="rom-tl">tsù-tiānn</span>\ <span class="rom-tp">m<sup>7</sup>si<sup>7</sup>mui<sup>5</sup>lang<sup>5</sup></span><span class="rom-tl">m̄-sī-muî-lâng</span>\<sup> 
+                  </sup><span class="rom-tp">kha<sup>1</sup></span><span class="rom-tl">kha</span>\ <span class="rom-tp">gau<sup>5</sup>kiann<sup>5</sup></span><span class="rom-tl">gâu-kiânn</span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>       
               </tr>
               <tr>
@@ -468,9 +471,9 @@ mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-fo
 mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;  
  ">綴人走</span>&nbsp;</span></b><br>   
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">ang<sup>5</sup>ting<sup>2</sup>si<sup>3</sup>kio<sup>7</sup>\<sup> 
-                  </sup>kng<sup>1</sup>m<sup>7</sup>kiann<sup>5</sup> ti<sup>3</sup>phe<sup>3</sup>a<sup>2</sup>kin<sup>1</sup>\<sup> 
-                  </sup>tue<sup>3</sup>lang<sup>5</sup>cau<sup>2</sup>&nbsp;</span>&nbsp;<br>    
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">ang<sup>5</sup>ting<sup>2</sup>si<sup>3</sup>kio<sup>7</sup></span><span class="rom-tl">âng-tíng-sì-kiō</span>\<sup> 
+                  </sup><span class="rom-tp">kng<sup>1</sup>m<sup>7</sup>kiann<sup>5</sup> ti<sup>3</sup>phe<sup>3</sup>a<sup>2</sup>kin<sup>1</sup></span><span class="rom-tl">kng-m̄-kiânn tì-phè-á-kin</span>\<sup> 
+                  </sup><span class="rom-tp">tue<sup>3</sup>lang<sup>5</sup>cau<sup>2</sup></span><span class="rom-tl">tuè-lâng-tsáu</span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>       
               </tr>
               <tr>
@@ -488,8 +491,8 @@ Arial">查某囝，允兩</span><span style="font-size:12.0pt;mso-bidi-font-size
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">cit<sup>8</sup>e<sup>5</sup>ca<sup>1</sup>boo<sup>2</sup>kiann<sup>2</sup>\<sup> 
-                  </sup>in<sup>2</sup>nng<sup>7</sup>e<sup>5</sup>kiann<sup>2</sup>sai<sup>3</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">cit<sup>8</sup>e<sup>5</sup>ca<sup>1</sup>boo<sup>2</sup>kiann<sup>2</sup></span><span class="rom-tl">tsi̍t-ê-tsa-bóo-kiánn</span>\<sup> 
+                  </sup><span class="rom-tp">in<sup>2</sup>nng<sup>7</sup>e<sup>5</sup>kiann<sup>2</sup>sai<sup>3</sup></span><span class="rom-tl">ín-nn̄g-ê-kiánn-sài</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;&nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -504,7 +507,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-si
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">ciunn<sup>7</sup>kio<sup>7</sup>\<sup> </sup>cap<sup>8</sup>peh<sup>4</sup>pian<sup>3</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">ciunn<sup>7</sup>kio<sup>7</sup></span><span class="rom-tl">tsiūnn-kiō</span>\<sup> </sup><span class="rom-tp">cap<sup>8</sup>peh<sup>4</sup>pian<sup>3</sup></span><span class="rom-tl">tsa̍p-peh-piàn</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
   
  ">比喻嫁後脾氣改好</span></td>    
@@ -518,7 +521,7 @@ AR-SA">ciunn<sup>7</sup>kio<sup>7</sup>\<sup> </sup>cap<sup>8</sup>peh<sup>4</su
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">beh<sup>4</sup>ciunn<sup>7</sup>kio<sup>7</sup>\ ciah<sup>4</sup>pak<sup>8</sup>kha<sup>1</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">beh<sup>4</sup>ciunn<sup>7</sup>kio<sup>7</sup></span><span class="rom-tl">beh-tsiūnn-kiō</span>\ <span class="rom-tp">ciah<sup>4</sup>pak<sup>8</sup>kha<sup>1</sup></span><span class="rom-tl">tsiah-pa̍k-kha</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;</td>       
               </tr>
               <tr>
@@ -538,7 +541,7 @@ mso-bidi-language:AR-SA">壁</span>&nbsp;</span></b><br>
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">iong<sup>7</sup>i<sup>1</sup>e<sup>5</sup>thoo<sup>5</sup>\ koo<sup>5</sup>i<sup>1</sup>e<sup>5</sup>piah<sup>4</sup></span>&nbsp;</span>&nbsp;<br>    
+AR-SA"><span class="rom-tp">iong<sup>7</sup>i<sup>1</sup>e<sup>5</sup>thoo<sup>5</sup></span><span class="rom-tl">iōng-i-ê-thôo</span>\ <span class="rom-tp">koo<sup>5</sup>i<sup>1</sup>e<sup>5</sup>piah<sup>4</sup></span><span class="rom-tl">kôo-i-ê-piah</span></span>&nbsp;</span>&nbsp;<br>    
                   <img src="03.gif" width="14" height="14" align="absmiddle">  &nbsp;<span style="font-family:全真中明體;mso-ascii-font-family:&quot;Times New Roman&quot;">比喻男方送多少聘金就用多少聘金去購買嫁妝沒再額外多買。</span></td>      
               </tr>
               <tr>
@@ -558,9 +561,9 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">chua<sup>7</sup>tioh<sup>8</sup>ho<sup>2</sup>boo<sup>2</sup>\ khah<sup>4</sup>ho<sup>2</sup>co<sup>3</sup>coo<sup>2</sup>\ 
-                  chua<sup>7</sup>tioh<sup>8</sup>phainn<sup>2</sup>boo<sup>2</sup> 
-                  cit<sup>8</sup>si<sup>3</sup>lang<sup>5</sup>\ kan<sup>1</sup>khoo<sup>2</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">chua<sup>7</sup>tioh<sup>8</sup>ho<sup>2</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-tio̍h-hó-bóo</span>\ <span class="rom-tp">khah<sup>4</sup>ho<sup>2</sup>co<sup>3</sup>coo<sup>2</sup></span><span class="rom-tl">khah-hó-tsò-tsóo</span>\ 
+                  <span class="rom-tp">chua<sup>7</sup>tioh<sup>8</sup>phainn<sup>2</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-tio̍h-pháinn-bóo</span> 
+                  <span class="rom-tp">cit<sup>8</sup>si<sup>3</sup>lang<sup>5</sup></span><span class="rom-tl">tsi̍t-sì-lâng</span>\ <span class="rom-tp">kan<sup>1</sup>khoo<sup>2</sup></span><span class="rom-tl">kan-khóo</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -574,7 +577,7 @@ AR-SA">chua<sup>7</sup>tioh<sup>8</sup>ho<sup>2</sup>boo<sup>2</sup>\ khah<sup>4
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">khuann<sup>3</sup>chan<sup>5</sup>bin<sup>7</sup>\ m<sup>7</sup>thang<sup>1</sup>khuann<sup>3</sup>lang<sup>5</sup>bin<sup>7</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">khuann<sup>3</sup>chan<sup>5</sup>bin<sup>7</sup></span><span class="rom-tl">khuànn-tshân-bīn</span>\ <span class="rom-tp">m<sup>7</sup>thang<sup>1</sup>khuann<sup>3</sup>lang<sup>5</sup>bin<sup>7</sup></span><span class="rom-tl">m̄-thang-khuànn-lâng-bīn</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -588,9 +591,9 @@ AR-SA">khuann<sup>3</sup>chan<sup>5</sup>bin<sup>7</sup>\ m<sup>7</sup>thang<sup
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">chua<sup>7</sup>piau<sup>2</sup>\<sup> </sup>co<sup>3</sup>boo<sup>2</sup>\ 
-                  m<sup>7</sup>thang<sup>1</sup>chua<sup>2</sup>boo<sup>2</sup>\<sup> 
-                  </sup>co<sup>3</sup>piau<sup>2</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">chua<sup>7</sup>piau<sup>2</sup></span><span class="rom-tl">tshuā-piáu</span>\<sup> </sup><span class="rom-tp">co<sup>3</sup>boo<sup>2</sup></span><span class="rom-tl">tsò-bóo</span>\ 
+                  <span class="rom-tp">m<sup>7</sup>thang<sup>1</sup>chua<sup>2</sup>boo<sup>2</sup></span><span class="rom-tl">m̄-thang-tshuá-bóo</span>\<sup> 
+                  </sup><span class="rom-tp">co<sup>3</sup>piau<sup>2</sup></span><span class="rom-tl">tsò-piáu</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -610,8 +613,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">ke<sup>3</sup>san<sup>3</sup>ang<sup>1</sup>\<sup> </sup>khun<sup>3</sup>pa<sup>2</sup>bin<sup>5</sup>\ 
-                  ke<sup>3</sup>pu<sup>3</sup>ang<sup>1</sup>\<sup> </sup>be<sup>7</sup>ching<sup>1</sup>sin<sup>5</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">ke<sup>3</sup>san<sup>3</sup>ang<sup>1</sup></span><span class="rom-tl">kè-sàn-ang</span>\<sup> </sup><span class="rom-tp">khun<sup>3</sup>pa<sup>2</sup>bin<sup>5</sup></span><span class="rom-tl">khùn-pá-bîn</span>\ 
+                  <span class="rom-tp">ke<sup>3</sup>pu<sup>3</sup>ang<sup>1</sup></span><span class="rom-tl">kè-pù-ang</span>\<sup> </sup><span class="rom-tp">be<sup>7</sup>ching<sup>1</sup>sin<sup>5</sup></span><span class="rom-tl">bē-tshing-sîn</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -622,10 +625,8 @@ AR-SA">ke<sup>3</sup>san<sup>3</sup>ang<sup>1</sup>\<sup> </sup>khun<sup>3</sup>
                   &nbsp;<b><span style="  "><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
   
  ">做一擺媒儂，卡好食三年清菜</span>&nbsp;</span></b><br>     
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">co<sup>3</sup>cit<sup>8</sup>pai<sup>2</sup>mui<sup>5</sup>lang<sup>5</sup>\<sup> 
-                  </sup>khah<sup>4</sup>ho<sup>2</sup>ciah<sup>8</sup>sann<sup>1</sup>ni<sup>5</sup>ching<sup>1</sup>chai<sup>3<o:p>
-                  </o:p>
-                  </sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">co<sup>3</sup>cit<sup>8</sup>pai<sup>2</sup>mui<sup>5</sup>lang<sup>5</sup></span><span class="rom-tl">tsò-tsi̍t-pái-muî-lâng</span>\<sup> 
+                  </sup><span class="rom-tp">khah<sup>4</sup>ho<sup>2</sup>ciah<sup>8</sup>sann<sup>1</sup>ni<sup>5</sup>ching<sup>1</sup>chai<sup>3</sup></span><span class="rom-tl">khah-hó-tsia̍h-sann-nî-tshing-tshài</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -639,7 +640,7 @@ AR-SA">ke<sup>3</sup>san<sup>3</sup>ang<sup>1</sup>\<sup> </sup>khun<sup>3</sup>
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">ke<sup>3</sup>ca<sup>1</sup>boo<sup>2</sup>kiann<sup>2</sup>\<sup> </sup>khah<sup>4</sup>cham<sup>2</sup>tioh<sup>8</sup>chat<sup>8</sup>thau<sup>1</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">ke<sup>3</sup>ca<sup>1</sup>boo<sup>2</sup>kiann<sup>2</sup></span><span class="rom-tl">kè-tsa-bóo-kiánn</span>\<sup> </sup><span class="rom-tp">khah<sup>4</sup>cham<sup>2</sup>tioh<sup>8</sup>chat<sup>8</sup>thau<sup>1</sup></span><span class="rom-tl">khah-tshám-tio̍h-tsha̍t-thau</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -653,7 +654,7 @@ AR-SA">ke<sup>3</sup>ca<sup>1</sup>boo<sup>2</sup>kiann<sup>2</sup>\<sup> </sup>
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">bue<sup>7</sup>chua<sup>2</sup>boo<sup>2</sup>\<sup> </sup>sing<sup>1</sup>chua<sup>7</sup>se<sup>3</sup>i<sup>5</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">bue<sup>7</sup>chua<sup>2</sup>boo<sup>2</sup></span><span class="rom-tl">buē-tshuá-bóo</span>\<sup> </sup><span class="rom-tp">sing<sup>1</sup>chua<sup>7</sup>se<sup>3</sup>i<sup>5</sup></span><span class="rom-tl">sing-tshuā-sè-î</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -679,8 +680,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">chua<sup>7</sup>boo<sup>2</sup>\<sup> </sup>cheh<sup>4</sup>\ m<sup>7</sup>thak<sup>8</sup>\ 
-                  ke<sup>3</sup>ang<sup>1</sup>\<sup> </sup>kha<sup>1</sup>\ m<sup>7</sup>pak<sup>8</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">chua<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-bóo</span>\<sup> </sup><span class="rom-tp">cheh<sup>4</sup></span><span class="rom-tl">tsheh</span>\ <span class="rom-tp">m<sup>7</sup>thak<sup>8</sup></span><span class="rom-tl">m̄-tha̍k</span>\ 
+                  <span class="rom-tp">ke<sup>3</sup>ang<sup>1</sup></span><span class="rom-tl">kè-ang</span>\<sup> </sup><span class="rom-tp">kha<sup>1</sup></span><span class="rom-tl">kha</span>\ <span class="rom-tp">m<sup>7</sup>pak<sup>8</sup></span><span class="rom-tl">m̄-pa̍k</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -695,7 +696,7 @@ AR-SA">chua<sup>7</sup>boo<sup>2</sup>\<sup> </sup>cheh<sup>4</sup>\ m<sup>7</su
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">beh<sup>4</sup>ke<sup>3</sup>\ ciah<sup>4</sup>pak<sup>8</sup>kha<sup>1</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">beh<sup>4</sup>ke<sup>3</sup></span><span class="rom-tl">beh-kè</span>\ <span class="rom-tp">ciah<sup>4</sup>pak<sup>8</sup>kha<sup>1</sup></span><span class="rom-tl">tsiah-pa̍k-kha</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -707,7 +708,7 @@ AR-SA">beh<sup>4</sup>ke<sup>3</sup>\ ciah<sup>4</sup>pak<sup>8</sup>kha<sup>1</
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">sai<sup>2</sup>kin<sup>2</sup>\<sup> </sup>ciah<sup>4</sup>beh<sup>4</sup>khui<sup>1</sup>hak<sup>8</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">sai<sup>2</sup>kin<sup>2</sup></span><span class="rom-tl">sái-kín</span>\<sup> </sup><span class="rom-tp">ciah<sup>4</sup>beh<sup>4</sup>khui<sup>1</sup>hak<sup>8</sup></span><span class="rom-tl">tsiah-beh-khui-ha̍k</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -721,8 +722,8 @@ AR-SA">sai<sup>2</sup>kin<sup>2</sup>\<sup> </sup>ciah<sup>4</sup>beh<sup>4</sup
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">po<sup>2</sup>nia<sup>2</sup>li<sup>2</sup>jip<sup>8</sup>pang<sup>5</sup>\ 
-                  bo<sup>5</sup>po<sup>2</sup>nia<sup>2</sup>li<sup>2</sup>cit<sup>8</sup>si<sup>3</sup>lang<sup>5</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">po<sup>2</sup>nia<sup>2</sup>li<sup>2</sup>jip<sup>8</sup>pang<sup>5</sup></span><span class="rom-tl">pó-niá-lí-ji̍p-pâng</span>\ 
+                  <span class="rom-tp">bo<sup>5</sup>po<sup>2</sup>nia<sup>2</sup>li<sup>2</sup>cit<sup>8</sup>si<sup>3</sup>lang<sup>5</sup></span><span class="rom-tl">bô-pó-niá-lí-tsi̍t-sì-lâng</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -734,8 +735,8 @@ AR-SA">po<sup>2</sup>nia<sup>2</sup>li<sup>2</sup>jip<sup>8</sup>pang<sup>5</sup
   
  ">做媒儂</span><span style=" 
 mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt; ">兼出聘金</span>&nbsp;</span></b><br>    
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">co<sup>3</sup>mui<sup>5</sup>lang<sup>5</sup>\<sup> 
-                  </sup>kiam<sup>1</sup>chut<sup>4</sup>phing<sup>3</sup>kim<sup>1</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">co<sup>3</sup>mui<sup>5</sup>lang<sup>5</sup></span><span class="rom-tl">tsò-muî-lâng</span>\<sup> 
+                  </sup><span class="rom-tp">kiam<sup>1</sup>chut<sup>4</sup>phing<sup>3</sup>kim<sup>1</sup></span><span class="rom-tl">kiam-tshut-phìng-kim</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -749,7 +750,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-si
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">mui<sup>5</sup>lang<sup>5</sup>chui<sup>3</sup>\<sup> </sup>hoo<sup>5</sup>lui<sup>3</sup>x</span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">mui<sup>5</sup>lang<sup>5</sup>chui<sup>3</sup></span><span class="rom-tl">muî-lâng-tshuì</span>\<sup> </sup><span class="rom-tp">hoo<sup>5</sup>lui<sup>3</sup></span><span class="rom-tl">hôo-luì</span>x</span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -770,8 +771,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <span lang="EN-US"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">chua<sup>7</sup>boo<sup>2</sup>\ sai<sup>1</sup>a<sup>2</sup>\ chi<sup>7</sup>boo<sup>2</sup>\ 
-                  sai<sup>1</sup>hu<sup>7</sup></span>&nbsp;&nbsp;</span><br>      
+AR-SA"><span class="rom-tp">chua<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-bóo</span>\ <span class="rom-tp">sai<sup>1</sup>a<sup>2</sup></span><span class="rom-tl">sai-á</span>\ <span class="rom-tp">chi<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">tshī-bóo</span>\ 
+                  <span class="rom-tp">sai<sup>1</sup>hu<sup>7</sup></span><span class="rom-tl">sai-hū</span></span>&nbsp;&nbsp;</span><br>      
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;</td>   
               </tr>
               <tr>
@@ -788,9 +789,9 @@ mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-fo
 mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;  
  ">一世儂</span>&nbsp;</span></b><br>     
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">coh<sup>4</sup>tioh<sup>8</sup>phainn<sup>2</sup>chan<sup>5</sup>\<sup> 
-                  </sup>bang<sup>7</sup>au<sup>7</sup>tang<sup>1</sup>\ chua<sup>7</sup>tioh<sup>8</sup>phainn<sup>2</sup>boo<sup>2</sup>\<sup> 
-                  </sup>cit<sup>8</sup>si<sup>3</sup>lang<sup>5</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">coh<sup>4</sup>tioh<sup>8</sup>phainn<sup>2</sup>chan<sup>5</sup></span><span class="rom-tl">tsoh-tio̍h-pháinn-tshân</span>\<sup> 
+                  </sup><span class="rom-tp">bang<sup>7</sup>au<sup>7</sup>tang<sup>1</sup></span><span class="rom-tl">bāng-āu-tang</span>\ <span class="rom-tp">chua<sup>7</sup>tioh<sup>8</sup>phainn<sup>2</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-tio̍h-pháinn-bóo</span>\<sup> 
+                  </sup><span class="rom-tp">cit<sup>8</sup>si<sup>3</sup>lang<sup>5</sup></span><span class="rom-tl">tsi̍t-sì-lâng</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -803,13 +804,13 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">大囝孫，一代</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">娶矮某，三代</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">出矮鼓</span>&nbsp;</span></b><br>     
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> <span lang="EN-US">cit<sup>8</sup>tai<sup>7</sup>\<sup> 
-                  </sup>tua<sup>7</sup>sin<sup>1</sup>pu<sup>7</sup>\ sann<sup>1</sup>tai<sup>7</sup>\<sup> 
-                  </sup>tua<sup>7</sup>kiann<sup>2</sup>sun<sup>1</sup>\ cit<sup>8</sup>tai<sup>7</sup>\<sup> 
-                  </sup>chua<sup>7</sup>e<sup>2</sup>boo<sup>2</sup>\ sann<sup>1</sup></span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> <span lang="EN-US"><span class="rom-tp">cit<sup>8</sup>tai<sup>7</sup></span><span class="rom-tl">tsi̍t-tāi</span>\<sup> 
+                  </sup><span class="rom-tp">tua<sup>7</sup>sin<sup>1</sup>pu<sup>7</sup></span><span class="rom-tl">tuā-sin-pū</span>\ <span class="rom-tp">sann<sup>1</sup>tai<sup>7</sup></span><span class="rom-tl">sann-tāi</span>\<sup> 
+                  </sup><span class="rom-tp">tua<sup>7</sup>kiann<sup>2</sup>sun<sup>1</sup></span><span class="rom-tl">tuā-kiánn-sun</span>\ <span class="rom-tp">cit<sup>8</sup>tai<sup>7</sup></span><span class="rom-tl">tsi̍t-tāi</span>\<sup> 
+                  </sup><span class="rom-tp">chua<sup>7</sup>e<sup>2</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-é-bóo</span>\ <span class="rom-tp">sann<sup>1</sup></span><span class="rom-tl">sann</span></span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
 &quot;Times New Roman&quot;; 
-mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA">tai<sup>7</sup>\<sup> 
-                  </sup>chut<sup>4</sup>e<sup>2</sup>koo<sup>2</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>      
+mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"><span class="rom-tp">tai<sup>7</sup></span><span class="rom-tl">-tāi</span>\<sup> 
+                  </sup><span class="rom-tp">chut<sup>4</sup>e<sup>2</sup>koo<sup>2</sup></span><span class="rom-tl">tshut-é-kóo</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>      
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -823,7 +824,7 @@ mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA">tai<
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">king<sup>2</sup>au<sup>7</sup>tu<sup>3</sup>\ m<sup>7</sup>thang<sup>1</sup>king<sup>2</sup>tua<sup>7</sup>pu<sup>3</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">king<sup>2</sup>au<sup>7</sup>tu<sup>3</sup></span><span class="rom-tl">kíng-āu-tù</span>\ <span class="rom-tp">m<sup>7</sup>thang<sup>1</sup>king<sup>2</sup>tua<sup>7</sup>pu<sup>3</sup></span><span class="rom-tl">m̄-thang-kíng-tuā-pù</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -837,8 +838,8 @@ AR-SA">king<sup>2</sup>au<sup>7</sup>tu<sup>3</sup>\ m<sup>7</sup>thang<sup>1</s
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">kin<sup>2</sup>phang<sup>2</sup>\<sup> </sup>bo<sup>5</sup>ho<sup>2</sup>se<sup>1</sup>\ 
-                  kin<sup>2</sup>ke<sup>3</sup>\<sup> </sup>bo<sup>5</sup>ho<sup>2</sup>ta<sup>1</sup>ke<sup>1</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">kin<sup>2</sup>phang<sup>2</sup></span><span class="rom-tl">kín-pháng</span>\<sup> </sup><span class="rom-tp">bo<sup>5</sup>ho<sup>2</sup>se<sup>1</sup></span><span class="rom-tl">bô-hó-se</span>\ 
+                  <span class="rom-tp">kin<sup>2</sup>ke<sup>3</sup></span><span class="rom-tl">kín-kè</span>\<sup> </sup><span class="rom-tp">bo<sup>5</sup>ho<sup>2</sup>ta<sup>1</sup>ke<sup>1</sup></span><span class="rom-tl">bô-hó-ta-ke</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -849,11 +850,11 @@ AR-SA">kin<sup>2</sup>phang<sup>2</sup>\<sup> </sup>bo<sup>5</sup>ho<sup>2</sup>
                   &nbsp;<b><span style="  "><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
   
  ">嫷某</span><span style=" 
-mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> <span lang="EN-US">oh<sup>4</sup></span></span><span style="font-size:12.0pt; ">照顧</span>&nbsp;</span></b><br>     
+mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> <span lang="EN-US"><span class="rom-tp">oh<sup>4</sup></span><span class="rom-tl">oh</span></span></span><span style="font-size:12.0pt; ">照顧</span>&nbsp;</span></b><br>     
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">sui<sup>2</sup>boo<sup>2</sup>\<sup> </sup>oh<sup>4</sup>ciau<sup>3</sup>koo<sup>3</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">sui<sup>2</sup>boo<sup>2</sup></span><span class="rom-tl">suí-bóo</span>\<sup> </sup><span class="rom-tp">oh<sup>4</sup>ciau<sup>3</sup>koo<sup>3</sup></span><span class="rom-tl">oh-tsiàu-kòo</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -868,7 +869,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-si
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">ai<sup>3</sup>boo<sup>2</sup>\ ui<sup>7</sup>boo<sup>2</sup>\ khoo<sup>2</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">ai<sup>3</sup>boo<sup>2</sup></span><span class="rom-tl">ài-bóo</span>\ <span class="rom-tp">ui<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">uī-bóo</span>\ <span class="rom-tp">khoo<sup>2</sup></span><span class="rom-tl">khóo</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -888,8 +889,8 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">ai<sup>3</sup>boo<sup>2</sup>\<sup> </sup>sui<sup>2</sup>\<sup> </sup>ui<sup>7</sup>boo<sup>2</sup>\<sup> 
-                  </sup>phang<sup>5</sup>bin<sup>7</sup>thang<sup>2</sup>cui<sup>2</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">ai<sup>3</sup>boo<sup>2</sup></span><span class="rom-tl">ài-bóo</span>\<sup> </sup><span class="rom-tp">sui<sup>2</sup></span><span class="rom-tl">suí</span>\<sup> </sup><span class="rom-tp">ui<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">uī-bóo</span>\<sup> 
+                  </sup><span class="rom-tp">phang<sup>5</sup>bin<sup>7</sup>thang<sup>2</sup>cui<sup>2</sup></span><span class="rom-tl">phâng-bīn-tháng-tsuí</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -913,12 +914,12 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
 10.0pt;  
  ">敢跪、七纏、八綿、九強、十</span><span style=" 
 mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt; ">敢死</span>&nbsp;</span></b><br>     
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">it<sup>4</sup>cinn<sup>5</sup> 
-                  ji<sup>7</sup>ian<sup>5</sup> sann<sup>1</sup>\ sui<sup>2</sup> 
-                  si<sup>3</sup>\ siau<sup>3</sup>lian<sup>5</sup> goo<sup>7</sup>\ 
-                  ho<sup>2</sup>chui<sup>3</sup> lak<sup>8</sup>\ kann<sup>2</sup>kui<sup>7 
-                  </sup>chit<sup>4</sup>tinn<sup>5</sup>\<sup> </sup>peh<sup>4</sup>mi<sup>5</sup>\ 
-                  kau<sup>2</sup>kiong<sup>5</sup>\ cap<sup>8</sup>\ kann<sup>2</sup>si<sup>2</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">it<sup>4</sup>cinn<sup>5</sup></span><span class="rom-tl">it-tsînn</span> 
+                  <span class="rom-tp">ji<sup>7</sup>ian<sup>5</sup> sann<sup>1</sup></span><span class="rom-tl">jī-iân sann</span>\ <span class="rom-tp">sui<sup>2</sup></span><span class="rom-tl">suí</span> 
+                  <span class="rom-tp">si<sup>3</sup></span><span class="rom-tl">sì</span>\ <span class="rom-tp">siau<sup>3</sup>lian<sup>5</sup> goo<sup>7</sup></span><span class="rom-tl">siàu-liân gōo</span>\ 
+                  <span class="rom-tp">ho<sup>2</sup>chui<sup>3</sup> lak<sup>8</sup></span><span class="rom-tl">hó-tshuì la̍k</span>\ <span class="rom-tp">kann<sup>2</sup>kui<sup>7</sup></span><span class="rom-tl">kánn-kuī</span> 
+                  <span class="rom-tp">chit<sup>4</sup>tinn<sup>5</sup></span><span class="rom-tl">tshit-tînn</span>\<sup> </sup><span class="rom-tp">peh<sup>4</sup>mi<sup>5</sup></span><span class="rom-tl">peh-mî</span>\ 
+                  <span class="rom-tp">kau<sup>2</sup>kiong<sup>5</sup></span><span class="rom-tl">káu-kiông</span>\ <span class="rom-tp">cap<sup>8</sup></span><span class="rom-tl">tsa̍p</span>\ <span class="rom-tp">kann<sup>2</sup>si<sup>2</sup></span><span class="rom-tl">kánn-sí</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -931,7 +932,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-si
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">koo<sup>2</sup>i<sup>3</sup>\<sup> </sup>chua<sup>7</sup>bo<sup>5</sup>boo<sup>2</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">koo<sup>2</sup>i<sup>3</sup></span><span class="rom-tl">kóo-ì</span>\<sup> </sup><span class="rom-tp">chua<sup>7</sup>bo<sup>5</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-bô-bóo</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -944,8 +945,8 @@ AR-SA">koo<sup>2</sup>i<sup>3</sup>\<sup> </sup>chua<sup>7</sup>bo<sup>5</sup>bo
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">kam<sup>1</sup>guan<sup>7</sup>ke<sup>3</sup>lang<sup>5</sup>tann<sup>1</sup>chai<sup>3</sup>\<sup> 
-                  </sup>be<sup>7</sup>chang<sup>1</sup>\ m<sup>7</sup>guan<sup>7</sup>kah<sup>4</sup>lang<sup>5</sup>kong<sup>1</sup>ke<sup>1</sup>ang<sup>1</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+AR-SA"><span class="rom-tp">kam<sup>1</sup>guan<sup>7</sup>ke<sup>3</sup>lang<sup>5</sup>tann<sup>1</sup>chai<sup>3</sup></span><span class="rom-tl">kam-guān-kè-lâng-tann-tshài</span>\<sup> 
+                  </sup><span class="rom-tp">be<sup>7</sup>chang<sup>1</sup></span><span class="rom-tl">bē-tshang</span>\ <span class="rom-tp">m<sup>7</sup>guan<sup>7</sup>kah<sup>4</sup>lang<sup>5</sup>kong<sup>1</sup>ke<sup>1</sup>ang<sup>1</sup></span><span class="rom-tl">m̄-guān-kah-lâng-kong-ke-ang</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -956,9 +957,9 @@ AR-SA">kam<sup>1</sup>guan<sup>7</sup>ke<sup>3</sup>lang<sup>5</sup>tann<sup>1</
                   &nbsp;<b><span style="  "><span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">嫁人擔蔥</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">賣菜，毋嫁雙人</span> 
                   <span style="font-family:全真中仿宋;mso-ascii-font-family:Arial">一婿</span>&nbsp;</span></b><br>    
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">ke<sup>3</sup>lang<sup>5</sup>tann<sup>1</sup>chang<sup>1</sup>\ 
-                  be<sup>7</sup>chai<sup>3</sup>\ m<sup>7</sup>ke<sup>3</sup>siang<sup>1</sup>lang<sup>5</sup>\<sup> 
-                  </sup>cit<sup>8</sup>sai<sup>3</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">ke<sup>3</sup>lang<sup>5</sup>tann<sup>1</sup>chang<sup>1</sup></span><span class="rom-tl">kè-lâng-tann-tshang</span>\ 
+                  <span class="rom-tp">be<sup>7</sup>chai<sup>3</sup></span><span class="rom-tl">bē-tshài</span>\ <span class="rom-tp">m<sup>7</sup>ke<sup>3</sup>siang<sup>1</sup>lang<sup>5</sup></span><span class="rom-tl">m̄-kè-siang-lâng</span>\<sup> 
+                  </sup><span class="rom-tp">cit<sup>8</sup>sai<sup>3</sup></span><span class="rom-tl">tsi̍t-sài</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -970,8 +971,8 @@ AR-SA">kam<sup>1</sup>guan<sup>7</sup>ke<sup>3</sup>lang<sup>5</sup>tann<sup>1</
   
  ">無時無候</span><span style=" 
 mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt; ">廿九老</span>&nbsp;</span></b><br>    
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">bo<sup>5</sup>si<sup>5</sup>bo<sup>5</sup>hau<sup>7</sup>\<sup> 
-                  </sup>ji<sup>7</sup>kau<sup>2</sup>lau<sup>7</sup></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">bo<sup>5</sup>si<sup>5</sup>bo<sup>5</sup>hau<sup>7</sup></span><span class="rom-tl">bô-sî-bô-hāu</span>\<sup> 
+                  </sup><span class="rom-tp">ji<sup>7</sup>kau<sup>2</sup>lau<sup>7</sup></span><span class="rom-tl">jī-káu-lāu</span></span> <span lang="EN-US">&nbsp;&nbsp;</span><br>       
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -986,7 +987,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-si
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">chua<sup>7</sup>\ tioh<sup>8</sup>ho<sup>2</sup></span><br>      
+AR-SA"><span class="rom-tp">chua<sup>7</sup></span><span class="rom-tl">tshuā</span>\ <span class="rom-tp">tioh<sup>8</sup>ho<sup>2</sup></span><span class="rom-tl">tio̍h-hó</span></span><br>      
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -1001,7 +1002,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"> </span><span style="font-si
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">bo<sup>5</sup>cinn<sup>5</sup>\<sup> </sup>chua<sup>7</sup>lau<sup>7</sup>boo<sup>2</sup></span><br>      
+AR-SA"><span class="rom-tp">bo<sup>5</sup>cinn<sup>5</sup></span><span class="rom-tl">bô-tsînn</span>\<sup> </sup><span class="rom-tp">chua<sup>7</sup>lau<sup>7</sup>boo<sup>2</sup></span><span class="rom-tl">tshuā-lāu-bóo</span></span><br>      
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -1018,9 +1019,9 @@ mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-fo
 mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;  
  ">做媒儂</span></b><br>    
-                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US">cing<sup>5</sup>thiann<sup>1</sup>\ 
-                  co<sup>3</sup>sai<sup>1</sup>kong<sup>1</sup>\ au<sup>7</sup>thiann<sup>1</sup>\ 
-                  co<sup>3</sup>mui<sup>5</sup>lang<sup>5</sup></span><br>      
+                  <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US"><span class="rom-tp">cing<sup>5</sup>thiann<sup>1</sup></span><span class="rom-tl">tsîng-thiann</span>\ 
+                  <span class="rom-tp">co<sup>3</sup>sai<sup>1</sup>kong<sup>1</sup></span><span class="rom-tl">tsò-sai-kong</span>\ <span class="rom-tp">au<sup>7</sup>thiann<sup>1</sup></span><span class="rom-tl">āu-thiann</span>\ 
+                  <span class="rom-tp">co<sup>3</sup>mui<sup>5</sup>lang<sup>5</sup></span><span class="rom-tl">tsò-muî-lâng</span></span><br>      
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
               <tr>
@@ -1033,7 +1034,7 @@ mso-bidi-language:AR-SA"> </span><span style="font-size:12.0pt;mso-bidi-font-siz
                   <img src="02.gif" width="14" height="14" align="absmiddle"> &nbsp;<span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:
 10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-font-kerning:
 1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-TW;mso-bidi-language:
-AR-SA">sang<sup>3</sup>ke<sup>3</sup>\<sup> </sup>khah<sup>4</sup>sui<sup>2</sup>sin<sup>1</sup>niu<sup>5</sup></span><br>      
+AR-SA"><span class="rom-tp">sang<sup>3</sup>ke<sup>3</sup></span><span class="rom-tl">sàng-kè</span>\<sup> </sup><span class="rom-tp">khah<sup>4</sup>sui<sup>2</sup>sin<sup>1</sup>niu<sup>5</sup></span><span class="rom-tl">khah-suí-sin-niû</span></span><br>      
                   <img src="03.gif" width="14" height="14" align="absmiddle"> &nbsp;<span style="font-size: 12.0pt; mso-bidi-font-size: 10.0pt; font-family: 新細明體; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW;  ">&nbsp;</span></td>       
               </tr>
            
