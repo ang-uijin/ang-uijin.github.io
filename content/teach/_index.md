@@ -205,6 +205,10 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
     <li><span class="date">2007</span><a href="/tailo/" target="_blank">臺灣閩南語羅馬拼音及其發音學習網</a> <span class="source">課文、台灣十五音字母表、發音練習、音標測驗（發音錄音大多佚失）</span></li>
     <li><span class="date">2015</span><a href="/teacher/" target="_blank">洪惟仁設計的教學資源</a> <span class="source">音標介紹、教材與教學方法講義、分類諺語 31 篇</span></li>
   </ul>
+  <h4>吟詩</h4>
+  <ul>
+    <li><span class="date">2002</span><a href="/gimsi/" target="_blank">吟詩集錦</a> <span class="source">周植夫、邱燮友、施文炳等六位先生吟誦古典詩的錄音與逐字標音（鹿港三位詩人的錄音尚未找到）</span></li>
+  </ul>
   <h4>民間歌謠</h4>
   <ul>
     <li><span class="date">2024</span><a href="/song/" target="_blank">民間歌謠網站</a> <span class="source">相褒歌的演唱影片與歌詞同頁對照</span></li>
