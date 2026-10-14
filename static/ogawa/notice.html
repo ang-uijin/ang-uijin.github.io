@@ -2,6 +2,7 @@
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>關於這個網站的重現｜語言地理學與歷史文化跨領域工作坊</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <style>
@@ -10,6 +11,7 @@ a{text-decoration:none} a:hover{color:#F90}
 .zz-bar{box-sizing:border-box;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;background:#5a3a1a;color:#f3e6cf;font-size:14px;white-space:nowrap;overflow:hidden;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
 .zz-bar a{color:#ffd9a0;text-decoration:none}.zz-bar a:hover{text-decoration:underline;color:#ffd9a0}
 .zz-bar .t{font-weight:700;letter-spacing:.04em}.zz-bar .s{opacity:.8;font-size:12.5px}.zz-bar .r{margin-left:auto}
+.zz-bar>*{flex-shrink:0}.zz-bar .t{flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:700px){.zz-bar{font-size:13px;gap:10px}.zz-bar .s{display:none}}
 
 .content{height:850px;width:810px;margin-top:60px;margin-left:240px;overflow:auto;font-size:16px;line-height:1.8;color:#333}
@@ -23,15 +25,48 @@ table.hist{border-collapse:collapse;width:100%;font-size:14px;background:rgba(25
 .hist ul{margin:0;padding-left:1.2em}
 
 </style>
+<style>
+/* 自動適配螢幕寬度（2026 年加的；原站固定 1300px） */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+#box{min-width:0!important}
+.zz-paper{position:relative;display:flow-root;width:auto!important;max-width:1400px;height:auto!important;min-height:1000px;margin:0 auto!important;
+  box-sizing:border-box;padding:0 28px 40px;background:#fff!important}
+.zz-paper::before{content:"";position:absolute;z-index:0;left:0;right:0;top:0;max-width:930px;height:250px;margin:0 auto;
+  background:url(images/bg.jpg) calc(50% + 5px) 0 no-repeat;pointer-events:none}
+.zz-paper>*{position:relative;z-index:1}
+.zz-logo{display:block;max-width:100%;height:auto;margin:15px auto 0!important}
+.zz-nav{margin:40px 0 0!important;text-align:center}
+.zz-main{width:auto!important;height:auto!important;margin:60px 0 0!important;overflow:visible!important}
+.zz-main .inner>p{max-width:46em;margin-left:auto;margin-right:auto}
+.zz-foot{margin:42px 0 0!important;text-align:center}
+#abgneBlock{--sw:min(592px,calc(100vw - 56px));margin:0 auto!important;width:var(--sw)!important;height:auto!important;aspect-ratio:592/443}
+#abgneBlock ul.list li{width:var(--sw)!important}
+@media (max-width:760px){
+  .zz-paper{padding:0 14px 32px;min-height:0}
+  .zz-paper::before{display:none}
+  .zz-nav{margin-top:18px!important;font-size:18px!important;line-height:1.7}
+  .zz-main{margin-top:24px!important}
+  .zz-main h2{font-size:22px!important}
+  .zz-foot{margin-top:24px!important;font-size:14px!important}
+  #abgneBlock{--sw:calc(100vw - 28px)}
+}
+@media (max-width:640px){
+  table.hist,.hist tbody,.hist tr,.hist td{display:block;width:auto}
+  .hist tr:first-child{display:none}
+  .hist tr{border:1px solid #bbb;margin:0 0 10px}
+  .hist td{border:0;padding:3px 8px}
+  .hist td.n{display:inline-block;white-space:normal}
+}
+</style>
 </head>
 <body>
 <div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">語言地理學與歷史文化跨領域工作坊</span><span class="s">洪惟仁主持　2008–2017 共十六次　·　網站依網際網路檔案館 2012–2023 年存檔重現</span><a class="r" href="notice.html">說明</a></div>
 <div id="box">
-<div style="background:url(images/bg.jpg);margin:0 auto;width:1300px;height:1201px;">
-<a href="index.html"><img src="images/logo.png" width="829" height="118" border="0" style="margin-left:230px; margin-top:15px;" alt="語言地理學與歷史文化跨領域工作坊"></a>
-<div style="font-size:22px; font-family:'微軟正黑體', '新細明體', '標楷體', 'Arial Black', Arial; color:#06C; font-weight:800; margin-left:290px; margin-top:40px;">
+<div class="zz-paper" style="background:url(images/bg.jpg);margin:0 auto;width:1300px;height:1201px;">
+<a href="index.html"><img src="images/logo.png" width="829" height="118" border="0" class="zz-logo" style="margin-left:230px; margin-top:15px;" alt="語言地理學與歷史文化跨領域工作坊"></a>
+<div class="zz-nav" style="font-size:22px; font-family:'微軟正黑體', '新細明體', '標楷體', 'Arial Black', Arial; color:#06C; font-weight:800; margin-left:290px; margin-top:40px;">
 │ <a href="news.html">最新消息</a> │ <a href="sing.html">工作坊報名專區</a> │ <a href="class.html">議程及論文下載</a> │ <a href="member.html">會員專區</a> │ <a href="links.html">相關連結</a> │ </div>
-<div class="content">
+<div class="content zz-main">
 <h2>│ 關於這個網站的重現 │</h2>
 <div class="inner">
 <p>「語言文化分佈與族群遷徙工作坊」是洪惟仁教授主持的國科會計畫「兩岸閩客交界地帶語言、地理、族群遷徙跨領域調查研究」的工作項目，
@@ -57,7 +92,8 @@ table.hist{border-collapse:collapse;width:100%;font-size:14px;background:rgba(25
 </ul>
 <h3 id="changes">改了什麼</h3>
 <ul>
-<li>每頁上方加一列導覽列（回治言齋、說明）；其餘版面照舊</li>
+<li>每頁上方加一列導覽列（回治言齋、說明）</li>
+<li>原站是固定 1300 像素寬的版面（內文框寫死 810×850，框裡自己捲動），2026 年 10 月改成跟著螢幕寬度調整（最寬 1400 像素），內文框不再限高；文字與內容不變</li>
 <li>首頁的幻燈片原本從 code.jquery.com 載入 jQuery（http，在 https 網站會被瀏覽器擋掉），改成本站自帶 jQuery 1.12.4</li>
 <li>2012 年版首頁的分頁元件（Adobe Spry）與背景圖沒有存到，分頁改用本站的小段程式，背景改成素色</li>
 <li>指到舊網址 www.uijin.idv.tw/ogawa/ 的連結改成站內相對路徑；沒存到的檔案連結改成灰色虛線、指到本頁</li>
@@ -67,7 +103,7 @@ table.hist{border-collapse:collapse;width:100%;font-size:14px;background:rgba(25
 <p>網際網路檔案館 web.archive.org 對 www.uijin.idv.tw/ogawa/ 的存檔，2026 年 9 月取得原始檔（不含檔案館加上的工具列與改寫）。原始備份另存，不在本站。</p>
 </div>
 </div>
-<div style=" font-size:16px; margin-left:370px; margin-top:42px;">語言地理學與歷史文化跨領域工作坊　版權所有©2014 Uijin Ang All Right Reserved.　</div>
+<div class="zz-foot" style=" font-size:16px; margin-left:370px; margin-top:42px;">語言地理學與歷史文化跨領域工作坊　版權所有©2014 Uijin Ang All Right Reserved.　</div>
 </div>
 </div>
 </body>

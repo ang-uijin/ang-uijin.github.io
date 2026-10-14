@@ -2,11 +2,13 @@
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>語言文化分佈與族群遷徙工作坊</title>
 <style>
 .zz-bar{box-sizing:border-box;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;background:#5a3a1a;color:#f3e6cf;font-size:14px;white-space:nowrap;overflow:hidden;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
 .zz-bar a{color:#ffd9a0;text-decoration:none}.zz-bar a:hover{text-decoration:underline;color:#ffd9a0}
 .zz-bar .t{font-weight:700;letter-spacing:.04em}.zz-bar .s{opacity:.8;font-size:12.5px}.zz-bar .r{margin-left:auto}
+.zz-bar>*{flex-shrink:0}.zz-bar .t{flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:700px){.zz-bar{font-size:13px;gap:10px}.zz-bar .s{display:none}}
 
 .TabbedPanels{margin:0 auto;width:890px}
@@ -27,6 +29,25 @@ body{margin:0;background:#f4f1ea}
 	color: #F00;
 }
 -->
+</style>
+<style>
+/* 自動適配螢幕寬度（2026 年加的） */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+#apDiv1{width:auto!important;max-width:1400px;padding:0 20px;box-sizing:border-box}
+.zz-note{width:auto!important;max-width:1360px;box-sizing:border-box}
+.TabbedPanels{width:auto!important}
+.TabbedPanelsTabGroup{flex-wrap:wrap}
+.TabbedPanelsContent div[style*="overflow"]{width:auto!important;height:auto!important;overflow:visible!important}
+.TabbedPanelsContent table[width="860"]{width:100%;max-width:52em;margin:0 auto}
+.TabbedPanelsContent table[width="880"],.TabbedPanelsContent table[width="762"]{width:100%}
+.TabbedPanelsContent img{max-width:100%;height:auto}
+@media (max-width:760px){
+  #apDiv1{padding:0 10px;margin-top:12px!important}
+  .zz-note{margin:10px 10px 0!important}
+  .TabbedPanelsTab{font-size:14px;padding:6px 8px}
+  .TabbedPanelsContent table[width="880"],.TabbedPanelsContent table[width="880"] td{display:block;width:auto}
+  .TabbedPanelsContent table[width="762"]{display:block;overflow-x:auto}
+}
 </style>
 </head>
 
