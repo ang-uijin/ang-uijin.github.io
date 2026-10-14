@@ -2,6 +2,10 @@
 <head>
 <title>Untitled Document</title>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>/* 自動適配螢幕寬度（2026 年加的） */.zz-stage{position:relative;width:-moz-fit-content;width:fit-content;margin-left:auto;margin-right:auto}table.zz-stage{display:table}.zz-read{position:relative;width:-moz-fit-content;width:fit-content;padding-left:44px}@media (max-width:600px){body{margin:8px!important}.zz-stage.zz-book{width:auto}table.zz-book{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));width:auto!important;margin:0!important}table.zz-book>tbody,table.zz-book>tbody>tr{display:contents}table.zz-book>tbody>tr>td{display:block;width:auto!important;height:auto!important}table.zz-book td.zz-tb,table.zz-book td.zz-l,table.zz-book td.zz-r{display:none!important}table.zz-book td.zz-tab{order:-1}table.zz-book td.zz-tab img{display:block;width:100%;height:auto}table.zz-book td.zz-body{grid-column:1/-1;padding-top:10px}video{max-width:100%;height:auto}table.zz-assoc,table.zz-assoc>tbody,table.zz-assoc>tbody>tr,table.zz-assoc>tbody>tr>td{display:block;width:auto!important;height:auto!important;float:none}iframe.zz-voc{height:55vh}body.zz-flow table[width]:not([width$="%"]){width:auto!important}body.zz-flow img{max-width:100%;height:auto}}</style>
+
 <script language="JavaScript">
 <!--
 function MM_openBrWindow(theURL,winName,features) { //v2.0
@@ -18,7 +22,7 @@ a:visited { color: #990033; text-decoration: none}
 </style>
 </head>
 
-<body background="images/bg6.jpg" leftmargin="30" topmargin="30" scroll="AUTO"><div style="margin:0 0 10px;padding:6px 10px;background:#fff3cd;border:1px solid #e0c36a;font-size:13px;line-height:1.6">「教師後台」原本是需要登入的 ASP 後台功能，舊主機已停止服務，這裡只保留頁面外觀。<a href="notice.htm#backend">說明</a></div>
+<body background="images/bg6.jpg" leftmargin="30" topmargin="30" scroll="AUTO" class="zz-flow"><div style="margin:0 0 10px;padding:6px 10px;background:#fff3cd;border:1px solid #e0c36a;font-size:13px;line-height:1.6">「教師後台」原本是需要登入的 ASP 後台功能，舊主機已停止服務，這裡只保留頁面外觀。<a href="notice.htm#backend">說明</a></div>
 <font color="#CC0033"><b><font size="6">教師登錄作業系統</font></b></font> 
 <table width="95%" border="0" cellpadding="5">
   <tr> 
@@ -332,5 +336,42 @@ a:visited { color: #990033; text-decoration: none}
     </td>
   </tr>
 </table>
+<script>
+/* 自動適配螢幕寬度（2026 年加的）：.zz-stage 跟著框寬等比縮放（最多 1.6 倍）；手機上書本改排時改縮 .zz-fit；
+   縮完還比框寬的頁（或根本沒有這兩種的頁），整頁等比縮小 */
+(function () {
+  var ZMAX = 1.6;
+  function avail(el) {
+    var p = el.parentNode, cs = getComputedStyle(p), b = document.body, se = document.scrollingElement || document.documentElement;
+    var w = p.getBoundingClientRect().width - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    if (p === b) w = Math.min(w, se.clientWidth - parseFloat(cs.marginLeft) - parseFloat(cs.marginRight));
+    return w;
+  }
+  function zoomTo(el, max) {
+    el.style.zoom = "";
+    var z = Math.min(max, avail(el) / el.offsetWidth);
+    if (Math.abs(z - 1) > 0.02) el.style.zoom = z.toFixed(3);
+  }
+  function fit() {
+    var b = document.body; if (!b) return;
+    var se = document.scrollingElement || document.documentElement, i;
+    var narrow = window.matchMedia && matchMedia("(max-width:600px)").matches;
+    var st = document.querySelectorAll(".zz-stage"), fits = document.querySelectorAll(".zz-fit");
+    for (i = 0; i < st.length; i++) {
+      if (narrow && st[i].className.indexOf("zz-book") >= 0) st[i].style.zoom = "";
+      else zoomTo(st[i], ZMAX);
+    }
+    for (i = 0; i < fits.length; i++) {
+      if (narrow) zoomTo(fits[i], 1); else fits[i].style.zoom = "";
+    }
+    b.style.zoom = "";                       // 縮放過還是比框寬（例如首頁的拼圖在別的表格裡），整頁再等比縮小
+    for (var k = 0; k < 3 && se.scrollWidth > se.clientWidth + 1; k++)
+      b.style.zoom = ((parseFloat(b.style.zoom) || 1) * se.clientWidth / se.scrollWidth * 0.995).toFixed(3);
+  }
+  function run() { fit(); requestAnimationFrame(fit); }
+  if (document.readyState === "complete") run(); else addEventListener("load", run);
+  addEventListener("resize", run);
+})();
+</script>
 </body> 
 </html> 

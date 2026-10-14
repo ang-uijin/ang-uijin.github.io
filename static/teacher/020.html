@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=1200">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>html[data-rom="tlpa"] .rom-tl,html:not([data-rom="tlpa"]) .rom-tp{display:none}.rom-sw{position:fixed;top:4px;right:6px;z-index:9;font:12px/1.2 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:rgba(255,255,255,.92);border:1px solid #c9b48a;border-radius:12px;padding:3px 6px 3px 9px;color:#5a3a1a;white-space:nowrap}.rom-sw button{font:inherit;background:none;border:0;padding:2px 6px;margin-left:2px;border-radius:8px;color:#8a6a3a;cursor:pointer}.rom-sw button[aria-pressed="true"]{background:#5a3a1a;color:#fff;cursor:default}.rom-sw a{color:#8a6a3a;text-decoration:none;margin-left:4px}</style>
 <script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
 <style>.zz-bar .rom-sw{position:static;margin-left:auto}.zz-bar .rom-sw+.r{margin-left:0}.zz-bar .rom-sw a,.zz-bar .rom-sw a:hover{color:#8a6a3a;text-decoration:none}</style>
@@ -11,12 +11,14 @@
 <title>台灣語文學會</title>
 <style>
 /* 治言齋存檔列（2026 年重建時加的，原站沒有） */
-.zz-bar{box-sizing:border-box;width:1200px;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;
+.zz-bar{box-sizing:border-box;width:auto;max-width:1400px;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;
 background:#5a3a1a;color:#f3e6cf;font-size:14px;white-space:nowrap;overflow:hidden;
 font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;margin:0 auto}
 .zz-bar a{color:#ffd9a0;text-decoration:none}.zz-bar a:hover{text-decoration:underline;color:#ffd9a0}
 .zz-bar .t{font-weight:700;letter-spacing:.04em}.zz-bar .s{opacity:.8;font-size:12.5px}.zz-bar .r{margin-left:auto}
 .zz-doc{font-size:12px;color:#777;text-decoration:none}
+.zz-bar>*{flex-shrink:0}.zz-bar .t{flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:760px){.zz-bar{gap:8px;padding:0 10px}.zz-bar .s{display:none}}
 </style>
 
 <link rel="stylesheet" href="css/style.css" />
@@ -38,6 +40,36 @@ table, th, td {
 </style>
 
 
+<style>
+/* 自動適配螢幕寬度（2026 年加的；原站固定 1200px） */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+#content2{width:auto;max-width:1400px}
+#content2>a>img[src="images/a_01.png"],#abanner img{display:block;width:100%;height:auto}
+#nav{width:auto;height:auto;display:flex;margin:0;padding:0}
+#nav li{flex:1 1 0;width:auto;float:none}#nav li a{width:auto;display:block;float:none}
+#con{width:auto;box-sizing:border-box;padding:0 28px}
+#con .zz-main{width:auto!important;float:none!important}
+#tt{width:auto;background:linear-gradient(#959595,#959595) no-repeat 13px 34px/calc(100% - 26px) 1px,url(images/title0.png) no-repeat 0 0}
+#con .content{float:none;margin:15px 0}
+#con .content table[width="750"],#con .content table[width="780"],#con .content table[width="500"]{width:100%}
+#con .content img{max-width:100%;height:auto}
+#con .content img[width="14"],#con .content img[width="15"],#con .content img[width="16"]{max-width:none}
+#con .content div[style*="font-size:16px"]{max-width:46em;margin-left:auto;margin-right:auto;line-height:1.85!important}
+#con .content h1,#con .content h2{max-width:46em;margin-left:auto;margin-right:auto}
+#tta{width:auto!important;max-width:40em}
+#footer{width:auto}
+@media (max-width:760px){
+  #nav{flex-wrap:wrap}#nav li{flex:1 1 33%}#nav li a{line-height:40px;font-size:15px}
+  #con{padding:0 12px;margin:12px 0}
+  #pos{margin-right:12px}
+  #tit{padding-left:34px}
+  #con .content{margin:10px 0}
+  #con .content td{padding-left:3px;padding-right:3px}
+  #con .content img[style*="margin:30px"]{margin:12px 0!important}
+  #tta{white-space:normal;height:auto}
+  #footer{font-size:14px;height:auto;padding-bottom:12px}
+}
+</style>
 <body>
 <div class="zz-bar"><a href="/">← 回治言齋</a><span class="t">洪惟仁設計的教學資源</span><span class="s">2015–2016 年的教學網站　·　2026 年整理重現</span><div class="rom-sw" title="原站用 TLPA 標音，本站預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音<button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button><a href="notice.html#rom" title="說明">?</a></div><a class="r" href="notice.html">說明</a></div>
 <script>(function(){var d=document.documentElement,b=document.querySelectorAll(".rom-sw button");function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}for(var i=0;i<b.length;i++)b[i].onclick=function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}};show(d.getAttribute("data-rom"))})();</script>
@@ -62,7 +94,7 @@ table, th, td {
 
 <div id="con">
 
-<div style=" width:795px; float:right;">
+<div style=" width:795px; float:right;" class="zz-main">
 
 <div id="tt"> 
 <div id="tit">口 傳 文 學</div>

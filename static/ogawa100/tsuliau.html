@@ -8,10 +8,11 @@
 .zz-bar{box-sizing:border-box;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;background:#5a3a1a;color:#f3e6cf;font-size:14px;white-space:nowrap;overflow:hidden;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
 .zz-bar a{color:#ffd9a0;text-decoration:none}.zz-bar a:hover{text-decoration:underline;color:#ffd9a0}
 .zz-bar .t{font-weight:700;letter-spacing:.04em}.zz-bar .s{opacity:.8;font-size:12.5px}.zz-bar .r{margin-left:auto}
+.zz-bar>*{flex-shrink:0}.zz-bar .t{flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:700px){.zz-bar{font-size:13px;gap:10px}.zz-bar .s{display:none}}
 
 body{margin:0;background:#D1B0A5;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:#3b2a1a}
-.wrap{max-width:920px;margin:18px auto 40px;padding:0 12px}
+.wrap{max-width:1400px;margin:18px auto 40px;padding:0 20px;box-sizing:border-box}
 .head{background:#8c4a3a;color:#fbeee6;padding:18px 24px;border-radius:6px 6px 0 0}
 .head h1{margin:0;font-size:25px;font-family:"標楷體",DFKai-SB,BiauKai,"Noto Serif TC",serif;letter-spacing:.06em}
 .head .sub{margin-top:6px;font-size:15px;opacity:.92}
@@ -23,7 +24,7 @@ body{margin:0;background:#D1B0A5;font-family:"Noto Sans TC","PingFang TC","Micro
 .main{flex:1;padding:20px 28px 26px;font-size:15.5px;line-height:1.9;color:#4a3320;min-width:0}
 .main h2{font-size:21px;color:#663300;font-family:"標楷體",DFKai-SB,BiauKai,"Noto Serif TC",serif;border-bottom:1px solid #cfae9f;padding-bottom:4px;margin:0 0 14px}
 .main h3{font-size:16.5px;color:#663300;margin:18px 0 6px}
-.main p{margin:0 0 10px}
+.main p{margin:0 0 10px;max-width:46em}
 .main a{color:#8c4a3a} .main a:hover{color:#c0392b}
 .style2,.style16,.style21,.style24{font-family:"標楷體",DFKai-SB,BiauKai,"Noto Serif TC",serif;color:#663300}
 .style24{font-size:19px;font-weight:bold} .style21{font-size:18px} .style2{font-size:22px;font-weight:bold}
@@ -31,7 +32,8 @@ table.list{border-collapse:collapse;width:100%;font-size:14px;background:#fff9f5
 .list th,.list td{border:1px solid #cfae9f;padding:5px 8px;text-align:left;vertical-align:top}
 .list th{background:#e9d3c8;white-space:nowrap} .list td.n{white-space:nowrap;text-align:center}
 .dim{color:#9a8378}
-@media (max-width:640px){.cols{flex-direction:column}.nav{flex:none;border-right:0;border-bottom:1px solid #cfae9f;display:flex;flex-wrap:wrap;padding:6px}.nav a,.nav span{padding:6px 10px}}
+@media (max-width:640px){.wrap{padding:0 10px}.cols{flex-direction:column}.nav{flex:none;border-right:0;border-bottom:1px solid #cfae9f;display:flex;flex-wrap:wrap;padding:6px}.nav a,.nav span{padding:6px 10px}
+.main{padding:16px 14px 20px}.list{display:block;overflow-x:auto}}
 </style>
 </head>
 <body>

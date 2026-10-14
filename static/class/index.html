@@ -12,12 +12,21 @@ html,body{margin:0;height:100%;background:#efe7d8;font-family:"Noto Sans TC","Pi
 .bar a{color:#ffd9a0;text-decoration:none}.bar a:hover{text-decoration:underline}
 .bar .t{font-weight:700;letter-spacing:.04em}.bar .s{opacity:.8;font-size:12.5px}
 .bar .r{margin-left:auto}
-.site{position:absolute;top:38px;left:0;right:0;bottom:0;overflow:auto}
-.grid{min-width:900px;height:100%;display:grid;grid-template-columns:140px 1fr 295px;grid-template-rows:64px 71px 1fr 36px}
+.bar>*{flex-shrink:0}.bar .s{flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.site{position:absolute;top:38px;left:0;right:0;bottom:0}
+/* 外框最寬 1400px（同主站）、置中；原本 min-width:900px，手機上整個要左右捲 */
+.grid{max-width:1400px;margin:0 auto;height:100%;display:grid;grid-template-columns:140px minmax(0,1fr) 295px;grid-template-rows:64px 71px minmax(0,1fr) 36px}
 .grid iframe{width:100%;height:100%;border:0;display:block}
 #f-lefttop{grid-column:1;grid-row:1/3}#f-leftmenu{grid-column:1;grid-row:3}#f-leftbottom{grid-column:1;grid-row:4}
 #f-maintop{grid-column:2;grid-row:1}#f-topright{grid-column:3;grid-row:1}#f-main{grid-column:2/4;grid-row:2/5}
 @media (max-width:700px){.bar{font-size:13px;gap:10px}.bar .s{display:none}}
+/* 760px 以下：標誌欄收起來；進階選項＋功能列一排，課程選單變成一條可以左右滑的橫列，主框滿版 */
+@media (max-width:760px){
+  .grid{grid-template-columns:minmax(0,1fr) 295px;grid-template-rows:64px 52px minmax(0,1fr)}
+  #f-lefttop,#f-leftbottom{display:none}
+  #f-maintop{grid-column:1;grid-row:1}#f-topright{grid-column:2;grid-row:1}
+  #f-leftmenu{grid-column:1/3;grid-row:2}#f-main{grid-column:1/3;grid-row:3}
+}
 </style>
 </head>
 <body>
@@ -29,7 +38,7 @@ html,body{margin:0;height:100%;background:#efe7d8;font-family:"Noto Sans TC","Pi
 </div>
 <div class="site"><div class="grid">
   <iframe id="f-lefttop" name="topFrame" src="lefttop.htm" scrolling="no" title="標誌"></iframe>
-  <iframe id="f-leftmenu" name="leftFrame" src="leftmenu1-6.htm" scrolling="no" title="課程選單"></iframe>
+  <iframe id="f-leftmenu" name="leftFrame" src="leftmenu1-6.htm" title="課程選單"></iframe>
   <iframe id="f-leftbottom" name="leftbottom" src="leftbottom.htm" scrolling="no" title=""></iframe>
   <iframe id="f-maintop" name="maintopFrame" src="maintop.htm" scrolling="no" title="進階選項"></iframe>
   <iframe id="f-topright" name="rightFrame" src="topright.htm" scrolling="no" title="功能列"></iframe>
