@@ -787,7 +787,7 @@ body {
 }
 
 /* ===================================
-   教學網站 - 課程標籤頁
+   教材講義（/teach/）- 課程標籤頁
    =================================== */
 .course-container {
   margin-top: 20px;
@@ -1030,7 +1030,32 @@ body {
   }
 }
 
-@media (max-width: 900px) {
+/* 頂端選單有十項（研究／教學／文學網站與教材講義並列），
+   1025–1399px 寬的桌機把間距、字級與 logo 縮小一點，免得選單擠出畫面；
+   1024px 以下改用漢堡選單（下一段，main.js 也用同一個寬度判斷）。 */
+@media (min-width: 1025px) and (max-width: 1399px) {
+  .navbar {
+    padding: 12px 20px;
+    gap: 16px;
+  }
+
+  .navbar-logo img {
+    height: 64px;
+  }
+
+  .navbar-menu {
+    gap: 2px;
+    margin-right: 0;
+  }
+
+  .navbar-menu > li > a,
+  .navbar-menu > li > span {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
   /* 顯示漢堡選單按鈕 */
   .navbar-toggle {
     display: flex !important;
@@ -1054,6 +1079,7 @@ body {
     box-shadow: var(--shadow-lg);
     border-top: 1px solid var(--color-border-light);
     max-height: 70vh;
+    max-height: calc(100dvh - 80px);  /* 選單有十項，盡量用滿螢幕高度；不支援 dvh 的瀏覽器用上一行 */
     overflow-y: auto;
     overflow-x: hidden;
     z-index: 999;
@@ -1198,10 +1224,16 @@ body {
     height: 320px;
   }
 
+  /* 首頁選單（十項）在手機上原本左右各留 60px，最長一項「研究網站 RESEARCH WEBSITES」會把頁面撐出橫向捲動；
+     左右邊距收到 16px，360px 寬以上的手機就放得下 */
+  .homepage-content {
+    padding: 20px 16px 40px;
+  }
+
   .homepage-nav {
     min-width: auto;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .homepage-nav a .nav-title-zh {
@@ -1385,6 +1417,15 @@ body {
 
 .course-empty {
   color: var(--color-text-muted);
+}
+
+/* 課程已移到別區（例如文學網站）時，在原課程頁籤留的一行提示 */
+.course-moved {
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  border-left: 3px solid var(--color-accent-gold);
+  background-color: rgba(184, 134, 11, 0.06);
+  color: var(--color-text-secondary);
 }
 
 /* ===================================

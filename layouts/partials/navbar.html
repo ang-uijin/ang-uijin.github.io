@@ -65,11 +65,18 @@
     <li {{ if hasPrefix .RelPermalink "/lecture/" }}class="active"{{ end }}>
       <a href="/lecture/">演講</a>
     </li>
+    <!-- 四區並列：研究網站／教學網站／文學網站／教材講義（教材講義的網址是 /teach/，教學網站是 /teaching/） -->
     <li {{ if hasPrefix .RelPermalink "/study/" }}class="active"{{ end }}>
       <a href="/study/">研究網站</a>
     </li>
+    <li {{ if hasPrefix .RelPermalink "/teaching/" }}class="active"{{ end }}>
+      <a href="/teaching/">教學網站</a>
+    </li>
+    <li {{ if hasPrefix .RelPermalink "/literature/" }}class="active"{{ end }}>
+      <a href="/literature/">文學網站</a>
+    </li>
     <li {{ if hasPrefix .RelPermalink "/teach/" }}class="active"{{ end }}>
-      <a href="/teach/">教學網站</a>
+      <a href="/teach/">教材講義</a>
     </li>
     <li {{ if hasPrefix .RelPermalink "/news/" }}class="active"{{ end }}>
       <a href="/news/">最新動態</a>
