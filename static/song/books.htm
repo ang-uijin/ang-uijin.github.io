@@ -11,7 +11,7 @@
     （原版那一格由 docs/tools/taiwansong_build.py 產生）。
   - 每本書一個 <article class="bk">，欄位用 <dl class="info">。
   - PDF 欄的寫法統一，之後只換這一段：
-      還沒有檔：span 元素，class 為 pdf-pending，文字「PDF（待上傳）」（全頁都是同一個寫法，可以直接搜尋取代）
+      沒有檔：span 元素，class 為 pdf-pending，文字「—」（跟其他沒有資料的欄位一樣；全頁同一個寫法，搜尋 pdf-pending 取代）
       上傳之後：換成 a 元素，class 為 pdf、target 為 _blank、文字「PDF」，網址指向上傳的檔（建議放 /files/song/books/ 底下）
     光碟（《台北褒歌之美》）沒有 PDF 欄。
   - 2024 版「相關資源→專著」那四本原本連到不存在的 pdf/*.pdf，現在改連到本頁對應的條目（#penghu-caigua 等），PDF 上傳後只改本頁。
@@ -36,7 +36,6 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 .info dt{color:#664;font-size:13px;padding-top:2px}
 .info dd{margin:0}
 .desc{margin:6px 0}
-.pdf-pending{color:#776}
 .yt{max-width:560px;margin:8px 0 2px}
 .yt iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;background:#000}
 </style>
@@ -45,7 +44,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <div class="wrap">
 <p class="nav"><a href="/" target="_top">← 回治言齋</a>　·　民間歌謠教學研究網：<a href="/song/" target="_top">2024 年版</a>／<a href="/taiwansong/" target="_top">原版</a></p>
 <h1>相褒歌書目</h1>
-<p class="lead">相褒歌相關的書與影音。仍在販售的列出購買通路；非賣品、已絕版的只列書目。PDF 全文陸續上傳。</p>
+<p class="lead">相褒歌相關的書與影音。仍在販售的列出購買通路；非賣品、已絕版的只列書目。</p>
 <p class="toc"><a href="#lin">一、林金城的相褒歌集</a>　<a href="#other">二、其他相褒歌書與影音</a>　<a href="#zhuanzhu">三、本站原列的五本專著</a></p>
 
 <h2 id="lin">一、林金城的相褒歌集</h2>
@@ -63,7 +62,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">臺北市南港社區大學補助，簡介稱是「台北市第一本相褒歌出版品」。收南港耆老楊闕熟、楊林德子、余有義、蔡文益等的演唱，書中以 QR code 連結影音。</p>
 <dl class="info">
 <dt>購買</dt><dd>待定（新書，網路書店尚未上架）</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 <dt>影音</dt><dd><a href="https://www.youtube.com/playlist?list=PLImzod-EvH80" target="_blank">YouTube 播放清單（68 支）</a></dd>
 </dl>
 <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLImzod-EvH80" title="《南港相褒歌》播放清單" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
@@ -79,7 +78,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">萬里、金山、石門三地耆老賴黃鴛、徐石金、蕭童吻、江清琴等的相褒歌，文化部出版補助；書中以 QR code 連結錄音。</p>
 <dl class="info">
 <dt>購買</dt><dd><a href="https://www.sanmin.com.tw/product/index/013602892" target="_blank">三民</a>、<a href="https://www.kingstone.com.tw/basic/2015380148257/" target="_blank">金石堂</a>、<a href="https://www.taaze.tw/products/11101047892.html" target="_blank">讀冊</a></dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 <dt>影音</dt><dd><a href="https://www.youtube.com/playlist?list=PLm6p5ijePG3qJfUJHYxAqVQQM0eCDC5dJ" target="_blank">YouTube 播放清單（75 支）</a>；下面是第 1 首</dd>
 </dl>
 <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/yT0rcwUIwWU" title="《萬金石相褒歌》1 想欲佮娘挽仝欉" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
@@ -95,7 +94,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">三峽耆老范金蓮、王秦玉燕、黃易換、黃芳吉等的相褒歌；掃書中的 QR code 可看 YouTube 上的演唱影片。</p>
 <dl class="info">
 <dt>購買</dt><dd><a href="https://www.sanmin.com.tw/product/index/011049814" target="_blank">三民</a>；作者直購（見<a href="https://www.youtube.com/@user-siopokua/about" target="_blank">林金城 YouTube 頻道說明</a>）</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 <dt>影音</dt><dd><a href="https://www.youtube.com/playlist?list=PLm6p5ijePG3rTC7mB1fk6uQz4bRV-SD2u" target="_blank">YouTube 播放清單（73 支）</a>；下面是第 1 首</dd>
 </dl>
 <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/UWLbZZZak3M" title="三峽相褒歌 1 六月無菜煮紅茄" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
@@ -111,7 +110,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">石碇耆老高羅珠、潘好、廖美子等的相褒歌，記錄北部的老泉山腔；洪惟仁作序。從這本起，書中改用 QR code 連到 YouTube 影片，取代隨書光碟。</p>
 <dl class="info">
 <dt>購買</dt><dd><a href="https://www.sanmin.com.tw/product/index/009636176" target="_blank">三民</a>（下單後進貨）；作者直購（見<a href="https://www.youtube.com/@user-siopokua/about" target="_blank">林金城 YouTube 頻道說明</a>）</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 <dt>影音</dt><dd><a href="https://www.youtube.com/playlist?list=PLm6p5ijePG3ownhCdRzmhBwl6BewWkF7L" target="_blank">YouTube 播放清單（110 支）</a>；下面是第 1 首</dd>
 </dl>
 <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/RwqtBtpCPQs" title="石碇相褒歌 1 含笑過午芳弓蕉" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
@@ -127,7 +126,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">坪林茶鄉的相褒歌，演唱者有王進興、俞郭棗等。</p>
 <dl class="info">
 <dt>購買</dt><dd><a href="https://www.sanmin.com.tw/product/index/003877414" target="_blank">三民</a>（下單後進貨）；作者直購（見<a href="https://www.youtube.com/@user-siopokua/about" target="_blank">林金城 YouTube 頻道說明</a>）</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 <dt>影音</dt><dd><a href="https://www.youtube.com/@user-siopokua/search?query=%E5%9D%AA%E6%9E%97%E7%9B%B8%E8%A4%92%E6%AD%8C" target="_blank">林金城頻道上的坪林相褒歌</a></dd>
 </dl>
 </article>
@@ -142,7 +141,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">雙溪耆老的相褒歌，頻道上有黃朱束的專集。</p>
 <dl class="info">
 <dt>購買</dt><dd>作者直購（見<a href="https://www.youtube.com/@user-siopokua/about" target="_blank">林金城 YouTube 頻道說明</a>）</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 <dt>影音</dt><dd><a href="https://www.youtube.com/playlist?list=PLm6p5ijePG3oU7xzNFklm23qqsjzJq7t-" target="_blank">YouTube 播放清單（6 支）</a>；下面是第 1 支</dd>
 </dl>
 <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/knc_smZ_Q3s" title="雙溪相褒歌 黃朱束專集（一）" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
@@ -158,7 +157,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">平溪耆老胡吳蜜、沈朱娘、林龍風、葉信行等的相褒歌。</p>
 <dl class="info">
 <dt>購買</dt><dd>目前查無販售通路</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 <dt>影音</dt><dd><a href="https://www.youtube.com/@user-siopokua/search?query=%E5%B9%B3%E6%BA%AA%E7%9B%B8%E8%A4%92%E6%AD%8C" target="_blank">林金城頻道上的平溪相褒歌</a>；下面是其中一首</dd>
 </dl>
 <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/0i6uIif_MZM" title="平溪相褒歌 9 為君掛吊心肝悶" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
@@ -174,7 +173,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">桃園地區的褒歌，附註解、釋義與演唱實錄。</p>
 <dl class="info">
 <dt>購買</dt><dd>目前查無販售通路</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 </dl>
 </article>
 
@@ -190,7 +189,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">以五線譜與簡譜記下坪林、石碇、深坑一帶六位耆老（王菊英、林月娥、陳世義、吳恒毅、林旺、陳桂蘭）的相褒歌，附台語漢字、台羅拼音、注釋與中譯。</p>
 <dl class="info">
 <dt>購買</dt><dd><a href="https://www.ncfta.gov.tw/News_Publish_Content.aspx?n=1678&amp;s=248039" target="_blank">傳藝中心</a>、<a href="https://www.govbooks.com.tw/books/147501" target="_blank">國家書店</a>、<a href="https://www.sanmin.com.tw/product/index/015090135" target="_blank">三民</a>、<a href="https://www.taaze.tw/products/11101080756.html" target="_blank">讀冊</a></dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 </dl>
 </article>
 
@@ -204,7 +203,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">收 15 位耆老的褒歌，漢羅、全羅對照；導言〈閒閒逐家來相褒〉由林金城執筆。</p>
 <dl class="info">
 <dt>購買</dt><dd>目前查無販售通路</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 </dl>
 </article>
 
@@ -218,7 +217,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">坪林的茶歌與相褒歌專輯。</p>
 <dl class="info">
 <dt>購買</dt><dd>目前查無販售通路</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 </dl>
 </article>
 
@@ -248,7 +247,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">澎湖縣文化資產叢書第 42 號。本站原列為《澎湖褒歌》。</p>
 <dl class="info">
 <dt>購買</dt><dd><a href="https://www.phhcc.gov.tw/home.jsp?id=32" target="_blank">澎湖縣政府文化局</a>（出版品郵購；庫存請先洽詢）</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 </dl>
 </article>
 
@@ -262,7 +261,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">澎湖縣文化資產叢書第 88 號。內容是謎語、祝詞、咒語等「雜唸」。</p>
 <dl class="info">
 <dt>購買</dt><dd><a href="https://www.phhcc.gov.tw/home.jsp?id=32" target="_blank">澎湖縣政府文化局</a>（出版品郵購；庫存請先洽詢）</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 </dl>
 </article>
 
@@ -276,7 +275,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">澎湖縣文化資產叢書第 107 號，93 年度優良政府出版品。</p>
 <dl class="info">
 <dt>購買</dt><dd>已絕版</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 </dl>
 </article>
 
@@ -290,7 +289,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">員山鄉史系列。</p>
 <dl class="info">
 <dt>購買</dt><dd>非賣品</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 </dl>
 </article>
 
@@ -304,7 +303,7 @@ h2{font-size:18px;color:#5a2a2a;margin:30px 0 8px;padding-bottom:2px;border-bott
 <p class="desc">林金城的第一本相褒歌集，收金山耆老賴黃鴛、徐石金、李梨等的相褒歌。</p>
 <dl class="info">
 <dt>購買</dt><dd><a href="https://www.sanmin.com.tw/product/index/003877412" target="_blank">三民</a>；作者直購（見<a href="https://www.youtube.com/@user-siopokua/about" target="_blank">林金城 YouTube 頻道說明</a>）</dd>
-<dt>PDF</dt><dd><span class="pdf-pending">PDF（待上傳）</span></dd>
+<dt>PDF</dt><dd><span class="pdf-pending">—</span></dd>
 <dt>影音</dt><dd><a href="https://www.youtube.com/@user-siopokua/search?query=%E9%87%91%E5%B1%B1%E7%9B%B8%E8%A4%92%E6%AD%8C" target="_blank">林金城頻道上的金山相褒歌</a></dd>
 </dl>
 </article>
