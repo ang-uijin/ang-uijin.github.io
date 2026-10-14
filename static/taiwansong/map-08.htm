@@ -18,10 +18,11 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 //-->
 </script>
 <link href="main.css" rel="stylesheet" type="text/css">
+<style>/* 地區介紹：一段文字隨寬度換行（docs/tools/song_place.py） */table.zz-place{width:100%;max-width:680px}.zz-place-body{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:flex-start;padding-left:16px}.zz-place-body img{flex:none;max-width:100%;height:auto}.zz-place-text{flex:1 1 240px;min-width:0}.zz-place-text .a{line-height:1.8}</style>
 </head>
 
 <body bgcolor="#CC9999" leftmargin="40" topmargin="0" marginwidth="0" marginheight="0">
-<table width="501" border="0" cellpadding="0" cellspacing="0">
+<table class="zz-place" border="0" cellpadding="0" cellspacing="0">
   <!--DWLayoutTable-->
   <tr> 
     <td height="16" colspan="4"><div align="right"><a href="map-main.htm" target="_self">台灣</a>&gt;<a href="map-main2.htm" target="_self">台北</a>&gt;&gt;南港</div></td>
@@ -32,31 +33,11 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   <tr> 
     <td height="16" colspan="4">&nbsp;</td>
   </tr>
-  <tr> 
-    <td width="16" rowspan="8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td width="200" rowspan="8"><img src="mapimages/scene08.jpg" width="200" height="120"></td>
-    <td width="285" class="b"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  <tr>
+    <td colspan="4"><div class="zz-place-body"><img src="mapimages/scene08.jpg" width="200" height="120"><div class="zz-place-text"><div class="b">台北市南港區</div><div class="a">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 舊名為「大加吶堡南港三重埔」，南港因位於基隆河的南邊，與汐止的北港里對稱，在基隆河淤積之前，有一處自然港灣，經常有船舶往來，因此在日據時代改名為「南港」。</div></div></div></td>
   </tr>
-  <tr> 
-    <td class="b">台北市南港區</td>
-  </tr>
-  <tr> 
-    <td class="a">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 舊名為「大加吶堡南港三重埔」，南港因位於基</td>
-  </tr>
-  <tr> 
-    <td class="a">隆河的南邊，與汐止的北港里對稱，在基隆河淤積之</td>
-  </tr>
-  <tr> 
-    <td class="a">前，有一處自然港灣，經常有船舶往來，因此在日據</td>
-  </tr>
-  <tr> 
-    <td class="a">時代改名為「南港」。</td>
-  </tr>
-  <tr> 
-    <td height="8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
-  <tr> 
-    <td height="8"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  <tr>
+    <td height="8" colspan="4">&nbsp;</td>
   </tr>
 </table>
 <table width="500" border="0" cellpadding="0" cellspacing="0">

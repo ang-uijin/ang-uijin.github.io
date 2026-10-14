@@ -18,10 +18,11 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 //-->
 </script>
 <link href="main.css" rel="stylesheet" type="text/css">
+<style>/* 地區介紹：一段文字隨寬度換行（docs/tools/song_place.py） */table.zz-place{width:100%;max-width:680px}.zz-place-body{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:flex-start;padding-left:16px}.zz-place-body img{flex:none;max-width:100%;height:auto}.zz-place-text{flex:1 1 240px;min-width:0}.zz-place-text .a{line-height:1.8}</style>
 </head>
 
 <body bgcolor="#CC9999" leftmargin="40" topmargin="0" marginwidth="0" marginheight="0">
-<table width="501" border="0" cellpadding="0" cellspacing="0">
+<table class="zz-place" border="0" cellpadding="0" cellspacing="0">
   <!--DWLayoutTable-->
   <tr> 
     <td height="16" colspan="4"><div align="right"><a href="map-main.htm" target="_self">台灣</a>&gt;<a href="map-main2.htm" target="_self">台北</a>&gt;&gt;平溪</div></td>
@@ -32,31 +33,11 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   <tr> 
     <td height="16" colspan="4">&nbsp;</td>
   </tr>
-  <tr> 
-    <td width="16" rowspan="8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-    <td width="200" rowspan="8"><img src="mapimages/scene01.jpg" width="200" height="120"></td>
-    <td width="285" class="b"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  <tr>
+    <td colspan="4"><div class="zz-place-body"><img src="mapimages/scene01.jpg" width="200" height="120"><div class="zz-place-text"><div class="b">台北縣平溪鄉</div><div class="a">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平溪鄉位為基隆河上游，河谷寬窄不一，而且水流湍急，而鄉名取自現平溪村著名「平溪仔」，因此地平水緩，故得名。</div></div></div></td>
   </tr>
-  <tr> 
-    <td class="b">台北縣平溪鄉</td>
-  </tr>
-  <tr> 
-    <td class="a">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平溪鄉位為基隆河上游，河谷寬窄不一，而且水</td>
-  </tr>
-  <tr> 
-    <td class="a">流湍急，而鄉名取自現平溪村著名「平溪仔」，因此</td>
-  </tr>
-  <tr> 
-    <td class="a">地平水緩，故得名。</td>
-  </tr>
-  <tr> 
-    <td><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
-  <tr> 
-    <td height="8"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
-  <tr> 
-    <td height="8"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  <tr>
+    <td height="8" colspan="4">&nbsp;</td>
   </tr>
 </table>
 <table width="500" border="0" cellpadding="0" cellspacing="0">
