@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 檢查是否點擊了 has-dropdown 內的 span
     const dropdownTrigger = e.target.closest('.navbar-menu > li.has-dropdown > span');
 
-    if (dropdownTrigger && window.innerWidth <= 1024) {  // 與 style.css 漢堡選單的斷點一致
+    if (dropdownTrigger && window.innerWidth <= 883) {  // 與 style.css 漢堡選單的斷點一致
       e.preventDefault();
       e.stopPropagation();
 
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', function() {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(function() {
-      if (window.innerWidth > 1024) {
+      if (window.innerWidth > 883) {
         // 桌面版：重置所有行動版狀態
         if (navbarToggle) {
           navbarToggle.classList.remove('active');

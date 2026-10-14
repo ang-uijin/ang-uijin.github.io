@@ -1,7 +1,7 @@
 ---
-title: 教材講義
+title: 課程講義
 date: 2025-01-01
-description: 洪惟仁教授的教材講義：18 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、民間文學概論等。
+description: 洪惟仁教授的課程講義：18 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、民間文學概論等。
 ---
 
 <div class="course-container">
@@ -201,7 +201,7 @@ description: 洪惟仁教授的教材講義：18 門課程的教學大綱與講�
 
 <div class="course-content" id="online">
   <h3>線上教材</h3>
-  <p>洪惟仁歷年製作的線上教材與網站，現在分在頂端選單的三區：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣閩南語羅馬拼音及其發音學習網、洪惟仁設計的教學資源）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
+  <p>洪惟仁歷年製作的線上教材與網站，現在分成三區（頂端選單的「教學」「文學」「研究」）：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣閩南語羅馬拼音及其發音學習網、洪惟仁設計的教學資源）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
 </div>
 
 <div class="course-content" id="links">

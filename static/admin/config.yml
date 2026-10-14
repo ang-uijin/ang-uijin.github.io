@@ -519,7 +519,7 @@ singletons:
 
   # ===== 其他 =====
   - name: "teach"
-    label: "教材講義"
+    label: "課程講義"
     file: "content/teach/_index.md"
     media_folder: "/static/files/teach"
     public_folder: "/files/teach"

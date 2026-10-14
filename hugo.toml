@@ -200,26 +200,27 @@ timeZone = 'Asia/Taipei'
 
   [[menu.main]]
     identifier = 'study'
-    name = '研究網站'
+    name = '研究'
     url = '/study/'
     weight = 7
 
   [[menu.main]]
     identifier = 'teaching'
-    name = '教學網站'
+    name = '教學'
     url = '/teaching/'
     weight = 8
 
   [[menu.main]]
     identifier = 'literature'
-    name = '文學網站'
+    name = '文學'
     url = '/literature/'
     weight = 9
 
-  # 課程講義頁：網址維持 /teach/（外面有連結），選單名稱是「教材講義」；「教學網站」是另一區 /teaching/
+  # 選單標籤用短名（研究／教學／文學），各區頁面標題仍是「研究網站」「教學網站」「文學網站」。
+  # 課程講義頁：網址維持 /teach/（外面有連結）；「教學」是另一區 /teaching/
   [[menu.main]]
     identifier = 'teach'
-    name = '教材講義'
+    name = '課程講義'
     url = '/teach/'
     weight = 10
 
