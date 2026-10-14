@@ -2,7 +2,7 @@
  
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=800">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>html[data-rom="tlpa"] .rom-tl,html:not([data-rom="tlpa"]) .rom-tp{display:none}.rom-sw{position:fixed;top:4px;right:6px;z-index:9;font:12px/1.2 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:rgba(255,255,255,.92);border:1px solid #c9b48a;border-radius:12px;padding:3px 6px 3px 9px;color:#5a3a1a;white-space:nowrap}.rom-sw button{font:inherit;background:none;border:0;padding:2px 6px;margin-left:2px;border-radius:8px;color:#8a6a3a;cursor:pointer}.rom-sw button[aria-pressed="true"]{background:#5a3a1a;color:#fff;cursor:default}.rom-sw a{color:#8a6a3a;text-decoration:none;margin-left:4px}</style>
 <script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
 <style>.zz-bar .rom-sw{position:static;margin-left:auto}.zz-bar .rom-sw+.r{margin-left:0}.zz-bar .rom-sw a,.zz-bar .rom-sw a:hover{color:#8a6a3a;text-decoration:none}</style>
@@ -11,17 +11,51 @@
 <style>
 /* 治言齋存檔列與播放器（2026 年重建時加的，原站沒有） */
 body{margin:0}
-.zz-bar{box-sizing:border-box;width:780px;height:38px;display:flex;align-items:center;gap:12px;padding:0 12px;
+.zz-bar{box-sizing:border-box;width:100%;height:38px;display:flex;align-items:center;gap:12px;padding:0 12px;
 background:#5a3a1a;color:#f3e6cf;font-size:14px;line-height:1.2;white-space:nowrap;overflow:hidden;
 font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
 .zz-bar a,.zz-bar a:link,.zz-bar a:visited{color:#ffd9a0;text-decoration:none}.zz-bar a:hover{text-decoration:underline;color:#ffd9a0}
 .zz-bar .t{font-weight:700;letter-spacing:.04em}.zz-bar .s{opacity:.8;font-size:12.5px;overflow:hidden;text-overflow:ellipsis}.zz-bar .r{margin-left:auto}
+.zz-bar>*{flex-shrink:0}.zz-bar .s{flex-shrink:1;min-width:0}
 .zz-au{vertical-align:middle;height:32px;width:270px;max-width:100%}
 a.zz-na,a.zz-na:link,a.zz-na:visited{display:inline-block;vertical-align:middle;font-size:12px;font-weight:normal;line-height:1.5;color:#7a5a2a;
 background:#f7f3ea;border:1px dashed #b09a76;border-radius:3px;padding:1px 7px;white-space:nowrap;text-decoration:none}
 .zz-add{font-size:12px;line-height:1.6;color:#7a5a2a;background:#f7f3ea;border:1px dashed #b09a76;padding:4px 8px}
 .zz-pic{display:block;width:378px;height:48px;object-fit:none;object-position:0 0}
 .news_up,.news_down{cursor:pointer}
+
+/* 自動適配螢幕寬度（2026 年加的；原站固定 780px） */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+table.zz-page{width:100%;max-width:1400px;margin:0 auto}
+td.zz-hfill{width:auto}
+td.zz-hfill1{background:url(images/09.gif) repeat-x}
+td.zz-hfill2{background:url(images/10.gif) repeat-x}
+td.zz-bodycell,td.zz-footcell{background-repeat:repeat-y}
+table.zz-body{float:none;width:calc(100% - 52px);margin:0 0 0 52px}
+td.zz-main{width:auto}
+table.zz-inner{float:none;width:100%}
+td.zz-content{width:auto;font-size:15px;line-height:1.85;padding-right:16px}
+td.zz-content table.zz-text{width:100%;max-width:46em;margin:0 auto}
+td.zz-content font[size="2"]{font-size:.87em}
+td.zz-gap{width:12px}
+td.zz-side{width:160px}
+.zz-au{width:300px;max-width:100%}
+@media (max-width:820px){
+  .zz-bar{gap:8px;padding:0 10px}.zz-bar .s{display:none}
+  tr.zz-hrow>td+td{display:none}
+  table.zz-body,table.zz-body>tbody,table.zz-body>tbody>tr,table.zz-body>tbody>tr>td{display:block;width:auto}
+  table.zz-body{width:auto;margin:0 0 0 14px}
+  td.zz-bodycell,td.zz-footcell{background-position:-30px 0}
+  td.zz-gap{display:none}
+  td.zz-content{font-size:16px;padding-right:12px}
+  td.zz-content .text-13,td.zz-side .text-13,.text-13 .news_up{font-size:15px;line-height:1.7}
+  td.zz-content table.zz-text{max-width:none}
+  td.zz-content img{max-width:45%;height:auto}
+  td.zz-content img[width="15"]{max-width:none}
+  td.zz-side{width:auto;padding:8px 12px 20px 0}
+  td.zz-side table[width="160"]{margin:0 auto}
+  .zz-au{width:100%}
+}
 </style>
 <script>
 function changecolor1(){var e=window.event&&(event.target||event.srcElement);if(e&&e.className=="news_up")e.className="news_down"}
@@ -61,34 +95,34 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 <div class="zz-bar"><a href="/">← 回治言齋</a><a class="t" href="index.html">吟詩集錦</a><span class="s">台灣語文學會網站 2002–2004 年　·　2026 年整理重現</span><div class="rom-sw" title="原站用 TLPA 標音，本站預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音<button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button><a href="notice.html#rom" title="說明">?</a></div><a class="r" href="notice.html">說明</a></div>
 <script>(function(){var d=document.documentElement,b=document.querySelectorAll(".rom-sw button");function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}for(var i=0;i<b.length;i++)b[i].onclick=function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}};show(d.getAttribute("data-rom"))})();</script>
 
-<table width="780" height="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr> 
+<table width="780" height="100%" border="0" cellpadding="0" cellspacing="0" class="zz-page">
+  <tr class="zz-hrow"> 
     <td width="324" height="12"><img src="images/01.gif" width="324" height="12"></td>
     <td width="47" rowspan="2"><img src="images/05.gif" width="59" height="65"></td>
     <td width="383"><img src="images/07.gif" width="383" height="12"></td>
-    <td width="24"><img src="images/09.gif" width="14" height="12"></td>
+    <td width="24" class="zz-hfill zz-hfill1"><img src="images/09.gif" width="14" height="12"></td>
   </tr>
-  <tr> 
+  <tr class="zz-hrow"> 
     <td height="53"><a href="index.html"><img src="images/02.gif" width="324" height="53" border="0"></a></td>
     <td width="383"> <table width="382" border="1" cellspacing="0" cellpadding="0" bordercolor="#000000" height="100%">
         <tr> 
           <td bordercolor="#FFFFFF" height="21"><img class="zz-pic" src="images/pic_menu.jpg" width="378" height="48" alt="台灣語文學會活動相片"></td>
         </tr>
       </table></td>
-    <td><img src="images/10.gif" width="14" height="53"></td>
+    <td class="zz-hfill2"><img src="images/10.gif" width="14" height="53"></td>
   </tr>
-  <tr> 
+  <tr class="zz-hrow"> 
     <td height="38"><img src="images/03.gif" width="324" height="38"></td>
     <td colspan="2" class="text-13"><div align="right"><img src="images/06.gif" width="364" height="15" align="absmiddle"> <img src="images/08.gif" width="46" height="15" align="absmiddle">  
       </div></td> 
     <td class="text-13">　</td> 
   </tr> 
   <tr >  
-    <td colspan="4" valign="top" background="images/bg.gif"> <table width="92%" border="0" align="right" cellpadding="3" cellspacing="0" class="text-13"> 
+    <td colspan="4" valign="top" background="images/bg.gif" class="zz-bodycell"> <table width="92%" border="0" align="right" cellpadding="3" cellspacing="0" class="text-13 zz-body"> 
         <tr>  
-          <td width="535" valign="top"><table width="92%" border="0" align="right" cellpadding="3" cellspacing="0" class="text-13"> 
+          <td width="535" valign="top" class="zz-main"><table width="92%" border="0" align="right" cellpadding="3" cellspacing="0" class="text-13 zz-inner"> 
               <tr>  
-                <td width="535" valign="top"><br>
+                <td width="535" valign="top" class="zz-content"><br>
                   <!-- #BeginEditable "index"-->
             
 <table width="100%" border="0" cellspacing="0" cellpadding="2" class="text-13">
@@ -113,7 +147,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
               </tr>
             </table>   
                   <p>　</p>
-                  <table width="500" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="zz-text">
                     <tr> 
                        <td colspan="2"><b>六、黃寶如先生吟詩集錦</b> 
                         <p> <br>
@@ -256,8 +290,8 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
               </tr>   
             </table>   
             <br> </td>   
-          <td width="5" rowspan="2" valign="top">　</td>
-          <td rowspan="2" valign="top">  <table width="160" border="0" cellspacing="0" cellpadding="0">
+          <td width="5" rowspan="2" valign="top" class="zz-gap">　</td>
+          <td rowspan="2" valign="top" class="zz-side">  <table width="160" border="0" cellspacing="0" cellpadding="0">
               <tr> 
                 <td bgcolor="#999933" height="30"><img src="images/menubar.gif" width="150" height="30"></td>
               </tr>
@@ -458,7 +492,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
       </table></td>
   </tr>
   <tr valign="top" height="60"> 
-    <td  colspan="4" background="images/bg.gif" > <div align="center" class="text-13"> 
+    <td  colspan="4" background="images/bg.gif" class="zz-footcell"> <div align="center" class="text-13"> 
         <hr width="80%" size="1" noshade>
         使用<font face="Arial">IE 5.5</font>以上版本 <font face="Arial"> 800*600   
         </font> 解析度 可獲得最佳瀏覽效果 <br>   
