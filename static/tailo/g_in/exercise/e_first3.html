@@ -1,5 +1,6 @@
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>聲調對比練習</title>
 <style type="text/css">
 <!--
@@ -29,6 +30,16 @@ SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
 /*NM_customscrollEnd*/
 //.style25 {font-size: 12pt; font-family: "細明體"; font-weight: bold; }
 -->
+</style>
+<style>
+/* 自動適配螢幕寬度（2026 年加的）：600px 以下的窄框裡，表格不定寬、文字照原本大小換行 */
+@media (max-width:600px){
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  body{margin:4px 6px!important}
+  table{width:auto!important;max-width:100%!important;height:auto!important}
+  td,th{width:auto!important;height:auto!important}
+  img{max-width:100%;height:auto}
+}
 </style>
 </head>
 <script>
@@ -321,5 +332,28 @@ img.snd-missing{opacity:.35}
   </tr>
 </table>
 <audio id="tl-audio" preload="none"></audio>
+<script>
+/* 自動適配螢幕寬度（2026 年加的）：寬的框裡整頁等比放大（最多 1.35 倍）、置中；窄的框裡排過還放不下就整頁等比縮小 */
+(function () {
+  var ZMAX = 1.35;
+  function fit() {
+    var b = document.body; if (!b) return;
+    var se = document.scrollingElement || document.documentElement;
+    b.style.zoom = ""; b.style.marginLeft = b.style.marginRight = "";
+    var vw = se.clientWidth, w = se.scrollWidth > vw + 1 ? se.scrollWidth : 0;
+    var narrow = window.matchMedia && matchMedia("(max-width:600px)").matches;
+    var t = b.querySelector("table"), natural = t ? t.offsetWidth + 16 : vw;
+    if (!narrow) {
+      var z = Math.min(ZMAX, vw / Math.max(natural, w));
+      if (z > 1.02) { b.style.zoom = z.toFixed(3); b.style.marginLeft = b.style.marginRight = "auto"; if (t) t.style.marginLeft = t.style.marginRight = "auto"; }
+    }
+    for (var k = 0; k < 3 && se.scrollWidth > se.clientWidth + 1; k++)   // 縮一次可能因為進位還多 1–3px，最多再修兩次
+      b.style.zoom = ((parseFloat(b.style.zoom) || 1) * se.clientWidth / se.scrollWidth * 0.995).toFixed(3);
+  }
+  function run() { fit(); requestAnimationFrame(fit); }
+  if (document.readyState === "complete") run(); else addEventListener("load", run);
+  addEventListener("resize", run);
+})();
+</script>
 </body>
 </html>
