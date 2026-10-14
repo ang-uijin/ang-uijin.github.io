@@ -2,23 +2,26 @@
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=1200">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>關於這個存檔｜洪惟仁設計的教學資源</title>
 <meta name="robots" content="noindex">
 <style>
 /* 治言齋存檔列（2026 年重建時加的，原站沒有） */
-.zz-bar{box-sizing:border-box;width:1200px;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;
+.zz-bar{box-sizing:border-box;width:auto;max-width:1400px;height:38px;display:flex;align-items:center;gap:14px;padding:0 14px;
 background:#5a3a1a;color:#f3e6cf;font-size:14px;white-space:nowrap;overflow:hidden;
 font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;margin:0 auto}
 .zz-bar a{color:#ffd9a0;text-decoration:none}.zz-bar a:hover{text-decoration:underline;color:#ffd9a0}
 .zz-bar .t{font-weight:700;letter-spacing:.04em}.zz-bar .s{opacity:.8;font-size:12.5px}.zz-bar .r{margin-left:auto}
 .zz-doc{font-size:12px;color:#777;text-decoration:none}
+.zz-bar>*{flex-shrink:0}.zz-bar .t{flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:760px){.zz-bar{gap:8px;padding:0 10px}.zz-bar .s{display:none}}
 
 body{margin:0;background:#fff;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:#222;line-height:1.9}
-.wrap{width:1200px;margin:0 auto;padding:24px 40px 60px;box-sizing:border-box}
+.wrap{max-width:52em;margin:0 auto;padding:24px 40px 60px;box-sizing:border-box}
 h1{font-size:24px;margin:24px 0 8px} h2{font-size:18px;margin:28px 0 6px;border-left:5px solid #5a3a1a;padding-left:10px}
 table{border-collapse:collapse;margin:8px 0} th,td{border:1px solid #ccc;padding:6px 12px;text-align:left;vertical-align:top}
 th{background:#f3ece1} a{color:#8a5a1a} .note{background:#f7f3ea;border:1px dashed #b09a76;padding:12px 16px;margin:12px 0}
+@media (max-width:760px){.wrap{padding:12px 16px 48px} table{display:block;overflow-x:auto;max-width:100%} th,td{padding:5px 8px}}
 </style>
 </head>
 <body>
@@ -43,7 +46,7 @@ th{background:#f3ece1} a{color:#8a5a1a} .note{background:#f7f3ea;border:1px dash
 
 <h2>2026 年重建時改了什麼</h2>
 <ul>
-<li>每頁上方加一列導覽列（回治言齋、說明）；其餘版面照舊（原站是固定 1200 像素寬的設計，手機上會整頁縮放）。</li>
+<li>每頁上方加一列導覽列（回治言齋、說明）。原站是固定 1200 像素寬的設計，2026 年 10 月改成跟著螢幕寬度調整（最寬 1400 像素，手機上改成單欄），文字與內容不變。</li>
 <li>17 篇講義原本是 Word <code>.doc</code>，多數瀏覽器與手機打不開，這裡另外轉了一份 PDF，
 連結改指 PDF，後面的 <code>[.doc]</code> 是原檔。</li>
 <li>「TLPA 輸入法」頁的「下載台音輸入法」原本連到台灣語文學會網站的 <code>tlls/02/input.zip</code>，
