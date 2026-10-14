@@ -787,7 +787,7 @@ body {
 }
 
 /* ===================================
-   教學網站 - 課程標籤頁
+   課程講義（/teach/）- 課程標籤頁
    =================================== */
 .course-container {
   margin-top: 20px;
@@ -1030,7 +1030,34 @@ body {
   }
 }
 
-@media (max-width: 900px) {
+/* 頂端選單有十項（研究／教學／文學與課程講義並列），分界是量出來的最小值：
+   一排原尺寸要 1225px、縮小版要 867px，各加 17px 給 Windows 的捲軸。
+   1242px 以上原尺寸；884–1241px 把間距、字級與 logo 縮小一點；
+   883px 以下改用漢堡選單（下一段，main.js 也用同一個寬度判斷）。
+   選單標籤或字級有變動就要重量：在各段寬度下把 .navbar 設成 width: min-content，量它的寬。 */
+@media (min-width: 884px) and (max-width: 1241px) {
+  .navbar {
+    padding: 12px 20px;
+    gap: 16px;
+  }
+
+  .navbar-logo img {
+    height: 64px;
+  }
+
+  .navbar-menu {
+    gap: 2px;
+    margin-right: 0;
+  }
+
+  .navbar-menu > li > a,
+  .navbar-menu > li > span {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 883px) {
   /* 顯示漢堡選單按鈕 */
   .navbar-toggle {
     display: flex !important;
@@ -1054,6 +1081,7 @@ body {
     box-shadow: var(--shadow-lg);
     border-top: 1px solid var(--color-border-light);
     max-height: 70vh;
+    max-height: calc(100dvh - 80px);  /* 選單有十項，盡量用滿螢幕高度；不支援 dvh 的瀏覽器用上一行 */
     overflow-y: auto;
     overflow-x: hidden;
     z-index: 999;
@@ -1198,10 +1226,16 @@ body {
     height: 320px;
   }
 
+  /* 首頁選單在手機上原本左右各留 60px，最長的一項（中文＋英文）會把頁面撐出橫向捲動；
+     左右邊距收到 16px，現在的十項在 320px 寬也放得下 */
+  .homepage-content {
+    padding: 20px 16px 40px;
+  }
+
   .homepage-nav {
     min-width: auto;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .homepage-nav a .nav-title-zh {
@@ -1385,6 +1419,15 @@ body {
 
 .course-empty {
   color: var(--color-text-muted);
+}
+
+/* 課程已移到別區（例如文學網站）時，在原課程頁籤留的一行提示 */
+.course-moved {
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  border-left: 3px solid var(--color-accent-gold);
+  background-color: rgba(184, 134, 11, 0.06);
+  color: var(--color-text-secondary);
 }
 
 /* ===================================

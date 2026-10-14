@@ -24,7 +24,7 @@ content/        網站內容（Markdown）；每個單元是一個資料夾，�
 content/news/   最新動態，一篇文章一個檔案
 layouts/        版面模板
 static/css      樣式
-static/js       前端腳本（輪播、選單、燈箱、教學網站分頁）
+static/js       前端腳本（輪播、選單、燈箱、課程講義分頁）
 static/files    論文、講義等 PDF
 static/images   照片與圖片
 static/song     民間歌謠教學研究網（2004 年建置的靜態站，原樣保存）

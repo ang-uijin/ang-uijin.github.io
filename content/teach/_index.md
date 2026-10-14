@@ -1,7 +1,7 @@
 ---
-title: 教學網站
+title: 課程講義
 date: 2025-01-01
-description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、民間文學概論等。
+description: 洪惟仁教授的課程講義：18 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、民間文學概論等。
 ---
 
 <div class="course-container">
@@ -151,6 +151,7 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
 
 <div class="course-content" id="folklore-intro">
   <h3>民間文學概論</h3>
+  <p class="course-moved">本課已移到<a href="/literature/#民間文學概論">文學網站</a>。</p>
   <h4>講義教材</h4>
   <ul>
     <li><a href="/files/teach/folklore-intro/01民間文學概論.pdf" target="_blank">民間文學概論</a></li>
@@ -168,6 +169,7 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
 
 <div class="course-content" id="poetry-chanting">
   <h3>詩詞吟唱</h3>
+  <p class="course-moved">本課已移到<a href="/literature/#詩詞吟唱">文學網站</a>。</p>
   <p class="course-empty">課程資料整理中。</p>
 <ul><li><a href="/files/teach/詩吟新論20260909.pdf" target="_blank">詩吟新論20260909</a></li></ul>
 <ul><li><a href="https://www.youtube.com/watch?v=IuSzZsSYpH4" target="_blank">20260830 治言齋學堂 - 蘇軾《定風波》</a></li></ul>
@@ -187,6 +189,7 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
 
 <div class="course-content" id="taiwan-documents">
   <h3>台灣語言文獻</h3>
+  <p class="course-moved">〈台語文學个分類與分期〉已移到<a href="/literature/">文學網站</a>。</p>
   <h4>講義教材</h4>
   <ul>
     <li><a href="/files/teach/taiwan-documents/2010台語文學个分類與分期_洪惟仁.pdf" target="_blank">台文文學个分類與分期（上）（下）：自開台至1995年</a></li>
@@ -198,27 +201,7 @@ description: 洪惟仁教授的教學網站：18 門課程的教學大綱與講�
 
 <div class="course-content" id="online">
   <h3>線上教材</h3>
-  <p>洪惟仁歷年製作的教學網站。原站多已下線，2026 年重建後收在本站，點進去就能直接使用。</p>
-  <h4>台語教材</h4>
-  <ul>
-    <li><span class="date">2001</span><a href="/class/" target="_blank">台灣話e網情深</a> <span class="source">台語教材 12 課：漫畫、課文朗讀、詞彙、練習</span></li>
-    <li><span class="date">2007</span><a href="/tailo/" target="_blank">臺灣閩南語羅馬拼音及其發音學習網</a> <span class="source">課文、台灣十五音字母表、發音練習、音標測驗（發音錄音大多佚失）</span></li>
-    <li><span class="date">2015</span><a href="/teacher/" target="_blank">洪惟仁設計的教學資源</a> <span class="source">音標介紹、教材與教學方法講義、分類諺語 31 篇</span></li>
-  </ul>
-  <h4>吟詩</h4>
-  <ul>
-    <li><span class="date">2002</span><a href="/gimsi/" target="_blank">吟詩集錦</a> <span class="source">周植夫、邱燮友、施文炳等六位先生吟誦古典詩的錄音與逐字標音（鹿港三位詩人的錄音尚未找到）</span></li>
-  </ul>
-  <h4>民間歌謠</h4>
-  <ul>
-    <li><span class="date">2024</span><a href="/song/" target="_blank">民間歌謠網站</a> <span class="source">相褒歌的演唱影片與歌詞同頁對照</span></li>
-    <li><span class="date">2004</span><a href="/taiwansong/" target="_blank">民間歌謠教學研究網（2004–2008 年原版）</a> <span class="source">486 首歌謠的歌詞、中譯、演唱影片與說明，歌手分佈地圖，相褒歌專著</span></li>
-  </ul>
-  <h4>工作坊與研討會</h4>
-  <ul>
-    <li><span class="date">2012</span><a href="/ogawa/" target="_blank">語言、地理、歷史跨領域研究工作坊</a> <span class="source">2008–2017 年共十六次，存歷屆論文</span></li>
-    <li><span class="date">2007</span><a href="/ogawa100/" target="_blank">台灣語言學一百周年國際學術研討會</a> <span class="source">紀念小川尚義教授，存計畫緣起與十二篇講義</span></li>
-  </ul>
+  <p>洪惟仁歷年製作的線上教材與網站，現在分成三區（頂端選單的「教學」「文學」「研究」）：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣閩南語羅馬拼音及其發音學習網、洪惟仁設計的教學資源）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
 </div>
 
 <div class="course-content" id="links">

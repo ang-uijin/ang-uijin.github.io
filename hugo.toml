@@ -20,7 +20,7 @@ timeZone = 'Asia/Taipei'
     list = 'local'
   [cascade.target]
     kind = 'page'
-    path = '{/bio,/book,/colloquium,/commentary,/essay,/history,/lecture,/media,/paper,/plan,/preface,/study,/translate,/write}/**'
+    path = '{/bio,/book,/colloquium,/commentary,/essay,/history,/lecture,/literature,/media,/paper,/plan,/preface,/study,/teaching,/translate,/write}/**'
 
 # 首頁多出一份 index.json 給站內搜尋用；section 頁一律不出 RSS
 # （否則 12 個書目 section 會把 445 條沒有網址的條目當成文章列出來）。
@@ -200,18 +200,32 @@ timeZone = 'Asia/Taipei'
 
   [[menu.main]]
     identifier = 'study'
-    name = '研究網站'
+    name = '研究'
     url = '/study/'
     weight = 7
 
   [[menu.main]]
-    identifier = 'teach'
-    name = '教學網站'
-    url = '/teach/'
+    identifier = 'teaching'
+    name = '教學'
+    url = '/teaching/'
     weight = 8
+
+  [[menu.main]]
+    identifier = 'literature'
+    name = '文學'
+    url = '/literature/'
+    weight = 9
+
+  # 選單標籤用短名（研究／教學／文學），各區頁面標題仍是「研究網站」「教學網站」「文學網站」。
+  # 課程講義頁：網址維持 /teach/（外面有連結）；「教學」是另一區 /teaching/
+  [[menu.main]]
+    identifier = 'teach'
+    name = '課程講義'
+    url = '/teach/'
+    weight = 10
 
   [[menu.main]]
     identifier = 'news'
     name = '最新動態'
     url = '/news/'
-    weight = 9
+    weight = 11

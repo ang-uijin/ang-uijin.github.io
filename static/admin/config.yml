@@ -28,7 +28,7 @@ collections:
       - {label: "原始連結（可不填）", name: "link", widget: "string", required: false}
       - {label: "內文", name: "body", widget: "markdown"}
 
-  # 以下 14 個書目頁是 entry collection：一條書目一個檔（content/<section>/*.md），
+  # 以下 16 個頁面是 entry collection（14 個書目頁，加上教學網站、文學網站）：一條一個檔（content/<section>/*.md），
   # 後台搜尋直接搜到單篇。weight 是排序用，列表頁的「排序」模式拖曳會自動改；
   # 新增的條目 weight 為 0，Hugo 會排在最底下，要調位置就進排序模式拖。
   # index_file 是各頁自己的 _index.md（標題、頁面說明）。
@@ -409,6 +409,62 @@ collections:
       # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
       - {name: "weight", widget: "hidden", default: 0}
 
+  # 教學網站（/teaching/）與文學網站（/literature/）：跟研究網站一樣一條一檔，
+  # 條目可以連到站內子站（例如 /class/）、外部網址，或直接上傳 PDF。
+  - name: "teaching"
+    label: "教學網站"
+    label_singular: "一筆網站"
+    folder: "content/teaching"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
+    media_folder: "/static/files/teaching"
+    public_folder: "/files/teaching"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
+  - name: "literature"
+    label: "文學網站"
+    label_singular: "一筆條目"
+    folder: "content/literature"
+    create: true
+    slug: "{{fields.date_text}}-{{slug}}"
+    summary: "{{date_text}}　{{title}}"
+    reorder: {key: "weight"}
+    sortable_fields: ["weight", "date_text", "title", "file"]
+    view_groups:
+      - {label: "分類", field: "category"}
+    media_folder: "/static/files/literature"
+    public_folder: "/files/literature"
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "分類", name: "category", widget: "string", required: false, hint: "例：民間文學概論、詩詞吟唱。同一個分類的條目要排在一起（用列表的排序功能拖）；網站類的條目留空、排在最前面，就不會有小標題"}
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
+      - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
+      - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
+
 # 以下 8 個手寫頁面用 singletons：側邊欄第一層，點一下直接開編輯器。
 singletons:
 
@@ -463,7 +519,7 @@ singletons:
 
   # ===== 其他 =====
   - name: "teach"
-    label: "教學網站"
+    label: "課程講義"
     file: "content/teach/_index.md"
     media_folder: "/static/files/teach"
     public_folder: "/files/teach"
