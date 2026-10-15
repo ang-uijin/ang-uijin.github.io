@@ -67,7 +67,7 @@ timeZone = 'Asia/Taipei'
 
   [[menu.main]]
     identifier = 'aboutme-media'
-    name = '受訪與報導'
+    name = '訪問與報導'
     parent = 'aboutme'
     url = '/media/'
     weight = 3
