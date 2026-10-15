@@ -206,30 +206,43 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
 
 <div class="course-content" id="online">
   <h3>線上教材</h3>
-  <p>洪惟仁歷年製作的線上教材與網站，現在分成三區（頂端選單的「教學」「文學」「研究」）：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣閩南語羅馬拼音及其發音學習網、臺灣哲諺）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
+  <p>洪惟仁歷年製作的線上教材與網站，現在分成三區（頂端選單的「教學」「文學」「研究」）：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣閩南語羅馬拼音及其發音學習網、臺灣哲諺、Podcast「這馬講台語」）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
 </div>
 
 <div class="course-content" id="links">
   <h3>推薦連結</h3>
-  <h4>Podcast「這馬講台語」阿土伯開講</h4>
-  <p>2024 年 9 月至 11 月每週一集，共 12 集，由洪惟仁主講；各集連到 SoundOn，Apple Podcasts、Spotify、YouTube 也找得到。<a href="https://taiwanschool.org/podcast" target="_blank">節目首頁</a></p>
+  <h4>研究</h4>
   <ul>
-    <li><span class="date">2024/09/06</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/81453751-7d8d-4a6a-a4be-44193d72586c" target="_blank">001｜台語還是閩南語？「臺灣台語」？</a></li>
-    <li><span class="date">2024/09/14</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/f2be42c6-cbf4-4dc8-8dae-ed712071fcaf" target="_blank">002｜台灣的語言競爭</a></li>
-    <li><span class="date">2024/09/21</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/ec7e22f5-344c-439a-9bc6-f65fc815284c" target="_blank">003｜台灣的語言戰爭</a></li>
-    <li><span class="date">2024/09/28</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/b058d735-1c41-45cc-995f-20602aaa5fbb" target="_blank">004｜台灣的語言生態</a></li>
-    <li><span class="date">2024/10/05</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/613d7ac9-1206-4966-b990-14b14a1982f0" target="_blank">005｜語言的生存之道</a></li>
-    <li><span class="date">2024/10/12</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/14983915-a8ad-4150-94ad-763c20546d3c" target="_blank">006｜台灣的語言政策</a></li>
-    <li><span class="date">2024/10/19</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/5a1527a3-a278-4f5a-8d9b-08c5f3f769cb" target="_blank">007｜台灣話的形成</a></li>
-    <li><span class="date">2024/10/26</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/d7715203-d268-423c-950a-d83d859c4b91" target="_blank">008｜漳泉濫的台語</a></li>
-    <li><span class="date">2024/11/02</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/1e6f2451-e6af-45cc-aea6-b5b1b259ceca" target="_blank">009｜台語的多元腔調</a></li>
-    <li><span class="date">2024/11/09</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/4526e3df-b174-49f6-a30a-e0e48cb45b56" target="_blank">010｜歷來的閩南語字典</a></li>
-    <li><span class="date">2024/11/16</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/1ba37052-20e1-471a-8df0-f95545fafefa" target="_blank">011｜台語的書寫與文字</a></li>
-    <li><span class="date">2024/11/23</span><a href="https://player.soundon.fm/p/f9139f6b-5a89-4c1f-9af4-470fc339a734/episodes/1fe2f33c-9e6b-400f-af31-4b704de7dcfe" target="_blank">012｜AI時代的台語</a></li>
+    <li><a href="https://twlls.org.tw/" target="_blank">台灣語文學會</a></li>
   </ul>
-  <h4>影片</h4>
+  <h4>語言</h4>
   <ul>
-    <li><span class="date">2021/07/14</span><a href="https://www.youtube.com/watch?v=QV5rNRSsh3o" target="_blank">【Fumi】三分鐘學會「韻類」，看懂台語專家洪惟仁老師研究的方言差！</a> <span class="source">精銳台語文 sak 砲戰船 Elite Taigibun Sak Cannon Galleon</span></li>
+    <li><span class="date">2021/07/14</span><a href="https://www.youtube.com/watch?v=QV5rNRSsh3o" target="_blank">【Fumi】三分鐘學會「韻類」，看懂台語專家洪惟仁老師研究的方言差！</a> <span class="source">精銳台語文 sak 砲戰船 Elite Taigibun Sak Cannon Galleon（YouTube）</span></li>
+  </ul>
+  <h4>文學</h4>
+  <ul>
+    <li><a href="https://db.nmtl.gov.tw/site3/dindex" target="_blank">臺灣文學館線上資料平臺：台語文數位典藏資料庫</a></li>
+    <li><a href="https://www.kaphing.idv.tw/zhao/" target="_blank">趙天福‧演詩館</a></li>
+  </ul>
+  <h4>南管</h4>
+  <ul>
+    <li><a href="https://www.facebook.com/NanguanXinXin/" target="_blank">心心南管樂坊</a> <span class="source">臉書粉絲專頁</span></li>
+  </ul>
+  <h4>歌仔戲</h4>
+  <ul>
+    <li><a href="https://www.facebook.com/lcctwart/" target="_blank">財團法人廖瓊枝歌仔戲文教基金會</a> <span class="source">臉書粉絲專頁</span></li>
+  </ul>
+  <h4>台語歌</h4>
+  <ul>
+    <li><a href="https://sites.google.com/view/taiwanese-hokkien/%E5%8F%B0%E8%AA%9E" target="_blank">台語歌曲羅馬字收錄</a></li>
+    <li><a href="https://www.facebook.com/jasmin.chen.399" target="_blank">陳潔民</a> <span class="source">臉書</span></li>
+  </ul>
+  <h4>歌謠</h4>
+  <ul>
+    <li><a href="https://www.facebook.com/twhakka1991/" target="_blank">台灣客家山歌團</a> <span class="source">臉書粉絲專頁</span></li>
+    <li><a href="http://www.dang.idv.tw/country.htm" target="_blank">台灣歌謠─思想起</a></li>
+    <li><a href="https://www.youtube.com/@user-siopokua" target="_blank">相褒歌（林金城 YouTube 頻道）</a></li>
+    <li><a href="/song/books.htm">相褒歌書目</a> <span class="source">民間歌謠網站</span></li>
   </ul>
 </div>
 
