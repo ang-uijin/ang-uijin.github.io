@@ -61,6 +61,11 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
   <ul>
     <li><a href="/files/teach/chinese-phonetics/發音圖.bmp" target="_blank">發音圖</a></li>
   </ul>
+  <h4>補充講義</h4>
+  <ul>
+    <li><a href="/files/teach/chinese-phonetics/閩客華語的音韻系統_駱嘉鵬.pdf" target="_blank">閩客華語的音韻系統（駱嘉鵬）</a></li>
+    <li><a href="/files/teach/chinese-phonetics/華台音對應轉換練習題_駱嘉鵬.pdf" target="_blank">華台音對應轉換練習題（駱嘉鵬）</a></li>
+  </ul>
 </div>
 
 <div class="course-content" id="minnan-intro">
@@ -78,11 +83,27 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
     <li><a href="/files/teach/minnan-intro/07第七講　台灣話的語法特色.pdf" target="_blank">第七講　台灣話的語法特色</a></li>
     <li><a href="/files/teach/minnan-intro/08第八講　本土語文教學的理論與實踐.pdf" target="_blank">第八講　本土語文教學的理論與實踐</a></li>
   </ul>
+  <h4>補充講義</h4>
+  <ul>
+    <li><a href="/files/teach/minnan-intro/台灣鄉土語言源流及特色_洪惟仁.pdf" target="_blank">台灣鄉土語言源流及特色</a></li>
+    <li><a href="/files/teach/minnan-intro/台灣閩南語的詞彙特色簡介_連金發_8頁.pdf" target="_blank">台灣閩南語的詞彙特色簡介（連金發，8 頁版）</a></li>
+    <li><a href="/files/teach/minnan-intro/台灣閩南語的詞彙特色簡介_連金發_16頁.pdf" target="_blank">台灣閩南語的詞彙特色簡介（連金發，16 頁版）</a></li>
+    <li><a href="/files/teach/minnan-intro/閩南語的語法特色_盧廣誠.pdf" target="_blank">閩南語的語法特色（盧廣誠）</a></li>
+    <li><a href="/files/teach/minnan-intro/台灣閩南語的句法特色_盧廣誠.pdf" target="_blank">台灣閩南語的句法特色（盧廣誠）</a></li>
+    <li><a href="/files/teach/minnan-intro/客語的詞彙特色_古國順.pdf" target="_blank">客語的詞彙特色（古國順）</a></li>
+    <li><a href="/files/teach/minnan-intro/客語的句法特點_賴惠玲.pdf" target="_blank">客語的句法特點（賴惠玲）</a></li>
+  </ul>
 </div>
 
 <div class="course-content" id="minnan-teaching">
   <h3>閩南語教學</h3>
-  <p class="course-empty">課程資料整理中。</p>
+  <h4>講義教材</h4>
+  <ul>
+    <li><a href="/files/teach/minnan-teaching/母語教學的意義與方法_洪惟仁.pdf" target="_blank">母語教學的意義與方法</a></li>
+    <li><a href="/files/teach/minnan-teaching/閩南語母語教材編寫_洪惟仁.pdf" target="_blank">閩南語母語教材編寫</a></li>
+    <li><a href="/files/teach/minnan-teaching/論閩南語教材的書寫問題_洪惟仁.pdf" target="_blank">論閩南語教材的書寫問題</a></li>
+    <li><a href="/files/teach/minnan-teaching/台灣母語教育的理論與實際_曹逢甫.pdf" target="_blank">台灣母語教育的理論與實際（曹逢甫）</a></li>
+  </ul>
 </div>
 
 <div class="course-content" id="taiwanese-pronunciation">
@@ -91,11 +112,24 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
   <ul>
     <li><a href="/files/teach/taiwanese-pronunciation/台灣羅馬字書寫法.pdf" target="_blank">台灣羅馬字書寫法</a></li>
   </ul>
+  <h4>TLPA 音標</h4>
+  <p>TLPA（台灣語言音標方案）是台灣語文學會 1991–1992 年訂定的音標，1998 年教育部公告的「閩南語音標系統」以它為基礎；2006 年教育部另行公告臺灣閩南語羅馬字拼音方案（臺羅）。</p>
+  <ul>
+    <li><a href="/files/teach/taiwanese-pronunciation/TLPA的特色_洪惟仁.pdf" target="_blank">TLPA的特色</a></li>
+    <li><a href="/files/teach/taiwanese-pronunciation/臺灣語言音標方案的擬議和完成_董忠司.pdf" target="_blank">臺灣語言音標方案的擬議和完成（董忠司）</a></li>
+    <li><a href="/files/teach/taiwanese-pronunciation/TLPA台灣閩南語音標系統.pdf" target="_blank">TLPA 台灣閩南語音標系統（表）</a></li>
+    <li><a href="/files/teach/taiwanese-pronunciation/TLPA與教會羅馬字差異對照表.pdf" target="_blank">TLPA 與教會羅馬字差異對照表</a></li>
+    <li><a href="/files/teach/taiwanese-pronunciation/教育部公告閩南語音標系統1998.pdf" target="_blank">教育部公告「閩南語音標系統」（1998）</a></li>
+  </ul>
 </div>
 
 <div class="course-content" id="linguistics-intro">
   <h3>語言學概論</h3>
-  <p class="course-empty">課程資料整理中。</p>
+  <h4>講義教材</h4>
+  <ul>
+    <li><a href="/files/teach/linguistics-intro/語言與社會_洪惟仁.pdf" target="_blank">語言與社會</a></li>
+    <li><a href="/files/teach/linguistics-intro/言談分析概論_李櫻.pdf" target="_blank">言談分析概論（李櫻）</a></li>
+  </ul>
 </div>
 
 <div class="course-content" id="phonetics">
@@ -144,6 +178,10 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
   <h4>教學大綱</h4>
   <p>所謂「民間歌謠」包括民間文學韻文部分的民歌、童謠、童謎等韻文部分，但不包括諺語、歇後語等。民歌是民間歌謠最精彩的部分，本課程除大陸民歌之外，將著重在客家山歌和閩南語「相褒歌」的研究。俗文學部分著重於說唱的研究。「歌」的部分除了文學部分之外也兼及音樂部分，讓學生了解語言和曲調之間的關係。</p>
 <ul><li><a href="https://uijin.idv.tw/song" target="_blank">民間歌謠網站</a></li></ul>
+  <h4>講義教材</h4>
+  <ul>
+    <li><a href="/files/teach/folk-songs/語調與曲調的關係_洪惟仁.pdf" target="_blank">語調與曲調的關係</a></li>
+  </ul>
 </div>
 
 <div class="course-content" id="poetry-chanting">
@@ -168,7 +206,7 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
 
 <div class="course-content" id="online">
   <h3>線上教材</h3>
-  <p>洪惟仁歷年製作的線上教材與網站，現在分成三區（頂端選單的「教學」「文學」「研究」）：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣閩南語羅馬拼音及其發音學習網、洪惟仁設計的教學資源）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
+  <p>洪惟仁歷年製作的線上教材與網站，現在分成三區（頂端選單的「教學」「文學」「研究」）：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣閩南語羅馬拼音及其發音學習網、臺灣哲諺）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
 </div>
 
 <div class="course-content" id="links">
