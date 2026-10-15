@@ -1,7 +1,7 @@
 ---
 title: 課程講義
 date: 2025-01-01
-description: 洪惟仁教授的課程講義：18 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、民間文學概論等。
+description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、閩南語教學、台灣羅馬字書寫法、民間文學概論等，另有推薦連結。
 ---
 
 <div class="course-container">
@@ -11,9 +11,7 @@ description: 洪惟仁教授的課程講義：18 門課程的教學大綱與講�
   <button class="course-tab" data-course="chinese-phonetics">漢語語音與音韻</button>
   <button class="course-tab" data-course="minnan-intro">閩南語概論</button>
   <button class="course-tab" data-course="minnan-teaching">閩南語教學</button>
-  <button class="course-tab" data-course="minnan-conversation">閩南語會話</button>
-  <button class="course-tab" data-course="minnan-etiquette">閩南語會話禮儀</button>
-  <button class="course-tab" data-course="taiwanese-pronunciation">台語正音</button>
+  <button class="course-tab" data-course="taiwanese-pronunciation">台灣羅馬字書寫法</button>
   <button class="course-tab" data-course="linguistics-intro">語言學概論</button>
   <button class="course-tab" data-course="phonetics">語音學</button>
   <button class="course-tab" data-course="historical-phonology">聲韻學</button>
@@ -23,7 +21,6 @@ description: 洪惟仁教授的課程講義：18 門課程的教學大綱與講�
   <button class="course-tab" data-course="folklore-intro">民間文學概論</button>
   <button class="course-tab" data-course="folk-songs">民間歌謠</button>
   <button class="course-tab" data-course="poetry-chanting">詩詞吟唱</button>
-  <button class="course-tab" data-course="taiwan-customs">台灣民俗</button>
   <button class="course-tab" data-course="taiwan-documents">台灣語言文獻</button>
   <button class="course-tab" data-course="online">線上教材</button>
   <button class="course-tab" data-course="links">推薦連結</button>
@@ -88,26 +85,8 @@ description: 洪惟仁教授的課程講義：18 門課程的教學大綱與講�
   <p class="course-empty">課程資料整理中。</p>
 </div>
 
-<div class="course-content" id="minnan-conversation">
-  <h3>閩南語會話</h3>
-  <h4>教學大綱</h4>
-  <p>這個課程的目標是希望讓一些不會說閩南語的同學開口說話；或閩南語說不流利的說流利一點；希望說一口道地文雅的閩南語的學生也可以獲得一些助益。課程的設計主要著重趣味性與實用性，但也企圖為進入閩南語語文和閩南語概論建立基礎。想修閩南語語文和閩南語概論的同學最好先修這個課程。</p>
-</div>
-
-<div class="course-content" id="minnan-etiquette">
-  <h3>閩南語會話禮儀</h3>
-  <h4>教學大綱</h4>
-  <ul>
-    <li><a href="/files/teach/minnan-etiquette/951閩南語會話禮儀教學大綱.pdf" target="_blank">教學大綱（951）</a></li>
-  </ul>
-</div>
-
 <div class="course-content" id="taiwanese-pronunciation">
-  <h3>台語正音</h3>
-  <h4>教學大綱</h4>
-  <ul>
-    <li><a href="/files/teach/minnan-etiquette/951閩南語會話禮儀教學大綱.pdf" target="_blank">教學大綱（951）</a></li>
-  </ul>
+  <h3>台灣羅馬字書寫法</h3>
   <h4>講義教材</h4>
   <ul>
     <li><a href="/files/teach/taiwanese-pronunciation/台灣羅馬字書寫法.pdf" target="_blank">台灣羅馬字書寫法</a></li>
@@ -175,21 +154,9 @@ description: 洪惟仁教授的課程講義：18 門課程的教學大綱與講�
 <ul><li><a href="https://www.youtube.com/watch?v=IuSzZsSYpH4" target="_blank">20260830 治言齋學堂 - 蘇軾《定風波》</a></li></ul>
 </div>
 
-<div class="course-content" id="taiwan-customs">
-  <h3>台灣民俗</h3>
-  <h4>教學大綱</h4>
-  <p>2006年大甲媽祖進香團人文之旅</p>
-  <h4>講義教材</h4>
-  <ul>
-    <li>01 大甲媽祖進香過程研究</li>
-    <li><a href="/files/teach/taiwan-customs/02大甲媽祖進香團陣頭之研究.pdf" target="_blank">02 大甲媽祖進香團陣頭之研究</a></li>
-    <li><a href="/files/teach/taiwan-customs/03台灣媽祖傳說及其本土化現象.pdf" target="_blank">03 台灣媽祖傳說及其本土化現象</a></li>
-  </ul>
-</div>
-
 <div class="course-content" id="taiwan-documents">
   <h3>台灣語言文獻</h3>
-  <p class="course-moved">〈台語文學个分類與分期〉已移到<a href="/literature/">文學網站</a>。</p>
+  <p class="course-moved">〈台語文學个分類與分期〉與〈台語文學的分期〉已移到<a href="/literature/">文學網站</a>。</p>
   <h4>講義教材</h4>
   <ul>
     <li><a href="/files/teach/taiwan-documents/2010台語文學个分類與分期_洪惟仁.pdf" target="_blank">台文文學个分類與分期（上）（下）：自開台至1995年</a></li>
