@@ -63,7 +63,7 @@ collections:
       # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
       - {name: "weight", widget: "hidden", default: 0}
   - name: "media"
-    label: "受訪與報導"
+    label: "訪問與報導"
     label_singular: "一筆受訪"
     folder: "content/media"
     create: true
