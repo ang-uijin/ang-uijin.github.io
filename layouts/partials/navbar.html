@@ -69,7 +69,7 @@
     <li {{ if hasPrefix .RelPermalink "/study/" }}class="active"{{ end }}>
       <a href="/study/">研究</a>
     </li>
-    <li {{ if hasPrefix .RelPermalink "/teaching/" }}class="active"{{ end }}>
+    <li {{ if or (hasPrefix .RelPermalink "/teaching/") (hasPrefix .RelPermalink "/podcast/") }}class="active"{{ end }}>
       <a href="/teaching/">教學</a>
     </li>
     <li {{ if hasPrefix .RelPermalink "/literature/" }}class="active"{{ end }}>

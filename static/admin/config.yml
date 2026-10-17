@@ -465,7 +465,7 @@ collections:
       # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
       - {name: "weight", widget: "hidden", default: 0}
 
-# 以下 8 個手寫頁面用 singletons：側邊欄第一層，點一下直接開編輯器。
+# 以下 7 個手寫頁面用 singletons：側邊欄第一層，點一下直接開編輯器。
 singletons:
 
   # ===== 我是啥人 =====
@@ -526,4 +526,13 @@ singletons:
     fields:
       - {label: "標題", name: "title", widget: "string"}
       - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+      - {label: "內容", name: "body", widget: "markdown"}
+  # Podcast「這馬講台語」的集數頁（/podcast/），2026-10-16 從課程講義拆出來、列在教學網站
+  - name: "podcast"
+    label: "Podcast 這馬講台語"
+    file: "content/podcast.md"
+    fields:
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+      - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
       - {label: "內容", name: "body", widget: "markdown"}

@@ -189,6 +189,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const hashTab = Array.from(courseTabs).find(t => t.getAttribute('data-course') === hashCourse);
     if (hashTab) {
       hashTab.click();
+      // 分頁內容原本是 display:none，瀏覽器載入時捲不到它；打開後再捲一次（scroll-margin-top 會避開固定選單）
+      const opened = document.getElementById(hashCourse);
+      if (opened) {
+        opened.scrollIntoView();
+      }
     }
   }
 });
