@@ -5,6 +5,9 @@ defaultContentLanguage = 'zh-tw'
 hasCJKLanguage = true
 enableRobotsTXT = true
 timeZone = 'Asia/Taipei'
+# 這個站沒有用 tags／categories 分類（書目的「分類」是 front matter 的 category 字串，不是 taxonomy），
+# 不關掉的話 Hugo 會多產生空的 /categories/ 與 /tags/ 兩頁、還進 sitemap。
+disableKinds = ['taxonomy', 'term']
 
 [params]
   description = '臺灣語言學者洪惟仁教授的個人網站「治言齋」，收錄學術論文、專書、雜文、演講與教學資料，研究領域為閩南語音韻學、地理語言學與社會語言學。'

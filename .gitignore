@@ -24,7 +24,7 @@ CLAUDE.md
 # 家銓分享的 Google Drive 資料（2.8GB，不進 repo）
 /網路重整/
 
-# 內部文件與本機工具設定，不進公開 repo
-/docs/
-/.claude/
+# 內部文件與本機工具設定，不進公開 repo（不加尾端斜線：這兩個在本機是 symlink，加了斜線就不會被忽略）
+/docs
+/.claude
 .hugo_build.lock
