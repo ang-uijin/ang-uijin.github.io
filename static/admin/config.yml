@@ -10,6 +10,10 @@ slug: {maxlength: 60}
 media_folder: "static/images"
 public_folder: "/images"
 
+# 選檔視窗不列 Lorem Picsum、Pexels 等網路圖庫：用不到，只會讓人看不懂
+media_libraries:
+  stock_assets: false
+
 collections:
   # ===== 最新動態：一篇一檔 =====
   - name: "news"
