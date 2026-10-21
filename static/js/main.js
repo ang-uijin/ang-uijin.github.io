@@ -186,6 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Open the tab named in the URL hash (e.g. /teach/#online)
     const hashCourse = window.location.hash.slice(1);
+    if (hashCourse === 'links') { window.location.replace('/links/'); }   // 2026-10-21 推薦連結分頁搬去 /links/（相關連結），舊網址轉過去
     const hashTab = Array.from(courseTabs).find(t => t.getAttribute('data-course') === hashCourse);
     if (hashTab) {
       hashTab.click();

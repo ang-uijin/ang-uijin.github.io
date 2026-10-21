@@ -3,7 +3,7 @@
   entries：一條一檔的 section（書目，以及研究／教學／文學網站）的每一條（不含網頁，只有列表資料），欄位與列表頁相同。
   pages  ：其餘有文字內容的頁面（最新動態、簡介、寫真館、課程講義……），存純文字給關鍵字比對用。
 */ -}}
-{{- $sections := slice "bio" "book" "colloquium" "commentary" "essay" "history" "lecture" "literature" "media" "paper" "plan" "preface" "study" "teaching" "translate" "write" -}}
+{{- $sections := slice "bio" "book" "colloquium" "commentary" "essay" "history" "lecture" "links" "literature" "media" "paper" "plan" "preface" "study" "teaching" "translate" "write" -}}
 {{- $entries := slice -}}
 {{- range $sections -}}
   {{- with site.GetPage . -}}

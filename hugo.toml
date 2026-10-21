@@ -10,7 +10,7 @@ timeZone = 'Asia/Taipei'
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  description = '臺灣語言學者洪惟仁教授的個人網站「治言齋」，收錄學術論文、專書、雜文、演講與教學資料，研究領域為閩南語音韻學、地理語言學與社會語言學。'
+  description = '臺灣語言學者洪惟仁教授的個人網站「治言齋」，收錄學術論文、專書、雜文、影音與教學資料，研究領域為閩南語音韻學、地理語言學與社會語言學。'
   author = '洪惟仁 Ang Uijin'
   copyright = '洪惟仁 版權所有©2026 Uijin Ang All Rights Reserved.'
 
@@ -23,7 +23,7 @@ disableKinds = ['taxonomy', 'term']
     list = 'local'
   [cascade.target]
     kind = 'page'
-    path = '{/bio,/book,/colloquium,/commentary,/essay,/history,/lecture,/literature,/media,/paper,/plan,/preface,/study,/teaching,/translate,/write}/**'
+    path = '{/bio,/book,/colloquium,/commentary,/essay,/history,/lecture,/links,/literature,/media,/paper,/plan,/preface,/study,/teaching,/translate,/write}/**'
 
 # 首頁多出一份 index.json 給站內搜尋用；section 頁一律不出 RSS
 # （否則 12 個書目 section 會把 445 條沒有網址的條目當成文章列出來）。
@@ -197,7 +197,7 @@ disableKinds = ['taxonomy', 'term']
 
   [[menu.main]]
     identifier = 'lecture'
-    name = '演講'
+    name = '影音'
     url = '/lecture/'
     weight = 6
 
@@ -228,7 +228,13 @@ disableKinds = ['taxonomy', 'term']
     weight = 10
 
   [[menu.main]]
+    identifier = 'links'
+    name = '相關連結'
+    url = '/links/'
+    weight = 11
+
+  [[menu.main]]
     identifier = 'news'
     name = '最新動態'
     url = '/news/'
-    weight = 11
+    weight = 12

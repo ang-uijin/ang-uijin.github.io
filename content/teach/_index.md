@@ -1,7 +1,7 @@
 ---
 title: 課程講義
 date: 2025-01-01
-description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、閩南語教學、台灣羅馬字書寫法、民間文學概論等，另有推薦連結。
+description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講義教材，涵蓋比較音韻學、閩南語概論、閩南語教學、台灣羅馬字書寫法、民間文學概論等；推薦的相關網站已移到「相關連結」。
 ---
 
 <div class="course-container">
@@ -23,7 +23,6 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
   <button class="course-tab" data-course="poetry-chanting">詩詞吟唱</button>
   <button class="course-tab" data-course="taiwan-documents">台灣語言文獻</button>
   <button class="course-tab" data-course="online">線上教材</button>
-  <button class="course-tab" data-course="links">推薦連結</button>
 </div>
 
 <div class="course-contents">
@@ -209,42 +208,6 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
   <p>洪惟仁歷年製作的線上教材與網站，現在分成三區（頂端選單的「教學」「文學」「研究」）：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣閩南語羅馬拼音及其發音學習網、臺灣哲諺、Podcast「這馬講台語」）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
 </div>
 
-<div class="course-content" id="links">
-  <h3>推薦連結</h3>
-  <h4>研究</h4>
-  <ul>
-    <li><a href="https://twlls.org.tw/" target="_blank">台灣語文學會</a></li>
-  </ul>
-  <h4>語言</h4>
-  <ul>
-    <li><span class="date">2021/07/14</span><a href="https://www.youtube.com/watch?v=QV5rNRSsh3o" target="_blank">【Fumi】三分鐘學會「韻類」，看懂台語專家洪惟仁老師研究的方言差！</a> <span class="source">精銳台語文 sak 砲戰船 Elite Taigibun Sak Cannon Galleon（YouTube）</span></li>
-  </ul>
-  <h4>文學</h4>
-  <ul>
-    <li><a href="https://db.nmtl.gov.tw/site3/dindex" target="_blank">臺灣文學館線上資料平臺：台語文數位典藏資料庫</a></li>
-    <li><a href="https://www.kaphing.idv.tw/zhao/" target="_blank">趙天福‧演詩館</a></li>
-  </ul>
-  <h4>南管</h4>
-  <ul>
-    <li><a href="https://www.facebook.com/NanguanXinXin/" target="_blank">心心南管樂坊</a> <span class="source">臉書粉絲專頁</span></li>
-  </ul>
-  <h4>歌仔戲</h4>
-  <ul>
-    <li><a href="https://www.facebook.com/lcctwart/" target="_blank">財團法人廖瓊枝歌仔戲文教基金會</a> <span class="source">臉書粉絲專頁</span></li>
-  </ul>
-  <h4>台語歌</h4>
-  <ul>
-    <li><a href="https://sites.google.com/view/taiwanese-hokkien/%E5%8F%B0%E8%AA%9E" target="_blank">台語歌曲羅馬字收錄</a></li>
-    <li><a href="https://www.facebook.com/jasmin.chen.399" target="_blank">陳潔民</a> <span class="source">臉書</span></li>
-  </ul>
-  <h4>歌謠</h4>
-  <ul>
-    <li><a href="https://www.facebook.com/twhakka1991/" target="_blank">台灣客家山歌團</a> <span class="source">臉書粉絲專頁</span></li>
-    <li><a href="http://www.dang.idv.tw/country.htm" target="_blank">台灣歌謠─思想起</a></li>
-    <li><a href="https://www.youtube.com/@user-siopokua" target="_blank">相褒歌（林金城 YouTube 頻道）</a></li>
-    <li><a href="/song/books.htm">相褒歌書目</a> <span class="source">民間歌謠網站</span></li>
-  </ul>
-</div>
 
 </div>
 </div>

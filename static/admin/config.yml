@@ -32,7 +32,7 @@ collections:
       - {label: "原始連結（可不填）", name: "link", widget: "string", required: false}
       - {label: "內文", name: "body", widget: "markdown"}
 
-  # 以下 16 個頁面是 entry collection（14 個書目頁，加上教學網站、文學網站）：一條一個檔（content/<section>/*.md），
+  # 以下 17 個頁面是 entry collection（14 個書目頁，加上教學網站、文學網站、相關連結；網站）：一條一個檔（content/<section>/*.md），
   # 後台搜尋直接搜到單篇。weight 是排序用，列表頁的「排序」模式拖曳會自動改；
   # 新增的條目 weight 為 0，Hugo 會排在最底下，要調位置就進排序模式拖。
   # index_file 是各頁自己的 _index.md（標題、頁面說明）。
@@ -364,14 +364,16 @@ collections:
       # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
       - {name: "weight", widget: "hidden", default: 0}
   - name: "lecture"
-    label: "演講"
-    label_singular: "一筆演講"
+    label: "影音"
+    label_singular: "一筆影音"
     folder: "content/lecture"
     create: true
     slug: "{{fields.date_text}}-{{slug}}"
     summary: "{{date_text}}　{{title}}"
     reorder: {key: "weight"}
     sortable_fields: ["weight", "date_text", "title", "file"]
+    view_groups:
+      - {label: "分類", field: "category"}
     media_folder: "/static/files/lecture"
     public_folder: "/files/lecture"
     index_file:
@@ -381,6 +383,7 @@ collections:
         - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
         - {label: "舊網址（轉址用，不要動）", name: "aliases", widget: "list", required: false}
     fields:
+      - {label: "分類", name: "category", widget: "string", required: false, hint: "例：影片、Podcast、演講紀錄。同一個分類的條目要排在一起（用列表的排序功能拖），分類名會變成小標題"}
       - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
       - {label: "標題", name: "title", widget: "string"}
       - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
@@ -465,6 +468,33 @@ collections:
       - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
       - {label: "檔案（上傳 PDF）", name: "file", widget: "file", required: false, hint: "沒有外部連結時才會用到"}
       - {label: "出處", name: "source", widget: "string", required: false}
+      - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
+      # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
+      - {name: "weight", widget: "hidden", default: 0}
+
+  # 相關連結（/links/）：2026-10-21 從課程講義頁的「推薦連結」分頁獨立出來，一條一檔；分類名就是列表上的小標題。
+  - name: "links"
+    label: "相關連結"
+    label_singular: "一筆連結"
+    folder: "content/links"
+    create: true
+    slug: "{{fields.category}}-{{slug}}"
+    summary: "{{category}}　{{title}}"
+    reorder: {key: "weight"}
+    sortable_fields: ["weight", "category", "title"]
+    view_groups:
+      - {label: "分類", field: "category"}
+    index_file:
+      fields:
+        - {label: "標題", name: "title", widget: "string"}
+        - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
+        - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
+    fields:
+      - {label: "分類", name: "category", widget: "string", required: true, hint: "依序：研究、語言、語言復振、文學、語文教學、南管、歌仔戲、台語歌、歌謠、電影。同一個分類的條目要排在一起（用列表的排序功能拖）；打新的分類名就會多一個小標題"}
+      - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "影片或文章才填，例：2021/07/14；網站留空"}
+      - {label: "名稱", name: "title", widget: "string"}
+      - {label: "網址", name: "link", widget: "string", required: true, hint: "完整網址，例：https://twlls.org.tw/"}
+      - {label: "說明（例：臉書粉絲專頁、YouTube）", name: "source", widget: "string", required: false}
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
       # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
       - {name: "weight", widget: "hidden", default: 0}
