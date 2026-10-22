@@ -58,6 +58,13 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face{
+    font-family: tauhu-oo;
+	src: local("TauhuOo20.05-Regular"),
+	 url(https://tauhu.tw/TauhuOo20.05-Regular.woff2) format("woff2"),
+	 url(https://tauhu.tw/TauhuOo20.05-Regular.otf) format("opentype");
+}
+
 body {
   font-family: var(--font-sans);
   font-size: 17px;
