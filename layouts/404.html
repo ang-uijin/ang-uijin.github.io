@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{/* 舊站（遠振主機）的 PDF 網址，例如 /storage/uploads/<uuid>/檔名.pdf、/doc/A/檔名.pdf，
+     Google 還收著、也還有人點。這裡把 static/files/ 底下每個檔的檔名（去掉全形／半形空白、轉小寫）對到新網址，
+     找不到的網頁若最後一段檔名對得上就直接跳過去。新增的 PDF 自動算進來，不用維護清單。 */}}
+{{ $map := dict }}
+{{ range os.ReadDir "static/files" }}
+  {{ $sub := .Name }}
+  {{ if .IsDir }}
+    {{ range os.ReadDir (printf "static/files/%s" $sub) }}
+      {{ $name := .Name }}
+      {{ if .IsDir }}
+        {{ range os.ReadDir (printf "static/files/%s/%s" $sub $name) }}
+          {{ if not .IsDir }}
+            {{ $key := replaceRE `[\s\x{3000}]` "" .Name | lower }}
+            {{ $map = merge $map (dict $key (printf "/files/%s/%s/%s" $sub $name .Name)) }}
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ $key := replaceRE `[\s\x{3000}]` "" $name | lower }}
+        {{ $map = merge $map (dict $key (printf "/files/%s/%s" $sub $name)) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<main class="main-content">
+  <article class="content-section">
+    <h1>找不到這一頁</h1>
+    <p id="moved" hidden>這個檔案搬家了，正在帶您到新的位置……</p>
+    <div id="notfound">
+      <p>這個網址在治言齋網站上找不到。網站在 2026 年改版，舊網址有些已經換了位置。</p>
+      <p>可以從<a href="/">首頁</a>找，或用<a id="search-link" href="/search/">站內搜尋</a>。</p>
+    </div>
+  </article>
+</main>
+<script>
+(function () {
+  var map = {{ $map | jsonify | safeJS }};
+  var path = location.pathname.replace(/\/+$/, "");
+  var last = path.slice(path.lastIndexOf("/") + 1);
+  try { last = decodeURIComponent(last); } catch (e) {}
+  var key = last.replace(/[\s　]/g, "").toLowerCase();
+  if (key && Object.prototype.hasOwnProperty.call(map, key) && map[key] !== location.pathname) {
+    document.getElementById("moved").hidden = false;
+    document.getElementById("notfound").hidden = true;
+    location.replace(encodeURI(map[key]));
+    return;
+  }
+  // 找不到對應的檔：網址最後一段有漢字的話（多半是舊檔名），去掉副檔名帶進站內搜尋
+  var word = last.replace(/\.[a-z0-9]{2,5}$/i, "").replace(/[_\-]+/g, " ").trim();
+  if (/[㐀-鿿]/.test(word)) {
+    document.getElementById("search-link").href = "/search/?q=" + encodeURIComponent(word);
+  }
+})();
+</script>
+{{ end }}

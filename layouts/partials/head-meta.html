@@ -2,7 +2,11 @@
 {{- with .Description }}{{ $desc = . }}{{ else }}{{ $desc = .Site.Params.description }}{{ end -}}
 {{- $title := "" -}}
 {{- if .IsHome }}{{ $title = .Site.Title }}{{ else }}{{ $title = printf "%s - %s" .Title .Site.Title }}{{ end -}}
+{{- if eq .Kind "404" }}{{ $title = printf "找不到這一頁 - %s" .Site.Title }}{{ end -}}
 <title>{{ $title }}</title>
+{{- if eq .Kind "404" }}
+<meta name="robots" content="noindex">
+{{- end }}
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">

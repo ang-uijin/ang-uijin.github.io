@@ -1,3 +1,4 @@
 User-agent: *
 
 Sitemap: {{ "sitemap.xml" | absURL }}
+Sitemap: {{ "sitemap-subsites.xml" | absURL }}
