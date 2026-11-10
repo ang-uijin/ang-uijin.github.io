@@ -18,7 +18,11 @@
       <li><b>沒有影片的 {{ len $noVideo }} 首</b>（原網站的影片檔當年就沒有留下，只有錄音）：
         {{- range $i, $x := $noVideo }}{{ if $i }}、{{ end }}<a href="{{ .RelPermalink }}">{{ .Params.no }}</a>{{ end }}。</li>
       <li><b>沒有歌詞與翻譯的 {{ len $noLyrics }} 首</b>：原網站只替台北地區的歌（第 001–103、201–226 首）做了歌詞與華語翻譯；花蓮、桃園的歌只有錄音與影片，大多也沒有曲名，只有編號。</li>
+      {{- if site.Data.song_lyrics }}
+      <li><b>歌詞文字還在校對</b>：歌詞與翻譯已經從 2001 年的原稿轉成文字，音標可以在臺羅與原來的 TLPA 之間切換；轉出來的文字還在校對，每一首都可以從「看原圖」打開原網站的歌詞圖對照。</li>
+      {{- else }}
       <li><b>歌詞還是圖片</b>：歌詞與翻譯目前是原網站的圖檔，音標是當年的寫法，還不能搜尋。改成文字（臺羅）的工作在進行中。</li>
+      {{- end }}
       <li><b>在合輯裡的 {{ len $comp }} 首影片</b>：這些歌在 YouTube 上是一位歌手一整支的合輯，頁面上只播該首的那一段；合輯的畫質比原來的影片低。
         {{- $muted := where $comp "Params.video.note" "!=" nil }}
         {{- with $muted }}其中 {{ range $i, $x := . }}{{ if $i }}、{{ end }}<a href="{{ .RelPermalink }}">{{ .Params.no }}</a>{{ end }} 這 {{ len . }} 首，合輯上開頭有幾秒沒有聲音，請聽錄音。{{ end }}</li>
