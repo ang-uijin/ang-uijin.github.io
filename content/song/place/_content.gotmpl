@@ -5,7 +5,7 @@
 {{- range site.Data.song.places -}}
   {{- $n := 0 -}}
   {{- range $cat, $cnt := .cats }}{{ if index $show $cat }}{{ $n = add $n $cnt }}{{ end }}{{ end -}}
-  {{- if or (gt $n 0) (and (eq .n_songs 0) (gt (len .extra_singers) 0)) -}}
+  {{- if or (gt $n 0) (and (not .n_songs) .extra_singers) -}}
     {{- $.AddPage (dict "path" .key "title" .name "layout" "place" "params" (dict "place" .name)) -}}
   {{- end -}}
 {{- end -}}

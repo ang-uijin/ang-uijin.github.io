@@ -7,7 +7,7 @@
   {{- range $cat, $cnt := .cats }}{{ if index $show $cat }}{{ $n = add $n $cnt }}{{ end }}{{ end -}}
   {{- $url := "" -}}
   {{- with site.GetPage (printf "/song/place/%s" .key) }}{{ $url = .RelPermalink }}{{ end -}}
-  {{- $places = merge $places (dict .name (dict "d" . "url" $url "n" $n "show" (or (gt $n 0) (and (eq .n_songs 0) (gt (len .extra_singers) 0))))) -}}
+  {{- $places = merge $places (dict .name (dict "d" . "url" $url "n" $n "show" (or (gt $n 0) (and (not .n_songs) .extra_singers)))) -}}
 {{- end -}}
 {{- $singers := dict -}}
 {{- range site.Data.song.singers -}}
