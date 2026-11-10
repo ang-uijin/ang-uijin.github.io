@@ -54,6 +54,7 @@
         <div class="sg-audio">
           <span class="sg-audio-label">{{ if $p.video }}只聽聲音（錄音）{{ else }}錄音{{ end }}</span>
           <audio controls preload="none" src="{{ . }}"></audio>
+          {{- with $p.audio_note }}<p class="sg-video-note">{{ . }}</p>{{ end }}
         </div>
         {{- else }}
         <p class="sg-gap">這一首沒有錄音檔。</p>
@@ -63,7 +64,7 @@
       {{- if $hasText }}
       <section class="sg-lyrics sg-lyrics-text" id="lyrics">
         <h2>歌詞</h2>
-        {{ partial "song-lyrics.html" $p.no }}
+        {{ partial "song-lyrics.html" (dict "no" $p.no "page" $) }}
         <p class="sg-orig">看原圖：{{ with $p.lyrics_img }}<a href="{{ .src }}" target="_blank" rel="noopener">歌詞圖</a>{{ end }}{{ with $p.trans_img }}　<a href="{{ .src }}" target="_blank" rel="noopener">中譯圖</a>{{ end }}</p>
       </section>
       {{- else if or $p.lyrics_img $p.trans_img }}
