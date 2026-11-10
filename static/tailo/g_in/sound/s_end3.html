@@ -46,23 +46,23 @@ SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
 var TL_SND = "../../voice/", TL_HAVE = {};
 function setFileName(f) {
   var a = document.getElementById("tl-audio"); if (!a) return;
-  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這裡的錄音還沒有接上，所以沒有聲音（原網站的錄音檔沒有保存下來）"); return; }
   a.src = TL_SND + f; a.play().catch(function () {});
 }
 function tlNote(msg) {
   var n = document.getElementById("tl-note");
   if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
-  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 5000);
 }
 </script>
 <style>
-#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:8px 16px;border-radius:4px;font-size:14px;line-height:1.5;z-index:99;box-sizing:border-box;width:max-content;max-width:92%;text-align:center}
 [onclick*="setFileName"]{cursor:pointer}
 .snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
 .snd-missing{cursor:default!important;text-decoration:none}
 img.snd-missing{opacity:.35}
 </style>
-<body>
+<body><div class="tl-warn"><style>.tl-warn{box-sizing:border-box;margin:0 0 8px;padding:7px 12px;background:#fff4d6;border:1px solid #d9a441;border-left-width:5px;border-radius:3px;color:#5a3a1a;font:14px/1.6 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;text-align:left}.tl-warn b{color:#a33a00}.tl-warn a{color:#8a3b12}</style><b>本頁的錄音還沒有接上，點字詞或音標不會有聲音。</b>原網站的錄音檔沒有保存下來，要從原始錄音重新整理才能補上。<a href="../../notice.htm#audio" target="_top">詳見說明</a></div>
 <table width="570" height="584" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
@@ -165,55 +165,55 @@ img.snd-missing{opacity:.35}
         <td align="center" bgcolor="#CCCC99" class="style17"><p>入聲 </p></td>
       </tr>
       <tr>
-        <td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_end63_019.wav')" title="音檔已佚失（Wayback 未存）"><p>口音韻 </p></td>
+        <td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_end63_019.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><p>口音韻 </p></td>
         <td align="center" bgcolor="#FFFFCC" class="style17"><table width="120" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_001.wav')" title="音檔已佚失（Wayback 未存）">a,</td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_001.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">a,</td>
             
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_002.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">ai,</span></td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_003.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">au</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_002.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">ai,</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_003.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">au</span></td>
             </tr>
         </table></td>
         <td align="center" bgcolor="#FFFFCC" class="style17"><table width="145" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_004.wav')" title="音檔已佚失（Wayback 未存）">ah,</td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_005.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">aih,</span></td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_006.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer"> auh</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_004.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">ah,</td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_005.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">aih,</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_006.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer"> auh</span></td>
             </tr>
         </table></td>
       </tr>
       <tr>
-        <td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_end63_020.wav')" title="音檔已佚失（Wayback 未存）"><p>鼻音韻 </p></td>
+        <td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_end63_020.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><p>鼻音韻 </p></td>
         <td align="center" bgcolor="#FFFFCC" class="style17"><table width="120" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_007.wav')" title="音檔已佚失（Wayback 未存）">ann,                </td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_008.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">ainn,</span></td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_009.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">aunn</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_007.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">ann,                </td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_008.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">ainn,</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_009.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">aunn</span></td>
             </tr>
         </table></td>
         <td align="center" bgcolor="#FFFFCC" class="style17"><table width="145" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_010.wav')" title="音檔已佚失（Wayback 未存）">annh,</td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_011.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">ainnh,</span></td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_012.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">aunnh</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_010.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">annh,</td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_011.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">ainnh,</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_012.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">aunnh</span></td>
             </tr>
         </table></td>
       </tr>
       <tr>
-        <td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_end63_021.wav')" title="音檔已佚失（Wayback 未存）"><p>閉尾韻 </p></td>
+        <td align="center" bgcolor="#CCCC99" class="snd-missing style17" style="cursor:pointer" onClick="setFileName('s_end63_021.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><p>閉尾韻 </p></td>
         <td align="center" bgcolor="#FFFFCC" class="style17"><table width="120" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_013.wav')" title="音檔已佚失（Wayback 未存）">am,                </td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_014.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">an,</span></td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_015.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">ang</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_013.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">am,                </td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_014.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">an,</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_015.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">ang</span></td>
             </tr>
         </table></td>
         <td align="center" bgcolor="#FFFFCC" class="style17"><table width="145" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_016.wav')" title="音檔已佚失（Wayback 未存）">ap, </td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_016.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">ap, </td>
 
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_017.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">at, </span></td>
-              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_018.wav')" title="音檔已佚失（Wayback 未存）"><span class="style19" style="cursor:pointer">ak</span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_017.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">at, </span></td>
+              <td class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_end63_018.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="style19" style="cursor:pointer">ak</span></td>
             </tr>
         </table></td>
       </tr>

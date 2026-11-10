@@ -48,23 +48,23 @@ SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
 var TL_SND = "../../voice/", TL_HAVE = {};
 function setFileName(f) {
   var a = document.getElementById("tl-audio"); if (!a) return;
-  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這裡的錄音還沒有接上，所以沒有聲音（原網站的錄音檔沒有保存下來）"); return; }
   a.src = TL_SND + f; a.play().catch(function () {});
 }
 function tlNote(msg) {
   var n = document.getElementById("tl-note");
   if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
-  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 5000);
 }
 </script>
 <style>
-#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:8px 16px;border-radius:4px;font-size:14px;line-height:1.5;z-index:99;box-sizing:border-box;width:max-content;max-width:92%;text-align:center}
 [onclick*="setFileName"]{cursor:pointer}
 .snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
 .snd-missing{cursor:default!important;text-decoration:none}
 img.snd-missing{opacity:.35}
 </style>
-<body>
+<body><div class="tl-warn"><style>.tl-warn{box-sizing:border-box;margin:0 0 8px;padding:7px 12px;background:#fff4d6;border:1px solid #d9a441;border-left-width:5px;border-radius:3px;color:#5a3a1a;font:14px/1.6 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;text-align:left}.tl-warn b{color:#a33a00}.tl-warn a{color:#8a3b12}</style><b>本頁的錄音還沒有接上，點字詞或音標不會有聲音。</b>原網站的錄音檔沒有保存下來，要從原始錄音重新整理才能補上。<a href="../../notice.htm#audio" target="_top">詳見說明</a></div>
 <table width="570" height="1218" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
@@ -89,7 +89,7 @@ img.snd-missing{opacity:.35}
   <tr>
     <td height="15">&nbsp;</td>
     <td height="15" colspan="2" align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
-    <td height="15" class="snd-missing style18"style="cursor:pointer" onClick="setFileName('s_abd421_013.wav')" title="音檔已佚失（Wayback 未存）">口元音</td>
+    <td height="15" class="snd-missing style18"style="cursor:pointer" onClick="setFileName('s_abd421_013.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">口元音</td>
   </tr>
   <tr>
     <td height="15" colspan="3">&nbsp;</td>
@@ -109,19 +109,19 @@ img.snd-missing{opacity:.35}
         <td align="center" bgcolor="#CCCC99"><table width="85" border="0" cellpadding="0" cellspacing="0">
           <tr>
             <td width="15" align="center" class="style19">a</td>
-            <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd421_001.wav')" title="音檔已佚失（Wayback 未存）">[a]</td>
+            <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd421_001.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[a]</td>
           </tr>
         </table></td>
         <td align="center" bgcolor="#CCCC99"><table width="112" border="0" cellpadding="0" cellspacing="0">
           <tr>
             <td width="27" align="center" class="style19">e</td>
-            <td width="69" align="center" style="cursor:pointer" onClick="setFileName('s_abd421_002.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">[<span class="style19"> e </span>]</td>
+            <td width="69" align="center" style="cursor:pointer" onClick="setFileName('s_abd421_002.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[<span class="style19"> e </span>]</td>
           </tr>
         </table></td>
         <td align="center" bgcolor="#CCCC99"><table border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="23" align="center" class="style19">i</td>
-            <td width="30" align="center" style="cursor:pointer" onClick="setFileName('s_abd421_003.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">[<span class="style19"> i</span> ]</td>
+            <td width="30" align="center" style="cursor:pointer" onClick="setFileName('s_abd421_003.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[<span class="style19"> i</span> ]</td>
           </tr>
         </table></td>
       </tr>
@@ -129,13 +129,13 @@ img.snd-missing{opacity:.35}
         <td align="center" bgcolor="#FFFFCC"><table width="85" border="0" cellpadding="0" cellspacing="0">
           <tr>
             <td width="15" align="center" class="style19">oo</td>
-            <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd421_004.wav')" title="音檔已佚失（Wayback 未存）">[<span style="font-size:12pt;mso-bidi-font-size:12.0pt;font-family:var(--tl-latin), var(--tl-ming)">Ɔ</span>]</td>
+            <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd421_004.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[<span style="font-size:12pt;mso-bidi-font-size:12.0pt;font-family:var(--tl-latin), var(--tl-ming)">Ɔ</span>]</td>
           </tr>
         </table></td>
         <td align="center" bgcolor="#FFFFCC"><table width="112" border="0" cellpadding="0" cellspacing="0">
           <tr>
             <td width="28" align="center" class="style19">o</td>
-            <td width="68" align="center" style="cursor:pointer" onClick="setFileName('s_abd421_005.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">[<span class="style19"><span class="style19">o
+            <td width="68" align="center" style="cursor:pointer" onClick="setFileName('s_abd421_005.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[<span class="style19"><span class="style19">o
                 /</span> <span style='font-size:18pt;mso-bidi-font-size:12.0pt;font-family:var(--tl-latin), MS Gothic, var(--tl-ming)'
 lang=EN-US>ɤ</span> ]</td>
           </tr>
@@ -143,7 +143,7 @@ lang=EN-US>ɤ</span> ]</td>
         <td align="center" bgcolor="#FFFFCC"><table border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="23" align="center" class="style19">u</td>
-            <td width="30" align="center" style="cursor:pointer" onClick="setFileName('s_abd421_006.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">[<span class="style19"> u</span> ]</td>
+            <td width="30" align="center" style="cursor:pointer" onClick="setFileName('s_abd421_006.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[<span class="style19"> u</span> ]</td>
           </tr>
         </table></td>
       </tr>
@@ -178,26 +178,26 @@ lang=EN-US>ɤ</span> ]</td>
       </tr>
       <tr>
         <td align="center" bgcolor="#F09A84" class="style17">高 </td>
-        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_007.wav')" title="音檔已佚失（Wayback 未存）">i</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_007.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">i</td>
         <td align="center" bgcolor="#FEEDDE" class="style19">&nbsp; </td>
-        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_008.wav')" title="音檔已佚失（Wayback 未存）">u</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_008.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">u</td>
       </tr>
       <tr>
         <td align="center" bgcolor="#F09A84" class="style17">中 </td>
-        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_009.wav')" title="音檔已佚失（Wayback 未存）">e</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_009.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">e</td>
         <td align="center" bgcolor="#FEEDDE" class="style19">&nbsp;</td>
-        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_010.wav')" title="音檔已佚失（Wayback 未存）">o</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_010.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">o</td>
       </tr>
       <tr>
         <td align="center" bgcolor="#F09A84" class="style17">中低 </td>
         <td align="center" bgcolor="#FEEDDE" class="style19">&nbsp; </td>
         <td align="center" bgcolor="#FEEDDE" class="style19">&nbsp; </td>
-        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_011.wav')" title="音檔已佚失（Wayback 未存）">oo</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_011.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">oo</td>
       </tr>
       <tr>
         <td align="center" bgcolor="#F09A84" class="style17">低 </td>
         <td align="center" bgcolor="#FEEDDE" class="style19">&nbsp; </td>
-        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_012.wav')" title="音檔已佚失（Wayback 未存）">a</td>
+        <td align="center" bgcolor="#FEEDDE" class="snd-missing style19"style="cursor:pointer" onClick="setFileName('s_abd421_012.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">a</td>
         <td align="center" bgcolor="#FEEDDE" class="style19">&nbsp; </td>
       </tr> 
     </table></td>
@@ -273,7 +273,7 @@ lang=EN-US>ɤ</span>]，北部多唸成圓唇的標準 [<span class="style27"> o
   <tr>
     <td height="15">&nbsp;</td>
     <td height="15" colspan="2" align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
-    <td height="15"><span class="snd-missing style18"style="cursor:pointer" onClick="setFileName('s_abd422_006.wav')" title="音檔已佚失（Wayback 未存）">鼻元音</span></td>
+    <td height="15"><span class="snd-missing style18"style="cursor:pointer" onClick="setFileName('s_abd422_006.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">鼻元音</span></td>
   </tr>
   <tr>
     <td height="15" colspan="3">&nbsp;</td>
@@ -294,19 +294,19 @@ lang=EN-US>ɤ</span>]，北部多唸成圓唇的標準 [<span class="style27"> o
         <td align="center" bgcolor="#CCCC99"><table border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td width="23" align="center" class="style19">ann</td>
-              <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_001.wav')" title="音檔已佚失（Wayback 未存）">[ã]</td>
+              <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_001.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[ã]</td>
             </tr>
         </table></td>
         <td align="center" bgcolor="#CCCC99"><table border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td width="23" align="center" class="style19">enn</td>
-              <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_002.wav')" title="音檔已佚失（Wayback 未存）">[<span class="tl-glyph" title="原圖已佚失（en.gif），以文字代替">en</span>]</td>
+              <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_002.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[<span class="tl-glyph" title="原圖已佚失（en.gif），以文字代替">en</span>]</td>
             </tr>
         </table></td>
         <td align="center" bgcolor="#CCCC99"><table border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td width="23" align="center" class="style19">inn</td>
-              <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_003.wav')" title="音檔已佚失（Wayback 未存）"> [ <span style="font-size:18px;mso-bidi-font-size:12.0pt">ĩ</span> ]</td>
+              <td width="30" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_003.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"> [ <span style="font-size:18px;mso-bidi-font-size:12.0pt">ĩ</span> ]</td>
             </tr>
         </table></td>
       </tr>
@@ -314,14 +314,14 @@ lang=EN-US>ɤ</span>]，北部多唸成圓唇的標準 [<span class="style27"> o
         <td align="center" bgcolor="#FFFFCC"><table border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td width="27" align="center" class="style19">onn</td>
-              <td width="35" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_004.wav')" title="音檔已佚失（Wayback 未存）">[<img src="../../image/special/on.gif" width="14" height="20" align="top" />]</td>
+              <td width="35" align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_004.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[<img src="../../image/special/on.gif" width="14" height="20" align="top" />]</td>
             </tr>
         </table></td>
         <td align="center" bgcolor="#FFFFCC">&nbsp;</td>
         <td align="center" bgcolor="#FFFFCC"><table width="95" border="0" cellpadding="0" cellspacing="0">
             <tr>
               <td align="center" class="style19">unn</td>
-              <td align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_005.wav')" title="音檔已佚失（Wayback 未存）">[ <img src="../../image/special/un.gif" width="9" height="13">
+              <td align="center" class="snd-missing style19" style="cursor:pointer" onClick="setFileName('s_abd422_005.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[ <img src="../../image/special/un.gif" width="9" height="13">
                 <o:p></o:p> 
                 ]</td>
             </tr>
@@ -362,7 +362,7 @@ lang=EN-US>ɤ</span>]，北部多唸成圓唇的標準 [<span class="style27"> o
   <tr>
     <td height="15">&nbsp;</td>
     <td height="15" colspan="2" align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
-    <td height="15"><span class="snd-missing style18"style="cursor:pointer" onClick="setFileName('s_abd423_003.wav')" title="音檔已佚失（Wayback 未存）">鼻輔音</span></td>
+    <td height="15"><span class="snd-missing style18"style="cursor:pointer" onClick="setFileName('s_abd423_003.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">鼻輔音</span></td>
   </tr>
   <tr>
     <td height="15" colspan="3">&nbsp;</td>
@@ -382,13 +382,13 @@ lang=EN-US>ɤ</span>]，北部多唸成圓唇的標準 [<span class="style27"> o
           <td align="center" bgcolor="#CCCC99"><table width="98" height="21" border="0" cellpadding="0" cellspacing="0">
               <tr>
                 <td width="23" align="center" class="style19">m</td>
-                <td width="30" align="center" style="cursor:pointer" onClick="setFileName('s_abd423_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）">[<span class="tl-glyph" title="原圖已佚失（m_underpoint.gif），以文字代替">ṃ</span>]</td>
+                <td width="30" align="center" style="cursor:pointer" onClick="setFileName('s_abd423_001.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">[<span class="tl-glyph" title="原圖已佚失（m_underpoint.gif），以文字代替">ṃ</span>]</td>
               </tr>
           </table></td>
           <td align="center" bgcolor="#CCCC99"><table width="98" border="0" cellpadding="0" cellspacing="0">
               <tr>
                 <td width="23" align="center" class="style19">ng</td>
-                <td width="30" align="center" style="cursor:pointer" onClick="setFileName('s_abd423_002.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><p>[<img src="../../image/special/n_underpoint.gif" width="16" height="20" align="absbottom" />]</p></td>
+                <td width="30" align="center" style="cursor:pointer" onClick="setFileName('s_abd423_002.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><p>[<img src="../../image/special/n_underpoint.gif" width="16" height="20" align="absbottom" />]</p></td>
               </tr>
           </table></td>
         </tr>

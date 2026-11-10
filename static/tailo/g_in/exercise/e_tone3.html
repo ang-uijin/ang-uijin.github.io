@@ -48,26 +48,26 @@ SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
 var TL_SND = "../../voice/", TL_HAVE = {};
 function setFileName(f) {
   var a = document.getElementById("tl-audio"); if (!a) return;
-  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這裡的錄音還沒有接上，所以沒有聲音（原網站的錄音檔沒有保存下來）"); return; }
   a.src = TL_SND + f; a.play().catch(function () {});
 }
 function tlNote(msg) {
   var n = document.getElementById("tl-note");
   if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
-  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 5000);
 }
 </script>
 <style>
-#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:8px 16px;border-radius:4px;font-size:14px;line-height:1.5;z-index:99;box-sizing:border-box;width:max-content;max-width:92%;text-align:center}
 [onclick*="setFileName"]{cursor:pointer}
 .snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
 .snd-missing{cursor:default!important;text-decoration:none}
 img.snd-missing{opacity:.35}
 </style>
-<body>
+<body><div class="tl-warn"><style>.tl-warn{box-sizing:border-box;margin:0 0 8px;padding:7px 12px;background:#fff4d6;border:1px solid #d9a441;border-left-width:5px;border-radius:3px;color:#5a3a1a;font:14px/1.6 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;text-align:left}.tl-warn b{color:#a33a00}.tl-warn a{color:#8a3b12}</style><b>本頁的錄音還沒有接上，點字詞或音標不會有聲音。</b>原網站的錄音檔沒有保存下來，要從原始錄音重新整理才能補上。<a href="../../notice.htm#audio" target="_top">詳見說明</a></div>
 <table width="570" height="480" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td height="25" colspan="4" style="cursor:pointer" onClick="setFileName('e_tone23_002.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><table width="284" border="0" cellspacing="0" cellpadding="0">
+    <td height="25" colspan="4" style="cursor:pointer" onClick="setFileName('e_tone23_002.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><table width="284" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="72" align="center" class="style25"> 第二課</td>
         <td width="212" class="style25">聲調</td>
@@ -75,7 +75,7 @@ img.snd-missing{opacity:.35}
     </table></td>
   </tr>
   <tr>
-    <td height="35" colspan="4" style="cursor:pointer" onClick="setFileName('e_tone23_002.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><span class="tl-imgtxt" title="標題圖已佚失（笑話一則.gif），以文字代替">笑話一則</span></td>
+    <td height="35" colspan="4" style="cursor:pointer" onClick="setFileName('e_tone23_002.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="tl-imgtxt" title="標題圖已佚失（笑話一則.gif），以文字代替">笑話一則</span></td>
   </tr>
   
   <tr>
@@ -90,7 +90,7 @@ img.snd-missing{opacity:.35}
   </tr>
   <tr>
     <td height="15">&nbsp;</td>
-    <td height="15" align="center" class="內文"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_tone23_001.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+    <td height="15" align="center" class="內文"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_tone23_001.wav')" width="14" height="14" border="0" / class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"></td>
     <td height="15" colspan="2" class="內文">有一个美國教師教臺灣人講英語，伊會曉講臺語，但是聲調講袂標準，</td>
   </tr>
   <tr>
@@ -145,7 +145,7 @@ img.snd-missing{opacity:.35}
   </tr>
   <tr>
     <td height="15">&nbsp;</td>
-    <td height="15" align="center" class="內文"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_tone23_001.wav')" width="14" height="14" border="0" / class="snd-missing" title="音檔已佚失（Wayback 未存）"></td>
+    <td height="15" align="center" class="內文"><img src="../../image/音鈕.gif" style="cursor:pointer" onClick="setFileName('e_tone23_001.wav')" width="14" height="14" border="0" / class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"></td>
     <td height="15" colspan="2" class="英文13"><strong>Bí-kok Lāu-su Kóng Tâi-gí</strong></td>
   </tr>
   <tr>

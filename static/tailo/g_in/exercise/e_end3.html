@@ -51,23 +51,23 @@ SCROLLBAR-DARKSHADOW-COLOR: #D8C09C;
 var TL_SND = "../../voice/", TL_HAVE = {};
 function setFileName(f) {
   var a = document.getElementById("tl-audio"); if (!a) return;
-  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這個音檔 Wayback 沒有存到，已佚失（" + f + "）"); return; }
+  if (!TL_HAVE[f.toLowerCase()]) { tlNote("這裡的錄音還沒有接上，所以沒有聲音（原網站的錄音檔沒有保存下來）"); return; }
   a.src = TL_SND + f; a.play().catch(function () {});
 }
 function tlNote(msg) {
   var n = document.getElementById("tl-note");
   if (!n) { n = document.createElement("div"); n.id = "tl-note"; document.body.appendChild(n); }
-  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 2600);
+  n.textContent = msg; n.style.display = "block"; clearTimeout(n._t); n._t = setTimeout(function () { n.style.display = "none"; }, 5000);
 }
 </script>
 <style>
-#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:6px 14px;border-radius:4px;font-size:13px;z-index:99;white-space:nowrap}
+#tl-note{display:none;position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#5a3a1a;color:#fff;padding:8px 16px;border-radius:4px;font-size:14px;line-height:1.5;z-index:99;box-sizing:border-box;width:max-content;max-width:92%;text-align:center}
 [onclick*="setFileName"]{cursor:pointer}
 .snd-ok{text-decoration:underline dotted #a0522d;text-underline-offset:3px}
 .snd-missing{cursor:default!important;text-decoration:none}
 img.snd-missing{opacity:.35}
 </style>
-<body>
+<body><div class="tl-warn"><style>.tl-warn{box-sizing:border-box;margin:0 0 8px;padding:7px 12px;background:#fff4d6;border:1px solid #d9a441;border-left-width:5px;border-radius:3px;color:#5a3a1a;font:14px/1.6 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;text-align:left}.tl-warn b{color:#a33a00}.tl-warn a{color:#8a3b12}</style><b>本頁的錄音還沒有接上，點字詞或音標不會有聲音。</b>原網站的錄音檔沒有保存下來，要從原始錄音重新整理才能補上。<a href="../../notice.htm#audio" target="_top">詳見說明</a></div>
 <table width="570" height="1185" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td height="25" colspan="4"><table width="284" border="0" cellspacing="0" cellpadding="0">
@@ -78,7 +78,7 @@ img.snd-missing{opacity:.35}
     </table></td>
   </tr>
   <tr>
-    <td height="35" colspan="4" style="cursor:pointer" onClick="setFileName('e_end63_004.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><span class="tl-imgtxt" title="標題圖已佚失（急口令練習.gif），以文字代替">急口令練習</span></td>
+    <td height="35" colspan="4" style="cursor:pointer" onClick="setFileName('e_end63_004.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><span class="tl-imgtxt" title="標題圖已佚失（急口令練習.gif），以文字代替">急口令練習</span></td>
   </tr>
   <tr>
     <td height="15">&nbsp;</td>
@@ -88,7 +88,7 @@ img.snd-missing{opacity:.35}
   <tr>
     <td height="15">&nbsp;</td>
     <td height="15" colspan="2" align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
-    <td height="15" class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_end63_004.wav')" title="音檔已佚失（Wayback 未存）">急口令練習</td>
+    <td height="15" class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_end63_004.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">急口令練習</td>
   </tr>
   <tr>
     <td height="15">&nbsp;</td>
@@ -98,7 +98,7 @@ img.snd-missing{opacity:.35}
   <tr>
     <td width="19" height="15">&nbsp;</td>
     <td width="16" height="15" align="center">&nbsp;</td>
-    <td width="16" align="center" style="cursor:pointer" onClick="setFileName('e_end63_001.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14" /></td>
+    <td width="16" align="center" style="cursor:pointer" onClick="setFileName('e_end63_001.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><img src="../../image/音鈕.gif" width="14" height="14" /></td>
     <td height="15" class="style18">一个新官心肝真愛升官<span class="style22">（有一個新官心裡很想升官）</span></td>
   </tr>
   <tr>
@@ -119,7 +119,7 @@ img.snd-missing{opacity:.35}
   <tr>
     <td height="15">&nbsp;</td>
     <td height="15" align="center">&nbsp;</td>
-    <td height="15" align="center" style="cursor:pointer" onClick="setFileName('e_end63_002.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14" /></span></td>
+    <td height="15" align="center" style="cursor:pointer" onClick="setFileName('e_end63_002.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><img src="../../image/音鈕.gif" width="14" height="14" /></span></td>
     <td height="15" class="style18">新官先升官<span class="style22">（新官先升官）</span></td>
   </tr>
   <tr>
@@ -160,7 +160,7 @@ img.snd-missing{opacity:.35}
   <tr>
     <td height="15">&nbsp;</td>
     <td height="15" colspan="2" align="center"><img src="../../image/small_mark.gif" width="9" height="8" /></td>
-    <td height="15" class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_end63_006.wav')" title="音檔已佚失（Wayback 未存）">故事一則</td>
+    <td height="15" class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_end63_006.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">故事一則</td>
   </tr>
   <tr>
     <td height="15" colspan="3">&nbsp;</td>
@@ -175,7 +175,7 @@ img.snd-missing{opacity:.35}
     <td height="15" colspan="2" align="center"><img src="../../image/square.gif" width="4" height="4" /></td>
     <td height="15"><table width="200" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_end63_005.wav')" title="音檔已佚失（Wayback 未存）">扑鐵師个對聯 </td>
+        <td class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_end63_005.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">扑鐵師个對聯 </td>
         <td width="14">&nbsp;</td>
       </tr>
     </table></td>
@@ -188,7 +188,7 @@ img.snd-missing{opacity:.35}
   <tr>
     <td height="15">&nbsp;</td>
     <td height="15">&nbsp;</td>
-    <td height="15" style="cursor:pointer" onClick="setFileName('e_end63_003.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14" /></td>
+    <td height="15" style="cursor:pointer" onClick="setFileName('e_end63_003.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><img src="../../image/音鈕.gif" width="14" height="14" /></td>
     <td class="style17"><p>講有一个扑鐵師，趁著錢，起一間大厝。<br />
     </p></td>
   </tr>
@@ -302,7 +302,7 @@ img.snd-missing{opacity:.35}
     <td height="15" colspan="2" align="center"><img src="../../image/square.gif" width="4" height="4" /></td>
     <td height="15"><table width="200" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td><span class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_end63_005.wav')" title="音檔已佚失（Wayback 未存）">Phah-thih-sai ê Tuì-liân</span></td>
+        <td><span class="snd-missing style18" style="cursor:pointer" onClick="setFileName('e_end63_005.wav')" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）">Phah-thih-sai ê Tuì-liân</span></td>
         <td width="14">&nbsp;</td>
       </tr>
     </table></td>
@@ -316,7 +316,7 @@ img.snd-missing{opacity:.35}
   <tr>
     <td height="15">&nbsp;</td>
     <td height="15">&nbsp;</td>
-    <td height="15" style="cursor:pointer" onClick="setFileName('e_end63_003.wav')" class="snd-missing" title="音檔已佚失（Wayback 未存）"><img src="../../image/音鈕.gif" width="14" height="14" /></td>
+    <td height="15" style="cursor:pointer" onClick="setFileName('e_end63_003.wav')" class="snd-missing" title="錄音還沒有接上（原網站的錄音檔沒有保存下來）"><img src="../../image/音鈕.gif" width="14" height="14" /></td>
     <td class="style19"><span class="style19">Kóng ū ts<span class="英文13"><img src="../../image/special/i_longpoint.png" width="6" height="14" /></span>t-ê
         phah-thih-sai, thàn-ti<span class="英文13"><img src="../../image/special/o_longpoint.png" width="9" height="13" /></span>h
         tsînn, khí ts<span class="英文13"><img src="../../image/special/i_longpoint.png" width="6" height="14" /></span>t
