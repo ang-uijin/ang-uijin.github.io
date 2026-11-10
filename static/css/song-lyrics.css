@@ -52,7 +52,9 @@ html:not([data-rom="tlpa"]) .song-lyrics .rom-tp { display: none; }
   padding: .45em 0 .5em;
   border-top: 1px solid var(--color-border-light, #EDE8E1);
 }
-.sl-part .sl-line:first-of-type { border-top: 0; }
+.sl-part .sl-line:first-of-type,
+.song-lyrics .sl-part-title + .sl-line { border-top: 0; }
+.song-lyrics .sl-line + .sl-part-title { margin-top: 1.3em; }   /* 段內小標（〈五更鼓〉的男女對答） */
 .song-lyrics .sl-rom {
   /* 拉丁字型要排在 Noto Serif TC 前面：Noto Serif TC 的 ā ī ū ō（預組字）是給漢語拼音用的，長音符會偏到字母右邊；
      Times New Roman（Windows／macOS／iOS）與 Android 的 serif（Noto Serif）調符位置都正確，第 8 調的直線符（U+030D）也畫得出來 */
