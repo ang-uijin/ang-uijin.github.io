@@ -1,0 +1,157 @@
+{
+ "no": "043",
+ "kind": "唸歌",
+ "title": "雞胿毋是",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "雞(月圭)毋是",
+ "parts": [
+  {
+   "n": 1,
+   "title": "雞胿毋是",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kere1kui1e0 # m7si7 e0gua2gau5pun5e0",
+     "tailo": "kere-kui--e # m̄ sī--e guá gâu pûn--e",
+     "han": [
+      {
+       "t": "雞胿"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "毋是"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "我爻歕"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cong2tok4e0 # si7gua2e5tere7ji7sun1 e0",
+     "tailo": "tsóng-tok--e # sī guá ê terē-jī sun--e",
+     "han": [
+      {
+       "t": "總督"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "是我"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "第二孫"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "her2chia1 # cit8puann3 # si7gua2u7hun7 e0",
+     "tailo": "hér-tshia # tsi̍t-puànn # sī guá ū hūn--e",
+     "han": [
+      {
+       "t": "火車一半"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "我有份"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "pang1kio5 # ke1her2 # ia1ber7pun1 e0",
+     "tailo": "Pang-kiô # ke-hér # ia-bēr pun--e",
+     "han": [
+      {
+       "t": "枋橋家伙夭未分"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "吹牛不是我在吹，",
+    "總督是我第二孫，",
+    "火車一半我有份，",
+    "板橋家產尚未分。"
+   ],
+   "src_no": 3,
+   "head": "三峽陳劉拋",
+   "tape": "相褒歌N0.2;00:09:01"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E017",
+   "to": "胿",
+   "why": "網站標頭「雞(月圭)」（FA57）；音 kui1",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E017",
+   "to": "胿",
+   "why": "網站標頭「雞(月圭)」（FA57）；音 kui1",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/043.jpg",
+  "trans": "TRANS/043.JPG"
+ }
+}

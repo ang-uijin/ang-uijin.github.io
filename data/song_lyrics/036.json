@@ -1,0 +1,97 @@
+{
+ "no": "036",
+ "kind": "唸歌",
+ "title": "我身坐落",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "我身坐落",
+ "parts": [
+  {
+   "n": 1,
+   "title": "我身坐落",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2sin1 # cer7loh8a0 # mi5jit8siunn7a0",
+     "tailo": "guá sin # tsēr-lo̍h--a # mî-ji̍t siūnn--a",
+     "han": [
+      {
+       "t": "我身坐落"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "冥日想"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sim1kuann1 # i3ai3 # si7gua7cng1niu5",
+     "tailo": "sim-kuann # ì-ài # sī guā-tsng niû",
+     "han": [
+      {
+       "t": "心肝意愛"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "外庄娘，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "put4si5 # put4jit8 a0 # to1sir1siunn2",
+     "tailo": "put-sî # put-ji̍t--a # to sir-siúnn",
+     "han": [
+      {
+       "t": "不時不日"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "都思想，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sim1kuann1 # siunn7berh4chut4gua7hiunn1",
+     "tailo": "sim-kuann # siūnn-berh tshut guā-hiunn",
+     "han": [
+      {
+       "t": "心肝想卜出外鄉。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "我身坐下日夜想，",
+    "心中意愛外庄娘，",
+    "時時刻刻都在想，",
+    "心裡想要出外鄉。"
+   ],
+   "src_no": 16,
+   "head": "坪林李文",
+   "tape": "台北愛悅情歌10/15;1:21:19"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/036.jpg",
+  "trans": "TRANS/036.JPG"
+ }
+}

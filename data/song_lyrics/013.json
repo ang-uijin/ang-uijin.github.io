@@ -1,0 +1,123 @@
+{
+ "no": "013",
+ "kind": "唸歌",
+ "title": "溪水落瀨",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "溪水落瀨",
+ "parts": [
+  {
+   "n": 1,
+   "title": "溪水落瀨",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khe1cui2loh8lua3peh8pho1pho1",
+     "tailo": "khe-tsuí lo̍h luà pe̍h-pho-pho",
+     "han": [
+      {
+       "t": "溪水落瀨白波波，"
+      }
+     ],
+     "tlpa_src": "khe1cui2loh8lua3peh8pho1x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "ia1tua7cha5la1loh8khe1lin1long1a0go5",
+     "tailo": "ia tuā tshâ la lo̍h khe lin-long--a gô",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "大柴"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "落溪轔踉"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "遨，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "e7tit4la0co3tui1cin1sim1ho2",
+     "tailo": "ē-tit--la tsò-tui tsin-sim hó",
+     "han": [
+      {
+       "t": "會得"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "做堆真心好，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khah4ho2la1ciunn7thinn1khi3ban2sian1a0tho5oo0",
+     "tailo": "khah hó la tsiūnn thinn khì bán sian--a thô--oo",
+     "han": [
+      {
+       "t": "卡好"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "上天"
+      },
+      {
+       "t": "去",
+       "s": 1
+      },
+      {
+       "t": "挽仙"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "桃"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "溪水過瀨白波波，",
+    "大樹落溪團團轉，",
+    "能在一起真心好，",
+    "好過登天採仙桃。"
+   ],
+   "src_no": 13,
+   "head": "雙溪朱清圳",
+   "tape": "相褒歌N0.3;00:18:35"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/013.jpg",
+  "trans": "TRANS/013.JPG"
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "no": "057",
+ "kind": "唸歌",
+ "title": "我娘帶佇",
+ "source": "1-102石碇唸歌.doc",
+ "site_title": "我娘帶佇",
+ "parts": [
+  {
+   "n": 1,
+   "title": "我娘帶佇",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # tua3ti7 # lun7a2au7",
+     "tailo": "guá niû # tuà tī # lūn-á-āu",
+     "han": [
+      {
+       "t": "我娘帶佇崙仔後，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chu3au7 # cit8tiau5sio2khinn1kau1",
+     "tailo": "tshù-āu # tsi̍t tiâu sió khinn-kau",
+     "han": [
+      {
+       "t": "厝後一條小坑溝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1hiann1 # lir2 # na7u7king1ker # tioh8lai5ciah8tau3",
+     "tailo": "a-hiann # lír # nā ū king ker # tio̍h lâi tsia̍h-tàu",
+     "han": [
+      {
+       "t": "阿兄"
+      },
+      {
+       "t": "汝若有",
+       "s": 1
+      },
+      {
+       "t": "經過"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "來食晝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7bian2 # gua2niu5 # koh4khir3lau5",
+     "tailo": "m̄-bián # guá niû # koh khìr lâu",
+     "han": [
+      {
+       "t": "毋免我娘閣去留。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "姑娘"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "住在山後面，"
+      }
+     ]
+    },
+    "屋後有條小溪澗，",
+    {
+     "segs": [
+      {
+       "t": "哥哥"
+      },
+      {
+       "t": "你若",
+       "s": 1
+      },
+      {
+       "t": "經過"
+      },
+      {
+       "t": "就",
+       "s": 1
+      },
+      {
+       "t": "來吃"
+      },
+      {
+       "t": "中",
+       "s": 1
+      },
+      {
+       "t": "飯，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "不用姑娘"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "再去留。"
+      }
+     ]
+    }
+   ],
+   "src_no": 6,
+   "head": "石碇許曾汝",
+   "tape": "N0.1;00:00:03"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/057.jpg",
+  "trans": "TRANS/057.JPG"
+ }
+}

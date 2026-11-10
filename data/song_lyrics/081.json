@@ -1,0 +1,76 @@
+{
+ "no": "081",
+ "kind": "唸歌",
+ "title": "後溝一欉",
+ "source": "1-203石門唸歌.doc",
+ "site_title": "後溝一欉",
+ "parts": [
+  {
+   "n": 1,
+   "title": "後溝一欉",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "au7kau1 # cit8cang5khoo2te5thau5",
+     "tailo": "āu-kau # tsi̍t tsâng khóo-tê-thâu",
+     "han": [
+      {
+       "t": "後溝一欉苦茶頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khoo2te5 # khui1hue1 # peh8phau1phau1",
+     "tailo": "khóo-tê # khui-hue # pe̍h-phau-phau",
+     "han": [
+      {
+       "t": "苦茶開花白泡泡，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "guan2chu3 # tiang7hu1 # hak4bo5kau3o0",
+     "tailo": "guán tshù # tiāng-hu # hak bô-kàu--o",
+     "han": [
+      {
+       "t": "阮厝丈夫蓄無夠"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciah4tioh8hoo7gun2 # huan7te5thau5",
+     "tailo": "tsiah tio̍h hōo gún # huān tê-thâu",
+     "han": [
+      {
+       "t": "才著予阮捍茶頭。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "後溝一棵苦茶樹，",
+    "苦茶開花白芙芙，",
+    "我家丈夫沒財富，",
+    "才會讓我近茶樹。"
+   ],
+   "src_no": 3,
+   "head": "石門王鄭碧絲",
+   "tape": "台北愛悅情歌N0.2;01:37:11"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/081.jpg",
+  "trans": "TRANS/081.JPG"
+ }
+}

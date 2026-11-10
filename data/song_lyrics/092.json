@@ -1,0 +1,137 @@
+{
+ "no": "092",
+ "kind": "唸歌",
+ "title": "菅尾出世之二",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "菅尾出世之二",
+ "parts": [
+  {
+   "n": 1,
+   "title": "菅尾出世之二",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kuann1bue2 # chut4si3 # ti7hioh8 # ciam1ciam1 a0",
+     "tailo": "kuann-bué # tshut-sì # tī hio̍h # tsiam-tsiam--a",
+     "han": [
+      {
+       "t": "菅尾出世"
+      },
+      {
+       "t": "佇",
+       "s": 1
+      },
+      {
+       "t": "葉尖尖"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "kuann1bue2#chut4si3#ti7hioh8#ciam1x a0"
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5 tiu7a2 # lang7hue1 # lai5 chui3giam5giam5",
+     "tailo": "lâi tiū-á # lāng-hue # lâi tshuì-giâm-giâm",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "稻仔弄花"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "碎"
+      },
+      {
+       "t": "giam5giam5",
+       "rom": 1,
+       "tl": "giâm-giâm",
+       "src": "giam5x"
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "lai5 tiu7a2#lang7hue1# lai5 chui3giam5x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2kun1lai5 # siunn7niu5 # na7be7cau2 lai5 siam2",
+     "tailo": "guá kun lâi # siūnn niû # nā bē tsáu lâi siám",
+     "han": [
+      {
+       "t": "我君"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "想娘"
+      },
+      {
+       "t": "若",
+       "s": 1
+      },
+      {
+       "t": "袂走"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "閃，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5bang7niu5 # siunn7kun1 # lai5hai2 # bong1ciam1",
+     "tailo": "lâi bāng niû # siūnn kun # lâi hái # bong tsiam",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "望娘想君"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "海摸針。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "菅草出生葉尖尖，",
+    "稻子開花碎鹽鹽，",
+    "郎君想我閃不掉，",
+    "望我想君海摸針。"
+   ],
+   "src_no": 5,
+   "head": "金山徐石金",
+   "tape": "台北愛悅情歌N0.2;00:32:55"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/092.jpg",
+  "trans": "TRANS/092.JPG"
+ }
+}

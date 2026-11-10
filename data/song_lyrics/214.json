@@ -1,0 +1,613 @@
+{
+ "no": "214",
+ "kind": "對唱",
+ "title": "聽哥塊講(女)、閒閒來去(男)、我娘徛停(女)、我身一路(男)、伸手共哥(女)、看娘目神(男)、看哥徛停(女)、阿娘叫我(男)",
+ "source": "2-101坪林褒歌.doc",
+ "site_title": "看哥塊講(女)、閒閒來去(男)、我娘徛停(女)、 我身一路(男)、伸手共哥(女)、看娘目神(男)、 看哥徛停(女)、阿娘叫我(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "聽哥塊講",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "thiann1ko1 # ter3kong2 # cit4can5tai7",
+     "tailo": "thiann ko # tèr kóng # tsit tsân tāi",
+     "han": [
+      {
+       "t": "聽哥塊講這層代，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "na7berh4 # ban2te5 # ter3gua2lai5",
+     "tailo": "nā berh # bán tê # tèr guá lâi",
+     "han": [
+      {
+       "t": "若卜挽茶綴我來，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # lai5ban2 # cit4soo2cai7",
+     "tailo": "guá niû # lâi bán # tsit sóo-tsāi",
+     "han": [
+      {
+       "t": "我娘來挽這所在，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7chiann3 # te5kang1 # iah4bo5lai5",
+     "tailo": "ū tshiànn # tê-kang # iah bô lâi",
+     "han": [
+      {
+       "t": "有倩茶工益無來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "聽哥講的這件事，",
+    "若要採茶跟我來，",
+    "姑娘採的這地方，",
+    "請了茶工卻沒來。"
+   ],
+   "src_no": 20,
+   "head": "坪林李文(女)、鄭李森(男)相褒",
+   "role": "女",
+   "tape": "相褒歌N0.10;00:00:08"
+  },
+  {
+   "n": 2,
+   "title": "閒閒來去",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ing5ing5e0 # lai5khir3a0peh4suann1nia2",
+     "tailo": "îng-îng--e # lâi-khìr--a peh suann-niá",
+     "han": [
+      {
+       "t": "閒閒"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "來去"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "𬦰山嶺，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3niu5 # ban2te5 # cai7suann1phiann5",
+     "tailo": "khuànn niû # bán tê # tsāi suann-phiânn",
+     "han": [
+      {
+       "t": "看娘挽茶在山坪，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khui1chui3a0 # mng7niu5 # khah4u7iann2",
+     "tailo": "khui-tshuì--a # mn̄g niû # khah ū-iánn",
+     "han": [
+      {
+       "t": "開喙"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "問娘卡有影，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "beh4khir3te5suann1 # tui3to2kiann5",
+     "tailo": "beh khìr tê-suann # tuì tó kiânn",
+     "han": [
+      {
+       "t": "卜去茶山對佗行。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "有閒來此爬山嶺，",
+    "看娘挽茶在山坪，",
+    "開口問娘才是真，",
+    "要去茶山如何行。"
+   ],
+   "src_no": 21,
+   "head": "坪林李文(女)、鄭李森(男)相褒",
+   "role": "男",
+   "tape": "相褒歌N0.1000:00:31"
+  },
+  {
+   "n": 3,
+   "title": "我娘徛停",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # khia7thing5 # kai7khuann3mai7",
+     "tailo": "guá niû # khiā-thîng # kāi khuànn-māi",
+     "han": [
+      {
+       "t": "我娘徛停共"
+      },
+      {
+       "t": "伊",
+       "s": 1
+      },
+      {
+       "t": "看眛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thiann1i1 # liam7kua1 # ciah4e7cai1",
+     "tailo": "thiann i # liām-kua # tsiah ē tsai",
+     "han": [
+      {
+       "t": "聽伊唸歌才會知，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8sian1 # kik4kah4 # ciah4ho2phai3",
+     "tailo": "tsi̍t sian # kik kah # tsiah hó-phài",
+     "han": [
+      {
+       "t": "一身激甲遮好派，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "an3lan2 # te5hng5 # te7te7lai5",
+     "tailo": "àn lán # tê-hn̂g # tē-tē lâi",
+     "han": [
+      {
+       "t": "按咱茶園直直來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "姑娘停腳看個真，",
+    "聽他唱歌才知情，",
+    "一身穿著真氣派，",
+    "向我茶園直直來。"
+   ],
+   "src_no": 22,
+   "head": "坪林李文(女)、鄭李森(男)相褒",
+   "role": "女",
+   "tape": "相褒歌N0.10;00:01:01"
+  },
+  {
+   "n": 4,
+   "title": "我身一路",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2 # sin1cit8loo7a0 # khun5khun5peh4a0",
+     "tailo": "guá # sin tsi̍t-lōo--a # khûn-khûn peh--a",
+     "han": [
+      {
+       "t": "我身一路"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "勤勤𬦰"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ai3beh4 # ka7niu5 # tau3ban2te5",
+     "tailo": "ài beh # kā niû # tàu bán tê",
+     "han": [
+      {
+       "t": "愛卜共娘鬥挽茶，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ka7niu5 # tau3ban2a0cit8tua7pe2",
+     "tailo": "kā niû # tàu bán--a tsi̍t tuā pé",
+     "han": [
+      {
+       "t": "共娘鬥挽"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "一大把，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kio3niu5 # chng1chiu2 # uat8kuai3theh8",
+     "tailo": "kiò niû # tshng-tshiú # ua̍t-kuài the̍h",
+     "han": [
+      {
+       "t": "叫娘伸手越過來提。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "我身一路勤爬山，",
+    "是為姑娘幫挽茶，",
+    "替娘幫採一大把，",
+    "姑娘伸手過來拿。"
+   ],
+   "src_no": 23,
+   "head": "坪林李文(女)、鄭李森(男)相褒",
+   "role": "男",
+   "tape": "相褒歌N0.10;00:01:25"
+  },
+  {
+   "n": 5,
+   "title": "伸手共哥",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chng1chiu2 # kang7ko1 # cih4te5chai3",
+     "tailo": "tshng-tshiú # kāng ko # tsih tê-tshài",
+     "han": [
+      {
+       "t": "伸手共哥接茶菜，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3ko1 # hing5the2 # ciah4e7cai1",
+     "tailo": "khuànn ko # hîng-thé # tsiah ē tsai",
+     "han": [
+      {
+       "t": "看哥形體才會知，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8berh4 # kang7ko1 # lir2 # khuann3mai7",
+     "tailo": "ba̍k berh # kāng ko # lír # khuànn-māi",
+     "han": [
+      {
+       "t": "目尾共哥汝看眛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sinn1sui2 # cit8sian1 # ho2jin5cai5",
+     "tailo": "sinn suí # tsi̍t sian # hó jîn-tsâi",
+     "han": [
+      {
+       "t": "生媠一身好人才。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "伸手從哥接茶菜，",
+    "看哥形體才明白，",
+    "眼尾把哥偷看看，",
+    "一身英俊好人才。"
+   ],
+   "src_no": 24,
+   "head": "坪林李文(女)、鄭李森(男)相褒",
+   "role": "女",
+   "tape": "相褒歌N0.10;00:01:53"
+  },
+  {
+   "n": 6,
+   "title": "看娘目神",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khuann3niu5 # bak8sin5 # ciah4uah8tang7",
+     "tailo": "khuànn niû # ba̍k-sîn # tsiah ua̍h-tāng",
+     "han": [
+      {
+       "t": "看娘目神遮活動，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8ber2 # kuan1khuann3 # gua2cit8lang5",
+     "tailo": "ba̍k-bér # kuan-khuànn # guá tsi̍t lâng",
+     "han": [
+      {
+       "t": "目尾觀看我一人，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tann1 # gua2 # m7kann1koh4 # siunn7siann2mih4khang1",
+     "tailo": "tann # guá # m̄ kann koh # siūnn siánn-mih khang",
+     "han": [
+      {
+       "t": "今",
+       "s": 1
+      },
+      {
+       "t": "我毋敢"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "想啥麼空，"
+      }
+     ],
+     "tlpa_src": "tann1#gua2#m7kann1koh4#siunn7siann2mih4 ⏎ khang1"
+    },
+    {
+     "kind": "line",
+     "tlpa": "khah4 # siunn7 # ma7a1niu5a2 # lir2cit8lang5",
+     "tailo": "khah # siūnn # mā a-niû-á # lír tsi̍t lâng",
+     "han": [
+      {
+       "t": "卡想"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "阿娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "汝一人。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "看你眼神真伶俐，",
+    "眼尾觀看我一人，",
+    "我再不敢有二心，",
+    "只想姑娘你一人。"
+   ],
+   "src_no": 25,
+   "head": "坪林李文(女)、鄭李森(男)相褒",
+   "role": "男",
+   "tape": "相褒歌N0.10"
+  },
+  {
+   "n": 7,
+   "title": "看哥徛停",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khuann3ko1 # khia7thing5 # suah4tiann7tiann7",
+     "tailo": "khuànn ko # khiā-thîng # suah tiānn-tiānn",
+     "han": [
+      {
+       "t": "看哥徛停煞定定，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # khui1chui3 # kio3cit8siann1a0",
+     "tailo": "guá niû # khui-tshuì # kiò tsi̍t siann--a",
+     "han": [
+      {
+       "t": "我娘開喙叫一聲，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5ban2 # kang7ping5 # khah4u7iann2",
+     "tailo": "lâi bán # kāng pîng # khah ū-iánn",
+     "han": [
+      {
+       "t": "來挽仝爿卡有影，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kah4ko1 # kong2ue7 # kiann1lang5thiann1",
+     "tailo": "kah ko # kóng-uē # kiann lâng thiann",
+     "han": [
+      {
+       "t": "佮哥講話驚人聽。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "看哥停腳如定身，",
+    "姑娘開口叫一聲，",
+    "來採同邊才是真，",
+    "與哥講話怕人聽。"
+   ],
+   "src_no": 26,
+   "head": "坪林李文(女)、鄭李森(男)相褒",
+   "role": "女",
+   "tape": "相褒歌N0.10"
+  },
+  {
+   "n": 8,
+   "title": "阿娘叫我",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "a1niu5a2 # kio3gua2 # ban2kang7ping5a0",
+     "tailo": "a-niû-á # kiò guá # bán kāng pîng--a",
+     "han": [
+      {
+       "t": "阿娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "叫我挽共爿"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hit4ku2 # e5sim1kuann1 # ciah4 # cing1ing1",
+     "tailo": "hit-kú # ê sim-kuann # tsiah # tsing-ing",
+     "han": [
+      {
+       "t": "迄久"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "心肝才精英，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kiann1jit8e0 # lai5kau3 # niu5 # suann1ting2",
+     "tailo": "kiann-ji̍t--e # lâi-kàu # niû # suann-tíng",
+     "han": [
+      {
+       "t": "今日"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "來到"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "娘山頂，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3niu5 # sinn1sui2 # ho2lang5cing5",
+     "tailo": "khuànn niû # sinn suí # hó lâng-tsîng",
+     "han": [
+      {
+       "t": "看娘生媠好人情。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "阿娘叫我採同邊，",
+    "那時心裡才知情，",
+    "今日來到娘山頂，",
+    "看娘漂亮懂人情。"
+   ],
+   "src_no": 27,
+   "head": "坪林李文(女)、鄭李森(男)相褒",
+   "role": "男",
+   "tape": "相褒歌N0.10; 00:03:21"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E01A",
+   "to": "𬦰",
+   "why": "class 對照表（FA5A）；音 peh4",
+   "part": 2,
+   "at": "2.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E01A",
+   "to": "𬦰",
+   "why": "class 對照表（FA5A）；音 peh4",
+   "part": 4,
+   "at": "4.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 5,
+   "at": "5.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 8,
+   "at": "8.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 8,
+   "at": "8.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/214.jpg",
+  "trans": "TRANS/214.JPG"
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "no": "073",
+ "kind": "唸歌",
+ "title": "桂竹大枝",
+ "source": "1-105汐止唸歌.doc",
+ "site_title": "桂竹大枝",
+ "parts": [
+  {
+   "n": 1,
+   "title": "桂竹大枝",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kui3tik4 # tua7ki1 # si7cere3tik4ko1",
+     "tailo": "kuì-tik # tuā ki # sī tserè tik-ko",
+     "han": [
+      {
+       "t": "桂竹大枝"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "做竹篙，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sik4ci2 # chi7lai7e0 # ho2thit4tho5",
+     "tailo": "Sik-tsí # tshī-lāi--e # hó thit-thô",
+     "han": [
+      {
+       "t": "汐止市內"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "好𨑨迌，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tioh8cio1tua7hiann1 # kah4tua7so2",
+     "tailo": "tio̍h tsio tuā-hiann # kah tuā-só",
+     "han": [
+      {
+       "t": "著招大兄佮大嫂，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai2khir3e0suann1ting2 # huah4i1o1",
+     "tailo": "lái-khìr--e suann-tíng # huah i-o",
+     "han": [
+      {
+       "t": "來去"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "山頂喝咿呵。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "桂竹大枝做竹篙，",
+    "汐止市內好遊玩，",
+    "得邀大哥跟大嫂，",
+    "一起上山去唱歌。"
+   ],
+   "src_no": 1,
+   "head": "汐止蔡德林",
+   "tape": "相褒歌N0.2:53:44"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E003",
+   "to": "𨑨",
+   "why": "class 對照表（FA43）；𨑨迌 thit4tho5",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E004",
+   "to": "迌",
+   "why": "class 對照表（FA44）；𨑨迌 thit4tho5",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/073.jpg",
+  "trans": "TRANS/073.JPG"
+ }
+}

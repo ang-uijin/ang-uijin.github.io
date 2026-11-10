@@ -1,0 +1,155 @@
+{
+ "no": "095",
+ "kind": "唸歌",
+ "title": "阮遮四月",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "阮遮四月",
+ "parts": [
+  {
+   "n": 1,
+   "title": "阮遮四月",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "guan2cia1lai0 # si3gueh8 lai0 # bueh4cue3hi3o0",
+     "tailo": "guán tsia--lai # sì-gue̍h--lai # bueh tsuè-hì--o",
+     "han": [
+      {
+       "t": "阮遮"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "四月"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "卜做戲"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hi3penn5lai0 # tah4ti7e0 # tua7bio7kinn5",
+     "tailo": "hì-pênn--lai # tah tī--e # tuā biō-kînn",
+     "han": [
+      {
+       "t": "戲棚"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "搭佇"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "大廟墘，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "huan1hu3lai0 # kun1a2lo0 # lai5khuann3 e0hi3o0",
+     "tailo": "huan-hù--lai # kun-á--lo # lâi khuànn--e hì--o",
+     "han": [
+      {
+       "t": "吩咐"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "君仔"
+      },
+      {
+       "t": "囉",
+       "s": 1
+      },
+      {
+       "t": "來看"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "戲"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "soo2hui3 # lai5bo5kau3e0 # niu5 # e7thinn1",
+     "tailo": "sóo-huì # lâi bô-kàu--e # niû # ē thinn",
+     "han": [
+      {
+       "t": "所費"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "無夠"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "娘會添。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "我村四月要演戲，",
+    "戲棚搭在大廟邊，",
+    "吩咐郎君來看戲，",
+    "零錢不夠我會添。"
+   ],
+   "src_no": 8,
+   "head": "金山徐江月",
+   "tape": "台北愛悅情歌N0.2;00:26:05"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/095.jpg",
+  "trans": "TRANS/095.JPG"
+ }
+}

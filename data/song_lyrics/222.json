@@ -1,0 +1,311 @@
+{
+ "no": "222",
+ "kind": "對唱",
+ "title": "為娘掛吊(男)、為君掛吊(女)",
+ "source": "2-202金山褒歌.doc",
+ "site_title": "為娘掛吊(男)、為君掛吊(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "為娘掛吊",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ui7niu5a2 # kua3tiau3 # ti7siau2tho5hue1a0",
+     "tailo": "uī niû-á # kuà-tiàu # tī siáu thô-hue--a",
+     "han": [
+      {
+       "t": "為娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "掛吊"
+      },
+      {
+       "t": "佇",
+       "s": 1
+      },
+      {
+       "t": "痟桃花"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5ce7tioh8i2a2 # lai5tioh8tom3sue5e0",
+     "tailo": "lâi tsē-tio̍h í-á # lâi tio̍h tòm-suê--e",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "坐著椅"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "來著揕垂"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8jit8 # lai5kiam2kong2gua7ce7ue7a0",
+     "tailo": "tsi̍t-ji̍t # lâi kiám kóng guā-tsē uē--a",
+     "han": [
+      {
+       "t": "一日"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "減講外儕話"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua7cng1lai5ping5iu2 # sit4kau1pue5e0",
+     "tailo": "guā-tsng lâi pîng-iú # sit kau-puê--e",
+     "han": [
+      {
+       "t": "外庄"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "朋友失交陪"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "為你相思"
+      },
+      {
+       "t": "好比",
+       "s": 1
+      },
+      {
+       "t": "桃花"
+      },
+      {
+       "t": "盛",
+       "s": 1
+      },
+      {
+       "t": "開，"
+      }
+     ]
+    },
+    "坐在椅上頭下垂，",
+    {
+     "segs": [
+      {
+       "t": "一天少說"
+      },
+      {
+       "t": "了",
+       "s": 1
+      },
+      {
+       "t": "好多話，"
+      }
+     ]
+    },
+    "外村的朋友失交情。"
+   ],
+   "src_no": 5,
+   "head": "金山徐石金賴黃鴦相褒 之三",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:40:58"
+  },
+  {
+   "n": 2,
+   "title": "為君掛吊",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ui7kun1 # kua3tiau3 # tho5hue1siau2",
+     "tailo": "uī kun # kuà-tiàu # thô-hue siáu",
+     "han": [
+      {
+       "t": "為君掛吊桃花痟，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "to2loh8bin5chng5 # tit8liau5liau5a0",
+     "tailo": "tó-lo̍h bîn-tshn̂g # ti̍t-liâu-liâu--a",
+     "han": [
+      {
+       "t": "倒落眠床直條條"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ping5iu2 # lai5khuann3 # si7cin1kian3a0siau3",
+     "tailo": "pîng-iú # lâi khuànn # sī tsin kiàn--a siàu",
+     "han": [
+      {
+       "t": "朋友來看"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "真見"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "笑，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2sin1pinn1e0bo5kuai2a0 # khia7be7tiau5",
+     "tailo": "guá sin-pinn--e bô kuái--a # khiā bē tiâu",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "身邊"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "無枴"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "徛袂椆。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "為君相思"
+      },
+      {
+       "t": "好比",
+       "s": 1
+      },
+      {
+       "t": "桃花"
+      },
+      {
+       "t": "盛",
+       "s": 1
+      },
+      {
+       "t": "開，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "躺下眠床直條條"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    "朋友來看真見笑，",
+    {
+     "segs": [
+      {
+       "t": "身邊"
+      },
+      {
+       "t": "沒",
+       "s": 1
+      },
+      {
+       "t": "拐杖站不直。"
+      }
+     ]
+    }
+   ],
+   "src_no": 6,
+   "head": "金山徐石金賴黃鴦相褒 之三",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:41:17"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/222.jpg",
+  "trans": "TRANS/222.JPG"
+ }
+}

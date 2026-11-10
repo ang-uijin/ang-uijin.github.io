@@ -1,0 +1,87 @@
+{
+ "no": "070",
+ "kind": "唸歌",
+ "title": "目眉紲紲",
+ "source": "1-104南港唸歌.doc",
+ "site_title": "目眉(系世)(系世)",
+ "parts": [
+  {
+   "n": 1,
+   "title": "目眉紲紲",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "bak8bai5 # sua3sua3 # sing5liu2hioh8，",
+     "tailo": "ba̍k-bâi # suà-suà # sîng liú-hio̍h，",
+     "han": [
+      {
+       "t": "目眉紲紲宬柳葉，"
+      }
+     ],
+     "tlpa_src": "bak8bai5# sua3x # sing5liu2hioh8，"
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8ciu1 # khuann3lang5 # e7khi2thio5，",
+     "tailo": "ba̍k-tsiu # khuànn lâng # ē khí thiô，",
+     "han": [
+      {
+       "t": "目睭看人會起"
+      },
+      {
+       "t": "thio5",
+       "rom": 1,
+       "tl": "thiô"
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cher7hiann1 # ciah4sui2 # ia7cin1cio2，",
+     "tailo": "tshēr hiann # tsiah suí # iā tsin tsió，",
+     "han": [
+      {
+       "t": "揣兄遮媠也真少，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khia7gua2 # cng1thau5 # huann3bue7tioh8。",
+     "tailo": "khiā guá # tsng-thâu # huànn buē tio̍h。",
+     "han": [
+      {
+       "t": "徛我庄頭看袂著。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "眉毛柔順似柳葉，",
+    "眼睛看人會勾魂，",
+    "俊如郎君也真少，",
+    "在我村裡找不著。"
+   ],
+   "src_no": 2,
+   "head": "南港楊闕熟",
+   "tape": "音檔030"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/070.jpg",
+  "trans": "TRANS/070.jpg"
+ }
+}

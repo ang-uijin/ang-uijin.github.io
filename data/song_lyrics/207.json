@@ -1,0 +1,225 @@
+{
+ "no": "207",
+ "kind": "對唱",
+ "title": "我娘驚翁(女)、阿哥驚某(男)",
+ "source": "2-201雙溪褒歌.doc",
+ "site_title": "我娘驚翁(女)、阿哥驚某(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "我娘驚翁",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # kiann1ang1oo0 # cai7the2li2a0",
+     "tailo": "guá niû # kiann ang--oo # tsāi thé lí--a",
+     "han": [
+      {
+       "t": "我娘驚翁"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "在體理"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2kun1a2e0 # kiann1boo2e0 # m7cin1ki5",
+     "tailo": "guá kun-á--e # kiann bóo--e # m̄ tsin kî",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "君仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "驚某"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "毋真奇，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kun1a2 # leh4 kiann1boo2 # tioh8khi3si2a0",
+     "tailo": "kun-á # leh kiann bóo # tio̍h khì sí--a",
+     "han": [
+      {
+       "t": "君仔"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "驚某著去死"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cng1tiong1 # bo5tham5 # ma7u7pi1",
+     "tailo": "tsng-tiong # bô thâm # mā ū pi",
+     "han": [
+      {
+       "t": "庄中無潭嘛有埤。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "姑娘我怕夫有道理，",
+    "郎君怕妻可真奇，",
+    "郎君怕妻就去死，",
+    "村中無潭也有池。"
+   ],
+   "src_no": 17,
+   "head": "雙溪簡金獅(男)、連阿卻(女)相褒",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.1;00:27:30"
+  },
+  {
+   "n": 2,
+   "title": "阿哥驚某",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "a1ko1 # kiann1boo2 # si7bo5iann2",
+     "tailo": "a-ko # kiann bóo # sī bô-iánn",
+     "han": [
+      {
+       "t": "阿哥驚某是無影，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1niu5 # kiann1ang1 # suah4bo5tang3tho2kheh4hiann1",
+     "tailo": "a-niû # kiann ang # suah bô tàng thó-kheh-hiann",
+     "han": [
+      {
+       "t": "阿娘"
+      },
+      {
+       "t": "若",
+       "s": 1
+      },
+      {
+       "t": "驚翁"
+      },
+      {
+       "t": "煞無凍",
+       "s": 1
+      },
+      {
+       "t": "討客兄，"
+      }
+     ],
+     "tlpa_src": "a1niu5#kiann1ang1#suah4bo5tang3tho2kheh4 ⏎ hiann1"
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2siunn7bueh4 # ka7niu5a2 # sioh4mia7mia7",
+     "tailo": "guá siūnn-bueh # kā niû-á # sioh-miā-miā",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "想卜共娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "惜命命，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bang7niu5 # li2lai5oo0 # ciau3koo3e0 # hiann1",
+     "tailo": "bāng niû # lí lâi--oo # tsiàu-kòo--e # hiann",
+     "han": [
+      {
+       "t": "望娘汝來"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "照顧"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "兄。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "阿哥怕妻不是真，",
+    {
+     "segs": [
+      {
+       "t": "娘子怕夫"
+      },
+      {
+       "t": "就不能",
+       "s": 1
+      },
+      {
+       "t": "來偷情，"
+      }
+     ]
+    },
+    "想要把妳疼如命，",
+    "望妳也要照顧兄。"
+   ],
+   "src_no": 18,
+   "head": "雙溪簡金獅(男)、連阿卻(女)相褒",
+   "role": "男",
+   "tape": "00:27:55"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/207.jpg",
+  "trans": "TRANS/207.jpg"
+ }
+}

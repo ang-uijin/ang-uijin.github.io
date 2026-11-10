@@ -1,0 +1,446 @@
+{
+ "no": "209",
+ "kind": "對唱",
+ "title": "佮娘分開(男)、阿君汝想(女)、這久佮娘(男)、三聲無奈(女)",
+ "source": "2-110平溪相褒.doc",
+ "site_title": "佮娘分開(男)、這久佮娘(女)、 阿君汝想(男)、三生無奈(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "佮娘分開",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kah4niu5 # hun1khui1 # si7berh4cuann2iunn7",
+     "tailo": "kah niû # hun-khui # sī berh tsuánn-iūnn",
+     "han": [
+      {
+       "t": "佮娘分開"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "卜怎樣，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sim1kuann1 # tioh8siunn7kah4kiong5berh4iunn5",
+     "tailo": "sim-kuann # tio̍h siūnn kah kiông-berh iûnn",
+     "han": [
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "想甲強卜溶，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2lir2 # khir3 # cit8lang5cit8hiunn1siunn2",
+     "tailo": "kóng lír # khìr # tsi̍t lâng tsi̍t hiunn siúnn",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "汝去一人一鄉賞，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "berh4tan2oo0 # ho5si5 # kun1 # kinn3niu5",
+     "tailo": "berh tán--oo # hô-sî # kun # kìnn niû",
+     "han": [
+      {
+       "t": "卜等"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "何時君見娘。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "與娘分開怎麼辦，",
+    "心裡想得快溶化，",
+    "妳走一人一鄉里，",
+    "等待何時能見妳。"
+   ],
+   "src_no": 1,
+   "head": "平溪李勸(男)、吳蜜(女)相褒歌",
+   "role": "男",
+   "tape": "相褒歌N0.5;00:50:45"
+  },
+  {
+   "n": 2,
+   "title": "阿君汝想",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "si7a1kun1a2 # lir2siunn7e0 # gua2ia7siunn7a0",
+     "tailo": "sī a-kun-á # lír siūnn--e # guá iā siūnn--a",
+     "han": [
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "阿君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "汝想"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "我也想"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2sim1kuann1e0 # lir2iunn5 # kong2gua2 # ia7iunn5",
+     "tailo": "guá sim-kuann--e # lír iûnn # kóng guá # iā iûnn",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "汝溶"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "我也溶，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2loo7thau5 # li7hng7 # si7berh4cann2iunn7a0",
+     "tailo": "guá lōo-thâu # lī hn̄g # sī berh tsánn-iūnn--a",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "路頭離遠"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "卜怎樣"
+      },
+      {
+       "t": "矣",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2bak8sai2e0 # lau5loh8chiunn7ing1hiunn1",
+     "tailo": "guá ba̍k-sái--e # lâu-lo̍h tshiūnn ing hiunn",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "目屎"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "流落像霙香。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "郎君你想我也想，",
+    "心肝你溶我也溶，",
+    "路途遙遠能怎樣？",
+    {
+     "segs": [
+      {
+       "t": "眼淚直流如香"
+      },
+      {
+       "t": "灰",
+       "s": 1
+      },
+      {
+       "t": "落。"
+      }
+     ]
+    }
+   ],
+   "src_no": 2,
+   "head": "平溪李勸(男)、吳蜜(女)相褒歌",
+   "role": "女",
+   "tape": "相褒歌N0.5;00:51:10"
+  },
+  {
+   "n": 3,
+   "title": "這久佮娘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit4ku2 # kah4niu5 # tua3kang5a0uann1",
+     "tailo": "tsit-kú # kah niû # tuà kâng--a uann",
+     "han": [
+      {
+       "t": "這久佮娘帶仝"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "垵，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hun1khui1 # tioh8he1ko1 # lir2 # koo1tuann1",
+     "tailo": "hun-khui # tio̍h he ko # lír # koo-tuann",
+     "han": [
+      {
+       "t": "分開"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "彼哥汝孤單，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "loo7 thau5 # li7hng7 # tioh7berh4an3cuann2",
+     "tailo": "lōo-thâu # lī hn̄g # tiōh berh àn-tsuánn",
+     "han": [
+      {
+       "t": "路頭離遠"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "卜按怎，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "li7niu5 # goo7lun7 # tioh7ker3sann1uann1",
+     "tailo": "lī niû # gōo lūn # tiōh kèr sann uann",
+     "han": [
+      {
+       "t": "離娘五崙"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "過三垵。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "如今與娘住同垵，",
+    "分開哥哥你孤單，",
+    "路頭遙遠怎麼辦，",
+    "離娘五崙又三垵。"
+   ],
+   "src_no": 3,
+   "head": "平溪李勸(男)、吳蜜(女)相褒歌",
+   "role": "男",
+   "tape": "相褒歌N0.5;00:51:27"
+  },
+  {
+   "n": 4,
+   "title": "三聲無奈",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "si7sann1siann1 # bo5nai7 # si7berh4tng2to3a0",
+     "tailo": "sī sann siann # bô-nāi # sī berh tńg-tò--a",
+     "han": [
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "三聲無奈是"
+      },
+      {
+       "t": "卜",
+       "s": 1
+      },
+      {
+       "t": "轉倒"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2m7si7gua2niu5 # berh4hiau1ko1",
+     "tailo": "guá m̄ sī guá niû # berh hiau ko",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "毋是我娘卜梟哥，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "si7pat8lang5 # bo5chiunn7si7lan2ciah4ho2a0",
+     "tailo": "sī pa̍t-lâng # bô tshiūnn sī lán tsiah hó--a",
+     "han": [
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "別人無像"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "咱遮好"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2sim1kuann1e0 # chin1chiunn7her2 # terh4toh8",
+     "tailo": "guá sim-kuann--e # tshin-tshiūnn hér # terh to̍h",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "親像火塊著。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "三聲無奈要回家，",
+    "不是我要負心哥，",
+    {
+     "segs": [
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "別人不像咱倆好，"
+      }
+     ]
+    },
+    "心肝好比火在燒。"
+   ],
+   "src_no": 4,
+   "head": "平溪李勸(男)、吳蜜(女)相褒歌",
+   "role": "女",
+   "tape": "00:51:52"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E052",
+   "to": "著",
+   "why": "教育部用字（Siniong 11-11 定）；原造字火字旁、音 toh8（火燒）",
+   "part": 4,
+   "at": "4.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/209.jpg",
+  "trans": "TRANS/209.JPG"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "no": "051",
+ "kind": "唸歌",
+ "title": "挽茶頭路",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "挽茶頭路",
+ "parts": [
+  {
+   "n": 1,
+   "title": "挽茶頭路",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ban2te5 thau5loo7 # m7thang1 oh8",
+     "tailo": "bán tê thâu-lōo # m̄-thang o̍h",
+     "han": [
+      {
+       "t": "挽茶頭路毋通學，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cher1hong1 # phak8jit8 # pinn3 lau7po5",
+     "tailo": "tsher-hong # pha̍k-ji̍t # pìnn lāu-pô",
+     "han": [
+      {
+       "t": "吹風曝日變老婆，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lang5 u7 ho2kun1 # thang1ho2 kho3",
+     "tailo": "lâng ū hó kun # thang-hó khò",
+     "han": [
+      {
+       "t": "人有好君通好靠，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lan2 tioh8 thinn1 # kng1 # phak8kah4 jit8thau5 loh8",
+     "tailo": "lán tio̍h thinn # kng # pha̍k kah ji̍t-thâu lo̍h",
+     "han": [
+      {
+       "t": "咱著"
+      },
+      {
+       "t": "天光",
+       "s": 1
+      },
+      {
+       "t": "曝甲日頭落。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "採茶這行不能學，",
+    "吹風曬日變老婆，",
+    "人有郎君做靠山，",
+    {
+     "segs": [
+      {
+       "t": "咱得"
+      },
+      {
+       "t": "天亮",
+       "s": 1
+      },
+      {
+       "t": "曬到日落山。"
+      }
+     ]
+    }
+   ],
+   "src_no": 12,
+   "head": "三峽黃易換",
+   "tape": "范金蓮音檔"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/051.jpg",
+  "trans": "TRANS/051.JPG"
+ }
+}

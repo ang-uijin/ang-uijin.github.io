@@ -1,0 +1,56 @@
+{{ define "main" }}
+{{/*
+  歌詞文字化的獨立預覽頁（分支 song-lyrics 用，不依賴合併新站的版型）：把 data/song_lyrics/ 的每一首都用
+  partials/song-lyrics.html 畫出來，給 Siniong／先生對照原圖審稿。合併新站上線後這一頁可以刪。
+*/}}
+<main class="main-content">
+  <article class="content-section sl-preview">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{- $nos := slice -}}
+    {{- range $k, $v := site.Data.song_lyrics }}{{ $nos = $nos | append $k }}{{ end -}}
+    {{- $nos = sort $nos -}}
+    <div class="sl-preview-bar">
+      <div class="sl-switch" role="group" aria-label="拼音標法" title="原稿用 TLPA 標音，這裡預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音
+        <button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button>
+      </div>
+      <span class="sl-preview-count">共 {{ len $nos }} 首</span>
+    </div>
+    <nav class="sl-preview-toc" aria-label="曲目">
+      {{- range $nos }}{{ $s := index site.Data.song_lyrics . }}
+      <a href="#s{{ . }}"><b>{{ . }}</b> {{ (index $s.parts 0).title }}{{ if gt (len $s.parts) 1 }}…（{{ len $s.parts }} 段）{{ end }}</a>
+      {{- end }}
+    </nav>
+    {{- range $nos }}
+    {{- $s := index site.Data.song_lyrics . }}
+    <section class="sl-preview-song" id="s{{ . }}">
+      <h2 title="{{ $s.title }}"><span class="sl-preview-no">{{ . }}</span> {{ (index $s.parts 0).title }}{{ if gt (len $s.parts) 1 }}…（{{ len $s.parts }} 段）{{ end }}</h2>
+      <p class="sl-preview-meta">{{ $s.kind }}｜{{ (index $s.parts 0).head }}｜完稿：{{ $s.source }}
+        {{- with $s.img.text }}｜<a href="https://uijin.idv.tw/taiwansong/{{ . }}" target="_blank" rel="noopener">歌詞原圖</a>{{ end }}
+        {{- with $s.img.trans }}　<a href="https://uijin.idv.tw/taiwansong/{{ . }}" target="_blank" rel="noopener">中譯原圖</a>{{ end }}
+        　<a href="#top">↑</a></p>
+      {{ partial "song-lyrics.html" (dict "no" . "page" $ "switch" false) }}
+    </section>
+    {{- end }}
+  </article>
+</main>
+<script>
+/* 網址加 ?only=220,225 就只顯示這幾首（審稿、截圖用） */
+(function(){var m=/[?&]only=([0-9,]+)/.exec(location.search);if(!m)return;var keep=m[1].split(",");
+document.addEventListener("DOMContentLoaded",function(){var t=document.querySelector(".sl-preview-toc");if(t)t.style.display="none";
+var s=document.querySelectorAll(".sl-preview-song");for(var i=0;i<s.length;i++)if(keep.indexOf(s[i].id.slice(1))<0)s[i].style.display="none"})})();
+</script>
+<style>
+  .sl-preview-bar { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 12px; padding: 8px 0; background: var(--color-bg-primary, #FAF8F5); }
+  .sl-preview-bar .sl-switch { margin: 0; }
+  .sl-preview-count { font-size: .85rem; color: var(--color-text-muted, #9A8B7D); }
+  .sl-preview-toc { display: grid; grid-template-columns: repeat(auto-fill, minmax(11em, 1fr)); gap: 2px 12px; margin: 12px 0 28px; font-size: .88rem; }
+  .sl-preview-toc a { text-decoration: none; color: var(--color-text-secondary, #6B5D52); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sl-preview-toc a:hover { color: var(--color-accent-link, #A0522D); }
+  .sl-preview-toc b { font-weight: 500; color: var(--color-accent-primary, #8B5A2B); font-variant-numeric: tabular-nums; }
+  .sl-preview-song { padding-top: 18px; margin-top: 18px; border-top: 2px solid var(--color-border, #E5DED5); scroll-margin-top: 52px; }
+  .sl-preview-song h2 { font-size: 1.15rem; margin: 0 0 4px; }
+  .sl-preview-no { color: var(--color-accent-gold, #B8860B); font-variant-numeric: tabular-nums; margin-right: .3em; }
+  .sl-preview-meta { font-size: .8rem; color: var(--color-text-muted, #9A8B7D); margin: 0 0 12px; }
+</style>
+{{ end }}

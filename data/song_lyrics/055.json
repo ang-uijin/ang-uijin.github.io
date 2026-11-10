@@ -1,0 +1,89 @@
+{
+ "no": "055",
+ "kind": "唸歌",
+ "title": "我捀面水",
+ "source": "1-102石碇唸歌.doc",
+ "site_title": "我捀面水",
+ "parts": [
+  {
+   "n": 1,
+   "title": "我捀面水",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2phang5bin7cui2 # chut4tua7thiann1",
+     "tailo": "guá phâng bīn-tsuí # tshut tuā-thiann",
+     "han": [
+      {
+       "t": "我捀面水出大廳，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sin7sua3ka7i1phuah4loh7tua7tiann5",
+     "tailo": "sīn-suà kā i phuah lōh tuā-tiânn",
+     "han": [
+      {
+       "t": "順紲共"
+      },
+      {
+       "t": "伊",
+       "s": 1
+      },
+      {
+       "t": "潑落大埕，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5khir3cau3kha1e0 # khah4u7iann2",
+     "tailo": "lâi-khìr tsàu-kha--e # khah ū-iánn",
+     "han": [
+      {
+       "t": "來去灶跤兮卡有影，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "phua3kua2ching1te5 # khuann2tai7hiann1",
+     "tailo": "phuà kuá tshing-tê # khuánn-tāi hiann",
+     "han": [
+      {
+       "t": "泡寡清茶款待兄。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "我端"
+      },
+      {
+       "t": "洗",
+       "s": 1
+      },
+      {
+       "t": "臉水出大廳，"
+      }
+     ]
+    },
+    "順手潑下在門庭，",
+    "來去廚房才是真，",
+    "泡杯清茶款待兄。"
+   ],
+   "src_no": 4,
+   "head": "石碇烏貓娘",
+   "tape": "A35"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/055.jpg",
+  "trans": "TRANS/055.JPG"
+ }
+}

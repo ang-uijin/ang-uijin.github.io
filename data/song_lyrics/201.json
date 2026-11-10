@@ -1,0 +1,264 @@
+{
+ "no": "201",
+ "kind": "對唱",
+ "title": "日頭若暗(女)、盡忠盡義(男)",
+ "source": "2-201雙溪褒歌.doc",
+ "site_title": "日頭若暗(女)、盡忠盡義(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "日頭若暗",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2jit8thau5 # na7am3 # tioh8tng2to2a0",
+     "tailo": "guá ji̍t-thâu # nā àm # tio̍h tńg-tó--a",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "日頭若暗著轉倒"
+      },
+      {
+       "t": "矣",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7thang1tua3cia1oo0 # am3so1so1",
+     "tailo": "m̄-thang tuà tsia--oo # àm-so-so",
+     "han": [
+      {
+       "t": "毋通帶遮"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "暗趖趖，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2suann1e0 # tang3loo3 # cin1m7ho2",
+     "tailo": "kóng suann--e # tàng-lòo # tsin m̄-hó",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "山裡凍露真毋好，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5chai2sui2sui2o0 # ge5a1ko1o0",
+     "tailo": "bô-tshái suí-suí--o # gê a-ko--o",
+     "han": [
+      {
+       "t": "無釆媠媠"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "个阿哥"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "太陽下山該回家，",
+    "不要在此黑漆漆，",
+    "山裡凍露真不好，",
+    {
+     "segs": [
+      {
+       "t": "難為"
+      },
+      {
+       "t": "了",
+       "s": 1
+      },
+      {
+       "t": "英俊大帥哥。"
+      }
+     ]
+    }
+   ],
+   "src_no": 1,
+   "head": "雙溪連阿卻(女)、張聯葉(男)相褒 之一",
+   "role": "女",
+   "tape": "相褒歌N0.3;00:01:19"
+  },
+  {
+   "n": 2,
+   "title": "盡忠盡義",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "koh4cin7tiong1e0 # cin7gi7a0 # ce1 # niu5li2",
+     "tailo": "koh tsīn-tiong--e # tsīn-gī--a # tse # niû lí",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "盡忠"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "盡義"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "這娘汝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ia1li2 # lai5sueh4chut4oo0 # gua2cai1ki1",
+     "tailo": "ia lí # lâi sueh-tshut--oo # guá tsai-ki",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "汝來說出"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "我知機，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kiann1gua2 koh4 # tang3loo7 a0 # khah4cham2si2a0",
+     "tailo": "kiann guá koh # tàng-lōo--a # khah tshám sí--a",
+     "han": [
+      {
+       "t": "驚我"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "凍露"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "卡慘死"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "li2u7tai3liam7tioh8 ce1 # kun1e0ji5",
+     "tailo": "lí ū tài-liām tio̍h tse # kun--e jî",
+     "han": [
+      {
+       "t": "汝有帶念"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "這君"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "兒。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "盡忠盡義這娘子，",
+    "你來說出我明白，",
+    "怕我凍露慘過死，",
+    "妳是關心這郎君。"
+   ],
+   "src_no": 2,
+   "head": "雙溪連阿卻(女)、張聯葉(男)相褒 之一",
+   "role": "男",
+   "tape": "相褒歌NO.3;00:01:38"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/201.jpg",
+  "trans": "TRANS/201.JPG"
+ }
+}

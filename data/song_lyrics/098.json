@@ -1,0 +1,158 @@
+{
+ "no": "098",
+ "kind": "唸歌",
+ "title": "茶籗縖來",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "茶笛*來",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶籗縖來",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5khah4 # ha5lai5oo0 # cin1tiam5 e0ting7",
+     "tailo": "tê-khah # hâ-lâi--oo # tsin tiâm--e tīng",
+     "han": [
+      {
+       "t": "茶籗縖來"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "真沉"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "𠕇，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siang1chiu2e0 # lai5ban2 a0 # khuai3kue3ling5",
+     "tailo": "siang-tshiú--e # lâi bán--a # khuài kuè lîng",
+     "han": [
+      {
+       "t": "雙手"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "來挽"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "快過壟，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ban2te5 # niu5kiann2 # si7kik4sin1e0 # ching7",
+     "tailo": "bán tê # niû-kiánn # sī kik sin--e # tshīng",
+     "han": [
+      {
+       "t": "挽茶娘囝"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "激身"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "穿，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chue7ko1 e0 # theh8cinn5a0 # oh4kiu5cing5",
+     "tailo": "tshuē ko--e # the̍h tsînn--a # oh kiû-tsîng",
+     "han": [
+      {
+       "t": "揣哥"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "提錢"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "僫求情。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶籠繫腰真沉重，",
+    "雙手來摘過茶壟，",
+    "採茶姑娘愛妝扮，",
+    "向哥拿錢求情難。"
+   ],
+   "src_no": 11,
+   "head": "金山李梨",
+   "tape": "台北愛悅情歌N0.2;00:23:02"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E021",
+   "to": "𠕇",
+   "why": "教育部用字（Siniong 11-11 定）；音 ting7（硬）",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E013",
+   "to": "僫",
+   "why": "教育部用字（Siniong 11-11 定）；音 oh4（難）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/098.jpg",
+  "trans": "TRANS/098.JPG"
+ }
+}

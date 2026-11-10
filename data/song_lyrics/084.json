@@ -1,0 +1,202 @@
+{
+ "no": "084",
+ "kind": "唸歌",
+ "title": "大隻牛犅",
+ "source": "1-204三芝唸歌.doc",
+ "site_title": "大隻牛犅",
+ "parts": [
+  {
+   "n": 1,
+   "title": "大隻牛犅",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "tua7ciah4e5gu5kang2oo0 # phue3se3tiau5soh4a0",
+     "tailo": "tuā tsiah ê gû-káng--oo # phuè sè tiâu soh--a",
+     "han": [
+      {
+       "t": "大隻"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "牛犅"
+      },
+      {
+       "t": "噢配",
+       "s": 1
+      },
+      {
+       "t": "細條索"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tua7han3 e5a1niu5a2 # lo0se3han3ko1",
+     "tailo": "tuā-hàn ê a-niû-á # --lo sè-hàn ko",
+     "han": [
+      {
+       "t": "大漢"
+      },
+      {
+       "t": "个阿",
+       "s": 1
+      },
+      {
+       "t": "娘仔"
+      },
+      {
+       "t": "囉",
+       "s": 1
+      },
+      {
+       "t": "細漢哥，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4si7lin2e5niu5hue1a0 oo0 # lai5m7bat4po2a0",
+     "tailo": "iah sī lín ê niû-hue--a-oo # lâi m̄ bat pó--a",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "是恁"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "娘花"
+      },
+      {
+       "t": "仔噢來",
+       "s": 1
+      },
+      {
+       "t": "毋捌寶"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "se3liap8 # e5kan1lok8a2 # si7chuan3gau5go5",
+     "tailo": "sè lia̍p # ê kan-lo̍k-á # sī tshuàn gâu gô",
+     "han": [
+      {
+       "t": "細粒"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "矸轆"
+      },
+      {
+       "t": "仔是",
+       "s": 1
+      },
+      {
+       "t": "串爻遨。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "大牛得要小繩拖，",
+    {
+     "segs": [
+      {
+       "t": "大塊"
+      },
+      {
+       "t": "頭",
+       "s": 1
+      },
+      {
+       "t": "姑娘配矮哥，"
+      }
+     ]
+    },
+    "你們姑娘不識貨，",
+    {
+     "segs": [
+      {
+       "t": "會轉"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "偏是小陀螺。"
+      }
+     ]
+    }
+   ],
+   "src_no": 3,
+   "head": "三芝賴溪章",
+   "tape": "台北愛悅情歌N0.2;01:10:56"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/084.jpg",
+  "trans": "TRANS/084.JPG"
+ }
+}

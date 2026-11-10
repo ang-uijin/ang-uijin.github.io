@@ -1,0 +1,152 @@
+{
+ "no": "063",
+ "kind": "唸歌",
+ "title": "茶仔幼幼",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "茶仔幼幼",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶仔幼幼",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5a2 # kong2iu3iu3 e0 # cin1oh4ban2",
+     "tailo": "tê-á # kóng iù-iù--e # tsin oh bán",
+     "han": [
+      {
+       "t": "茶仔"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "幼幼"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "真僫挽，"
+      }
+     ],
+     "tlpa_src": "te5a2# kong2iu3x e0# cin1oh4ban2"
+    },
+    {
+     "kind": "line",
+     "tlpa": "beh4tan2e0 # ho5si5 # cit8khah4ciam1",
+     "tailo": "beh tán--e # hô-sî # tsi̍t khah tsiam",
+     "han": [
+      {
+       "t": "卜等"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "何時一籗尖，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "e7io1 # gun2ha5khah4e0 # lang5kai3tiam2oo0",
+     "tailo": "ē-io # gún hâ khah--e # lâng kài tiám--oo",
+     "han": [
+      {
+       "t": "下腰"
+      },
+      {
+       "t": "阮",
+       "s": 1
+      },
+      {
+       "t": "縖籗"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "人介忝"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hong1cher1 # lit8phak8 # ma7lang5lau7siam5",
+     "tailo": "hong tsher # li̍t pha̍k # mā lâng lāu siâm",
+     "han": [
+      {
+       "t": "風吹日曝"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "人老禪。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶仔嫩嫩卻難摘，",
+    "要等何時一籠尖，",
+    "低腰繫籠人疲倦，",
+    "風吹日曬人老禪。"
+   ],
+   "src_no": 6,
+   "head": "深坑蘇連春",
+   "tape": "台北愛悅情歌10/15;00:05:16"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E013",
+   "to": "僫",
+   "why": "教育部用字（Siniong 11-11 定）；音 oh4（難）",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/063.jpg",
+  "trans": "TRANS/063.JPG"
+ }
+}

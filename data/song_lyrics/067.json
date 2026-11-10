@@ -1,0 +1,125 @@
+{
+ "no": "067",
+ "kind": "唸歌",
+ "title": "瞞翁騙婿",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "瞞翁騙婿",
+ "parts": [
+  {
+   "n": 1,
+   "title": "瞞翁騙婿",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "mua5ang1le0 # phian3sai3e0 # berh4ban2te5",
+     "tailo": "muâ ang--le # phiàn sài--e # berh bán tê",
+     "han": [
+      {
+       "t": "瞞翁"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "騙婿"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "卜挽茶，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "pang3sak4 e0 # sue3kiann2 # koh4hoo7ta1ke1",
+     "tailo": "pàng-sak--e # suè-kiánn # koh hōo ta-ke",
+     "han": [
+      {
+       "t": "放"
+      },
+      {
+       "t": "sak4",
+       "rom": 1,
+       "tl": "sak"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "細囝"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "予大家，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7berh4te5liau5e0 # kong3tua7kheh4",
+     "tailo": "siūnn-berh tê-liâu--e # kòng-tuā-kheh",
+     "han": [
+      {
+       "t": "想卜茶寮"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "摃大客，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5gi5e0sue1siau5 # tng7puann3ge5",
+     "tailo": "bô-gî--e sue-siâu # tn̄g puànn gê",
+     "han": [
+      {
+       "t": "無疑"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "衰韶斷半个。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "瞞夫騙婿要採茶，",
+    "拋棄幼子給婆婆，",
+    "想在茶寮弔凱子，",
+    "不料倒霉沒半人。"
+   ],
+   "src_no": 10,
+   "head": "深坑黃金發",
+   "tape": "台北愛悅情歌10/15;00:19:34"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/067.jpg",
+  "trans": "TRANS/067.JPG"
+ }
+}

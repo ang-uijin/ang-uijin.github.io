@@ -1,0 +1,145 @@
+{
+ "no": "091",
+ "kind": "唸歌",
+ "title": "菅尾出世之一",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "菅尾出世之一",
+ "parts": [
+  {
+   "n": 1,
+   "title": "菅尾出世之一",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kuann1bue2 # chut4si3 # lai5siang1ping5lai7 oo0",
+     "tailo": "kuann-bué # tshut-sì # lâi siang-pîng lāi--oo",
+     "han": [
+      {
+       "t": "菅尾出世"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "雙爿利"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "jit8thau5lai0 # loh8khi3 # si7gueh8 # khi2lai5",
+     "tailo": "ji̍t-thâu--lai # lo̍h-khì # sī gue̍h # khí-lâi",
+     "han": [
+      {
+       "t": "日頭"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "落去"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "月起來，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5kiann2 # lai5senn1sui2 # si7lang5lang5ai3a0",
+     "tailo": "guá niû-kiánn # lâi senn suí # sī lâng-lâng ài--a",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "娘囝"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "生媠"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "人人愛"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5senn1 # lai5in1ian5lo0 # phue3be7lai5",
+     "tailo": "bô senn # lâi in-iân--lo # phuè bē lâi",
+     "han": [
+      {
+       "t": "無生"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "姻緣"
+      },
+      {
+       "t": "囉",
+       "s": 1
+      },
+      {
+       "t": "配袂來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "菅葉出生兩邊快，",
+    "日頭下山月上來，",
+    "姑娘漂亮人人愛，",
+    "沒有姻緣配不來。"
+   ],
+   "src_no": 4,
+   "head": "金山徐石金",
+   "tape": "台北愛悅情歌N0.2;00:32:19"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/091.jpg",
+  "trans": "TRANS/091.JPG"
+ }
+}

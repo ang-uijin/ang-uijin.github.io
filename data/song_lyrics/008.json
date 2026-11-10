@@ -1,0 +1,162 @@
+{
+ "no": "008",
+ "kind": "唸歌",
+ "title": "君仔出門",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "君仔出門",
+ "parts": [
+  {
+   "n": 1,
+   "title": "君仔出門",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kun1a2 a0 # chut4mui5a0 # gua2ting1ling5 a0",
+     "tailo": "kun-á--a # tshut-muî--a # guá ting-lîng--a",
+     "han": [
+      {
+       "t": "君仔"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "出門"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "我叮嚀"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ting1ling5chut4gua7 # toh8cing3king1a0",
+     "tailo": "ting-lîng tshut-guā # to̍h tsìng-king--a",
+     "han": [
+      {
+       "t": "叮嚀出外著正經"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2gua7cng1a2 # khah4sui2 # ma7bo5loo7ing7a0",
+     "tailo": "kóng guā-tsng-á # khah suí # mā bô-lōo-īng--a",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "外庄"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "卡媠"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "無路用"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2chue7bo5 # li2gua2e0 # ciah4u7cing5 a0",
+     "tailo": "guá tshuē-bô # lí guá--e # tsiah ū-tsîng--a",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "揣無汝我"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "遮有情"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "郎君出門我叮嚀，",
+    "叮嚀出外得正經，",
+    {
+     "segs": [
+      {
+       "t": "外庄"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "漂亮沒有用，"
+      }
+     ]
+    },
+    "不如你我恁有情。"
+   ],
+   "src_no": 8,
+   "head": "雙溪連阿抾",
+   "tape": "台北愛悅情歌N0.1;00:08:36"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/008.jpg",
+  "trans": "TRANS/008.JPG"
+ }
+}

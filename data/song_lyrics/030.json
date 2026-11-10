@@ -1,0 +1,118 @@
+{
+ "no": "030",
+ "kind": "唸歌",
+ "title": "芋葉滴水",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "芋葉滴水",
+ "parts": [
+  {
+   "n": 1,
+   "title": "芋葉滴水",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "oo7hioh8 # tih4 cui2e0 # sing5 cin1a0cu1",
+     "tailo": "ōo-hio̍h # tih tsuí--e # sîng tsin--a tsu",
+     "han": [
+      {
+       "t": "芋葉滴水"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "宬真"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "珠"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tua7cun5 # loh8 hai2 # tioh8 puann3 tim5phu5",
+     "tailo": "tuā-tsûn # lo̍h hái # tio̍h puànn tîm phû",
+     "han": [
+      {
+       "t": "大船落海"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "半沉浮，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chai3na5 # tann1 cui2e0 # na7 e7 u7",
+     "tailo": "tshài-nâ # tann-tsuí--e # nā ē ū",
+     "han": [
+      {
+       "t": "菜籃擔水"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "若會有"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cioh8thau5 # tng3 cui2 e0 # to1 e7 phu5",
+     "tailo": "tsio̍h-thâu # tǹg tsuí--e # to ē phû",
+     "han": [
+      {
+       "t": "石頭頓水"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "都會浮。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "芋葉滴水成真珠，",
+    "大船落海半沉浮，",
+    "菜籃挑水若盛得，",
+    "石頭落水也能浮。"
+   ],
+   "src_no": 10,
+   "head": "坪林鄭桃",
+   "tape": "台北愛悅情歌10/15;00:47:43"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/030.jpg",
+  "trans": "TRANS/030.JPG"
+ }
+}

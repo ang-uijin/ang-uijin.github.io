@@ -1,0 +1,521 @@
+{
+ "no": "202",
+ "kind": "對唱",
+ "title": "金針橐在(女)、二三四三(男)、神魂予君(女)、灶空燃火(男)",
+ "source": "2-201雙溪褒歌.doc",
+ "site_title": "金針橐在(女)、二三四三(男)、 神魂予君(女)、灶空燃火(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "金針橐在",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kim1cam1 # lok4cai7a2tau7ciunn3ang3",
+     "tailo": "kim-tsam # lok tsāi á tāu-tsiùnn-àng",
+     "han": [
+      {
+       "t": "金針橐在"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "豆醬甕，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2sann1jit8 # bo5phak8oo0 # e7senn1thang5",
+     "tailo": "guá sann ji̍t # bô pha̍k--oo # ē senn-thâng",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "三日無曝"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "會生蟲，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2kun1a2le0 # m7si7a0niu5 # ge5ang1",
+     "tailo": "guá kun-á--le # m̄ sī--a niû # gê ang",
+     "han": [
+      {
+       "t": "我君"
+      },
+      {
+       "t": "仔咧",
+       "s": 1
+      },
+      {
+       "t": "毋是"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "娘个翁，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2ciah4e7cit8lang5e0 # khun3cit8pang5",
+     "tailo": "guá tsiah ē tsi̍t lâng--e # khùn tsi̍t pâng",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "才會一人"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "睏一房。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "金針放在"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "豆醬甕，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "三日不曬"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "會生虫，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "我君不是"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "我的夫，"
+      }
+     ]
+    },
+    "才會孤單守空房。"
+   ],
+   "src_no": 3,
+   "head": "雙溪連阿卻(女)、張聯葉(男)相褒 之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:00:14"
+  },
+  {
+   "n": 2,
+   "title": "二三四三",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "koh4ji7sann1 # le0su3sam1e0 # kue3liau2au7",
+     "tailo": "koh jī-sann # --le sù-sam--e # kuè liáu-āu",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "二三"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": " 四三"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "過了後，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tann1lai5e0 # bue0kong2 # koh4lan2au7kau1",
+     "tailo": "tann lâi--e # --bue kóng # koh lán āu-kau",
+     "han": [
+      {
+       "t": "今來"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "卜講"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "咱後溝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4chit4cap8e0 # peh4cap8 # oo0to1kiann5lai5kau3a0",
+     "tailo": "ah tshit-tsa̍p--e # peh-tsa̍p # --oo to kiânn lâi-kàu--a",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "七十"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "八十"
+      },
+      {
+       "t": "噢都",
+       "s": 1
+      },
+      {
+       "t": "行來到"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7bueh4oo0 # kah4niu5a2 # li2khun3kang5e5thau5",
+     "tailo": "siūnn-bueh--oo # kah niû-á # lí khùn kâng ê thâu",
+     "han": [
+      {
+       "t": "想卜"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "佮娘"
+      },
+      {
+       "t": "仔汝",
+       "s": 1
+      },
+      {
+       "t": "睏仝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "頭。"
+      }
+     ],
+     "tlpa_src": "siunn7bueh4oo0#kah4niu5a2#li2khun3kang5e5 ⏎ thau5"
+    }
+   ],
+   "trans": [
+    "過了二十三又四十三天，",
+    "要談就到後溝邊，",
+    "到了七十八十天，",
+    "要跟姑娘睡同枕。"
+   ],
+   "src_no": 4,
+   "head": "雙溪連阿卻(女)、張聯葉(男)相褒 之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:00:47"
+  },
+  {
+   "n": 3,
+   "title": "神魂予君",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "sin5hun5 # na7hoo7kun1a2 # be5loh8tiann2",
+     "tailo": "sîn-hûn # nā hōo kun-á # bê lo̍h tiánn",
+     "han": [
+      {
+       "t": "神魂"
+      },
+      {
+       "t": "若",
+       "s": 1
+      },
+      {
+       "t": "予君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "迷落鼎，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tiann2kua3 # kham3loh8e0 # khah4bat8siann5",
+     "tailo": "tiánn-kuà # khàm-lo̍h--e # khah ba̍t siânn",
+     "han": [
+      {
+       "t": "鼎蓋崁落"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "卡密城，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2gua2niu5a2 # kio3kun1a2 # koo3senn3mia7",
+     "tailo": "kóng guá niû-á # kiò kun-á # kòo sènn-miā",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "我娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "叫君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "顧性命，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kio3li2e0 # cau3khang1 # oo0m7thang1hiann5",
+     "tailo": "kiò lí--e # tsàu-khang # --oo m̄-thang hiânn",
+     "han": [
+      {
+       "t": "叫汝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "灶空"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "毋通燃。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "神魂讓君迷下鍋，",
+    "鍋蓋蓋下密如城，",
+    "姑娘請君救我命，",
+    "別再加火燃我心。"
+   ],
+   "src_no": 5,
+   "head": "雙溪連阿卻(女)、張聯葉(男)相褒 之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:01:08"
+  },
+  {
+   "n": 4,
+   "title": "灶空燃火",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cau3khang1e0 # hiann3hue2 # toh8un2sit8cai7",
+     "tailo": "tsàu-khang--e # hiànn-hué # to̍h ún si̍t-tsāi",
+     "han": [
+      {
+       "t": "灶空"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "燃火"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "隱實在，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gun2na7bo5hiann5 # koh4sann1tuinn3 # to2ui7lai5i0",
+     "tailo": "gún nā bô hiânn # koh sann tuìnn # tó-uī lâi--i",
+     "han": [
+      {
+       "t": "阮若",
+       "s": 1
+      },
+      {
+       "t": "無燃"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "三頓"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "佗位來"
+      },
+      {
+       "t": "咿",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3toh8koh4ke1kiam2 # toh8hiann5khuann3mai7",
+     "tailo": "khuànn to̍h koh ke-kiám # to̍h hiânn khuànn-māi",
+     "han": [
+      {
+       "t": "看著"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "加減"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "燃看眛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "guan2na7u7hiann5 # koh4li2toh8cai1",
+     "tailo": "guán nā ū hiânn # koh lí to̍h tsai",
+     "han": [
+      {
+       "t": "阮若有燃"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "汝著知。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "灶口添火真實在，",
+    "不燃三頓那裏來？",
+    "著火多少添點柴，",
+    "我需添火妳才知。"
+   ],
+   "src_no": 6,
+   "head": "雙溪連阿卻(女)、張聯葉(男)相褒 之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:01:34"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/202.jpg",
+  "trans": "TRANS/202.JPG"
+ }
+}

@@ -1,0 +1,408 @@
+{
+ "no": "210",
+ "kind": "對唱",
+ "title": "聽娘塊講(男)、弄假成真(女)、講甲棄嫌(男)、一山挽了(女)",
+ "source": "2-101坪林褒歌.doc",
+ "site_title": "聽娘快講(女)、弄假成真(男)、 講甲棄嫌(女)、一山挽了(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "聽娘塊講",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "thiann1niu5 # terh4kong2 # ge5 se3bin7oo0",
+     "tailo": "thiann niû # terh kóng # gê sè-bīn--oo",
+     "han": [
+      {
+       "t": "聽娘塊講个勢面"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ai3berh4lir2gua2e0 # lai5kiat4chin1",
+     "tailo": "ài berh lír guá--e # lâi kiat-tshin",
+     "han": [
+      {
+       "t": "愛卜汝我"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "來結親，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "koo2ca2 # ge5ue7oo0 # ai3siong1sin3",
+     "tailo": "kóo-tsá # gê uē--oo # ài siong-sìn",
+     "han": [
+      {
+       "t": "古早个話"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "愛相信，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lang5kong2 # long7ke2 # suah4sing5cin1.",
+     "tailo": "lâng kóng # lōng ké # suah sîng tsin.",
+     "han": [
+      {
+       "t": "人講弄假煞成真。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "看你說話的樣子，",
+    "似要跟我來結親，",
+    "古人的話要相信，",
+    "說是弄假會成真。"
+   ],
+   "src_no": 1,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之一",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:02:59"
+  },
+  {
+   "n": 2,
+   "title": "弄假成真",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "long7ke2 # sing5cin1 # na0bo5kuan1he7",
+     "tailo": "lōng ké # sîng tsin # --na bô-kuan-hē",
+     "han": [
+      {
+       "t": "弄假成真"
+      },
+      {
+       "t": "哪",
+       "s": 1
+      },
+      {
+       "t": "無關係,"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ai3lir2 # ka7niu5 # tau3ban2te5e0",
+     "tailo": "ài lír # kā niû # tàu bán tê--e",
+     "han": [
+      {
+       "t": "愛汝共娘鬥挽茶"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": ","
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ke3ang1 # kong2chua7boo2 # ma7si7tai7the2",
+     "tailo": "kè-ang # kóng tshuā-bóo # mā sī tāi-thé",
+     "han": [
+      {
+       "t": "嫁尪"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "娶某"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "是大體,"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2 # si7khi3hiam5 # gua2 # cere3che1e0",
+     "tailo": "lír # sī khì-hiâm # guá # tserè tshe--e",
+     "han": [
+      {
+       "t": "汝是棄嫌我做妻"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "？"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "弄假成真沒關係，",
+    "想要採茶在一起。",
+    "嫁人娶妻是大事，",
+    "你是嫌棄我做妻？"
+   ],
+   "src_no": 2,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之一",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:03:23"
+  },
+  {
+   "n": 3,
+   "title": "講甲棄嫌",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2kah4khi3hiam5e0 # tioh8bo5a0li2",
+     "tailo": "kóng kah khì-hiâm--e # tio̍h bô--a lí",
+     "han": [
+      {
+       "t": "講甲棄嫌"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "著無"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "理,"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3niu5 # ge5bin7e0 # ciann5khiau2khi3",
+     "tailo": "khuànn niû # gê bīn--e # tsiânn khiáu-khì",
+     "han": [
+      {
+       "t": "看娘个面"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "誠巧氣，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tng1kim1e0 # bing5kong2e0 # khuann3kah4i3oo0",
+     "tailo": "tng-kim--e # bîng-kóng--e # khuànn kah-ì--oo",
+     "han": [
+      {
+       "t": "當今"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "明講"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "看佮意"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "na7berh4koo2ca2 # tioh8pinn7siunn7si1",
+     "tailo": "nā berh kóo-tsá # tio̍h pīnn-siūnn-si",
+     "han": [
+      {
+       "t": "若卜古早"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "病相思。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "說到嫌棄沒道理，",
+    "看你面容很巧氣，",
+    "現在明講我中意，",
+    {
+     "segs": [
+      {
+       "t": "若在古代"
+      },
+      {
+       "t": "早就",
+       "s": 1
+      },
+      {
+       "t": "病相思。"
+      }
+     ]
+    }
+   ],
+   "src_no": 3,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之一",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:03:43"
+  },
+  {
+   "n": 4,
+   "title": "一山挽了",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2cit8suann1 # ban2liau2 # iu7cit8lun7",
+     "tailo": "kóng tsi̍t suann # bán liáu # iū tsi̍t lūn",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "一山挽了又一崙,"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "huann1hi2 # cher7tioh8sui2long5kun1",
+     "tailo": "huann-hí # tshēr-tio̍h suí lông-kun",
+     "han": [
+      {
+       "t": "歡喜揣著媠郎君，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ce1 # si3cing5se3 # e5ian5hun7",
+     "tailo": "tse # sì tsîng-sè # ê iân-hūn",
+     "han": [
+      {
+       "t": "這是前世个緣份，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hoo7gua2 # na2khuann3 # kong2na2sir7bun5",
+     "tailo": "hōo guá # ná khuànn # kóng ná sīr-bûn",
+     "han": [
+      {
+       "t": "予我那看"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "那斯文。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一山採了又一崙，",
+    "高興找到帥郎君，",
+    "這是前世的緣份，",
+    "叫我越看越斯文。"
+   ],
+   "src_no": 4,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之一",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:04:08"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 3,
+   "at": "3.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 4,
+   "at": "4.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 4,
+   "at": "4.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/210.jpg",
+  "trans": "TRANS/210.JPG"
+ }
+}

@@ -1,0 +1,502 @@
+{
+ "no": "205",
+ "kind": "對唱",
+ "title": "頭殼擔起(女)、阿娘錢銀(男)、哥仔生媠(女)、毋通固謙(男)",
+ "source": "2-201雙溪褒歌.doc",
+ "site_title": "頭殼擔去(女)、阿娘錢銀(男)、 哥仔生婿(女)、毋通固謙(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "頭殼擔起",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2 thau5khak4tann1khi2e0 # ji7puann3thinn1",
+     "tailo": "guá thâu-khak tann-khí--e # jī puànn-thinn",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "頭殼擔起"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "二半天，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1kun1hiah4kin2a0tng2bueh4ni5",
+     "tailo": "a-kun hiah kín--a tńg bueh-nî",
+     "han": [
+      {
+       "t": "阿君遐緊"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "轉卜尼，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kang7niu5tau3ban2e5cit8khah4tinn7",
+     "tailo": "kāng niû tàu bán ê tsi̍t khah tīnn",
+     "han": [
+      {
+       "t": "共娘鬥挽"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "一籗淀，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1niu5ke1than3cit8puann3cinn5",
+     "tailo": "a-niû ke thàn tsi̍t-puànn tsînn",
+     "han": [
+      {
+       "t": "阿娘加趁一半錢。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "頭兒抬起二半天，",
+    "郎君恁快要回去，",
+    "幫我採茶滿一籠，",
+    "姑娘多賺一半錢。"
+   ],
+   "src_no": 11,
+   "head": "雙溪張聯葉、黃朱束相褒",
+   "role": "女",
+   "tape": "相褒歌N0.3;00:06:26"
+  },
+  {
+   "n": 2,
+   "title": "阿娘錢銀",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2a1niu5 # li2cinn5gin5 # to1kah4cia1ai3",
+     "tailo": "guá a-niû # lí tsînn-gîn # to kah tsia ài",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "阿娘汝錢銀"
+      },
+      {
+       "t": "都",
+       "s": 1
+      },
+      {
+       "t": "甲這愛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7thang2e0 # ciah8ching7 # koh4ciah4ai3cai5",
+     "tailo": "ū tháng--e # tsia̍h-tshīng # koh tsiah ài tsâi",
+     "han": [
+      {
+       "t": "有通"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "食穿"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "遮"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "愛財，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4na7bueh4koh4ban2te5a0 # han5na2cai3",
+     "tailo": "ah nā bueh koh bán tê--a # hân-ná-tsài",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "若卜"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "挽茶"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "明旦再"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2tng2to3e0 # bing5thian1 # gua2cai3koh4e0lai5",
+     "tailo": "guá tńg-tò--e # bîng-thian # guá tsài-koh--e lâi",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "轉倒"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "明天"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "再閣"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "姑娘金錢這麼愛，",
+    "有得吃穿還愛財，",
+    "妳要挽茶等明日，",
+    "回去明天會再來。"
+   ],
+   "src_no": 12,
+   "head": "雙溪張聯葉、黃朱束相褒",
+   "role": "男",
+   "tape": "相褒歌N0.3;00:06:37"
+  },
+  {
+   "n": 3,
+   "title": "哥仔生媠",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2ko1a2 # sinn1sui2a0 # boo2tan1cang5a0",
+     "tailo": "kóng ko-á # sinn suí--a # bóo-tan-tsâng--a",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "哥仔生媠"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "牡丹欉"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # sinn1bai2e0 # au3suann1cang1",
+     "tailo": "guá niû # sinn bái--e # àu suann-tsang",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "娘生䆀"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "漚山棕，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1ko1 # kiann5loo7e0 # ciah4liau1lang7a0",
+     "tailo": "a-ko # kiânn-lōo--e # tsiah liau-lāng--a",
+     "han": [
+      {
+       "t": "阿哥行路"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "遮遼弄"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hoo7gun2 # tann1thing5 # khuann3puann3kang1",
+     "tailo": "hōo gún # tann thîng # khuànn puànn-kang",
+     "han": [
+      {
+       "t": "予阮擔停看半工。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "阿哥俊如牡丹株，",
+    "姑娘醜如朽蛇木，",
+    "阿哥走路真大方，",
+    "讓阮停擔看半天。"
+   ],
+   "src_no": 13,
+   "head": "雙溪張聯葉、黃朱束相褒",
+   "role": "女",
+   "tape": "相褒歌N0.3;00:06:37"
+  },
+  {
+   "n": 4,
+   "title": "毋通固謙",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "m7thang1 # leh4koo3khiam1la0 # cit4tai7ci3",
+     "tailo": "m̄-thang # leh kòo-khiam--la # tsit tāi-tsì",
+     "han": [
+      {
+       "t": "毋通"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "固謙"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "這代誌，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4te7it4loo0 # senn1sui2 # koh4ce1niu5ji5",
+     "tailo": "iah tē-it--loo # senn suí # koh tse niû-jî",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "第一"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "生媠"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "這娘兒，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4khiau1cong1 # koh4ia7loh8 # kah4tiong1gi7a0",
+     "tailo": "iah khiau-tsong # koh iā lo̍h # kah tiong-gī--a",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "巧妝"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "也著佮忠義"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te7it4loo0 # u7cing5 # koh4ce1niu5ji5",
+     "tailo": "tē-it--loo # ū-tsîng # koh tse niû-jî",
+     "han": [
+      {
+       "t": "第一"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "有情"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "這娘兒。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "不必謙虛這事情，",
+    "第一漂亮是姑娘，",
+    "巧妝也須有忠義，",
+    "最是有情這娘兒。"
+   ],
+   "src_no": 14,
+   "head": "雙溪張聯葉、黃朱束相褒",
+   "role": "男",
+   "tape": "相褒歌N0.3;00:09:17"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "where": "題目",
+   "part": 3
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 3,
+   "at": "3.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E049",
+   "to": "䆀",
+   "why": "class 對照表（FAAB）；音 bai2",
+   "part": 3,
+   "at": "3.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 4,
+   "at": "4.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/205.jpg",
+  "trans": "TRANS/205.JPG"
+ }
+}

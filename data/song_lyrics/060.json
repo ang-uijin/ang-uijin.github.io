@@ -1,0 +1,144 @@
+{
+ "no": "060",
+ "kind": "唸歌",
+ "title": "阿君山嶺",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "阿君山嶺",
+ "parts": [
+  {
+   "n": 1,
+   "title": "阿君山嶺",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "a1kun1 # suann1nia2e0 # khun5khun5 peh4",
+     "tailo": "a-kun # suann-niá--e # khûn-khûn peh",
+     "han": [
+      {
+       "t": "阿君山嶺"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "勤勤𬦰，"
+      }
+     ],
+     "tlpa_src": "a1kun1#suann1nia2e0#khun5x peh4"
+    },
+    {
+     "kind": "line",
+     "tlpa": "peh4berh4kang7niu5 # si7tau3ban2te5",
+     "tailo": "peh berh kāng niû # sī tàu bán tê",
+     "han": [
+      {
+       "t": "𬦰卜共娘"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "鬥挽茶，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kang7niu5 # tau3ban2 # cit8tua7pe2",
+     "tailo": "kāng niû # tàu bán # tsi̍t tuā pé",
+     "han": [
+      {
+       "t": "共娘鬥挽一大把，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kio3niu5 # chun1chiu2 # koh4ker3lai5theh8",
+     "tailo": "kiò niû # tshun-tshiú # koh kèr-lâi the̍h",
+     "han": [
+      {
+       "t": "叫娘伸手"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "過來提，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3niu5 # cit8sin1 # si7hiah4ho2the2",
+     "tailo": "khuànn niû # tsi̍t sin # sī hiah hó thé",
+     "han": [
+      {
+       "t": "看娘一身"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "遐好體，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8ciu1 # ting5sun5 # koh4bin7bah4peh8",
+     "tailo": "ba̍k-tsiu # tîng-sûn # koh bīn-bah pe̍h",
+     "han": [
+      {
+       "t": "目睭重巡"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "面肉白。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "郎君山嶺認真爬，",
+    "要來幫妳來摘茶，",
+    "為妳幫採一大把，",
+    "姑娘伸手過來拿，",
+    "看妳長得好身材，",
+    "雙眼皮啊皮又白。"
+   ],
+   "src_no": 3,
+   "head": "深坑林清盛",
+   "tape": "相褒歌N0.1;00:06:09"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E01A",
+   "to": "𬦰",
+   "why": "class 對照表（FA5A）；音 peh4",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E01A",
+   "to": "𬦰",
+   "why": "class 對照表（FA5A）；音 peh4",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/060.jpg",
+  "trans": "TRANS/060.JPG"
+ }
+}

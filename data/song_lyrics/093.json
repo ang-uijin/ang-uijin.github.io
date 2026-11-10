@@ -1,0 +1,170 @@
+{
+ "no": "093",
+ "kind": "唸歌",
+ "title": "為娘掛吊",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "為娘掛吊",
+ "parts": [
+  {
+   "n": 1,
+   "title": "為娘掛吊",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ui7niu5a2 # kua3tiau3 # si7cuan5be7lai0 # ciah8",
+     "tailo": "uī niû-á # kuà-tiàu # sī tsuân bē--lai # tsia̍h",
+     "han": [
+      {
+       "t": "為娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "掛吊"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "全袂"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "食，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5cap8ki1a0 # kut4thau5 # lai5kau2ki1gia5 a0",
+     "tailo": "lâi tsa̍p ki--a # kut-thâu # lâi káu ki giâ--a",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "十枝"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "骨頭"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "九枝夯"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sann1tuinn3lai0 # png7uann2lai0 # phang5than2 lai0 # khi1a0",
+     "tailo": "sann tuìnn--lai # pn̄g-uánn--lai # phâng thán--lai # khi--a",
+     "han": [
+      {
+       "t": "三頓"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "飯碗"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "捧坦"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "敧"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai0cit8siang1a2 # ge5ti7 # lai5chun1cit8khia1",
+     "tailo": "--lai tsi̍t siang-á # gê tī # lâi tshun tsi̍t khia",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "一雙"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "个箸"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "偆一踦。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "為娘思慕吃不下，",
+    "十枝骨頭九枝寬，",
+    "三頓飯碗端不正，",
+    "一雙筷子剩一隻。"
+   ],
+   "src_no": 6,
+   "head": "金山徐石金",
+   "tape": "台北愛悅情歌N0.2; 00:42:16"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/093.jpg",
+  "trans": "TRANS/093.JPG"
+ }
+}

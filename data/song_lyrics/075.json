@@ -1,0 +1,131 @@
+{
+ "no": "075",
+ "kind": "唸歌",
+ "title": "茶仔咧挽",
+ "source": "1-205陽明山唸歌.doc",
+ "site_title": "茶仔咧挽",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶仔咧挽",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5a2 # na2ban2 # si7na2koo1ki1",
+     "tailo": "tê-á # ná bán # sī ná koo ki",
+     "han": [
+      {
+       "t": "茶仔那挽"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "那枯枝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1niu5a2 # na2lau7e0 # si7na2the3si5",
+     "tailo": "a-niû-á # ná lāu--e # sī ná thè-sî",
+     "han": [
+      {
+       "t": "阿娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "那老"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "那退時，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5a2tih4ban2 # siang7cit8ui7",
+     "tailo": "tê-á tih bán # siāng tsi̍t uī",
+     "han": [
+      {
+       "t": "茶仔塊挽"
+      },
+      {
+       "t": "相",
+       "s": 1
+      },
+      {
+       "t": "同一位，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5a2ban2liau2 # bueh4hun1khui1",
+     "tailo": "tê-á bán liáu # bueh hun-khui",
+     "han": [
+      {
+       "t": "茶仔挽了卜分開，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tan2thai7he7te5 # na7puh4lui2",
+     "tailo": "tán-thāi hē-tê # nā puh luí",
+     "han": [
+      {
+       "t": "等待夏茶若"
+      },
+      {
+       "t": "puh4",
+       "rom": 1,
+       "tl": "puh"
+      },
+      {
+       "t": "蕊，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciah4koh4huan1hu3ping5iu2 # lai5co3tui1",
+     "tailo": "tsiah-koh huan-hù pîng-iú # lâi tsò-tui",
+     "han": [
+      {
+       "t": "才閣",
+       "s": 1
+      },
+      {
+       "t": "吩咐朋友來做堆。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶葉越採越枯枝，",
+    "姑娘越老越過時，",
+    "茶葉要採在一起，",
+    "茶葉採完要分開，",
+    "等待夏茶發新葉，",
+    "吩咐朋友一起來。"
+   ],
+   "src_no": 1,
+   "head": "陽明山何有福",
+   "tape": "相褒歌N0.8;01:14:43"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/075.jpg",
+  "trans": "TRANS/075.JPG"
+ }
+}

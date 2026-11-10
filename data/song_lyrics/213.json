@@ -1,0 +1,210 @@
+{
+ "no": "213",
+ "kind": "對唱",
+ "title": "鹹菜算絪(女)、予人做翁(男)",
+ "source": "2-101坪林褒歌.doc",
+ "site_title": "鹹菜算絪(女)、予人做翁(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "鹹菜算絪",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2kiam5 # chai3sng3in1 # bo5sng3cang5",
+     "tailo": "kóng kiâm # tshài sǹg in # bô sǹg tsâng",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "鹹菜算絪無算欉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cang1sui1 # kong2sng3nia2 # si7bo5sng3cang1",
+     "tailo": "tsang-sui # kóng sǹg niá # sī bô sǹg tsang",
+     "han": [
+      {
+       "t": "棕簑講算領"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "無算鬃，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2lin2chu3 # boo5kiann2 # ma7kui1tau2lang2",
+     "tailo": "kóng lín tshù # bôo-kiánn # mā kui táu-láng",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "恁厝某囝"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "歸斗籠，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ia1lir2 # siunn7berh4si3kue3 # hong5co3ang1",
+     "tailo": "ia lír # siūnn-berh sì-kuè # hông tsò ang",
+     "han": [
+      {
+       "t": "益汝",
+       "s": 1
+      },
+      {
+       "t": "想卜四界逢做翁。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "鹹菜算絪不算棵，",
+    "簑衣算領不算鬃，",
+    "你家妻兒一大群，",
+    {
+     "segs": [
+      {
+       "t": "你",
+       "s": 1
+      },
+      {
+       "t": "還想到處做人夫。"
+      }
+     ]
+    }
+   ],
+   "src_no": 18,
+   "head": "坪林黃菊英鄭定興相褒",
+   "role": "女",
+   "tape": "相褒歌N0.10;00:02:15"
+  },
+  {
+   "n": 2,
+   "title": "予人做翁",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "hoo7lang5cue3ang5oo0 # gua2siong7khoo2",
+     "tailo": "hōo lâng tsuè âng--oo # guá siōng khóo",
+     "han": [
+      {
+       "t": "予人做翁"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "我上苦，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siau2lian5 # m7kann2 # tioh8co3hoo5too5",
+     "tailo": "siáu-liân # m̄ kánn # tio̍h tsò hôo-tôo",
+     "han": [
+      {
+       "t": "少年毋敢"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "做糊塗，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciah8lau7 # hit4khuan2a0 # bo5huat4too7",
+     "tailo": "tsia̍h-lāu # hit khuán--a # bô-huat-tōo",
+     "han": [
+      {
+       "t": "食老迄款"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "無法度，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sann1ji7 # pai5ua2 # tioh8thoo5thoo5thoo5oo0",
+     "tailo": "sann jī # pâi-uá # tio̍h thôo-thôo-thôo--oo",
+     "han": [
+      {
+       "t": "三字排倚"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "塗塗塗"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "做人丈夫最辛苦，",
+    {
+     "segs": [
+      {
+       "t": "年輕"
+      },
+      {
+       "t": "就",
+       "s": 1
+      },
+      {
+       "t": "不敢做糊塗，"
+      }
+     ]
+    },
+    "到老那個沒法度，",
+    "三字排成塗塗塗。"
+   ],
+   "src_no": 19,
+   "head": "坪林黃菊英鄭定興相褒",
+   "role": "男",
+   "tape": "相褒歌N0.10;00:02:40"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/213.jpg",
+  "trans": "TRANS/213.JPG"
+ }
+}

@@ -1,0 +1,254 @@
+{
+ "no": "219",
+ "kind": "對唱",
+ "title": "六月無菜(男)、阿兄生媠(女)",
+ "source": "2-204三芝褒歌.doc",
+ "site_title": "六月無菜(男)、阿兄生婿(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "六月無菜",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "lak8gueh8oo0 # bo5chai3a0 # si7cha2ang5kio5",
+     "tailo": "la̍k-gue̍h--oo # bô tshài--a # sī tshá âng-kiô",
+     "han": [
+      {
+       "t": "六月"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "無菜"
+      },
+      {
+       "t": "啊是",
+       "s": 1
+      },
+      {
+       "t": "炒紅茄，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tua7mi7 # lai5bo5phang1 # si7suah4hoo5cio1",
+     "tailo": "tuā-mī # lâi bô phang # sī suah hôo-tsio",
+     "han": [
+      {
+       "t": "大麵"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "無芳"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "撒胡椒，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "niu5hue1 # senn1sui2a0 # koh4e7tit4kun1a2 # sioh4",
+     "tailo": "niû-hue # senn suí--a # koh ē-tit kun-á # sioh",
+     "han": [
+      {
+       "t": "娘花生媠"
+      },
+      {
+       "t": "啊閣會得",
+       "s": 1
+      },
+      {
+       "t": "君仔惜，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kho2pi2e0 # se3kiann2e0 # pho7lai5io5",
+     "tailo": "khó-pí--e # sè-kiánn--e # phō lâi iô",
+     "han": [
+      {
+       "t": "可比"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "細囝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "抱來搖。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "六月沒菜炒紅茄，",
+    "大麵不香撒胡椒，",
+    "小姐漂亮惹人憐，",
+    "好比幼兒抱著搖。"
+   ],
+   "src_no": 5,
+   "head": "三芝賴溪章、石門王鄭碧絲相褒 之三",
+   "role": "男",
+   "tape": "00:2:49"
+  },
+  {
+   "n": 2,
+   "title": "阿兄生媠",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "a1hiann1 # senn1sui2 # si7ang5boo2tan1oo0",
+     "tailo": "a-hiann # senn suí # sī âng bóo-tan--oo",
+     "han": [
+      {
+       "t": "阿兄生媠"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "紅牡丹"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5e0 # senn1bai2 # ke1kha1lan5",
+     "tailo": "guá niû--e # senn bái # ke-kha-lân",
+     "han": [
+      {
+       "t": "我娘"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "生䆀雞跤蘭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "guan2niu5a2 # senn1bai2 # u7cu7pan7oo0",
+     "tailo": "guán niû-á # senn bái # ū tsū-pān--oo",
+     "han": [
+      {
+       "t": "阮",
+       "s": 1
+      },
+      {
+       "t": "娘仔生䆀有自範"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7kann2e0phue3hiann1 # ang5boo2tan1",
+     "tailo": "m̄ kánn--e phuè hiann # âng bóo-tan",
+     "han": [
+      {
+       "t": "毋敢"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "配兄紅牡丹。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "阿兄俊似紅牡丹，",
+    "姑娘醜似雞跤蘭，",
+    "姑娘我醜有自知，",
+    "不敢配兄紅牡丹。"
+   ],
+   "src_no": 6,
+   "head": "三芝賴溪章、石門王鄭碧絲相褒 之三",
+   "role": "女"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "where": "題目",
+   "part": 2
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 2,
+   "at": "2.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E049",
+   "to": "䆀",
+   "why": "class 對照表（FAAB）；音 bai2",
+   "part": 2,
+   "at": "2.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E049",
+   "to": "䆀",
+   "why": "class 對照表（FAAB）；音 bai2",
+   "part": 2,
+   "at": "2.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/219.jpg",
+  "trans": "TRANS/219.JPG"
+ }
+}

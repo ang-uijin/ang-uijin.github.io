@@ -1,0 +1,121 @@
+{
+ "no": "054",
+ "kind": "唸歌",
+ "title": "我來佮兄",
+ "source": "1-102石碇唸歌.doc",
+ "site_title": "我來佮兄",
+ "parts": [
+  {
+   "n": 1,
+   "title": "我來佮兄",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2lai5e0 # kah4hiann1e0 # khun3kang7a0ping5",
+     "tailo": "guá lâi--e # kah hiann--e # khùn kāng--a pîng",
+     "han": [
+      {
+       "t": "我來"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "佮兄"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "睏仝"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "爿，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # e5sim1kuann1 # ting5per7ching1",
+     "tailo": "guá niû # ê sim-kuann # tîng-pēr tshing",
+     "han": [
+      {
+       "t": "我娘个心肝重倍清，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "e7tang3lai0 # cue3tin1e0 # ciann5ban7hing7",
+     "tailo": "ē-tàng--lai # tsuè-tin--e # tsiânn bān-hīng",
+     "han": [
+      {
+       "t": "會得"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "做陣"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "誠萬幸，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tham1ko1 # cit8poo7ho2kam2cing5",
+     "tailo": "tham ko # tsi̍t pōo hó kám-tsîng",
+     "han": [
+      {
+       "t": "貪哥一步好感情。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "我來與兄睡同邊，",
+    "姑娘心中加倍清，",
+    "會得來做堆个誠萬幸，",
+    "貪哥一步好感情。"
+   ],
+   "src_no": 3,
+   "head": "石碇烏貓娘",
+   "tape": "1-102ooniauniu第二首"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "where": "中譯",
+   "part": 1
+  }
+ ],
+ "img": {
+  "text": "TEXTS/054.jpg",
+  "trans": "TRANS/054.JPG"
+ }
+}

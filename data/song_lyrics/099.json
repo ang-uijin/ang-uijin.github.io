@@ -1,0 +1,125 @@
+{
+ "no": "099",
+ "kind": "唸歌",
+ "title": "阿君送娘",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "阿君送娘",
+ "parts": [
+  {
+   "n": 1,
+   "title": "阿君送娘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "a1kun1 e0 # sang3niu5a2 e0 # kim1hinn7kau1",
+     "tailo": "a-kun--e # sàng niû-á--e # kim hīnn-kau",
+     "han": [
+      {
+       "t": "阿君"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "送娘"
+      },
+      {
+       "t": "仔兮",
+       "s": 1
+      },
+      {
+       "t": "金耳鉤，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5a2e0 # sang3kun1a2 # kim1cim2thau5",
+     "tailo": "guá niû-á--e # sàng kun-á # kim tsím-thâu",
+     "han": [
+      {
+       "t": "我娘"
+      },
+      {
+       "t": "仔兮",
+       "s": 1
+      },
+      {
+       "t": "送君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "金枕頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8lang5 a0 # cit8hang7 # oo0theh8lai5a0thau2",
+     "tailo": "tsi̍t lâng--a # tsi̍t hāng # --oo the̍h-lâi--a tháu",
+     "han": [
+      {
+       "t": "一人"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "一項"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "提來"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "敨，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thau2bueh4kah4ko1a2 # e0ho2thau3lau5",
+     "tailo": "tháu bueh kah ko-á # --e hó-thàu-lâu",
+     "han": [
+      {
+       "t": "敨卜佮哥"
+      },
+      {
+       "t": "仔兮",
+       "s": 1
+      },
+      {
+       "t": "好透流。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "郎君送你金耳環，",
+    "姑娘送君金枕頭，",
+    "一人一項解開看，",
+    "為要跟哥好到老。"
+   ],
+   "src_no": 12,
+   "head": "金山李梨",
+   "tape": "林金城錄音"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/099.jpg",
+  "trans": "TRANS/099.JPG"
+ }
+}

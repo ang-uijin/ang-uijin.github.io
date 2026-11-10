@@ -1,0 +1,636 @@
+{
+ "no": "212",
+ "kind": "對唱",
+ "title": "一更更鼓(女)、兩人有緣(男)、二更更鼓(女)、別人个話(男)、三更更鼓(女)、愛情比糖(男)、四更更鼓(女)、兩个相好(男)、五更更鼓(女)、愛情原在(男)",
+ "source": "2-101坪林褒歌.doc",
+ "site_title": "一更更鼓(女)、兩人有緣(男)、兩更更鼓(女)、 別人個話(男)、 三更更鼓(女)、愛情比糖(男)、 四更更鼓(女)、兩個相好(男)、 五更更鼓(女)、 愛情原在(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "一更更鼓",
+   "lines": [
+    {
+     "kind": "label",
+     "text": "一更更鼓(女)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "it4kinn1 # kinn1koo2 # gerh8 # cio3suann1",
+     "tailo": "it-kinn # kinn-kóo # ge̍rh # tsiò suann",
+     "han": [
+      {
+       "t": "一更更鼓月照山，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khan1kun1 # ge5chiu2 # bong1sim1kuann1",
+     "tailo": "khan kun # gê tshiú # bong sim-kuann",
+     "han": [
+      {
+       "t": "牽君个手摸心肝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # nng7lang5 # lai5co3phuann7",
+     "tailo": "lír lán # nn̄g lâng # lâi tsò-phuānn",
+     "han": [
+      {
+       "t": "汝咱兩人來做伴，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7thang1pang3gua2 # lai5koo1tuann1",
+     "tailo": "m̄-thang pàng guá # lâi koo-tuann",
+     "han": [
+      {
+       "t": "毋通放我來孤單。"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "兩人有緣(男)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # nng7lang5 # u7ian5 # lai5siong7hue7",
+     "tailo": "lír lán # nn̄g lâng # ū-iân # lâi siōng-huē",
+     "han": [
+      {
+       "t": "汝咱",
+       "s": 1
+      },
+      {
+       "t": "兩人有緣來相會，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2lai5pi2ia5 # niu5 # pi2hue1",
+     "tailo": "guá lâi pí iâ # niû # pí hue",
+     "han": [
+      {
+       "t": "我來比蛾娘比花。"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ching1chun1 # liong5i3 # lan5tit4bue2",
+     "tailo": "tshing-tshun # liông-ì # lân-tit bué",
+     "han": [
+      {
+       "t": "青春容易難得買，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cue3lang5 # ching1chun1 # bo5kui2hue5",
+     "tailo": "tsuè-lâng # tshing-tshun # bô kuí huê",
+     "han": [
+      {
+       "t": "做人青春無幾回。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "女：",
+    "一更更鼓月照山，",
+    "牽君的手摸心肝，",
+    "你我兩人來做伴，",
+    "不可放我落孤單，",
+    "男：",
+    "兩人有緣來相會，",
+    "我來比蛾你比花。",
+    "青春不易買得來，",
+    "一生青春無幾回。"
+   ],
+   "src_no": 13,
+   "head": "坪林王蕭不唸歌",
+   "tape": "台北愛悅情歌10/15"
+  },
+  {
+   "n": 2,
+   "title": "二更更鼓",
+   "lines": [
+    {
+     "kind": "label",
+     "text": "二更更鼓(女)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "ji7kinn1 # kinn1koo2 # gerh8 # cio3tiann5",
+     "tailo": "jī-kinn # kinn-kóo # ge̍rh # tsiò tiânn",
+     "han": [
+      {
+       "t": "二更更鼓月照埕，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khan1kun1 # e5chiu2 # jip8siu3thiann1",
+     "tailo": "khan kun # ê tshiú # ji̍p siù-thiann",
+     "han": [
+      {
+       "t": "牽君个手入繡廳，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # nng7lang5 # thinn1cu3tiann7",
+     "tailo": "lír lán # nn̄g lâng # thinn tsù-tiānn",
+     "han": [
+      {
+       "t": "汝咱兩人天註定，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "pat8lang5 # gian5gi2 # m7thang1thiann1",
+     "tailo": "pa̍t-lâng # giân-gí # m̄-thang thiann",
+     "han": [
+      {
+       "t": "別人言語毋通聽。"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "別人个話(男)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "pat8lang5 # e5ue7 # gua2 # m7sin3",
+     "tailo": "pa̍t-lâng # ê uē # guá # m̄ sìn",
+     "han": [
+      {
+       "t": "別人个話我毋信，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cuan1sim1 # kah4lir2 # a1niu5 # chin1",
+     "tailo": "tsuan-sim # kah lír # a-niû # tshin",
+     "han": [
+      {
+       "t": "專心佮汝阿娘親，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "mui5lit8 # bo5khuann3 # lir2 # e5bin7",
+     "tailo": "muî-li̍t # bô khuànn # lír # ê bīn",
+     "han": [
+      {
+       "t": "每日無看汝个面，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "jit8au7 # m7thang1 # seh4pian7pin5",
+     "tailo": "ji̍t-āu # m̄-thang # seh piān pîn",
+     "han": [
+      {
+       "t": "日後毋通說辯"
+      },
+      {
+       "t": "pin5",
+       "rom": 1,
+       "tl": "pîn"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "女：",
+    "二更更鼓月照庭，",
+    "牽君的手入繡廳，",
+    "你我兩人天註定，",
+    "別人言語不可聽。",
+    "男：",
+    "別人的話我不信，",
+    "專心與你姑娘親，",
+    "每日不見姑娘面，",
+    "日後不可說誑言。"
+   ],
+   "src_no": 14,
+   "head": "坪林王蕭不唸歌"
+  },
+  {
+   "n": 3,
+   "title": "三更更鼓",
+   "lines": [
+    {
+     "kind": "label",
+     "text": "三更更鼓(女)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "sann1kinn1 # kinn1koo2 # gerh8cio3mng5",
+     "tailo": "sann-kinn # kinn-kóo # ge̍rh tsiò mn̂g",
+     "han": [
+      {
+       "t": "三更更鼓月照門，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khan1kun1 # e5chiu2 # jip8siu3chng5",
+     "tailo": "khan kun # ê tshiú # ji̍p siù-tshn̂g",
+     "han": [
+      {
+       "t": "牽君个手入繡床，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # siong1ho2 # u7soo2ng3",
+     "tailo": "lír lán # siong-hó # ū sóo ǹg",
+     "han": [
+      {
+       "t": "汝咱相好有所嚮，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khah4ho2 # sio2ciong2 # phau3ping1thng5",
+     "tailo": "khah hó # sió-tsióng # phàu ping-thn̂g",
+     "han": [
+      {
+       "t": "卡好小種泡冰糖。"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "愛情比糖(男)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # ai3cing5 # pi2thng5 # u7khah4tinn1",
+     "tailo": "lír lán # ài-tsîng # pí thn̂g # ū khah tinn",
+     "han": [
+      {
+       "t": "汝咱愛情比糖"
+      },
+      {
+       "t": "有卡",
+       "s": 1
+      },
+      {
+       "t": "甜，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "uan1iunn1 # cui2ah4 # pai5tui3ti5",
+     "tailo": "uan-iunn # tsuí-ah # pâi tuì tî",
+     "han": [
+      {
+       "t": "鴛鴦水鴨排水池，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # nng7lang5 # u7kah4i3",
+     "tailo": "lír lán # nn̄g lâng # ū kah-ì",
+     "han": [
+      {
+       "t": "汝咱兩人有佮意，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siann2lang5 # sing1hiau1 # si7bo5si5",
+     "tailo": "siánn-lâng # sing hiau # sī bô-sî",
+     "han": [
+      {
+       "t": "啥儂先梟是無時。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "女：",
+    "三更更鼓月照門，",
+    "牽君的手進繡床，",
+    "你我相好有後望，",
+    "好過小種泡冰糖。",
+    "男：",
+    "你我愛情比糖甜，",
+    "鴛鴦水鴨排對池，",
+    "你我兩人有愛意，",
+    "誰先變心無了時。"
+   ],
+   "src_no": 15,
+   "head": "坪林王蕭不唸歌"
+  },
+  {
+   "n": 4,
+   "title": "四更更鼓",
+   "lines": [
+    {
+     "kind": "label",
+     "text": "四更更鼓(女)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "si3kinn1 # kinn1koo2 # gerh8 # cio3thang1",
+     "tailo": "sì-kinn # kinn-kóo # ge̍rh # tsiò thang",
+     "han": [
+      {
+       "t": "四更更鼓月照窗，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te7it4 # siong1ho2 # lan2 # nng7lang5",
+     "tailo": "tē-it # siong-hó # lán # nn̄g lâng",
+     "han": [
+      {
+       "t": "第一相好咱兩人，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "nng7lang5 # siong7ho2 # u7soo2bang7",
+     "tailo": "nn̄g lâng # siōng-hó # ū sóo bāng",
+     "han": [
+      {
+       "t": "兩人相好有所望，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siann2lang5 # sing1hiau1 # si7m7thang1",
+     "tailo": "siánn-lâng # sing hiau # sī m̄-thang",
+     "han": [
+      {
+       "t": "啥儂先梟是毋通。"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "兩个相好(男)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # nng7ge5 # lai5siong1ho2",
+     "tailo": "lír lán # nn̄g gê # lâi siong-hó",
+     "han": [
+      {
+       "t": "汝咱兩个來相好，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7kiann1 # au7chu3 # khi2hong1pho1",
+     "tailo": "m̄ kiann # āu-tshù # khí hong-pho",
+     "han": [
+      {
+       "t": "毋驚後次起風波，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # nng7lang5 # u7kah4i3",
+     "tailo": "lír lán # nn̄g lâng # ū kah-ì",
+     "han": [
+      {
+       "t": "汝咱兩人有佮意，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siann1lang5 # sing1hiau1 # si7bo5si5",
+     "tailo": "siann-lâng # sing hiau # sī bô-sî",
+     "han": [
+      {
+       "t": "啥儂先梟是無時。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "女：",
+    "四更更鼓月照窗，",
+    "第一相好咱兩人，",
+    "兩人相好有所望，",
+    "誰先變心不原諒。",
+    "男：",
+    "你我兩人來相好，",
+    "不怕下次起風波，",
+    "你我兩人有愛意，",
+    "誰先變心無了時。"
+   ],
+   "src_no": 16,
+   "head": "坪林王蕭不唸歌"
+  },
+  {
+   "n": 5,
+   "title": "五更更鼓",
+   "lines": [
+    {
+     "kind": "label",
+     "text": "五更更鼓(女)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "goo7kinn1 # kinn1koo2 # thinn1 # ciam7kng1",
+     "tailo": "gōo-kinn # kinn-kóo # thinn # tsiām kng",
+     "han": [
+      {
+       "t": "五更更鼓天漸光，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lin2chu3 # tia1ma2 # kio3ciah8png7",
+     "tailo": "lín tshù # tia-má # kiò tsia̍h-pn̄g",
+     "han": [
+      {
+       "t": "恁厝爹媽叫食飯，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chiu2 # khui1mng5chuann3 # hoo7kun1 # tng2",
+     "tailo": "tshiú # khui mn̂g-tshuànn # hōo kun # tńg",
+     "han": [
+      {
+       "t": "手開門閂予君轉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8bue2 # siong1kuan1 # sim1 # sng1sng1",
+     "tailo": "ba̍k-bué # siong-kuan # sim # sng-sng",
+     "han": [
+      {
+       "t": "目尾相觀心酸酸。"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "text": "愛情原在(男)"
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2lan2 # ai3cing5 # si7guan5cai7",
+     "tailo": "lír lán # ài-tsîng # sī guân-tsāi",
+     "han": [
+      {
+       "t": "汝咱愛情是原在，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciam7si5 # jim2nai7 # hun1tang1sai1",
+     "tailo": "tsiām-sî # jím-nāi # hun tang-sai",
+     "han": [
+      {
+       "t": "暫時忍耐分東西，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "to3chiu2 # khan1sann1chit4bak8sai2",
+     "tailo": "tò-tshiú # khan sann tshit ba̍k-sái",
+     "han": [
+      {
+       "t": "倒手牽衫拭目屎，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciann3chiu2 # khan1kun1 # ciah4koh4lai5",
+     "tailo": "tsiànn-tshiú # khan kun # tsiah-koh lâi",
+     "han": [
+      {
+       "t": "正手牽君才閣來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "女：",
+    "五更更鼓天漸亮，",
+    "你家爹媽叫吃飯，",
+    "打開門栓君回轉，",
+    "眼尾相觀心酸酸。",
+    "男：",
+    "你我愛情依舊在，",
+    "暫時忍耐分東西，",
+    "左手牽衣擦眼淚，",
+    "右手拉我說再來。"
+   ],
+   "src_no": 17,
+   "head": "坪林王蕭不唸歌"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 2,
+   "at": "2.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 2,
+   "at": "2.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 2,
+   "at": "2.5"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 2,
+   "at": "2.7"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 3,
+   "at": "3.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 4,
+   "at": "4.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 4,
+   "at": "4.5"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/212.jpg",
+  "trans": "TRANS/212.JPG"
+ }
+}

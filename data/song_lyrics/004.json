@@ -1,0 +1,139 @@
+{
+ "no": "004",
+ "kind": "唸歌",
+ "title": "這爿看過",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "這爿看過",
+ "parts": [
+  {
+   "n": 1,
+   "title": "這爿看過",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit4ping5 # khuann3kue3a0hit4ping5hai2",
+     "tailo": "tsit pîng # khuànn-kuè--a hit pîng hái",
+     "han": [
+      {
+       "t": "這爿看過"
+      },
+      {
+       "t": "矣",
+       "s": 1
+      },
+      {
+       "t": "迄爿海，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2khuann3 # a1ko1 # ti7hia1 # lai5",
+     "tailo": "guá khuànn # a-ko # tī hia # lâi",
+     "han": [
+      {
+       "t": "我看阿哥佇遐來，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2kuann2kin2 # loh8ke1 a0 # khi3bue2chai3oo0",
+     "tailo": "guá kuánn-kín # lo̍h ke--a # khì bué tshài--oo",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "趕緊落街"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "去買菜"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tuinn2lai5hiann5cui2thai5ke1cai1",
+     "tailo": "tuínn-lâi hiânn-tsuí thâi ke-tsai",
+     "han": [
+      {
+       "t": "轉來燃水刣雞栽。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "這邊看過那邊"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "海，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "看見阿哥從那"
+      },
+      {
+       "t": "兒",
+       "s": 1
+      },
+      {
+       "t": "來，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "趕緊上街去買菜，"
+      }
+     ]
+    },
+    "回來燒水殺雞栽。"
+   ],
+   "src_no": 4,
+   "head": "雙溪黃朱束",
+   "tape": "相褒歌N0.3;00:22:46"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E005",
+   "to": "刣",
+   "why": "taiwansong 對照表推定（FA45）；音 thai5",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/004.jpg",
+  "trans": "TRANS/004.JPG"
+ }
+}

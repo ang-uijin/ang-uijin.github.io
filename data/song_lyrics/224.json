@@ -1,0 +1,393 @@
+{
+ "no": "224",
+ "kind": "對唱",
+ "title": "想卜共娘(男)、看汝出外(女)、看汝穿衫(男)、茶場是我(女)",
+ "source": "3-2烏貓娘郭玉雲相褒.doc",
+ "site_title": "想卜共娘(男)、看汝出外(女)、 看汝穿杉(男)、茶場是我(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "想卜共娘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "siunn7berh4kang7niu5e0tau3lban2 a0te5",
+     "tailo": "siūnn-berh kāng niû--e tàu lban2 --a tê",
+     "han": [
+      {
+       "t": "想卜共娘"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "鬥挽"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "茶，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2si7hong5chiann3iah4thau5ke1",
+     "tailo": "lír sī hông tshiànn iah thâu-ke",
+     "han": [
+      {
+       "t": "汝是逢倩益頭家，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kang7lin2gua2mng7mng7 e0khah4siong5se3",
+     "tailo": "kāng lín guá mn̄g-mn̄g--e khah siông-sè",
+     "han": [
+      {
+       "t": "共恁"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "問問"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "卡詳細，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3lin2cit8tin7oo0cap8gua7ge5",
+     "tailo": "khuànn lín tsi̍t tīn--oo tsa̍p-guā gê",
+     "han": [
+      {
+       "t": "看恁一陣"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "十外个。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "想要幫妳來採茶，",
+    "妳是受雇還頭家，",
+    "跟妳問個詳細點，",
+    {
+     "segs": [
+      {
+       "t": "看妳"
+      },
+      {
+       "t": "們",
+       "s": 1
+      },
+      {
+       "t": "一群十多人。"
+      }
+     ]
+    }
+   ],
+   "src_no": 1,
+   "head": "烏貓娘(男)、郭玉雲(女)相褒",
+   "role": "男"
+  },
+  {
+   "n": 2,
+   "title": "看汝出外",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khuann3li2chut4gua7lai5thit4tho5oo0",
+     "tailo": "khuànn lí tshut-guā lâi thit-thô--oo",
+     "han": [
+      {
+       "t": "看汝出外來𨑨迌"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ban2te5kang1hu1kam2u7oh8",
+     "tailo": "bán tê kang-hu kám ū o̍h",
+     "han": [
+      {
+       "t": "挽茶工夫咁有學，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "na7beh4ban2te5tioh8pinn5pang7 oo0",
+     "tailo": "nā beh bán tê tio̍h pînn-pāng--oo",
+     "han": [
+      {
+       "t": "若卜挽茶著平範"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tng5te2tng5ting7ke3siau3loh8",
+     "tailo": "tn̂g-té tn̂g tīng kè-siàu lo̍h",
+     "han": [
+      {
+       "t": "長短長𠕇價數落。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "看你"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "外出來遊玩，"
+      }
+     ]
+    },
+    "採茶工夫可有學，",
+    "採茶原則須平均，",
+    "有長有短價錢低。"
+   ],
+   "src_no": 2,
+   "head": "烏貓娘(男)、郭玉雲(女)相褒",
+   "role": "女"
+  },
+  {
+   "n": 3,
+   "title": "看汝穿衫",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khuann3lir2ching7sann1e0ching1khi3siunn3a0",
+     "tailo": "khuànn lír tshīng sann--e tshing-khì-siùnn--a",
+     "han": [
+      {
+       "t": "看汝穿衫"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "清氣相"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2sin1tioh8si7thau5ke1niu5",
+     "tailo": "lír sin tio̍h sī thâu-ke-niû",
+     "han": [
+      {
+       "t": "汝身著是頭家娘，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "na7kah4bo5ang1e0cit4ge5iunn7",
+     "tailo": "nā-kah bô ang--e tsit gê iūnn",
+     "han": [
+      {
+       "t": "若甲無翁"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "這个樣，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kam1guan7tau3ban2te5hoo7niu5",
+     "tailo": "kam-guān tàu bán tê hōo niû",
+     "han": [
+      {
+       "t": "甘願鬥挽茶予娘。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "看妳穿著乾淨樣，",
+    "敢情就是老板娘，",
+    "若是未嫁的情形，",
+    "甘願幫採茶給娘。"
+   ],
+   "src_no": 3,
+   "head": "烏貓娘(男)、郭玉雲(女)相褒",
+   "role": "男"
+  },
+  {
+   "n": 4,
+   "title": "茶場是我",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5tiunn5si7gua2e5png7uann2oo0",
+     "tailo": "tê-tiûnn sī guá ê pn̄g-uánn--oo",
+     "han": [
+      {
+       "t": "茶場是我个飯碗"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kau3tann1to1ia7bo5i1ua2",
+     "tailo": "kàu-tann to iā bô i-uá",
+     "han": [
+      {
+       "t": "到今都也無依倚，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7cai1li2si7siann2sing5kun1oo0",
+     "tailo": "m̄ tsai lí sī siánn sîng kun--oo",
+     "han": [
+      {
+       "t": "毋知汝是啥成君"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "na7si7u7ian5ciah4koh4khuann3",
+     "tailo": "nā-sī ū-iân tsiah-koh khuànn",
+     "han": [
+      {
+       "t": "若是有緣才閣看。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶場是我的飯碗，",
+    "至今還是沒歸宿，",
+    "不知你是啥個性，",
+    "若是有緣再說吧。"
+   ],
+   "src_no": 4,
+   "head": "烏貓娘(男)、郭玉雲(女)相褒",
+   "role": "女"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E003",
+   "to": "𨑨",
+   "why": "class 對照表（FA43）；𨑨迌 thit4tho5",
+   "part": 2,
+   "at": "2.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E004",
+   "to": "迌",
+   "why": "class 對照表（FA44）；𨑨迌 thit4tho5",
+   "part": 2,
+   "at": "2.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E021",
+   "to": "𠕇",
+   "why": "教育部用字（Siniong 11-11 定）；音 ting7（硬）",
+   "part": 2,
+   "at": "2.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 3,
+   "at": "3.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 4,
+   "at": "4.1"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/224.jpg",
+  "trans": "TRANS/224.JPG"
+ }
+}

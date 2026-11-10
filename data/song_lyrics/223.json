@@ -1,0 +1,243 @@
+{
+ "no": "223",
+ "kind": "對唱",
+ "title": "手舉飯匙(男)、樹仔銼斷(女)",
+ "source": "2-202金山褒歌.doc",
+ "site_title": "手舉飯匙(男)、樹仔銼斷(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "手舉飯匙",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2chiu2gia5lai0png7si5la0 # te2sann1lai5e7",
+     "tailo": "guá tshiú giâ--lai pn̄g-sî--la # té sann lâi ē",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "手舉"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "飯匙"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "貯三"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "下，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5u7khuann3niu5bin7 # lai5ciah4u7pe1",
+     "tailo": "lâi ū khuànn niû bīn # lâi tsiah ū pe",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "有看娘面"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "才有扒，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "phang5uann2 # lai5cit8lang5la0 # te2cit8a0e7",
+     "tailo": "phâng uánn # lâi tsi̍t lâng--la # té tsi̍t--a ē",
+     "han": [
+      {
+       "t": "捀碗"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "一人"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "貯一"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "下，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5te2bueh4lan2nng7e5 # toh8kiat4hu1che1e0",
+     "tailo": "lâi té bueh lán nn̄g ê # to̍h kiat hu-tshe--e",
+     "han": [
+      {
+       "t": "來貯",
+       "s": 1
+      },
+      {
+       "t": "卜咱兩个"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "結夫妻"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "手拿飯匙填三下，",
+    "看了你面才有扒，",
+    "捧碗一人裝一下，",
+    "為了兩人成夫妻。"
+   ],
+   "src_no": 7,
+   "head": "金山徐石金賴黃鴦相褒 之四",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:41:38"
+  },
+  {
+   "n": 2,
+   "title": "樹仔銼斷",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2chiu7a2 # lai5cho3tuinn7e0 # thau5 # hiang3thian1",
+     "tailo": "guá tshiū-á # lâi tshò-tuīnn--e # thâu # hiàng thian",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "樹仔"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "挫斷"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "頭向天，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chiu7thau5 # huat4inn2 # to3siau3lian5",
+     "tailo": "tshiū-thâu # huat-ínn # tò siàu-liân",
+     "han": [
+      {
+       "t": "樹頭發穎倒少年，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2phainn2kiann2 # lai5m8co3bueh4siu1sian7",
+     "tailo": "guá pháinn-kiánn # lâi m̍ tsò bueh siu siān",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "歹囝"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "毋做卜修善，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2m7si7hiam5kun1 # bo5lang5ian5",
+     "tailo": "guá m̄ sī hiâm kun # bô-lâng-iân",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "毋是嫌君無人緣。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "樹木伐倒頭向天，",
+    "樹頭發芽反少年，",
+    "浪子回頭要修善，",
+    "不是嫌你無人緣。"
+   ],
+   "src_no": 8,
+   "head": "金山徐石金賴黃鴦相褒 之四",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:41:59"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/223.jpg",
+  "trans": "TRANS/223.JPG"
+ }
+}

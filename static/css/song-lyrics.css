@@ -1,0 +1,101 @@
+/* 歌詞逐句對照（layouts/partials/song-lyrics.html）。顏色沿用 style.css 的變數，沒有載入 style.css 時用後面的備用值。 */
+html[data-rom="tlpa"] .song-lyrics .rom-tl,
+html:not([data-rom="tlpa"]) .song-lyrics .rom-tp { display: none; }
+
+.song-lyrics {
+  max-width: 34em;
+  margin: 0 0 2em;
+  color: var(--color-text-primary, #3D3029);
+}
+.song-lyrics p { margin: 0; text-indent: 0; }
+
+.sl-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0 0 1em;
+  padding: 3px 6px 3px 10px;
+  font-size: .8rem;
+  color: var(--color-text-secondary, #6B5D52);
+  border: 1px solid var(--color-border, #E5DED5);
+  border-radius: 14px;
+  background: var(--color-bg-card, #fff);
+  white-space: nowrap;
+}
+.sl-switch button {
+  font: inherit;
+  color: var(--color-accent-primary, #8B5A2B);
+  background: none;
+  border: 0;
+  border-radius: 10px;
+  padding: 3px 9px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.sl-switch button[aria-pressed="true"] {
+  background: var(--color-accent-primary, #8B5A2B);
+  color: #fff;
+  cursor: default;
+}
+.sl-switch button:focus-visible { outline: 2px solid var(--color-accent-hover, #CD853F); outline-offset: 1px; }
+
+.sl-part { margin: 0 0 1.6em; }
+.song-lyrics .sl-part-title {
+  margin: 0 0 .5em;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-accent-primary, #8B5A2B);
+}
+.sl-role { font-weight: 400; color: var(--color-text-secondary, #6B5D52); }
+
+.sl-line {
+  padding: .45em 0 .5em;
+  border-top: 1px solid var(--color-border-light, #EDE8E1);
+}
+.sl-part .sl-line:first-of-type { border-top: 0; }
+.song-lyrics .sl-rom {
+  /* 拉丁字型要排在 Noto Serif TC 前面：Noto Serif TC 的 ā ī ū ō（預組字）是給漢語拼音用的，長音符會偏到字母右邊；
+     Times New Roman（Windows／macOS／iOS）與 Android 的 serif（Noto Serif）調符位置都正確，第 8 調的直線符（U+030D）也畫得出來 */
+  font-family: "Charis SIL", "Gentium Plus", "Times New Roman", "Noto Serif", serif;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary, #6B5D52);
+  overflow-wrap: anywhere;
+}
+.song-lyrics .sl-rom sup { font-size: .68em; line-height: 0; }
+.song-lyrics .sl-pause { color: var(--color-text-muted, #9A8B7D); font-size: .72em; }
+.song-lyrics sub.sl-pause { line-height: 0; margin: 0 .12em; }
+.song-lyrics .sl-han {
+  font-family: "Noto Serif TC", "PMingLiU", serif;
+  font-size: 1.22rem;
+  line-height: 1.7;
+  letter-spacing: .04em;
+  color: var(--color-text-primary, #3D3029);
+}
+/* 襯字（原稿的小字）：兮、啊、噢… */
+.song-lyrics .sl-s { font-size: .68em; color: var(--color-text-secondary, #6B5D52); letter-spacing: 0; }
+/* 原稿沒選字、直接寫音的地方 */
+.song-lyrics .sl-im {
+  font-family: "Charis SIL", "Gentium Plus", "Times New Roman", "Noto Serif", serif;
+  font-size: .82em;
+  letter-spacing: 0;
+  margin: 0 .15em;
+  border-bottom: 1px dotted var(--color-text-muted, #9A8B7D);
+}
+.song-lyrics .sl-im sup { font-size: .7em; line-height: 0; }
+.song-lyrics .sl-zh {
+  font-size: .9rem;
+  line-height: 1.6;
+  color: var(--color-text-muted, #9A8B7D);
+}
+.song-lyrics .sl-zh .sl-s { color: inherit; }
+.song-lyrics .sl-spoken .sl-han, .song-lyrics .sl-spoken .sl-rom { font-style: normal; }
+.sl-spoken { background: var(--color-bg-secondary, #F5F2ED); padding-left: .6em; padding-right: .6em; border-radius: 4px; }
+.song-lyrics .sl-zh-block { margin-top: .6em; padding-top: .5em; border-top: 1px dashed var(--color-border, #E5DED5); }
+.song-lyrics .sl-zh-head { font-size: .8rem; color: var(--color-text-secondary, #6B5D52); margin-bottom: .2em !important; }
+.song-lyrics .sl-note { font-size: .85rem; color: var(--color-text-secondary, #6B5D52); margin-top: .4em !important; }
+
+@media (max-width: 480px) {
+  .song-lyrics .sl-han { font-size: 1.12rem; letter-spacing: .02em; }
+  .song-lyrics .sl-rom { font-size: .96rem; }
+}

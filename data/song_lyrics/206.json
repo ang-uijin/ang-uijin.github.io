@@ -1,0 +1,212 @@
+{
+ "no": "206",
+ "kind": "對唱",
+ "title": "日頭若暗(女)、娘仔汝我(男)",
+ "source": "2-201雙溪褒歌.doc",
+ "site_title": "日頭若暗(女)、娘仔汝我(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "日頭若暗",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "jit8thau5 # na7am3 # tioh8bueh4khun3",
+     "tailo": "ji̍t-thâu # nā àm # tio̍h bueh khùn",
+     "han": [
+      {
+       "t": "日頭若暗著卜睏，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bang2ta3e0 # hian1khui1 # siunn7tioh8kun1",
+     "tailo": "báng-tà--e # hian-khui # siūnn-tio̍h kun",
+     "han": [
+      {
+       "t": "蠓罩"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "掀開想著君，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8sai2 # na7lau5a0si3goo7cun7",
+     "tailo": "ba̍k-sái # nā lâu--a sì gōo tsūn",
+     "han": [
+      {
+       "t": "目屎若流"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "四五陣，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "me5jit8e0 # huan5lo2 # gua2chin1kun1",
+     "tailo": "mê-ji̍t--e # huân-ló # guá tshin-kun",
+     "han": [
+      {
+       "t": "冥日"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "煩惱我親君。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "日頭下山要睡覺，",
+    "蚊帳掀開想到君，",
+    "眼淚流了四五趟，",
+    "日夜所思我愛君。"
+   ],
+   "src_no": 15,
+   "head": "雙溪黃朱束(女)、朱清圳(男)相褒",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:02:10:"
+  },
+  {
+   "n": 2,
+   "title": "娘仔汝我",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "niu5a2 # li2gua2kam2cing5 # ho2e0",
+     "tailo": "niû-á # lí guá kám-tsîng # hó--e",
+     "han": [
+      {
+       "t": "娘仔汝我感情好"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit4khuan2e0 # kam2cing5 # la0se3kan1 # bo5",
+     "tailo": "tsit khuán--e # kám-tsîng # --la sè-kan # bô",
+     "han": [
+      {
+       "t": "這款"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "感情"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "世間無，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7tiioh8e0 # a1niu5a2 # cin1huan5lo2e0",
+     "tailo": "siūnn tiioh8 --e # a-niû-á # tsin huân-ló--e",
+     "han": [
+      {
+       "t": "想著"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "阿娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "真煩惱"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5lang5la0 # sim1kuann1li0 # gua2ciah4co1",
+     "tailo": "bô lâng--la # sim-kuann--li # guá tsiah tso",
+     "han": [
+      {
+       "t": "無人"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "哩",
+       "s": 1
+      },
+      {
+       "t": "我遮慒。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "娘子妳我感情好，",
+    "這種感情世間無，",
+    "想到姑娘太煩惱，",
+    "沒人心裡我恁煩。"
+   ],
+   "src_no": 16,
+   "head": "雙溪黃朱束(女)、朱清圳(男)相褒",
+   "role": "男",
+   "tape": "N0.2;00:02:34"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 2,
+   "at": "2.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/206.jpg",
+  "trans": "TRANS/206.JPG"
+ }
+}

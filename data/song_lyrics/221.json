@@ -1,0 +1,312 @@
+{
+ "no": "221",
+ "kind": "對唱",
+ "title": "看娘生做(男)、講甲挽茶(女)",
+ "source": "2-202金山褒歌.doc",
+ "site_title": "看娘坐做(男)、講甲挽茶(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "看娘生做",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2khuann3niu5 # lai5senn1co3 # si7ciah4ni0nui2cinn2a0",
+     "tailo": "guá khuànn niû # lâi senn-tsò # sī tsiah--ni nuí-tsínn--a",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "看娘"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "生做"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "遮"
+      },
+      {
+       "t": "呢",
+       "s": 1
+      },
+      {
+       "t": "軟芓"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "gua2khuann3niu5#lai5senn1co3#si7ciah4ni0nui2 ⏎ cinn2a0"
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5ia7kann2theh8lang5lai5ban2te5tiann7",
+     "tailo": "lâi iā kánn the̍h lâng lâi bán tê tiānn",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "也敢提人"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "挽茶訂，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chut4mui5 # li1sann1poo7 # lai5tioh8peh4lai5nia2",
+     "tailo": "tshut-muî # li sann pōo # lâi tio̍h peh lâi niá",
+     "han": [
+      {
+       "t": "出門"
+      },
+      {
+       "t": "哩",
+       "s": 1
+      },
+      {
+       "t": "三步"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "著𬦰"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "嶺，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5suann1nia2 # khiau1khi1 # lai5ciann5phainn2kiann5",
+     "tailo": "lâi suann-niá # khiau-khi # lâi tsiânn pháinn kiânn",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "山嶺嶇崎"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "誠歹行。"
+      }
+     ],
+     "tlpa_src": "lai5suann1nia2#khiau1khi1#lai5ciann5phainn2 ⏎ kiann5"
+    }
+   ],
+   "trans": [
+    "看你長得這麼嫩，",
+    "也敢拿人採茶銀，",
+    "出門三步得爬山，",
+    "山嶺嶇崎可難行！"
+   ],
+   "src_no": 3,
+   "head": "金山徐石金賴黃鴦相褒 之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:20:17"
+  },
+  {
+   "n": 2,
+   "title": "講甲挽茶",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2kah4lai5ban2te5a2 # gua2siong7huann1hi2 # a0",
+     "tailo": "kóng kah lâi bán tê-á # guá siōng huann-hí # --a",
+     "han": [
+      {
+       "t": "講甲"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "挽茶我上歡喜"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5khah4 # kuann7lai5ia0 # chio3bi1bi1",
+     "tailo": "tê-khah # kuānn-lâi--ia # tshiò-bi-bi",
+     "han": [
+      {
+       "t": "茶籗捾來"
+      },
+      {
+       "t": "也",
+       "s": 1
+      },
+      {
+       "t": "笑微微，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khah4kuan5 # na7lai5suann1nia2 # gua2ma7peh4e7khi2a0",
+     "tailo": "khah kuân # nā lâi suann-niá # guá mā peh ē khí--a",
+     "han": [
+      {
+       "t": "卡峘"
+      },
+      {
+       "t": "哪來",
+       "s": 1
+      },
+      {
+       "t": "山嶺我"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "𬦰"
+      },
+      {
+       "t": "會",
+       "s": 1
+      },
+      {
+       "t": "起"
+      },
+      {
+       "t": "去啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2si7 # ban2te5a2 # tng1tang1si5",
+     "tailo": "guá sī # bán tê-á # tng-tang-sî",
+     "han": [
+      {
+       "t": "我是挽茶"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "當當時。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "說到採茶最歡喜，",
+    "茶籠提來笑嘻嘻，",
+    {
+     "segs": [
+      {
+       "t": "再高"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "山嶺"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "爬得起，"
+      }
+     ]
+    },
+    "我是採茶正當時。"
+   ],
+   "src_no": 4,
+   "head": "金山徐石金賴黃鴦相褒 之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:21:39"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E01A",
+   "to": "𬦰",
+   "why": "class 對照表（FA5A）；音 peh4",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 2,
+   "at": "2.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00E",
+   "to": "捾",
+   "why": "class 對照表（FA4E）；音 kuann7",
+   "part": 2,
+   "at": "2.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E01A",
+   "to": "𬦰",
+   "why": "class 對照表（FA5A）；音 peh4",
+   "part": 2,
+   "at": "2.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/221.jpg",
+  "trans": "TRANS/221.JPG"
+ }
+}

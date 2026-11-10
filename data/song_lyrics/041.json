@@ -1,0 +1,110 @@
+{
+ "no": "041",
+ "kind": "唸歌",
+ "title": "茶菜落鼎",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "茶菜落鼎",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶菜落鼎",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5chai3e0 # loh8tiann2e0 # nng2io1io1",
+     "tailo": "tê-tshài--e # lo̍h tiánn--e # nńg-io-io",
+     "han": [
+      {
+       "t": "茶菜"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "落鼎"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "軟腰腰"
+      }
+     ],
+     "tlpa_src": "te5chai3e0# loh8tiann2e0# nng2io1x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "ham5siau3e0 # ker3ngo2 # phang1king1cio1 e0",
+     "tailo": "hâm-siàu--e # kèr ngó # phang king-tsio--e",
+     "han": [
+      {
+       "t": "含笑"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "過午芳芎蕉"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ui7ko1a2e0 # kua3tiau3 # png7 # ciah8cio2e0",
+     "tailo": "uī ko-á--e # kuà-tiàu # pn̄g # tsia̍h tsió--e",
+     "han": [
+      {
+       "t": "為哥"
+      },
+      {
+       "t": "仔兮",
+       "s": 1
+      },
+      {
+       "t": "掛吊飯食少"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kio3bo5sian1sinn1 # thang1khui1ioh8e0",
+     "tailo": "kiò-bô sian-sinn # thang khui io̍h--e",
+     "han": [
+      {
+       "t": "叫無先生通開藥"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶青下鍋軟如腰，",
+    "含笑過午香如蕉，",
+    "思念阿哥飯吃少，",
+    "先生不知怎開藥"
+   ],
+   "src_no": 1,
+   "head": "三峽陳劉拋",
+   "tape": "相褒歌N0.2;00:00:05"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/041.jpg",
+  "trans": "TRANS/041.JPG"
+ }
+}

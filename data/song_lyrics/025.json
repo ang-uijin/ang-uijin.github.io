@@ -1,0 +1,108 @@
+{
+ "no": "025",
+ "kind": "唸歌",
+ "title": "天頂落雨",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "天頂落雨",
+ "parts": [
+  {
+   "n": 1,
+   "title": "天頂落雨",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "thinn1ting2 # na7loh8hoo7 # ma7 liap8liap8 lui7",
+     "tailo": "thinn-tíng # nā lo̍h-hōo # mā lia̍p-lia̍p luī",
+     "han": [
+      {
+       "t": "天頂"
+      },
+      {
+       "t": "若",
+       "s": 1
+      },
+      {
+       "t": "落雨"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "粒粒墜，"
+      }
+     ],
+     "tlpa_src": "thinn1ting2#na7loh8hoo7#ma7 liap8x lui7"
+    },
+    {
+     "kind": "line",
+     "tlpa": "niu5chu3 # e5giok8lan5 # ter3 tng1khui1",
+     "tailo": "niû tshù # ê gio̍k-lân # tèr tng khui",
+     "han": [
+      {
+       "t": "娘厝"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "玉蘭塊當開，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7ian5 # a1niu5 # m7bian2sui2",
+     "tailo": "ū-iân # a-niû # m̄-bián suí",
+     "han": [
+      {
+       "t": "有緣阿娘毋免媠，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "loo7thau5 # li7hng7 # khah4khik4khui1",
+     "tailo": "lōo-thâu # lī hn̄g # khah khik-khui",
+     "han": [
+      {
+       "t": "路頭離遠卡克虧。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "天上下雨粒粒墜，",
+    "你家玉蘭正盛開，",
+    "有緣姑娘不必美，",
+    "只是路遠較倒霉。"
+   ],
+   "src_no": 5,
+   "head": "坪林吳三田",
+   "tape": "台北愛悅情歌10/15;00:54:54"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/025.jpg",
+  "trans": "TRANS/025.JPG"
+ }
+}

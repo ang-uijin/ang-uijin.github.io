@@ -1,0 +1,104 @@
+{
+ "no": "074",
+ "kind": "唸歌",
+ "title": "這爿看過",
+ "source": "1-205陽明山唸歌.doc",
+ "site_title": "這爿看過",
+ "parts": [
+  {
+   "n": 1,
+   "title": "這爿看過",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit4ping5 # khuann3kue3hit4ping5khe1",
+     "tailo": "tsit pîng # khuànn-kuè hit pîng khe",
+     "han": [
+      {
+       "t": "這爿看過迄爿溪，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3tioh8a1niu5a2 # se2sann1 # thau5 # le5le5",
+     "tailo": "khuànn-tio̍h a-niû-á # sé-sann # thâu # lê-lê",
+     "han": [
+      {
+       "t": "看著阿娘"
+      },
+      {
+       "t": "仔洗衫",
+       "s": 1
+      },
+      {
+       "t": "頭犁犁，"
+      }
+     ],
+     "tlpa_src": "khuann3tioh8a1niu5a2#se2sann1#thau5#le5x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7bueh4hiannh4cit8nia2 # khi3hoo7se2",
+     "tailo": "siūnn bueh hiannh tsi̍t niá # khì hōo sé",
+     "han": [
+      {
+       "t": "想"
+      },
+      {
+       "t": "卜",
+       "s": 1
+      },
+      {
+       "t": "挈一領去予洗，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7cai1kong2kang1cinn5 # tioh8gua2ce2",
+     "tailo": "m̄ tsai kóng kang-tsînn # tio̍h guá-tsé",
+     "han": [
+      {
+       "t": "毋知"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "工錢著外儕。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "這邊看去那邊溪，",
+    {
+     "segs": [
+      {
+       "t": "看到姑娘"
+      },
+      {
+       "t": "洗衣",
+       "s": 1
+      },
+      {
+       "t": "頭低低，"
+      }
+     ]
+    },
+    "想拿一件請她洗，",
+    "不知工錢要多少。"
+   ],
+   "src_no": 1,
+   "head": "陽明山何有福",
+   "tape": "相褒歌N0.8; 01:18:33"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/074.jpg",
+  "trans": "TRANS/074.JPG"
+ }
+}

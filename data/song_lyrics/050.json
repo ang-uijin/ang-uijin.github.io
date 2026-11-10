@@ -1,0 +1,99 @@
+{
+ "no": "050",
+ "kind": "唸歌",
+ "title": "徛在樹跤",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "徛在樹跤",
+ "parts": [
+  {
+   "n": 1,
+   "title": "徛在樹跤",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khia7cai7chiu7kha1 # tioh8teh4chiu1chin3",
+     "tailo": "khiā tsāi tshiū-kha # tio̍h teh tshiu-tshìn",
+     "han": [
+      {
+       "t": "徛在樹跤"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "塊秋凊，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sir3siong5khuann3ko1 # lir2cit8sin1",
+     "tailo": "sìr-siông khuànn ko # lír tsi̍t sin",
+     "han": [
+      {
+       "t": "庶常看哥汝一身，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3ko1 # li2sinn1sui2 # ang1a2bin7",
+     "tailo": "khuànn ko # lí sinn suí # ang-á-bīn",
+     "han": [
+      {
+       "t": "看哥"
+      },
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "生媠尪仔面，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bin7tiong1 # cit8tiam2 # lai5ho2chio3sin5",
+     "tailo": "bīn tiong # tsi̍t tiám # lâi hó-tshiò-sîn",
+     "han": [
+      {
+       "t": "面中一點"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "好笑神。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "站在樹下在乘涼，",
+    "時常看到你身影，",
+    "看哥英俊如畫像，",
+    "表情一點微笑樣。"
+   ],
+   "src_no": 11,
+   "head": "三峽范金蓮",
+   "tape": "范金蓮音檔"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/050.jpg",
+  "trans": "TRANS/050.JPG"
+ }
+}

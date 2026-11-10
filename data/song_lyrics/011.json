@@ -1,0 +1,138 @@
+{
+ "no": "011",
+ "kind": "唸歌",
+ "title": "日頭出來",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "日頭出來",
+ "parts": [
+  {
+   "n": 1,
+   "title": "日頭出來",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "jit8thau5e0 # chut4lai5jiat8hue2hue2o0",
+     "tailo": "ji̍t-thâu--e # tshut-lâi jia̍t-hué-hué--o",
+     "han": [
+      {
+       "t": "日頭"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "出來"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "熱火火"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ia1bo5 # lai5liang5hong1 # thang1lai5chue1e0",
+     "tailo": "ia bô # lâi liâng-hong # thang lâi tshue--e",
+     "han": [
+      {
+       "t": "也無"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "涼風通來吹"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7si5e0 # gua2 # e7niu5tau1 # ce7oo0",
+     "tailo": "ū-sî--e # guá # ē niû tau # tsē--oo",
+     "han": [
+      {
+       "t": "有時"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "我會娘兜坐"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khi3hia1 # ciah8hun1 # kah4phau3te5e0",
+     "tailo": "khì hia # tsia̍h-hun # kah phàu tê--e",
+     "han": [
+      {
+       "t": "去遐食薰佮泡茶"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "日頭出來熱如火，",
+    "也無涼風可來吹，",
+    "有時我會你家坐，",
+    {
+     "segs": [
+      {
+       "t": "去那"
+      },
+      {
+       "t": "兒",
+       "s": 1
+      },
+      {
+       "t": "抽菸泡個茶。"
+      }
+     ]
+    }
+   ],
+   "src_no": 11,
+   "head": "雙溪朱清圳",
+   "tape": "台北愛悅情歌N0.1;00:20:30"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/011.jpg",
+  "trans": "TRANS/011.JPG"
+ }
+}

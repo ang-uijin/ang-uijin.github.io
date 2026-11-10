@@ -1,0 +1,118 @@
+{
+ "no": "012",
+ "kind": "唸歌",
+ "title": "茶甌摃破",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "茶甌摃破",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶甌摃破",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5au1a2 # kong3phua3 # m7si7hui5 oo0",
+     "tailo": "tê-au-á # kòng-phuà # m̄ sī huî--oo",
+     "han": [
+      {
+       "t": "茶甌"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "摃破毋是瓷"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siau3lian5a2bo5che1le0 # siang7khik4khui1",
+     "tailo": "siàu-liân-á bô tshe--le # siāng khik-khui",
+     "han": [
+      {
+       "t": "少年仔無妻"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "上克虧，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hoo7gua2e0ce7loh8a0 # thoo2tua7khui3a0",
+     "tailo": "hōo guá--e tsē-lo̍h--a # thóo-tuā-khuì--a",
+     "han": [
+      {
+       "t": "予我"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "坐落"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "吐大氣"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ho2hi5 # ho2bah4la0 # ciah8be7pui5",
+     "tailo": "hó hî # hó bah--la # tsia̍h bē puî",
+     "han": [
+      {
+       "t": "好魚好肉"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "食袂肥。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶盅打破不成瓷，",
+    "少年無妻上倒霉，",
+    "讓我坐下嘆個氣，",
+    "好魚好肉吃不肥。"
+   ],
+   "src_no": 12,
+   "head": "雙溪朱清圳",
+   "tape": "台北愛悅情歌N0.1;00:25:48"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/012.jpg",
+  "trans": "TRANS/012.JPG"
+ }
+}

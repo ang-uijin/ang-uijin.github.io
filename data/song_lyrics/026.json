@@ -1,0 +1,99 @@
+{
+ "no": "026",
+ "kind": "唸歌",
+ "title": "含笑開花",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "含笑開花",
+ "parts": [
+  {
+   "n": 1,
+   "title": "含笑開花",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ham5chiau3e0khui1hue1ching1phang1bi7",
+     "tailo": "hâm-tshiàu--e khui-hue tshing-phang bī",
+     "han": [
+      {
+       "t": "含笑"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "開花清芳味，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tho5hua1ker3too7a0 # tiam2ian1ci1",
+     "tailo": "Thô-hua kèr-tōo--a # tiám ian-tsi",
+     "han": [
+      {
+       "t": "桃花過渡"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "點胭脂，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1niu5u7cing5 # kah4u7gi7",
+     "tailo": "a-niû ū-tsîng # kah ū-gī",
+     "han": [
+      {
+       "t": "阿娘有情佮有義，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7si7e0niu5sui2 # ko1ai3tih8",
+     "tailo": "m̄ sī--e niû suí # ko ài ti̍h",
+     "han": [
+      {
+       "t": "毋是"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "娘媠哥愛挃。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "含笑開花清芳味，",
+    "桃花過渡點胭脂，",
+    "姑娘有情又有義，",
+    "不是漂亮哥才要。"
+   ],
+   "src_no": 6,
+   "head": "坪林吳三田",
+   "tape": "台北愛悅情歌10/15;00:30:47"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/026.jpg",
+  "trans": "TRANS/026.JPG"
+ }
+}

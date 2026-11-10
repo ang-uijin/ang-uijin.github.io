@@ -1,0 +1,130 @@
+{
+ "no": "080",
+ "kind": "唸歌",
+ "title": "菅尾出世",
+ "source": "1-203石門唸歌.doc",
+ "site_title": "菅尾出世",
+ "parts": [
+  {
+   "n": 1,
+   "title": "菅尾出世",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kuann1bue2 # chut4si3ia0 # siang1ping5lai7o0",
+     "tailo": "kuann-bué # tshut-sì--ia # siang-pîng lāi--o",
+     "han": [
+      {
+       "t": "菅尾出世"
+      },
+      {
+       "t": "呀",
+       "s": 1
+      },
+      {
+       "t": "雙爿利"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "kuann1bue2#chut4si3ia0#siang1ping5lai7 ⏎ o0"
+    },
+    {
+     "kind": "line",
+     "tlpa": "gu5nng5e0 # cit4li2 # tua3tang1sai1",
+     "tailo": "Gû-nn̂g--e # Tsit-lí # tuà tang-sai",
+     "han": [
+      {
+       "t": "牛郎"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "織女帶東西，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2cit8ni5e0 # chit4sik8 # na7kinn3cit8a0pai2o0",
+     "tailo": "kóng tsi̍t nî--e # tshit-si̍k # nā kìnn tsi̍t--a pái--o",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "一年"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "七夕"
+      },
+      {
+       "t": "若",
+       "s": 1
+      },
+      {
+       "t": "見一"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "擺"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khah4ho2e0 # sam1phik4 # tham3ing1tai5",
+     "tailo": "khah hó--e # Sam-phik # thàm Ing-tâi",
+     "han": [
+      {
+       "t": "卡好"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "三伯探英台。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "菅葉出世雙面快，",
+    "牛郎織女住東西，",
+    "一年七夕見一次，",
+    "好過三伯探英台。"
+   ],
+   "src_no": 2,
+   "head": "石門王鄭碧絲",
+   "tape": "台北愛悅情歌N0.2;01:05:13"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/080.jpg",
+  "trans": "TRANS/080.JPG"
+ }
+}

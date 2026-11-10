@@ -1,0 +1,280 @@
+{
+ "no": "217",
+ "kind": "對唱",
+ "title": "娘花生媠(男)、多謝阿兄(女)",
+ "source": "2-204三芝褒歌.doc",
+ "site_title": "娘花生婿(男)、多謝阿兄(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "娘花生媠",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "niu5hue1 # senn1sui2oo0 # si7ang1a2bin7oo0",
+     "tailo": "niû-hue # senn suí--oo # sī ang-á-bīn--oo",
+     "han": [
+      {
+       "t": "娘花生媠"
+      },
+      {
+       "t": "噢是",
+       "s": 1
+      },
+      {
+       "t": "尪仔面"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tuan1hong1e0 # si3ciann2 # ma7ho2chio3sin5",
+     "tailo": "tuan-hong--e # sì-tsiánn # mā hó-tshiò-sîn",
+     "han": [
+      {
+       "t": "端方"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "四正"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "好笑神，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4chue7bo5oo0 # im1ian5a2e0 # thang1phue3lin2 oo0",
+     "tailo": "iah tshuē-bô--oo # im-iân-á--e # thang phuè lín--oo",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "揣無"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "姻緣"
+      },
+      {
+       "t": "仔兮",
+       "s": 1
+      },
+      {
+       "t": "通配恁"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "phue3lin2e0 # be7kue3a0 # ma7tang7thau5khin1",
+     "tailo": "phuè lín--e # bē kuè--a # mā tāng-thâu-khin",
+     "han": [
+      {
+       "t": "配恁"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "袂過"
+      },
+      {
+       "t": "啊嘛",
+       "s": 1
+      },
+      {
+       "t": "重頭輕。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "小姐長得美如花，",
+    "面容可掬行端正，",
+    {
+     "segs": [
+      {
+       "t": "找"
+      },
+      {
+       "t": "不",
+       "s": 1
+      },
+      {
+       "t": "到媒人來牽線，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "配妳不上"
+      },
+      {
+       "t": "也",
+       "s": 1
+      },
+      {
+       "t": "不登對。"
+      }
+     ]
+    }
+   ],
+   "src_no": 1,
+   "head": "三芝賴溪章、石門王鄭碧絲相褒 之一",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;01:07:21"
+  },
+  {
+   "n": 2,
+   "title": "多謝阿兄",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kam2sia7a1hiann1e0 # gau5o1lo2",
+     "tailo": "kám-siā a-hiann--e # gâu o-ló",
+     "han": [
+      {
+       "t": "感謝阿兄"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "爻呵咾，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "o1lo2e0niu5 # sui2 # ing1si7bo5",
+     "tailo": "o-ló--e niû # suí # ing sī bô",
+     "han": [
+      {
+       "t": "呵咾"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "娘媠應是無，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "penn5penn5ma7si7a0pe7bo # pho7？",
+     "tailo": "pênn-pênn mā sī--a pē bo # phō？",
+     "han": [
+      {
+       "t": "平平嘛是"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "父母抱，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5e0 # kam2u7khah4sui2ko1？",
+     "tailo": "guá niû--e # kám ū khah suí ko？",
+     "han": [
+      {
+       "t": "我娘"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "咁有卡媠哥。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "感謝阿兄多誇獎，",
+    "誇我漂亮應是虛，",
+    "一樣都是父母養，",
+    "姑娘怎會比哥美。"
+   ],
+   "src_no": 2,
+   "head": "三芝賴溪章、石門王鄭碧絲相褒 之一",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;01:07:47"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 2,
+   "at": "2.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 2,
+   "at": "2.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/217.jpg",
+  "trans": "TRANS/217.JPG"
+ }
+}

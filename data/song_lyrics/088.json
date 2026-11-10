@@ -1,0 +1,153 @@
+{
+ "no": "088",
+ "kind": "唸歌",
+ "title": "講甲挽茶",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "講甲挽茶",
+ "parts": [
+  {
+   "n": 1,
+   "title": "講甲挽茶",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2kah4e0 # ban2te5a0lai0 # siang7kai3 ia0cham2a0",
+     "tailo": "kóng kah--e # bán tê--a-lai # siāng-kài--ia tshám--a",
+     "han": [
+      {
+       "t": "講甲"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "挽茶"
+      },
+      {
+       "t": "啊來",
+       "s": 1
+      },
+      {
+       "t": "上介"
+      },
+      {
+       "t": "呀",
+       "s": 1
+      },
+      {
+       "t": "慘"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chan1chiunn7o0 # hun2ciau2u7a0 # kuainn1loh8 lam1",
+     "tailo": "tshan-tshiūnn--o # hún-tsiáu ū--a # kuainn-lo̍h lam",
+     "han": [
+      {
+       "t": "親像"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "粉鳥"
+      },
+      {
+       "t": "有啊",
+       "s": 1
+      },
+      {
+       "t": "關落檻，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thinn1kuinn1ia0 # lai5chut4mng5a0 # lai5khia7kah4e0 # am3a0",
+     "tailo": "thinn-kuinn--ia # lâi tshut-mn̂g--a # lâi khiā kah--e # àm--a",
+     "han": [
+      {
+       "t": "天光"
+      },
+      {
+       "t": "呀來",
+       "s": 1
+      },
+      {
+       "t": "出門"
+      },
+      {
+       "t": "啊來",
+       "s": 1
+      },
+      {
+       "t": "徛甲"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "暗"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sing1khu1e0 # lau5kuann7e0 # sann1 # ciau5tam5",
+     "tailo": "sing-khu--e # lâu-kuānn--e # sann # tsiâu tâm",
+     "han": [
+      {
+       "t": "身軀"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "流汗"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "衫僬澹。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "說到採茶最悽慘，",
+    "好像鴿子關下檻，",
+    "天亮出門站到晚，",
+    "身上流汗衣溼霑。"
+   ],
+   "src_no": 1,
+   "head": "金山賴黃鴛",
+   "tape": "台北愛悅情歌N0.2;00:18:05"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/088.jpg",
+  "trans": "TRANS/088.JPG"
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "no": "023",
+ "kind": "唸歌",
+ "title": "生成一个",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "生成一個",
+ "parts": [
+  {
+   "n": 1,
+   "title": "生成一个",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2gun2sinn1sing5cit8ge5si7niau1kah4ciu3",
+     "tailo": "kóng gún sinn-sîng tsi̍t gê sī niau kah tsiù",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "阮生成一个"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "貓佮蛀，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iu7koh4kong2khih4chui3 si7lau5bak8iu5",
+     "tailo": "iū-koh kóng khih-tshuì sī lâu ba̍k-iû",
+     "han": [
+      {
+       "t": "又閣"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "缺喙"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "流目油，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iu7koh4bai2kha1si7kah4bai2chiu2",
+     "tailo": "iū-koh bái kha sī kah bái tshiú",
+     "han": [
+      {
+       "t": "又閣䆀跤是佮䆀手，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "berh4sang3a1kun1kong2lir2m7siu1",
+     "tailo": "berh sàng a-kun kóng lír m̄ siu",
+     "han": [
+      {
+       "t": "卜送阿君講汝毋收。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "長得一个大麻臉，"
+      }
+     ]
+    },
+    "還有缺齒流眼屎，",
+    "還有醜腳又醜手，",
+    "想送郎君你不收。"
+   ],
+   "src_no": 3,
+   "head": "坪林黃王菊英",
+   "tape": "相褒歌N0.11; 00:05:37"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E049",
+   "to": "䆀",
+   "why": "class 對照表（FAAB）；音 bai2",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E049",
+   "to": "䆀",
+   "why": "class 對照表（FAAB）；音 bai2",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "where": "中譯",
+   "part": 1
+  }
+ ],
+ "img": {
+  "text": "TEXTS/023.jpg",
+  "trans": "TRANS/023.JPG"
+ }
+}

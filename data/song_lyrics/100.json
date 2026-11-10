@@ -1,0 +1,104 @@
+{
+ "no": "100",
+ "kind": "唸歌",
+ "title": "茶心幼幼",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "茶心幼幼",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶心幼幼",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5sim1 # iu3iu3 # bong2lai5ni1",
+     "tailo": "tê-sim # iù-iù # bóng lâi ni",
+     "han": [
+      {
+       "t": "茶心幼幼罔來拈，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7bian2theh8kun1 # he1hau3lam5cinn5",
+     "tailo": "m̄-bián the̍h kun # he hàu-lâm tsînn",
+     "han": [
+      {
+       "t": "毋免提君"
+      },
+      {
+       "t": "彼",
+       "s": 1
+      },
+      {
+       "t": "孝男錢，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chue7kun1 # li2theh8cinn5e0 # bin7 # tioh8pinn3",
+     "tailo": "tshuē kun # lí the̍h tsînn--e # bīn # tio̍h pìnn",
+     "han": [
+      {
+       "t": "揣君"
+      },
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "提錢"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "面著變，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kan1lan5le0 # siu7khoo2a0 # lai5bueh4ni5",
+     "tailo": "kan-lân--le # siū-khóo--a # lâi bueh-nî",
+     "han": [
+      {
+       "t": "艱難"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "受苦"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "來卜尼。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶心嫩嫩且來摘，",
+    "不必拿君孝男錢，",
+    "向你拿錢臉就變，",
+    "艱難受苦何苦來。"
+   ],
+   "src_no": 13,
+   "head": "金山俞謹",
+   "tape": "台北愛悅情歌N0.2;00:30:39"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/100.jpg",
+  "trans": "TRANS/100.JPG"
+ }
+}

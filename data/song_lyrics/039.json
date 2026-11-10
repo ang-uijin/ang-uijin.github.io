@@ -1,0 +1,69 @@
+{
+ "no": "039",
+ "kind": "唸歌",
+ "title": "黃昏日照",
+ "source": "1-111土城唸歌.doc",
+ "site_title": "黃昏日出",
+ "parts": [
+  {
+   "n": 1,
+   "title": "黃昏日照",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "hong5hun1jit8cio3 # lang5iann2tng5oo0",
+     "tailo": "hông-hun ji̍t tsiò # lâng-iánn tn̂g--oo",
+     "han": [
+      {
+       "t": "黃昏日照人影長噢，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ban2te5lau7lang5 # gun5si1mng5",
+     "tailo": "bán tê lāu-lâng # gûn-si mn̂g",
+     "han": [
+      {
+       "t": "挽茶老人銀絲毛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lik8cin7chong1song1a0 # kiann5te5hng5oo0",
+     "tailo": "li̍k-tsīn tshong-song--a # kiânn tê-hn̂g--oo",
+     "han": [
+      {
+       "t": "歷盡滄桑啊行茶園噢，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tui3te5 # ng3bang7 # m7bat4tng7",
+     "tailo": "tuì tê # ǹg-bāng # m̄ bat tn̄g",
+     "han": [
+      {
+       "t": "對茶向望毋捌斷。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "黃昏日照人影長，",
+    "採茶老人銀絲毛，",
+    "歷盡滄桑走茶園，",
+    "對茶不曾斷希望。"
+   ],
+   "src_no": 2,
+   "head": "土城郭玉雲",
+   "tape": "音檔1-107giokhun末首"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/039.jpg",
+  "trans": "TRANS/039.JPG"
+ }
+}

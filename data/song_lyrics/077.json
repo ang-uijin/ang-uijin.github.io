@@ -1,0 +1,114 @@
+{
+ "no": "077",
+ "kind": "唸歌",
+ "title": "一日想娘",
+ "source": "1-110八里唸歌.doc",
+ "site_title": "一日想娘",
+ "parts": [
+  {
+   "n": 1,
+   "title": "一日想娘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ah4cit8lit8 # kong2siunn7niu5a2oo0 # siunn7am3am3",
+     "tailo": "ah tsi̍t li̍t # kóng siūnn niû-á--oo # siūnn àm-àm",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "一日"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "想娘"
+      },
+      {
+       "t": "仔噢",
+       "s": 1
+      },
+      {
+       "t": "想暗暗，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7berh4kah4niu5a2oo0 # phah4thiau3tham5",
+     "tailo": "siūnn-berh kah niû-á--oo # phah thiàu-thâm",
+     "han": [
+      {
+       "t": "想卜佮娘"
+      },
+      {
+       "t": "仔噢",
+       "s": 1
+      },
+      {
+       "t": "扑笑談，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "niu5a2 # sinn1sui2oo0 # hiah4uah8tang7",
+     "tailo": "niû-á # sinn suí--oo # hiah ua̍h-tāng",
+     "han": [
+      {
+       "t": "娘仔生媠"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "遐活動，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4li2 # ho5in1 # kan2e7ua2te5cang5",
+     "tailo": "ah lí # hô-in # kán ē uá tê-tsâng",
+     "han": [
+      {
+       "t": "益汝",
+       "s": 1
+      },
+      {
+       "t": "何因干會倚茶欉。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一天想娘想到晚，",
+    "想跟姑娘說說笑，",
+    "姑娘漂亮又活潑，",
+    "為何怎麼來採茶。"
+   ],
+   "src_no": 1,
+   "head": "八里陳源",
+   "tape": "相褒歌N0.4;01:32:37"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/077.jpg",
+  "trans": "TRANS/077.JPG"
+ }
+}

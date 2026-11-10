@@ -1,0 +1,107 @@
+{
+ "no": "078",
+ "kind": "唸歌",
+ "title": "新娘生媠",
+ "source": "1-110八里唸歌.doc",
+ "site_title": "新娘生婿",
+ "parts": [
+  {
+   "n": 1,
+   "title": "新娘生媠",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "sin1niu5 # sinn1sui2 # koh4cit8poo7chu2",
+     "tailo": "sin-niû # sinn suí # koh tsi̍t-pōo-tshú",
+     "han": [
+      {
+       "t": "新娘生媠"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "一步取"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hong7king3ke1kuann1 # koh4im3tiong7hu1",
+     "tailo": "hōng-kìng ke-kuann # koh ìm tiōng-hu",
+     "han": [
+      {
+       "t": "奉敬家官"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "蔭丈夫"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siong1hue7 # ciah8ciu2 # tit8leh4kong2si3ku3",
+     "tailo": "siong-huē # tsia̍h-tsiú # ti̍t leh kóng sì kù",
+     "han": [
+      {
+       "t": "相會食酒直咧講四句"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lin2ang1 # cinn5gun5 # m7chun1kui1tu5",
+     "tailo": "lín ang # tsînn-gûn # m̄ tshun kui tû",
+     "han": [
+      {
+       "t": "恁翁錢銀"
+      },
+      {
+       "t": "毋",
+       "s": 1
+      },
+      {
+       "t": "偆歸櫥"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "新娘漂亮有可取，",
+    "奉敬公婆蔭丈夫，",
+    "見面喝酒唸四句，",
+    "你夫錢財存整櫥。"
+   ],
+   "src_no": 2,
+   "head": "八里陳源",
+   "tape": "相褒歌N0.5;00:00:07"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.1"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/078.jpg",
+  "trans": "TRANS/078.JPG"
+ }
+}

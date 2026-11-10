@@ -1,0 +1,116 @@
+{
+ "no": "076",
+ "kind": "唸歌",
+ "title": "看娘桌圍",
+ "source": "1-109林口唸歌.doc",
+ "site_title": "看娘桌圍",
+ "parts": [
+  {
+   "n": 1,
+   "title": "看娘桌圍",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khuann3 niu5 # toh4ui5 # oo0 theh8lai5 kau3 o0",
+     "tailo": "khuànn niû # toh-uî # --oo the̍h-lâi kàu--o",
+     "han": [
+      {
+       "t": "看娘桌圍提來到"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cio1 niu5 # cit8lang5 # khia7 cit8thau5 o0",
+     "tailo": "tsio niû # tsi̍t lâng # khiā tsi̍t thâu--o",
+     "han": [
+      {
+       "t": "招娘一人徛一頭"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "mngh8kiann7 # cing2ce5 # oo0 pai5 liau2au7 o0",
+     "tailo": "mn̍gh-kiānn # tsíng-tsê # --oo pâi liáu-āu--o",
+     "han": [
+      {
+       "t": "物件整齊"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "排了後"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2kun1 # ching1te5 # ka7 thin5 sann1 au1 o0",
+     "tailo": "guá kun # tshing-tê # kā thîn sann au--o",
+     "han": [
+      {
+       "t": "我君清茶"
+      },
+      {
+       "t": "共",
+       "s": 1
+      },
+      {
+       "t": "滇三甌"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "看娘桌圍拿來了，",
+    "邀妳一人站一邊，",
+    "物件整齊排好了，",
+    "讓我清茶倒三杯。"
+   ],
+   "src_no": 1,
+   "head": "林口李光彥"
+  }
+ ],
+ "notes": [
+  {
+   "type": "附註",
+   "text": "按此首描寫準備立誓的景象。",
+   "part": 1
+  }
+ ],
+ "img": {
+  "text": "TEXTS/076.jpg",
+  "trans": "TRANS/076.JPG"
+ }
+}

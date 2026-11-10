@@ -1,0 +1,97 @@
+{
+ "no": "029",
+ "kind": "唸歌",
+ "title": "佮哥約束",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "佮哥約束",
+ "parts": [
+  {
+   "n": 1,
+   "title": "佮哥約束",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kah4 ko1 # iok4sok4 e0 # tua7lun7 au7 oo0",
+     "tailo": "kah ko # iok-sok--e # Tuā-lūn-āu--oo",
+     "han": [
+      {
+       "t": "佮哥約束"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "大崙後"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kuann1ber2 # phah4 kat4 e0 # cue3 ho7thau5",
+     "tailo": "kuann-bér # phah-kat--e # tsuè hō-thâu",
+     "han": [
+      {
+       "t": "菅尾扑結"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "做號頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sia3lang5 # phai2sim1a0 # ka7 gua2 thau2",
+     "tailo": "sià-lâng # phái-sim--a # kā guá tháu",
+     "han": [
+      {
+       "t": "啥人歹心"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "共我敨，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "phah4 suann3 im1ian5 # i1 bo5 gau5",
+     "tailo": "phah-suànn im-iân # i bô gâu",
+     "han": [
+      {
+       "t": "扑散姻緣伊無爻。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "與哥約在大崙後，",
+    "菅尾打結做記號，",
+    "誰家壞心解了結，",
+    "打散姻緣有啥好。"
+   ],
+   "src_no": 9,
+   "head": "坪林鄭桃",
+   "tape": "台北愛悅情歌10/15;00:47:12"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/029.jpg",
+  "trans": "TRANS/029.JPG"
+ }
+}

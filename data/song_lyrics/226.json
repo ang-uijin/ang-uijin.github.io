@@ -1,0 +1,196 @@
+{
+ "no": "226",
+ "kind": "對唱",
+ "title": "佮君塊好(女)、佮君塊好(男)",
+ "source": "3-1楊秀卿褒歌.doc",
+ "site_title": "佮君塊好(女)、佮君塊好(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "佮君塊好",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kah4kun1a2 # teh4ho2e0 # kun1su7chiunn7",
+     "tailo": "kah kun-á # teh hó--e # kun sū tshiūnn",
+     "han": [
+      {
+       "t": "佮君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "塊好"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "軍士象，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tann1lai5 # phah4phainn2 # kun1 # li7niu5",
+     "tailo": "tann lâi # phah-pháinn # kun # lī niû",
+     "han": [
+      {
+       "t": "今來扑歹君離娘，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kio3kun1a2 # ciann3kiann5 # li2tioh8to3lai5siunn7a0",
+     "tailo": "kiò kun-á # tsiànn kiânn # lí tio̍h tò-lâi siūnn--a",
+     "han": [
+      {
+       "t": "叫君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "正行"
+      },
+      {
+       "t": "汝著",
+       "s": 1
+      },
+      {
+       "t": "倒來想"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "kio3kun1a2#ciann3kiann5#li2tioh8to3lai5siunn7 ⏎ a0"
+    },
+    {
+     "kind": "line",
+     "tlpa": "tioh8siunn7tong1choo1 # e5liat8tiunn5",
+     "tailo": "tio̍h siūnn tong-tshoo # ê lia̍t tiûnn",
+     "han": [
+      {
+       "t": "著想當初个熱場。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "與君相好軍士象，",
+    "如今交惡君離娘，",
+    "請君回頭想一想，",
+    "當初你我熱一場。"
+   ],
+   "src_no": 15,
+   "head": "楊秀卿相褒歌之二",
+   "role": "女",
+   "tape": "03:01:56"
+  },
+  {
+   "n": 2,
+   "title": "佮君塊好",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2kah4kun1a2 # tih4ho2 # ki1be2phau3",
+     "tailo": "kóng kah kun-á # tih hó # ki bé phàu",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "佮君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "佇"
+      },
+      {
+       "t": "塊",
+       "s": 1
+      },
+      {
+       "t": "好車馬炮，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sam1put4goo7si5 # ti7niu5tau1",
+     "tailo": "sam-put-gōo-sî # tī niû tau",
+     "han": [
+      {
+       "t": "三不五時佇娘兜，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ho2lai5ti7sing1e0 # phainn2ti7au7",
+     "tailo": "hó lâi tī sing--e # pháinn tī āu",
+     "han": [
+      {
+       "t": "好來佇先"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "歹佇後，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "poo7pin5li7khui1bak8sai2 # lau5",
+     "tailo": "pōo-pîn lī-khui ba̍k-sái # lâu",
+     "han": [
+      {
+       "t": "步頻離開目屎流。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "與君相好車馬炮，",
+    "三不五時在你家，",
+    "好在先頭壞在後，",
+    "就要離開淚滿懷。"
+   ],
+   "src_no": 16,
+   "head": "楊秀卿相褒歌之二",
+   "role": "男",
+   "tape": "03:02:13"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/226.jpg",
+  "trans": "TRANS/226.JPG"
+ }
+}

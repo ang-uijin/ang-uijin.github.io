@@ -1,0 +1,448 @@
+{
+ "no": "215",
+ "kind": "對唱",
+ "title": "茶袂曉挽(男)、我娘挽茶(女)、一欉挽過(男)、茶心幼幼(女)",
+ "source": "2-103深坑褒歌.doc",
+ "site_title": "茶袂曉挽(男)、我娘挽茶(女)、 一欉挽過(男)、茶心幼幼(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶袂曉挽",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "na7te5a2 # gun2si7a0 # bue7a0hiang2ban2oo0",
+     "tailo": "nā tê-á # gún sī--a # buē--a hiáng bán--oo",
+     "han": [
+      {
+       "t": "若茶"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "阮是"
+      },
+      {
+       "t": "矣",
+       "s": 1
+      },
+      {
+       "t": "袂"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "曉挽"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ban2te5 # kam2u7 # e5 hia1 # kan2tan1",
+     "tailo": "bán tê # kám ū # ê hia # kán-tan",
+     "han": [
+      {
+       "t": "挽茶咁有"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "遐簡單，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann2niu5a2 # sinn1co3 # si7 a0cin1a0ciann5can2",
+     "tailo": "khuánn niû-á # sinn-tsò # sī--a tsin--a tsiânn tsán",
+     "han": [
+      {
+       "t": "看娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "生做"
+      },
+      {
+       "t": "是矣",
+       "s": 1
+      },
+      {
+       "t": "真"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "誠儹，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "na7berh4 # pang1bang5 # si7bo5a0 khun3lan5",
+     "tailo": "nā berh # pang-bâng # sī bô--a khùn-lân",
+     "han": [
+      {
+       "t": "若",
+       "s": 1
+      },
+      {
+       "t": "卜幫忙是無"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "困難。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "採茶我是不內行，",
+    "採茶那有恁簡單，",
+    "姑娘長得真漂亮，",
+    "妳要幫忙沒困難。"
+   ],
+   "src_no": 1,
+   "head": "深坑林旺(男)、石碇曾汝相(女)褒歌",
+   "role": "男",
+   "tape": "相褒歌N0.1;00:04:25"
+  },
+  {
+   "n": 2,
+   "title": "我娘挽茶",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # ban2te5 # si7ciann5hiau5hing7",
+     "tailo": "guá niû # bán tê # sī tsiânn hiâu-hīng",
+     "han": [
+      {
+       "t": "我娘挽茶"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "誠梟行，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2kuann7 # li7lau5kah4 # kui1hing1cian5",
+     "tailo": "guá kuānn # lī lâu kah # kui hing-tsiân",
+     "han": [
+      {
+       "t": "我汗"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "流甲歸胸前，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "berh4kio3suai3ko1 # lir2 # kang7gua2thing2",
+     "tailo": "berh kiò suài-ko # lír # kāng guá thíng",
+     "han": [
+      {
+       "t": "卜叫帥哥"
+      },
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "共我挺，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kio3lir2 # m7lai5 # ciann5put4bing5",
+     "tailo": "kiò lír # m̄ lâi # tsiânn put-bîng",
+     "han": [
+      {
+       "t": "叫汝毋來誠不明。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "姑娘採茶真可憐，",
+    "我汗流得滿胸前，",
+    "要叫帥哥來幫忙，",
+    "叫你不來真莫明。"
+   ],
+   "src_no": 1,
+   "head": "深坑林旺(男)、石碇曾汝相(女)褒歌",
+   "role": "女",
+   "tape": "相褒歌N0.1;00:04:50"
+  },
+  {
+   "n": 3,
+   "title": "一欉挽過",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "iah4lan2cit8cang5 # ban2ker3a0 # kong2ker3a0cit8cang5",
+     "tailo": "iah lán tsi̍t tsâng # bán-kèr--a # kóng kèr--a tsi̍t tsâng",
+     "han": [
+      {
+       "t": "益咱",
+       "s": 1
+      },
+      {
+       "t": "一欉挽過"
+      },
+      {
+       "t": "矣講",
+       "s": 1
+      },
+      {
+       "t": "過"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "一欉，"
+      }
+     ],
+     "tlpa_src": "iah4lan2cit8cang5#ban2ker3a0#kong2ker3a0cit8 ⏎ cang5"
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1niu5 # sinn1co3 # cia1sui2lang5",
+     "tailo": "a-niû # sinn-tsò # tsia suí lâng",
+     "han": [
+      {
+       "t": "阿娘生做遮媠人，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4the2keh4e0 # iu7 koh4 si7cia5thiau1lang7oo0",
+     "tailo": "iah thé-keh--e # iū-koh sī tsiâ thiau-lāng--oo",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "體格"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "又閣"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "誠窕弄"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lir2 # ho5iong7 # kang1khoo2 # lai5ua2te5cang5",
+     "tailo": "lír # hô-iōng # kang-khóo # lâi uá tê-tsâng",
+     "han": [
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "何用艱苦"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "倚茶欉。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一棵採了又一棵，",
+    "姑娘長得真可人，",
+    "身材又是恁高佻，",
+    "何必辛苦靠茶樹。"
+   ],
+   "src_no": 2,
+   "head": "深坑林旺(男)、石碇曾汝相(女)褒歌",
+   "role": "男",
+   "tape": "相褒歌N0.1;00:05:18"
+  },
+  {
+   "n": 4,
+   "title": "茶心幼幼",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5sim1 # kong2iu3iu3 # e5tioh8bong2ban2",
+     "tailo": "tê-sim # kóng iù-iù # ê tio̍h bóng bán",
+     "han": [
+      {
+       "t": "茶心"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "幼幼"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "著罔挽，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "berh4chiunn7 # gua2e5 too7lit8 # cin1ui5lan5",
+     "tailo": "berh tshiūnn # guá ê tōo-li̍t # tsin uî-lân",
+     "han": [
+      {
+       "t": "卜",
+       "s": 1
+      },
+      {
+       "t": "像我"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "度日真為難，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hun7gua2 # na3e7ciah4ham1ban7",
+     "tailo": "hūn guá # nà ē tsiah ham-bān",
+     "han": [
+      {
+       "t": "恨我哪會遮頇顢，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ham1ban7e0 # bo5lang5kang7gua2 # khan1",
+     "tailo": "ham-bān--e # bô lâng kāng guá # khan",
+     "han": [
+      {
+       "t": "頇顢"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "無人共我牽。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶心細嫩姑且採，",
+    {
+     "segs": [
+      {
+       "t": "不然",
+       "s": 1
+      },
+      {
+       "t": "像我度日真為難，"
+      }
+     ]
+    },
+    "恨我怎會這麼笨，",
+    "笨手笨腳無人幫。"
+   ],
+   "src_no": 3,
+   "head": "深坑林旺(男)、石碇曾汝相(女)褒歌",
+   "role": "女",
+   "tape": "相褒歌N0.1;00:05:44"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 3,
+   "at": "3.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 4,
+   "at": "4.1"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/215.jpg",
+  "trans": "TRANS/215.JPG"
+ }
+}

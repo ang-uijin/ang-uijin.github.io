@@ -1,0 +1,120 @@
+{
+ "no": "040",
+ "kind": "唸歌",
+ "title": "茶仔緊挽",
+ "source": "1-111土城唸歌.doc",
+ "site_title": "茶仔緊挽",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶仔緊挽",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5a2 # kin2ban2kin2siu1khi3oo0",
+     "tailo": "tê-á # kín bán kín siu-khì--oo",
+     "han": [
+      {
+       "t": "茶仔緊挽緊受氣"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5khah4na3e7 # ban2bue7tinn7",
+     "tailo": "tê-khah nà ē # bán buē tīnn",
+     "han": [
+      {
+       "t": "茶籗哪會挽袂淀，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kann2si7 # bai2kui2a2 # teh4thau1ni1oo0",
+     "tailo": "kánn-sī # bái kuí-á # teh thau ni--oo",
+     "han": [
+      {
+       "t": "敢是䆀鬼"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "塊偷拈"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5chai2 # kui1poo1 # te5cang5kinn1",
+     "tailo": "bô-tshái # kui-poo # tê-tsâng-kinn",
+     "han": [
+      {
+       "t": "無采歸晡茶欉墘。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶葉越採越生氣，",
+    "茶籠哪會裝不滿，",
+    "莫非小偷來偷去，",
+    {
+     "segs": [
+      {
+       "t": "枉費"
+      },
+      {
+       "t": "一",
+       "s": 1
+      },
+      {
+       "t": "下午茶樹邊。"
+      }
+     ]
+    }
+   ],
+   "src_no": 1,
+   "head": "土城郭玉雲",
+   "tape": "音檔1-107giokhun第一首"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E049",
+   "to": "䆀",
+   "why": "class 對照表（FAAB）；音 bai2",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/040.jpg",
+  "trans": "TRANS/040.JPG"
+ }
+}

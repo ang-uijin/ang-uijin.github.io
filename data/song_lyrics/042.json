@@ -1,0 +1,138 @@
+{
+ "no": "042",
+ "kind": "唸歌",
+ "title": "卜食魚仔",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "卜食魚仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "卜食魚仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "berh4ciah8hir5a2e0 # chau3cho1liam5e0",
+     "tailo": "berh tsia̍h hîr-á--e # tshàu-tsho liâm--e",
+     "han": [
+      {
+       "t": "卜食魚仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "臭臊鯰"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "berh4khuann3kong1king2e0 # ciau2chui3ciam1e0",
+     "tailo": "berh khuànn kong-kíng--e # Tsiáu-tshuì-tsiam--e",
+     "han": [
+      {
+       "t": "卜看光景"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "鳥喙尖"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sang1lang5a0e0 # hue1ce3 # u7sio1khiam3e0",
+     "tailo": "sang-lâng--a-e # hue-tsè # ū sio-khiàm--e",
+     "han": [
+      {
+       "t": "雙人"
+      },
+      {
+       "t": "啊兮",
+       "s": 1
+      },
+      {
+       "t": "花債有相欠"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khiap4si3 # e5a1niu5 # ko1 # bo5hiam5e0",
+     "tailo": "khiap-sì # ê a-niû # ko # bô hiâm--e",
+     "han": [
+      {
+       "t": "怯世"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "阿娘哥無嫌"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "吃魚要吃臭臊鯰，",
+    "光景要看鳥喙尖，",
+    "莫非花債互相欠，",
+    {
+     "segs": [
+      {
+       "t": "貌醜"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "姑娘哥不嫌。"
+      }
+     ]
+    }
+   ],
+   "src_no": 2,
+   "head": "三峽陳劉拋",
+   "tape": "相褒歌N0.2;00:06:50"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/042.jpg",
+  "trans": "TRANS/042.JPG"
+ }
+}

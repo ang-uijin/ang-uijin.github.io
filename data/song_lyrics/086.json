@@ -1,0 +1,158 @@
+{
+ "no": "086",
+ "kind": "唸歌",
+ "title": "刀石無水",
+ "source": "1-204三芝唸歌.doc",
+ "site_title": "刀石無水",
+ "parts": [
+  {
+   "n": 1,
+   "title": "刀石無水",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "to1cioh8 # bo5cui2e0 # phui3chui3nua7oo0",
+     "tailo": "to-tsio̍h # bô tsuí--e # phuì tshuì-nuā--oo",
+     "han": [
+      {
+       "t": "刀石無水"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "呸喙瀾"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1kun1a2e0 # bo5boo2 # lam2phue7tuann1 oo0",
+     "tailo": "a-kun-á--e # bô bóo # lám phuē-tuann--oo",
+     "han": [
+      {
+       "t": "阿君"
+      },
+      {
+       "t": "仔兮",
+       "s": 1
+      },
+      {
+       "t": "無某攬被單"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "uat8cing5 # uat8au7e0 # chue7bo5phuann7oo0",
+     "tailo": "ua̍t tsîng # ua̍t āu--e # tshuē-bô phuānn--oo",
+     "han": [
+      {
+       "t": "越前越後"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "揣無伴"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8sai2 e0 # lau5loh8 # koh4sing5cui2cuann5oo0",
+     "tailo": "ba̍k-sái--e # lâu-lo̍h # koh sîng tsuí-tsuânn--oo",
+     "han": [
+      {
+       "t": "目屎"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "流落"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "宬水泉"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "磨刀"
+      },
+      {
+       "t": "石",
+       "s": 1
+      },
+      {
+       "t": "沒水吐口水，"
+      }
+     ]
+    },
+    "郎君無妻抱被單，",
+    {
+     "segs": [
+      {
+       "t": "觀前顧後找不"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "伴，"
+      }
+     ]
+    },
+    "潸然淚下似湧泉。"
+   ],
+   "src_no": 5,
+   "head": "三芝花金鳳",
+   "tape": "台北愛悅情歌N0.2;01:02:40"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/086.jpg",
+  "trans": "TRANS/086.JPG"
+ }
+}

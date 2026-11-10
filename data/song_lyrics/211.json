@@ -1,0 +1,812 @@
+{
+ "no": "211",
+ "kind": "對唱",
+ "title": "三月時節(男)、阮娘徛停(女)、這爿行過(男)、恨阮阿娘(女)、手舉弦兮(男)、阮娘開喙(女)、今日歇睏(男)、汝卜佮我(女)",
+ "source": "2-101坪林褒歌.doc",
+ "site_title": "三月時節(男)、阮娘徛停(女)、這爿行過(男)、 恨阮阿娘(女)、 手舉弦兮(男)、阮娘開喙(女)、 今日歇睏(男)、汝卜佮我(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "三月時節",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "sann1gerh8 # si5ciat4oo0 # to1bue7kuann5",
+     "tailo": "sann-ge̍rh # sî-tsiat--oo # to buē kuânn",
+     "han": [
+      {
+       "t": "三月時節"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "都袂寒，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sir7giap8co3ing5e0 # ciunn7te5suann1a0",
+     "tailo": "sīr-gia̍p tsò îng--e # tsiūnn tê-suann--a",
+     "han": [
+      {
+       "t": "事業做閒"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "上茶山"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khia7thing5a2 # tann1thau5e5 # cit8e7khuann3",
+     "tailo": "khiā-thîng á # tann-thâu ê # tsi̍t-ē khuànn",
+     "han": [
+      {
+       "t": "徛停"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "擔頭"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "一下看，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cin1cue7ban2te5 # ca1boo2kuann1a0",
+     "tailo": "tsin tsuē bán tê # tsa-bóo-kuann--a",
+     "han": [
+      {
+       "t": "真儕挽茶查某倌"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "三月時節不太寒，",
+    "工作完了上茶山，",
+    "停腳抬頭這一看，",
+    "很多採茶姑娘倌。"
+   ],
+   "src_no": 5,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:06:31"
+  },
+  {
+   "n": 2,
+   "title": "阮娘徛停",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gun2niu5 # khia7thing5 # kai1khuann3mai7",
+     "tailo": "gún niû # khiā-thîng # kai khuànn-māi",
+     "han": [
+      {
+       "t": "阮娘徛停共"
+      },
+      {
+       "t": "伊",
+       "s": 1
+      },
+      {
+       "t": "看眛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thiann1i1 # liam7kua1 # koh4ciah4e7cai1",
+     "tailo": "thiann i # liām-kua # koh tsiah ē tsai",
+     "han": [
+      {
+       "t": "聽伊唸歌"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "才會知，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kik4kah4kong2cit8sin1 # ciah4ho2phai3",
+     "tailo": "kik kah kóng tsi̍t sin # tsiah hó-phài",
+     "han": [
+      {
+       "t": "激甲"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "一身遮好派，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tui3gun2te5suann1 # kong2tit8tit8 lai5",
+     "tailo": "tuì gún tê-suann # kóng ti̍t-ti̍t lâi",
+     "han": [
+      {
+       "t": "對阮茶山"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "直直來。"
+      }
+     ],
+     "tlpa_src": "tui3gun2te5suann1#kong2tit8x lai5"
+    }
+   ],
+   "trans": [
+    "姑娘站住給看看，",
+    "聽他唸歌才知他，",
+    "一身打扮好派頭，",
+    "向我茶山走過來。"
+   ],
+   "src_no": 6,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:06:55"
+  },
+  {
+   "n": 3,
+   "title": "這爿行過",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit4ping5a0 # kiann5kue3 # oo0hit4ping5a0o1",
+     "tailo": "tsit pîng--a # kiânn-kuè # --oo hit pîng--a o",
+     "han": [
+      {
+       "t": "這爿"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "行過"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "迄爿"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "凹，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gun2 # kiann5lai5cit4liah4 e0 # tua7te5pho7oo0",
+     "tailo": "gún # kiânn lâi tsit liah--e # tuā tê-phō--oo",
+     "han": [
+      {
+       "t": "阮",
+       "s": 1
+      },
+      {
+       "t": "行來這跡"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "大茶抱"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3niu5a0 # ban2te5 # ciann5kan1khoo2 a0",
+     "tailo": "khuànn niû--a # bán tê # tsiânn kan-khóo--a",
+     "han": [
+      {
+       "t": "看娘"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "挽茶誠艱苦"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "peh8peh8 # bin7bah4e0 # phak8kah4oo1 # oo0",
+     "tailo": "pe̍h-pe̍h # bīn-bah--e # pha̍k kah oo # --oo",
+     "han": [
+      {
+       "t": "白白面肉"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "曝甲烏"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ],
+     "tlpa_src": "peh8x# bin7bah4e0#phak8kah4oo1#oo0"
+    }
+   ],
+   "trans": [
+    "這邊走過那山凹，",
+    "走到這裏大茶樹，",
+    "看你採茶真辛苦，",
+    "白白的臉曬到黑。"
+   ],
+   "src_no": 7,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:07:59"
+  },
+  {
+   "n": 4,
+   "title": "恨阮阿娘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "hun7gun2a1niu5 # bo5loo7ing7",
+     "tailo": "hūn gún a-niû # bô-lōo-īng",
+     "han": [
+      {
+       "t": "恨阮阿娘無路用，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciah4tioh8kan1khoo2 # lerh0ua2te5ling5",
+     "tailo": "tsiah tio̍h kan-khóo # --lerh uá tê-lîng",
+     "han": [
+      {
+       "t": "才著艱苦"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "倚茶壟，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tua7lik8 # kong2phak8lai5cin1hiau1hing7",
+     "tailo": "tuā-li̍k # kóng pha̍k lâi tsin hiau-hīng",
+     "han": [
+      {
+       "t": "大日"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "曝來真梟行，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kuann7lau5cap8tih4 # koh4mua2hing1cing5",
+     "tailo": "kuānn-lâu-tsa̍p-tih # koh muá hing-tsîng",
+     "han": [
+      {
+       "t": "汗流"
+      },
+      {
+       "t": "cap8",
+       "rom": 1,
+       "tl": "tsa̍p"
+      },
+      {
+       "t": "滴"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "滿胸前。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "恨我姑娘沒啥用，",
+    "才得辛苦近茶壟，",
+    "太陽曬得真可憐，",
+    "汗流浹背溼胸前。"
+   ],
+   "src_no": 8,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:07:44"
+  },
+  {
+   "n": 5,
+   "title": "手舉弦兮",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chiu2kia5hian5a2e0 # ian5loo7 a0e1a0",
+     "tailo": "tshiú kiâ hiân-á--e # iân-lōo--a e--a",
+     "han": [
+      {
+       "t": "手舉弦仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "沿路"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "挨"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "e1berh4suann1ting2 e0 # tau3ban2te5",
+     "tailo": "e berh suann-tíng--e # tàu bán tê",
+     "han": [
+      {
+       "t": "挨卜山頂"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "鬥挽茶，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "koh4cing5suann3 # ber7tng7e0 # au7suann3tng7o0",
+     "tailo": "koh tsîng suànn # bēr tn̄g--e # āu suànn tn̄g--o",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "前線未斷"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "後線斷"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3niu5 # ban2te5e0 # cai7te5hng5",
+     "tailo": "khuànn niû # bán tê--e # tsāi tê-hn̂g",
+     "han": [
+      {
+       "t": "看娘挽茶"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "在茶園。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "手拿胡琴一面拉，",
+    "拉到山頂幫採茶，",
+    "前線未斷後線斷，",
+    "看你採茶在茶園。"
+   ],
+   "src_no": 9,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:08:07"
+  },
+  {
+   "n": 6,
+   "title": "阮娘開喙",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gun2niu5 # khui1chui3 # mng7chin1hiann1",
+     "tailo": "gún niû # khui-tshuì # mn̄g tshin-hiann",
+     "han": [
+      {
+       "t": "阮娘開喙問親兄，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kim1lik8 # lir2na3cia1han2kiann5",
+     "tailo": "kim-li̍k # lír nà tsia hán-kiânn",
+     "han": [
+      {
+       "t": "今日汝哪遮罕行，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kiann5lai5cit4ter3 # tioh8peh4nia2a0",
+     "tailo": "kiânn lâi tsit tèr # tio̍h peh niá--a",
+     "han": [
+      {
+       "t": "行來這塊著𬦰嶺"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tua7lik8 # kong2ciah4iam7 # lir2m7kiann1a0",
+     "tailo": "tuā-li̍k # kóng tsiah iām # lír m̄ kiann--a",
+     "han": [
+      {
+       "t": "大日"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "遮炎汝毋驚"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "姑娘開口問親哥，",
+    "問你好久不見哥，",
+    "來到這裏要爬山，",
+    "這大太陽你不怕？"
+   ],
+   "src_no": 10,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:08:32"
+  },
+  {
+   "n": 7,
+   "title": "今日歇睏",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kiann1lit8 # hioh4khun3na0 # sit4 # bo5a0coh4",
+     "tailo": "kiann-li̍t # hioh-khùn--na # sit # bô--a tsoh",
+     "han": [
+      {
+       "t": "今"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "日歇睏"
+      },
+      {
+       "t": "哪",
+       "s": 1
+      },
+      {
+       "t": "嗇無"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "作，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7ing5 # thiau1kang1e0 # lai5thit4tho5oo0",
+     "tailo": "ū-îng # thiau-kang--e # lâi thit-thô--oo",
+     "han": [
+      {
+       "t": "有閒刁工"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "來𨑨迌"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7berh4kah4niu5e0 # ban2sang5pho7",
+     "tailo": "siūnn-berh kah niû--e # bán sâng phō",
+     "han": [
+      {
+       "t": "想卜佮娘"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "挽"
+      },
+      {
+       "t": "相",
+       "s": 1
+      },
+      {
+       "t": "同抱，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7chuan5ko1giah8e0 # iah4si7bo5o0",
+     "tailo": "ū tshuân ko gia̍h--e # iah-sī bô--o",
+     "han": [
+      {
+       "t": "有僎哥額"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "益是無"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "今日休息沒工作，",
+    "有空專程來走走，",
+    "想跟姑娘採同棵，",
+    {
+     "segs": [
+      {
+       "t": "有備親哥"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "份沒有？"
+      }
+     ]
+    }
+   ],
+   "src_no": 11,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:08:55"
+  },
+  {
+   "n": 8,
+   "title": "汝卜佮我",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "lir2berh4kah4gua2 # ban2sang5pho7",
+     "tailo": "lír berh kah guá # bán sâng phō",
+     "han": [
+      {
+       "t": "汝卜佮我挽"
+      },
+      {
+       "t": "相",
+       "s": 1
+      },
+      {
+       "t": "同抱，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7chuan5cit8kua2berh4pun1ko1oo0",
+     "tailo": "ū tshuân tsi̍t-kuá berh pun ko--oo",
+     "han": [
+      {
+       "t": "有僎一寡卜分哥噢，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kang7gua2 # tau3ban2 # si7cin1ho2",
+     "tailo": "kāng guá # tàu bán # sī tsin hó",
+     "han": [
+      {
+       "t": "共我鬥挽是真好，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "mng7ko1 # u7iann2 # ia7si7bo5",
+     "tailo": "mn̄g ko # ū-iánn # iā-sī bô",
+     "han": [
+      {
+       "t": "問哥有影也是無。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "你要跟我採同棵，",
+    "我留一些分給哥，",
+    "幫我採茶是很好，",
+    "問哥真心還假意？"
+   ],
+   "src_no": 12,
+   "head": "坪林黃桂英(男)、黃王菊英(女)相褒之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:09:22"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E01A",
+   "to": "𬦰",
+   "why": "class 對照表（FA5A）；音 peh4",
+   "part": 6,
+   "at": "6.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E003",
+   "to": "𨑨",
+   "why": "class 對照表（FA43）；𨑨迌 thit4tho5",
+   "part": 7,
+   "at": "7.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E004",
+   "to": "迌",
+   "why": "class 對照表（FA44）；𨑨迌 thit4tho5",
+   "part": 7,
+   "at": "7.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/211.jpg",
+  "trans": "TRANS/211.JPG"
+ }
+}

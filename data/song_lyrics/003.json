@@ -1,0 +1,110 @@
+{
+ "no": "003",
+ "kind": "唸歌",
+ "title": "卜挽茶仔",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "卜 挽 茶 仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "卜挽茶仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2bueh4ban2te5a2e0 # kang7te5tiunn5",
+     "tailo": "kóng bueh bán tê-á--e # kāng tê-tiûnn",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "卜挽茶仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "共茶場，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5a2 # ban2ho2 # hue5ka1hiunn1",
+     "tailo": "tê-á # bán-hó # huê ka-hiunn",
+     "han": [
+      {
+       "t": "茶仔挽好回家鄉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tan2thai7 # he7te5a0 # na7puh4iunn2a0",
+     "tailo": "tán-thāi # hē-tê--a # nā puh-iúnn--a",
+     "han": [
+      {
+       "t": "等待夏茶"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "若發穎"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1hiann1e0 # li2ciah4lai5chua7niu5",
+     "tailo": "a-hiann--e # lí tsiah lâi tshuā niû",
+     "han": [
+      {
+       "t": "阿兄"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "汝才來𤆬娘。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "要挽茶葉同茶場，",
+    "茶葉採完回家鄉，",
+    "等待夏茶發新葉，",
+    "阿兄你得來找娘。"
+   ],
+   "src_no": 3,
+   "head": "雙溪黃朱束",
+   "tape": "台北愛悅情歌N0.1;00:21:00"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E012",
+   "to": "𤆬",
+   "why": "class 對照表（FA52）；音 chua7",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/003.jpg",
+  "trans": "TRANS/003.JPG"
+ }
+}

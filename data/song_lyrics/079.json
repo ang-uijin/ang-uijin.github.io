@@ -1,0 +1,87 @@
+{
+ "no": "079",
+ "kind": "唸歌",
+ "title": "阿兄來到",
+ "source": "1-203石門唸歌.doc",
+ "site_title": "阿兄來到",
+ "parts": [
+  {
+   "n": 1,
+   "title": "阿兄來到",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "a1hiann1 # lai5kau3 # niu5 # te5hng5",
+     "tailo": "a-hiann # lâi-kàu # niû # tê-hn̂g",
+     "han": [
+      {
+       "t": "阿兄來到娘茶園，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2bo5i2 # thang1ce7 # kha1 # e7sng1",
+     "tailo": "kóng bô í # thang tsē # kha # ē sng",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "無椅通坐跤會酸，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1hiann1 # sui5lai5ia0 # sui5bueh4tng2",
+     "tailo": "a-hiann # suî lâi--ia # suî bueh tńg",
+     "han": [
+      {
+       "t": "阿兄隨來"
+      },
+      {
+       "t": "呀",
+       "s": 1
+      },
+      {
+       "t": "隨卜轉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "put4li5a0 # mai3lai5 # sim1 # bue7sng1",
+     "tailo": "put-lî--a # mài lâi # sim # buē sng",
+     "han": [
+      {
+       "t": "不如"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "勿來心袂酸。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "阿兄來到娘茶園，",
+    "沒椅可坐腳會酸，",
+    "阿兄一來就回轉，",
+    "不如別來心不酸。"
+   ],
+   "src_no": 1,
+   "head": "石門王鄭碧絲",
+   "tape": "台北愛悅情歌N0.2;01:03:59"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/079.jpg",
+  "trans": "TRANS/079.JPG"
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "no": "071",
+ "kind": "唸歌",
+ "title": "一條路仔",
+ "source": "1-105汐止唸歌.doc",
+ "site_title": "一條路仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "一條路仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit8tiau5loo7a2 # eh8piak4piak4",
+     "tailo": "tsi̍t tiâu lōo-á # e̍h-piak-piak",
+     "han": [
+      {
+       "t": "一條路仔狹逼逼，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "nng7ciah4kau2a2 # koh4ok4khiak8khiak8",
+     "tailo": "nn̄g tsiah káu-á # koh ok-khia̍k-khia̍k",
+     "han": [
+      {
+       "t": "兩隻狗"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "閣惡嘎嘎，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4cit8e5a1niu5a2 # si7sui2giak4giak4",
+     "tailo": "ah tsi̍t ê a-niû-á # sī suí-giak-giak",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "一个阿娘"
+      },
+      {
+       "t": "仔是",
+       "s": 1
+      },
+      {
+       "t": "媠噱噱，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hoo7gua2huann3tioh8sim1kuann1 # koh4phih8phok8chiak8",
+     "tailo": "hōo guá huànn-tio̍h sim-kuann # koh phi̍h-pho̍k-tshia̍k",
+     "han": [
+      {
+       "t": "予我",
+       "s": 1
+      },
+      {
+       "t": "看著"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "嗶噗"
+      },
+      {
+       "t": "chiak8",
+       "rom": 1,
+       "tl": "tshia̍k"
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一條小路窄逼逼，",
+    "兩隻小狗凶巴巴，",
+    "一個姑娘水噹噹，",
+    "讓我看得心慌慌。"
+   ],
+   "src_no": 2,
+   "head": "汐止楊秀卿",
+   "tape": "台北愛悅情歌N0.3;00:10:20"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/071.jpg",
+  "trans": "TRANS/071.JPG"
+ }
+}

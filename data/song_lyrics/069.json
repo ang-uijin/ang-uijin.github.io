@@ -1,0 +1,77 @@
+{
+ "no": "069",
+ "kind": "唸歌",
+ "title": "茶鈷燃茶",
+ "source": "1-104南港唸歌.doc",
+ "site_title": "茶鈷燃茶",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶鈷燃茶",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5koo2 # hiann5te5 # hinn1hinn1 chan1，",
+     "tailo": "tê-kóo # hiânn-tê # hinn-hinn tshan，",
+     "han": [
+      {
+       "t": "茶鈷燃茶欷欷呻，"
+      }
+     ],
+     "tlpa_src": "te5koo2# hiann5te5# hinn1x chan1，"
+    },
+    {
+     "kind": "line",
+     "tlpa": "cui2chia1 # chia1cui2 # berh4im1chan5，",
+     "tailo": "tsuí-tshia # tshia tsuí # berh im-tshân，",
+     "han": [
+      {
+       "t": "水車車水卜淹田，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cere7cinn5 # cio2cinn5 # long2tioh8than3，",
+     "tailo": "tserē tsînn # tsió tsînn # lóng tio̍h thàn，",
+     "han": [
+      {
+       "t": "儕錢少錢攏著趁，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7cinn5 # kong2ue7 # siann1 # ciah4e7tan5。",
+     "tailo": "ū-tsînn # kóng-uē # siann # tsiah ē tân。",
+     "han": [
+      {
+       "t": "有錢講話聲"
+      },
+      {
+       "t": "才",
+       "s": 1
+      },
+      {
+       "t": "會霆。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶壺燒茶聲潺潺，",
+    "水車車水為淹田，",
+    "錢多錢少都得賺，",
+    "有錢講話才大聲。"
+   ],
+   "src_no": 1,
+   "head": "南港楊闕熟",
+   "tape": "音檔116"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/069.jpg",
+  "trans": "TRANS/069.JPG"
+ }
+}
