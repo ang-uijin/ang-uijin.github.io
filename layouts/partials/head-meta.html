@@ -3,8 +3,13 @@
 {{- $title := "" -}}
 {{- if .IsHome }}{{ $title = .Site.Title }}{{ else }}{{ $title = printf "%s - %s" .Title .Site.Title }}{{ end -}}
 {{- if eq .Kind "404" }}{{ $title = printf "找不到這一頁 - %s" .Site.Title }}{{ end -}}
+{{- /* 民間歌謠站（/song/）：每一首、每個鄉鎮、每位歌手的標題與說明各自不同 */ -}}
+{{- if and (eq .Section "song") (ne .Kind "404") }}{{ $title = printf "%s - %s" (partial "song/title.html" .) .Site.Title }}{{ $desc = partial "song/desc.html" . }}{{ end -}}
 <title>{{ $title }}</title>
 {{- if eq .Kind "404" }}
+<meta name="robots" content="noindex">
+{{- end }}
+{{- if and (eq .Section "song") .Params.no (not (index site.Data.song.site.show .Params.cat)) }}
 <meta name="robots" content="noindex">
 {{- end }}
 <meta name="description" content="{{ $desc }}">

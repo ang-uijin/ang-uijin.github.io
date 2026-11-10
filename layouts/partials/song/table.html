@@ -1,0 +1,32 @@
+{{- /* 曲目表。傳入 dict：pages（歌曲頁）、hide（不要的欄：slice "place" "singer" "kind"） */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $lk := partialCached "song/lookup.html" "x" -}}
+{{- $hide := .hide | default slice -}}
+<div class="sg-table-wrap">
+<table class="sg-table">
+  <thead><tr>
+    <th class="c-no">曲號</th><th class="c-title">曲名</th>
+    {{- if not (in $hide "kind") }}<th class="c-kind">類別</th>{{ end }}
+    {{- if not (in $hide "place") }}<th class="c-place">地點</th>{{ end }}
+    {{- if not (in $hide "singer") }}<th class="c-singer">演唱</th>{{ end }}
+    <th class="c-has">影片</th><th class="c-has">歌詞</th><th class="c-len">長度</th>
+  </tr></thead>
+  <tbody>
+  {{- range .pages }}
+    {{- $p := .Params }}
+    <tr data-region="{{ $p.region }}" data-kind="{{ $p.genre }}" data-place="{{ delimit $p.places " " }}" data-v="{{ if $p.video }}1{{ else }}0{{ end }}" data-l="{{ if $p.lyrics_img }}1{{ else }}0{{ end }}">
+      <td class="c-no"><a href="{{ .RelPermalink }}">{{ $p.no }}</a></td>
+      <td class="c-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- with $p.parts }}<span class="sg-sub">等 {{ len . }} 段</span>{{ end }}
+        {{- with $p.subtitle }}<span class="sg-sub">{{ . }}</span>{{ end }}</td>
+      {{- if not (in $hide "kind") }}<td class="c-kind">{{ index $site.kind_names $p.genre }}</td>{{ end }}
+      {{- if not (in $hide "place") }}<td class="c-place">{{ range $i, $x := $p.places }}{{ if $i }}、{{ end }}{{ with (index $lk.places $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}</td>{{ end }}
+      {{- if not (in $hide "singer") }}<td class="c-singer">{{ range $i, $x := $p.singers }}{{ if $i }}、{{ end }}{{ with (index $lk.singers $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}{{ if $p.singer_text }}<span class="sg-sub">（學生）</span>{{ end }}</td>{{ end }}
+      <td class="c-has" data-label="影片">{{ if $p.video }}有{{ else }}<span class="sg-none">無</span>{{ end }}</td>
+      <td class="c-has" data-label="歌詞">{{ if $p.lyrics_img }}有{{ else }}<span class="sg-none">無</span>{{ end }}</td>
+      <td class="c-len">{{ with $p.audio_sec }}{{ $s := int (math.Round .) }}{{ div $s 60 }}:{{ printf "%02d" (mod $s 60) }}{{ end }}</td>
+    </tr>
+  {{- end }}
+  </tbody>
+</table>
+</div>

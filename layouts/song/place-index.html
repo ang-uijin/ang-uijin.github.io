@@ -1,0 +1,59 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "main" }}
+{{- /* 依地區 /song/place/：兩張地圖（2024 版的圖，熱點從資料產生）＋鄉鎮清單 */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $lk := partialCached "song/lookup.html" "x" -}}
+{{- $maps := slice (dict "key" "taipei" "region" "台北" "img" "/song/Images/taipeimap.gif" "alt" "台北地區地圖") (dict "key" "tcm" "region" "桃竹苗" "img" "/song/Images/map02.gif" "alt" "桃園、新竹、苗栗地區地圖") -}}
+{{- partial "song/nav.html" . }}
+<main class="main-content sg-main">
+  <article class="content-section sg-places">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{- range $site.region_order }}
+      {{- $region := . }}
+      {{- $with := slice }}{{ $only := slice }}
+      {{- range site.Data.song.places }}
+        {{- if eq .region $region }}
+          {{- $e := index $lk.places .name }}
+          {{- if gt $e.n 0 }}{{ $with = $with | append . }}
+          {{- else if and $e.show $e.url }}{{ $only = $only | append . }}{{ end }}
+        {{- end }}
+      {{- end }}
+      {{- if $with }}
+    <section class="sg-region" id="{{ $region }}">
+      <h2>{{ index $site.region_names $region }}</h2>
+      <div class="sg-region-body">
+        {{- range $maps }}{{ if eq .region $region }}
+        {{- $mk := .key }}
+        <div class="sg-map">
+          <img src="{{ .img }}" width="550" height="450" alt="{{ .alt }}" loading="lazy">
+          {{- range site.Data.song.places }}
+            {{- if and .map (eq .map.img $mk) }}
+              {{- $e := index $lk.places .name }}
+              {{- if and (gt $e.n 0) $e.url }}
+          <a class="sg-dot" href="{{ $e.url }}" style="left:{{ .map.x }}%;top:{{ .map.y }}%" title="{{ .name }}（{{ $e.n }} 首）"><span>{{ .name }}</span></a>
+              {{- end }}
+            {{- end }}
+          {{- end }}
+        </div>
+        {{- end }}{{ end }}
+        <ul class="sg-place-list">
+          {{- range $with }}
+            {{- $e := index $lk.places .name }}
+            {{- $pname := .name }}
+            {{- $ns := 0 }}{{ range $lk.singers }}{{ if and .show (eq .d.place $pname) (not .d.group) }}{{ $ns = add $ns 1 }}{{ end }}{{ end }}
+          <li><a href="{{ $e.url }}"><b>{{ .name }}</b><span>{{ $e.n }} 首{{ if $ns }}・{{ $ns }} 位歌手{{ end }}</span></a></li>
+          {{- end }}
+        </ul>
+      </div>
+      {{- if eq $region "桃竹苗" }}<p class="sg-map-note">地圖上黃點有圈起來的才有歌可聽；其餘鄉鎮原網站沒有放資料。</p>{{ end }}
+      {{- with $only }}
+      <p class="sg-only">原網站另外留有歌手基本資料、但沒有收歌的鄉鎮：
+        {{- range $i, $x := . }}{{ if $i }}、{{ end }}<a href="{{ (index $lk.places $x.name).url }}">{{ $x.name }}</a>{{ end }}</p>
+      {{- end }}
+    </section>
+      {{- end }}
+    {{- end }}
+  </article>
+</main>
+{{ end }}

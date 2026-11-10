@@ -1,0 +1,1368 @@
+[
+ {
+  "name": "雙溪",
+  "key": "雙溪",
+  "region": "台北",
+  "county": "台北縣雙溪鄉",
+  "intro": "雙溪舊名為「頂雙溪」，為坪林溪與牡丹溪匯流之處，故得名。",
+  "scene": {
+   "src": "/song/mapimages/scene01.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-01.htm",
+  "n_songs": 22,
+  "cats": {
+   "minnan": 22
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 84.55,
+   "y": 42.22
+  }
+ },
+ {
+  "name": "平溪",
+  "key": "平溪",
+  "region": "台北",
+  "county": "台北縣平溪鄉",
+  "intro": "平溪鄉位為基隆河上游，河谷寬窄不一，而且水流湍急，而鄉名取自現平溪村著名「平溪仔」，因此地平水緩，故得名。",
+  "scene": {
+   "src": "/song/mapimages/scene02.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-02.htm",
+  "n_songs": 7,
+  "cats": {
+   "minnan": 7
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 71.09,
+   "y": 40.44
+  }
+ },
+ {
+  "name": "坪林",
+  "key": "坪林",
+  "region": "台北",
+  "county": "台北縣坪林鄉",
+  "intro": "以往在坪林鄉有一塊長滿茂密林木的河階平地，其末端之地稱做為「坪林尾」，而後漸漸演變成為鄉名。",
+  "scene": {
+   "src": "/song/mapimages/scene03.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-03.htm",
+  "n_songs": 24,
+  "cats": {
+   "minnan": 23,
+   "score": 1
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 69.27,
+   "y": 50.89
+  }
+ },
+ {
+  "name": "土城",
+  "key": "土城",
+  "region": "台北",
+  "county": "台北縣土城市",
+  "intro": "土城的地名起源於往昔設隘，竹土圍以防禦番亂，因而的名。",
+  "scene": {
+   "src": "/song/mapimages/scene04.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-04.htm",
+  "n_songs": 3,
+  "cats": {
+   "minnan": 3
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 38.18,
+   "y": 51.56
+  }
+ },
+ {
+  "name": "三峽",
+  "key": "三峽",
+  "region": "台北",
+  "county": "台北縣三峽鎮",
+  "intro": "三峽的地理位置正位於三峽溪、橫溪、大漢溪匯流之處，因而在清代稱為「三角溪」，日據時代稱為「三峽庄」，民國34年改為三峽鎮。",
+  "scene": {
+   "src": "/song/mapimages/scene05.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-05.htm",
+  "n_songs": 11,
+  "cats": {
+   "minnan": 11
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 25.82,
+   "y": 58.44
+  }
+ },
+ {
+  "name": "石碇",
+  "key": "石碇",
+  "region": "台北",
+  "county": "台北縣石碇鎮",
+  "intro": "石碇在早期為宜蘭、坪林等地進出台北的門戶，由於當時還沒有橋樑，商旅百姓需跨越舊式房屋的石質門檻，(閩南語稱為「戶碇」)，因而的名。",
+  "scene": {
+   "src": "/song/mapimages/scene06.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-06.htm",
+  "n_songs": 8,
+  "cats": {
+   "minnan": 8
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 65.09,
+   "y": 44.44
+  }
+ },
+ {
+  "name": "深坑",
+  "key": "深坑",
+  "region": "台北",
+  "county": "台北縣深坑鎮",
+  "intro": "深坑舊名為「簪纓」，由於地形四周環山，坑谷深陷因而得名「深坑」。",
+  "scene": {
+   "src": "/song/mapimages/scene07.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-07.htm",
+  "n_songs": 13,
+  "cats": {
+   "minnan": 13
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 58.0,
+   "y": 42.67
+  }
+ },
+ {
+  "name": "南港",
+  "key": "南港",
+  "region": "台北",
+  "county": "台北市南港區",
+  "intro": "舊名為「大加吶堡南港三重埔」，南港因位於基隆河的南邊，與汐止的北港里對稱，在基隆河淤積之前，有一處自然港灣，經常有船舶往來，因此在日據時代改名為「南港」。",
+  "scene": {
+   "src": "/song/mapimages/scene08.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-08.htm",
+  "n_songs": 2,
+  "cats": {
+   "minnan": 2
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 49.82,
+   "y": 43.33
+  }
+ },
+ {
+  "name": "汐止",
+  "key": "汐止",
+  "region": "台北",
+  "county": "台北縣汐止鎮",
+  "intro": "汐止鎮舊名為「水返腳」，是指基隆河的海潮水，障到此而退返之意，日據之後便改稱為汐止。",
+  "scene": {
+   "src": "/song/mapimages/scene09.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-09.htm",
+  "n_songs": 5,
+  "cats": {
+   "minnan": 5
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 53.82,
+   "y": 36.44
+  }
+ },
+ {
+  "name": "陽明山",
+  "key": "陽明山",
+  "region": "台北",
+  "county": "台北市士林區陽明山",
+  "intro": "陽明山原名為「草山」，其時泛指大屯山、七星山、紗帽山所圍繞的山谷地區、在民國39年，因為地方人士建議，為紀念明代哲學大家王陽明，改名為「陽明山管理局」，「陽明山」一名沿用至今。",
+  "scene": {
+   "src": "/song/mapimages/scene10.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-10.htm",
+  "n_songs": 2,
+  "cats": {
+   "minnan": 2
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 41.64,
+   "y": 22.67
+  }
+ },
+ {
+  "name": "林口",
+  "key": "林口",
+  "region": "台北",
+  "county": "台北縣林口鄉",
+  "intro": "在日本佔領台灣之前，林口鎮原隸屬於臺北州，名為樹林口，自民國九年日本人設莊治於此，即取名為林口庄，台灣光復之後，遂改名林口鄉。",
+  "scene": {
+   "src": "/song/mapimages/scene11.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-11.htm",
+  "n_songs": 1,
+  "cats": {
+   "minnan": 1
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 17.27,
+   "y": 32.67
+  }
+ },
+ {
+  "name": "八里",
+  "key": "八里",
+  "region": "台北",
+  "county": "台北縣八里鄉",
+  "intro": "八里鄉舊名為八里坌，是凱達格蘭平埔族Parigang社的譯名。清初官方曾限定渡臺的移民，只能從三個「正口」登陸，八里坌就是其中之一，開發與繁榮程度比淡水早，後來因淡水河氾濫，沖毀街道城牆才被淡水所取代。",
+  "scene": {
+   "src": "/song/mapimages/scene12.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-12.htm",
+  "n_songs": 2,
+  "cats": {
+   "minnan": 2
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 21.64,
+   "y": 27.78
+  }
+ },
+ {
+  "name": "石門",
+  "key": "石門",
+  "region": "台北",
+  "county": "台北縣石門鄉",
+  "intro": "因為海邊有罕見的天然海蝕石門洞奇觀，因而從日據時期開始石門為行政區域的名稱，並且為台灣最北端的鄉鎮。",
+  "scene": {
+   "src": "/song/mapimages/scene13.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-13.htm",
+  "n_songs": 6,
+  "cats": {
+   "minnan": 6
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 37.27,
+   "y": 13.78
+  }
+ },
+ {
+  "name": "三芝",
+  "key": "三芝",
+  "region": "台北",
+  "county": "台北縣三芝鄉",
+  "intro": "三芝鄉舊名為「小雞籠」，是凱達格蘭平埔族名的音譯，清末編隸「芝蘭三堡」，日據時代將「芝」與「三」倒換成為「三芝」庄，光復後也沿用為三芝鄉。",
+  "scene": {
+   "src": "/song/mapimages/scene14.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-14.htm",
+  "n_songs": 9,
+  "cats": {
+   "minnan": 9
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 29.82,
+   "y": 17.56
+  }
+ },
+ {
+  "name": "金山",
+  "key": "金山",
+  "region": "台北",
+  "county": "台北縣金山鄉",
+  "intro": "取自於凱達格蘭平埔族的譯音，金山舊名為「金包里」，為「踩硫礦地」之意，日據後改為「金山」，遂沿用至今。",
+  "scene": {
+   "src": "/song/mapimages/scene15.jpg",
+   "w": 200,
+   "h": 120
+  },
+  "src": "map-15.htm",
+  "n_songs": 20,
+  "cats": {
+   "minnan": 20
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 47.27,
+   "y": 15.33
+  }
+ },
+ {
+  "name": "萬里",
+  "key": "萬里",
+  "region": "台北",
+  "county": "台北縣萬里鄉",
+  "intro": "",
+  "scene": null,
+  "src": "map-16.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "taipei",
+   "x": 53.09,
+   "y": 23.33
+  }
+ },
+ {
+  "name": "大園",
+  "key": "大園",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-01.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [
+   {
+    "name": "游阿朝",
+    "fields": {
+     "性別": "男",
+     "年齡": "西元1921年出生",
+     "現居地": "桃園縣大園仔新生街",
+     "採訪日期": "2003年12月",
+     "採訪者": "洪惟仁、黃美慈",
+     "攝影": "洪敦謙"
+    }
+   },
+   {
+    "name": "游阿李秀英",
+    "fields": {
+     "性別": "女",
+     "年齡": "西元1922年出生",
+     "現居地": "桃園縣大園仔新生街",
+     "採訪日期": "2003年12月",
+     "採訪者": "洪惟仁、黃美慈",
+     "攝影": "洪敦謙"
+    }
+   },
+   {
+    "name": "許金用",
+    "fields": {
+     "性別": "男",
+     "年齡": "西元1927年出生",
+     "現居地": "桃園縣大園仔信義街",
+     "採訪日期": "2003年12月"
+    }
+   },
+   {
+    "name": "張黃月妹",
+    "fields": {
+     "性別": "女",
+     "年齡": "西元1919年出生",
+     "現居地": "桃園縣大園仔和平村"
+    }
+   },
+   {
+    "name": "郭阿丹",
+    "fields": {
+     "性別": "女",
+     "年齡": "68",
+     "現居地": "桃園縣大園仔中華路"
+    }
+   },
+   {
+    "name": "陳寶珠",
+    "fields": {
+     "性別": "女",
+     "年齡": "67",
+     "現居地": "桃園縣大園仔橫hong5村水源路"
+    }
+   },
+   {
+    "name": "甘阿蕊",
+    "fields": {
+     "性別": "女",
+     "年齡": "70",
+     "現居地": "桃園縣大園仔橫中華路"
+    }
+   }
+  ],
+  "map": {
+   "img": "tcm",
+   "x": 58.0,
+   "y": 8.22
+  }
+ },
+ {
+  "name": "蘆竹",
+  "key": "蘆竹",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-02.htm",
+  "n_songs": 55,
+  "cats": {
+   "minnan": 55
+  },
+  "extra_singers": [
+   {
+    "name": "許蘇市",
+    "fields": {
+     "現居地": "桃園縣蘆竹鄉坑仔村"
+    }
+   },
+   {
+    "name": "李徐阿菊",
+    "fields": {
+     "現居地": "桃園縣蘆竹鄉坑仔村"
+    }
+   },
+   {
+    "name": "王陳尾萬",
+    "fields": {
+     "性別": "女",
+     "年齡": "90",
+     "生長地": "鬼仔坑(泰山鄉貴子坑)",
+     "現居地": "桃園縣蘆竹鄉赤塗崎村",
+     "採訪者": "黃美慈、黃香雅、林淑君",
+     "攝影": "洪敦謙"
+    }
+   }
+  ],
+  "map": {
+   "img": "tcm",
+   "x": 68.18,
+   "y": 7.33
+  }
+ },
+ {
+  "name": "桃園",
+  "key": "桃園",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-03.htm",
+  "n_songs": 169,
+  "cats": {
+   "minnan": 169
+  },
+  "extra_singers": [
+   {
+    "name": "劉秀春",
+    "fields": {
+     "現居地": "桃園市南豐街"
+    }
+   },
+   {
+    "name": "徐香妹",
+    "fields": {
+     "現居地": "桃園市建國東路"
+    }
+   },
+   {
+    "name": "廖世峰",
+    "fields": {
+     "現居地": "桃園市陽明八街"
+    }
+   }
+  ],
+  "map": {
+   "img": "tcm",
+   "x": 68.55,
+   "y": 14.0
+  }
+ },
+ {
+  "name": "龜山",
+  "key": "龜山",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-04.htm",
+  "n_songs": 56,
+  "cats": {
+   "minnan": 56
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 75.45,
+   "y": 15.33
+  }
+ },
+ {
+  "name": "八德",
+  "key": "八德",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-05.htm",
+  "n_songs": 46,
+  "cats": {
+   "minnan": 46
+  },
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 70.36,
+   "y": 20.89
+  }
+ },
+ {
+  "name": "大溪",
+  "key": "大溪",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-06.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [
+   {
+    "name": "林許治",
+    "fields": {
+     "性別": "女",
+     "年齡": "西元1911年出生",
+     "採訪日期": "2003年12月",
+     "採訪者": "黃美慈、黃惠珠、秀雲、陳美燕",
+     "攝影": "洪敦謙"
+    }
+   }
+  ],
+  "map": {
+   "img": "tcm",
+   "x": 72.18,
+   "y": 27.11
+  }
+ },
+ {
+  "name": "復興",
+  "key": "復興",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-07.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 77.45,
+   "y": 36.22
+  }
+ },
+ {
+  "name": "中壢",
+  "key": "中壢",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-08.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [
+   {
+    "name": "黃許蓮好",
+    "fields": {
+     "性別": "女",
+     "年齡": "78",
+     "現居地": "中壢市愛國路"
+    }
+   },
+   {
+    "name": "賴碧霞",
+    "fields": {
+     "現居地": "中壢市光明里三光路"
+    }
+   }
+  ],
+  "map": {
+   "img": "tcm",
+   "x": 64.73,
+   "y": 19.56
+  }
+ },
+ {
+  "name": "平鎮",
+  "key": "平鎮",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-09.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [
+   {
+    "name": "劉雪惠",
+    "fields": {
+     "現居地": "平鎮市合作街"
+    }
+   }
+  ],
+  "map": {
+   "img": "tcm",
+   "x": 63.45,
+   "y": 26.67
+  }
+ },
+ {
+  "name": "龍潭",
+  "key": "龍潭",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-10.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [
+   {
+    "name": "黃英花",
+    "fields": {
+     "現居地": "桃園縣龍潭鄉東龍路"
+    }
+   }
+  ],
+  "map": {
+   "img": "tcm",
+   "x": 61.45,
+   "y": 31.11
+  }
+ },
+ {
+  "name": "觀音",
+  "key": "觀音",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-11.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 50.36,
+   "y": 11.11
+  }
+ },
+ {
+  "name": "新屋",
+  "key": "新屋",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-12.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 51.64,
+   "y": 17.78
+  }
+ },
+ {
+  "name": "楊梅",
+  "key": "楊梅",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-13.htm",
+  "n_songs": 30,
+  "cats": {
+   "hakka": 30
+  },
+  "extra_singers": [
+   {
+    "name": "張永清",
+    "fields": {
+     "性別": "男",
+     "年齡": "西元1917年出生",
+     "現居地": "桃園縣楊梅鎮高榮里",
+     "採訪日期": "2003年12月",
+     "採訪者": "洪惟仁、黃美慈、秋君",
+     "攝影": "洪敦謙、陳美燕"
+    }
+   },
+   {
+    "name": "馮堯雲",
+    "fields": {
+     "年齡": "西元1935年出生",
+     "採訪日期": "2003年12月"
+    }
+   },
+   {
+    "name": "彭秀蘭",
+    "fields": {
+     "性別": "女",
+     "年齡": "西元1939年出生",
+     "現居地": "桃園縣楊梅鎮中山南路",
+     "採訪日期": "2003年12月",
+     "攝影": "洪敦謙、陳美燕"
+    }
+   },
+   {
+    "name": "宋五妹",
+    "fields": {
+     "性別": "女",
+     "年齡": "西元1919年出生",
+     "現居地": "桃園縣楊梅鎮市場街",
+     "採訪日期": "2003年12月",
+     "採訪者": "洪惟仁、黃美慈、秋君",
+     "攝影": "洪敦謙、陳美燕"
+    }
+   },
+   {
+    "name": "彭聰妹",
+    "fields": {
+     "性別": "女",
+     "年齡": "西元1923年出生",
+     "現居地": "桃園縣楊梅鎮秀才里",
+     "採訪日期": "2003年12月"
+    }
+   },
+   {
+    "name": "李鳳妹",
+    "fields": {
+     "性別": "女",
+     "年齡": "西元1930年出生",
+     "採訪日期": "2003年12月"
+    }
+   },
+   {
+    "name": "游琳昌",
+    "fields": {
+     "性別": "男",
+     "年齡": "西元1929年出生",
+     "採訪日期": "2003年12月"
+    }
+   },
+   {
+    "name": "林侯四妹",
+    "fields": {
+     "現居地": "桃園縣楊梅鎮秀才里",
+     "採訪日期": "2003年12月"
+    }
+   },
+   {
+    "name": "徐志孟",
+    "fields": {
+     "性別": "男",
+     "年齡": "西元1932年出生",
+     "現居地": "桃園縣楊梅鎮大平里秀才路",
+     "採訪日期": "2003年12月"
+    }
+   },
+   {
+    "name": "宋秋琳",
+    "fields": {
+     "性別": "女",
+     "年齡": "西元1938年出生",
+     "採訪日期": "2003年12月"
+    }
+   },
+   {
+    "name": "胡右妹",
+    "fields": {
+     "現居地": "桃園縣楊梅鎮秀才里秀才路"
+    }
+   },
+   {
+    "name": "黃娘妹",
+    "fields": {
+     "現居地": "桃園縣楊梅鎮中山南路"
+    }
+   }
+  ],
+  "map": {
+   "img": "tcm",
+   "x": 54.91,
+   "y": 26.89
+  }
+ },
+ {
+  "name": "新豐",
+  "key": "新豐",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-14.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 42.55,
+   "y": 25.33
+  }
+ },
+ {
+  "name": "湖口",
+  "key": "湖口",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-15.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 49.09,
+   "y": 26.89
+  }
+ },
+ {
+  "name": "新埔",
+  "key": "新埔",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-16.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 50.0,
+   "y": 34.44
+  }
+ },
+ {
+  "name": "芎林",
+  "key": "芎林",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-17.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 57.82,
+   "y": 42.44
+  }
+ },
+ {
+  "name": "關西",
+  "key": "關西",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-18.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 63.45,
+   "y": 39.11
+  }
+ },
+ {
+  "name": "尖石",
+  "key": "尖石",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-19.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 69.45,
+   "y": 52.0
+  }
+ },
+ {
+  "name": "橫山",
+  "key": "橫山",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-20.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 63.27,
+   "y": 53.11
+  }
+ },
+ {
+  "name": "竹東",
+  "key": "竹東",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-21.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 58.55,
+   "y": 50.44
+  }
+ },
+ {
+  "name": "五峰",
+  "key": "五峰",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-22.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 57.09,
+   "y": 59.78
+  }
+ },
+ {
+  "name": "峨嵋",
+  "key": "峨嵋",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-23.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 49.82,
+   "y": 52.0
+  }
+ },
+ {
+  "name": "北埔",
+  "key": "北埔",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-24.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 51.09,
+   "y": 46.0
+  }
+ },
+ {
+  "name": "寶山",
+  "key": "寶山",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-25.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 44.36,
+   "y": 41.56
+  }
+ },
+ {
+  "name": "新竹",
+  "key": "新竹",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-26.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 41.27,
+   "y": 38.0
+  }
+ },
+ {
+  "name": "頭份",
+  "key": "頭份",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-27.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 37.82,
+   "y": 50.44
+  }
+ },
+ {
+  "name": "三灣",
+  "key": "三灣",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-28.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 42.36,
+   "y": 56.22
+  }
+ },
+ {
+  "name": "南庄",
+  "key": "南庄",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-29.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 48.18,
+   "y": 64.89
+  }
+ },
+ {
+  "name": "竹南",
+  "key": "竹南",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-30.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 32.55,
+   "y": 50.89
+  }
+ },
+ {
+  "name": "造橋",
+  "key": "造橋",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-31.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 31.82,
+   "y": 56.44
+  }
+ },
+ {
+  "name": "後龍",
+  "key": "後龍",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-32.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 24.73,
+   "y": 57.11
+  }
+ },
+ {
+  "name": "頭屋",
+  "key": "頭屋",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-33.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 31.27,
+   "y": 63.56
+  }
+ },
+ {
+  "name": "獅潭",
+  "key": "獅潭",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-34.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 39.82,
+   "y": 70.44
+  }
+ },
+ {
+  "name": "泰安",
+  "key": "泰安",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-35.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 41.82,
+   "y": 78.44
+  }
+ },
+ {
+  "name": "西湖",
+  "key": "西湖",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-36.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 22.55,
+   "y": 68.44
+  }
+ },
+ {
+  "name": "公館",
+  "key": "公館",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-37.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 29.09,
+   "y": 74.67
+  }
+ },
+ {
+  "name": "大湖",
+  "key": "大湖",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-38.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 36.0,
+   "y": 80.0
+  }
+ },
+ {
+  "name": "通霄",
+  "key": "通霄",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-39.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 16.55,
+   "y": 72.89
+  }
+ },
+ {
+  "name": "銅鑼",
+  "key": "銅鑼",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-40.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 23.64,
+   "y": 76.67
+  }
+ },
+ {
+  "name": "苑裡",
+  "key": "苑裡",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-41.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 13.82,
+   "y": 78.0
+  }
+ },
+ {
+  "name": "三義",
+  "key": "三義",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-42.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 21.82,
+   "y": 83.78
+  }
+ },
+ {
+  "name": "卓蘭",
+  "key": "卓蘭",
+  "region": "桃竹苗",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": "main3map/map-43.htm",
+  "n_songs": 0,
+  "cats": {},
+  "extra_singers": [],
+  "map": {
+   "img": "tcm",
+   "x": 30.18,
+   "y": 92.44
+  }
+ },
+ {
+  "name": "玉里",
+  "key": "玉里",
+  "region": "花蓮",
+  "county": "",
+  "intro": "",
+  "scene": null,
+  "src": null,
+  "n_songs": 1,
+  "cats": {
+   "minnan": 1
+  },
+  "extra_singers": []
+ }
+]

@@ -1,0 +1,37 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "main" }}
+{{- /* 全部曲目 /song/list/：一張表＋篩選 */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $lk := partialCached "song/lookup.html" "x" -}}
+{{- $all := partialCached "song/all.html" "x" -}}
+{{- $songs := partialCached "song/visible.html" $all "all" -}}
+{{- partial "song/nav.html" . }}
+<main class="main-content sg-main">
+  <article class="content-section sg-catalog">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <form class="sg-filter" id="sg-filter" onsubmit="return false">
+      <label>地區
+        <select name="region"><option value="">全部</option>
+          {{- range $site.region_order }}{{ if where $songs "Params.region" . }}<option value="{{ . }}">{{ index $site.region_names . }}</option>{{ end }}{{ end }}
+        </select></label>
+      <label>鄉鎮
+        <select name="place"><option value="">全部</option>
+          {{- range site.Data.song.places }}{{ if gt (index $lk.places .name).n 0 }}<option value="{{ .name }}" data-region="{{ .region }}">{{ .name }}</option>{{ end }}{{ end }}
+        </select></label>
+      <label>類別
+        <select name="kind"><option value="">全部</option>
+          {{- range (slice "唸歌" "相褒" "山歌" "譜例") }}{{ if where $songs "Params.genre" . }}<option value="{{ . }}">{{ index $site.kind_names . }}</option>{{ end }}{{ end }}
+        </select></label>
+      <label class="sg-check"><input type="checkbox" name="v" value="1"> 有影片</label>
+      <label class="sg-check"><input type="checkbox" name="l" value="1"> 有歌詞</label>
+      <label class="sg-q">找曲名、歌手、曲號 <input type="search" name="q" placeholder="例：茶、黃朱速、201"></label>
+      <button type="reset" class="sg-reset">清除</button>
+    </form>
+    <p class="sg-count" id="sg-count" aria-live="polite">共 {{ len $songs }} 首</p>
+    {{ partial "song/table.html" (dict "pages" $songs) }}
+    <p class="sg-empty" id="sg-empty" hidden>沒有符合條件的歌。</p>
+  </article>
+</main>
+<script src="/song/song.js?v=1" defer></script>
+{{ end }}

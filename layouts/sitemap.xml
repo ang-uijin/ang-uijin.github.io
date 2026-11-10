@@ -1,0 +1,18 @@
+{{- /* 跟 Hugo 內建的 sitemap 樣板一樣，只多一個條件：民間歌謠站裡「不露出」的歌（data/song/site.json 的 show 開關，
+       例如客家山歌、譜例）頁面雖然產生了，但不列進 sitemap。 */ -}}
+{{- $show := site.Data.song.site.show -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{- range where .Pages "Sitemap.Disable" "ne" true }}
+    {{- $hidden := and (eq .Section "song") .Params.no (not (index $show .Params.cat)) }}
+    {{- if and .Permalink (not $hidden) }}
+  <url>
+    <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
+    <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
+    <priority>{{ .Sitemap.Priority }}</priority>{{ end }}
+  </url>
+    {{- end }}
+  {{- end }}
+</urlset>

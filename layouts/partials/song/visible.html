@@ -1,0 +1,5 @@
+{{- /* 傳入一串歌曲頁，回傳「露出」的（data/song/site.json 的 show 開關） */ -}}
+{{- $show := site.Data.song.site.show -}}
+{{- $out := slice -}}
+{{- range . }}{{ if index $show .Params.cat }}{{ $out = $out | append . }}{{ end }}{{ end -}}
+{{- return $out -}}

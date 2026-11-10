@@ -1,0 +1,2 @@
+{{- /* 全部歌曲頁（content/song/NNN.md），依曲號。用 partialCached 呼叫 */ -}}
+{{- return (where (where site.RegularPages "Section" "song") "Params.no" "!=" nil).ByWeight -}}

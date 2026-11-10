@@ -1,0 +1,12 @@
+{{- /* 歌謠站每一頁上方的分區選單 */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $cur := .RelPermalink -}}
+<div class="section-nav sg-nav">
+  <div class="section-nav-title"><a href="/song/">{{ $site.site_name }}</a></div>
+  <ul class="section-nav-menu">
+    <li><a href="/song/" class="sg-nav-home{{ if eq $cur "/song/" }} active{{ end }}">{{ $site.site_name }}</a></li>
+    {{- range (slice (dict "u" "/song/place/" "t" "依地區") (dict "u" "/song/singer/" "t" "依歌手") (dict "u" "/song/list/" "t" "全部曲目") (dict "u" "/song/essay/" "t" "民間歌謠論") (dict "u" "/song/books/" "t" "相關資源") (dict "u" "/song/about/" "t" "關於本站")) }}
+    <li><a href="{{ .u }}"{{ if hasPrefix $cur .u }} class="active"{{ end }}>{{ .t }}</a></li>
+    {{- end }}
+  </ul>
+</div>

@@ -1,0 +1,41 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "main" }}
+{{- /* 依歌手 /song/singer/：依地區、鄉鎮排 */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $lk := partialCached "song/lookup.html" "x" -}}
+{{- partial "song/nav.html" . }}
+<main class="main-content sg-main">
+  <article class="content-section sg-singers">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{- range $site.region_order }}
+      {{- $region := . }}
+      {{- $any := false }}
+      {{- range site.Data.song.places }}{{ if and (eq .region $region) (gt (index $lk.places .name).n 0) }}{{ $any = true }}{{ end }}{{ end }}
+      {{- if $any }}
+    <section class="sg-region">
+      <h2>{{ index $site.region_names $region }}</h2>
+      {{- range site.Data.song.places }}
+        {{- if and (eq .region $region) (gt (index $lk.places .name).n 0) }}
+          {{- $pname := .name }}
+          {{- $list := slice }}
+          {{- range site.Data.song.singers }}{{ if and (eq .place $pname) (index $lk.singers .name).show }}{{ $list = $list | append . }}{{ end }}{{ end }}
+          {{- with $list }}
+      <h3><a href="{{ (index $lk.places $pname).url }}">{{ $pname }}</a></h3>
+      <ul class="sg-singer-cards">
+        {{- range . }}
+          {{- $s := index $lk.singers .name }}
+        <li><a href="{{ $s.url }}">
+          {{- with .photo }}<img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" alt="{{ $s.d.name }}" loading="lazy">{{ else }}<span class="sg-nophoto" aria-hidden="true">{{ substr .name 0 1 }}</span>{{ end }}
+          <b>{{ .name }}</b><span>{{ $s.n }} 首</span></a></li>
+        {{- end }}
+      </ul>
+          {{- end }}
+        {{- end }}
+      {{- end }}
+    </section>
+      {{- end }}
+    {{- end }}
+  </article>
+</main>
+{{ end }}

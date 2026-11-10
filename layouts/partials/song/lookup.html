@@ -1,0 +1,20 @@
+{{- /* 鄉鎮、歌手的對照表（名字 → 資料、網址、露不露出、露出的歌有幾首）。用 partialCached 呼叫。
+       回傳 dict：places、singers 各是 name → dict(d 資料, url, show, n) */ -}}
+{{- $show := site.Data.song.site.show -}}
+{{- $places := dict -}}
+{{- range site.Data.song.places -}}
+  {{- $n := 0 -}}
+  {{- range $cat, $cnt := .cats }}{{ if index $show $cat }}{{ $n = add $n $cnt }}{{ end }}{{ end -}}
+  {{- $url := "" -}}
+  {{- with site.GetPage (printf "/song/place/%s" .key) }}{{ $url = .RelPermalink }}{{ end -}}
+  {{- $places = merge $places (dict .name (dict "d" . "url" $url "n" $n "show" (or (gt $n 0) (and (eq .n_songs 0) (gt (len .extra_singers) 0))))) -}}
+{{- end -}}
+{{- $singers := dict -}}
+{{- range site.Data.song.singers -}}
+  {{- $n := 0 -}}
+  {{- range $cat, $cnt := .cats }}{{ if index $show $cat }}{{ $n = add $n $cnt }}{{ end }}{{ end -}}
+  {{- $url := "" -}}
+  {{- with site.GetPage (printf "/song/singer/%s" .key) }}{{ $url = .RelPermalink }}{{ end -}}
+  {{- $singers = merge $singers (dict .name (dict "d" . "url" $url "n" $n "show" (gt $n 0))) -}}
+{{- end -}}
+{{- return (dict "places" $places "singers" $singers) -}}

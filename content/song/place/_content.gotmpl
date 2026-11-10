@@ -1,0 +1,11 @@
+{{- /* 鄉鎮頁：一個鄉鎮一頁，資料在 data/song/places.json。
+       出頁的條件跟 layouts/partials/song/lookup.html 一致：有「露出」的歌（data/song/site.json 的 show 開關），
+       或者原站只留了歌手基本資料、完全沒有收歌的鄉鎮。只有不露出的歌的鄉鎮（例如只有客家山歌的楊梅）不出頁。 */ -}}
+{{- $show := site.Data.song.site.show -}}
+{{- range site.Data.song.places -}}
+  {{- $n := 0 -}}
+  {{- range $cat, $cnt := .cats }}{{ if index $show $cat }}{{ $n = add $n $cnt }}{{ end }}{{ end -}}
+  {{- if or (gt $n 0) (and (eq .n_songs 0) (gt (len .extra_singers) 0)) -}}
+    {{- $.AddPage (dict "path" .key "title" .name "layout" "place" "params" (dict "place" .name)) -}}
+  {{- end -}}
+{{- end -}}

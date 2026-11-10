@@ -1,0 +1,131 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "main" }}
+{{- $site := site.Data.song.site -}}
+{{- partial "song/nav.html" . -}}
+{{- if not .Params.no }}
+<main class="main-content sg-main">
+  <article class="content-section sg-text">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+</main>
+{{- else }}
+{{- $p := .Params -}}
+{{- $lk := partialCached "song/lookup.html" "x" -}}
+{{- $all := partialCached "song/all.html" "x" -}}
+{{- $shown := index $site.show $p.cat -}}
+{{- $lyricsData := index (site.Data.song_lyrics | default dict) $p.no -}}
+{{- $hasText := and $lyricsData (templates.Exists "partials/song-lyrics.html") -}}
+<main class="main-content sg-main">
+  <article class="sg-song{{ if $p.video }} has-video{{ end }}{{ if or $p.lyrics_img $hasText }} has-lyrics{{ end }}">
+    <header class="sg-head">
+      <p class="sg-crumb"><a href="/song/">{{ $site.site_name }}</a> {{ with $p.region }}› {{ index $site.region_names . | default . }}{{ end }}
+        {{- range $p.places }} › {{ with (index $lk.places .).url }}<a href="{{ . }}">{{ end }}{{ . }}{{ if (index $lk.places .).url }}</a>{{ end }}{{ end }}</p>
+      <h1><span class="sg-no">{{ $p.no }}</span>{{ .Title }}{{ with $p.subtitle }}<span class="sg-h1sub">{{ . }}</span>{{ end }}</h1>
+      <p class="sg-meta">
+        <span class="sg-tag">{{ index $site.cat_names $p.cat }}・{{ index $site.kind_names $p.genre }}</span>
+        {{- if $p.places }}<span>地點：{{ range $i, $x := $p.places }}{{ if $i }}、{{ end }}{{ with (index $lk.places $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}</span>{{ end }}
+        {{- if $p.singers }}<span>演唱：{{ range $i, $x := $p.singers }}{{ if $i }}、{{ end }}{{ with (index $lk.singers $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}{{ if $p.singer_text }}（{{ $p.singer_text }}）{{ end }}</span>{{ end }}
+      </p>
+      {{- if $p.untitled }}<p class="sg-note-line">這一首原網站沒有記曲名，只有編號{{ with $p.label }}（原編號 {{ . }}）{{ end }}。</p>{{ end }}
+      {{- with $p.parts }}
+      <ol class="sg-parts">{{ range . }}<li>{{ .t }}<span class="sg-who sg-who-{{ if eq .who "男" }}m{{ else }}f{{ end }}">{{ .who }}</span></li>{{ end }}</ol>
+      {{- end }}
+      {{- if not $shown }}<p class="sg-gap">這一頁目前沒有列在曲目表裡（「{{ index $site.cat_names $p.cat }}」暫不公開）。</p>{{ end }}
+    </header>
+
+    <div class="sg-body">
+      <section class="sg-media" id="video">
+        {{- with $p.video }}
+        <div class="sg-video">
+          <button type="button" class="yt-lite" data-yt="{{ .yt }}"{{ with .start }} data-start="{{ . }}"{{ end }}{{ with .end }} data-end="{{ . }}"{{ end }} aria-label="播放影片">
+            <img src="https://i.ytimg.com/vi/{{ .yt }}/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer">
+            <span class="yt-play" aria-hidden="true"></span>
+          </button>
+        </div>
+        {{- if .end }}
+        <p class="sg-video-note">這一首在 YouTube 上是合輯「{{ .comp }}」裡的一段（{{ div .start 60 }}:{{ printf "%02d" (mod .start 60) }}–{{ div .end 60 }}:{{ printf "%02d" (mod .end 60) }}），按播放會從這一段開始、播完就停。合輯的畫質比較低。</p>
+        {{- end }}
+        {{- with .note }}<p class="sg-gap">{{ . }}</p>{{ end }}
+        {{- else }}
+        <p class="sg-gap">這一首沒有留下影片，只有錄音。</p>
+        {{- end }}
+        {{- with $p.audio }}
+        <div class="sg-audio">
+          <span class="sg-audio-label">{{ if $p.video }}只聽聲音（錄音）{{ else }}錄音{{ end }}</span>
+          <audio controls preload="none" src="{{ . }}"></audio>
+        </div>
+        {{- else }}
+        <p class="sg-gap">這一首沒有錄音檔。</p>
+        {{- end }}
+      </section>
+
+      {{- if $hasText }}
+      <section class="sg-lyrics sg-lyrics-text" id="lyrics">
+        <h2>歌詞</h2>
+        {{ partial "song-lyrics.html" $p.no }}
+        <p class="sg-orig">看原圖：{{ with $p.lyrics_img }}<a href="{{ .src }}" target="_blank" rel="noopener">歌詞圖</a>{{ end }}{{ with $p.trans_img }}　<a href="{{ .src }}" target="_blank" rel="noopener">中譯圖</a>{{ end }}</p>
+      </section>
+      {{- else if or $p.lyrics_img $p.trans_img }}
+      <div class="sg-tabs">
+        <button type="button" class="sg-tab is-on" data-pane="lyrics">歌詞</button>
+        <button type="button" class="sg-tab" data-pane="trans">中譯</button>
+      </div>
+      <section class="sg-lyrics sg-pane is-on" id="lyrics">
+        <h2>歌詞</h2>
+        {{- with $p.lyrics_img }}
+        <img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" alt="〈{{ $.Title }}〉歌詞（漢字與音標）" loading="lazy">
+        {{- else }}<p class="sg-gap">這一首沒有歌詞圖。</p>{{ end }}
+      </section>
+      <section class="sg-trans sg-pane" id="trans">
+        <h2>中譯</h2>
+        {{- with $p.trans_img }}
+        <img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" alt="〈{{ $.Title }}〉華語翻譯" loading="lazy">
+        {{- else }}<p class="sg-gap">這一首沒有中譯。</p>{{ end }}
+      </section>
+      {{- else }}
+      <section class="sg-lyrics" id="lyrics">
+        <p class="sg-gap">這首沒有歌詞紀錄，只有錄音{{ if $p.video }}與影片{{ end }}。</p>
+      </section>
+      {{- end }}
+    </div>
+
+    {{- /* 出處：採訪資料從歌手介紹搬過來 */}}
+    <section class="sg-source">
+      <h2>出處</h2>
+      <ul>
+        <li>原載「民間歌謠教學研究網」（2004–2008）{{ if lt (int $p.weight) 104 }}唸歌曲目{{ else if and (ge (int $p.weight) 201) (le (int $p.weight) 226) }}相褒曲目{{ end }}第 {{ $p.no }} 首。</li>
+        {{- range $p.singers }}
+          {{- with (index $lk.singers .) }}
+            {{- $f := .d.fields }}
+            {{- if or (index $f "採訪日期") (index $f "採訪者") }}
+        <li>{{ .d.name }}：{{ with index $f "採訪日期" }}{{ . }}採訪{{ end }}{{ with index $f "採訪地點" }}（{{ . }}）{{ end }}
+              {{- with index $f "採訪者" }}　採訪：{{ . }}{{ end }}{{ with index $f "攝影" }}　攝影：{{ . }}{{ end }}
+              {{- with index $f "整理" }}　整理：{{ . }}{{ end }}{{ with index $f "校對" }}　校對：{{ . }}{{ end }}{{ with index $f "中譯" }}　中譯：{{ . }}{{ end }}</li>
+            {{- end }}
+          {{- end }}
+        {{- end }}
+      </ul>
+    </section>
+
+    {{- /* 上一首／下一首：同一位歌手、同一類（唸歌接唸歌、相褒接相褒；只算露出的，這首若沒露出就全部都算） */}}
+    {{- $pool := $all }}
+    {{- if $shown }}{{ $pool = partialCached "song/visible.html" $all "all" }}{{ end }}
+    {{- $mine := slice }}
+    {{- range $pool }}{{ if and (eq .Params.genre $p.genre) (intersect .Params.singers $p.singers) }}{{ $mine = $mine | append . }}{{ end }}{{ end }}
+    {{- $prev := false }}{{ $next := false }}{{ $found := false }}
+    {{- range $mine }}
+      {{- if eq .Params.no $p.no }}{{ $found = true }}
+      {{- else if not $found }}{{ $prev = . }}
+      {{- else if not $next }}{{ $next = . }}{{ end }}
+    {{- end }}
+    <nav class="sg-prevnext" aria-label="同一位歌手的其他歌">
+      <div class="sg-pn-prev">{{ with $prev }}<a href="{{ .RelPermalink }}">← {{ .Params.no }} {{ .Title }}</a>{{ end }}</div>
+      <div class="sg-pn-mid">{{ range $i, $n := $p.singers }}{{ if $i }}　{{ end }}{{ with (index $lk.singers $n).url }}<a href="{{ . }}">{{ $n }}的全部歌曲</a>{{ else }}{{ $n }}{{ end }}{{ end }}　<a href="/song/list/">全部曲目</a></div>
+      <div class="sg-pn-next">{{ with $next }}<a href="{{ .RelPermalink }}">{{ .Params.no }} {{ .Title }} →</a>{{ end }}</div>
+    </nav>
+  </article>
+</main>
+<script src="/song/song.js?v=1" defer></script>
+{{- end }}
+{{ end }}

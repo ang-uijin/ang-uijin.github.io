@@ -1,0 +1,9 @@
+{{- /* 歌手頁：一位一頁，資料在 data/song/singers.json。只有不露出的歌的歌手（data/song/site.json 的 show 開關）不出頁。 */ -}}
+{{- $show := site.Data.song.site.show -}}
+{{- range site.Data.song.singers -}}
+  {{- $n := 0 -}}
+  {{- range $cat, $cnt := .cats }}{{ if index $show $cat }}{{ $n = add $n $cnt }}{{ end }}{{ end -}}
+  {{- if gt $n 0 -}}
+    {{- $.AddPage (dict "path" .key "title" .name "layout" "singer" "params" (dict "singer" .name)) -}}
+  {{- end -}}
+{{- end -}}

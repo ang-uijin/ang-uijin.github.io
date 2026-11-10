@@ -23,7 +23,13 @@
 {{- end -}}
 {{- $pages := slice -}}
 {{- range site.RegularPages -}}
-  {{- if ne .Params.layout "search" -}}
+  {{- if and (eq .Section "song") .Params.no -}}
+    {{- /* 民間歌謠的每一首：標題帶曲號，內文放地點、歌手、類別（頁面本身沒有內文）；不露出的分類不收 */ -}}
+    {{- if index site.Data.song.site.show .Params.cat -}}
+      {{- $pages = $pages | append (dict "title" (printf "%s %s（民間歌謠）" .Params.no .Title) "url" .RelPermalink
+            "text" (printf "民間歌謠 %s %s %s %s" (index site.Data.song.site.kind_names .Params.genre) (delimit .Params.places " ") (delimit .Params.singers " ") (.Params.singer_text | default ""))) -}}
+    {{- end -}}
+  {{- else if ne .Params.layout "search" -}}
     {{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "text" (.Plain | replaceRE `\s+` " ")) -}}
   {{- end -}}
 {{- end -}}

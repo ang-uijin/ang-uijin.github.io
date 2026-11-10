@@ -1,0 +1,75 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "main" }}
+{{- /* 鄉鎮頁 /song/place/<鄉鎮>/：地區介紹、這裡的歌手、這裡的歌 */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $lk := partialCached "song/lookup.html" "x" -}}
+{{- $all := partialCached "song/all.html" "x" -}}
+{{- $songs := partialCached "song/visible.html" $all "all" -}}
+{{- $name := .Params.place -}}
+{{- $e := index $lk.places $name -}}
+{{- $d := $e.d -}}
+{{- $mine := where $songs "Params.places" "intersect" (slice $name) -}}
+{{- partial "song/nav.html" . }}
+<main class="main-content sg-main">
+  <article class="content-section sg-place">
+    <p class="sg-crumb"><a href="/song/">{{ $site.site_name }}</a> › <a href="/song/place/">依地區</a> › <a href="/song/place/#{{ $d.region }}">{{ index $site.region_names $d.region | default $d.region }}</a></p>
+    <h1>{{ $name }}</h1>
+
+    {{- if or $d.intro $d.scene }}
+    <section class="sg-intro">
+      {{- with $d.scene }}<img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" alt="{{ $name }}景觀" loading="lazy">{{ end }}
+      <div>
+        {{- with $d.county }}<p class="sg-county">{{ . }}</p>{{ end }}
+        {{- with $d.intro }}<p>{{ . }}</p>{{ end }}
+      </div>
+    </section>
+    {{- else }}
+    <p class="sg-gap">這個鄉鎮原網站沒有寫地區介紹。</p>
+    {{- end }}
+
+    {{- /* 這裡的歌手：以歌手資料的 place 為準；外地來合唱的列在歌表裡 */}}
+    {{- $singers := slice }}
+    {{- range site.Data.song.singers }}{{ if and (eq .place $name) (index $lk.singers .name).show }}{{ $singers = $singers | append . }}{{ end }}{{ end }}
+    {{- with $singers }}
+    <section>
+      <h2>歌手</h2>
+      <ul class="sg-singer-cards">
+        {{- range . }}
+          {{- $s := index $lk.singers .name }}
+        <li><a href="{{ $s.url }}">
+          {{- with .photo }}<img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" alt="{{ $s.d.name }}" loading="lazy">{{ else }}<span class="sg-nophoto" aria-hidden="true">{{ substr .name 0 1 }}</span>{{ end }}
+          <b>{{ .name }}</b><span>{{ $s.n }} 首</span></a></li>
+        {{- end }}
+      </ul>
+    </section>
+    {{- end }}
+
+    {{- if $mine }}
+    <section>
+      <h2>這裡採錄的歌（{{ len $mine }} 首）</h2>
+      {{ partial "song/table.html" (dict "pages" $mine "hide" (slice "place")) }}
+    </section>
+    {{- else }}
+    <p class="sg-gap">這個鄉鎮原網站沒有收歌，只留有下面幾位歌手的基本資料。</p>
+    {{- end }}
+
+    {{- with $d.extra_singers }}
+    <section>
+      <h2>{{ if $mine }}沒有收歌的歌手{{ else }}歌手基本資料{{ end }}</h2>
+      {{- if $mine }}<p class="sg-note-line">原網站另外列了下面幾位的基本資料，但沒有放他們的歌。</p>{{ end }}
+      <div class="sg-table-wrap">
+      <table class="sg-table sg-extra">
+        <thead><tr><th>姓名</th><th>性別</th><th>年齡</th><th>生長地</th><th>現居地</th><th>採訪</th></tr></thead>
+        <tbody>
+        {{- range . }}
+          <tr><td>{{ .name }}</td><td>{{ index .fields "性別" }}</td><td>{{ index .fields "年齡" }}</td><td>{{ index .fields "生長地" }}</td><td>{{ index .fields "現居地" }}</td>
+            <td>{{ index .fields "採訪日期" }}{{ with index .fields "採訪者" }}　{{ . }}{{ end }}</td></tr>
+        {{- end }}
+        </tbody>
+      </table>
+      </div>
+    </section>
+    {{- end }}
+  </article>
+</main>
+{{ end }}

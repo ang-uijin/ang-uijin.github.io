@@ -1,0 +1,47 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "main" }}
+{{- /* 歌謠站入口 /song/ */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $lk := partialCached "song/lookup.html" "x" -}}
+{{- $all := partialCached "song/all.html" "x" -}}
+{{- $songs := partialCached "song/visible.html" $all "all" -}}
+{{- $nPlace := 0 }}{{ range $lk.places }}{{ if gt .n 0 }}{{ $nPlace = add $nPlace 1 }}{{ end }}{{ end -}}
+{{- $nSinger := 0 }}{{ range $lk.singers }}{{ if and .show (not .d.group) }}{{ $nSinger = add $nSinger 1 }}{{ end }}{{ end -}}
+{{- $nVideo := len (where $songs "Params.video" "!=" nil) -}}
+{{- $nLyrics := len (where $songs "Params.lyrics_img" "!=" nil) -}}
+{{- partial "song/nav.html" . }}
+<main class="main-content sg-main">
+  <article class="content-section sg-home">
+    <h1>{{ $site.site_name }}</h1>
+    <div class="sg-lead">
+      {{ .Content }}
+      <p class="sg-stats">現在收錄 <b>{{ len $songs }}</b> 首：每一首都有錄音，{{ $nVideo }} 首有影片，{{ $nLyrics }} 首有歌詞與華語翻譯；來自 {{ $nPlace }} 個鄉鎮、{{ $nSinger }} 位歌手。</p>
+    </div>
+
+    <div class="sg-entries">
+      <a class="sg-entry" href="/song/place/"><b>依地區</b><span>從地圖或鄉鎮清單找：台北、桃竹苗、花蓮</span></a>
+      <a class="sg-entry" href="/song/singer/"><b>依歌手</b><span>{{ $nSinger }} 位歌手的介紹與他們唱的歌</span></a>
+      <a class="sg-entry" href="/song/list/"><b>全部曲目</b><span>{{ len $songs }} 首一張表，可以篩選、搜尋</span></a>
+      <div class="sg-entry sg-entry-kinds"><b>依類別</b>
+        <span>
+        {{- range $kind := (slice "唸歌" "相褒" "山歌" "譜例") }}
+          {{- $n := len (where $songs "Params.genre" $kind) }}
+          {{- if $n }}<a href="/song/list/?kind={{ $kind }}">{{ index $site.kind_names $kind }}（{{ $n }}）</a>{{ end }}
+        {{- end }}
+        </span></div>
+    </div>
+
+    <h2>其他</h2>
+    <ul class="sg-more">
+      <li><a href="/song/essay/">民間歌謠論</a>：〈什麼是歌謠〉</li>
+      <li><a href="/song/books/">相關資源</a>：相褒歌的書與影音、原網站收的五本專著</li>
+      <li><a href="/song/about/">關於本站</a>：製作沿革、版權聲明、缺了什麼</li>
+    </ul>
+
+    <div class="sg-sponsor">
+      <span>網站建置贊助</span>
+      <img src="/song/Images/logo-moc.png" alt="文化部" width="160" loading="lazy">
+    </div>
+  </article>
+</main>
+{{ end }}

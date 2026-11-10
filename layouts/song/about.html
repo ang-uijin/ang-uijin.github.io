@@ -1,0 +1,31 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "main" }}
+{{- /* 關於本站：文字在 content/song/about.html；「缺了什麼」從資料算，不必手動維護 */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $all := partialCached "song/all.html" "x" -}}
+{{- $songs := partialCached "song/visible.html" $all "all" -}}
+{{- $noVideo := where $songs "Params.video" "==" nil -}}
+{{- $noLyrics := where $songs "Params.lyrics_img" "==" nil -}}
+{{- $comp := where $songs "Params.video.end" "!=" nil -}}
+{{- partial "song/nav.html" . }}
+<main class="main-content sg-main">
+  <article class="content-section sg-text">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    <h2 id="missing">目前缺少的內容</h2>
+    <ul>
+      <li><b>沒有影片的 {{ len $noVideo }} 首</b>（原網站的影片檔當年就沒有留下，只有錄音）：
+        {{- range $i, $x := $noVideo }}{{ if $i }}、{{ end }}<a href="{{ .RelPermalink }}">{{ .Params.no }}</a>{{ end }}。</li>
+      <li><b>沒有歌詞與翻譯的 {{ len $noLyrics }} 首</b>：原網站只替台北地區的歌（第 001–103、201–226 首）做了歌詞與華語翻譯；花蓮、桃園的歌只有錄音與影片，大多也沒有曲名，只有編號。</li>
+      <li><b>歌詞還是圖片</b>：歌詞與翻譯目前是原網站的圖檔，音標是當年的寫法，還不能搜尋。改成文字（臺羅）的工作在進行中。</li>
+      <li><b>在合輯裡的 {{ len $comp }} 首影片</b>：這些歌在 YouTube 上是一位歌手一整支的合輯，頁面上只播該首的那一段；合輯的畫質比原來的影片低。
+        {{- $muted := where $comp "Params.video.note" "!=" nil }}
+        {{- with $muted }}其中 {{ range $i, $x := . }}{{ if $i }}、{{ end }}<a href="{{ .RelPermalink }}">{{ .Params.no }}</a>{{ end }} 這 {{ len . }} 首，合輯上開頭有幾秒沒有聲音，請聽錄音。{{ end }}</li>
+      <li><b>五本專著的掃描頁</b>還沒有搬進新版面，仍在原版網站（見<a href="/song/books/#scan">相關資源</a>）。</li>
+      <li><b>〈台北的民間歌謠〉全文</b>沒有放上來，只有章節目錄（見<a href="/song/essay/#taipei">民間歌謠論</a>）。</li>
+      <li><b>訪客留言</b>：原網站的留言板是主機上的程式，網站搬家以後沒有這個功能。</li>
+    </ul>
+  </article>
+</main>
+{{ end }}

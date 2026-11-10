@@ -1,0 +1,50 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "main" }}
+{{- /* 歌手頁 /song/singer/<歌手>/：照片、介紹（照原站的欄位）、這位唱的全部歌 */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $lk := partialCached "song/lookup.html" "x" -}}
+{{- $all := partialCached "song/all.html" "x" -}}
+{{- $songs := partialCached "song/visible.html" $all "all" -}}
+{{- $name := .Params.singer -}}
+{{- $e := index $lk.singers $name -}}
+{{- $d := $e.d -}}
+{{- $mine := where $songs "Params.singers" "intersect" (slice $name) -}}
+{{- if not $e.show }}{{ $mine = where $all "Params.singers" "intersect" (slice $name) }}{{ end -}}
+{{- $pl := index $lk.places $d.place -}}
+{{- partial "song/nav.html" . }}
+<main class="main-content sg-main">
+  <article class="content-section sg-singer">
+    <p class="sg-crumb"><a href="/song/">{{ $site.site_name }}</a> › <a href="/song/singer/">依歌手</a>{{ with $pl }} › {{ with .url }}<a href="{{ . }}">{{ end }}{{ $d.place }}{{ if .url }}</a>{{ end }}{{ end }}</p>
+    <h1>{{ $name }}{{ with $d.nick }}<span class="sg-h1sub">（{{ . }}）</span>{{ end }}</h1>
+    {{- if not $e.show }}<p class="sg-gap">這一頁目前沒有列在歌手清單裡（這位歌手的歌所屬的分類暫不公開）。</p>{{ end }}
+
+    <section class="sg-bio">
+      {{- with $d.photo }}<img class="sg-photo" src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" alt="{{ $name }}">{{ end }}
+      <div>
+      {{- if $d.group }}
+        <p>這一組錄影原網站只標「{{ $name }}」，沒有記個別歌手的名字。</p>
+      {{- else if $d.fields }}
+        <dl class="sg-fields">
+          {{- range (slice "性別" "年齡" "生長地" "現居地" "採訪日期" "採訪地點" "採訪者" "攝影" "整理" "校對" "中譯") }}
+            {{- $k := . }}
+            {{- with index $d.fields $k }}<dt>{{ $k }}</dt><dd>{{ . }}</dd>{{ end }}
+          {{- end }}
+        </dl>
+      {{- else }}
+        <p class="sg-gap">原網站沒有這位歌手的介紹。</p>
+      {{- end }}
+      {{- with $d.variants }}
+        {{- $seen := slice }}
+        {{- range . }}{{ if not (in $seen .text) }}{{ $seen = $seen | append .text }}{{ end }}{{ end }}
+        <p class="sg-variants">原網站有些地方寫作：{{ delimit $seen "、" }}</p>
+      {{- end }}
+      </div>
+    </section>
+
+    <section>
+      <h2>演唱的歌（{{ len $mine }} 首）</h2>
+      {{ partial "song/table.html" (dict "pages" $mine "hide" (slice "singer")) }}
+    </section>
+  </article>
+</main>
+{{ end }}
