@@ -34,6 +34,17 @@
 </main>
 <script>
 (function () {
+  // 民間歌謠原版站的舊網址，2005–2023 年外面連的多是大寫 /TAIWANSONG/…（舊 Windows 主機不分大小寫，GitHub Pages 分）。
+  // 歌頁帶到新站的那一首，其餘帶到新站入口。小寫的 /taiwansong/… 是另一個 repo 還在的頁，不會落到這裡。
+  var ts = /^\/taiwansong(?:\/(.*))?$/i.exec(location.pathname);
+  if (ts && location.pathname.slice(0, 12) !== "/taiwansong/") {
+    var sm = /^song-m2\/song(\d{3})-([1-4])\.html?$/i.exec(ts[1] || ""), n = sm ? +sm[1] : 0;
+    var to = sm && ((n >= 1 && n <= 103) || (n >= 201 && n <= 583)) ? "/song/" + sm[1] + "/" + ({ "2": "#trans", "3": "#video" }[sm[2]] || "") : "/song/";
+    document.getElementById("moved").hidden = false;
+    document.getElementById("notfound").hidden = true;
+    location.replace(to);
+    return;
+  }
   var map = {{ $map | jsonify | safeJS }};
   var path = location.pathname.replace(/\/+$/, "");
   var last = path.slice(path.lastIndexOf("/") + 1);
