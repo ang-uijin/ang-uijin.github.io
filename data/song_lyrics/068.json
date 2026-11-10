@@ -1,0 +1,134 @@
+{
+ "no": "068",
+ "kind": "唸歌",
+ "title": "山頂田仔",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "山頂田仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "山頂田仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "suann1ting2 # kong2chan5a2e0 # lang5 a0lang5 u7e0",
+     "tailo": "suann-tíng # kóng tshân-á--e # lâng--a lâng ū--e",
+     "han": [
+      {
+       "t": "山頂"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "田仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "人"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "人有"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kho2sioh4e0 # a1hiann1 # bo5chi7gu5",
+     "tailo": "khó-sioh--e # a-hiann # bô tshī gû",
+     "han": [
+      {
+       "t": "可惜"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "阿兄無飼牛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tan2gua2 # gu5kang2e0 # na7bue2u7e0",
+     "tailo": "tán guá # gû-káng--e # nā bué-ū--e",
+     "han": [
+      {
+       "t": "等我牛港"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "若買有"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7kiann1 # li2chan5a2 # gua7tua7khu1",
+     "tailo": "m̄ kiann # lí tshân-á # guā tuā khu",
+     "han": [
+      {
+       "t": "毋驚汝田"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "外大坵。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "山上田地人人有，",
+    "可惜阿兄沒養牛，",
+    "等我公牛一買到，",
+    "不怕你田多少畝。"
+   ],
+   "src_no": 11,
+   "head": "深坑黃金發",
+   "tape": "台北愛悅情歌10/15;00:23:07"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/068.jpg",
+  "trans": "TRANS/068.JPG"
+ }
+}

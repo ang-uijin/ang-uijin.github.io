@@ -1,0 +1,112 @@
+{
+ "no": "090",
+ "kind": "唸歌",
+ "title": "水錦開花",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "水錦開花",
+ "parts": [
+  {
+   "n": 1,
+   "title": "水錦開花",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cui2gim2 # khui1hue1 # peh8iann1iann1",
+     "tailo": "tsuí-gím # khui-hue # pe̍h-iann-iann",
+     "han": [
+      {
+       "t": "水錦開花白瑩瑩，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kuann1bang1e0 # na7khui1a0 # si7mua2suann1phiann5",
+     "tailo": "kuann-bang--e # nā khui--a # sī muá suann-phiânn",
+     "han": [
+      {
+       "t": "菅芒"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "若開"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "是滿山坪，"
+      }
+     ],
+     "tlpa_src": "kuann1bang1e0#na7khui1a0#si7mua2suann1 ⏎ phiann5"
+    },
+    {
+     "kind": "line",
+     "tlpa": "khah4ca2a0 # si7ka7guan2 # lai5sioh4mia7mia7",
+     "tailo": "khah-tsá--a # sī kā guán # lâi sioh-miā-miā",
+     "han": [
+      {
+       "t": "卡早"
+      },
+      {
+       "t": "啊是",
+       "s": 1
+      },
+      {
+       "t": "共阮"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "惜命命，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ian5hun7 # leh4na7tuinn7a0 # toh8sui5lang5kiann5",
+     "tailo": "iân-hūn # leh nā tuīnn--a # to̍h suî-lâng kiânn",
+     "han": [
+      {
+       "t": "緣份"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "若斷"
+      },
+      {
+       "t": "啊著",
+       "s": 1
+      },
+      {
+       "t": "隨人行。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "水錦開花白瑩瑩，",
+    "菅芒一開滿山坪，",
+    "從前把我惜如命，",
+    "緣份一斷各自行。"
+   ],
+   "src_no": 3,
+   "head": "金山賴黃鴛",
+   "tape": "台北愛悅情歌N0.2;00:32:39"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/090.jpg",
+  "trans": "TRANS/090.JPG"
+ }
+}

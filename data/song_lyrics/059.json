@@ -1,0 +1,152 @@
+{
+ "no": "059",
+ "kind": "唸歌",
+ "title": "日頭若暗",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "日頭若暗",
+ "parts": [
+  {
+   "n": 1,
+   "title": "日頭若暗",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2jit8thau5 # na7am3 # tioh8ta3bong5bu7",
+     "tailo": "kóng ji̍t-thâu # nā àm # tio̍h tà bông-bū",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "日頭若暗"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "罩雺霧，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kue1bu2 # chua7kiann2 # piah4kha1khu5",
+     "tailo": "kue-bú # tshuā kiánn # piah-kha khû",
+     "han": [
+      {
+       "t": "雞母𤆬囝壁跤竘，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1kun1a2 # e5sim1kuann1 # kong2teh4a0niu5chu3",
+     "tailo": "a-kun-á # ê sim-kuann # kóng teh--a niû tshù",
+     "han": [
+      {
+       "t": "阿君"
+      },
+      {
+       "t": "仔个",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "塊"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "娘厝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sit4thau5a2 # sian1co3 # to1bue7kang1hu1",
+     "tailo": "sit-thâu-á # sian tsò # to buē kang-hu",
+     "han": [
+      {
+       "t": "穡頭"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "仙做"
+      },
+      {
+       "t": "都",
+       "s": 1
+      },
+      {
+       "t": "袂工夫。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "太陽下山天起霧，",
+    "母雞帶子壁下蹲，",
+    "小生的心在汝家，",
+    {
+     "segs": [
+      {
+       "t": "工作怎"
+      },
+      {
+       "t": "麼",
+       "s": 1
+      },
+      {
+       "t": "做"
+      },
+      {
+       "t": "都",
+       "s": 1
+      },
+      {
+       "t": "做不好。"
+      }
+     ]
+    }
+   ],
+   "src_no": 2,
+   "head": "深坑林旺",
+   "tape": "相褒歌N0.1;00:37:05"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E012",
+   "to": "𤆬",
+   "why": "class 對照表（FA52）；音 chua7",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/059.jpg",
+  "trans": "TRANS/059.JPG"
+ }
+}

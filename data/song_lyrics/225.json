@@ -1,0 +1,1488 @@
+{
+ "no": "225",
+ "kind": "對唱",
+ "title": "阮某轉來(男)、汝免佮我(女)、卡早嫌我(男)、阮卻毋免(女)、我隨汝配(男)、三頓串食(女)、隨汝食燜(男)、三頓串食(女)、隨汝食燜(男)、滷肉恁寄(女)、初一白米(男)、菜刀無水(女)、韭菜緊割(男)、韭菜開花(女)",
+ "source": "3-1楊秀卿褒歌.doc",
+ "site_title": "阮某轉來(男)、汝免佮我(女)、卡早嫌我(男)、 阮卻毋免(女)、 我隨汝配(男)、 三頓串食 之一(女)、隨汝食燜 之一(男)、 三頓串食 之二(女)、隨汝食燜 之二(男)、 滷肉恁寄(女)、 初一白米(男)、菜刀無水(女)、 韭菜緊割(男)、韭菜開花(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "阮某轉來",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gun2boo2 # tng2lai5e0ti7chu3lai7",
+     "tailo": "gún bóo # tńg-lâi--e tī tshù-lāi",
+     "han": [
+      {
+       "t": "阮某轉來"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "佇厝內，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ping5iu2 # ka7gua2chua7tng2lai0",
+     "tailo": "pîng-iú # kā guá tshuā tńg--lai",
+     "han": [
+      {
+       "t": "朋友共我𤆬轉來，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "li2na7m7kah4gua2e0 # siang7chng5lai7",
+     "tailo": "lí nā m̄ kah guá--e # siāng tshn̂g lāi",
+     "han": [
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "若毋佮我"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "siang7",
+       "rom": 1,
+       "tl": "siāng"
+      },
+      {
+       "t": "床內，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2beh4chut4 chiu2 e0 # ka7li2sai1",
+     "tailo": "guá beh tshut-tshiú--e # kā lí sai",
+     "han": [
+      {
+       "t": "我卜出手"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "共汝揌。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "我妻回來在家裡，",
+    "朋友幫我帶回來，",
+    {
+     "segs": [
+      {
+       "t": "你",
+       "s": 1
+      },
+      {
+       "t": "若不跟我同床眠，"
+      }
+     ]
+    },
+    "我就賞你一巴掌。"
+   ],
+   "src_no": 1,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "男",
+   "tape": "03:02:35"
+  },
+  {
+   "n": 2,
+   "title": "汝免佮我",
+   "lines": [
+    {
+     "kind": "spoken",
+     "tlpa": "hmh4be7kian3siau3",
+     "tailo": "hmh bē-kiàn-siàu",
+     "han": [
+      {
+       "t": "(口白)哼！袂見笑！"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "li2bian2kah4gua2e0 # khi2phainn2phiah4",
+     "tailo": "lí bián kah guá--e # khí pháinn-phiah",
+     "han": [
+      {
+       "t": "汝免佮我"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "起歹癖，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thai3bo5 # kah4lang5pinn4ce7khia7",
+     "tailo": "thài bô # kah lâng pinn tsē khiā",
+     "han": [
+      {
+       "t": "汰無佮人平坐徛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ai3gua2koh4cai3e0ka7li2iah4",
+     "tailo": "ài guá koh-tsài--e kā lí iah",
+     "han": [
+      {
+       "t": "愛我閣再"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "共汝"
+      },
+      {
+       "t": "iah4",
+       "rom": 1,
+       "tl": "iah"
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thau3ni5 # li2tioh8bo5png7 # thang1ciah8",
+     "tailo": "thàu-nî # lí tio̍h bô pn̄g # thang tsia̍h",
+     "han": [
+      {
+       "t": "透年汝著無飯"
+      },
+      {
+       "t": "通",
+       "s": 1
+      },
+      {
+       "t": "食。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "(口白)哼！不要臉！",
+    "你別跟我亂發飆，",
+    "怎不跟人平起坐，",
+    "要我替你揭瘡疤？",
+    "一年到頭沒飯吃！"
+   ],
+   "src_no": 2,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "女",
+   "tape": "03:02:50"
+  },
+  {
+   "n": 3,
+   "title": "卡早嫌我",
+   "lines": [
+    {
+     "kind": "spoken",
+     "tlpa": "ah4tioh8cin1ki5kuai3",
+     "tailo": "ah tio̍h tsin kî-kuài",
+     "han": [
+      {
+       "t": "(口白)益著真奇怪。"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khah4ca2to1bo5hiam5gua2e0 # phainn2ka1tang3",
+     "tailo": "khah-tsá to bô hiâm guá--e # pháinn ka-tàng",
+     "han": [
+      {
+       "t": "卡早"
+      },
+      {
+       "t": "都無",
+       "s": 1
+      },
+      {
+       "t": "嫌我"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "歹家棟，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kin7lai5 # suah4e7kang7gua2khia1khang1",
+     "tailo": "kīn-lâi # suah ē kāng guá khia-khang",
+     "han": [
+      {
+       "t": "近來煞"
+      },
+      {
+       "t": "會",
+       "s": 1
+      },
+      {
+       "t": "共我"
+      },
+      {
+       "t": "khia1",
+       "rom": 1,
+       "tl": "khia"
+      },
+      {
+       "t": "空，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kin7lai5 # li2na3e7ciah4ang2lang2",
+     "tailo": "kīn-lâi # lí nà ē tsiah áng-láng",
+     "han": [
+      {
+       "t": "近來"
+      },
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "哪會遮蓊籠，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tau3te2 # khi3oh8e0to2cit8lang5",
+     "tailo": "tàu-té # khì o̍h--e tó tsi̍t lâng",
+     "han": [
+      {
+       "t": "到底去學"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "佗一人。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "(口白)啊！這可真奇怪！",
+    "以前嫌我家境差，",
+    "近來竟然亂找碴，",
+    "越來越是不像話，",
+    "到底學的那一家？"
+   ],
+   "src_no": 3,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "男"
+  },
+  {
+   "n": 4,
+   "title": "阮卻毋免",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "guan2khiok4m7bian2 # kah4lang5oh8",
+     "tailo": "guán khiok m̄-bián # kah lâng o̍h",
+     "han": [
+      {
+       "t": "阮卻毋免佮人學，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "jit8sit8 # sann1tng3 # gua2ciah8thai3bo5",
+     "tailo": "ji̍t si̍t # sann tǹg # guá tsia̍h thài bô",
+     "han": [
+      {
+       "t": "日食三頓"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "食太無，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4put4si5 # to1hoo7gua2e0 # tua3te3go7a0",
+     "tailo": "ah put-sî # to hōo guá--e # tuà tè gō--a",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "不時"
+      },
+      {
+       "t": "都",
+       "s": 1
+      },
+      {
+       "t": "予我"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "帶塊餓"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thau3ni5 # ma7m7bat4 # ciah8chau3cho1o0",
+     "tailo": "thàu-nî # mā m̄ bat # tsia̍h tshàu-tsho--o",
+     "han": [
+      {
+       "t": "透年"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "毋捌食臭臊"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "我卻不必跟人學，",
+    "一天三頓沒得吃，",
+    "常常讓我在挨餓，",
+    "整年不曾吃魚肉。"
+   ],
+   "src_no": 4,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "女",
+   "tape": "03:03:29"
+  },
+  {
+   "n": 5,
+   "title": "我隨汝配",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2sui5li2 # phue3bah4e0 # iah4phue3hi5",
+     "tailo": "guá suî lí # phuè bah--e # iah phuè hî",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "隨汝配肉"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "益配魚，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kann2na2le0ka7li2 # king1tua7ti1",
+     "tailo": "kánn-ná--le kā lí # king tuā ti",
+     "han": [
+      {
+       "t": "敢那"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "共汝"
+      },
+      {
+       "t": "king1",
+       "rom": 1,
+       "tl": "king"
+      },
+      {
+       "t": "大豬，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chu3lai7 # gua2to1m7bat4 # bo5bi2",
+     "tailo": "tshù-lāi # guá to m̄ bat # bô bí",
+     "han": [
+      {
+       "t": "厝內我都"
+      },
+      {
+       "t": "毋",
+       "s": 1
+      },
+      {
+       "t": "捌無米，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2bo5thang1ciah8 # teh0m7cin1ki5",
+     "tailo": "kóng bô thang tsia̍h # --teh m̄ tsin kî",
+     "han": [
+      {
+       "t": "講無通食"
+      },
+      {
+       "t": "塊",
+       "s": 1
+      },
+      {
+       "t": "毋真奇。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "隨你吃肉還吃魚，",
+    "好比當你養肥豬，",
+    "家裡不曾沒有米，",
+    "你說挨餓可真奇。"
+   ],
+   "src_no": 5,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "男",
+   "tape": "03:03:47"
+  },
+  {
+   "n": 6,
+   "title": "三頓串食",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gun2sann1tng3 # chuan3ciah8 # si7am2muai5a2lok4oo0",
+     "tailo": "gún sann tǹg # tshuàn tsia̍h # sī ám-muâi-á lok--oo",
+     "han": [
+      {
+       "t": "阮",
+       "s": 1
+      },
+      {
+       "t": "三頓串食"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "泔糜"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "漉"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hit4lo7chau3hong1e5kiam5chai3e0 # lai5kah4too7",
+     "tailo": "hit-lō tshàu-hong ê kiâm-tshài--e # lâi kah tōo",
+     "han": [
+      {
+       "t": "迄號",
+       "s": 1
+      },
+      {
+       "t": "臭風"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "鹹菜"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "來佮肚，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7beh4ke3ang1e0 # png7ang1hok4",
+     "tailo": "siūnn-beh kè-ang--e # pn̄g ang hok",
+     "han": [
+      {
+       "t": "想卜嫁翁"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "傍翁福，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5gi5ke3ang1 # suah4to2lo5lok8",
+     "tailo": "bô-gî kè-ang # suah tó lô-lo̍k",
+     "han": [
+      {
+       "t": "無疑嫁翁煞"
+      },
+      {
+       "t": "倒",
+       "s": 1
+      },
+      {
+       "t": "勞碌。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "三頓老吃清稀飯，",
+    {
+     "segs": [
+      {
+       "t": "發餿"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "鹹菜填肚皮，"
+      }
+     ]
+    },
+    "原想嫁夫享清福，",
+    "不料嫁夫反勞苦。"
+   ],
+   "src_no": 6,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "女",
+   "tape": "03:05:15"
+  },
+  {
+   "n": 7,
+   "title": "隨汝食燜",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2sui5li2ciah8bun7e0 # ia7ciah8ching3",
+     "tailo": "guá suî lí tsia̍h būn--e # iā tsia̍h tshìng",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "隨汝食燜"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "益食"
+      },
+      {
+       "t": "ching3",
+       "rom": 1,
+       "tl": "tshìng"
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cuan1phue3ke1thui2kah4ah4ping5",
+     "tailo": "tsuan phuè ke-thuí kah ah-pîng",
+     "han": [
+      {
+       "t": "專配雞腿佮鴨爿，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "muai5 # li7cu2kah4ting7ting7 x",
+     "tailo": "muâi # lī tsú kah tīng-tīng-tīng",
+     "han": [
+      {
+       "t": "糜是煮甲𠕇𠕇𠕇，"
+      }
+     ],
+     "tlpa_src": "muai5#li7cu2kah4ting7x x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2bo5thang1ciah8 # si7cin1put4bing5",
+     "tailo": "kóng bô thang tsia̍h # sī tsin put-bîng",
+     "han": [
+      {
+       "t": "講無通食"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "真不明。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "吃燜吃蒸隨你便，",
+    "專配雞腿或鴨片，",
+    "稀飯煮得硬如飯，",
+    "說沒得吃真不懂。"
+   ],
+   "src_no": 7,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "男",
+   "tape": "03:05:32"
+  },
+  {
+   "n": 8,
+   "title": "三頓串食",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gun2sann1tng3 # chuan3ciah8 # si7kiam5chai3kuainn2",
+     "tailo": "gún sann tǹg # tshuàn tsia̍h # sī kiâm-tshài-kuáinn",
+     "han": [
+      {
+       "t": "阮",
+       "s": 1
+      },
+      {
+       "t": "三頓串食"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "鹹菜稈，"
+      }
+     ],
+     "tlpa_src": "gun2sann1tng3#chuan3ciah8#si7kiam5chai3 ⏎ kuainn2"
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4u7si5 # tioh8kang11pun1hit4lo7 # kiam5oo7huainn5",
+     "tailo": "iah ū-sî # tio̍h kang11 pun hit-lō # kiâm ōo-huâinn",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "有時著"
+      },
+      {
+       "t": "共",
+       "s": 1
+      },
+      {
+       "t": "分"
+      },
+      {
+       "t": "迄號",
+       "s": 1
+      },
+      {
+       "t": "鹹芋莖，"
+      }
+     ],
+     "tlpa_src": "iah4u7si5#tioh8kang11pun1hit4lo7#kiam5oo7 ⏎ huainn5"
+    },
+    {
+     "kind": "line",
+     "tlpa": "he1 # hoo7gua2poo7tioh8 # si7jun7kuainnh4kuainnh4",
+     "tailo": "he # hōo guá pōo-tio̍h # sī jūn-kuainnh-kuainnh",
+     "han": [
+      {
+       "t": "彼",
+       "s": 1
+      },
+      {
+       "t": "予我哺著"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "韌"
+      },
+      {
+       "t": "kuainnh4kuainnh4",
+       "rom": 1,
+       "tl": "kuainnh-kuainnh",
+       "src": "kuainnh4x"
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "he1#hoo7gua2poo7tioh8#si7jun7kuainnh4 x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah0m7bat4le0ciah8png7 # koh4cuan1ciah8muai5",
+     "tailo": "--iah m̄ bat--le tsia̍h-pn̄g # koh tsuan tsia̍h muâi",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "毋捌"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "食飯"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "專食糜。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "三頓專吃鹹菜梗，",
+    "有時得討鹹芋莖，",
+    "讓我嚼得韌得很，",
+    "不曾吃飯專吃粥。"
+   ],
+   "src_no": 8,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "女",
+   "tape": "03:05:49"
+  },
+  {
+   "n": 9,
+   "title": "隨汝食燜",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2sui5li2 # ciah8bun7=e0 # iah4ciah8hoo5",
+     "tailo": "guá suî lí # tsia̍h būn--e # iah tsia̍h hôo",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "隨汝食燜"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "益食捊，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sann1tng3 # teh4phue3 # ti1kha1khoo1oo0",
+     "tailo": "sann tǹg # teh phuè # ti-kha-khoo--oo",
+     "han": [
+      {
+       "t": "三頓塊配豬跤箍"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iu5li2teh4ciah8 # hit4lo7 # hong1khong3loo2oo0",
+     "tailo": "iû lí teh tsia̍h # hit-lō # hong khòng lóo--oo",
+     "han": [
+      {
+       "t": "由汝塊食"
+      },
+      {
+       "t": "迄號",
+       "s": 1
+      },
+      {
+       "t": "烽炕滷"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kann2kong2lin2pe7 # bo5thang1hoo7li2 # hau3koo1oo0",
+     "tailo": "kánn-kóng lín-pē # bô thang hōo lí # hàu-koo--oo",
+     "han": [
+      {
+       "t": "敢講",
+       "s": 1
+      },
+      {
+       "t": "恁父無通"
+      },
+      {
+       "t": "予",
+       "s": 1
+      },
+      {
+       "t": "汝孝孤"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ],
+     "tlpa_src": "kann2kong2lin2pe7#bo5thang1hoo7li2#hau3koo1 ⏎ oo0"
+    }
+   ],
+   "trans": [
+    "吃燜吃撈隨你便，",
+    "三頓配的豬啼膀，",
+    "由你要吃烘炕滷，",
+    "敢說老夫不給吃。"
+   ],
+   "src_no": 9,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "男",
+   "tape": "03:06:07"
+  },
+  {
+   "n": 10,
+   "title": "滷肉恁寄",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "loo2bah4 # lin2kia3ti7png7tiam3",
+     "tailo": "lóo-bah # lín kià tī pn̄g-tiàm",
+     "han": [
+      {
+       "t": "滷肉恁寄佇飯店，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ti1kha1 # koh4kia3ti7ti1bah4tiam1",
+     "tailo": "ti-kha # koh kià tī ti-bah-tiam",
+     "han": [
+      {
+       "t": "豬跤"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "寄佇豬肉砧，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2 # u7si5 # tioh8kang7pun1hit4lo7 # chai3poo2liam7",
+     "tailo": "guá # ū-sî # tio̍h kāng pun hit-lō # tshài-póo-liām",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "有時著"
+      },
+      {
+       "t": "共",
+       "s": 1
+      },
+      {
+       "t": "分"
+      },
+      {
+       "t": "迄號",
+       "s": 1
+      },
+      {
+       "t": "菜脯斂，"
+      }
+     ],
+     "tlpa_src": "gua2#u7si5#tioh8kang7pun1hit4lo7#chai3poo2 ⏎ liam7"
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4na7pun1bo5 # tng2lai0 # suah4tioh8kiau2iam5",
+     "tailo": "iah nā pun-bô # tńg--lai # suah tio̍h kiáu iâm",
+     "han": [
+      {
+       "t": "益若",
+       "s": 1
+      },
+      {
+       "t": "分無轉來"
+      },
+      {
+       "t": "煞",
+       "s": 1
+      },
+      {
+       "t": "著攪鹽。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "滷肉你寄在飯店，",
+    "豬腳你寄豬肉攤，",
+    "有時得討蘿蔔乾，",
+    {
+     "segs": [
+      {
+       "t": "討不"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "回來得摻鹽。"
+      }
+     ]
+    }
+   ],
+   "src_no": 10,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "女",
+   "tape": "03:06:25"
+  },
+  {
+   "n": 11,
+   "title": "初一白米",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2che1it4 # peh8bi2e0 # gia5cit8pau1",
+     "tailo": "guá tshe-it # pe̍h-bí--e # giâ tsi̍t pau",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "初一白米"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "夯一包，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cap8goo7 # hue2thuann3 # koh4niu5cit8thau5",
+     "tailo": "tsa̍p-gōo # hué-thuànn # koh niû tsi̍t thâu",
+     "han": [
+      {
+       "t": "十五火炭"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "量一頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kann2kong2gua2cha5bi2 # kang7li2khuan2 # bo5kau3",
+     "tailo": "kánn-kóng guá tshâ-bí # kāng lí khuán # bô-kàu",
+     "han": [
+      {
+       "t": "敢講",
+       "s": 1
+      },
+      {
+       "t": "我柴米共"
+      },
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "款無夠，"
+      }
+     ],
+     "tlpa_src": "kann2kong2gua2cha5bi2#kang7li2khuan2#bo5 ⏎ kau3"
+    },
+    {
+     "kind": "line",
+     "tlpa": "li2kann2si7 # hoo7png7 # khi3siat4ian5tau5",
+     "tailo": "lí kánn-sī # hōo pn̄g # khì siat-iân-tâu",
+     "han": [
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "敢是予飯"
+      },
+      {
+       "t": "去",
+       "s": 1
+      },
+      {
+       "t": "設緣投。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "初一白米抬"
+      },
+      {
+       "t": "了",
+       "s": 1
+      },
+      {
+       "t": "一包，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "十五木炭量"
+      },
+      {
+       "t": "了",
+       "s": 1
+      },
+      {
+       "t": "一頭，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "敢說"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "柴米買不夠，"
+      }
+     ]
+    },
+    "怕是用來偷人吧？"
+   ],
+   "src_no": 11,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "男",
+   "tape": "03:00:48"
+  },
+  {
+   "n": 12,
+   "title": "菜刀無水",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chai3to1 # bo5cui2e0 # bua5be7a0lai7",
+     "tailo": "tshài-to # bô tsuí--e # buâ bē--a lāi",
+     "han": [
+      {
+       "t": "菜刀無水"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "磨袂"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "利，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5cinn5a1ko1a2 # kik4khue1hai5",
+     "tailo": "bô tsînn a-ko-á # kik khue-hâi",
+     "han": [
+      {
+       "t": "無錢阿哥"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "激詼諧，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2ia7bo5kang7niu5e5 # khuan2bi2chai3",
+     "tailo": "kóng iā bô kāng niû ê # khuán bí-tshài",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "也無共娘"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "款米菜，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "huan5lo2niu5chu3 # siann2lang5lai5",
+     "tailo": "huân-ló niû tshù # siánn-lâng lâi",
+     "han": [
+      {
+       "t": "煩惱娘厝啥人來？"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "菜刀沒水磨不快，",
+    "無錢阿哥裝痴呆，",
+    "也沒給我買米菜，",
+    "管我家裡誰人來。"
+   ],
+   "src_no": 12,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "女",
+   "tape": "3:00:32"
+  },
+  {
+   "n": 13,
+   "title": "韭菜緊割",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ku2chai3 # kin2kuah4 # si7kin2thoo3chiam1",
+     "tailo": "kú-tshài # kín kuah # sī kín thòo tshiam",
+     "han": [
+      {
+       "t": "韭菜緊割"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "緊吐簽，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "mi7suann3 # cu2thng1 # koh4bian2he7kiam5",
+     "tailo": "mī-suànn # tsú thng # koh bián hē kiâm",
+     "han": [
+      {
+       "t": "麵線煮湯"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "免下鹹，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chua7tioh8sui2boo2 # si7kiann1lang5ciam3",
+     "tailo": "tshuā-tio̍h suí bóo # sī kiann lâng tsiàm",
+     "han": [
+      {
+       "t": "娶著媠某"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "驚人佔，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khoo3tua3 # khau2khui1 # lai5kiat4sio1liam5",
+     "tailo": "khòo-tuà # kháu-khui # lâi kiat sio-liâm",
+     "han": [
+      {
+       "t": "褲帶敨開"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "結相粘。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "韭菜快割快吐簽，",
+    "麵線煮湯免下鹽，",
+    "娶到美妻怕人佔，",
+    "褲帶解開結相連。"
+   ],
+   "src_no": 13,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "男",
+   "tape": "03:01:23"
+  },
+  {
+   "n": 14,
+   "title": "韭菜開花",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ku2chai3 # khui1hue1 # it4ki1hiong1",
+     "tailo": "kú-tshài # khui-hue # it ki hiong",
+     "han": [
+      {
+       "t": "韭菜開花一枝香，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cioh8piah4 # huat4chau2 # ban7ni5siong5",
+     "tailo": "tsio̍h-piah # huat tsháu # bān-nî-siông",
+     "han": [
+      {
+       "t": "石壁發草萬年松，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ke3tioh8phainn2ang1 # si7put4tiong3iong7",
+     "tailo": "kè-tio̍h pháinn ang # sī put-tiòng-iōng",
+     "han": [
+      {
+       "t": "嫁著歹翁"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "不中用，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gun2loh8ian5hua1 # koo1put4ciong1",
+     "tailo": "gún lo̍h iân-hua # koo-put-tsiong",
+     "han": [
+      {
+       "t": "阮落煙花孤不將。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "韭菜開花一枝香，",
+    "石壁發草萬年松，",
+    "嫁到壞夫不中用，",
+    "墜落風塵有苦衷。"
+   ],
+   "src_no": 14,
+   "head": "汐止楊秀卿相褒歌之一",
+   "role": "女"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E012",
+   "to": "𤆬",
+   "why": "class 對照表（FA52）；音 chua7",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 6,
+   "at": "6.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E021",
+   "to": "𠕇",
+   "why": "教育部用字（Siniong 11-11 定）；音 ting7（硬）",
+   "part": 7,
+   "at": "7.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E021",
+   "to": "𠕇",
+   "why": "教育部用字（Siniong 11-11 定）；音 ting7（硬）",
+   "part": 7,
+   "at": "7.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E021",
+   "to": "𠕇",
+   "why": "教育部用字（Siniong 11-11 定）；音 ting7（硬）",
+   "part": 7,
+   "at": "7.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 9,
+   "at": "9.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 13,
+   "at": "13.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/225.jpg",
+  "trans": "TRANS/225.JPG"
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "no": "058",
+ "kind": "唸歌",
+ "title": "內山出有",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "內山出有",
+ "parts": [
+  {
+   "n": 1,
+   "title": "內山出有",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "lai7suann1 # chut4u7 # tua7cang5peh4",
+     "tailo": "lāi-suann # tshut ū # tuā-tsâng peh",
+     "han": [
+      {
+       "t": "內山出有大松柏，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khe1te2 # ma7chut4u7 # tua7khoo1he5",
+     "tailo": "khe-té # mā tshut ū # tuā-khoo hê",
+     "han": [
+      {
+       "t": "溪底"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "出有大箍蝦，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1niu5a2 # sinn1sui2 # kong2bo5ai3ke3",
+     "tailo": "a-niû-á # sinn suí # kóng bô ài kè",
+     "han": [
+      {
+       "t": "阿",
+       "s": 1
+      },
+      {
+       "t": "娘仔生媠"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "無愛嫁，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hai7si2cng1tiong1 # e5siau3lian5ke1",
+     "tailo": "hāi-sí tsng-tiong # ê siàu-liân-ke",
+     "han": [
+      {
+       "t": "害死庄中"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "少年家。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "深山有棵大松柏，",
+    "溪底也有大肥蝦，",
+    "小姐漂亮卻不嫁，",
+    "害死村裡少年家。"
+   ],
+   "src_no": 1,
+   "head": "深坑林旺",
+   "tape": "相褒歌N0.1;00:36:00"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/058.jpg",
+  "trans": "TRANS/058.JPG"
+ }
+}

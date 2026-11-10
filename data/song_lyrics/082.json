@@ -1,0 +1,142 @@
+{
+ "no": "082",
+ "kind": "唸歌",
+ "title": "阿娘食老",
+ "source": "1-204三芝唸歌.doc",
+ "site_title": "阿娘食老",
+ "parts": [
+  {
+   "n": 1,
+   "title": "阿娘食老",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "niu5hue1 # ciah8lau7oo0 # koh4leh4m7jin7hun7a0",
+     "tailo": "niû-hue # tsia̍h-lāu--oo # koh leh m̄ jīn-hūn--a",
+     "han": [
+      {
+       "t": "娘花食老"
+      },
+      {
+       "t": "噢閣咧",
+       "s": 1
+      },
+      {
+       "t": "毋認份"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4put4si5lo0 # ian1ci1e0 # tiam2chui3tun5oo0",
+     "tailo": "ah put-sî--lo # ian-tsi--e # tiám tshuì-tûn--oo",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "不時"
+      },
+      {
+       "t": "囉",
+       "s": 1
+      },
+      {
+       "t": "胭脂"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "點喙唇"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hit4e5bin7bah4 # na7oo1a0 # ai3buah4cui2hun2",
+     "tailo": "hit ê bīn-bah # nā oo--a # ài buah tsuí-hún",
+     "han": [
+      {
+       "t": "迄个",
+       "s": 1
+      },
+      {
+       "t": "面肉若烏"
+      },
+      {
+       "t": "啊愛",
+       "s": 1
+      },
+      {
+       "t": "抹水粉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thau5mo1leh0 # na7peh8lo0 # tioh8lai5ni2ian1thun5",
+     "tailo": "thâu-mo--leh # nā pe̍h--lo # tio̍h lâi ní ian-thûn",
+     "han": [
+      {
+       "t": "頭毛"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "若白"
+      },
+      {
+       "t": "囉",
+       "s": 1
+      },
+      {
+       "t": "染煙塵。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "姑娘人老不承認，",
+    "還常胭脂點嘴唇，",
+    "臉皮黑了抹白粉，",
+    "頭髮白了染煙塵。"
+   ],
+   "src_no": 1,
+   "head": "三芝賴溪章",
+   "tape": "台北愛悅情歌N0.2;01:59:49"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/082.jpg",
+  "trans": "TRANS/082.JPG"
+ }
+}

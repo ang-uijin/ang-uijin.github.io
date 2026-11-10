@@ -1,0 +1,107 @@
+{{- /*
+  歌詞逐句對照（臺羅／漢字／華語），資料在 data/song_lyrics/NNN.json（docs/tools/song_lyrics.py 產生）。
+  用法：{{ partial "song-lyrics.html" (dict "no" "001" "page" .) }}
+    no    曲號（三位數字的字串）
+    page  呼叫它的頁面（同一頁放好幾首時，樣式與切換鈕的 script 只輸出一次）
+    switch 給 false 就不畫這一首上方的「臺羅｜TLPA」切換鈕（一頁很多首、只想放一組鈕時用）
+  網址加 ?rom=tlpa 或 ?rom=tailo 可以指定開頁時顯示哪一種（不改使用者存的選擇）。
+  沒有這首的資料就什麼都不輸出。
+  拼音切換沿用 /class/、/teacher/ 的寫法：每個音同時輸出 .rom-tl（臺羅）與 .rom-tp（TLPA），
+  <html data-rom="tailo|tlpa"> 決定顯示哪一個，選擇存在 localStorage 的 class-rom（各子站共用，預設臺羅）。
+*/ -}}
+{{- $no := printf "%v" .no -}}
+{{- $page := .page -}}
+{{- $switch := true -}}
+{{- if isset . "switch" }}{{ $switch = .switch }}{{ end -}}
+{{- with index site.Data.song_lyrics $no -}}
+{{- $song := . -}}
+{{- if not ($page.Store.Get "song-lyrics-assets") -}}
+{{- $page.Store.Set "song-lyrics-assets" true }}
+<link rel="stylesheet" href="/css/song-lyrics.css">
+<script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}var m=/[?&]rom=(tlpa|tailo)/.exec(location.search);if(m)r=m[1];document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+  var d=document.documentElement,b=document.querySelectorAll(".sl-switch button");
+  function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}
+  for(var i=0;i<b.length;i++)b[i].addEventListener("click",function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}});
+  show(d.getAttribute("data-rom")||"tailo");
+});
+</script>
+{{- end }}
+<div class="song-lyrics" data-song="{{ $song.no }}">
+  {{- if $switch }}
+  <div class="sl-switch" role="group" aria-label="拼音標法" title="原稿用 TLPA 標音，這裡預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音
+    <button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button>
+  </div>
+  {{- end }}
+  {{- $multi := gt (len $song.parts) 1 -}}
+  {{- range $song.parts }}
+  {{- $part := . -}}
+  {{- /* 中譯：「女：」「男：」這種行是小標（〈五更鼓〉），其餘的行數跟歌詞行一樣多時，逐句排在歌詞下面 */ -}}
+  {{- $zh := slice -}}
+  {{- range $part.trans -}}
+    {{- $plain := "" -}}
+    {{- if reflect.IsMap . }}{{ range .segs }}{{ $plain = printf "%s%s" $plain .t }}{{ end }}{{ else }}{{ $plain = . }}{{ end -}}
+    {{- if not (findRE `^[男女]：$` $plain) }}{{ $zh = $zh | append (dict "v" .) }}{{ end -}}
+  {{- end -}}
+  {{- $nlines := 0 -}}
+  {{- range $part.lines }}{{ if ne .kind "label" }}{{ $nlines = add $nlines 1 }}{{ end }}{{ end -}}
+  {{- $inline := eq (len $zh) $nlines -}}
+  {{- $hasLabel := false -}}
+  {{- range $part.lines }}{{ if eq .kind "label" }}{{ $hasLabel = true }}{{ end }}{{ end }}
+  <section class="sl-part">
+    {{- if and $multi (not $hasLabel) }}
+    <h3 class="sl-part-title">{{ $part.title }}{{ with $part.role }}<span class="sl-role">（{{ . }}）</span>{{ end }}</h3>
+    {{- end }}
+    {{- $i := 0 -}}
+    {{- range $part.lines }}
+    {{- if eq .kind "label" }}
+    <h3 class="sl-part-title">{{ replaceRE `[\(（]([男女])[\)）]` `<span class="sl-role">（$1）</span>` (htmlEscape .text) | safeHTML }}</h3>
+    {{- else }}
+    <div class="sl-line{{ if eq .kind "spoken" }} sl-spoken{{ end }}">
+      <p class="sl-rom" lang="nan-Latn">
+        {{- $tl := replaceRE ` ?# ?` ` <span class="sl-pause" title="句中停頓">#</span> ` (htmlEscape .tailo) -}}
+        {{- $tp := replaceRE `([A-Za-z])(\d+)` `$1<sup>$2</sup>` (htmlEscape .tlpa) -}}
+        {{- $tp = replaceRE ` ?# ?` `<sub class="sl-pause" title="句中停頓">#</sub>` $tp -}}
+        <span class="rom-tl">{{ $tl | safeHTML }}</span><span class="rom-tp">{{ $tp | safeHTML }}</span></p>
+      <p class="sl-han" lang="nan-Hant">
+        {{- range .han -}}
+          {{- if .rom -}}
+            <span class="sl-im" title="原稿沒有選字，直接寫音"><span class="rom-tl">{{ .tl }}</span><span class="rom-tp">{{ replaceRE `([A-Za-z])(\d+)` `$1<sup>$2</sup>` (htmlEscape .t) | safeHTML }}</span></span>
+          {{- else if .s -}}
+            <small class="sl-s">{{ .t }}</small>
+          {{- else -}}
+            {{ .t }}
+          {{- end -}}
+        {{- end -}}
+      </p>
+      {{- if and $inline (lt $i (len $zh)) }}
+      <p class="sl-zh" lang="zh-Hant">{{ template "song-lyrics-zh" (index $zh $i).v }}</p>
+      {{- end }}
+    </div>
+    {{- $i = add $i 1 }}
+    {{- end }}
+    {{- end }}
+    {{- if and (not $inline) (gt (len $zh) 0) }}
+    <div class="sl-zh-block" lang="zh-Hant">
+      <p class="sl-zh-head">中譯</p>
+      {{- range $zh }}
+      <p class="sl-zh">{{ template "song-lyrics-zh" .v }}</p>
+      {{- end }}
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+  {{- range $song.notes }}{{ if eq .type "附註" }}
+  <p class="sl-note">{{ .text }}</p>
+  {{- end }}{{ end }}
+</div>
+{{- end -}}
+
+{{- define "song-lyrics-zh" -}}
+  {{- if reflect.IsMap . -}}
+    {{- range .segs }}{{ if .s }}<small class="sl-s">{{ .t }}</small>{{ else }}{{ .t }}{{ end }}{{ end -}}
+  {{- else -}}
+    {{ . }}
+  {{- end -}}
+{{- end -}}

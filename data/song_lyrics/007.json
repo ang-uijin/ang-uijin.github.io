@@ -1,0 +1,163 @@
+{
+ "no": "007",
+ "kind": "唸歌",
+ "title": "溪底魚仔",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "溪底魚仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "溪底魚仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khe1te2 # hi5a2oo0 # cia1tua7tin7",
+     "tailo": "khe-té # hî-á--oo # tsia tuā tīn",
+     "han": [
+      {
+       "t": "溪底魚仔"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "遮大陣，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2liah8bo5e0 # cit8bue2a0 # thang1king3sin5a0",
+     "tailo": "guá lia̍h bô--e # tsi̍t bué--a # thang kìng-sîn--a",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "掠無"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "一尾"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "通敬神"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2u7ciam1a0 # bo5suann3oo0 # bueh4cuann2iunn7in2a0",
+     "tailo": "guá ū tsiam--a # bô suànn--oo # bueh tsuánn-iūnn ín--a",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "有針"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "無線"
+      },
+      {
+       "t": "噢卜",
+       "s": 1
+      },
+      {
+       "t": "怎樣引"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7niu5bo5kun1bueh4 cuann2iunn7chin1",
+     "tailo": "ū niû bô kun bueh tsuánn-iūnn tshin",
+     "han": [
+      {
+       "t": "有娘無君"
+      },
+      {
+       "t": "噢卜",
+       "s": 1
+      },
+      {
+       "t": "怎樣親。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "溪裡魚兒一大群，",
+    {
+     "segs": [
+      {
+       "t": "抓不"
+      },
+      {
+       "t": "到",
+       "s": 1
+      },
+      {
+       "t": "一尾可敬神"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "有針無線怎麼引，"
+      }
+     ]
+    },
+    "有娘無君怎麼親。"
+   ],
+   "src_no": 7,
+   "head": "雙溪連阿抾",
+   "tape": "台北愛悅情歌N0.1;00:07:42"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/007.jpg",
+  "trans": "TRANS/007.JPG"
+ }
+}

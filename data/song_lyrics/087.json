@@ -1,0 +1,183 @@
+{
+ "no": "087",
+ "kind": "唸歌",
+ "title": "手捾茶籗",
+ "source": "1-204三芝唸歌.doc",
+ "site_title": "手*茶*",
+ "parts": [
+  {
+   "n": 1,
+   "title": "手捾茶籗",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chiu2 # kuann7te5khah4e0 # ann3loh8khi3oo0",
+     "tailo": "tshiú # kuānn tê-khah--e # ànn-lo̍h-khì--oo",
+     "han": [
+      {
+       "t": "手捾茶籗"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "偃落去"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siang1chiu2e0 # chun1loh8a0 # ban2te5ki1oo0",
+     "tailo": "siang-tshiú--e # tshun-lo̍h--a # bán tê-ki--oo",
+     "han": [
+      {
+       "t": "雙手"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "伸落"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "挽茶枝"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "giah8thau5 # khiai3khuann3oo0 # kun1a2li2oo0",
+     "tailo": "gia̍h-thâu # khiai3 khuànn--oo # kun-á lí--oo",
+     "han": [
+      {
+       "t": "舉頭"
+      },
+      {
+       "t": "起",
+       "s": 1
+      },
+      {
+       "t": "來看"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "君仔汝"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "koh4cioh4mui7a1kun1a2 # siang2kiann2ji5oo0",
+     "tailo": "koh tsioh-muī a-kun-á # siáng kiánn-jî--oo",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "借問阿君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "啥"
+      },
+      {
+       "t": "人",
+       "s": 1
+      },
+      {
+       "t": "囝兒"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "手提茶籃彎下腰，",
+    "雙手伸下採茶枝，",
+    "舉頭看到郎君你，",
+    "借問阿君誰兒子。"
+   ],
+   "src_no": 6,
+   "head": "三芝花金鳳",
+   "tape": "台北愛悅情歌N0.2;01:36:33"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00E",
+   "to": "捾",
+   "why": "class 對照表（FA4E）；音 kuann7",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00E",
+   "to": "捾",
+   "why": "class 對照表（FA4E）；音 kuann7",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.1"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/087.jpg",
+  "trans": "TRANS/087.JPG"
+ }
+}

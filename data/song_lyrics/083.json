@@ -1,0 +1,182 @@
+{
+ "no": "083",
+ "kind": "唸歌",
+ "title": "兩條菜瓜",
+ "source": "1-204三芝唸歌.doc",
+ "site_title": "兩條菜瓜",
+ "parts": [
+  {
+   "n": 1,
+   "title": "兩條菜瓜",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "nng7tiau5oo0 # chai3kue1a0 # ah4si7penn5penn5hai1",
+     "tailo": "nn̄g tiâu--oo # tshài-kue--a # ah sī pênn-pênn hai",
+     "han": [
+      {
+       "t": "兩條"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "菜瓜"
+      },
+      {
+       "t": "啊益是",
+       "s": 1
+      },
+      {
+       "t": "平平"
+      },
+      {
+       "t": "hai1",
+       "rom": 1,
+       "tl": "hai"
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4cit8tiau5le0 # sing1senn1lo1 # sing1lut4e0cai5",
+     "tailo": "ah tsi̍t tiâu--le # sing senn lo # sing lut--e tsâi",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "一條"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "先生"
+      },
+      {
+       "t": "囉",
+       "s": 1
+      },
+      {
+       "t": "先甪"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "臍，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2cit8ko1a2oo0 # beh4phue3oo0 # ia1lin2 # nng7tang5sai7",
+     "tailo": "guá tsi̍t ko-á--oo # beh phuè--oo # ia lín # nn̄g tâng-sāi",
+     "han": [
+      {
+       "t": "我一哥"
+      },
+      {
+       "t": "仔噢",
+       "s": 1
+      },
+      {
+       "t": "卜配"
+      },
+      {
+       "t": "噢益",
+       "s": 1
+      },
+      {
+       "t": "恁"
+      },
+      {
+       "t": "兩",
+       "s": 1
+      },
+      {
+       "t": "同姒，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4li2tua7m2e0 # bo5ing5oo0 # sio2cim2a2lai5",
+     "tailo": "ah lí tuā-ḿ--e # bô-îng--oo # sió-tsím-á lâi",
+     "han": [
+      {
+       "t": "益汝",
+       "s": 1
+      },
+      {
+       "t": "大姆"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "無閒"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "小嬸"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "兩條絲瓜一樣大，",
+    "一條先生先落臍，",
+    {
+     "segs": [
+      {
+       "t": "我"
+      },
+      {
+       "t": "一",
+       "s": 1
+      },
+      {
+       "t": "哥想配你"
+      },
+      {
+       "t": "兩",
+       "s": 1
+      },
+      {
+       "t": "妯娌，"
+      }
+     ]
+    },
+    "大嫂沒空弟媳來。"
+   ],
+   "src_no": 2,
+   "head": "三芝賴溪章",
+   "tape": "台北愛悅情歌N0.2;01:09:21"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/083.jpg",
+  "trans": "TRANS/083.JPG"
+ }
+}

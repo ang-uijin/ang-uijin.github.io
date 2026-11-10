@@ -1,0 +1,109 @@
+{
+ "no": "106",
+ "kind": "譜例",
+ "title": "看君徛塊",
+ "source": "譜例歌詞及中譯.doc",
+ "site_title": "",
+ "parts": [
+  {
+   "n": 1,
+   "title": "看君徛塊",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kuann3kun1a2 # le khia7teh0 # loh suah4tiann7tiann7",
+     "tailo": "kuànn kun-á # le khiā--teh # loh suah tiānn-tiānn",
+     "han": [
+      {
+       "t": "看君"
+      },
+      {
+       "t": "仔咧",
+       "s": 1
+      },
+      {
+       "t": "徛塊"
+      },
+      {
+       "t": "咯",
+       "s": 1
+      },
+      {
+       "t": "煞定定，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lin2niu5a2 # khui1chui3 # loh4 hiam3cit4siann1",
+     "tailo": "lín niû-á # khui-tshuì # loh hiàm tsit siann",
+     "han": [
+      {
+       "t": "恁娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "開喙"
+      },
+      {
+       "t": "咯",
+       "s": 1
+      },
+      {
+       "t": "喊一聲，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5ban2kang5ping5loh0 # kha2 u7iann2",
+     "tailo": "lâi bán kâng-pîng--loh # khá ū-iánn",
+     "han": [
+      {
+       "t": "來挽共爿"
+      },
+      {
+       "t": "咯",
+       "s": 1
+      },
+      {
+       "t": "卡有影，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kah4kun1e0 # kong2ue7 # kiann1 lang5 thiann1",
+     "tailo": "kah kun--e # kóng-uē # kiann lâng thiann",
+     "han": [
+      {
+       "t": "佮君"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "講話驚人聽。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "看見郎君直直站，",
+    "姑娘開口喊一聲，",
+    "來採同邊才是真，",
+    "只為說話怕人聽。"
+   ],
+   "src_no": 3,
+   "head": "雙溪簡萬金唱"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/106.JPG"
+ }
+}

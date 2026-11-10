@@ -1,0 +1,83 @@
+{
+ "no": "033",
+ "kind": "唸歌",
+ "title": "手夯雨傘",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "手夯雨傘",
+ "parts": [
+  {
+   "n": 1,
+   "title": "手夯雨傘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chiu2 # kia5hoo7suann3 # berh4khi2sin1",
+     "tailo": "tshiú # kiâ hōo-suànn # berh khí-sin",
+     "han": [
+      {
+       "t": "手夯雨傘卜起身，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chian1gian5 # ban7gir2 # si7serh4bue7cin7",
+     "tailo": "tshian-giân # bān-gír # sī serh buē tsīn",
+     "han": [
+      {
+       "t": "千言萬語"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "說袂盡，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "po2tiong7e0 # sin1the2 # khah4iau3kin2",
+     "tailo": "pó-tiōng--e # sin-thé # khah iàu-kín",
+     "han": [
+      {
+       "t": "保重"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "身體卡要緊，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7thang1 # ui7niu5 # hui3sim1sin5",
+     "tailo": "m̄-thang # uī niû # huì-sim-sîn",
+     "han": [
+      {
+       "t": "毋通為娘費心神。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "手舉雨傘要起身，",
+    "千言萬語說不盡，",
+    "保重身體最要緊，",
+    "莫為姑娘費心神。"
+   ],
+   "src_no": 13,
+   "head": "坪林鄭郭芽",
+   "tape": "台北愛悅情歌10/15;00:51:48"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/033.jpg",
+  "trans": "TRANS/033.JPG"
+ }
+}

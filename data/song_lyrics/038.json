@@ -1,0 +1,164 @@
+{
+ "no": "038",
+ "kind": "唸歌",
+ "title": "一鄉行過",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "一鄉行過",
+ "parts": [
+  {
+   "n": 1,
+   "title": "一鄉行過",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit8hiunn1 # koh4kiann5ker3 # iu7cit8hiunn1",
+     "tailo": "tsi̍t hiunn # koh kiânn-kèr # iū tsi̍t hiunn",
+     "han": [
+      {
+       "t": "一鄉"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "行過又一鄉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sim1kuann1 # i3ai3 # gua7cng1niu5",
+     "tailo": "sim-kuann # ì-ài # guā-tsng niû",
+     "han": [
+      {
+       "t": "心肝意愛外庄娘，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kiann5kau3 # cit4ter3a0 # ge5soo2cai7a0",
+     "tailo": "kiânn kàu # tsit tèr--a # gê sóo-tsāi--a",
+     "han": [
+      {
+       "t": "行到這塊"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "个所在"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3niu5 # kuann7khah4 # si7tui3bin7lai5",
+     "tailo": "khuànn niû # kuānn khah # sī tuì-bīn lâi",
+     "han": [
+      {
+       "t": "看娘捾籗"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "對面來，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2 tioh8a0kang7niu5 # li2mng7khuann3bai7",
+     "tailo": "guá tio̍h--a kāng niû # lí mn̄g khuànn-bāi",
+     "han": [
+      {
+       "t": "我著"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "共娘"
+      },
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "問看眛，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5hng5 # to2ui7 # tioh8po3gua2cai1",
+     "tailo": "tê-hn̂g # tó-uī # tio̍h pò guá tsai",
+     "han": [
+      {
+       "t": "茶園佗位"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "報我知。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一鄉走過又一鄉，",
+    "心中意愛外庄娘，",
+    "行到這兒的地方，",
+    "看娘提籠對面來，",
+    "我就向娘問問看，",
+    "茶園那裏告我知。"
+   ],
+   "src_no": 18,
+   "head": "坪林李文"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00E",
+   "to": "捾",
+   "why": "class 對照表（FA4E）；音 kuann7",
+   "part": 1,
+   "at": "1.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/038.jpg",
+  "trans": "TRANS/038.JPG"
+ }
+}

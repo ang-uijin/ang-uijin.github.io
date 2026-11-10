@@ -1,0 +1,117 @@
+{
+ "no": "002",
+ "kind": "唸歌",
+ "title": "一遍竹仔",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "一遍竹仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "一遍竹仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit8phian3tik4a2e0 # cia1tua7na5",
+     "tailo": "tsi̍t phiàn tik-á--e # tsia tuā nâ",
+     "han": [
+      {
+       "t": "一遍竹仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "遮大林，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cho3bo5cit8ki1e0 # co3chiam1tann1",
+     "tailo": "tshò bô tsi̍t ki--e # tsò tshiam-tann",
+     "han": [
+      {
+       "t": "銼無一枝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "做槧擔，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "pe7bu2sinn1gun2na0 # ca1boo2kann2e0",
+     "tailo": "pē-bú sinn gún--na # tsa-bóo-kánn--e",
+     "han": [
+      {
+       "t": "父母生阮"
+      },
+      {
+       "t": "哪",
+       "s": 1
+      },
+      {
+       "t": "查某囝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "na7bueh4 # ca1poo1 # ma7the3ko1tann1",
+     "tailo": "nā bueh # tsa-poo # mā thè ko tann",
+     "han": [
+      {
+       "t": "若卜查夫"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "替哥擔。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一片竹林這麼寬，",
+    {
+     "segs": [
+      {
+       "t": "砍不"
+      },
+      {
+       "t": "到",
+       "s": 1
+      },
+      {
+       "t": "一枝當扁擔，"
+      }
+     ]
+    },
+    "父母生我女兒家，",
+    "要是男兒替哥擔。"
+   ],
+   "src_no": 2,
+   "head": "雙溪黃朱束",
+   "tape": "台北愛悅情歌N0.1;00:07:01"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/002.jpg",
+  "trans": "TRANS/002.JPG"
+ }
+}

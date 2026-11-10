@@ -1,0 +1,113 @@
+{
+ "no": "014",
+ "kind": "唸歌",
+ "title": "紅花開甲",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "紅花開甲",
+ "parts": [
+  {
+   "n": 1,
+   "title": "紅花開甲",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ang5hue1 # khui1thau3a0 # ang5io3ang5",
+     "tailo": "âng hue # khui-thàu--a # âng iò âng",
+     "han": [
+      {
+       "t": "紅花開透"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "紅又紅，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "goo5tong5khui1hue1a0 # ciah4ching1phang1",
+     "tailo": "gôo-tông khui-hue--a # tsiah tshing-phang",
+     "han": [
+      {
+       "t": "梧桐開花"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "遮清芳，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua7cng1a2sui2kun1a0 # ching1kang7ban7",
+     "tailo": "guā-tsng-á suí kun--a # tshing kāng bān",
+     "han": [
+      {
+       "t": "外庄"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "媠君"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "千共萬，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ban2bo5ho2hue1e0chah4hue1pan5",
+     "tailo": "bán-bô hó hue--e tshah hue-pân",
+     "han": [
+      {
+       "t": "挽無好花"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "插花瓶。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "紅花開透紅又紅，",
+    "梧桐開花真清香，",
+    "外庄帥哥成千萬，",
+    "沒朵好花插花瓶。"
+   ],
+   "src_no": 14,
+   "head": "雙溪簡連順子",
+   "tape": "台北愛悅情歌N0.1;00:22:29"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/014.jpg",
+  "trans": "TRANS/014.JPG"
+ }
+}

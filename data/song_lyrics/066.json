@@ -1,0 +1,153 @@
+{
+ "no": "066",
+ "kind": "唸歌",
+ "title": "茶菜無弄",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "茶菜無弄",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶菜無弄",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5a2chai3 # gua2bo5lang7e0 # bue7kiann5 a0cui2e0",
+     "tailo": "tê-á-tshài # guá bô lāng--e # buē kiânn--a tsuí--e",
+     "han": [
+      {
+       "t": "茶"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "菜"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "無弄"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "袂行"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "水"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sio2niu5a2 # na7bo5lai5 # sim1bue7khui1",
+     "tailo": "sió-niû-á # nā bô lâi # sim buē khui",
+     "han": [
+      {
+       "t": "小娘"
+      },
+      {
+       "t": "仔若",
+       "s": 1
+      },
+      {
+       "t": "無來心袂開，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kah4niu5 # gua2 # cit8a0lang5e0 # tua3cit8 a0ui7e0",
+     "tailo": "kah niû # guá # tsi̍t--a lâng--e # tuà tsi̍t--a uī--e",
+     "han": [
+      {
+       "t": "佮娘"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "一"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "人"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "帶一"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "位"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "berh4tan2e0 # tang1si5 # thang1co3tui1",
+     "tailo": "berh tán--e # tang-sî # thang tsò-tui",
+     "han": [
+      {
+       "t": "卜等"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "東時通做堆。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶青不撥不行水，",
+    "小娘不來心不開，",
+    "娘我一人住一地，",
+    "要等何時在一起。"
+   ],
+   "src_no": 9,
+   "head": "深坑黃金發",
+   "tape": "台北愛悅情歌10/15;00:00:09"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/066.jpg",
+  "trans": "TRANS/066.JPG"
+ }
+}

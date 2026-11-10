@@ -1,0 +1,120 @@
+{
+ "no": "065",
+ "kind": "唸歌",
+ "title": "茶仔挽透",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "茶仔挽透",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶仔挽透",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5a2 # ban2thau3 # siunn7bueh4tng2a0",
+     "tailo": "tê-á # bán-thàu # siūnn-bueh tńg--a",
+     "han": [
+      {
+       "t": "茶仔挽透想卜轉"
+      },
+      {
+       "t": "矣",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chiu2 # kuann7po7hok8 # leh4sim1kuann1 # sng1",
+     "tailo": "tshiú # kuānn pō-ho̍k # leh sim-kuann # sng",
+     "han": [
+      {
+       "t": "手捾包袱"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "心肝酸，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "beh4lai5gun2tau1 # tioh8m7bian2mng7oo0",
+     "tailo": "beh lâi gún tau # tio̍h m̄-bián mn̄g--oo",
+     "han": [
+      {
+       "t": "卜來阮兜"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "毋免問"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8tiau5 # hit4le0sio2loo7a2 # si7thau3thiann1mng5",
+     "tailo": "tsi̍t tiâu # hit--le sió-lōo-á # sī thàu thiann-mn̂g",
+     "han": [
+      {
+       "t": "一條"
+      },
+      {
+       "t": "迄咧",
+       "s": 1
+      },
+      {
+       "t": "小路"
+      },
+      {
+       "t": "仔是",
+       "s": 1
+      },
+      {
+       "t": "透廳門。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶仔挽完想回家，",
+    "手提包袱真心酸，",
+    "想來我家不須問，",
+    "一條小路通廳門。"
+   ],
+   "src_no": 8,
+   "head": "深坑蘇連春",
+   "tape": "台北愛悅情歌10/15;00:10:57"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00E",
+   "to": "捾",
+   "why": "class 對照表（FA4E）；音 kuann7",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/065.jpg",
+  "trans": "TRANS/065.JPG"
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "no": "044",
+ "kind": "唸歌",
+ "title": "第一歹命",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "第一歹命",
+ "parts": [
+  {
+   "n": 1,
+   "title": "第一歹命",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "tere7it4e0phai2mia7e0 # tioh8si7niu5e0",
+     "tailo": "terē-it--e phái-miā--e # tio̍h sī niû--e",
+     "han": [
+      {
+       "t": "第一"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "歹命"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "著是娘"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "girn5phio3e0 # m7pat4khuann3puann3tiunn1e0",
+     "tailo": "gîrn-phiò--e # m̄ pat khuànn puànn tiunn--e",
+     "han": [
+      {
+       "t": "銀票"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "毋捌看半張"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "goo7pah4e0 # m7cai1e0sinn1cann2iunn7e0",
+     "tailo": "gōo-pah--e # m̄ tsai--e sinn tsánn-iūnn--e",
+     "han": [
+      {
+       "t": "五百"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "毋知"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "生怎樣"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8ching1e0 # m7cai1gua7tua7tiunn1e0",
+     "tailo": "tsi̍t-tshing--e # m̄ tsai guā tuā-tiunn--e",
+     "han": [
+      {
+       "t": "一千"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "毋知外大張"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "第一不幸是姑娘，",
+    "鈔票不曾看半張，",
+    "五百不知什麼樣，",
+    "一千不知多大張。"
+   ],
+   "src_no": 4,
+   "head": "三峽陳劉拋",
+   "tape": "相褒歌N0.2;00:15:05"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/044.jpg",
+  "trans": "TRANS/044.JPG"
+ }
+}

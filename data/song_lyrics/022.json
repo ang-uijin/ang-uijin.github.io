@@ -1,0 +1,113 @@
+{
+ "no": "022",
+ "kind": "唸歌",
+ "title": "菅尾出世",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "菅尾出世",
+ "parts": [
+  {
+   "n": 1,
+   "title": "菅尾出世",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kuann1ber2e0 # chut4si3o0 # sang1ping5 poh8",
+     "tailo": "kuann-bér--e # tshut-sì--o # sang-pîng po̍h",
+     "han": [
+      {
+       "t": "菅尾"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "出世"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "雙爿薄，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "puann3piah4 # ge5hue1 # sing5sian1tho5",
+     "tailo": "puànn-piah # gê hue # sîng sian-thô",
+     "han": [
+      {
+       "t": "半壁个花宬仙桃，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kam1cia3e0 # ciah8thng1 # bo5ciah8phoh4",
+     "tailo": "kam-tsià--e # tsia̍h thng # bô tsia̍h phoh",
+     "han": [
+      {
+       "t": "甘蔗"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "食湯無食粕，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ker2ci2e0 # ho2ciah8 # si7cui2bit8tho5",
+     "tailo": "kér-tsí--e # hó-tsia̍h # sī tsuí-bi̍t-thô",
+     "han": [
+      {
+       "t": "果子"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "好食"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "水蜜桃。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "菅草出生兩邊薄，",
+    "峭壁花朵似仙桃，",
+    "甘蔗吃湯不吃楂，",
+    "水果好吃水蜜桃。"
+   ],
+   "src_no": 2,
+   "head": "坪林黃桂英",
+   "tape": "台北愛悅情歌N0.2;00:05:24"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/022.jpg",
+  "trans": "TRANS/022.JPG"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "no": "046",
+ "kind": "唸歌",
+ "title": "七粒孤星",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "七粒孤星",
+ "parts": [
+  {
+   "n": 1,
+   "title": "七粒孤星",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2 chit4liap8 koo1chinn1 # cere3 cit8pai5",
+     "tailo": "kóng tshit lia̍p koo-tshinn # tserè tsi̍t pâi",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "七粒孤星做一排，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gu5nng5 # cit4lir2 # hun1 tang1sai1",
+     "tailo": "Gû-nn̂g # Tsit-lír # hun tang-sai",
+     "han": [
+      {
+       "t": "牛郎織女分東西，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2 chit4gerh8 chere1chit4 # kinn3 cit8pai2",
+     "tailo": "kóng tshit-ge̍rh tshere-tshit # kìnn tsi̍t pái",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "七月初七見一擺，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chin1chiunn7 sam1phik4 # tham3 ing1tai5",
+     "tailo": "tshin-tshiūnn Sam-phik # thàm Ing-tâi",
+     "han": [
+      {
+       "t": "親像山伯探英台。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "七顆孤星排成排，",
+    "牛郎織女分東西，",
+    "七月初七見一次，",
+    "好比山伯探英台。"
+   ],
+   "src_no": 6,
+   "head": "三峽王秦玉燕"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/046.jpg",
+  "trans": "TRANS/046.JPG"
+ }
+}

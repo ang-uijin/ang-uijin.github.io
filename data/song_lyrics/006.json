@@ -1,0 +1,114 @@
+{
+ "no": "006",
+ "kind": "唸歌",
+ "title": "一隻椅仔",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "一枝椅仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "一隻椅仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit8ciah4i2a2oo0 # ji7chioh4kau2",
+     "tailo": "tsi̍t tsiah í-á--oo # jī tshioh káu",
+     "han": [
+      {
+       "t": "一隻椅仔"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "二尺九，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gia5lai5oo0 # cit8lang5ce7cit8thau5",
+     "tailo": "giâ-lâi--oo # tsi̍t lâng tsē tsi̍t thâu",
+     "han": [
+      {
+       "t": "夯來"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "一人坐一頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2siunn7bueh4kah4niu5a2oo0 # ho2kah4lau7",
+     "tailo": "guá siūnn-bueh kah niû-á--oo # hó kah lāu",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "想卜佮娘"
+      },
+      {
+       "t": "仔噢",
+       "s": 1
+      },
+      {
+       "t": "好甲老，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7thang1e0u7thau5 # bo5bue2sau1",
+     "tailo": "m̄-thang--e ū thâu # bô bué-sau",
+     "han": [
+      {
+       "t": "毋通"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "有頭無尾梢。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一隻椅子二尺九，",
+    "拿來一人坐一頭，",
+    {
+     "segs": [
+      {
+       "t": "想要與娘"
+      },
+      {
+       "t": "子",
+       "s": 1
+      },
+      {
+       "t": "好到老，"
+      }
+     ]
+    },
+    "不可有頭無尾梢。"
+   ],
+   "src_no": 6,
+   "head": "雙溪簡金獅",
+   "tape": "台北愛悅情歌N0.1;00:04:57"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/006.jpg",
+  "trans": "TRANS/006.JPG"
+ }
+}

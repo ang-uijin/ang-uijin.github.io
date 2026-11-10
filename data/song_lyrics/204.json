@@ -1,0 +1,221 @@
+{
+ "no": "204",
+ "kind": "對唱",
+ "title": "花枝扑莓(男)、人種苦瓜(女)",
+ "source": "2-201雙溪褒歌.doc",
+ "site_title": "花枝扑苺(男)、人種苦瓜(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "花枝扑莓",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "hue1ki1 # phah4m5a0 # kun5lun2cun7",
+     "tailo": "hue-ki # phah-m̂--a # kûn lún tsūn",
+     "han": [
+      {
+       "t": "花枝扑莓"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "緄碖陣，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kiok4hue1 # kau2gueh8a0 # ciann3tong1khui1",
+     "tailo": "kiok-hue # káu-gue̍h--a # tsiànn-tong khui",
+     "han": [
+      {
+       "t": "菊花九月"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "正當開，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7beh4kah5niu5a2 # kang7ciah8khun3",
+     "tailo": "siūnn-beh kâh niû-á # kāng tsia̍h-khùn",
+     "han": [
+      {
+       "t": "想卜佮娘仔仝食睏，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ci2kiann1 # niu5sin1la0 # i1m7cun2",
+     "tailo": "tsí kiann # niû sin--la # i m̄-tsún",
+     "han": [
+      {
+       "t": "只驚娘身"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "伊毋准。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "花枝含苞捲又捲，",
+    "菊花九月正當開，",
+    "想跟姑娘同吃睡，",
+    "只怕姑娘他不准。"
+   ],
+   "src_no": 9,
+   "head": "雙溪朱清圳(男)、連阿卻(女)相褒 之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.1;01:24:06"
+  },
+  {
+   "n": 2,
+   "title": "人種苦瓜",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2lang5cing3 # khoo2kue1 # bat8bat8sinn1",
+     "tailo": "kóng lâng tsìng # khóo-kue # ba̍t-ba̍t sinn",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "人種苦瓜密密生，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2cing3 # khoo2kue1la0 # be7ciunn7penn5",
+     "tailo": "guá tsìng # khóo-kue--la # bē tsiūnn pênn",
+     "han": [
+      {
+       "t": "我種苦瓜"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "袂上棚，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2lang5lian5kun1a2oo0 # iu3me7me7",
+     "tailo": "kóng lâng liân kun-á--oo # iù-mē-mē",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "人連君仔"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "幼麵麵，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lan2lian5kun1a2 # puann3thau5chenn1",
+     "tailo": "lán liân kun-á # puànn-thâu-tshenn",
+     "han": [
+      {
+       "t": "咱連君仔半頭生。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "人種"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "苦瓜密密生，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "我種"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "苦瓜不上棚，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "人交"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "郎君幼麵麵，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "咱交"
+      },
+      {
+       "t": "的",
+       "s": 1
+      },
+      {
+       "t": "郎君半頭生。"
+      }
+     ]
+    }
+   ],
+   "src_no": 10,
+   "head": "雙溪朱清圳(男)、連阿卻(女)相褒 之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.1;01:24:26"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/204.jpg",
+  "trans": "TRANS/204.JPG"
+ }
+}

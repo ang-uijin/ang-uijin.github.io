@@ -1,0 +1,116 @@
+{
+ "no": "105",
+ "kind": "譜例",
+ "title": "大石也著",
+ "source": "譜例歌詞及中譯.doc",
+ "site_title": "",
+ "parts": [
+  {
+   "n": 1,
+   "title": "大石也著",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "tua7cioh8e0 # ia7tiohe0 # cioh8a2king7",
+     "tailo": "tuā tsio̍h--e # iā tiohe0 # tsio̍h-á kīng",
+     "han": [
+      {
+       "t": "大石"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "也著"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "石仔揵，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5e0 # bo5ko1 # thang1khan1sing5",
+     "tailo": "guá niû--e # bô ko # thang khan-sîng",
+     "han": [
+      {
+       "t": "我娘"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "無哥通牽成，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5li5e0 # bo5piah4e0 # thang1ua2phing7,",
+     "tailo": "bô lî--e # bô piah--e # thang uá-phīng,",
+     "han": [
+      {
+       "t": "無籬"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "無壁"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "通倚並，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sim1kuann1e0 # m7pat4a0 # cit8si5ching1",
+     "tailo": "sim-kuann--e # m̄ pat--a # tsi̍t-sî tshing",
+     "han": [
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "毋捌"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "一時清。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "大石也得小石撐，",
+    "姑娘沒哥來牽成，",
+    "無籬無壁可依憑，",
+    "心中不曾一時清。"
+   ],
+   "src_no": 2,
+   "head": "坪林高美鳳唱"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/105.JPG"
+ }
+}

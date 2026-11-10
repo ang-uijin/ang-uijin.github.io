@@ -1,0 +1,100 @@
+{
+ "no": "024",
+ "kind": "唸歌",
+ "title": "卜挽春茶",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "卜挽春茶",
+ "parts": [
+  {
+   "n": 1,
+   "title": "卜挽春茶",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "berh4ban2chun1te5 # chinn1mia5tau1",
+     "tailo": "berh bán tshun-tê # tshinn-miâ tau",
+     "han": [
+      {
+       "t": "卜挽春茶清明兜，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "berh4chua7te5kang1 # kong2ciunn7suann1thau5",
+     "tailo": "berh tshuā tê-kang # kóng tsiūnn suann-thâu",
+     "han": [
+      {
+       "t": "卜𤆬茶工"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "上山頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chun1te5 # pun2si7chinn1mia5au7",
+     "tailo": "tshun-tê # pún sī tshinn-miâ āu",
+     "han": [
+      {
+       "t": "春茶本是清明後，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5suann1 # kong2ca1boo2 # si7luan7chau1chau1",
+     "tailo": "tê-suann # kóng tsa-bóo # sī luān-tshau-tshau",
+     "han": [
+      {
+       "t": "茶山"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "查某"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "亂操操。"
+      }
+     ],
+     "tlpa_src": "te5suann1#kong2ca1boo2#si7luan7chau1 x"
+    }
+   ],
+   "trans": [
+    "要採春茶清明時，",
+    "帶領茶工上山頭，",
+    "春茶本在清明後，",
+    "茶山女子亂操操。"
+   ],
+   "src_no": 4,
+   "head": "坪林黃王菊英",
+   "tape": "台北愛悅情歌N0.2;00:06:07"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E012",
+   "to": "𤆬",
+   "why": "class 對照表（FA52）；音 chua7",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/024.jpg",
+  "trans": "TRANS/024.JPG"
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "no": "009",
+ "kind": "唸歌",
+ "title": "一抱竹仔",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "一抱竹仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "一抱竹仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2cit8pho7tik4a2 # ciah4tua7pho7",
+     "tailo": "kóng tsi̍t phō tik-á # tsiah tuā phō",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "一抱竹仔遮大抱，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2cho3bo5e0 # cit8ki1a0 # co3tik4ko1",
+     "tailo": "guá tshò bô--e # tsi̍t ki--a # tsò tik-ko",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "銼無"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "一枝"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "做竹篙，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7bueh4cit8sim1a0 # kah4ko1ho2a0",
+     "tailo": "siūnn-bueh tsi̍t sim--a # kah ko hó--a",
+     "han": [
+      {
+       "t": "想卜一心"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "佮哥好"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bueh4m7cai1e0 # kui1bue2a0bo5kong1lo5",
+     "tailo": "bueh m̄ tsai--e # kui-bué--a bô kong-lô",
+     "han": [
+      {
+       "t": "卜",
+       "s": 1
+      },
+      {
+       "t": "毋知"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "歸尾"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "無功勞。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一抱竹子恁大抱，",
+    "沒有一枝可做篙，",
+    "一心想要與哥好，",
+    "不料到頭卻徒勞。"
+   ],
+   "src_no": 9,
+   "head": "雙溪連阿抾",
+   "tape": "台北愛悅情歌N0.1;00:10:24"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/009.jpg",
+  "trans": "TRANS/009.JPG"
+ }
+}

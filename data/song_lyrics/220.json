@@ -1,0 +1,298 @@
+{
+ "no": "220",
+ "kind": "對唱",
+ "title": "手舉雨傘(男)、手舉雨傘(女)",
+ "source": "2-202金山褒歌.doc",
+ "site_title": "手舉雨傘(男)、手舉雨傘(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "手舉雨傘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chiu2giah8 # lai5hoo7suann2lai5 # inn5lau1lau1e0",
+     "tailo": "tshiú gia̍h # lâi hōo-suánn lâi # înn-lau-lau--e",
+     "han": [
+      {
+       "t": "手舉"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "雨傘"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "圓"
+      },
+      {
+       "t": "lau1lau1",
+       "rom": 1,
+       "tl": "lau-lau",
+       "src": "lau1x"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5cioh4mui7 # niu5kiann2 # lai5bueh4sang2tau1",
+     "tailo": "lâi tsioh-muī # niû-kiánn # lâi bueh sáng tau",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "借問娘囝"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "卜"
+      },
+      {
+       "t": "sang2",
+       "rom": 1,
+       "tl": "sáng"
+      },
+      {
+       "t": "兜，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ui3cia1 # lai5king1kue3 # si7lai5ciah8tau3 e0",
+     "tailo": "uì tsia # lâi king-kuè # sī lâi tsia̍h-tàu--e",
+     "han": [
+      {
+       "t": "唯遮"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "經過"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "來食畫"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5ciah8pa2 # ka7niu5 # lai5po3loo7thau5",
+     "tailo": "lâi tsia̍h-pá # kā niû # lâi pò lōo-thâu",
+     "han": [
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "食飽共娘"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "報路頭。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "手撐雨傘圓兜兜，",
+    "借問姑娘往哪家？",
+    {
+     "segs": [
+      {
+       "t": "從這經過吃"
+      },
+      {
+       "t": "個",
+       "s": 1
+      },
+      {
+       "t": "午餐，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "吃飽告你路怎"
+      },
+      {
+       "t": "麼",
+       "s": 1
+      },
+      {
+       "t": "走。"
+      }
+     ]
+    }
+   ],
+   "src_no": 1,
+   "head": "金山徐石金賴黃鴦相褒 之一",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;00:16:43"
+  },
+  {
+   "n": 2,
+   "title": "手舉雨傘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chiu2giah8e0hoo7suann3 # inn5hue1hue1",
+     "tailo": "tshiú gia̍h--e hōo-suànn # înn-hue-hue",
+     "han": [
+      {
+       "t": "手舉"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "雨傘圓花花，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kiann5loo7e0 # chan1chiunn7 # hun5kue3gueh8e0",
+     "tailo": "kiânn-lōo--e # tshan-tshiūnn # hûn kuè gue̍h--e",
+     "han": [
+      {
+       "t": "行路"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "親像雲過月"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cia3mui7a0 # a1kun1a2 # li2 # u7kui2a0hue3",
+     "tailo": "tsià-muī--a # a-kun-á # lí # ū kuí--a huè",
+     "han": [
+      {
+       "t": "借問"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "阿君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "汝"
+      },
+      {
+       "t": "有",
+       "s": 1
+      },
+      {
+       "t": "幾"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "歲，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5tik4khak4tang5ni5 # a0koh4siang7gueh8",
+     "tailo": "bô-tik-khak tâng-nî # --a koh siāng gue̍h",
+     "han": [
+      {
+       "t": "無",
+       "s": 1
+      },
+      {
+       "t": "的確仝年"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "閣"
+      },
+      {
+       "t": "siang7",
+       "rom": 1,
+       "tl": "siāng"
+      },
+      {
+       "t": "月。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "手撐雨傘圓花花，",
+    "走路好似雲過月，",
+    "借問阿君你幾歲？",
+    "也許同年又同月。"
+   ],
+   "src_no": 2,
+   "head": "金山徐石金賴黃鴦相褒 之一",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;00:17:03"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/220.jpg",
+  "trans": "TRANS/220.JPG"
+ }
+}

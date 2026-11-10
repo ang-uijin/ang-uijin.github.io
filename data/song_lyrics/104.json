@@ -1,0 +1,76 @@
+{
+ "no": "104",
+ "kind": "譜例",
+ "title": "這爿看去",
+ "source": "譜例歌詞及中譯.doc",
+ "site_title": "",
+ "parts": [
+  {
+   "n": 1,
+   "title": "這爿看去",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit4ping5 # khuann3khir3hit4ping5suann1",
+     "tailo": "tsit pîng # khuànn-khìr hit pîng suann",
+     "han": [
+      {
+       "t": "這爿看去迄爿山，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3kinn3suann1nia2 # cin1oh4puann5",
+     "tailo": "khuànn-kìnn suann-niá # tsin oh puânn",
+     "han": [
+      {
+       "t": "看見山嶺真僫盤，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciah4ku2 # bo5kah4 e hiann1 # sio1khuann3",
+     "tailo": "tsiah kú # bô kah e hiann # sio-khuànn",
+     "han": [
+      {
+       "t": "遮久無佮兮兄相看，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8sai2 # chin1chiunn7 # ling2cui2cuann5",
+     "tailo": "ba̍k-sái # tshin-tshiūnn # líng-tsuí-tsuânn",
+     "han": [
+      {
+       "t": "目屎親像冷水泉。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "這邊看過那邊山，",
+    "看見山嶺真難纏，",
+    "恁久與兄不相看，",
+    "眼淚好似冷水泉。"
+   ],
+   "src_no": 1,
+   "head": "坪林王蕭不唱"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E013",
+   "to": "僫",
+   "why": "教育部用字（Siniong 11-11 定）；音 oh4（難）",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/104.JPG"
+ }
+}

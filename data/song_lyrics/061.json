@@ -1,0 +1,98 @@
+{
+ "no": "061",
+ "kind": "唸歌",
+ "title": "茶仔咧挽",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "茶仔咧挽",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶仔咧挽",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5a2 # ce11ban2 # thau5 # tan3tan3",
+     "tailo": "tê-á # ce11 bán # thâu # tàn-tàn",
+     "han": [
+      {
+       "t": "茶仔一"
+      },
+      {
+       "t": "下",
+       "s": 1
+      },
+      {
+       "t": "挽頭掞掞，"
+      }
+     ],
+     "tlpa_src": "te5a2#ce11ban2#thau5#tan3x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "chin1chiunn7khit4ciah8 # koh4phainn7tau2kan1",
+     "tailo": "tshin-tshiūnn khit-tsia̍h # koh phāinn táu-kan",
+     "han": [
+      {
+       "t": "親像乞食"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "背斗矸，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "hoo7lang5 # khuann3tioh8 # si7cin1bo5pan7",
+     "tailo": "hōo lâng # khuànn-tio̍h # sī tsin bô pān",
+     "han": [
+      {
+       "t": "予人看著"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "真無範，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chin1chiunn7phua3koo2 # koh4lerh0phah4bue7tan5",
+     "tailo": "tshin-tshiūnn phuà kóo # koh--lerh phah buē tân",
+     "han": [
+      {
+       "t": "親像破鼓"
+      },
+      {
+       "t": "閣咧",
+       "s": 1
+      },
+      {
+       "t": "扑袂霆。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶葉一採頭低垂，",
+    "好比乞丐背背囊，",
+    "給人看了沒個樣，",
+    "好像破鼓打不響。"
+   ],
+   "src_no": 4,
+   "head": "深坑林清盛",
+   "tape": "相褒歌N0.1;1:14:37"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/061.jpg",
+  "trans": "TRANS/061.jpg"
+ }
+}

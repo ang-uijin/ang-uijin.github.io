@@ -1,0 +1,160 @@
+{
+ "no": "096",
+ "kind": "唸歌",
+ "title": "心肝來想",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "心肝來想",
+ "parts": [
+  {
+   "n": 1,
+   "title": "心肝來想",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "sim1kuann1 # lai5siunn7tioh8 lai0 # cia5ut4e0 bun7 na0",
+     "tailo": "sim-kuann # lâi siūnn-tio̍h--lai # tsiâ ut--e būn--na",
+     "han": [
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "想著"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "誠鬱"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "悶"
+      },
+      {
+       "t": "哪",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "uan3than3lo0 # sin1pinn1e0 # bo5chin1kun1",
+     "tailo": "uàn-thàn--lo # sin-pinn--e # bô tshin-kun",
+     "han": [
+      {
+       "t": "怨嘆"
+      },
+      {
+       "t": "囉",
+       "s": 1
+      },
+      {
+       "t": "身邊"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "無親君，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ping5iu2lai0 # cio1cio1lai0 # ci2muai7e0 # phuann7o0",
+     "tailo": "pîng-iú--lai # tsio-tsio--lai # tsí-muāi--e # phuānn--o",
+     "han": [
+      {
+       "t": "朋友"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "招招"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "姊妹"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "伴"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ban2te5o0 # cit8suann1e0 # kue3cit8suann1a0",
+     "tailo": "bán tê--o # tsi̍t suann--e # kuè tsi̍t suann--a",
+     "han": [
+      {
+       "t": "挽茶"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "一山"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "過一山"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "心中想來真鬱悶，",
+    "怨嘆身邊無郎君，",
+    "朋友相邀姊妹伴，",
+    "採茶一山過一山。"
+   ],
+   "src_no": 9,
+   "head": "金山徐江月",
+   "tape": "台北愛悅情歌N0.2;00:37:40"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/096.jpg",
+  "trans": "TRANS/096.JPG"
+ }
+}

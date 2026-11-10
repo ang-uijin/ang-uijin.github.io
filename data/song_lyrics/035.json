@@ -1,0 +1,83 @@
+{
+ "no": "035",
+ "kind": "唸歌",
+ "title": "雙跤行到之二",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "雙跤行到之二",
+ "parts": [
+  {
+   "n": 1,
+   "title": "雙跤行到之二",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "sang1kha1 # kiann5kau3 # uan1tham5te2",
+     "tailo": "sang kha # kiânn kàu # Uan-thâm-té",
+     "han": [
+      {
+       "t": "雙跤行到彎潭底，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "uan1tham5 # cit4ting2 # si7tua7khe1",
+     "tailo": "Uan-thâm # tsit tíng # sī tuā khe",
+     "han": [
+      {
+       "t": "彎潭這頂是大溪，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "berh4lai5ban2te5e0 # bue7tit4ke3",
+     "tailo": "berh lâi bán tê--e # buē-tit kè",
+     "han": [
+      {
+       "t": "卜來挽茶"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "袂得過，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sann1ciah4 # tik4pai5oo0 # pang3phuann7the1",
+     "tailo": "sann tsiah # tik-pâi--oo # pàng-phuānn the",
+     "han": [
+      {
+       "t": "三隻竹排"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "放伴撐。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "雙跤走到灣潭底，",
+    "灣潭上面是大溪，",
+    "要來採茶不得過，",
+    "三隻竹排一起划。"
+   ],
+   "src_no": 15,
+   "head": "坪林俞郭棗",
+   "tape": "台北愛悅情歌10/15"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/035.jpg",
+  "trans": "TRANS/035.JPG"
+ }
+}

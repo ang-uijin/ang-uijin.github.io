@@ -1,0 +1,104 @@
+{
+ "no": "021",
+ "kind": "唸歌",
+ "title": "木瓜成熟",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "木瓜成熟",
+ "parts": [
+  {
+   "n": 1,
+   "title": "木瓜成熟",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "bok8kue1 # sing5siok8e0 # cuan1si7bah4",
+     "tailo": "bo̍k-kue # sîng-sio̍k--e # tsuan sī bah",
+     "han": [
+      {
+       "t": "木瓜成熟"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "專是肉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tak8ke1 # lai5ciah8e0 # to1e7hah8",
+     "tailo": "ta̍k-ke # lâi tsia̍h--e # to ē ha̍h",
+     "han": [
+      {
+       "t": "逐家來食"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "都會合，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cir2thng1 # koh4ia7e0 ciah8e7a0 pa2",
+     "tailo": "tsír thng # koh iā--e tsia̍h ē--a pá",
+     "han": [
+      {
+       "t": "煮湯閣也"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "食會"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "飽，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciah8tioh8 # ching1liang5e0 # ci2chui3ta1",
+     "tailo": "tsia̍h-tio̍h # tshing-liâng--e # tsí tshuì-ta",
+     "han": [
+      {
+       "t": "食著清涼"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "止喙礁。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "木瓜成熟全是肉，",
+    "大家來食都合口，",
+    "煮湯也能吃得飽，",
+    "吃了清涼又止渴。"
+   ],
+   "src_no": 1,
+   "head": "坪林黃桂英",
+   "tape": "台北愛悅情歌N0.2;00:04:45"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/021.jpg",
+  "trans": "TRANS/021.JPG"
+ }
+}

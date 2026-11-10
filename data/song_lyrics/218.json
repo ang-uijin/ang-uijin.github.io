@@ -1,0 +1,287 @@
+{
+ "no": "218",
+ "kind": "對唱",
+ "title": "後溝一抱(男)、阿兄卜來(女)",
+ "source": "2-204三芝褒歌.doc",
+ "site_title": "後溝一抱(男)、阿兄卜來(女)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "後溝一抱",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "au7kau1e0 # cit8pho7 # lik8tik4pho7",
+     "tailo": "āu-kau--e # tsi̍t phō # li̍k-tik phō",
+     "han": [
+      {
+       "t": "後溝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "一抱綠竹抱，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "u7si5le0 # huat4sun2 # ma7u7si5e0bo5o0",
+     "tailo": "ū-sî--le # huat sún # mā ū-sî--e bô--o",
+     "han": [
+      {
+       "t": "有時"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "發筍"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "有時"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "無"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4u7si5oo0 # gua2kun1a2 # khi3chue7so2a0",
+     "tailo": "iah ū-sî--oo # guá kun-á # khì tshuē só--a",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "有時"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "我君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "去揣嫂"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4u7si5e0 # a1niu5a2 # ma7siunn7tioh8ko1o0",
+     "tailo": "iah ū-sî--e # a-niû-á # mā siūnn-tio̍h ko--o",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "有時"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "阿娘"
+      },
+      {
+       "t": "仔嘛",
+       "s": 1
+      },
+      {
+       "t": "想著哥"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "後"
+      },
+      {
+       "t": "山",
+       "s": 1
+      },
+      {
+       "t": "溝一叢綠竹叢，"
+      }
+     ]
+    },
+    "有時發筍有時空，",
+    "有時哥我去找嫂，",
+    {
+     "segs": [
+      {
+       "t": "有時姑娘"
+      },
+      {
+       "t": "也",
+       "s": 1
+      },
+      {
+       "t": "來找哥。"
+      }
+     ]
+    }
+   ],
+   "src_no": 3,
+   "head": "三芝賴溪章、石門王鄭碧絲相褒 之二",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.2;01:08:39"
+  },
+  {
+   "n": 2,
+   "title": "阿兄卜來",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "a1hiann1 # beh4lai5e0 # tioh8se3ji7o0",
+     "tailo": "a-hiann # beh lâi--e # tio̍h sè-jī--o",
+     "han": [
+      {
+       "t": "阿兄卜來"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "著細膩"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5oo0 # mui5khau2 # cit8khau2pi1",
+     "tailo": "guá niû--oo # muî-kháu # tsi̍t kháu pi",
+     "han": [
+      {
+       "t": "我娘"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "門口一口埤，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "puah8loh8pi1te2a0 # tam5tih4tih4 o0",
+     "tailo": "pua̍h-lo̍h pi-té--a # tâm-tih-tih--o",
+     "han": [
+      {
+       "t": "跋落埤底"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "澹滴滴"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "puah8loh8pi1te2a0#tam5tih4x o0"
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5oo0 # kann2se2 # m7kann2phi1o0",
+     "tailo": "guá niû--oo # kánn sé # m̄ kánn phi--o",
+     "han": [
+      {
+       "t": "我娘"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "敢洗毋敢披"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "阿哥要來得小心，",
+    "我家門口有水池，",
+    "跌落池裡濕淋漓，",
+    "姑娘敢洗不敢晾。"
+   ],
+   "src_no": 4,
+   "head": "三芝賴溪章、石門王鄭碧絲相褒 之二",
+   "role": "女",
+   "tape": "台北愛悅情歌N0.2;01:09:01"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/218.jpg",
+  "trans": "TRANS/218.JPG"
+ }
+}

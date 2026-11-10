@@ -1,0 +1,125 @@
+{
+ "no": "085",
+ "kind": "唸歌",
+ "title": "茶仔咧挽",
+ "source": "1-204三芝唸歌.doc",
+ "site_title": "茶仔咧挽",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶仔咧挽",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5a2tih4ban2oo0 # siang7liau5lai7oo0",
+     "tailo": "tê-á tih bán--oo # siāng liâu-lāi--oo",
+     "han": [
+      {
+       "t": "茶仔塊挽"
+      },
+      {
+       "t": "噢相",
+       "s": 1
+      },
+      {
+       "t": "同寮內"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5a2e0 # ban2thau3 # hun1tang1sai1oo0",
+     "tailo": "tê-á--e # bán-thàu # hun tang-sai--oo",
+     "han": [
+      {
+       "t": "茶仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "挽透分東西"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8chiu2 # khan1sann1e0 # chit4bak8sai2oo0",
+     "tailo": "tsi̍t tshiú # khan sann--e # tshit ba̍k-sái--oo",
+     "han": [
+      {
+       "t": "一手牽衫"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "拭目屎"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "to3chiu2e0 # iat8kun1a2 # ciah4koh4lai5",
+     "tailo": "tò-tshiú--e # ia̍t kun-á # tsiah-koh lâi",
+     "han": [
+      {
+       "t": "倒手"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "拽君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "才閣來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "茶葉採收同寮內，",
+    "茶葉採完分東西，",
+    "一手牽衣拭眼淚，",
+    "左手搖請君再來。"
+   ],
+   "src_no": 4,
+   "head": "三芝花金鳳",
+   "tape": "台北愛悅情歌N0.2;01:01:44"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/085.jpg",
+  "trans": "TRANS/085.JPG"
+ }
+}

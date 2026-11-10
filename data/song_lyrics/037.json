@@ -1,0 +1,83 @@
+{
+ "no": "037",
+ "kind": "唸歌",
+ "title": "手夯雨傘",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "手夯雨傘",
+ "parts": [
+  {
+   "n": 1,
+   "title": "手夯雨傘",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chiu2 # kia5hoo7suann3 # tioh8khi2kiann5",
+     "tailo": "tshiú # kiâ hōo-suànn # tio̍h khí-kiânn",
+     "han": [
+      {
+       "t": "手夯雨傘著起行，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8loo7e0 # na3kiann5 # tioh8na3tham3thiann1",
+     "tailo": "tsi̍t-lōo--e # nà kiânn # tio̍h nà thàm-thiann",
+     "han": [
+      {
+       "t": "一路"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "那行"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "那探聽，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8loo8 # kiann5kah4ciann5phah4piann3",
+     "tailo": "tsi̍t lo̍o # kiânn kah tsiânn phah-piànn",
+     "han": [
+      {
+       "t": "一路行甲誠扑拼，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8sim1 # siunn7berh4cher7chin1ciann5",
+     "tailo": "tsi̍t sim # siūnn-berh tshēr tshin-tsiânn",
+     "han": [
+      {
+       "t": "一心想卜揣親情。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "手拿雨傘要起身，",
+    "一路邊行邊打聽，",
+    "一路走得真辛苦，",
+    "一心想要找親戚。"
+   ],
+   "src_no": 17,
+   "head": "坪林李文",
+   "tape": "台北愛悅情歌10/15;1:21:21"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/037.jpg",
+  "trans": "TRANS/037.JPG"
+ }
+}

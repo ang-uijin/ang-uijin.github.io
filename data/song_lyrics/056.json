@@ -1,0 +1,133 @@
+{
+ "no": "056",
+ "kind": "唸歌",
+ "title": "我娘挽茶",
+ "source": "1-102石碇唸歌.doc",
+ "site_title": "我娘挽茶",
+ "parts": [
+  {
+   "n": 1,
+   "title": "我娘挽茶",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # ban2te5 # ciann5kan1khoo2",
+     "tailo": "guá niû # bán tê # tsiânn kan-khóo",
+     "han": [
+      {
+       "t": "我娘挽茶誠艱苦，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2pa1ciah4e0 # khuann3thinn1oo0 # bin7 # khuann3thoo5",
+     "tailo": "guá pa-tsiah--e # khuànn thinn--oo # bīn # khuànn thôo",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "巴脊"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "看天"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "面看塗，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5 # to1bo5ho2thau5loo7",
+     "tailo": "guá niû # to bô hó thâu-lōo",
+     "han": [
+      {
+       "t": "我娘都無好頭路，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciah4tioh8kan1khoo2 # lerh4te5cang5boo1",
+     "tailo": "tsiah tio̍h kan-khóo # lerh tê-tsâng boo",
+     "han": [
+      {
+       "t": "才著艱苦"
+      },
+      {
+       "t": "咧",
+       "s": 1
+      },
+      {
+       "t": "茶欉摸。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "姑娘"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "採茶真辛苦，"
+      }
+     ]
+    },
+    "背脊向天臉向土，",
+    {
+     "segs": [
+      {
+       "t": "姑娘"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "沒有好工作，"
+      }
+     ]
+    },
+    {
+     "segs": [
+      {
+       "t": "才得辛苦"
+      },
+      {
+       "t": "在",
+       "s": 1
+      },
+      {
+       "t": "茶樹摸。"
+      }
+     ]
+    }
+   ],
+   "src_no": 5,
+   "head": "石碇許曾汝",
+   "tape": "N0.1;00:46:39"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/056.jpg",
+  "trans": "TRANS/056.JPG"
+ }
+}

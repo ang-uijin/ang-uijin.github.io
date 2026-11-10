@@ -1,0 +1,124 @@
+{
+ "no": "017",
+ "kind": "唸歌",
+ "title": "徛上崙頭",
+ "source": "1-106平溪唸歌.doc",
+ "site_title": "徛上崙頭",
+ "parts": [
+  {
+   "n": 1,
+   "title": "徛上崙頭",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2khia7ciunn7lai5lun7thau5o0 e0 # tioh8kai1khuann3",
+     "tailo": "kóng khiā tsiūnn lâi lūn-thâu--o-e # tio̍h kai khuànn",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "徛上"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "崙頭"
+      },
+      {
+       "t": "噢兮",
+       "s": 1
+      },
+      {
+       "t": "著共"
+      },
+      {
+       "t": "伊",
+       "s": 1
+      },
+      {
+       "t": "看，"
+      }
+     ],
+     "tlpa_src": "kong2khia7ciunn7lai5lun7thau5o0 e0#tioh8kai1 ⏎ khuann3"
+    },
+    {
+     "kind": "line",
+     "tlpa": "koh4khuann3kinn1e0 # li7kun1 # kui1cap8uann1",
+     "tailo": "koh khuànn-kinn--e # lī kun # kui tsa̍p uann",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "看見"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "離君歸十垵，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "si7lan2 # gong7siunn7 # lai5berh4an2cuann2",
+     "tailo": "sī lán # gōng-siūnn # lâi berh án-tsuánn",
+     "han": [
+      {
+       "t": "是咱戇想"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "卜按怎，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "koh4sim1kuann1e0 # chin1chiunn7 # koh4sng3puann5",
+     "tailo": "koh sim-kuann--e # tshin-tshiūnn # koh sǹg-puânn",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "親像閣算盤。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "站上山頭把他看，",
+    "看見離君幾十垵，",
+    "是咱妄想要怎樣，",
+    "心肝好比打算盤。"
+   ],
+   "src_no": 3,
+   "head": "平溪吳蜜台北愛悅情歌N0.1",
+   "tape": "00:1:38"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/017.jpg",
+  "trans": "TRANS/017.JPG"
+ }
+}

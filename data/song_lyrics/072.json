@@ -1,0 +1,83 @@
+{
+ "no": "072",
+ "kind": "唸歌",
+ "title": "二四孝山",
+ "source": "1-105汐止唸歌.doc",
+ "site_title": "二四孝山",
+ "parts": [
+  {
+   "n": 1,
+   "title": "二四孝山",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ji7si3hau3suann12e0 # lang5o1lo2",
+     "tailo": "jī-sì-hàu suann12 --e # lâng o-ló",
+     "han": [
+      {
+       "t": "二四孝山"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "人呵咾，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ing1kai1tioh8kang7khioh4lai5oh8",
+     "tailo": "ing-kai tio̍h kāng khioh lâi o̍h",
+     "han": [
+      {
+       "t": "應該著共抾來學，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chian1ban7 # m7thang1e0co3cha1cho3",
+     "tailo": "tshian-bān # m̄-thang--e tsò tsha-tshò",
+     "han": [
+      {
+       "t": "千萬毋通"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "做差錯，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "it4cho3 # huan5cho3 # cian5too5bo5",
+     "tailo": "it tshò # huân tshò # tsiân-tôo bô",
+     "han": [
+      {
+       "t": "一錯還錯前途無。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "二十四孝人讚美，",
+    "值得大家來學習，",
+    "千萬不能做差錯，",
+    "一錯再錯沒前途。"
+   ],
+   "src_no": 3,
+   "head": "汐止楊秀卿",
+   "tape": "相褒歌N0.7;00:53:18"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/072.jpg",
+  "trans": "TRANS/072.JPG"
+ }
+}

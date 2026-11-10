@@ -1,0 +1,140 @@
+{
+ "no": "001",
+ "kind": "唸歌",
+ "title": "兩枝甘蔗",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "兩枝甘蔗",
+ "parts": [
+  {
+   "n": 1,
+   "title": "兩枝甘蔗",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "nng7ki1kam1cia3e0 # pinn5pinn5 tng5",
+     "tailo": "nn̄g ki kam-tsià--e # pînn-pînn tn̂g",
+     "han": [
+      {
+       "t": "兩枝甘蔗"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "平平長"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "nng7ki1kam1cia3e0#pinn5x tng5"
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7cai1 # to2cit8ki1o0khah4u7thng1",
+     "tailo": "m̄ tsai # tó tsi̍t ki--o khah ū thng",
+     "han": [
+      {
+       "t": "毋知佗"
+      },
+      {
+       "t": "一",
+       "s": 1
+      },
+      {
+       "t": "枝"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "卡有湯，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2nng7ge5ko1a2e0 # penn5ho2sng2a0",
+     "tailo": "kóng nn̄g gê ko-á--e # pênn hó-sńg--a",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "兩个哥仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "平好耍"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7cai1 # to2cit8ge5 # khah4ku2tng5",
+     "tailo": "m̄ tsai # tó tsi̍t gê # khah kú-tn̂g",
+     "han": [
+      {
+       "t": "毋知佗"
+      },
+      {
+       "t": "一",
+       "s": 1
+      },
+      {
+       "t": "个卡久長。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "兩枝甘蔗一樣長，",
+    "不知那枝較有湯，",
+    "兩個哥兒一樣好，",
+    "不知那個可久長。"
+   ],
+   "src_no": 1,
+   "head": "雙溪黃朱束",
+   "tape": "台北愛悅情歌N0.1;00:02:00"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/001.jpg",
+  "trans": "TRANS/001.JPG"
+ }
+}

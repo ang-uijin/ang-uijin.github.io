@@ -1,0 +1,111 @@
+{
+ "no": "064",
+ "kind": "唸歌",
+ "title": "一垵挽了",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "一鞍挽了",
+ "parts": [
+  {
+   "n": 1,
+   "title": "一垵挽了",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "cit8uann1 # gua2ban2liau2e0 # iu7cit8uann1",
+     "tailo": "tsi̍t uann # guá bán liáu--e # iū tsi̍t uann",
+     "han": [
+      {
+       "t": "一垵"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "挽了"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "又一垵，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tang1hong1 # chue1lai5 # ma7ling2 # kah4kuann5",
+     "tailo": "tang-hong # tshue-lâi # mā líng # kah kuânn",
+     "han": [
+      {
+       "t": "東風吹來"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "冷佮寒，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bin7 # buah4cui2hun2 # tioh8beh4hong11khuann3",
+     "tailo": "bīn # buah tsuí-hún # tio̍h beh hong11 khuànn",
+     "han": [
+      {
+       "t": "面抹水粉"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "卜逢看，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cuann2iunn7a2 # siau2kau2 # kong2lai5kui1suann1",
+     "tailo": "tsuánn-iūnn-á # siáu-káu # kóng lâi kui suann",
+     "han": [
+      {
+       "t": "怎樣"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "痟狗"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "來歸山"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一垵採了又一垵，",
+    "東風吹來冷又寒，",
+    "臉抹水粉給人看，",
+    "怎知瘋狗來滿山。"
+   ],
+   "src_no": 7,
+   "head": "深坑蘇連春",
+   "tape": "台北愛悅情歌10/15;00:08:59"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/064.jpg",
+  "trans": "TRANS/064.JPG"
+ }
+}

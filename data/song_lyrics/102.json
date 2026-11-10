@@ -1,0 +1,108 @@
+{
+ "no": "102",
+ "kind": "唸歌",
+ "title": "挽茶查某",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "挽茶查某",
+ "parts": [
+  {
+   "n": 1,
+   "title": "挽茶查某",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ban2te5ca1boo2 # si7khun3tiong1tau3",
+     "tailo": "bán tê tsa-bóo # sī khùn-tiong-tàu",
+     "han": [
+      {
+       "t": "挽茶查某"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "睏中晝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5khah4 # kuann7lai5 # si7cue3cim2thau5",
+     "tailo": "tê-khah # kuānn-lâi # sī tsuè tsím-thâu",
+     "han": [
+      {
+       "t": "茶籗捾來"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "做枕頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciann5ku2 # chin1kun1 si7 # cuan5bo5kau3",
+     "tailo": "tsiânn kú # tshin-kun sī # tsuân bô kàu",
+     "han": [
+      {
+       "t": "誠久親君"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "全無到，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sim1kuann1 # siunn7kah4 # luan7chau1chau1",
+     "tailo": "sim-kuann # siūnn kah # luān-tshau-tshau",
+     "han": [
+      {
+       "t": "心肝想甲亂操操。"
+      }
+     ],
+     "tlpa_src": "sim1kuann1#siunn7kah4#luan7chau1x"
+    }
+   ],
+   "trans": [
+    "挽茶姑娘睡午覺，",
+    "茶籠拿來當枕頭，",
+    "郎君很久沒來到，",
+    "心裡想得亂糟糟。"
+   ],
+   "src_no": 15,
+   "head": "金山李德鐘",
+   "tape": "相褒歌N0.8;00:10:37"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00E",
+   "to": "捾",
+   "why": "class 對照表（FA4E）；音 kuann7",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/102.jpg",
+  "trans": "TRANS/102.JPG"
+ }
+}

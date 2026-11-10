@@ -1,0 +1,220 @@
+{
+ "no": "208",
+ "kind": "對唱",
+ "title": "人穿靘衫(女)、毋免好喙(男)",
+ "source": "2-201雙溪褒歌.doc",
+ "site_title": "人穿靘衣(女)、毋免好喙(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "人穿靘衫",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kong2lang5ching7chinn2sann1e0 # oo1am7nia2",
+     "tailo": "kóng lâng tshīng tshínn sann--e # oo ām-niá",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "人穿靘衫"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "烏頷領，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3lang5teh4ching7e0 # cin1si5kiann5",
+     "tailo": "khuànn lâng teh tshīng--e # tsin sî-kiânn",
+     "han": [
+      {
+       "t": "看人塊穿"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "真時行，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2siunn7 # bueh4kang7 ko1a2 # tho2cit8nia2oo0",
+     "tailo": "guá siūnn # bueh kāng ko-á # thó tsi̍t niá--oo",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "想卜共哥"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "討一領"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tioh8kang7 # ho2chui3e0 # kang7koo1ciann5",
+     "tailo": "tio̍h kāng # hó-tshuì--e # kāng koo-tsiânn",
+     "han": [
+      {
+       "t": "著共好喙"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "共姑成。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "人穿藍衫配黑領，",
+    "看人穿來真流行，",
+    "想跟阿哥討一件，",
+    "得要嘴甜又央求。"
+   ],
+   "src_no": 19,
+   "head": "雙溪張聯葉(男)、黃朱束(女)相褒",
+   "role": "女",
+   "tape": "00:04:18"
+  },
+  {
+   "n": 2,
+   "title": "毋免好喙",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "koh4m7bian2ho2chui3a0 # cin1sit8cai7",
+     "tailo": "koh m̄-bián hó-tshuì--a # tsin si̍t-tsāi",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "毋免好喙"
+      },
+      {
+       "t": "矣",
+       "s": 1
+      },
+      {
+       "t": "真實在，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "koh4a1kun1oo0 # cin1cing5 # koh4sueh4chut4lai5",
+     "tailo": "koh a-kun--oo # tsin-tsîng # koh sueh-tshut-lâi",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "阿君"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "真情"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "說出來，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "li2 # na7kong2bueh4ai3a0siong7kai1cai3",
+     "tailo": "lí # nā kóng bueh ài--a siōng kai-tsài",
+     "han": [
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "若講卜愛"
+      },
+      {
+       "t": "矣",
+       "s": 1
+      },
+      {
+       "t": "上佳哉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2na7loh8ke1 # ciah4be2tng2e0 lai5",
+     "tailo": "guá nā lo̍h ke # tsiah bé tńg--e lâi",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "若落街才買轉"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "不必嘴甜真實在，",
+    "郎君真情說出來，",
+    "你若想吃那很好，",
+    "等我下街買回來。"
+   ],
+   "src_no": 20,
+   "head": "雙溪張聯葉(男)、黃朱束(女)相褒",
+   "role": "男",
+   "tape": "00:04:38"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/208.jpg",
+  "trans": "TRANS/208.jpg"
+ }
+}

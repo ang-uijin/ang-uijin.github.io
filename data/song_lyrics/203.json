@@ -1,0 +1,169 @@
+{
+ "no": "203",
+ "kind": "對唱",
+ "title": "頭殼踅眩(女)、相思咁有(男)",
+ "source": "2-201雙溪褒歌.doc",
+ "site_title": "頭殼踅眩(女)、相思咁有(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "頭殼踅眩",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "thau5khak4 # seh8hin5a0 # siak8siak8tuann7",
+     "tailo": "thâu-khak # se̍h hîn--a # sia̍k-sia̍k tuānn",
+     "han": [
+      {
+       "t": "頭殼踅眩"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "siak8siak8",
+       "rom": 1,
+       "tl": "sia̍k-sia̍k",
+       "src": "siak8x"
+      },
+      {
+       "t": "彈，"
+      }
+     ],
+     "tlpa_src": "thau5khak4#seh8hin5a0#siak8xtuann7"
+    },
+    {
+     "kind": "line",
+     "tlpa": "pak4too2 # cit8e7thiann3 # thau3sim1kuann1",
+     "tailo": "pak-tóo # tsi̍t-ē thiànn # thàu sim-kuann",
+     "han": [
+      {
+       "t": "腹肚一"
+      },
+      {
+       "t": "下",
+       "s": 1
+      },
+      {
+       "t": "疼透心肝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong2ui7kun1 # kua3tiau3 # bueh4an3cuann2",
+     "tailo": "kóng uī kun # kuà-tiàu # bueh àn-tsuánn",
+     "han": [
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "為君掛吊卜按怎，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2cit8cun7huat4jiat8cit8cun7kuann5",
+     "tailo": "guá tsi̍t tsūn huat-jia̍t tsi̍t tsūn kuânn",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "一陣發熱"
+      },
+      {
+       "t": "#",
+       "s": 1
+      },
+      {
+       "t": "一陣寒。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "頭昏眼花鑠鑠叫，",
+    "肚子一疼透心肝，",
+    "為君相思怎麼辦，",
+    "一陣發熱一陣寒。"
+   ],
+   "src_no": 7,
+   "head": "雙溪朱清圳(男)、連阿卻(女)相褒 之一",
+   "role": "女",
+   "tape": "台北愛悅情歌NO.1;01:25:59"
+  },
+  {
+   "n": 2,
+   "title": "相思咁有",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "siunn1si1 # kam2u7hiah4li7hai7",
+     "tailo": "siunn-si # kám ū hiah lī-hāi",
+     "han": [
+      {
+       "t": "相思咁有遐厲害，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2bo2king1kue3 # ma7m7cai1",
+     "tailo": "guá bó king-kuè # mā m̄ tsai",
+     "han": [
+      {
+       "t": "我無經過嘛毋知，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2siunn7 # li2si7kong2tai7khai3",
+     "tailo": "guá siūnn # lí sī kóng tāi-khài",
+     "han": [
+      {
+       "t": "我想汝是講大概，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chiann2 # li2m7thang1la0koh4cai3lai5",
+     "tailo": "tshiánn # lí m̄-thang--la koh-tsài lâi",
+     "han": [
+      {
+       "t": "請汝毋通"
+      },
+      {
+       "t": "啦",
+       "s": 1
+      },
+      {
+       "t": "閣再來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "相思哪有恁嚴重，",
+    "不曾經歷我不懂，",
+    "我想你是隨便講，",
+    "請你不要再過來。"
+   ],
+   "src_no": 8,
+   "head": "雙溪朱清圳(男)、連阿卻(女)相褒 之一",
+   "role": "男",
+   "tape": "台北愛悅情歌N0.I;01:26:17"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/203.jpg",
+  "trans": "TRANS/203.JPG"
+ }
+}

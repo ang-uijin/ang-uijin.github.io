@@ -1,0 +1,134 @@
+{
+ "no": "032",
+ "kind": "唸歌",
+ "title": "茶仔咧挽",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "茶仔咧挽",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶仔咧挽",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5a2teh4 # ban2e0 # cit8pho7e0 # ker3cit8pho7",
+     "tailo": "tê-á teh # bán--e # tsi̍t phō--e # kèr tsi̍t phō",
+     "han": [
+      {
+       "t": "茶仔"
+      },
+      {
+       "t": "塊",
+       "s": 1
+      },
+      {
+       "t": "挽"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "一抱"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "過一抱，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khah4cue7e0 # ge5te5 # ma7ban2kah4bo5",
+     "tailo": "khah tsuē--e # gê tê # mā bán kah bô",
+     "han": [
+      {
+       "t": "卡儕"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "个茶"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "挽甲無，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thau5ke1 # koh4kang7gun2 e0 # ciann5o1lo2",
+     "tailo": "thâu-ke # koh kāng gún--e # tsiânn o-ló",
+     "han": [
+      {
+       "t": "頭家"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "共阮"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "誠呵咾，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit4khuann2 # te5kang1 # koh4sng3e7ho5",
+     "tailo": "tsit khuánn # tê-kang # koh sǹg-ē-hô",
+     "han": [
+      {
+       "t": "這款茶工"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "算會和。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "採茶一棵又一棵，",
+    "再多的茶也採光，",
+    "老板對我很讚賞，",
+    "這種茶工最划算。"
+   ],
+   "src_no": 12,
+   "head": "坪林鄭郭芽",
+   "tape": "台北愛悅情歌10/15;00:51:40"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/032.jpg",
+  "trans": "TRANS/032.JPG"
+ }
+}

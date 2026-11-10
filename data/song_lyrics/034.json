@@ -1,0 +1,92 @@
+{
+ "no": "034",
+ "kind": "唸歌",
+ "title": "雙跤行到之一",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "雙跤行到之一",
+ "parts": [
+  {
+   "n": 1,
+   "title": "雙跤行到之一",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "sang1kha1 # kiann5kau3 # tua7loo7e7",
+     "tailo": "sang kha # kiânn kàu # tuā-lōo-ē",
+     "han": [
+      {
+       "t": "雙跤行到大路下，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "loo7pinn1 # ke7chu3 # si7niu5 # ge5",
+     "tailo": "lōo-pinn # kē tshù # sī niû # gê",
+     "han": [
+      {
+       "t": "路邊低厝是娘个，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5hiam5 # gun2ge5phainn2king5ke1",
+     "tailo": "bô hiâm # gún gê pháinn kîng-ke",
+     "han": [
+      {
+       "t": "無嫌阮个歹窮家，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "na7u7king1ker3o0 # lai5hong7te5",
+     "tailo": "nā ū king-kèr--o # lâi hōng-tê",
+     "han": [
+      {
+       "t": "若有經過"
+      },
+      {
+       "t": "呵",
+       "s": 1
+      },
+      {
+       "t": "來奉茶。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "雙腳走到大路下，",
+    "路邊矮房是我家，",
+    "不嫌我們窮人家，",
+    "若有經過來用茶。"
+   ],
+   "src_no": 14,
+   "head": "坪林俞郭棗"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/034.jpg",
+  "trans": "TRANS/034.JPG"
+ }
+}

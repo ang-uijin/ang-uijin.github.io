@@ -1,0 +1,90 @@
+{
+ "no": "048",
+ "kind": "唸歌",
+ "title": "烏鴉塊哮",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "烏鴉塊哮",
+ "parts": [
+  {
+   "n": 1,
+   "title": "烏鴉塊哮",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "oo1a1 # teh4hau2 # si7phai2tai7",
+     "tailo": "oo-a # teh háu # sī phái-tāi",
+     "han": [
+      {
+       "t": "烏鴉塊哮是歹代，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "huan1hu3a1ko1 # li2m7thang1lai5",
+     "tailo": "huan-hù a-ko # lí m̄-thang lâi",
+     "han": [
+      {
+       "t": "吩咐阿哥"
+      },
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "毋通來，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tng2khi0 # tiam2ting1 # tioh8kah4kat4chai2",
+     "tailo": "tńg--khi # tiám ting # tio̍h kah kat-tshái",
+     "han": [
+      {
+       "t": "轉去點燈"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "佮結綵，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sann1lit8 # na7ping5an1 # ciah4koh4lai5",
+     "tailo": "sann li̍t # nā pîng-an # tsiah-koh lâi",
+     "han": [
+      {
+       "t": "三日"
+      },
+      {
+       "t": "若",
+       "s": 1
+      },
+      {
+       "t": "平安才閣來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "烏鴉啼叫是惡兆，",
+    "吩咐阿哥不可來，",
+    "回去張燈又結綵，",
+    "三日平安你才來。"
+   ],
+   "src_no": 9,
+   "head": "三峽范金蓮",
+   "tape": "相褒歌N0.11;00:04:20"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/048.jpg",
+  "trans": "TRANS/048.JPG"
+ }
+}

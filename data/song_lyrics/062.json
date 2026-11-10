@@ -1,0 +1,98 @@
+{
+ "no": "062",
+ "kind": "唸歌",
+ "title": "竹筍離塗",
+ "source": "1-103深坑唸歌.doc",
+ "site_title": "竹筍離塗",
+ "parts": [
+  {
+   "n": 1,
+   "title": "竹筍離塗",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "tik4sun2 # li7thoo5 # bak8bak8 kua1",
+     "tailo": "tik-sún # lī thôo # ba̍k-ba̍k kua",
+     "han": [
+      {
+       "t": "竹筍離塗目目柯，"
+      }
+     ],
+     "tlpa_src": "tik4sun2#li7thoo5#bak8x kua1"
+    },
+    {
+     "kind": "line",
+     "tlpa": "pue1ling5a2 # kiat4ci2 # koh4sing5kau1bua1",
+     "tailo": "pue-lîng-á # kiat-tsí # koh sîng kau-bua",
+     "han": [
+      {
+       "t": "菠稜"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "結子"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "宬溝茉，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1kun1a2 # bo5ai3niu5 # tioh4suah4",
+     "tailo": "a-kun-á # bô ài niû # tioh suah",
+     "han": [
+      {
+       "t": "阿君"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "無愛娘著煞，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "m7thang1chut4chiu2 # koh4kang7gun2thua1",
+     "tailo": "m̄-thang tshut-tshiú # koh kāng gún thua",
+     "han": [
+      {
+       "t": "毋通出手"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "共阮拖。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "竹筍離土節節老，",
+    "菠菜結子像溝茉，",
+    "郎君不愛就算了，",
+    "不要出手來拉我。"
+   ],
+   "src_no": 5,
+   "head": "深坑林清盛",
+   "tape": "相褒歌N0.1;1:15:45"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/062.jpg",
+  "trans": "TRANS/062.JPG"
+ }
+}

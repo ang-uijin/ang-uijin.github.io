@@ -1,0 +1,103 @@
+{
+ "no": "049",
+ "kind": "唸歌",
+ "title": "大石也著",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "大石也著",
+ "parts": [
+  {
+   "n": 1,
+   "title": "大石也著",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "tua7cioh8 # ia7tioh8cioh8a2 # lai5king7",
+     "tailo": "tuā tsio̍h # iā tio̍h tsio̍h-á # lâi kīng",
+     "han": [
+      {
+       "t": "大石也著石仔"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "揵。"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gun2niu5a2 # ia7tioh8ko1 # khan1sing5",
+     "tailo": "gún niû-á # iā tio̍h ko # khan-sîng",
+     "han": [
+      {
+       "t": "阮娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "也著哥牽成。"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ah4khan1sing5 # gun2niu5 # na7chut4cing3",
+     "tailo": "ah khan-sîng # gún niû # nā tshut-tsìng",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "牽成阮娘若出眾。"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ui3ko1 # e5lin5cing5 # tap4tai7sing1",
+     "tailo": "uì ko # ê lîn-tsîng # tap tāi-sing",
+     "han": [
+      {
+       "t": "唯哥"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "人情答代先。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "大石也得小石撐，",
+    "姑娘也須哥牽成",
+    "來日姑娘若有成",
+    "得先報答哥人情。"
+   ],
+   "src_no": 10,
+   "head": "三峽范金蓮",
+   "tape": "范金蓮音檔"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/049.jpg",
+  "trans": "TRANS/049.JPG"
+ }
+}

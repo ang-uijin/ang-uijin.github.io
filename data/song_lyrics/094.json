@@ -1,0 +1,177 @@
+{
+ "no": "094",
+ "kind": "唸歌",
+ "title": "阿娘生媠",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "阿娘生婿",
+ "parts": [
+  {
+   "n": 1,
+   "title": "阿娘生媠",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "a1niu5 # li2o0senn1sui2 # si7ho2the2keh4o0",
+     "tailo": "a-niû # lí--o senn suí # sī hó thé-keh--o",
+     "han": [
+      {
+       "t": "阿娘"
+      },
+      {
+       "t": "汝噢",
+       "s": 1
+      },
+      {
+       "t": "生媠"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "好體格"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bak8ciu1lo0 # ting5sun5e0 # bin7bah4 # peh8e0",
+     "tailo": "ba̍k-tsiu--lo # tîng-sûn--e # bīn-bah # pe̍h--e",
+     "han": [
+      {
+       "t": "目睭"
+      },
+      {
+       "t": "囉",
+       "s": 1
+      },
+      {
+       "t": "重巡"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "面肉白"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3tioh8li2kiann5ua2 # lai5ke1khuann3 siong5 a0 se3o0",
+     "tailo": "khuànn-tio̍h lí kiânn uá # lâi ke khuànn siông--a sè--o",
+     "han": [
+      {
+       "t": "看著"
+      },
+      {
+       "t": "汝",
+       "s": 1
+      },
+      {
+       "t": "行倚"
+      },
+      {
+       "t": "來加",
+       "s": 1
+      },
+      {
+       "t": "看詳"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "細"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ke2iann3 # lai5mui7loo7e0 # kah4tho2te5 e0",
+     "tailo": "ké-iànn # lâi muī-lōo--e # kah thó tê--e",
+     "han": [
+      {
+       "t": "假佯"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "問路"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "佮討茶"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "姑娘漂亮好身材，",
+    "有雙眼皮臉又白，",
+    "看你走來好端詳，",
+    "假裝問路討茶喝。"
+   ],
+   "src_no": 7,
+   "head": "金山徐江月",
+   "tape": "台北愛悅情歌N0.2;00:25:35"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.1"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/094.jpg",
+  "trans": "TRANS/094.JPG"
+ }
+}

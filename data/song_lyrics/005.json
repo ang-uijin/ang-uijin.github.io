@@ -1,0 +1,132 @@
+{
+ "no": "005",
+ "kind": "唸歌",
+ "title": "六月無菜",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "六月無菜",
+ "parts": [
+  {
+   "n": 1,
+   "title": "六月無菜",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "lak8gueh8 # bo5chai3oo0 # ing7chai3tau7",
+     "tailo": "la̍k-gue̍h # bô tshài--oo # īng tshài-tāu",
+     "han": [
+      {
+       "t": "六月無菜"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "用菜豆，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ci2chai3 # lai5bo5phang1a0 # khian3suan3thau5",
+     "tailo": "tsí tshài # lâi bô phang--a # khiàn suàn-thâu",
+     "han": [
+      {
+       "t": "煮菜"
+      },
+      {
+       "t": "來",
+       "s": 1
+      },
+      {
+       "t": "無芳"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "khian3",
+       "rom": 1,
+       "tl": "khiàn"
+      },
+      {
+       "t": "蒜頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bueh4khi3niu5chu3oo0 # be7tit4kau3",
+     "tailo": "bueh khì niû tshù--oo # bē-tit kàu",
+     "han": [
+      {
+       "t": "卜去娘厝"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "袂得到，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "beh4kio3o0 # sim1kuann1a0 # siunn7niu5 # e5tau1",
+     "tailo": "beh kiò--o # sim-kuann--a # siūnn niû # ê tau",
+     "han": [
+      {
+       "t": "卜叫"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "想娘"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "兜。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "六月無菜用菜豆，",
+    "煮菜不香用蒜頭，",
+    "想去你家得不到，",
+    "卻叫心肝想你家。"
+   ],
+   "src_no": 5,
+   "head": "雙溪簡金獅",
+   "tape": "台北愛悅情歌N0.1;00:00:06"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/005.jpg",
+  "trans": "TRANS/005.JPG"
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "no": "015",
+ "kind": "唸歌",
+ "title": "日頭若暗",
+ "source": "1-106平溪唸歌.doc",
+ "site_title": "日頭若暗",
+ "parts": [
+  {
+   "n": 1,
+   "title": "日頭若暗",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "jit8thau5 # na7 am3e0 # tioh8 huan5ho2a0",
+     "tailo": "ji̍t-thâu # nā àm--e # tio̍h huân-hó--a",
+     "han": [
+      {
+       "t": "日頭若暗"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "著煩惱"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2 huan5ho2 bo5loo7 # si7 thang1 thit4tho5o0",
+     "tailo": "guá huân-hó bô-lōo # sī thang thit-thô--o",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "煩惱無路"
+      },
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "通𨑨迌"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2 uat8cing5 # uat8au7 e0 # khuann3 bo5 a0ko1",
+     "tailo": "guá ua̍t tsîng # ua̍t āu--e # khuànn-bô--a ko",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "越前越後"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "看無"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "哥，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2 sim1kuann1e0 # chin1chiunn7her2 # terh4 toh8",
+     "tailo": "guá sim-kuann--e # tshin-tshiūnn hér # terh to̍h",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "親像火塊著。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "太陽下山就煩惱，",
+    "煩惱無處好遊玩，",
+    {
+     "segs": [
+      {
+       "t": "頭",
+       "s": 1
+      },
+      {
+       "t": "轉來轉去不見哥，"
+      }
+     ]
+    },
+    "心裡好比火在燒。"
+   ],
+   "src_no": 1,
+   "head": "平溪吳蜜台北愛悅情歌N0.1",
+   "tape": "00:00: 03"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E003",
+   "to": "𨑨",
+   "why": "class 對照表（FA43）；𨑨迌 thit4tho5",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E004",
+   "to": "迌",
+   "why": "class 對照表（FA44）；𨑨迌 thit4tho5",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E052",
+   "to": "著",
+   "why": "教育部用字（Siniong 11-11 定）；原造字火字旁、音 toh8（火燒）",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/015.jpg",
+  "trans": "TRANS/015.JPG"
+ }
+}

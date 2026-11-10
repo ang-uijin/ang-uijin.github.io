@@ -1,0 +1,109 @@
+{
+ "no": "103",
+ "kind": "唸歌",
+ "title": "夏茶挽好",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "夏茶挽好",
+ "parts": [
+  {
+   "n": 1,
+   "title": "夏茶挽好",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "he7te5 # ban2ho2 # tioh8beh4tng2to3",
+     "tailo": "hē-tê # bán-hó # tio̍h beh tńg-tò",
+     "han": [
+      {
+       "t": "夏茶挽好"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "卜轉倒，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cit8siann1ping5iu2 # cit8siann1ko1o0",
+     "tailo": "tsi̍t siann pîng-iú # tsi̍t siann ko--o",
+     "han": [
+      {
+       "t": "一聲朋友一聲哥"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ],
+     "tlpa_src": "cit8siann1ping5iu2#cit8siann1ko1 ⏎ o0"
+    },
+    {
+     "kind": "line",
+     "tlpa": "tan2thai7ni5bue2na7 # ngia5sing3bo2",
+     "tailo": "tán-thāi nî-bué nā # ngiâ Sìng-bó",
+     "han": [
+      {
+       "t": "等待年尾"
+      },
+      {
+       "t": "若",
+       "s": 1
+      },
+      {
+       "t": "迎聖母，"
+      }
+     ],
+     "tlpa_src": "tan2thai7ni5bue2na7#ngia5sing3 ⏎ bo2"
+    },
+    {
+     "kind": "line",
+     "tlpa": "ping5iu2ci2mai7 # lai5chit4tho5",
+     "tailo": "pîng-iú tsí-māi # lâi tshit-thô",
+     "han": [
+      {
+       "t": "朋友姊妹來𨑨迌。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "夏茶採完要回家，",
+    "一聲朋友一聲哥，",
+    "等待年尾迎聖母，",
+    "朋友姊妹來一遊。"
+   ],
+   "src_no": 16,
+   "head": "金山李德鐘",
+   "tape": "相褒歌N0.8;00:12:05"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E003",
+   "to": "𨑨",
+   "why": "class 對照表（FA43）；𨑨迌 thit4tho5",
+   "part": 1,
+   "at": "1.4"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E004",
+   "to": "迌",
+   "why": "class 對照表（FA44）；𨑨迌 thit4tho5",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/103.jpg",
+  "trans": "TRANS/103.JPG"
+ }
+}

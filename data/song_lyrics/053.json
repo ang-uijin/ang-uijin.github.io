@@ -1,0 +1,92 @@
+{
+ "no": "053",
+ "kind": "唸歌",
+ "title": "目睭掠兄",
+ "source": "1-102石碇唸歌.doc",
+ "site_title": "目睭掠兄",
+ "parts": [
+  {
+   "n": 1,
+   "title": "目睭掠兄",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "bak8ciu1 e0 # gua2liah8hiann1 oo0 # kim1kim1khuann3",
+     "tailo": "ba̍k-tsiu--e # guá lia̍h hiann--oo # kim-kim-khuànn",
+     "han": [
+      {
+       "t": "目睭"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "掠兄"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "金金看，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khiau2sin5 # tong7gun2 # e5 sim1kuann1",
+     "tailo": "khiáu-sîn # tōng gún # ê sim-kuann",
+     "han": [
+      {
+       "t": "巧神動阮个心肝，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "e7tit4kah4 lir2 # gua2 # lai5cue3phuann7",
+     "tailo": "ē-tit kah lír # guá # lâi tsuè-phuānn",
+     "han": [
+      {
+       "t": "會得佮汝我來做伴，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ng3bang7siong1ho2 # ku2kau1puann5",
+     "tailo": "ǹg-bāng siong-hó # kú kau-puânn",
+     "han": [
+      {
+       "t": "向望相好久交盤。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "眼神釘兄不轉睛，",
+    "巧神打動我的心，",
+    "能得你我來相伴，",
+    "企望相好永不離。"
+   ],
+   "src_no": 2,
+   "head": "石碇烏貓娘",
+   "tape": "1-102ooniauniu"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/053.jpg",
+  "trans": "TRANS/053.JPG"
+ }
+}

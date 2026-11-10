@@ -1,0 +1,155 @@
+{
+ "no": "020",
+ "kind": "唸歌",
+ "title": "茶山遠遠",
+ "source": "1-106平溪唸歌.doc",
+ "site_title": "茶山遠遠",
+ "parts": [
+  {
+   "n": 1,
+   "title": "茶山遠遠",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "te5suann1 # kong2hng7hng7 # khuann3niu5 # ge5a0hong1 king2",
+     "tailo": "tê-suann # kóng hn̄g-hn̄g # khuànn niû # gê--a hong-kíng",
+     "han": [
+      {
+       "t": "茶山"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "遠遠"
+      },
+      {
+       "t": "看",
+       "s": 1
+      },
+      {
+       "t": "娘"
+      },
+      {
+       "t": "个啊",
+       "s": 1
+      },
+      {
+       "t": "風景，"
+      }
+     ],
+     "tlpa_src": "te5suann1#kong2hng7x # khuann3niu5# ge5a0 ⏎ hong1 king2"
+    },
+    {
+     "kind": "line",
+     "tlpa": "ciok4lir2oo0 # chun1a0hong1 # it4phian3cing5",
+     "tailo": "tsiok lír--oo # tshun--a hong # it-phiàn tsîng",
+     "han": [
+      {
+       "t": "祝汝"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "春"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "風一片情，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "niu5a2 # lir2ku3tau7e0 # cia1gau5ing7a0",
+     "tailo": "niû-á # lír kù-tāu--e # tsia gâu īng--a",
+     "han": [
+      {
+       "t": "娘"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "汝句豆"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "遮爻用"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tak8a0ku3lai5liam7 # to1ciah4ching1",
+     "tailo": "ta̍k--a kù lâi liām # to tsiah tshing",
+     "han": [
+      {
+       "t": "逐"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "句來唸都遮清。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    {
+     "segs": [
+      {
+       "t": "茶山遠遠看"
+      },
+      {
+       "t": "姑娘家",
+       "s": 1
+      },
+      {
+       "t": "風景，"
+      }
+     ]
+    },
+    "祝你春風一片情，",
+    "用詞遣字妳真行，",
+    "每句唸來都很清。"
+   ],
+   "src_no": 6,
+   "head": "平溪葉信行",
+   "tape": "00:10:35"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.1"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/020.jpg",
+  "trans": "TRANS/020.JPG"
+ }
+}

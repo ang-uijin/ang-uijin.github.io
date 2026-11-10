@@ -1,0 +1,135 @@
+{
+ "no": "016",
+ "kind": "唸歌",
+ "title": "四月大蟬",
+ "source": "1-106平溪唸歌.doc",
+ "site_title": "四月大蟬",
+ "parts": [
+  {
+   "n": 1,
+   "title": "四月大蟬",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "si3gerh0tua7sian5 # tioh8hau2ki1ki1 o0",
+     "tailo": "sì--gerh tuā siân # tio̍h háu ki-ki--o",
+     "han": [
+      {
+       "t": "四月大蟬"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "哮吱"
+      },
+      {
+       "t": "吱",
+       "x": 1
+      },
+      {
+       "t": "噢",
+       "s": 1
+      }
+     ],
+     "tlpa_src": "si3gerh0tua7sian5#tioh8hau2ki1x o0"
+    },
+    {
+     "kind": "line",
+     "tlpa": "kha1tah8lang5ng2 # tioh8tiong1tau3si5",
+     "tailo": "kha ta̍h lâng-ńg # tio̍h tiong-tàu-sî",
+     "han": [
+      {
+       "t": "跤踏人影"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "中晝時，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "si7kun1a2 # u7cing5e0 # kah4u7gi7a0",
+     "tailo": "sī kun-á # ū-tsîng--e # kah ū-gī--a",
+     "han": [
+      {
+       "t": "是",
+       "s": 1
+      },
+      {
+       "t": "君仔有情"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "佮有義"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "koh4m7si7ko1sui2 # tioh8niu5 # ai3tih8",
+     "tailo": "koh m̄ sī ko suí # tio̍h niû # ài ti̍h",
+     "han": [
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "毋是哥媠"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "娘愛挃。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "四月大蟬聲吱吱，",
+    "不見人影中午時，",
+    "郎君有情又有義，",
+    "非因郎俊娘中意。"
+   ],
+   "src_no": 2,
+   "head": "平溪吳蜜台北愛悅情歌N0.1",
+   "tape": "00:00:50"
+  }
+ ],
+ "notes": [
+  {
+   "type": "疊字寫開",
+   "text": "吱x → 吱吱",
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/016.jpg",
+  "trans": "TRANS/016.JPG"
+ }
+}

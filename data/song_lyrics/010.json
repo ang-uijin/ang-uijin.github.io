@@ -1,0 +1,109 @@
+{
+ "no": "010",
+ "kind": "唸歌",
+ "title": "水錦開花",
+ "source": "1-201雙溪唸歌.doc",
+ "site_title": "水錦開花",
+ "parts": [
+  {
+   "n": 1,
+   "title": "水錦開花",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gua2cui2gim2 # khui1hue1 # peh8pho1pho1",
+     "tailo": "guá tsuí-gím # khui-hue # pe̍h-pho-pho",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "水錦開花白波波，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2chiu7m5e0 # khui1hue1a0 # keh4me5bo5",
+     "tailo": "guá tshiū-m̂--e # khui-hue--a # keh-mê bô",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "樹梅"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "開花"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "隔冥無，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2cin7tiong1a0 # cit8kun1a0 # phue3cit8so2",
+     "tailo": "guá tsīn-tiong--a # tsi̍t kun--a # phuè tsi̍t só",
+     "han": [
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "盡忠"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "一君"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "配一嫂，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chun1giah8 # hoo7niu5 # ing1si7bo5",
+     "tailo": "tshun-gia̍h # hōo niû # ing sī bô",
+     "han": [
+      {
+       "t": "偆額予娘應是無。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "水錦開花白波波，",
+    "樹梅開花隔夜落，",
+    "盡忠一君配一嫂，",
+    "卻無餘額可給你。"
+   ],
+   "src_no": 10,
+   "head": "雙溪連阿抾",
+   "tape": "台北愛悅情歌N0.1;00:06:45"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/010.jpg",
+  "trans": "TRANS/010.JPG"
+ }
+}

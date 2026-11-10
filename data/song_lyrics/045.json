@@ -1,0 +1,100 @@
+{
+ "no": "045",
+ "kind": "唸歌",
+ "title": "雞翁相扑",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "雞翁相扑",
+ "parts": [
+  {
+   "n": 1,
+   "title": "雞翁相扑",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kere1ang1 # sio1phah4 # chui3 # tu2 chui3",
+     "tailo": "kere-ang # sio-phah # tshuì # tú tshuì",
+     "han": [
+      {
+       "t": "雞翁相扑喙拄喙，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "niau2chir2 # peh4 piah4 # bian2 ing7 thui1",
+     "tailo": "niáu-tshír # peh piah # bián īng thui",
+     "han": [
+      {
+       "t": "老鼠𬦰壁免用梯，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1kun1 # sinn1 ian5 # bian2 sinn1 sui2",
+     "tailo": "a-kun # sinn iân # bián sinn suí",
+     "han": [
+      {
+       "t": "阿君生緣免生媠，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "sinn1 sui2 # bo5 ian5 # ma cin1 khik4khui1",
+     "tailo": "sinn suí # bô-iân # ma tsin khik-khui",
+     "han": [
+      {
+       "t": "生媠無緣"
+      },
+      {
+       "t": "嘛",
+       "s": 1
+      },
+      {
+       "t": "真喫虧。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "公雞相咬嘴對嘴，",
+    "老鼠爬壁不用梯，",
+    "郎君生緣不必俊，",
+    "英俊無緣也吃虧。"
+   ],
+   "src_no": 5,
+   "head": "三峽王秦玉燕"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E01A",
+   "to": "𬦰",
+   "why": "class 對照表（FA5A）；音 peh4",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.3"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00C",
+   "to": "媠",
+   "why": "class 對照表（FA4C）；音 sui2",
+   "part": 1,
+   "at": "1.4"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/045.jpg",
+  "trans": "TRANS/045.JPG"
+ }
+}

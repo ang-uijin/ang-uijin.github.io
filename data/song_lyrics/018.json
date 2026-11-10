@@ -1,0 +1,117 @@
+{
+ "no": "018",
+ "kind": "唸歌",
+ "title": "天頂落雨",
+ "source": "1-106平溪唸歌.doc",
+ "site_title": "天頂落雨",
+ "parts": [
+  {
+   "n": 1,
+   "title": "天頂落雨",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "thinn1ting2 # loh8hoo7e0 # chap8chap8 tih4",
+     "tailo": "thinn-tíng # lo̍h-hōo--e # tsha̍p-tsha̍p-tih",
+     "han": [
+      {
+       "t": "天頂落雨"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "霎霎滴，"
+      }
+     ],
+     "tlpa_src": "thinn1ting2# loh8hoo7e0# chap8x tih4"
+    },
+    {
+     "kind": "line",
+     "tlpa": "khuann3tih4 tioh8 kun1sin1 # tioh8 ling2 ki1ki1",
+     "tailo": "khuànn tih-tio̍h kun sin # tio̍h líng-ki-ki",
+     "han": [
+      {
+       "t": "看",
+       "s": 1
+      },
+      {
+       "t": "滴著君身"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "冷吱吱，"
+      }
+     ],
+     "tlpa_src": "khuann3tih4 tioh8 kun1sin1# tioh8 ling2 ki1x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "uann7cere3lioh4 ca2cian5na0 # cap8sann1si3",
+     "tailo": "uānn-tserè lioh tsá-tsiân--na # tsa̍p-sann-sì",
+     "han": [
+      {
+       "t": "換做"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "早前"
+      },
+      {
+       "t": "哪",
+       "s": 1
+      },
+      {
+       "t": "十三四，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "chiu2 # kiah8 hoo7suann3 a0 # khir3 jia1 i1",
+     "tailo": "tshiú # kia̍h hōo-suànn--a # khìr jia i",
+     "han": [
+      {
+       "t": "手舉"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "雨傘"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "去遮伊。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "天上下雨霎霎滴，",
+    "滴到哥身冷吱吱，",
+    "要是早前十三四，",
+    "手拿雨傘去遮伊。"
+   ],
+   "src_no": 4,
+   "head": "平溪吳蜜台北愛悅情歌N0.1",
+   "tape": "00:02:45"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/018.jpg",
+  "trans": "TRANS/018.JPG"
+ }
+}

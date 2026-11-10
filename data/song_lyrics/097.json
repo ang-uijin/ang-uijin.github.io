@@ -1,0 +1,159 @@
+{
+ "no": "097",
+ "kind": "唸歌",
+ "title": "手捾茶籗",
+ "source": "1-202金山唸歌.doc",
+ "site_title": "手*茶笛",
+ "parts": [
+  {
+   "n": 1,
+   "title": "手捾茶籗",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "chiu2 # kuann7te5khah4e0 # lak8kak4e0ciam1",
+     "tailo": "tshiú # kuānn tê-khah--e # la̍k-kak--e tsiam",
+     "han": [
+      {
+       "t": "手捾茶籗"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "六角"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "尖，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai5khi3oo0 # te5suann1e0 # ban2te5chiam1",
+     "tailo": "lâi-khì--oo # tê-suann--e # bán tê-tshiam",
+     "han": [
+      {
+       "t": "來去"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "茶山"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "挽茶簽，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "te5inn2 # iu3iu3 oo0 # bong2lai5e0liam3",
+     "tailo": "tê-ínn # iù-iù--oo # bóng lâi--e liàm",
+     "han": [
+      {
+       "t": "茶穎幼幼"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "罔來"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "捻，"
+      }
+     ],
+     "tlpa_src": "te5inn2#iu3x oo0#bong2lai5e0liam3"
+    },
+    {
+     "kind": "line",
+     "tlpa": "a1kun1e0 # than3bi2e0 # niu5 # than3iam5",
+     "tailo": "a-kun--e # thàn bí--e # niû # thàn iâm",
+     "han": [
+      {
+       "t": "阿君"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "趁米"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "娘趁鹽。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "手提茶籠六角尖，",
+    "要去茶山採茶簽，",
+    "茶心嫩嫩且來拈，",
+    "郎君賺米我賺鹽。"
+   ],
+   "src_no": 10,
+   "head": "金山李梨",
+   "tape": "台北愛悅情歌N0.2;00:22:35"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E00E",
+   "to": "捾",
+   "why": "class 對照表（FA4E）；音 kuann7",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "where": "題目",
+   "part": 1
+  },
+  {
+   "type": "造字",
+   "pua": "U+E00E",
+   "to": "捾",
+   "why": "class 對照表（FA4E）；音 kuann7",
+   "part": 1,
+   "at": "1.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E03D",
+   "to": "籗",
+   "why": "教育部用字（Siniong 11-11 定）；原造字竹字頭、音 khah4（茶籗、捾籗）",
+   "part": 1,
+   "at": "1.1"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/097.jpg",
+  "trans": "TRANS/097.JPG"
+ }
+}

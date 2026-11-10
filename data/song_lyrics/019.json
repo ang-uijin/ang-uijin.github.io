@@ -1,0 +1,118 @@
+{
+ "no": "019",
+ "kind": "唸歌",
+ "title": "頂垵過了",
+ "source": "1-106平溪唸歌.doc",
+ "site_title": "頂按過了",
+ "parts": [
+  {
+   "n": 1,
+   "title": "頂垵過了",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ting2uann1 # kong2ker3liau2 # tioh8 ker3e7uann1",
+     "tailo": "tíng-uann # kóng kèr liáu # tio̍h kèr ē-uann",
+     "han": [
+      {
+       "t": "頂垵"
+      },
+      {
+       "t": "講",
+       "s": 1
+      },
+      {
+       "t": "過了"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "過下垵"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "tui3bin7o0 # u7lang5 # terh4loh8nua5",
+     "tailo": "tuì-bīn--o # ū lâng # terh lo̍h nuâ",
+     "han": [
+      {
+       "t": "對面"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "有人塊落攔"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ping5 a0iu2 a0 # ci2ber7 # tioh8khia7khah4ua2",
+     "tailo": "pîng--a iú--a # tsí-bēr # tio̍h khiā khah uá",
+     "han": [
+      {
+       "t": "朋"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "友"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "姊妹"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "徛卡倚"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "ing5ing5o0 # thiann1gun2terh4liam7kua1",
+     "tailo": "îng-îng--o # thiann gún terh liām-kua",
+     "han": [
+      {
+       "t": "閒閒"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "聽阮塊唸歌"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "上垵過了過下垵，",
+    "對面有人在阻攔，",
+    "朋友姊妹向前站，",
+    "閑來聽我在唱歌。"
+   ],
+   "src_no": 5,
+   "head": "平溪葉信行",
+   "tape": "00:09:17"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/019.jpg",
+  "trans": "TRANS/019.JPG"
+ }
+}

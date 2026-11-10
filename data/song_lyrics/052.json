@@ -1,0 +1,118 @@
+{
+ "no": "052",
+ "kind": "唸歌",
+ "title": "歸暝無睏",
+ "source": "1-102石碇唸歌.doc",
+ "site_title": "歸暝無睏",
+ "parts": [
+  {
+   "n": 1,
+   "title": "歸暝無睏",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "kui1mi5 # gua2bo5khun3e0 # kah4puann3chinn2a0",
+     "tailo": "kui mî # guá bô khùn--e # kah puànn-tshínn--a",
+     "han": [
+      {
+       "t": "歸暝"
+      },
+      {
+       "t": "我",
+       "s": 1
+      },
+      {
+       "t": "無睏"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "佮半醒"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "gua2niu5e0 # phuann7kun1 # ker3goo7kinn1",
+     "tailo": "guá niû--e # phuānn kun # kèr gōo-kinn",
+     "han": [
+      {
+       "t": "我娘"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "伴君過五更，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5gi5lan2 # kiann1lit8oo0 e7sio1kinn3 a0",
+     "tailo": "bô-gî lán # kiann-li̍t--oo ē sio-kìnn--a",
+     "han": [
+      {
+       "t": "無疑"
+      },
+      {
+       "t": "咱",
+       "s": 1
+      },
+      {
+       "t": "今日"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "會相見"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khoo2pi2 # chng1chiu2 # bong1tioh8thinn1",
+     "tailo": "khóo-pí # tshng-tshiú # bong-tio̍h thinn",
+     "han": [
+      {
+       "t": "可比伸手摸著天。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "一夜不睡只半醒，",
+    "姑娘伴君過五更，",
+    "不料今日能相見，",
+    "好比伸手摸著天。"
+   ],
+   "src_no": 1,
+   "head": "石碇烏貓娘",
+   "tape": "1-102ooniauniu"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/052.jpg",
+  "trans": "TRANS/052.JPG"
+ }
+}

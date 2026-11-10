@@ -1,0 +1,92 @@
+{
+ "no": "047",
+ "kind": "唸歌",
+ "title": "若有茶仔",
+ "source": "1-108三峽唸歌.doc",
+ "site_title": "若有茶仔",
+ "parts": [
+  {
+   "n": 1,
+   "title": "若有茶仔",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "na7u7 te5a2 # thang1lai5 ban2",
+     "tailo": "nā ū tê-á # thang lâi bán",
+     "han": [
+      {
+       "t": "若有茶仔通來挽，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bian2 ing7 a1kun1 # e5 lan5san1",
+     "tailo": "bián īng a-kun # ê lân-san",
+     "han": [
+      {
+       "t": "免用阿君个零星，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "cher7 i1 theh8cinn5 # toh8 ciap8ciap8 an7",
+     "tailo": "tshēr i the̍h tsînn # to̍h tsia̍p-tsia̍p ān",
+     "han": [
+      {
+       "t": "揣伊提錢"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "習習限，"
+      }
+     ],
+     "tlpa_src": "cher7 i1 theh8cinn5# toh8 ciap8x an7"
+    },
+    {
+     "kind": "line",
+     "tlpa": "an7 berh4 thih4chiu7 # ciah4 khui1 boo2tan1",
+     "tailo": "ān berh thih-tshiū # tsiah khui bóo-tan",
+     "han": [
+      {
+       "t": "限卜鐵樹"
+      },
+      {
+       "t": "才",
+       "s": 1
+      },
+      {
+       "t": "開牡丹。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "若有採茶可來賺，",
+    "不要郎君的零錢，",
+    "找他拿錢老是拖，",
+    "拖到鐵樹開牡丹。"
+   ],
+   "src_no": 7,
+   "head": "三峽王秦玉燕"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/047.jpg",
+  "trans": "TRANS/047.JPG"
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "no": "028",
+ "kind": "唸歌",
+ "title": "六十甲子",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "六十甲子",
+ "parts": [
+  {
+   "n": 1,
+   "title": "六十甲子",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "gun2lak8cap8kah4ci2o0 # to1ciah8 thau3oo0，",
+     "tailo": "gún la̍k-tsa̍p kah-tsí--o # to tsia̍h-thàu--oo，",
+     "han": [
+      {
+       "t": "阮",
+       "s": 1
+      },
+      {
+       "t": "六十甲子"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "都食透"
+      },
+      {
+       "t": "噢",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lai7gua7 kan1a2sun1 # long2 chut4e0thau5，",
+     "tailo": "lāi-guā kan-á-sun # lóng tshut--e thâu，",
+     "han": [
+      {
+       "t": "內外干"
+      },
+      {
+       "t": "仔",
+       "s": 1
+      },
+      {
+       "t": "孫攏出"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "頭，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "lang5 # ciah8 cue7 her3 # tioh8 u7iann2 lau7 a0，",
+     "tailo": "lâng # tsia̍h tsuē hèr # tio̍h ū-iánn lāu--a，",
+     "han": [
+      {
+       "t": "人食儕歲"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "有影老"
+      },
+      {
+       "t": "啊",
+       "s": 1
+      },
+      {
+       "t": "，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kong1ing1 # u7 khir3 # tioh8 bo5 hue5thau5。",
+     "tailo": "kong-ing # ū khìr # tio̍h bô huê-thâu。",
+     "han": [
+      {
+       "t": "光陰有去"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "無回頭。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "六十甲子都過了，",
+    "內外曾孫已出頭，",
+    "歲數一多真正老，",
+    "光陰一去不回頭。"
+   ],
+   "src_no": 8,
+   "head": "坪林鄭定興",
+   "tape": "台北愛悅情歌10/15;00:44:55"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/028.jpg",
+  "trans": "TRANS/028.JPG"
+ }
+}

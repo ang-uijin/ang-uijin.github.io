@@ -1,0 +1,211 @@
+{
+ "no": "216",
+ "kind": "對唱",
+ "title": "勸翁繳毋通(女)、翁婿卜行(男)",
+ "source": "2-103深坑褒歌.doc",
+ "site_title": "勸翁繳毋通(女)、翁婿卜行(男)。",
+ "parts": [
+  {
+   "n": 1,
+   "title": "勸翁繳毋通",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "khng3ang1 # kiau2a2e0 # m7thang1puah8",
+     "tailo": "khǹg ang # kiáu-á--e # m̄-thang pua̍h",
+     "han": [
+      {
+       "t": "勸翁繳仔"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "毋通跋，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "puah8liau2 # e5sim1kuann1 # ger5sua7sua7",
+     "tailo": "pua̍h liáu # ê sim-kuann # gêr-suā-suā",
+     "han": [
+      {
+       "t": "博了"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "心肝"
+      },
+      {
+       "t": "ger5sua7sua7",
+       "rom": 1,
+       "tl": "gêr-suā-suā",
+       "src": "ger5sua7x"
+      }
+     ],
+     "tlpa_src": "puah8liau2#e5sim1kuann1#ger5sua7x"
+    },
+    {
+     "kind": "line",
+     "tlpa": "iah4ciong5kim1i2hio7e0 # na7kai2suah4",
+     "tailo": "iah tsiông kim í-hiō--e # nā kái-suah",
+     "han": [
+      {
+       "t": "益",
+       "s": 1
+      },
+      {
+       "t": "從今以後"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "若改煞，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khun5khoo2 # liap8cik4e0 # e7khuinn3uah8",
+     "tailo": "khûn-khóo # lia̍p-tsik--e # ē khuìnn-ua̍h",
+     "han": [
+      {
+       "t": "勤苦粒積"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "會快活。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "勸君千萬別睹博，",
+    "睹後心裡不輕鬆，",
+    "從今以後戒得掉，",
+    "勤苦積畜將富饒。"
+   ],
+   "src_no": 4,
+   "head": "深坑黃金發(扮男女)褒歌",
+   "role": "女",
+   "tape": "相褒歌N0.2;00:00:20"
+  },
+  {
+   "n": 2,
+   "title": "翁婿卜行",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "ang1sai3 # berh4kiann5 # e5boo2 # ting1ling5",
+     "tailo": "ang-sài # berh kiânn # ê bóo # ting-lîng",
+     "han": [
+      {
+       "t": "翁婿卜行"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "某叮嚀，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "khng3ang1 # tioh8m7thang1jip8kiau2king1",
+     "tailo": "khǹg ang # tio̍h m̄-thang ji̍p kiáu-king",
+     "han": [
+      {
+       "t": "勸翁"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "毋通入繳間，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "siunn7berh4iann5kiau2e0 # pun1boo2ing7",
+     "tailo": "siūnn-berh iânn kiáu--e # pun bóo īng",
+     "han": [
+      {
+       "t": "想卜嬴繳"
+      },
+      {
+       "t": "个",
+       "s": 1
+      },
+      {
+       "t": "分某用，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5gi5 # su1kiau2 # e0boo2tau3hing5",
+     "tailo": "bô-gî # su kiáu # --e bóo tàu hîng",
+     "han": [
+      {
+       "t": "無疑輸繳某鬥還。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "丈夫要走妻叮嚀，",
+    "勸君不可進賭場，",
+    "想要嬴錢分妻用，",
+    "不了輸錢妻幫還。"
+   ],
+   "src_no": 5,
+   "head": "深坑黃金發(扮男女)褒歌",
+   "role": "男",
+   "tape": "相褒歌N0.1;00:00:40"
+  }
+ ],
+ "notes": [
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 1,
+   "at": "1.2"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 2,
+   "at": "2.1"
+  },
+  {
+   "type": "造字",
+   "pua": "U+E048",
+   "to": "个",
+   "why": "class 對照表（Big5 造字 FAAA）",
+   "part": 2,
+   "at": "2.3"
+  }
+ ],
+ "img": {
+  "text": "TEXTS/216.jpg",
+  "trans": "TRANS/216.JPG"
+ }
+}

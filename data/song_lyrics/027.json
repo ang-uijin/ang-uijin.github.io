@@ -1,0 +1,104 @@
+{
+ "no": "027",
+ "kind": "唸歌",
+ "title": "人生快樂",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "人生快樂",
+ "parts": [
+  {
+   "n": 1,
+   "title": "人生快樂",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "jin5sing1kah4 # huai3lok8e0 # tioh8si7gua2",
+     "tailo": "jîn-sing kah # huài-lo̍k--e # tio̍h sī guá",
+     "han": [
+      {
+       "t": "人生"
+      },
+      {
+       "t": "甲",
+       "s": 1
+      },
+      {
+       "t": "快樂"
+      },
+      {
+       "t": "兮",
+       "s": 1
+      },
+      {
+       "t": "著是我，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "it4sing1 # m7pat4tioh8 siu7thua1bua5",
+     "tailo": "it-sing # m̄ pat tio̍h siū thua-buâ",
+     "han": [
+      {
+       "t": "一生毋捌"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "受拖磨，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kin1ni5 # tioh8hue3ciah8lak8cap8gua7",
+     "tailo": "kin-nî # tio̍h huè tsia̍h la̍k-tsa̍p-guā",
+     "han": [
+      {
+       "t": "今年"
+      },
+      {
+       "t": "著",
+       "s": 1
+      },
+      {
+       "t": "歲食六十外，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "liam7kua1 # chiunn7khik4 # koh4ciann5hir1hua1",
+     "tailo": "liām-kua # tshiūnn-khik # koh tsiânn hir-hua",
+     "han": [
+      {
+       "t": "唸歌唱曲"
+      },
+      {
+       "t": "閣",
+       "s": 1
+      },
+      {
+       "t": "誠虛華。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "人生快樂就是我，",
+    "一生不曾受拖磨，",
+    "今年歲數六十多，",
+    "唸歌唱曲真奢華。"
+   ],
+   "src_no": 7,
+   "head": "坪林鄭定興",
+   "tape": "台北愛悅情歌10/15;00:44:33"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/027.jpg",
+  "trans": "TRANS/027.JPG"
+ }
+}

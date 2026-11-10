@@ -1,0 +1,69 @@
+{
+ "no": "031",
+ "kind": "唸歌",
+ "title": "日頭強強",
+ "source": "1-101坪林唸歌.doc",
+ "site_title": "日頭強強",
+ "parts": [
+  {
+   "n": 1,
+   "title": "日頭強強",
+   "lines": [
+    {
+     "kind": "line",
+     "tlpa": "jit8thau5 # kiong5kiong5berh4loh8sai1",
+     "tailo": "ji̍t-thâu # kiông-kiông berh lo̍h sai",
+     "han": [
+      {
+       "t": "日頭強強卜落西，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "thau5ke1 # tann1png7 # iah4bue7lai5",
+     "tailo": "thâu-ke # tann pn̄g # iah-buē lâi",
+     "han": [
+      {
+       "t": "頭家擔飯益未來，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "kann2si7 # loh8kue1 # khir3bue2chai3",
+     "tailo": "kánn-sī # lo̍h kue # khìr bué tshài",
+     "han": [
+      {
+       "t": "敢是落街去買菜，"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "tlpa": "bo5kiam5 # bo5ciann2 # m7kann2lai5",
+     "tailo": "bô kiâm # bô tsiánn # m̄ kánn lâi",
+     "han": [
+      {
+       "t": "無鹹無汫毋敢來。"
+      }
+     ]
+    }
+   ],
+   "trans": [
+    "日頭眼看就落西，",
+    "老板挑飯尚未來，",
+    "敢情上街去買菜，",
+    "沒鹹沒淡不敢來。"
+   ],
+   "src_no": 11,
+   "head": "坪林鄭郭芽",
+   "tape": "台北愛悅情歌10/15;00:50:19"
+  }
+ ],
+ "notes": [],
+ "img": {
+  "text": "TEXTS/031.jpg",
+  "trans": "TRANS/031.JPG"
+ }
+}
