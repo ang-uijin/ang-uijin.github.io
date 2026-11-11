@@ -178,12 +178,11 @@
 },
 {
 "n": 19,
-"text": "麥都思傳·27·\n6:109-110，有關麥都思《An English and Japanese, and Japanese and English Vocabulary》的簡介。\n㉛參見1843年9月份Chinese Repository卷12:497。\n㉜前文:P.498。\n㉝Medhurst:《A Dictionary of the Hok-Kēen Dialect》P.2。\n㉞參見1842年3月Chinese Repository卷11:159轉載。\n㉟村上嘉英:《W. H. Medhurst in the History of Chinese Linguistics》Tenri Journal of Religion, Dec. 1965.卷7:63。\n㊱Samuel Wells Williams:《New System of Orthography》Jan. 1842, Chinese Repository卷12:28-44。\n參考書目\nChinese Repository(以下簡稱C.R.該雜誌大部份報導文章皆不署名，作者當爲主編衛三畏Samuel Wells Williams)自1832年5月至1851年8月共發行20卷。\n—— \"Study of the Chinese Language\" C. R.卷7:113-121.\n—— \"A chinese Chrestomathy in the Canton Dialect, by E. C. Bridgman. Maccao, S. Wells Williams, 1841, Super-royal octavo, pp.728\" C. R.卷11:157-161, March. 1842.\n—— \"英華韵府歷階or An English and Chinese Vocabulary, in the court dialect, by S. Wells Williams. Printed at the Office of the Chinese Repository.\" C. R.卷15:145-150 Mar. 1846.\n—— \"Alphabetic Language for the Chinese disadvantages of their present written character; inconvennience and difficulties of introducing a new language; with remarks on the importance of an alphabetic language, and means of introducing it\" C. R.卷4:167-172. Aug. 1835.\n〔圖〕26 27 28 29 30 31",
+"text": "麥都思傳‧27‧\n6:109-110，有關麥都思《An English and Japanese, and Japanese and English Vocabulary》的簡介。\n㉛參見1843年9月份Chinese Repository卷12:497。\n㉜前文：P.498。\n㉝Medhurst：《A Dictionary of the Hok-Këen Dialect》P.2。\n㉞參見1842年3月Chinese Repository卷11:159轉載。\n㉟村上嘉英：《W. H. Medhurst in the History of Chinese Linguistics》Tenri Journal of Religion, Dec. 1965.卷7:63。\n㊱Samuel Wells Williams：《New System of Orthography》Jan. 1842, Chinese Repository卷12:28-44。\n參考書目\nChinese Repository(以下簡稱C.R.該雜誌大部份報導文章皆不署名，作者當爲主編衛三畏Samuel Wells Williams)自1832年5月至1851年8月共發行20卷。\n—— \"Study of the Chinese Language\" C. R.卷7:113-121.\n—— \"A chinese Chrestomathy in the Canton Dialect, by E. C. Bridgman. Maccao, S. Wells Williams, 1841, Super-royal octavo, pp.728\" C. R.卷11:157-161, March. 1842.\n—— \"英華韵府歷階or An English and Chinese Vocabulary, in the court dialect, by S. Wells Williams. Printed at the Office of the Chinese Repository.\" C. R.卷15:145-150 Mar. 1846.\n—— \"Alphabetic Language for the Chinese disadvantages of their present written character; inconvennience and difficulties of introducing a new language; with remarks on the importance of an alphabetic language, and means of introducing it\" C. R.卷4:167-172. Aug. 1835.\n〔圖〕26 27 28 29 30 31（左側邊緣手寫數字）",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "手寫"
 ]
 },

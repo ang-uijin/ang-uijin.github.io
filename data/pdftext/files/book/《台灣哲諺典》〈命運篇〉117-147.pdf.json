@@ -412,12 +412,11 @@
 },
 {
 "n": 30,
-"text": "台灣哲諺典\n見3.43【冇粟 貯著好米籮】\nsann¹tng⁷ · si³ m⁷tioh⁸\n三搪　四毋著\n見3.54【三拄 四毋著，串拄硌砧石】\nkang⁷toh⁴tsiah⁸ · kang⁷tshng⁵khun³ · ia⁷ si⁷ ian⁵hun⁷\n共桌食　共床睏　亦是緣份\n見3.57【手椀 相挨 亦是緣】\n146",
+"text": "台灣哲諺典\n見3.43【冇粟 貯著好米籮】\nsann¹tng⁷ · si³ m⁷tioh⁸\n三搪 四毋著\n見3.54【三拄 四毋著，串拄硓𥑮石】\nkang⁷toh⁴tsiah⁸ · kang⁷tshng⁵khun³ · ia⁷ si⁷ ian⁵hun⁷\n共桌食 共床睏 亦是緣份\n見3.57【手䘼 相挨 亦是緣】\n146",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ],
 "copied_from": {

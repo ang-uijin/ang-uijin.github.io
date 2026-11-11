@@ -380,12 +380,11 @@
 },
 {
 "n": 39,
-"text": "台語經典笑話\n臭耳聾囝婿\ntng² tau¹\n有一个臭耳聾囝婿，頭轉客 去丈儂兜 做新囝\nkhong⁷ x pui⁷\n婿。佫門口，看著一隻狗 對伊 誑 誑吠。佫食桌 个\n37",
+"text": "台語經典笑話\n臭耳聾囝婿\ntng²　tau¹\n有一个臭耳聾囝婿，頭轉客去丈儂兜做新囝\nkhong⁷ x pui⁷\n婿。佫門口，看著一隻狗對伊誑誑吠。佫食桌个\n37",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少",
 "羅馬字多"
 ]
@@ -453,12 +452,11 @@
 },
 {
 "n": 46,
-"text": "台語文摘\n崁仔頂 kham²a²tieng²：地名。\n溪仔底 khe¹a²te²：地名。\n六石兩 lak⁸tsioh⁸nng⁷：即六石二。\n屎礐仔口 sai²hak⁸a²khau²：毛坑外。\n石 tsioh⁸：重量單位，一石相當一百斤。\n車頭 tsia¹thau⁵：車站。\n散鬼 san³kui²：窮光蛋。\n視大儂 si⁷tua⁷lang⁵：長輩，通常指父母。\n揣 tshue⁷：找。\n算數 sng³siau³：算賬。\n胡蛻蛻 hoo⁵lui³x：信口雌黃。\n撦 tshia¹：推。推倒曰【撦】；推進曰【捒sak⁴】。「相撦」與「三車」諧音。\n墓仔埔 bong⁷a²poo¹：墳場。\n輾 lian³/lin³：滾。\n□石卵 lak⁸tsioh⁸nng⁷：隻手抓起曰【□lak⁸】，【石卵】卵石。「lak⁸□石卵」與「六石兩」諧音。\n拭石 tshit⁴tsioh⁸：從前如廁後以石頭擦屁股。「拭石」與「七石」諧音。\n凊採 tshin³tshai²：隨便\n著揀後注，毋通揀大富 tioh⁸kieng²au⁷tu³ m⁷thang¹kieng²tua⁷pu³：俗諺勸人擇婿要寄望將來，莫貪取眼前富貴。\n44",
+"text": "台語文摘\n崁仔頂 kham²a²tieng²：地名。\n溪仔底 khe¹a²te²：地名。\n六石兩 lak⁸tsioh⁸nng⁷：即六石二。\n屎礐仔口 sai²hak⁸a²khau²：毛坑外。\n石 tsioh⁸：重量單位，一石相當一百斤。\n車頭 tsia¹thau⁵：車站。\n散鬼 san³kui²：窮光蛋。\n視大儂 si⁷tua⁷lang⁵：長輩，通常指父母。\n揣 tshue⁷：找。\n算數 sng³siau³：算賬。\n胡蜕蜕 hoo⁵lui³x：信口雌黃。\n撦 tshia¹：推。推倒曰【撦】；推進曰【捒sak⁴】。「相撦」與「三車」諧音。\n墓仔埔 bong⁷a²poo¹：墳場。\n輾 lian³/lin³：滾。\n□石卵 lak⁸tsioh⁸nng⁷：隻手抓起曰【□lak⁸】，【石卵】卵石。「lak⁸□石卵」與「六石兩」諧音。\n拭石 tshit⁴tsioh⁸：從前如廁後以石頭擦屁股。「拭石」與「七石」諧音。\n凊採 tshin³tshai²：隨便\n著揀後注，毋通揀大富 tioh⁸kieng²au⁷tu³ m⁷thang¹ kieng²tua⁷pu³：俗諺勸人擇婿要寄望將來，莫貪取眼前富貴。\n44",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1065,12 +1063,11 @@
 },
 {
 "n": 106,
-"text": "台語文摘\n過時 賣曆日\ngau⁵khinn⁵ tak⁸\n有一个 賣糖=个，娶一个某 眞爻 箝家。伊逐\nkhat⁴ khng³ tau¹\n日 偷偷仔勼一兩斤糖 囥 ·起來。佫駕年尾兜 亻因\n翁 煩惱講：\ntann¹\n「厝=裏 無錢，今 是卜按怎過年。」\nkhng³ hit⁴\n亻因某 著將偷 囥 个糖 提出來賣，迄年 即卡好\no¹ lo²\n過。厝邊仔 知影，著眞呵咾賣糖个某 爻。有一个賣\n104",
+"text": "台語文摘\n過時賣曆日\ngau⁵khinn⁵ tak⁸\nkhat⁴ khng³ tau¹\n有一个賣糖=个，娶一个某眞爻箝家。伊逐日偷偷仔勊一兩斤糖囥·起來。佫駕年尾兜𪜶翁煩惱講：\ntann¹\n「厝=裏無錢，今是卜按怎過年。」\nkhng³ hit⁴\no¹ lo²\n𪜶某著將偷囥个糖提出來賣，迄年即卡好過。厝邊仔知影，著眞呵咾賣糖个某爻。有一个賣\n104\n〔圖〕春",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少",
 "羅馬字多"
 ]
@@ -1180,24 +1177,22 @@
 },
 {
 "n": 117,
-"text": "台語經典笑話\n蠔炱燒燒，毋通予俺娘知\niu² kan¹ ta¹ thiann³ tak⁸me⁵ than³ o⁵ te¹ phang⁵\n有一个囡仔，某一下娶，著袂曉卜有孝老母，干礁會曉疼某。逐暝趁老母睏·去，著去市仔買蠔炱轉來予𪜶某食，捀入去房間，著講：\nan²\n「蠔炱燒燒細聲仔食，毋通予俺娘知。」\nhian⁷ x\n其實伊按爾講𪜶老母攏聽現現。有一暝，𪜶老母等伊出·去，著刁持帶𪜶房間仔口囥一繚椅仔。囝買蠔炱轉·來，厝内暗暗，跤蹶著椅仔，跋倒·去，哀一聲講：\ntiau¹ ti⁵ khng³ liau⁵ kueh⁸ puah⁸ ai¹\nue⁵\n「俺娘唯——」\n115",
+"text": "台語經典笑話\n蠔炱燒燒，毋通予俺娘知\niu² kan¹\nta¹ thiann³ tak⁸me⁵ than³\no⁵ te¹ phang⁵\n有一个囡仔，某一下娶，著袂曉卜有孝老母，干礁會曉疼某。逐暝趁老母睏·去，著去市仔買蠔炱轉來予𪜶某食，捀入去房間，著講：\nan²\n「蠔炱燒燒細聲仔食，毋通予俺娘知。」\nhian⁷ x\ntiau¹ ti⁵ khng³ liau⁵\nkueh⁸\npuah⁸ ai¹\n其實伊按爾講𪜶老母攏聽現現。有一暝，𪜶老母等伊出·去，著刁持帶𪜶房間仔口囥一繚椅仔。囝買蠔炱轉·來，厝內暗暗，跤蹶著椅仔，跋倒·去，哀一聲講：\nue⁵\n「俺娘唯——」\n115",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少",
 "羅馬字多"
 ]
 },
 {
 "n": 118,
-"text": "台語文摘\nkhioh⁴ hoo³\n𪜶老母趕緊走·過來，看伊咧卻蠔炱，著講：「吁，蠔炱燒燒毋通予阿娘知，跋倒即咧叫俺娘。」\n【註解】\n蠔炱 o⁵te¹：一種台灣小吃，外裹麵粉，內包牡蠣及葱或韭菜調太白粉，以圓形鐵杓盛之，下油鍋炸。又稱【蠔仔炸 o⁵a²tsinn³】、【酷仔炱 khok⁴a²te¹】。\n聽現現 thiann¹hian⁷x：聽得一淸二楚。\n刁持 tiau¹ti⁵：故意。\n繚 liau⁵：條。\n【翻譯】\n有個孩子結了婚便就不懂得孝順母親，只會疼老婆。每晚趁他媽睡著了，就跑到市場買油炸牡蠣餠回來給老婆吃。端進房裏便說：\n「牡蠣餠正熱呢，小聲點吃，別給媽聽見了。」\n其實他這樣說，他媽都聽得一淸二楚。一晚，他媽等他出去了，故意放張長板凳在房門口。他牡蠣餠買回來，家裏暗暗的，脚絆到長板凳，摔了一跤，痛喊一聲：\n「我的媽呀！」\n他媽趕緊跑過來，看見他在地上拾牡蠣餠，便說：\n「哼，牡蠣餠正燙著，別讓媽知道，摔跤了喊『我的媽』！」\n116",
+"text": "台語文摘\nkhioh⁴ hoo³\n𪜶老母趕緊走·過來，看伊咧卻蠔炱，著講：「吁，蠔炱燒燒毋通予阿娘知，跋倒即咧叫俺娘。」\n【註解】\n蠔炱 o⁵te¹：一種台灣小吃，外裹麵粉，內包牡蠣及葱或韭菜調太白粉，以圓形鐵杓盛之，下油鍋炸。又稱【蠔仔炸o⁵a²tsinn³】、【酷仔炱khok⁴a²te¹】。\n聽現現 thiann¹hian⁷x：聽得一淸二楚。\n刁持 tiau¹ti⁵：故意。\n繚 liaụ⁵：條。\n【翻譯】\n有個孩子結了婚便就不懂得孝順母親，只會疼老婆。每晚趁他媽睡著了，就跑到市場買油炸牡蠣餠回來給老婆吃。端進房裏便說：\n「牡蠣餠正熱呢，小聲點吃，別給媽聽見了。」\n其實他這樣說，他媽都聽得一淸二楚。一晚，他媽等他出去了，故意放張長板凳在房門口。他牡蠣餠買回來，家裏暗暗的，脚絆到長板凳，摔了一跤，痛喊一聲：\n「我的媽呀！」\n他媽趕緊跑過來，看見他在地上拾牡蠣餠，便說：\n「哼，牡蠣餠正燙著，別讓媽知道，摔跤了喊『我的媽』！」\n116",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1366,12 +1361,12 @@
 },
 {
 "n": 135,
-"text": "台語經典笑話\n爲囝報仇\ngin² kau² kuai³ tong³ tiau⁵\nliah⁸ tau⁵ sieng⁷ kiann²\nkam¹ phah⁴ tu² siau³ gia⁵\ntshue⁵ a²\n有一个囡仔眞狡怪，𪜶阿公氣駕擋袂椆，掠來修理。囡仔哭去投𪜶老父。老父眞盛囝，看著有夠毋甘，又閣毋敢扑𪜶老父拄數。著夯箠仔家己直直扑、直直扑。\n阿公看著奇怪，問講：\nsiau² tshong³\n「汝是咧起痟是·否，家自扑家自是咧創啥？」\n職个老父著講：\n「汝扑阮囝，我嘛卜扑恁囝。」\n133",
+"text": "台語經典笑話\n爲囝報仇\ngin² kau²kuai³ tong³ tiau⁵\nliah⁸ tau⁵ sieng⁷ kiann²\nkam¹ phah⁴ tu² siau³ gia⁵\ntshue⁵ a²\n有一个囡仔眞狡怪，𪜶阿公氣駕擋袂椆，掠來修理。囡仔哭去投𪜶老父。老父眞盛囝，看著有夠毋甘，又閣毋敢扑𪜶老父拄數。著夯箠仔家己直直扑、直直扑。\n阿公看著奇怪，問講：\nsiau² tshong³\n「汝是咧起痟是·否，家自扑家自是咧創啥？」\n職个老父著講：\n「汝扑阮囝，我嘛卜扑恁囝。」\n133",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
+"圖多字少",
 "羅馬字多"
 ]
 },
@@ -1397,12 +1392,12 @@
 },
 {
 "n": 138,
-"text": "台語文摘\n搬厝 我請\nsiok⁴ tu² tua³ ti⁷ phah⁴ kah⁴\nng¹ pieng⁵\ntshiang⁵tsai⁷\n有一个愛肅靜个儂，拄帶佇一間扑鐵店佮扑銅店个中央。兩爿隔壁透日扑銅扑鐵，吵駕卜死。伊著常在叫亻因厝邊搬走，講：\n「恁若搬厝，我一定辦桌請=恁。」\ntshua⁷\n有一日扑鐵=个佮扑銅=个相炁來通知伊講：\nkam²\n「阮兩=个聽汝个話，想卜搬厝，汝咁有影卜請？」\nte³ lim¹\n職个儂著眞正辦一塊桌請=亻因。酒啉了，主儂即問講：\nto²\n「恁是卜搬去佗位？」\n兩个厝邊講：\nah⁴ to¹\n「益都伊卜搬來我職爿，我搬來去伊迄爿啦。」\n136",
+"text": "台語文摘\n搬厝 我請\nsiok⁴ tu² tua³ ti⁷ phah⁴ kah⁴ ng¹ pieng⁵ tshiang⁵tsai⁷\n有一个愛肅靜个儂，拄帶佇一間扑鐵店佮扑銅店个中央。兩爿隔壁透日扑銅扑鐵，吵駕卜死。伊著常在叫▢厝邊搬走，講：\n「恁若搬厝，我一定辦桌請=恁。」\ntshua⁷\n有一日扑鐵=个佮扑銅=个相▢來通知伊講：\nkam²\n「阮兩=个聽汝个話，想卜搬厝，汝咁有影卜請？」\nte³ lim¹\n職个儂著眞正辦一塊桌請=▢。酒啉了，主儂即問講：\nto²\n「恁是卜搬去佗位？」\n兩个厝邊講：\nah⁴ to¹\n「益都伊卜搬來我職爿，我搬來去伊迄爿啦。」\n136",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致"
+"羅馬字多"
 ]
 },
 {
@@ -1478,12 +1473,11 @@
 },
 {
 "n": 146,
-"text": "台語文摘\n的確是痟=个\nsiong⁷ kau³\nlap⁴ tshue⁷\nsip⁸ ji⁷ hoo³ an⁵tong³ x\n有一个和尚，坐轎卜去共儂頌經。行佫半路，轎煞塌底。轎夫揣一條長索，對轎底佫轎頂，扑一个十字戽，縛駕拫擋擋，按呢和尚坐著即會安心。\ntu² thun⁷tah⁸\n轎扛佫一庄，拄庄内咧鬧熱，路眞屯踏，有一个看鬧熱=个講：\nkann² hoo⁷⁰\n「内面敢是一个死儂乎？」\nge⁵ khak⁸ sau³ hit⁴\n和尚聽著眞牙，著大聲喀一下嗽。迄个儂驚一下，講：\nlia⁷ kann²\n「我料叫是死儂，毋是噢！敢是犯儂。」\ntio⁵ kha¹tng³ te⁵\ntiek⁴khak⁴ siau²\n和尚帶内底氣駕趔跤頓蹄。迄个儂閣驚一趔，講「按呢毋是犯儂，的確是痟=个啦。」\n【註解】\n塌底　lap⁴te²：底部垮下來。\n144",
+"text": "台語文摘\n的確是痟=个\nsiong⁷ kau³\nlap⁴ tshue⁷\nsip⁸ ji⁷ hoo³ an⁵tong³ x\n有一个和尚，坐轎卜去共儂頌經。行佫半路，轎煞塌底。轎夫揣一條長索，對轎底佫轎頂，扑一个十字戽，縛駕拫擋擋，按呢和尚坐著即會安心。\ntu² thun⁷tah⁸\n轎扛佫一庄，拄庄内咧鬧熱，路眞屯踏，有一个看鬧熱=个講：\nkann² hoo⁷⁰\n「内面敢是一个死儂乎？」\nge⁵ khak⁸ sau³ hit⁴\n和尚聽著眞牙，著大聲喀一下嗽。迄个儂驚一下，講：\nlia⁷ kann²\n「我料叫是死儂，毋是噢！敢是犯儂。」\ntio⁵ kha¹tng³ te⁵\ntiek⁴khak⁴ siau²\n和尚帶内底氣駕趒跤頓蹄。迄个儂閣驚一趒，講「按呢毋是犯儂，的確是痟=个啦。」\n【註解】\n塌底　lap⁴te²：底部垮下來。\n144",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1530,12 +1524,11 @@
 },
 {
 "n": 151,
-"text": "台語經典笑話\n通經\nthit⁴ ge⁷ tuann³kieng¹\nit⁴\n有三个秀才，鬥陣去迌藝旦間。內中有一个甲=个秀才問乙=个講：\n「汝上通啥麼經？」\n乙=个講：「詩經。」\n閣問丙=个講：「汝上通啥麼經？」\niah⁸\n丙=个講：「易經。」\niah⁴\n閣問藝旦講：「益汝上通啥麼經？」\n149",
+"text": "台語經典笑話\n通經\nthit⁴ ge⁷ tuann³kieng¹ it⁴\n有三个秀才，鬥陣去迌藝旦間。內中有一个甲=个秀才問乙=个講：\n「汝上通啥麼經？」\n乙=个講：「詩經。」\n閣問丙=个講：「汝上通啥麼經？」\niah⁸\n丙=个講：「易經。」\niah⁴\n閣問藝旦講：「益汝上通啥麼經？」\n149",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1551,12 +1544,12 @@
 },
 {
 "n": 153,
-"text": "台語經典笑話\n長短跤\noh⁸ a²\n有一个囡仔長短·跤，有一日對學仔那哭·轉來。𪜶老母問講：\n「汝是哭按怎？」\n囡仔講：\npieng⁵kha¹\n「別个囡仔攏笑我一爿跤卡短。」\nso¹\n老母著挲伊个頭殼講：\n151",
+"text": "台語經典笑話\n長短跤\noh⁸ a²\n有一个囝仔長短·跤，有一日對學仔那哭·轉來。𪜶老母問講：\n「汝是哭按怎？」\n囝仔講：\npieng⁵kha¹\n「別个囝仔攏笑我一爿跤卡短。」\nso¹\n老母著挲伊个頭殼講：\n151",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致"
+"圖多字少"
 ]
 },
 {
@@ -1784,12 +1777,12 @@
 },
 {
 "n": 176,
-"text": "台語文摘\n自己要用不賣他人\ntshua⁷ kiann² kiann⁵\n有一个儂𤆬𪜶囝行街仔，行入去一間古董店。\ntu² ti⁷ kan¹ta¹ gin²\n拄好頭家無佇=咧，干礁一个囡仔咧顧店。\n職个儂問講：\nkan¹ beh⁴ tse⁷\n「職支花矸卜賣外儕？」\npang³kong²tsu²peh⁸\n囡仔放孔子白講：\ntsu⁷ ki² iau³iong⁷ put⁴mai⁷thann¹jin⁵\n『自己要用，不賣他人。』\n職个老父著共𪜶囝講：\ngau⁵ tsheh⁴ ku³\n「汝有聽·見否？儂个囡仔爻，閣會曉講冊句。」\n囝講：\nka³\n「這駕外爻？我嘛會曉。」\ntsiann⁵\n有一擺有儂卜來共𪜶阿姊講親情，囡仔著搶咧講：\n『自己要用，不賣他人。』\n174",
+"text": "台語文摘 ▢▢\n自己要用不賣他人\ntshua⁷ kiann² kiann⁵ tu² ti⁷ kan¹ta¹ gin²\n有一个儂𤆬𪜶囝行街仔，行入去一間古董店。拄好頭家無佇=咧，干礁一个囡仔咧顧店。\n職个儂問講：\nkan¹ beh⁴ tse⁷\n「職支花矸卜賣外儕？」\npang³kong²tsu²peh⁸\n囡仔放孔子白講：\ntsu⁷ ki² iau³iong⁷ put⁴mai⁷thann¹jin⁵\n『自己要用，不賣他人。』\n職个老父著共𪜶囝講：\ngau⁵ tsheh⁴ ku³\n「汝有聽·見否？儂个囡仔爻，閣會曉講冊句。」\n囝講：\nka³\n「這駕外爻？我嘛會曉。」\ntsiann⁵\n有一擺有儂卜來共𪜶阿姊講親情，囡仔著搶咧講：\n『自己要用，不賣他人。』\n174",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
+"看不清",
 "羅馬字多"
 ]
 },

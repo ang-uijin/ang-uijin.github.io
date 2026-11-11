@@ -44,34 +44,31 @@
 },
 {
 "n": 5,
-"text": "・338・ 臺灣禮俗語典\n′giok·put-tok put˅sing‵khi ˅zin·put‵kau put-ti˜gi\n玉不琢，不成器，人不敎，不知義 8\nH\n˜hai′si˅lang˅e′gin′a-tsai\n害死儂个囡仔栽 9\n˜hau-seɴ·tit˅chan-kut tsa′boo′kiaɴ·tit˅chan˅phue\n後生得田骨，查某囝得田皮 4\n˜e-hng thua ˜m-thang˅bin‵na′tsa′khi˅bua\n下昏拖，毋通明旦早起磨 8\n˜hia′phua·˅lang·˅bo′phua\n瓦破儂無破 22\nhiat‵meh siong˅liau\n血脈相連 47\nhit˜lo hue kiat hit˜lo′tsi hit˜lo chik seɴ hit˜lo′bi\n肸號花，結肸號子；肸號粟生肸號米 13\n′ho-hue chah˅gu′sai\n好花插牛屎 14\n′ho′kiaɴ·˜m′bian˜tse ′tsit˅e′ting‵tsap˅e\n好囝毋免濟，蜀个頂十个 8\n˅ho˅li tsi cha ˜ho-hok chian′li\n毫釐之差，禍福千里 47\nhok˜te·hok˅zin-ki nok˅zin·ki-hok˜te\n福地福人居，福人居福地 47\n˜hu′bo tsi ˜ming ˅bue-tsiok tsi ˅gian\n父母之命，媒妁之言 17\nhui˅ki′kui˅zi‵tse=tsi ′thiam=ia\n非其鬼而祭之，諂也 35\n˅hun·sing˅i thian phik·‵kang i ˜te\n魂昇于天，魄降於地 35\nI\n‵i˜huan·˅liu-hong\n懿範流芳 41\n‵iah‵ai˅che‵iah‵ai˅be\n亦愛箠亦愛縻 6",
+"text": "・338・ 臺灣禮俗語典\n′giok·put-tok put˅sing‵khi ˅zin·put‵kau put-ti˜gi\n玉不琢，不成器，人不敎，不知義 8\nH\n˜hai′si˅lang˅e′gin′a-tsai\n害死儂个囡仔栽 9\n˜hau-seɴ·tit˅chan-kut tsa′boo′kiaɴ·tit˅chan˅phue\n後生得田骨，查某囝得田皮 4\n˜e-hng thua ˜m-thang˅bin‵na′tsa′khi˅bua\n下昏拖，毋通明旦早起磨 8\n˜hia′phua·˅lang·˅bo′phua\n瓦破儂無破 22\nhiat‵meh siong˅liau\n血脈相連 47\nhit˜lo hue kiat hit˜lo′tsi hit˜lo chik seɴ hit˜lo′bi\n肸號花，結肸號子；肸號粟生肸號米 13\n′ho-hue chah˅gu′sai\n好花插牛屎 14\n′ho′kiaɴ·˜m′bian˜tse ′tsit˅e′ting‵tsap˅e\n好囝毋免濟，蜀个頂十个 8\n˅ho˅li tsi cha ˜ho-hok chian′li\n毫釐之差，禍福千里 47\nhok˜te·hok˅zin-ki nok˅zin·ki-hok˜te\n福地福人居，福人居福地 47\n˜hu′bo tsi ˜ming ˅bue-tsiok tsi ˅gian\n父母之命，媒妁之言 17\nhui˅ki′kui˅zi‵tse=tsi ′thiam=ia\n非其鬼而祭之，諂也 35\n˅hun·sing˅i thian phik·‵kang i ˜te\n魂昇于天，魄降於地 35\nI\n‵i˜huan·˅liu-hong\n懿範流芳 41\n‵iah‵ai˅che‵iah‵ai˅be\n亦愛箠亦愛糜 6",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
 {
 "n": 6,
-"text": "謠諺引索 ・339・\n‵im˜te·put˅zu sim˜te\n蔭地不如心地 47\nin˅ian·thiɴ·′tsu˜tiaɴ\n姻緣天註定 10\ning′puaɴ˅me′tsiah′lin˅e chik ˜e′puaɴ˅me·′tsiah′lan˅e chik\n頂半冥食恁个粟，下半冥食咱个粟 23\n˜ing i˅e˅thoo·˅koo i˅e piah\n用伊塗糊伊个壁 19\n˅iɴ˅lang˜e′piɴ ′piɴ˅lang˜e˅iɴ\n圓儂會扁，扁儂會圓 11\niɴ-iɴ′khun ′tsit˅me·˜tua′tsit′chun\n嚶嚶睏，蜀冥大蜀寸 6\niɴ-iɴ sioh ′tsit˅me·˜tua′tsit chioh\n嚶嚶惜，蜀冥大蜀尺 6\nio·′a˅io ˅io′kau saɴ-pan˅kio ˜tua-ku·′nng˅sio˅sio ti-kha·siang˅ping˅lio\n搖啊搖，搖絡三板橋，大龜軟苕苕，豬跤雙爿撩 6\nioh˜bong′kue ioh˅bo·′liau ke′hue\n挹墓粿，挹無了家伙\nioh˜bong-ku ioh˅bo·′si′tse-hu\n挹墓龜，挹無死姊夫 50\n′iong·put‵kau ˜hu·tsi‵ko\n養不敎，父之過 8\nit′chi ˜zi˅gu saɴ′hoo ′si‵thoo ′ngoo˅ling ‵lak˅tsua chit′be peh˅iuɴ\n一鼠、二牛、三虎、四兎、五龍、六蛇、七馬、八羊、\n‵kau˅kau ‵tsap-ke ‵tsap-it′kau ‵tsap˜zi-ti\n九猴、十鷄、十一狗、十二豬 2\nit˅lian·it-kui˅ling\n一年一歸寧 24\nit-san ˜zi′sui sam-hong˜ui\n一山、二水、三方位 47\nit˅tsian ˜zi˅ian saɴ·′sui ′si·′siau˅lian ˜goo·′ho′chui ‵lak·′kaɴ˜kui chit˅tiɴ\n一錢、二緣、三媠、四少年、五好喙、六敢跪、七纏\npeh˅mi ′kau·˅kiong ‵tsap·′kaɴ′si\n、八綿、九强、十敢死 13\n′iong′tsu·put‵kau·put˅zu′iong˅li iong′li·put‵kau·put˅zu′iong·ti\n養子不敎不如養驢，養女不敎不如養豬 8\n′iu sik tang tsin ˜zim kai ˅tsai ′piat ′khiam ˅tai\n幼、色、冬、眞、任、皆、才、別、欠、臺 26\n′iu′tsu˜ban˜su-tsiok ˅bu-kuan it-sin khing\n有子萬事足，無官一身輕 8",
+"text": "謠諺引索　·339·\n`im\"te·putᵛzu sim\"te\n蔭地不如心地 47\ninᵛian·thiN·`tsu\"tiaN\n姻緣天註定 10\ning`puaNᵛme`tsiah'linᵛe chik　\"e'puaNᵛme·`tsiah'lanᵛe chik\n頂半冥食恁个粟，下半冥食咱个粟 23\n\"ing iᵛeᵛthoo·ᵛkoo iᵛe piah\n用伊塗糊伊个壁 19\nᵛiNᵛlang\"e'piN　'piNᵛlang\"eᵛiN\n圓儂會扁，扁儂會圓 11\niN-iN`khun　`tsitᵛme·\"tua`tsit`chun\n嚶嚶睏，蜀冥大蜀寸 6\niN-iN sioh　`tsitᵛme·\"tua`tsit chioh\n嚶嚶惜，蜀冥大蜀尺 6\nio·'aᵛio　ᵛio`kau saN-panᵛkio　\"tua-ku·'nngᵛsioᵛsio ti-kha·siangᵛpingᵛlio\n搖啊搖，搖佫三板橋，大龜軟荙荙，豬跤雙爿撩 6\nioh\"bong'kue　iohᵛbo·'liau ke'hue\n挹墓粿，挹無了家伙\nioh\"bong-ku　iohᵛbo·'si'tse-hu\n挹墓龜，挹無死姊夫 50\n'iong·put`kau　\"hu·tsi`ko\n養不敎，父之過 8\nit'chi　\"ziᵛgu　saN'hoo　'si`thoo　'ngooᵛling　`lakᵛtsua　chit'be　pehᵛiuN\n一鼠、二牛、三虎、四兎、五龍、六蛇、七馬、八羊、\n'kauᵛkau　`tsap-ke　`tsap-it'kau　`tsap\"zi-ti\n九猴、十鷄、十一狗、十二豬 2\nitᵛlian·it-kuiᵛling\n一年一歸寧 24\nit-san　\"zi'sui　sam-hong\"ui\n一山、二水、三方位 47\nitᵛtsian　\"ziᵛian　saN·'sui　`si·`siauᵛlian　\"goo·'ho'chui　`lak·'kaN\"kui　chitᵛtiN\n一錢、二緣、三媠、四少年、五好喙、六敢跪、七纏\npehᵛmi　'kau·ᵛkiong　`tsap·'kaN'si\n、八綿、九强、十敢死 13\n'iong'tsu·put`kau·putᵛzu'iongᵛli　iong'li·put`kau·putᵛzu'iong·ti\n養子不敎不如養驢，養女不敎不如養豬 8\n`iu　sik　tang　tsin　\"zim　kai　ᵛtsai　`piat　`khiam　ᵛtai\n幼、色、冬、眞、任、皆、才、別、欠、臺 26\n'iu'tsu\"ban\"su-tsiok　ᵛbu-kuan it-sin khing\n有子萬事足，無官一身輕 8",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
 {
 "n": 7,
-"text": "· 340 · 臺灣禮俗語典\nK\nka·ᵛbuˇlongˇtongˊtsu kuan·ᵛtsingᵛhoˋchuᵛlai\n家無浪蕩子，官從何處來 8\nka-tᵛping thihˋsauˊchiu\n鉸刀爿，鐵掃帚 18\nˋkaˊkianⁿ·ᵛsiu ˇm-thangˋkaˊkianⁿ·pehˇchiu\n敎囝泅，毋通敎囝趴樹 8\nkamˇguan taⁿˋchaiˇbe chang ˇmˇguan kapᵛlang kong-ke ang\n甘願擔菜賣葱，毋願敆儂公家翁 16\nkamˋtsia·siangᵛthau-tiⁿ\n甘蔗雙頭甜 24\nˋkanˊlinˊtso-kongˋthaiˊma\n幹恁祖公太媽 28\nˊkaⁿ·ˋtohˋkhuaiˋtsoˊma\n敢着快做媽 27\nˊkauˇteᵛhong-kimˊkauˇteᵛking kuahᵛtinˇaiⁿˊkianⁿ chutˋsingᵛzin\n九代黃金九代窮，葛藤負囝出聖人 47\nˋkauˊkuˋtsiohᵛthauˋiahˇe-hu\n佫久石頭亦會灰 45\nkeˇlai·ᵛboᵛbaˊniauˊchiˇe khiau-kha\n家內無貓老鼠會蹺跤 16\nˊke titˋkue ˊpuˇbeˋthe\n假得過，富袂退 18\nˋkeᵛlang taⁿ-changˇbeˋchai ˇmˋke siangᵛlangˋtsitˋsai\n嫁儂擔葱賣菜，毋嫁雙儂蜀婿 16\nˋkeˋsan-ang ˋkhunˊpaᵛbin ˋkeˋpu-ang ˇbe-chingᵛsin\n嫁散翁，睏飽眠；嫁富翁，袂清神 16\nˋkeˋtiohˇbeˋchai-ang saⁿˋtng·ˇmˇsiˋchai·ˋtohˇsi chang\n嫁着賣菜翁，三頓毋是菜着是葱 16\nˋkeˋtiohᵛboˋchu-ang puaⁿᵛlai-puaⁿˋkhiˋkha-batᵛlang\n嫁著無厝翁，搬來搬去較捌儂 16\nˋkeˋtiohˊchauˇhiⁿ-ang ˊkongˇueᵛbo-thiaⁿ ˋkhiˊsiᵛlang\n嫁着臭耳翁，講話無聽氣死儂 16\nˋkeˋtioh cheⁿᵛme-ang seᵛthau·buahˊhun·ᵛboˊchai-kang\n嫁着睛盲翁，梳頭抹粉無彩工 16\nˋkeˋtiohˊe-kha-ang sio-hiuⁿ·ˊtiamˊhue·ˋchianⁿˊpatᵛlang\n嫁着矮跤翁，燒香點火倩別儂 16\nˋkeˋtioh sing-ˊli-ang ˊzitˊzit·ˊtsiu khangᵛpang\n嫁着生理翁，日日守空房 16",
+"text": "· 340 · 臺灣禮俗語典\nK\nka·ᵛbuˇlongˇtongˊtsu kuan·ᵛtsingᵛhoˋchuᵛlai\n家無浪蕩子，官從何處來 8\nka-tᵛping thihˋsauˊchiu\n鉸刀爿，鐵掃帚 18\nˋkaˊkianⁿ·ᵛsiu ˇm-thangˋkaˊkianⁿ·pehˇchiu\n敎囝泅，毋通敎囝趴樹 8\nkamˇguan taⁿˋchaiˇbe chang ˇmˇguan kapᵛlang kong-ke ang\n甘願擔菜賣葱，毋願敆儂公家翁 16\nkamˋtsia·siangᵛthau-tiⁿ\n甘蔗雙頭甜 24\nˋkanˊlinˊtso-kongˋthaiˊma\n幹恁祖公太媽 28\nˊkaⁿ·ˋtohˋkhuaiˋtsoˊma\n敢着快做媽 27\nˊkauˇteᵛhong-kimˊkauˇteᵛking kuahᵛtinˇaiⁿˊkianⁿ chutˋsingᵛzin\n九代黃金九代窮，葛藤負囝出聖人 47\nˋkauˊkuˋtsiohᵛthauˋiahˇe-hu\n佫久石頭亦會灰 45\nkeˇlai·ᵛboᵛbaˊniauˊchiˇe khiau-kha\n家內無貓老鼠會蹺跤 16\nˊke titˋkue ˊpuˇbeˋthe\n假得過，富袂退 18\nˋkeᵛlang taⁿ-changˇbeˋchai ˇmˋke siangᵛlangˋtsitˋsai\n嫁儂擔葱賣菜，毋嫁雙儂蜀婿 16\nˋkeˋsan-ang ˋkhunˊpaᵛbin ˋkeˋpu-ang ˇbe-chingᵛsin\n嫁散翁，睏飽眠；嫁富翁，袂清神 16\nˋkeˋtiohˇbeˋchai-ang saⁿˋtng·ˇmˇsiˋchai·ˋtohˇsi chang\n嫁着賣菜翁，三頓毋是菜着是葱 16\nˋkeˋtiohᵛboˋchu-ang puaⁿᵛlai-puaⁿˋkhiˋkha-batᵛlang\n嫁著無厝翁，搬來搬去較捌儂 16\nˋkeˋtiohˊchauˇhiⁿ-ang ˊkongˇueᵛbo-thiaⁿ ˋkhiˊsiᵛlang\n嫁着臭耳翁，講話無聽氣死儂 16\nˋkeˋtioh cheⁿᵛme-ang seᵛthau·buahˊhun·ᵛboˊchai-kang\n嫁着睛盲翁，梳頭抹粉無彩工 16\nˋkeˋtiohˊe-kha-ang sio-hiuⁿ·ˊtiamˊhue·ˋchianⁿˊpatᵛlang\n嫁着矮跤翁，燒香點火倩別儂 16\nˋkeˋtioh singˊli-ang ˊzitˊzit·ˊtsiu khangᵛpang\n嫁着生理翁，日日守空房 16",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -87,12 +84,11 @@
 },
 {
 "n": 9,
-"text": "· 342 · 臺灣禮俗語典\nkngˇkioˇm-kngˇkio ˊkuan sinᵛninˋpangˇzio\n扛轎毋扛轎，管新娘放尿 21\nˊkng-tangˋbakˋkianⁿˇtsaiᵛlang kahˋbak\n廣東目鏡在儂佮目 14\nku·ˊchio pih·ᵛboˊbue\n龜笑鱉無尾 29\nˊkuᵛtngˇpeⁿ ᵛboˊhauˊtsu\n久長病，無孝子 8\nkuah-kuanˊphue huanˇbeˊthe\n割棺柿，發袂退 43\nkutˋlat·ˊtsiahˋlat ᵛpanˇtuanⁿ·thunˇnua\n搰力食粟，般惰吞唾 8\nKh\nkha·ˇmˋtahˊliᵛe ˇte ᵛthau·ˇmˋtiˊliᵛe thiⁿ\n跤毋踏汝个（清朝）地，頭毋戴汝个（清朝）天 39\nˋkhau huˇsiuⁿ behˋke ˋkhauˊkhooˋkhuanˇpanˋse\n哭夫想卜嫁，哭苦看辦勢 37\nˋkhi=tsiaˊsui tsi-ˊboo ˊiu-ˋkhi·suˊiuˊsui\n氣者水之母，有氣斯有水 47\nˋkhiamˋtse·ˊuanᵛtaiˊtsu putˋhauˊuanˇpeˊbu\n欠債怨財主，不孝怨父母 8\nˊkhoo-kueˊbo seⁿˊkhoo-kueˊkiaⁿ\n苦瓜母生苦瓜囝 3\nˊkhoo-kue ·ᵛphueniau-niau·siahᵛphue·ˊiahˇma ᵛpuˊa·ᵛphue-kim-kim·ᵛbo\n苦瓜·皮猫猫·削皮亦駡，匏仔·皮金金·無\nˋsiahᵛpueˋiahˇma\n削皮亦駡 15\nˋkhuaⁿˋhi·ˋtohˋhiˊpun ˊkuaⁿ sai-kong·ˋtsiah·ˋtohˊun\n看戲着啟本，看師公食着穩 49\nˋkhuan-thiⁿˋtsiahˇpng\n看天食飯 10\nL",
+"text": "• 342 • 臺灣禮俗語典\nkng\"kio\"m-kng\"kio 'kuan sinˇnin'pang\"zio\n扛轎毋扛轎，管新娘放尿 21\n'kng-tang'bak'kianN\"tsaiˇlang kah'bak\n廣東目鏡在儂佮目 14\nku·'chio pih·ˇbo'bue\n龜笑鱉無尾 29\n'kuˇtng\"peN ˇbo'hau'tsu\n久長病，無孝子 8\nkuah-kuan'phue huan\"be'the\n割棺柹，發袂退 43\nkut'lat·'tsiah'lat ˇpan\"tuaN·thun\"nua\n搰力食粟，般惰吞唾 8\nKh\nkha·\"m'tah'liˇe \"te ˇthau·\"m'ti'liˇe thiN\n跤毋踏汝个（清朝）地，頭毋戴汝个（清朝）天 39\n'khau hu\"siuN beh'ke 'khau'khoo'khuaN\"pan'se\n哭夫想卜嫁，哭苦看辦勢 37\n'khi=tsia'sui tsi-'boo 'iu-'khi·su'iu'sui\n氣者水之母，有氣斯有水 47\n'khiam'tse·'uanˇtai'tsu put'hau'uan\"pe'bu\n欠債怨財主，不孝怨父母 8\n'khoo-kue'bo seN'khoo-kue'kiaN\n苦瓜母生苦瓜囝 3\n'khoo-kue ·ˇphue'niau-ninu·siahˇphue-'iah\"ma ˇpu'a·ˇphue-kim-kim·ˇbo\n苦瓜·皮猫猫·削皮亦罵，匏仔·皮金金·無\n'siahˇpue'iah\"ma\n削皮亦罵 15\n'khuaN'hi·'toh'hi'pun 'kuaN sai-kong·'tsiah·'toh'un\n看戲着戲本，看師公食着穩 49\n'khuaN-thiN'tsiah\"png\n看天食飯 10\nL",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -188,12 +184,11 @@
 },
 {
 "n": 19,
-"text": "·352·臺灣禮俗語典\nthiaNˊbooˊchui \\tuaˊhuˊkui\n聽某喙,大富貴 13\nthiN-kongˊtiaN\\gongˇlang\n天公痛愚儂 8\nthiNˊting·thiN-kong \\te\\eˊbo\\ku-kong\n天頂天公,地下母舅公 23\nˇthng-kamˊbit-kam\n糖甘蜜甘 22\nTs\ntsaˊbooˊginˊaˊchaiˊtsi\\mia\n查某囡仔菜子命 16\ntsaˊbooˊginˊaˇiuˇmuaˊchaiˊtsi\\mia\n查某囡仔油麻菜子命 16\ntsaˊbooˊkiaNˊkaˇniuˊle·ˊtngˇtsai\n查某囝敎良嬭剸臍 27\ntsaˊbooˊkiaN·ˊke-chut·patˇlangˇe\n查某囝嫁出別儂个 15\ntsaˊbooˇlang·pang\\zio \\tsuaN\\be\\tsiuN-piah\n查某儂放尿濺袂上壁 11\nˊtsapˊkiaNˊtsap sim\\pu chunˊtsitˇe\\lauˊkuaN\\hu\n十囝十新婦,偆蜀個老寡婦 15\ntsap\\liam-ta-ke·chutˇbanˇphue sim\\pu\n雜唸大家出蠻皮新婦 15\n\\tseˇguˊtahˇboˊpun \\tseˊbooˇboˊteˊkhun\n濟牛踏無糞,濟某無地睏 13\nˊtsahˇangˊtso ˇniˇniˊho\n食紅棗,年年好 22\nˊtsiah bah ˇchanˇhng hak ˇtsiaN\\tse kah\n食肉,田園蓄誠濟甲 22\nˊtsiah bahˇphuh seNˊtsoˊkhaˊphongˇphue\n食肉皮,生做較胖皮 6\nˊtsiah bahˇuan \\ban\\su·ˇuanˊbuan\n食肉丸,萬事圓滿 22\nˊtsiahˇhe ˊkhaˇgau chiahˇe\n食蝦,較爻刺鞋 6\nˊtsiahˇhi\\amˇeˊkhuaiˊtso\\pe\n食魚頷下,快做父 22",
+"text": "· 352 · 臺灣禮俗語典\nthiaNˊbooˋchui　〝tuaˋhuˋkui\n聽某喙，大富貴 13\nthiN-kongˋtiaN〝gongˇlang\n天公痛愚儂 8\nthiNˊting·thiN-kong　〝te〝eˊbo〝ku-kong\n天頂天公，地下母舅公 23\nˇthng-kamˋbit-kam\n糖甘蜜甘 22\nTs\ntsaˊbooˊginˊaˋchaiˊtsi〝mia\n查某囡仔菜子命 16\ntsaˊbooˊginˊaˇiuˇmuaˋchaiˊtsi〝mia\n查某囡仔油麻菜子命 16\ntsaˊbooˊkiaNˋkaˇniuˊle·ˊtngˇtsai\n查某囝敎良嬭剸臍 27\ntsaˊbooˊkiaN·ˋke-chut·patˇlangˇe\n查某囝嫁出別儂个 15\ntsaˊbooˇlang·pang〝zio　〝tsuaN〝be〝tsiuN-piah\n查某儂放尿　濺袂上壁 11\nˋtsapˊkiaNˋtsap sim〝pu　chunˋtsitˇe〝lauˊkuaN〝hu\n十囝十新婦，偆蜀個老寡婦 15\ntsap〝liam-ta-ke·chutˇbanˇphue sim〝pu\n雜唸大家出蠻皮新婦 15\n〝tseˇguˋtahˇboˋpun　〝tseˊbooˇboˋteˋkhun\n濟牛踏無糞，濟某無地睏 13\nˋtsahˇangˊtso　ˇniˇniˊho\n食紅棗，年年好 22\nˋtsiah bah　ˇchanˇhng hak ˇtsiaN〝tse kah\n食肉，田園蓄誠濟甲 22\nˋtsiah bahˇphuh　seNˋtsoˋkhaˋphongˇphue\n食肉皮，生做較胖皮 6\nˋtsiah bahˇuan　〝ban〝su·ˇuanˊbuan\n食肉丸，萬事圓滿 22\nˋtsiahˇhe　ˋkhaˇgau chiahˇe\n食蝦，較爻刺鞋 6\nˋtsiahˇhi〝am〝e　ˋkhuaiˋtso〝pe\n食魚頷下，快做父 22",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },

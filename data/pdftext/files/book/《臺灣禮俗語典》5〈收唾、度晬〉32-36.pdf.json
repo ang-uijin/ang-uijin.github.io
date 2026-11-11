@@ -44,12 +44,11 @@
 },
 {
 "n": 5,
-"text": "・36・　臺灣禮俗語典\nphang　hiong　hiang\n【芳】⑩ 俗作「香」,非是。臺語【香】指帶有刺激性的香味,芬芳謂【芳】。\nphang\nˋhian　sian\n【羴】⑪ 說文:『羶,羊臭也。』廣韻:式連切。ˋhian擬作「羶」音不甚合。參考【身軀】之 s-/h-互變例,sian→hian是可能的,但聲調又不合。姑認爲同源字。此字也可能是體垢的【羶】⑫正字,如【生羶】。身體【生羶】自然就會【有羴】了。「羶」又有一個異體字作「羴」,廣韻:『羴,羊臭。許閒切,又失然切』。字在山開二,同韻上聲【限】(陽上)又讀ˆhian,所以「羴」字又可以讀ˋhian。聲調不合,視爲準正字。姑擬 sian 作「羶」,擬 ˋhian 作「羴」。\nhing-khu\nsian　seN-sian　seN-sian　ˆu\nˋhian\nhan　sian　ˆhan",
+"text": "• 36 • 臺灣禮俗語典\nphang　hiong　hiang\n【芳】⑩　俗作「香」，非是。臺語【香】指帶有刺激性的香味，芬芳謂【芳】。\nphang\n'hian　sian\n【羴】⑪　說文：『羶，羊臭也。』廣韻：式連切。'hian擬作「羶」音不甚合。參考【身軀】之 s-/h-互變例，sian→hian是可能的，但聲調又不合。姑認爲同源字。此字也可能是體垢的【羶】⑫正字，如【生羶】。身體【生羶】自然就會【有羴】了。「羶」又有一個異體字作「羴」，廣韻：『羴，羊臭。許閒切，又失然切』。字在山開二，同韻上聲【限】（陽上）又讀 \"hian ，所以「羴」字又可以讀 'hian。聲調不合，視爲準正字。姑擬 sian 作「羶」，擬 'hian 作「羴」。\nhing-khu\nsian　seN-sian　seN-sian　\"u\n'hian\nhan　sian　\"han",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 }

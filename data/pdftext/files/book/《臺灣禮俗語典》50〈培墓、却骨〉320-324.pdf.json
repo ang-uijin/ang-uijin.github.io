@@ -44,12 +44,11 @@
 },
 {
 "n": 5,
-"text": "・324・ 臺灣禮俗語典\nˊtut　ˊtuh　ˋtong\n陀沒切。』臺語【揬】比【搪】刺得用力。「突」、「揬」本同字，因「突」字音很多，已有 ˊtut文/thut、ˊthut白。玆以「揬」表 ˊtuh。\nkimˋtang\nˇtong\nˋtangˊaˋkhapˊliˇiu-kng\n【金顒】⑤ 金斗甕也。裝枯骨。字又作「甋」。集韻：『甋，小牡瓦也。』如爲竹製，字作「筒」，音皆徒紅切。「顒」白音轉陽去。如【顒仔磕汝油缸】謂小甕碰大缸，喩窮人與富人吵架。\nˋteˊli-sian\nsian-siN　sian\nˊkhuanˋmiaˊa-sian　ˊkaˋohˊa-sian　ˊgianˊa-sian\nsian\n【地理先】 地理先生之謂。臺語「先生」俗略作【先】⑥，如【看命仔先】【敎學仔先】（敎書先生）【囡仔先】（神童，年輕的先生）；亦可冠於人名上，如【○先】。俗改作「仙」。",
+"text": "• 324 • 臺灣禮俗語典\n'tut　'tuh　\"tong\n陀沒切。』臺語【揬】比【搪】刺得用力。「突」、「揬」本同字，因「突」字音很多，已有 'tut文/thut、'thut白。玆以「揬」表 'tuh。\nkim\"tang\n【金▢】⑤　金斗甕也。裝枯骨。字又作「▢」。集韻：『▢，小牡瓦也。』如爲竹製，字作「筒」，音皆徒紅切。「▢」白音轉陽去。如【▢仔磕汝油缸】謂小甕碰大缸，喻窮人與富人吵架。\nˇtong\n\"tang'a'khap'liˇiu-kng\n\"te'li-sian　sian-siN　sian\n【地理先】　地理先生之謂。臺語「先生」俗略作【先】⑥，如【看命仔先】【敎學仔先】（敎書先生）【囡仔先】（神童，年輕的先生）；亦可冠於人名上，如【○先】。俗改作「仙」。\n'khuan\"mia'a-sian　'ka'oh'a-sian　'gian'a-sian\nsian",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 }

@@ -367,7 +367,7 @@
 "text": "住民志\n寫字｜sia² ji⁷｜寫字｜sia² li⁷\n富裕｜hu³ ju⁷｜—｜\n饒裕｜jiau⁵ ju⁷｜—｜\n熱｜juah⁸｜熱｜luah⁸\n—｜｜豆乳｜tau⁷ lu²\n忍耐｜jim² nai⁷｜—｜\n—｜｜追｜lip⁴\n雖然｜sui¹ jian⁵｜—｜\n—｜｜日本｜lit⁸ pun²\n—｜｜人之初｜lin⁵／tsi¹ tshoo¹ ;\n｜｜人情｜lin⁵ tsing⁵\n入來｜jip⁸ · lai¹¹｜入來｜jip⁸ · lai¹¹\n｜｜燃料｜lian⁵ liau⁷\n由於資料蒐集有限，我們不知道「入」之變「柳」與否，造成一讀或兩讀有什麼語用上的關係。不過由整個新竹市的語料看來，大体文言詞未熟語化的字唸j-，熟語化的字唸l-，但分工不嚴格。\n3. 主聲調比較\n《彙音妙悟》陰陽去聲混淆，依判斷二百年前泉州音應該和現代泉州音一樣，陰陽去本調混同，但變調不混。\n新竹市的陰陽去兩調分明，沒有混同現象。\n《彙音妙悟》和現代泉州部份方言一樣，陽上聲獨立成調，但新竹市則陽上全部和陽去混同。\n《彙音妙悟》不載「輕聲」之類變化調，因此無法比較。\n【語料】\n自述七則\n鄭衍宗　訪問記音\n②130",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -438,7 +438,7 @@
 "text": "語言篇\nhit⁴ tsun⁷ a²/ tai⁵ pak⁴/tsiam¹ thian¹ ma²/ to¹ siong⁷ tshut⁴ mia⁵ =e²²·la₁₁/gua²/to¹ u⁷ tang¹ si⁵ a² khir³ tai⁵\n彼陣仔台北詹天馬都上出名个啦。我都有東時仔去台\npak⁴/ iann² phinn³ kong¹ si¹/ theh⁸ phinn³/tsiong² x / tak⁸ ke¹ tua³ hia⁵/ lirh₃ khai¹ kang²/i¹ toh⁸ tua³ hia⁵/ tann²/\n北影片公司提片種種⑥，逐家帶遐置開講，伊著帶遐打⑦\nguah₃ kong² thian¹ ma² sian¹/ lir² a⁷ m⁷ bian² tann²/ ang⁵ lian⁵ si⁷/ tua³ siong⁷ hai²/sat⁴ tshing¹/ theh⁸ lai⁵ tai⁵\n我講「天馬仙，汝亦毋免打，紅蓮寺帶上海殺青提來台\npak⁴/ ing² lok⁸ tsoo⁷/ mi⁵ lit⁸/ tsit⁸ tiunn⁵/ puann¹ si³ lit⁸/ toh⁸ pueh⁴ tiunn⁵·loo₁₁ / sua³·lo₁₁ / bang² kah⁴/ koh³\n北永樂座冥日一場，搬四日著八場咯，紲落⑧，艋舺閣\npuann¹ si³ lit⁸/toh⁸ tsap⁸ lak⁸ tiunn⁵ =a₂₂·ler₃₃/ tsap⁸ lak⁸ tiunn⁵/ khuann³ tsap⁸ lak⁸ pai²/berh₃ to³ thau⁵ liam⁷/ lan²\n搬四日，著十六場矣咧十六場看十六擺，卜倒頭唸咱\nma⁷ e⁷ ing⁷·li₁₁ / tsip⁴ ma²/lai⁵ kau³ te⁷ hng¹ /tshiunn⁷ kong² sin¹ tik⁴/ tai⁵ tiong¹/tai⁵ lam⁵/ ko¹ hiong⁵/ hua₂₂\n嘛會用得。職馬來袼⑨地方，像講新竹、台中、台南、高雄，嘩\na₁₁/ oo¹ peh⁸ phue³ thau⁵/ tit⁸ tit⁸ tshah⁴/ tak⁸ ke¹ ma⁷ kong² lir²/ ki³ ti⁵ / ho²/ lirh₃ m⁷ toh⁸ sing¹ phinn³/\n啊烏白配頭⑩直直插逐家嘛講汝記持⑪好。汝毋著⑫新片\ntheh⁸·lai₁₁/ tak⁸ ke¹ mai³ khuann³/kan¹ na¹ / he¹/khau¹ pun²/khng³·le₁₁/ tian⁷ iann²/ pang³·loh₁₁ khir₁₁/tak⁸ ke¹\n提來，逐家勿看，干礁⑬彼跤本囥⑭咧電影放落去，逐家\nlai⁵ kong²/ an₃₃ ni¹/ m⁷ tsia³ tsai¹ iann² kang¹ hu¹ / tsit⁴ lo⁷ tiong¹ kok⁴ phinn³/ to¹ bian² kong² / han³ li⁷·honn²¹ /\n來講，按呢毋即知影功夫。」職號中國片都免講，漢字乎。\nlit⁸ pun² phinn³·a₁₁/hian⁷ tai⁷ =e₂₂ ma⁷ kan² tan¹ / na⁷ si⁷ tai⁷ = e₂₂ / lirh₃ kong²/ e⁵= ue⁷/ long² bo⁵ tang⁵/ lirh₃\n日本片啊，現代个嘛簡單。「若時代=个⑮」置講个話攏無同汝\ntsai¹·m₁₁ / he¹ / ma⁷ si⁷ theh⁸·lai₁₁/uan⁵ na² an₃₃ ni¹/hian⁷ kong²/ gua⁷ kok⁴ phinn³ =e¹¹/ theh⁸·lai₁₁/ uan⁵ na²\n知毋，「彼嘛是提來員仔按呢現講⑯外國片个提來員仔\nan₃₃ ni¹/lai⁵ kong²/ ah₃ khuann³ kann²·boo₁₁/ ah³ i¹ kong² berh⁴ king² to² tsit⁸ ki¹/guah₃ kong² tsit⁴ ki¹ sip⁸ ji⁷\n按呢來講益看敢·否？」益伊講「卜揀佗一枝？」我講：「職枝十字\nkun¹·koh₃ / i¹ kong² guah₃ bo⁵ hit⁴ lo⁷ si⁵ kan¹·la₁₁ /kiann¹·tioh₁₁·la₁₁ / guah₃ kong² ah₃ lirh₃ to¹ m⁷\n軍閣-。」伊講「我無彼號時間啦。」驚·著啦，我講「益汝都毋\nkann²·a/ tiong¹ kok⁴ phinn³ =e¹¹/ i¹ toh⁸ kann²·la¹¹\n敢啊！」中國片个伊著敢啦。\n註\n①モーター：馬達。\n②啞口片：默片。\n③烏白……講：亂講。\n④臆：猜。\n⑤跤本：腳本。劇本。「腳」本應讀kioh⁴，角色之義。劇本規範角色之演戲，故又稱「腳本」，因「腳」俗讀為kha¹〔跤〕，因讀「腳本」為kha¹ pun²〔跤本〕，訛為khau¹ pun²。\n②135",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -452,7 +452,7 @@
 "text": "住民志\n⑥種種：等等。\n⑦打：吹牛。「打仙」：吹牛大王。\n⑧紲落：接下去。sua³〔紲〕本字〔世〕，繼也，續也。\n⑨袼：到。\n⑩配頭：佐料。此處指劇本上不載，「辯士」為了趣味效果所加的潤色。\n⑪記持：記性。\n⑫毋著：應該，要嘛就……。\n⑬干礁：只，但。\n⑭囥：放。\n⑮時代＝个：日本古裝武俠劇。\n⑯現講：當場講、馬上講。\nbo⁵ un⁷\n無運\ngun² lau⁷ pe⁷/ tinn⁷ pang¹ bian⁵/ tai⁵ pak⁴/ kok⁴ gir² hak⁸ hau⁷/ te⁷ it⁴ ki⁵/pit⁸ giap⁸=e₁₁/ ka¹ tin⁵/ si⁷ i¹ e⁵\n阮老父鄭邦綿台北國語學校第一期畢業个嘉藤是伊个\nsian¹ sinn¹/ kah₃ gun² lau⁷ pe⁷/ tsin¹ siong¹ ho²/ tsin¹ thiann³ gun² lau¹ pe⁷ /gun² lau⁷ pe⁷/ thak⁸ liau²/ i¹ to¹ u⁷\n先生，佮阮老父眞相好，眞疼阮老父。阮老父讀了伊都有\ntsinn⁵ la₁₁ / bo⁵ berh₃ ka³ tsir¹/ tsue³ sing¹ li²/ lak⁸ tshit⁴ pah⁴ kah⁴/ e⁵ thoo² tue⁷/ liau² ka³ bo⁵ puann³ hang⁷/he¹/\n錢啦，無卜教書。做生理，六七百甲个土地，了駕無半項。彼\nto¹ sim¹ kuann¹/siunn¹ tua⁷/ tng¹ tsue³.a₁₁ / a⁷ berh₃ tsue³ bi²/ a⁷ berh₃ tsue³ thng⁵/ a⁷ berh₃ tsue³ iu⁵/ a⁷ berh₃\n都心肝傷大。當做①啊，亦卜做米，亦卜做糖，亦卜做油，亦卜\ntsoh¹ sit⁴/tshong³ long⁵ tiunn⁵/tsing³ kam¹ tsia³/ tak⁸ hang⁷/ i¹ to¹ tsue³/ lang⁵/bo⁵ un⁷. la₁₁ / ah⁴ sng³ puann⁵/ si⁷\n作嗇，創農場，種甘蔗，逐項伊都做。儂無運啦。益算盤是\ntsiann⁵ gau⁵ sng³/ tak⁸ ke¹ kong² sin¹ tik⁴/ e⁵ phong³ a¹ sia³/ sng³ puann⁵/ kua³ tir⁷ lerh₃ am⁷ kun²· e₁₁/\n誠爻②算，逐家講新竹个凸阿舍算盤掛佇咧頷頸裏。\ni¹ he¹/ki² ho⁵/tai¹ soo³/ long⁵ iong⁷ sng³ puann⁵/ sng³·lam₃₁ / m⁷bian² koh³iong⁷ pit⁴·lam₃₁ / na⁷ he¹/\n伊彼幾何代數攏用算盤算汝知毋毋免閣用筆，汝知毋若彼\ntshik⁴ tui¹/ kui² tui¹/tir⁷·ler₁₁·honn²¹/ ah₃ tik⁴ ko¹ tshah⁴·tsit₁₁ ki₁₁ soh⁴a² khan¹·lue₁₁/ serh⁸· lue₁₁/ niu⁷ tsit⁸\n粟堆幾堆佇咧乎，益竹篙插一枝，索仔牽落去，踅③落去，量一\ntau²/khiai₃₁/khuann³ gua⁷ tang⁷/ tan²· le₁₁/ tsit⁴ tui¹ tshik⁴ tui¹/ gua⁷ tang⁷/long² tsai¹ iann²/ ah₃ tsit⁸ khu¹ tshan⁵/\n斗起來看外重，等咧，職堆粟堆外重攏知影。益一坵田\n②136",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -480,7 +480,7 @@
 "text": "住民志\ngiam⁵ hu⁷\n嚴父\ngun² lau⁷ pe⁷/e⁵ sian¹ sinn¹/ka³ gua² lin⁵/ tsi¹ tshoo¹/ i² hoo⁷ tsue³ li² sik⁴ lir⁵.la¹¹/te⁷ li²/tsin¹ tsan² / han³ i¹/\n阮老父个先生教我《人之初》,伊號做李錫如啦,地理眞▢①漢醫\ntsin¹ gau⁵/ioh⁸ tsir¹/khuann³ u⁷ thau³/guah₃ tsai² khi² si⁵/tioh⁸ ai³ khir³ hak⁸ hau⁷/khir³ shiong⁷ kho³/thak⁸ kong¹\n眞灸,藥書看有透②我早起時著愛去學校去上課,讀公\nhak⁸ hau⁷/e⁷ poo¹ si⁵/koh₃ khirh₃ sian¹ sinn¹/hia⁵/thak⁸/ha⁷ kho³/tng²·lai₁₁ honn₂₁/gun² lau⁷ pe⁷/berh₃ ka³\n學校。下晡時閣去先生遐讀,下課轉來乎,阮老父卜教\ngua² thak⁸ pak⁴ kiann¹ gir²/pueh⁴ her³ gin² a²/berh₃ oh⁸ sann¹ khuan²/ah₃ pak⁴ kiann¹ gir²/thak⁸ suah⁴/tshau₂₂ u₃₃\n我讀北京語。八歲囡仔卜學三款。益北京語讀煞差不\nto¹ pueh⁴ kau² tiam² tsing¹/lnag⁵ tak⁸ ke¹ berh₃ khun³ a¹¹/koh₃ ai³ oh⁸ sia² li⁷/gua⁷ khau²/lirh₃ puann¹ hi³·oo²³/\n多八九點鐘,儂逐家卜睏矣,閣愛學寫字。外口置搬戲胡,\nlo⁵ koo²/pin³ piang³ kio³/ bue⁷ sai² li¹¹/ tsia¹/e⁵ tsir¹/ai³ ka⁷ gua² uat⁸ liam⁷ hoo₂₂ liau²/ li⁷/ai³ sia² uan⁵/\n鑼鼓□□叫一「袂使得,遮个書愛共我越唸③予了,字愛寫完,\nkong¹ kho³/tsue³ uan⁵/tsiah₃ e⁷ sai² tshut⁴·khir₁₁/kong¹ ko³/tsue³ uan⁵/to¹ suah⁴ hi³ a¹¹·berh₃/berh₃ khuann³\n功課做完即會使出去。」功課做完都煞戲矣卜,卜看\nsiann² er³/soo² i² gua²/sia² li²/ tsin¹ bai²/lirh₃ kong² thau¹ suan¹ tshut⁴ khirh₃ khuann³/i¹ tsit⁸ ki¹ he¹/khue¹ sinn³·\n啥貨,所以我寫字眞穤。汝講偷辿⑤出去看?伊一枝彼葵扇\nhonn²¹/hang⁵ tsiu¹ khue¹ sinn³/gur⁷ tua⁷ ki¹·e₁₁/phiak⁸ tsit⁸ e⁷/toh⁸ sut⁴·lai₁₁/giam⁵ hu⁷·la₁₁/ah⁴ sit⁸ tsai⁷/bo⁵\n乎杭州葵扇外大枝咧,搏!一下著卹⑥來。嚴父啦。益實在無\nhau⁷/sim¹ kuann¹/put⁴ tsai⁷· a₁₁/ah₃ gin² a²/ sim¹ li² hu⁷ tam¹/tong³ bue⁷ tiau⁵/na² tshiunn⁷ gua² lirh₃ ma⁷ gun²\n效。心肝不在⑦啊益囡仔心理負擔擋袂椆⑨。那像我置罵阮\nhau⁷ sinn¹/ka³ kiann²/a⁷ berh₃ tsai⁵ ge⁷/a⁷ berh₃ ing¹ bun⁵/tan²· le₁₁/a⁷ berh₃ kio³ i¹ khirh₃ phah⁴ phi₂₂ a₃₃\n後生教囝,亦卜才藝,亦卜英文,等一下亦卜叫伊去扑ピア\nnoh₂/tng²·lai₁₁/koh₃ siok⁴ tue⁵/koh₃ tioh⁸ siann² her³/guah₃ kong² lirh₃ tse¹/gin² a²/si⁷ berh₃ ka₂₂ tsinn¹ hoo⁷ si²·\nノ轉來閣宿題,閣著啥貨,我講汝這囝仔是卜共擠⑩予死,\nm₂₁/he¹/pat⁴ too²/hiah₃ sue³ e⁵/hoo⁷ lirh₃ tsinn¹ piak⁴·phua₁₁/an₃₃ ni¹/bo⁵ loo⁷ ing⁷/e⁷ thak⁸/toh⁸ si⁷ e⁷/\n毋?彼腹肚遐細个,予汝擠爆。破。按呢無路用。會讀著是會,\nlan² toh⁸ ai³ tsiau³ kui¹ kir²/lai⁵ ka³/ m⁷ thang¹ an₃₃ ni¹/hoo⁷ i¹ sing⁵ siu⁷ e⁷ khi²/tsiah₃ thak⁸ e⁷ lai⁵/\n咱著愛照規矩來教,毋通按呢。予伊承受會起,即讀會來。\n註:\n①(▢):美也、善也。很棒。\n②透:徹底。「讀有透」謂徹底了解。\n③越唸:背誦。\n④卜:要。「卜看啥貨」謂還要看什麼。\n⑤辿:蹓走。相當於liu¹ suan¹〔蹓辿〕。\n②138",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

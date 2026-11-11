@@ -54,12 +54,11 @@
 },
 {
 "n": 6,
-"text": "· 6 · 臺灣禮俗語典\ncheN tsing\n睛】玉篇：『目珠子也』廣韵： 子盈切。聲母不甚合，但\nˊching\n廣韵又：七靜切。如換爲七盈切，卽爲 ching → cheN 漳 / chiN 泉。可視爲準正字。 俗或作「眚」，說文：『目病生\nˊsing\n翳也。唐韵：所景切，義近，聲調不合。且眚、盲意義重覆，不若「睛盲」意義明確。",
+"text": "‧6‧ 臺灣禮俗語典\ncheN\ntsing\n睛】玉篇：『目珠子也』廣韵：子盈切。聲母不甚合，但\n'ching\n廣韵又：七靜切。如換爲七盈切，卽爲 ching → cheN 漳 / chiN 泉。可視爲準正字。 俗或作「眚」，說文：『目病生\n'sing\n翳也。唐韵：所景切，義近，聲調不合。且眚、盲意義重覆，不若「睛盲」意義明確。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 }

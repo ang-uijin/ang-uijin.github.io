@@ -50,14 +50,12 @@
 },
 {
 "n": 6,
-"text": "語言篇\nh[h]：清喉擦音。\n-h[-ʔ]：清喉塞音。在聲母作’-，在韻尾作-h。\n二、半元音\ny[j]：舌面半元音。\n三、元音\na[a]：展唇低元音。\n＊ee[ε]：展唇前半低元音。\ne[e]：展唇前半高元音。\ni[i]：展唇前高元音。當介音用時，隨韻腹之高低調整舌位高低。\nii[ɿ]：展唇舌尖元音。\n＊yu[y]：圓唇前高元音。\noo[ɔ]：圓唇後半低元音。\no[o]：圓唇後半高元音。在-ng之前表[ ]。\n＊or[ɤ]：展唇後半高元音。\nu[u]：圓唇後高元音。當介音用時，隨韻腹之高低調整舌位高低。\n＊uu[ɯ]：展唇後高元音。\n＊ar[ɚ]：展唇央半低元音。\ner[ə]：展唇央半高元音。\nir[ɨ]：展唇央高元音。\nur[ʉ]：圓唇央高元音。\n四、鼻化成份\n元音鼻化在舌位相當的口元音之後加nn表示。如ann[ã]，inn[ĩ]，unn[ũ]，但因新竹無onn[õ]：oonn[ɔ̃]的對立，以onn表[õ]。又鼻輔音之後，nn省略，如ma[mã]、na[nã]、ng[ŋã]不作mann、nann、ngann。\n五、聲調\n音高：以1、2、3表具辨義作用之調階。\n長短：短音以單數字表示，長音以多數字表示。如：「實」sit₃，「詩」si₃₃，「金金金」kim₂₃1kim₂₂kim₃₃。\n調位：記在音標右下角。\n②83",
+"text": "語言篇\nh[h]：清喉擦音。\n-h[-?]：清喉塞音。在聲母作’-，在韻尾作-h。\n二、半元音\ny[j]：舌面半元音。\n三、元音\na[a]：展唇低元音。\n＊ee[ɛ]：展唇前半低元音。\ne[e]：展唇前半高元音。\ni[i]：展唇前高元音。當介音用時，隨韻腹之高低調整舌位高低。\nii[ɿ]：展唇舌尖元音。\n＊yu[y]：圓唇前高元音。\noo[ɔ]：圓唇後半低元音。\no[o]：圓唇後半高元音。在-ng之前表[ ]。\n＊or[ɤ]：展唇後半高元音。\nu[u]：圓唇後高元音。當介音用時，隨韻腹之高低調整舌位高低。\n＊uu[ɯ]：展唇後高元音。\n＊ar[ɐ]：展唇央半低元音。\ner[ə]：展唇央半高元音。\nir[ɨ]：展唇央高元音。\nur[ʉ]：圓唇央高元音。\n四、鼻化成份\n元音鼻化在舌位相當的口元音之後加nn表示。如ann[ã]，inn[ĩ]，unn[ũ]，但因新竹無onn[õ]：oonn[ɔ̃]的對立，以onn表[õ]。又鼻輔音之後，nn省略，如ma[mã]、na[nã]、ng[ŋã]不作mann、nann、ngann。\n五、聲調\n音高：以1、2、3表具辨義作用之調階。\n長短：短音以單數字表示，長音以多數字表示。如：「實」sit₃，「詩」si₃₃，「金金金」kim₂₃1kim₂₂kim₃₃。\n調位：記在音標右下角。\n②83",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
-"羅馬字多",
-"表格"
+"羅馬字多"
 ]
 },
 {
@@ -515,7 +513,7 @@
 "text": "住民志\n寫字｜sia² ji⁷｜寫字｜sia² li⁷\n富裕｜hu³ ju⁷｜—｜\n饒裕｜jiau⁵ ju⁷｜—｜\n熱｜juah⁸｜熱｜luah⁸\n—｜｜豆乳｜tau⁷ lu²\n忍耐｜jim² nai⁷｜—｜\n—｜｜追｜lip⁴\n雖然｜sui¹ jian⁵｜—｜\n—｜｜日本｜lit⁸ pun²\n—｜｜人之初｜lin⁵／tsi¹ tshoo¹ ;\n｜｜人情｜lin⁵ tsing⁵\n入來｜jip⁸ · lai¹¹｜入來｜jip⁸ · lai¹¹\n｜｜燃料｜lian⁵ liau⁷\n由於資料蒐集有限，我們不知道「入」之變「柳」與否，造成一讀或兩讀有什麼語用上的關係。不過由整個新竹市的語料看來，大体文言詞未熟語化的字唸j-，熟語化的字唸l-，但分工不嚴格。\n3. 主聲調比較\n《彙音妙悟》陰陽去聲混淆，依判斷二百年前泉州音應該和現代泉州音一樣，陰陽去本調混同，但變調不混。\n新竹市的陰陽去兩調分明，沒有混同現象。\n《彙音妙悟》和現代泉州部份方言一樣，陽上聲獨立成調，但新竹市則陽上全部和陽去混同。\n《彙音妙悟》不載「輕聲」之類變化調，因此無法比較。\n【語料】\n自述七則\n鄭衍宗　訪問記音\n②130",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -566,7 +564,7 @@
 "text": "語言篇\nhit⁴ tsun⁷ a²/ tai⁵ pak⁴/tsiam¹ thian¹ ma²/ to¹ siong⁷ tshut⁴ mia⁵ =e²²·la₁₁/gua²/to¹ u⁷ tang¹ si⁵ a² khir³ tai⁵\n彼陣仔台北詹天馬都上出名个啦。我都有東時仔去台\npak⁴/ iann² phinn³ kong¹ si¹/ theh⁸ phinn³/tsiong² x / tak⁸ ke¹ tua³ hia⁵/ lirh₃ khai¹ kang²/i¹ toh⁸ tua³ hia⁵/ tann²/\n北影片公司提片種種⑥，逐家帶遐置開講，伊著帶遐打⑦\nguah₃ kong² thian¹ ma² sian¹/ lir² a⁷ m⁷ bian² tann²/ ang⁵ lian⁵ si⁷/ tua³ siong⁷ hai²/sat⁴ tshing¹/ theh⁸ lai⁵ tai⁵\n我講「天馬仙，汝亦毋免打，紅蓮寺帶上海殺青提來台\npak⁴/ ing² lok⁸ tsoo⁷/ mi⁵ lit⁸/ tsit⁸ tiunn⁵/ puann¹ si³ lit⁸/ toh⁸ pueh⁴ tiunn⁵·loo₁₁ / sua³·lo₁₁ / bang² kah⁴/ koh³\n北永樂座冥日一場，搬四日著八場咯，紲落⑧，艋舺閣\npuann¹ si³ lit⁸/toh⁸ tsap⁸ lak⁸ tiunn⁵ =a₂₂·ler₃₃/ tsap⁸ lak⁸ tiunn⁵/ khuann³ tsap⁸ lak⁸ pai²/berh₃ to³ thau⁵ liam⁷/ lan²\n搬四日，著十六場矣咧十六場看十六擺，卜倒頭唸咱\nma⁷ e⁷ ing⁷·li₁₁ / tsip⁴ ma²/lai⁵ kau³ te⁷ hng¹ /tshiunn⁷ kong² sin¹ tik⁴/ tai⁵ tiong¹/tai⁵ lam⁵/ ko¹ hiong⁵/ hua₂₂\n嘛會用得。職馬來袼⑨地方，像講新竹、台中、台南、高雄，嘩\na₁₁/ oo¹ peh⁸ phue³ thau⁵/ tit⁸ tit⁸ tshah⁴/ tak⁸ ke¹ ma⁷ kong² lir²/ ki³ ti⁵ / ho²/ lirh₃ m⁷ toh⁸ sing¹ phinn³/\n啊烏白配頭⑩直直插逐家嘛講汝記持⑪好。汝毋著⑫新片\ntheh⁸·lai₁₁/ tak⁸ ke¹ mai³ khuann³/kan¹ na¹ / he¹/khau¹ pun²/khng³·le₁₁/ tian⁷ iann²/ pang³·loh₁₁ khir₁₁/tak⁸ ke¹\n提來，逐家勿看，干礁⑬彼跤本囥⑭咧電影放落去，逐家\nlai⁵ kong²/ an₃₃ ni¹/ m⁷ tsia³ tsai¹ iann² kang¹ hu¹ / tsit⁴ lo⁷ tiong¹ kok⁴ phinn³/ to¹ bian² kong² / han³ li⁷·honn²¹ /\n來講，按呢毋即知影功夫。」職號中國片都免講，漢字乎。\nlit⁸ pun² phinn³·a₁₁/hian⁷ tai⁷ =e₂₂ ma⁷ kan² tan¹ / na⁷ si⁷ tai⁷ = e₂₂ / lirh₃ kong²/ e⁵= ue⁷/ long² bo⁵ tang⁵/ lirh₃\n日本片啊，現代个嘛簡單。「若時代=个⑮」置講个話攏無同汝\ntsai¹·m₁₁ / he¹ / ma⁷ si⁷ theh⁸·lai₁₁/uan⁵ na² an₃₃ ni¹/hian⁷ kong²/ gua⁷ kok⁴ phinn³ =e¹¹/ theh⁸·lai₁₁/ uan⁵ na²\n知毋，「彼嘛是提來員仔按呢現講⑯外國片个提來員仔\nan₃₃ ni¹/lai⁵ kong²/ ah₃ khuann³ kann²·boo₁₁/ ah³ i¹ kong² berh⁴ king² to² tsit⁸ ki¹/guah₃ kong² tsit⁴ ki¹ sip⁸ ji⁷\n按呢來講益看敢·否？」益伊講「卜揀佗一枝？」我講：「職枝十字\nkun¹·koh₃ / i¹ kong² guah₃ bo⁵ hit⁴ lo⁷ si⁵ kan¹·la₁₁ /kiann¹·tioh₁₁·la₁₁ / guah₃ kong² ah₃ lirh₃ to¹ m⁷\n軍閣-。」伊講「我無彼號時間啦。」驚·著啦，我講「益汝都毋\nkann²·a/ tiong¹ kok⁴ phinn³ =e¹¹/ i¹ toh⁸ kann²·la¹¹\n敢啊！」中國片个伊著敢啦。\n註\n①モーター：馬達。\n②啞口片：默片。\n③烏白……講：亂講。\n④臆：猜。\n⑤跤本：腳本。劇本。「腳」本應讀kioh⁴，角色之義。劇本規範角色之演戲，故又稱「腳本」，因「腳」俗讀為kha¹〔跤〕，因讀「腳本」為kha¹ pun²〔跤本〕，訛為khau¹ pun²。\n②135",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -576,7 +574,7 @@
 "text": "住民志\n⑥種種：等等。\n⑦打：吹牛。「打仙」：吹牛大王。\n⑧紲落：接下去。sua³〔紲〕本字〔世〕，繼也，續也。\n⑨袼：到。\n⑩配頭：佐料。此處指劇本上不載，「辯士」為了趣味效果所加的潤色。\n⑪記持：記性。\n⑫毋著：應該，要嘛就……。\n⑬干礁：只，但。\n⑭囥：放。\n⑮時代＝个：日本古裝武俠劇。\n⑯現講：當場講、馬上講。\nbo⁵ un⁷\n無運\ngun² lau⁷ pe⁷/ tinn⁷ pang¹ bian⁵/ tai⁵ pak⁴/ kok⁴ gir² hak⁸ hau⁷/ te⁷ it⁴ ki⁵/pit⁸ giap⁸=e₁₁/ ka¹ tin⁵/ si⁷ i¹ e⁵\n阮老父鄭邦綿台北國語學校第一期畢業个嘉藤是伊个\nsian¹ sinn¹/ kah₃ gun² lau⁷ pe⁷/ tsin¹ siong¹ ho²/ tsin¹ thiann³ gun² lau¹ pe⁷ /gun² lau⁷ pe⁷/ thak⁸ liau²/ i¹ to¹ u⁷\n先生，佮阮老父眞相好，眞疼阮老父。阮老父讀了伊都有\ntsinn⁵ la₁₁ / bo⁵ berh₃ ka³ tsir¹/ tsue³ sing¹ li²/ lak⁸ tshit⁴ pah⁴ kah⁴/ e⁵ thoo² tue⁷/ liau² ka³ bo⁵ puann³ hang⁷/he¹/\n錢啦，無卜教書。做生理，六七百甲个土地，了駕無半項。彼\nto¹ sim¹ kuann¹/siunn¹ tua⁷/ tng¹ tsue³.a₁₁ / a⁷ berh₃ tsue³ bi²/ a⁷ berh₃ tsue³ thng⁵/ a⁷ berh₃ tsue³ iu⁵/ a⁷ berh₃\n都心肝傷大。當做①啊，亦卜做米，亦卜做糖，亦卜做油，亦卜\ntsoh¹ sit⁴/tshong³ long⁵ tiunn⁵/tsing³ kam¹ tsia³/ tak⁸ hang⁷/ i¹ to¹ tsue³/ lang⁵/bo⁵ un⁷. la₁₁ / ah⁴ sng³ puann⁵/ si⁷\n作嗇，創農場，種甘蔗，逐項伊都做。儂無運啦。益算盤是\ntsiann⁵ gau⁵ sng³/ tak⁸ ke¹ kong² sin¹ tik⁴/ e⁵ phong³ a¹ sia³/ sng³ puann⁵/ kua³ tir⁷ lerh₃ am⁷ kun²· e₁₁/\n誠爻②算，逐家講新竹个凸阿舍算盤掛佇咧頷頸裏。\ni¹ he¹/ki² ho⁵/tai¹ soo³/ long⁵ iong⁷ sng³ puann⁵/ sng³·lam₃₁ / m⁷bian² koh³iong⁷ pit⁴·lam₃₁ / na⁷ he¹/\n伊彼幾何代數攏用算盤算汝知毋毋免閣用筆，汝知毋若彼\ntshik⁴ tui¹/ kui² tui¹/tir⁷·ler₁₁·honn²¹/ ah₃ tik⁴ ko¹ tshah⁴·tsit₁₁ ki₁₁ soh⁴a² khan¹·lue₁₁/ serh⁸· lue₁₁/ niu⁷ tsit⁸\n粟堆幾堆佇咧乎，益竹篙插一枝，索仔牽落去，踅③落去，量一\ntau²/khiai₃₁/khuann³ gua⁷ tang⁷/ tan²· le₁₁/ tsit⁴ tui¹ tshik⁴ tui¹/ gua⁷ tang⁷/long² tsai¹ iann²/ ah₃ tsit⁸ khu¹ tshan⁵/\n斗起來看外重，等咧，職堆粟堆外重攏知影。益一坵田\n②136",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -596,7 +594,7 @@
 "text": "住民志\ngiam⁵ hu⁷\n嚴父\ngun² lau⁷ pe⁷/e⁵ sian¹ sinn¹/ka³ gua² lin⁵/ tsi¹ tshoo¹/ i² hoo⁷ tsue³ li² sik⁴ lir⁵.la¹¹/te⁷ li²/tsin¹ tsan² / han³ i¹/\n阮老父个先生教我《人之初》,伊號做李錫如啦,地理眞▢①漢醫\ntsin¹ gau⁵/ioh⁸ tsir¹/khuann³ u⁷ thau³/guah₃ tsai² khi² si⁵/tioh⁸ ai³ khir³ hak⁸ hau⁷/khir³ shiong⁷ kho³/thak⁸ kong¹\n眞灸,藥書看有透②我早起時著愛去學校去上課,讀公\nhak⁸ hau⁷/e⁷ poo¹ si⁵/koh₃ khirh₃ sian¹ sinn¹/hia⁵/thak⁸/ha⁷ kho³/tng²·lai₁₁ honn₂₁/gun² lau⁷ pe⁷/berh₃ ka³\n學校。下晡時閣去先生遐讀,下課轉來乎,阮老父卜教\ngua² thak⁸ pak⁴ kiann¹ gir²/pueh⁴ her³ gin² a²/berh₃ oh⁸ sann¹ khuan²/ah₃ pak⁴ kiann¹ gir²/thak⁸ suah⁴/tshau₂₂ u₃₃\n我讀北京語。八歲囡仔卜學三款。益北京語讀煞差不\nto¹ pueh⁴ kau² tiam² tsing¹/lnag⁵ tak⁸ ke¹ berh₃ khun³ a¹¹/koh₃ ai³ oh⁸ sia² li⁷/gua⁷ khau²/lirh₃ puann¹ hi³·oo²³/\n多八九點鐘,儂逐家卜睏矣,閣愛學寫字。外口置搬戲胡,\nlo⁵ koo²/pin³ piang³ kio³/ bue⁷ sai² li¹¹/ tsia¹/e⁵ tsir¹/ai³ ka⁷ gua² uat⁸ liam⁷ hoo₂₂ liau²/ li⁷/ai³ sia² uan⁵/\n鑼鼓□□叫一「袂使得,遮个書愛共我越唸③予了,字愛寫完,\nkong¹ kho³/tsue³ uan⁵/tsiah₃ e⁷ sai² tshut⁴·khir₁₁/kong¹ ko³/tsue³ uan⁵/to¹ suah⁴ hi³ a¹¹·berh₃/berh₃ khuann³\n功課做完即會使出去。」功課做完都煞戲矣卜,卜看\nsiann² er³/soo² i² gua²/sia² li²/ tsin¹ bai²/lirh₃ kong² thau¹ suan¹ tshut⁴ khirh₃ khuann³/i¹ tsit⁸ ki¹ he¹/khue¹ sinn³·\n啥貨,所以我寫字眞穤。汝講偷辿⑤出去看?伊一枝彼葵扇\nhonn²¹/hang⁵ tsiu¹ khue¹ sinn³/gur⁷ tua⁷ ki¹·e₁₁/phiak⁸ tsit⁸ e⁷/toh⁸ sut⁴·lai₁₁/giam⁵ hu⁷·la₁₁/ah⁴ sit⁸ tsai⁷/bo⁵\n乎杭州葵扇外大枝咧,搏!一下著卹⑥來。嚴父啦。益實在無\nhau⁷/sim¹ kuann¹/put⁴ tsai⁷· a₁₁/ah₃ gin² a²/ sim¹ li² hu⁷ tam¹/tong³ bue⁷ tiau⁵/na² tshiunn⁷ gua² lirh₃ ma⁷ gun²\n效。心肝不在⑦啊益囡仔心理負擔擋袂椆⑨。那像我置罵阮\nhau⁷ sinn¹/ka³ kiann²/a⁷ berh₃ tsai⁵ ge⁷/a⁷ berh₃ ing¹ bun⁵/tan²· le₁₁/a⁷ berh₃ kio³ i¹ khirh₃ phah⁴ phi₂₂ a₃₃\n後生教囝,亦卜才藝,亦卜英文,等一下亦卜叫伊去扑ピア\nnoh₂/tng²·lai₁₁/koh₃ siok⁴ tue⁵/koh₃ tioh⁸ siann² her³/guah₃ kong² lirh₃ tse¹/gin² a²/si⁷ berh₃ ka₂₂ tsinn¹ hoo⁷ si²·\nノ轉來閣宿題,閣著啥貨,我講汝這囝仔是卜共擠⑩予死,\nm₂₁/he¹/pat⁴ too²/hiah₃ sue³ e⁵/hoo⁷ lirh₃ tsinn¹ piak⁴·phua₁₁/an₃₃ ni¹/bo⁵ loo⁷ ing⁷/e⁷ thak⁸/toh⁸ si⁷ e⁷/\n毋?彼腹肚遐細个,予汝擠爆。破。按呢無路用。會讀著是會,\nlan² toh⁸ ai³ tsiau³ kui¹ kir²/lai⁵ ka³/ m⁷ thang¹ an₃₃ ni¹/hoo⁷ i¹ sing⁵ siu⁷ e⁷ khi²/tsiah₃ thak⁸ e⁷ lai⁵/\n咱著愛照規矩來教,毋通按呢。予伊承受會起,即讀會來。\n註:\n①(▢):美也、善也。很棒。\n②透:徹底。「讀有透」謂徹底了解。\n③越唸:背誦。\n④卜:要。「卜看啥貨」謂還要看什麼。\n⑤辿:蹓走。相當於liu¹ suan¹〔蹓辿〕。\n②138",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -950,12 +948,11 @@
 },
 {
 "n": 97,
-"text": "住民志\nto³ber³/i¹ tsiah₃kong²/kong² lir²·honn₂₁/tsue³liau²au⁷/ it⁴ting⁷lir²/kiau¹lin²kiann²/ai³\nhiong³pak⁴/kiann⁵/kiann⁵kah₃bo⁵loo⁷/ui⁵tsi²/lir²/suah₃tua³hia⁵/ting⁷kir¹/ah₃tsir⁷jian⁵/toh⁸tit⁸tit⁸huat⁴\ntat⁸/an₃₃ni¹/kau³hit⁴tsun⁷/e⁷huat⁴kah₃ing⁷kim¹thng¹si⁵/gun⁵bin⁷thang²/e⁵thing⁵too⁷/gua²/tsiah₃lai⁵\nka⁷li²/siu¹sian¹sinn¹le²/ ah₃ m⁷toh⁸iok⁴sok⁴an³ni¹/sinn¹/\n倒尾伊(地理師)即講，講：「汝乎，做了後，一定汝交恁囝，愛向北行，行駕無路為止，汝煞帶遐定居，益自然著直直發達，按呢。佫彼陣會發駕用金湯匙、銀面桶个程度，我即來共汝收先生禮。」益毋著約束按呢生。\ntsit⁴e³lau⁷po⁵/m⁷toh⁸tua³hia⁵/koh₃hoo₂₂tshiann³/kio³in¹kiann²/kio³tsue³loo⁵ting²/ter³puann¹hi³=\ne₁₁tsau²/puann¹hi³/to¹i⁵tong⁷sing³/siong⁷tang⁷·loo₁₁a₁₁/tsuann₁₁ann₃₃tit⁸ x khi²·i₁₁/x²/khir³kau³thau⁵\nui⁵/tu²siong⁷pak⁴/ah₃tsia³tua³hia⁵/ting⁷kir¹/\n職个老婆毋著帶遐閣予倩，叫個囝叫做盧等，綴④搬戲个走，搬戲都移動性上重·咯矣就按呢直直起去起去，去佫頭圍，拄上北，益即帶遐定居。\npuann¹hi³=e₁₁/tong¹jian⁵/si⁷na⁷kiann⁵kau³hia⁵/long²si⁷lau⁷liat⁸·la₁₁/hit⁴e⁵gin²a²/to¹siunn⁷kong²\nberh₃tua³hia⁵/ting⁷kir¹·ler₃₃/tsau²khir³lang⁵he¹/kam²a²tiam³/kha¹tshng¹au⁷/khuann³lang⁵lih₃sue²\nuann²·loo₁₁·siann₂₁/ i¹toh⁸khir₃₃ka⁷lang⁵tau³sue²/ah₃tsu²lang⁵/khuann³·to₁₁/kong² enn₂₁/tsit⁴e⁵kau⁵\ngin²a²hiah₃kut⁴lat⁸/ ho²a₁₁/ bo⁵/lir²bo⁵tshong³·siann₁₁/bo⁵/hoo⁷gua²tshiann³/i¹kong² ho²·a₂₂/\nbo⁵hoo⁷lih₃tshiann³/ah₃tsuan₁₃tua³hia⁵/\n搬戲个當然是若行行遐，攏是鬧熱啦。彼个囝仔都想講卜帶遐定居咧，走去儂彼▢仔店⑤尻川後⑥，看儂置洗碗·囉·啥貨⑦，伊著去共儂鬥洗。益主儂看著講：「噫，職个猴囝仔遐矻力⑧，好啊，無汝無創·啥無，予我倩。」伊講：「好·啊，無，予汝倩。」益就按呢帶遐。\ntsit⁴e⁵kam²a²tiam³u⁷nng⁷king¹/lih₃king³tsing¹·la₁₁/tshiann³tsit⁴e⁵gin²a²/liau²au⁷/sing¹li²/\nsuah₃tsuan⁵poo⁷/hoo⁷tsit⁴king¹/puih⁸ker³lai⁵/ah₃to³ber²/hit⁴ping⁵/kong²ai₂₃na³e⁷sai²·li₁₁/tshiann³\ntse¹/kau⁵gin²a²/na³e⁷hiah₃khiang³/sing¹li²/koh₃tsia³gau⁵tsue³/koh₃tui³lang⁵keh⁴/tsiann⁵tshin¹tshiat⁴/\nan₃₃ni¹/uann⁷i¹/khirh₃ka₂₂tshiann³ker³lai⁵/iong⁷tsinn⁵/ka₂₂thah⁸/oo₃₁a₁₁/lirh₃thah⁸gua²/gua²/thah⁸\nlir²/thah⁸kah₃u⁷tsit⁸e⁵thing⁵too⁷/tai⁷sing¹tshiann³=i₁₁/tsit⁴e⁵thau⁵ke¹/kong²bue⁷ing⁷·li₁₁/tse¹/bo⁵\n職个▢仔店有兩間置競爭啦，倩職个囝仔了後，生理煞全部予職間拔過來，益到尾，彼爿講「噯，哪會使得，倩這猴囝仔哪會遐勢，生理閣遮爻做，閣對儂客誠親切。」按呢。換伊去共倩過來。用錢共疊。嗚啊，汝疊我，我疊汝，疊駕有一个程度，代先倩伊職个頭家講「袂用得，這無\n②174",
+"text": "住民志\nto³ber³/i¹ tsiah₃kong²/kong² lir²·honn₂₁/tsue³liau²au⁷/ it⁴ting⁷lir²/kiau¹lin²kiann²/ai³\n倒尾伊(地理師)即講，講：「汝乎，做了後，一定汝交恁囝，愛\nhiong³pak⁴/kiann⁵/kiann⁵kah₃bo⁵loo⁷/ui⁵tsi²/lir²/suah₃tua³hia⁵/ting⁷kir¹/ah₃tsir⁷jian⁵/toh⁸tit⁸tit⁸huat⁴\n向北行，行駕無路爲止，汝煞帶遐定居，益自然著直直發\ntat⁸/an₃₃ni¹/kau³hit⁴tsun⁷/e⁷huat⁴kah₃ing⁷kim¹thng¹si⁵/gun⁵bin⁷thang²/e⁵thing⁵too⁷/gua²/tsiah₃lai⁵\n達，按呢。佫彼陣會發駕用金湯匙、銀面桶个程度，我即來\nka⁷li²/siu¹sian¹sinn¹le²/ ah₃ m⁷toh⁸iok⁴sok⁴an³ni¹/sinn¹/\n共汝·收先生禮。」益毋著約束按呢生。\ntsit⁴e³lau⁷po⁵/m⁷toh⁸tua³hia⁵/koh₃hoo₂₂tshiann³/kio³in¹kiann²/kio³tsue³loo⁵ting²/ter³puann¹hi³=\n職个老婆毋著帶遐閣予倩，叫個囝叫做盧等，綴④搬戲\ne₁₁tsau²/puann¹hi³/to¹i⁵tong⁷sing³/siong⁷tang⁷·loo₁₁a₁₁/tsuann₁₁ann₃₃tit⁸ x khi²·i₁₁/x2/khir³kau³thau⁵\n个走，搬戲都移動性上重·咯矣就按呢直直起去起去，去佫頭\nui⁵/tu²siong⁷pak⁴/ah₃tsia³tua³hia⁵/ting⁷kir¹/\n圍，拄上北，益即帶遐定居。\npuann¹hi³=e₁₁/tong¹jian⁵/si⁷na⁷kiann⁵kau³hia⁵/long²si⁷lau⁷liat⁸·la₁₁/hit⁴e⁵gin²a²/to¹siunn⁷kong²\n搬戲个當然是若行行遐，攏是鬧熱啦。彼个囝仔都想講\nberh₃tua³hia⁵/ting⁷kir¹·ler₃₃/tsau²khir³lang⁵he¹/kam²a²tiam³/kha¹tshng¹au⁷/khuann³lang⁵lih₃sue²\n卜帶遐定居咧，走去儂彼▢仔店⑤尻川後⑥，看儂置洗\nuann²·loo₁₁·siann₂₁/ i¹toh⁸khir₃₃ka⁷lang⁵tau³sue²/ah₃tsu²lang⁵/khuann³·to₁₁/kong² enn₂₁/tsit⁴e⁵kau⁵\n碗·囉·啥貨⑦，伊著去共儂鬥洗。益主儂看著講：「噫，職个猴\ngin²a²hiah₃kut⁴lat⁸/ ho²a₁₁/ bo⁵/lir²bo⁵tshong³·siann₁₁/bo⁵/hoo⁷gua²tshiann³/i¹kong² ho²·a₂₂/\n囝仔遐矻力⑧，好啊，無汝無創·　啥　無，予我倩。」伊講：「好·啊，\nbo⁵hoo⁷lih₃tshiann³/ah₃tsuan₁₃tua³hia⁵/\n無，予汝倩。」益就按呢帶遐。\ntsit⁴e⁵kam²a²tiam³/u⁷nng⁷king¹/lih₃king³tsing¹·la₁₁/tshiann³tsit⁴e⁵gin²a²/liau²au⁷/sing¹li²/\n職个▢仔仔店有兩間置競爭啦，倩職个囝仔了後，生理\nsuah₃tsuan⁵poo⁷/hoo⁷tsit⁴king¹/puih⁸ker³lai⁵/ah₃to³ber²/hit⁴ping⁵/kong²ai₂₃na³e⁷sai²·li₁₁/tshiann³\n煞全部予職間拔過來，益到尾，彼爿講「噯，哪會使得，倩\ntse¹/kau⁵gin²a²/na³e⁷hiah₃khiang³/sing¹li²/koh₃tsia³gau⁵tsue³/koh₃tui³lang⁵keh⁴/tsiann⁵tshin¹tshiat⁴/\n這猴囝仔哪會遐勢，生理閣遮爻做，閣對儂客誠親切。」\nan₃₃ni¹/uann⁷i¹/khirh₃ka₂₂tshiann³ker³lai⁵/iong⁷tsinn⁵/ka₂₂thah⁸/oo₃₁a₁₁/lirh₃thah⁸gua²/gua²/thah⁸\n按呢。換伊去共倩過來。用錢共疊。嗚啊，汝疊我，我疊\nlir²/thah⁸kah₃u⁷tsit⁸e⁵thing⁵too⁷/tai⁷sing¹tshiann³=i₁₁/tsit⁴e⁵thau⁵ke¹/kong²bue⁷ing⁷·li₁₁/tse¹/bo⁵\n汝，疊駕有一个程度，代先倩伊職个頭家講「袂用得，這無\n②174",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -971,12 +968,11 @@
 },
 {
 "n": 99,
-"text": "住民志\ntshiann³=e₁₁hoo⁷tsue³siann²mia⁵/lir²/tsai¹·boo₁₁/hoo⁷tsue³uan⁵kang¹/\n倩个號做啥名汝知否，號做「完工」。\nhoo₁₁/tse¹/loo⁵ting²/thiann¹tioh⁸kong²uan⁵kang¹/ i¹ toh⁸tsai¹iann²kong²huat⁴kah₃hit⁴=e₃₃ui⁵\n乎！這盧等聽著講「完工」，伊著知影講「發駕彼个為\ntsi²/ ho² se³·loo₁₁/\n止」，好勢咯。\n註：\n①踦：隻、只。黃金甕等的單位。\n②交：與、同。\n③駕(kah₃)：本字可能是「佫」kau³，變「駕」ka³→kah₃。既然。\n④綴：跟隨。\n⑤▢仔店：雜貨店。\n⑥尻川後：後面。\n⑦·啥貨：等等。列舉之詞。\n⑧矻力：勤勞。\n⑨はね(uane)：日語發語詞。\n⑩橛：樁。\n⑪嘔紅：吐血。\n②176",
+"text": "住民志\ntshiann³=e₁₁hoo⁷tsue³siann²mia⁵/lir²/tsai¹·boo₁₁/hoo⁷tsue³uan⁵kang¹/\n倩个號做啥名汝知否，號做「完工」。\nhoo₁₁/tse¹/loo⁵ting²/thiann¹tioh⁸kong²uan⁵kang¹/ i¹ toh⁸tsai¹iann²kong²huat⁴kah₃hit⁴=e₃₃ui⁵\n乎！這盧等聽著講「完工」，伊著知影講「發駕彼个爲\ntsi²/ ho² se³·loo₁₁/\n止」，好勢咯。\n註：\n①踦：隻、只。黃金甕等的單位。\n②交：與、同。\n③駕(kah₃)：本字可能是「佫」kau³ ，變「駕」ka³→kah₃。既然。\n④綴：跟隨。\n⑤笭仔店：雜貨店。\n⑥尻川後：後面。\n⑦·啥貨：等等。列舉之詞。\n⑧矻力：勤勞。\n⑨はね(uane)：日語發語詞。\n⑩橛：樁。\n⑪嘔紅：吐血。\n②176",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1319,12 +1315,11 @@
 },
 {
 "n": 133,
-"text": "住民志\nhuu⁵・la₁₁/kui²lo⁷khuan²huu⁵・la₁₁/phai²thinn¹/bo⁵huat⁴tho²liah⁸/bi⁷pher³kiam₁₁=e₃₃・la₁₁honn₂₁/\n魚啦。幾號款魚啦，歹天無法討掠，唯配鹹=个啦乎，\nah³ ho²thinn¹/ke³pher³tshinn¹・e₁₁/to³・ai₁₁/ ke³ tho²kah³tua⁷bu²si³kue³/\n益好天，皆配鮮个。倒來，皆討駕大拇四界⑫。\n張：攏掠啥麼魚？\nmi₃₂hang⁷huu⁵/ma⁷u⁷/gua²/tshiu²・e₁₁/lerh³liah⁸・honn₂₁/a⁷u⁷hio₃₁tua⁷ker³/lang⁵gua⁷kuan₁₁\n王：七項魚嘛有。我手裏咧掠乎亦有彼號大▢，儂外峘\n=e₃₃/a⁷pat⁴tsit⁸mng⁵tio₃₃a₂₁/tio³sann¹ber²/nng⁷pa₃₂ a₁₁ kun¹/to₁₁・ai₁₁/tsim₃₃ma²/ker³huu⁵/tsit⁸\n个亦捌一門釣仔釣三尾兩百外斤倒來。職馬▢魚一\nkun¹kong²/nng⁷pah⁴/ing²pai²/bo⁵・oo₁₁/kui²khoo¹gun₁₁na₃₁/nia⁷nia⁷/\n斤講兩百往擺無噢，幾箍銀仔但但。\n張：閣有啥麼魚？\nmi₃₂hang⁷/ma⁷u:₂₂₁/gua²/tshiu²=e₁₁/lerh³liah⁸/ke³liah⁸ iu³huu⁵/ liah⁸tsio₃₁ka¹lah⁸・loo₁₁/ling⁵tsiam¹・\n王：七項嘛有。我手裏咧掠，皆掠幼魚⑬，掠職號鮫魶囉龍針\nloo₁₁/gua²/loh⁸kah³hai²=e₁₁/u⁷tsioh⁸thau⁵/gua²/e⁷pha¹ sua²・e₁₁/pha¹ he¹/sua²/tsing¹tsha¹tsit⁸poo⁷/\n囉。我落駕海裏有石頭我會抛硰得，抛彼硰增差一步\ntoh⁸bue⁷tioh⁸/\n著袂著。\n張：「抛硰」是啥麼意思？\npha¹sua²/ hai²/toh⁸kann₃₃na₃₃suann¹ting²・le₁₁/u⁷tsio₃₁tsioh⁸thau⁵khang¹/tiam³huu⁵・a₁₁/mui²jit⁸/toh⁸\n王：抛硰？海著敢那山頂哩，有職號石頭空站魚啊，每日著\npha¹he¹/tsioh⁸thau⁵khang¹=e₃₃/m⁷tsiah³u⁷huu⁵/thang¹tio³/hai²tue²/si⁷tshan¹tshiunn⁷lan²tsio₃₁\n抛彼石頭空裏毋即有魚通釣。海底是親像咱職號\nsuann¹ting²sang⁵khuan²/a⁷u⁷ kau:₃₃₁/ a⁷ u⁷tsioh⁸/lan²/kiann₂₃jit⁸/na⁷u⁷liah⁸・tio₁・honn₂₁/lan²/toh⁸\n山頂相同款，亦有溝-，亦有石。咱今旦日若有掠著乎，咱著\nkhuann³he¹/suann¹/pak⁴si³suann¹/lam⁵ping⁵suann¹/tui³bin¹suann¹/sann¹bin⁷suann¹/tioh⁸u⁷hah⁸/\n看彼山，北勢山，南爿山，對面山，三面山著有合，\ntu₂₃tu₂₃a₃₃hio₃₁/tsing¹tsha¹tsit⁸poo⁷/a⁷bue⁷sai²・e₁₁/loh⁸・khuu₁₁/u⁷huu⁵/bo⁵huu⁵/toh⁸tsai¹iann²/\n拄拄仔彼號，增差一步亦袂使得。落去有魚無魚著知影。\npha¹he¹/sua²/tioh⁸pi²suann¹ting²/e⁵tshik⁴liong⁵/iau²koh⁴khah³khiang³/\n抛彼硰著比山頂个測量(?)夭閣卡勥⑮。\n張：恁除了掠魚以外，咁有掠蟳仔、蝦仔遮个物件？\nmi₃₂hang⁷/ma⁷u⁷/ u⁷・la₁₁/tua⁷bu²si³kue³・oo₁₁/lang⁵ing²pai²/he¹/huu⁵tsing²/kau⁷/tsim₃₃ma₃₁/liah⁸\n王：七項嘛有。有啦，大拇四界噢。儂往擺彼魚種厚，職馬掠\n②210",
+"text": "住民志\nhuu⁵·la₁₁/kui²lo⁷khuan²huu⁵·la₁₁/phai²thinn¹/bo⁵huat⁴tho²liah⁸/bi⁷pher³kiam₁₁=e₃₃·la₁₁honn₂₁/\n魚啦。幾號款魚啦，歹天無法討掠，唯配鹹=个啦乎，\nah₃ ho²thinn¹/ke³pher³tshinn¹·e₁₁/to³·ai₁₁/ ke³ tho²kah₃tua⁷bu²si³kue³/\n益好天，皆配鮮个。倒來，皆討駕大拇四界⑫。\n張：攏掠啥麼魚？\nmi₃₂hang⁷huu⁵/ma⁷u⁷/gua²/tshiu²·e₁₁/lerh₃liah⁸·honn₂₁/a⁷u⁷hio₃₁tua⁷ker³/lang⁵gua⁷kuan₁₁\n王：七項魚嘛有。我手裏咧掠乎亦有彼號大鱶，儂外峘\n=e₃₃/a⁷pat⁴tsit⁸mng⁵tio₃₃a₂₁/tio³sann¹ber²/nng⁷pa₃₂ a₁₁ kun¹/to₁₁·ai₁₁/tsim₃₃ma²/ker³huu⁵/tsit⁸\n个亦捌一門釣仔釣三尾兩百外斤倒來。職馬鱶魚一\nkun¹kong²/nng⁷pah⁴/ing²pai²/bo⁵·oo₁₁/kui²khoo¹gun₁₁na₃₁/nia⁷nia⁷/\n斤講兩百往擺無噢，幾箍銀仔但但。\n張：閣有啥麼魚？\nmi₃₂hang⁷/ma⁷u:₂₂₁/gua²/tshiu²=e₁₁/lerh₃liah⁸/ke³liah⁸ iu³huu⁵/ liah⁸tsio₃₁ka¹lah⁸·loo₁₁/ling⁵tsiam¹·\n王：七項嘛有。我手裏咧掠，皆掠幼魚⑬，掠職號鮫魶囉龍針\nloo₁₁/gua²/loh⁸kah₃hai²=e₁₁/u⁷tsioh⁸thau⁵/gua²/e⁷pha¹ sua²·e₁₁/pha¹ he¹/sua²/tsing¹tsha¹tsit⁸poo⁷/\n囉·我落駕海裏有石頭我會抛硰得，抛彼硰增差一步\ntoh⁸bue⁷tioh⁸/\n著袂著。\n張：「抛硰」是啥麼意思？\npha¹sua²/ hai²/toh⁸kann₃₃na₃₃suann¹ting²·le₁₁/u⁷tsio₃₁tsioh⁸thau⁵khang¹/tiam³huu⁵·a₁₁/mui²jit⁸/toh⁸\n王：抛硰？海著敢那山頂哩，有職號石頭空站魚啊，每日著\npha¹he¹/tsioh⁸thau⁵khang¹=e₃₃/m⁷tsiah³u⁷huu⁵/thang¹tio³/hai²tue²/si⁷tshan¹tshiunn⁷lan²tsio₃₁\n抛彼石頭空裏毋即有魚通釣。海底是親像咱職號\nsuann¹ting²sang⁵khuan²/a⁷u⁷ kau:₃₃₁/ a⁷ u⁷tsioh⁸/lan²/kiann₂₃jit⁸/na⁷u⁷liah⁸·tio₁·honn₂₁/lan²/toh⁸\n山頂相同款，亦有溝—，亦有石。咱今旦日若有掠著乎，咱著\nkhuann³he¹/suann¹/pak⁴si³suann¹/lam⁵ping⁵suann¹/tui³bin¹suann¹/sann¹bin⁷suann¹/tioh⁸u⁷hah⁸/\n看彼山，北勢山，南爿山，對面山，三面山著有合，\ntu₂₃tu₂₃a₃₃hio₃₁/tsing¹tsha¹tsit⁸poo⁷/a⁷bue⁷sai²·e₁₁/loh⁸·khuu₁₁/u⁷huu⁵/bo⁵huu⁵/toh⁸tsai¹iann²/\n拄拄仔彼號，增差一步亦袂使得。落去有魚無魚著知影。\npha¹he¹/sua²/tioh⁸pi²suann¹ting²/e⁵tshik⁴liong⁵/iau²koh⁴khah³khiang³/\n抛彼硰著比山頂个測量(?)夭閣卡勥⑮。\n張：恁除了掠魚以外，咁有掠蟳仔、蝦仔遮个物件？\nmi₃₂hang⁷/ma⁷u⁷/ u⁷·la₁₁/tua⁷bu²si³kue³·oo₁₁/lang⁵ing²pai²/he¹/huu⁵tsing²/kau⁷/tsim₃₃ma₃₁/liah⁸\n王：七項嘛有。有啦，大拇四界噢。儂往擺彼魚種厚，職馬掠\n②210",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1430,12 +1425,11 @@
 },
 {
 "n": 144,
-"text": "語言篇\n三板仔\n洪：一隻船仔各部位敢毋是攏有名？船仔个頭號做啥麼？\nah₃tsun⁵thau⁵/to¹tshuann²an₃₃ni₃₃tsiam¹x/tsun⁵ber²/khah₃khuah⁴/\n章：益船頭都鏟按呢尖尖，船尾卡闊。\n洪：益下跤號做啥麼？\ntsun⁵tue²/tsun⁵tue²/phoo¹pang¹/tsiah₃koh₃tshong³tshiunn⁵·khiai₂₁/ah₃bo⁵/a⁷sio²khua²hai²tsui²/\n章：船底船底舖枋，即閣創牆起來。益無，若小可海水\nphuah⁴·lai₁₁/tua³eh₃tsun⁵·e₁₁/khia⁷bue⁷tiau⁵·a₁₁\n潑·來，帶咧船裏待袂椆啊。\n洪：船个邊=也職兩塊枋，叫做啥貨？\nah₃he¹/toh⁸si⁷pat⁴too²pinn¹pang¹/toh⁴si⁷tshiunn⁵/toh⁸tioh⁸·la₁₁/\n章：益彼著是腹肚邊枋。著是牆著著啦。\nko³\n洪：咱咧划迄枝叫啥？\nhe¹/tsiunn₃₃ann₂₁/tshong³tsiunn₃₃ann₂₁/khirh₃ko³/ah₃m⁷tsiah₃tsun₁₁na₃₁/e⁷kiann⁵/iah₃tsui²/\n章：彼槳仔。創槳仔去划，益毋即船仔會行。揠水㉑\nkann₃₃na₃₃pe⁵ling⁵tsun⁵/na⁷bo⁵he¹/sam₂₂ma₃₃pher³/an₃₃ni¹/tua³hia⁵/iah⁴/iah⁴/iah⁴/berh₃\n敢那爬龍船。若無彼杉仔▢㉒按呢帶遐揠揠揠，卜\nhit⁴tsiah₃tsun₂₂na₃₁/tsau²e⁷khir³/\n彼隻船仔走會去？\ntua⁷\n洪：益船尾有一枝舵，咱叫做啥？\nhe¹/toh⁸tau³tsun⁵tua⁷/ah₃bo⁵/ing²/na⁷an₃₃ni¹/lai⁵/honn₂₁/tshan¹iunn⁷hio₃₂khi²kuainn⁵/\n章：彼著鬥船舵，益無，湧若按呢來乎，親像彼號起峘，\ntsha₂₂bu₃₃o₂₂tshu³/tsiah₃kuainn⁵·honn₂₁/hit⁴tsiah₃tsun₂₂na₃₁/to¹hoo₂₂kham³·lo₁₁ai₁₁/suah₃uan¹\n差不多厝遮峘乎。迄隻船仔都予崁落來，煞彎\nker³lai⁵/uan¹ker³khir³/bue⁷si³tsiann³/bue⁷si³tsiann³/tsiunn₃₃ann₂₁/toh⁸bue⁷ko³·e₁₁·oo₂₃/berh₃\n過來彎過去，袂四正，袂四正槳仔著袂划得胡。卜\ntsau²khirh₃to²/bue⁷tu²ho²/\n走去佗袂拄好。\nhuann⁷\n洪：划船=个咁毋著愛有一个捍舵？\n②221",
+"text": "語言篇\n三板仔\n洪：一隻船仔各部位敢毋是攏有名？船仔个頭號做啥麼？\nah₃tsun⁵thau⁵/to¹tshuann²an₃₃ni₃₃tsiam¹x/tsun⁵ber²/khah₃khuah⁴/\n章：益船頭都鏟按呢尖尖，船尾卡闊。\n洪：益下跤號做啥麼？\ntsun⁵tue²/tsun⁵tue²/phoo¹pang¹/tsiah₃koh₃tshong³tshiunn⁵·khiai₂₁/ah₃bo⁵/a⁷sio²khua²hai²tsui²/\n章：船底船底舖枋，即閣創牆起來。益無，若小可海水\nphuah⁴·lai₁₁/tua³eh₃tsun⁵·e₁₁/khia⁷bue⁷tiau⁵·a₁₁\n潑·來，帶咧船裏待袂椆啊。\n洪：船个邊=也職兩塊枋，叫做啥貨？\nah₃he¹/toh⁸si⁷pat⁴too²pinn¹pang¹/toh⁴si⁷tshiunn⁵/toh⁸tioh⁸·la₁₁/\n章：益彼著是腹肚邊枋。著是牆著著啦。\nko³\n洪：咱咧划迄枝叫啥？\nhe¹/tsiunn₃₃ann₂₁/tshong³tsiunn₃₃ann₂₁/khirh₃ko³/ah₃m⁷tsiah₃tsun₁₁na₃₁/e⁷kiann⁵/iah₃tsui²/\n章：彼槳仔。創槳仔去划，益毋即船仔會行。揠水㉑\nkann₃₃na₃₃pe⁵ling⁵tsun⁵/na⁷bo⁵he¹/sam₂₂ma₃₃pher³/an₃₃ni¹/tua³hia⁵/iah⁴/iah⁴/iah⁴/berh₃\n敢那爬龍船。若無彼杉仔栿㉒按呢帶遐揠揠揠，卜\nhit⁴tsiah₃tsun₂₂na₃₁/tsau²e⁷khir³/\n彼隻船仔走會去？\ntua⁷\n洪：益船尾有一枝舵，咱叫做啥？\nhe¹/toh⁸tau³tsun⁵tua⁷/ah₃bo⁵/ing²/na⁷an₃₃ni¹/lai⁵/honn₂₁/tshan¹iunn⁷hio₃₂khi²kuainn⁵/\n章：彼著鬥船舵，益無，湧若按呢來乎，親像彼號起峘，\ntsha₂₂bu₃₃o₂₂tshu³/tsiah₃kuainn⁵·honn₂₁/hit⁴tsiah₃tsun₂₂na₃₁/to¹hoo₂₂kham³·lo₁₁ai₁₁/suah₃uan¹\n差不多厝遮峘乎。迄隻船仔都予崁落來，煞彎\nker³lai⁵/uan¹ker³khir³/bue⁷si³tsiann³/bue⁷si³tsiann³/tsiunn₃₃ann₂₁/toh⁸bue⁷ko³·e₁₁·oo₂₃/berh₃\n過來彎過去，袂四正，袂四正槳仔著袂划得胡。卜\ntsau²khirh₃to²/bue⁷tu²ho²/\n走去佗袂拄好。\nhuann⁷\n洪：划船=个咁毋著愛有一个捍舵？\n②221",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1491,12 +1485,11 @@
 },
 {
 "n": 150,
-"text": "語言篇\n②挃：欲得曰tih⁸〔挃〕；有欲曰berh⁴〔卜〕。心中決意取得曰berh⁴tih⁸〔卜挃〕。tih⁴漳腔或唸tinnh⁸。\n③涎：誘也。引誘魚兒來吃餌。\n④啄：安置誘餌曰tauh⁴〔啄〕。\n⑤縖：卷、綑。\n⑥怙：本依靠之義。此處用為「用」義，如「怙釣=个」（用釣的）、「怙網=个」（用網的）。\n⑦艱苦有著：吃到苦，曾經吃過苦。\n⑧艚：小船。牽罟用的船叫koo¹ tso⁵〔罟艚〕。釣魚用的船叫tio³ tso⁵〔釣艚〕。「艚」亦當牽罟一組一組的數詞，如「十艚罟」、「十艚網」。\n⑨整：投資。\n⑩逝(tsua⁷)：趟、次、回。\n⑪干豆：關渡、在北投、士林之間。\n⑫罟跤：幫忙拉罟網的人。\n⑬繃：拉。同「拔」。\n⑭開：遠。\n⑮拔：拉。同「繃」。\n⑯礁頂：海中浮嶼皆曰ta¹〔礁〕。此處指suann³ ting²〔汕頂〕而言。\n⑰腰繫：牽罟時繫在腰際，用藤編的腰帶，一頭紮了一个陶環或鐵環，鉤住「罟索」。那个環叫koo¹ lui¹〔罟蕾〕。\n⑱大拇个：好大个。\n⑲坪：海灘。沙岸曰sua¹ phiann⁵〔沙坪〕；岩岸曰tsioh⁸phiann⁵〔石坪〕或tsioh⁸ thau⁵ phiann⁵〔石頭坪〕。\n⑳咮螺：吹螺。\n㉑揠水：iah⁴〔揠〕本義挖掘。如iah⁴ thoo⁵〔揠塗〕（掘土），引申為划，划水曰iah⁴ tsui²〔揠水〕。「揠」單指搖槳的動作，ko³〔划〕才是划船之義。\n㉒杉仔枋：杉木片。\n㉓起：指「起湧」，海浪高起來之義。\n㉔塗跤底：指海底。\n㉕往會：往往會。\n㉖火船仔：輪船，以煤為燃料，故曰火船。\n㉗拚：輕撞曰long³〔拚〕；重撞曰lok⁴〔拚？〕。\n㉘捉帆仔：調整帆高。tshik⁴是調整之義。\n㉙流水：(lau⁵ tsui²)：潮水；潮流。\n㉚文湧：波度較小的叫「文湧」；\n②227",
+"text": "語言篇\n②挃：欲得曰tih⁸〔挃〕；有欲曰berh⁴〔卜〕。心中決意取得曰berh⁴tih⁸〔卜挃〕。tih⁴漳腔或唸tinnh⁸。\n③涎：誘也。引誘魚兒來吃餌。\n④啄：安置誘餌曰tauh⁴〔啄〕。\n⑤▢：卷、綑。\n⑥怙：本依靠之義。此處用爲「用」義，如「怙釣=个」（用釣的）、「怙網」=个」（用網的）。\n⑦艱苦有著：吃到苦，曾經吃過苦。\n⑧艚：小船。牽罟用的船叫koo¹ tso⁵〔罟艚〕。釣魚用的船叫tio³ tso⁵〔釣艚〕。「艚」亦當牽罟一組一組的數詞，如「十艚罟」、「十艚網」。\n⑨整：投資。\n⑩逝(tsua⁷)：趟、次、回。\n⑪干豆：關渡、在北投、士林之間。\n⑫罟跤：幫忙拉罟網的人。\n⑬繃：拉。同「拔」。\n⑭開：遠。\n⑮拔：拉。同「繃」。\n⑯礁頂：海中浮嶼皆曰ta¹〔礁〕。此處指suann³ ting²〔汕頂〕而言。\n⑰腰　繫：牽罟時繫在腰際，用藤編的腰帶，一頭紮了一个陶環或鐵環，鉤住「罟索」。那个環叫koo¹ lui¹〔罟蕾〕。\n⑱大拇个：好大个。\n⑲坪：海灘。沙岸曰sua¹ phiann⁵〔沙坪〕；岩岸曰tsioh⁸phiann⁵〔石坪〕或tsioh⁸ thau⁵ phiann⁵〔石頭坪〕。\n⑳咮螺：吹螺。\n㉑揠水：iah⁴〔揠〕本義挖掘。如iah⁴ thoo⁵〔揠塗〕（掘土），引申爲划，划水曰iah⁴ tsui²〔揠水〕。「揠」單指搖槳的動作，ko³〔划〕才是划船之義。\n㉒杉仔枋：杉木片。\n㉓起：指「起湧」，海浪高起來之義。\n㉔塗跤底：指海底。\n㉕往會：往往會。\n㉖火船仔：輪船，以煤爲燃料，故曰火船。\n㉗拚：輕撞曰long³〔拚〕；重撞曰lok⁴〔拚？〕。\n㉘捉帆仔：調整帆高。tshik⁴是調整之義。\n㉙流水：(lau⁵ tsui²)：潮水；潮流。\n㉚文湧：波度較小的叫「文湧」；\n②227",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1907,12 +1900,11 @@
 },
 {
 "n": 190,
-"text": "語言篇\ntsap₁ lak₁ he₁₁/tio₁₁ tshiam₂₃ tshan₁₂·a₂₂ loo₂₂/ing₂₃ pai₃₁ tshong₁₁ thi₃₂ pe₂₂ lu₂₂·a₂₂/ah₃ tsim₃₃ ma₃₁/ki₂₂\n十六歲著槧田矣咯,往擺創鐵耙□啊,益職馬機\nkhi₁₁/phang₂₃ phang₃₁·le₁₁/kai₃₂ kai₁₁·e₁₁/tio₁₁ ho₃₁/\n器紡紡⑮咧⑯概概咧著好。\ntsa₂₃ tang₃₃/lak₁ ge₁₁ thau₁₃/kuah₂·khiai₁₁/u₁₁ tiu₁₁ ko₂₃ thau₁₃·m₂₂/lak₁ tak₃/ phah₂·lo₁₁/thoo₁₁ a₃₁/khah₃\n早冬⑰六月頭,割起來有稻稾頭毋,磟磚⑱扑·落,塗仔⑲卡\ne₁₁ iunn₁₂·la₁₁/beh₃ poo₃₂ ban₁₁ tang₃₃/so₂₂ tshau₃₁/m₁₁ tsiah₃ e₁₁ ho₂₃ so₃₃₁/na₁₁ poo₃₂ tsit₃ tang₃₃·e₁₁/lue₁₃·\n會融啦。卜播慢冬⑳,挲草毋即會好挲,若播職冬个,犁\nkhiai₁₁/kua₃₂ pe₂₂/tsiah₃ thi₃₂ pe₂₂/tshiam₃₁/sua₃₂ be₂₃ pian₁₁/beh₃ poo₁₁/tsiah₃ lak₁ tak₃/tsit₃ e₁₁ si₃₂ kai₂₂\n起來,割把;即鐵耙槧,煞尾遍卜播,即磟磚,職个四階\ntuann₂₂/tsim₃₃ ma₃₁/thi₃₂ gu₁₁ a₃₁/ leh₃ phang₃₁/nua₁₁ koo₃₁ koo₁₁/bian₂₃ ta₁₁ tiu₁₁ a₃₃ ko₂₃ thau₁₃/ing₂₃ pai₃₁/thi₃₂\n段。職馬鐵牛仔㉑咧紡爛糊糊,免踏稻仔稾頭,往擺鐵\npe₂₂/tshiam₃₁·loi₁₁/tio₁₁ ta₁₁ tiu₁₁ a₃₃ ko₂₃ thau₁₃/tiu₁₁ a₃₁ kuah₂·khiai₁₁/ ka₂₂ ta₁₁ hoo₂₂ bat₃·loi₁₁/m₁₁ tsiah₃\n耙槧落去著踏稻仔稿頭,稻仔割起來,共踏予密落去毋即\nbue₁₁ huat₃ iunn₃₁·khiai₁₁/\n袂發穎㉒起來。\ntsim₂₃ ma₃₁/a₂₂ bian₂₃ so₂₂ tshau₃₁/ing₂₃ pai₃₁/si₃₂ kha₂₂ hoo₃₃ a₂₁/ ta₁₁ an₃₃ ne₃₃/ so₂₂ ah₃ tse₃₃/kha₂₂ a₁₁ u₃₃\n職馬亦免挲草,往擺四跤虎仔㉓踏按呢,挲駕這跤頭骭㉔\n/phong₃₂ pha₂₂₁/sang₂₂ kha₃₃/tio₁₁ kui₂₂·e₁₁/lam₃₁ thoo₁₃/si₁₁ lam₃₁ thoo₁₃/na₁₁ tshiunn₁₁ li₃₃ e₁₁ bah₂/bian₂₃\n凸疤㉕。雙跤著跪咧。坔塗㉖是坔塗,若像汝个肉,免\nkui₁₁ nng₁₁ tiam₂₃ tsing₂₂ ku₃₁/tio₁₁ ang₁₁ ki₂₂ ki₃₃·loo₁₁/tsit₁ poo₃₃/li₃₃ to₁₁ pe₃₂ li₃₃ khi₂₃ kha₂₂ tsau₃₁/tsim₃₃ ma₃₁/\n跪兩點鐘久,著紅吱吱咯,一晡汝著趥得起跤走㉗。職馬\ntso₃₂ sit₂/tshau₂₃ tse₃₃/ia₁₁ ia₂₂· e₁₁/a₁₁ m₁₁ bian₃₃/ kan₂₂ na₂₂ u₁₁ phue₁₁ a₃₁/lai₂₃ khau₂₂ e₁₁/tshan₁₁\n作嗇草劑掖掖咧,亦毋免(挲草)…干礁有稗仔來薅㉘咧,田\nhuann₁₁ tshau₃₁/kua₃₂ kuah₂·e₁₁/tshan₁₁ huann₁₁ tshau₃₁/ma₁₁ u₁₁ lang₁₁ kong₂₃ ing₁₁ tshau₂₃ tse₃₃/sue₃₁·loo₁₁/\n岸草割割咧—田岸草嘛有儂講用草劑洗㉙咯,\nbo₁₁ ai₃₂ kuah₂/\n無愛割。\nso₂₂ tshau₃₁/gin₃₃ na₂₁/a₁₁ e₁₁ so₃₃·e₁₁/tsau₂₃ lang₁₃/a₁₁ e₁₁ so₃₃·e₁₁/tak₁ lang₁₁long₂₃ e₁₁ so₃₃·e₁₁/\n挲草囡仔亦會挲得,查某儂亦會挲咧,逐儂攏會挲得,\npoo₃₁ tshan₁₃ tio₁₁ king₂₃ lang₁₂/li₃₃ m₁₁ bat₃ koo₂₃ tsa₂₃ lang₁₃/kong₂₃ so₂₂ tshau₂₃ khit₃ tsiah₃/poo₃₁ tshan₁₁ sai₂₂\n播田著揀儂,汝毋捌古早儂講「挲草乞食,播田師\nhu₂₂/\n傅」。\n②267",
+"text": "語言篇\ntsap₁ lak₁ he₁₁/tio₁₁ tshiam₂₃ tshan₁₂·a₂₂ loo₂₂/ing₂₃ pai₃₁ tshong₁₁ thi₃₂ pe₂₂ lu₂₂·a₂₂/ah₃ tsim₃₃ ma₃₁/ki₂₂\n十六歲著犁田矣咯，往擺創鐵耙□啊，益職馬機\nkhi₁₁/phang₂₃ phang₃₁·le₁₁/kai₃₂ kai₁₁·e₁₁/tio₁₁ ho₃₁/\n器紡紡⑮咧⑯概概咧著好。\ntsa₂₃ tang₃₃/lak₁ ge₁₁ thau₁₃/kuah₂·khiai₁₁/u₁₁ tiu₁₁ ko₂₃ thau₁₃·m₂₂/lak₁ tak₃/ phah₂·lo₁₁/thoo₁₁ a₃₁/khah₃\n早冬⑰六月頭，割起來有稻稾頭毋，磟磚⑱扑·落，塗仔⑲卡\ne₁₁ iunn₁₂·la₁₁/beh₃ poo₃₂ ban₁₁ tang₃₃/so₂₂ tshau₃₁/m₁₁ tsiah₃ e₁₁ ho₂₃ so₃₃₁/na₁₁ poo₃₂ tsit₃ tang₃₃·e₁₁/lue₁₃·\n會融啦。卜播慢冬⑳，挲草毋即會好挲，若播職冬个，犁\nkhiai₁₁/kua₃₂ pe₂₂/tsiah₃ thi₃₂ pe₂₂/tshiam₃₁/sua₃₂ be₂₃ pian₁₁/beh₃ poo₁₁/tsiah₃ lak₁ tak₃/tsit₃ e₁₁ si₃₂ kai₂₂\n起來，割耙；即鐵耙犁，煞尾遍卜播，即磟磚，職个四階\ntuann₂₂/tsim₃₃ ma₃₁/thi₃₂ gu₁₁ a₃₁/ leh₃ phang₃₁/nua₁₁ koo₃₁ koo₁₁/bian₂₃ ta₁₁ tiu₁₁ a₃₃ ko₂₃ thau₁₃/ing₂₃ pai₃₁/thi₃₂\n段。職馬鐵牛仔㉑咧紡爛糊糊，免踏稻仔稾頭，往擺鐵\npe₂₂/tshiam₃₁·loi₁₁/tio₁₁ ta₁₁ tiu₁₁ a₃₃ ko₂₃ thau₁₃/tiu₁₁ a₃₁ kuah₂·khiai₁₁/ ka₂₂ ta₁₁ hoo₂₂ bat₃·loi₁₁/m₁₁ tsiah₃\n耙犁落去著踏稻仔稿頭，稻仔割起來，共踏予密落去毋即\nbue₁₁ huat₃ iunn₃₁·khiai₁₁/\n袂發穎㉒起來。\ntsim₂₃ ma₃₁/a₂₂ bian₂₃ so₂₂ tshau₃₁/ing₂₃ pai₃₁/si₃₂ kha₂₂ hoo₃₃ a₂₁/ ta₁₁ an₃₃ ne₃₃/ so₂₂ ah₃ tse₃₃/kha₂₂ a₁₁ u₃₃\n職馬亦免挲草，往擺四跤虎仔㉓踏按呢，挲駕這跤頭骭㉔\n/phong₃₂ pha₂₂₁/sang₂₂ kha₃₃/tio₁₁ kui₂₂·e₁₁/lam₃₁ thoo₁₃/si₁₁ lam₃₁ thoo₁₃/na₁₁ tshiunn₁₁ li₃₃ e₁₁ bah₂/bian₂₃\n凸疤㉕。雙跤著跪咧。坔塗㉖是坔塗，若像汝个肉，免\nkui₁₁ nng₁₁ tiam₂₃ tsing₂₂ ku₃₁/tio₁₁ ang₁₁ ki₂₂ ki₃₃·loo₁₁/tsit₁ poo₃₃/li₃₃ to₁₁ pe₃₂ li₃₃ khi₂₃ kha₂₂ tsau₃₁/tsim₃₃ ma₃₁/\n跪兩點鐘久，著紅吱吱咯，一晡汝著趥得起跤走㉗。職馬\ntso₃₂ sit₂/tshau₂₃ tse₃₃/ia₁₁ ia₂₂· e₁₁/a₁₁ m₁₁ bian₃₃/ kan₂₂ na₂₂ u₁₁ phue₁₁ a₃₁/lai₂₃ khau₂₂ e₁₁/tshan₁₁\n作嗇草劑掖掖咧，亦毋免（挲草）…干礁有稗仔來薅㉘咧，田\nhuann₁₁ tshau₃₁/kua₃₂ kuah₂·e₁₁/tshan₁₁ huann₁₁ tshau₃₁/ma₁₁ u₁₁ lang₁₁ kong₂₃ ing₁₁ tshau₂₃ tse₃₃/sue₃₁·loo₁₁/\n岸草割割咧—田岸草嘛有儂講用草劑洗㉙咯，\nbo₁₁ ai₃₂ kuah₂/\n無愛割。\nso₂₂ tshau₃₁/gin₃₃ na₂₁/a₁₁ e₁₁ so₃₃·e₁₁/tsau₂₃ lang₁₃/a₁₁ e₁₁ so₃₃·e₁₁/tak₁ lang₁₁long₂₃ e₁₁ so₃₃·e₁₁/\n挲草囡仔亦會挲得，查某儂亦會挲咧，逐儂攏會挲得，\npoo₃₁ tshan₁₃ tio₁₁ king₂₃ lang₁₂/li₃₃ m₁₁ bat₃ koo₂₃ tsa₂₃ lang₁₃/kong₂₃ so₂₂ tshau₂₃ khit₃ tsiah₃/poo₃₁ tshan₁₁ sai₂₂\n播田著揀儂，汝毋捌古早儂講「挲草乞食，播田師\nhu₂₂/\n傅」。\n②267",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1928,23 +1920,21 @@
 },
 {
 "n": 192,
-"text": "語言篇\n⑩tsho³〔剉〕:砍伐。\n⑪si⁷ tua⁷ lang⁵〔視大儂〕:長輩。指父母。\n⑫ke³〔皆〕:皆、都。\n⑬lang⁵〔儂〕:人家,別人。讀變調。\n⑭piann³ se³〔拚勢〕:拚命,趕緊。\n⑮phang²〔紡〕:用機器轉動的力量打。\n⑯kai³〔概〕:打平。\n⑰tsa² tang¹〔早冬〕:第一期稻作。\n⑱lak⁸ tak⁸〔磟碡〕:一種楊桃形農具。\n⑲thoo⁵ a²〔塗仔〕:土塊。\n⑳ban⁷ tang¹〔慢冬〕:第二期稻作。\n㉑thih⁴ gu⁵ a²〔鐵牛仔〕:農機。耕耘機。\n㉒huat⁴ iunn²〔發穎〕:發芽。\n㉓si³ kha¹ hoo² a²〔四跤虎仔〕:四腳著地「挲草」的樣子。\n㉔kha¹ thau⁵ u¹〔跤頭骭〕:膝蓋。\n㉕phong³ pha⁷〔凸疤〕:起疤。\n㉖lam³ thoo⁵〔坔塗〕:爛泥巴。\n㉗peh⁴ khi² kha¹ tsau²〔趥起跤走〕:拔腿就跑。\n㉘khau¹〔薅〕:拔草。\n㉙sue²〔洗〕:噴撒農藥。\n㉚tsap⁸ loo⁷ tsng⁵〔十路全〕:樣樣都會。\n㉛ke³ si⁵ tai⁷〔過時代〕:時代改變。「過」是轉變之意,如「過帆」是改變航向之意。\n㉜ootobai〔オトバイ〕:機車,摩托車。\n㉝hai'ia〔ハイヤ〕:轎車。\n㉞nng² kha¹ he⁵〔軟跤蝦〕:体弱無力之人。\n㉟thih⁴ lan⁷ tsiau²〔鐵卵鳥〕:堅硬的陰莖。喻指好色。\n㊱sau³ khau²〔哨口〕:漁港檢查哨。\n㊲tsua⁷〔逝〕:趟。「一逝路」:一趟路。\n㊳tinn⁷〔淀〕:滿。滿未溢曰「淀」,滿而溢曰mua²〔滿〕。\n㊴gia⁵〔夯〕:肩舉曰gia⁵〔夯〕;手舉曰giah⁸〔攑〕。\n㊵phok⁸ phok⁸ a²〔搏搏仔〕:三輪拼裝車。因其發聲phok⁸ x x 而名。\n㊶phok⁸〔搏〕:用「搏搏仔」車載。\n㊷kha¹ tshng¹〔尻川〕:屁股。\n②269",
+"text": "語言篇\n⑩tsho³〔剉〕：砍伐。\n⑪si⁷ tua⁷ lang⁵〔視大儂〕：長輩。指父母。\n⑫ke³〔皆〕：皆、都。\n⑬lang⁵〔儂〕：人家，別人。讀變調。\n⑭piann³ se³〔拚勢〕：拚命，趕緊。\n⑮phang²〔紡〕：用機器轉動的力量打。\n⑯kai³〔概〕：打平。\n⑰tsa² tang¹〔早冬〕：第一期稻作。\n⑱lak⁸ tak⁸〔磟磚〕：一種楊桃形農具。\n⑲thoo⁵ a²〔塗仔〕：土塊。\n⑳ban⁷ tang¹〔慢冬〕：第二期稻作。\n㉑thih⁴ gu⁵ a²〔鐵牛仔〕：農機。耕耘機。\n㉒huat⁴ iunn²〔發穎〕：發芽。\n㉓si³ kha¹ hoo² a²〔四跤虎仔〕：四腳著地「挲草」的樣子。\n㉔kha¹ thau⁵ u¹〔跤頭骭〕：膝蓋。\n㉕phong³ pha⁷〔凸疤〕：起疤。\n㉖lam³ thoo⁵〔坔塗〕：爛泥巴。\n㉗peh⁴ khi² kha¹ tsau²〔趥起跤走〕：拔腿就跑。\n㉘khau¹〔薅〕：拔草。\n㉙sue²〔洗〕：噴撒農藥。\n㉚tsap⁸ loo⁷ tsng⁵〔十路全〕：樣樣都會。\n㉛ke³ si⁵ tai⁷〔過時代〕：時代改變。「過」是轉變之意，如「過帆」是改變航向之意。\n㉜ootobai〔オトバイ〕：機車，摩托車。\n㉝hai'ia〔ハイヤ〕：轎車。\n㉞nng² kha¹ he⁵〔軟跤蝦〕：体弱無力之人。\n㉟thih⁴ lan⁷ tsiau²〔鐵卵鳥〕：堅硬的陰莖。喻指好色。\n㊱sau³ khau²〔哨口〕：漁港檢查哨。\n㊲tsua⁷〔逝〕：趟。「一逝路」：一趟路。\n㊳tinn⁷〔淀〕：滿。滿未溢曰「淀」，滿而溢曰mua²〔滿〕。\n㊴gia⁵〔夯〕：肩舉曰gia⁵〔夯〕；手舉曰giah⁸〔攑〕。\n㊵phok⁸ phok⁸ a²〔搏搏仔〕：三輪拼裝車。因其發聲phok⁸　x x 而名。\n㊶phok⁸〔搏〕：用「搏搏仔」車載。\n㊷kha¹ tshng¹〔尻川〕：屁股。\n②269",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
 {
 "n": 193,
-"text": "住民志\nloh⁸ tsiann³ phoo⁷\n二、落蔗廍\ngun₂₃ lau₁₁ pe₂₂/lo₁₁ tsiann₃₂ phoo₂₂/tsue₃₂ kang₃₃/gua₃₁/lo₁₁ tsit₁ pai₃₁/tua₃₂ he₃₃/ki₂₂ khi₃₃ a₃₁/he₃₃/kam₂₂\n阮老父落蔗廍①做工。我落一擺。帶彼機器仔彼甘\ntsiann₁₁/khueh₂·lo₁₁·lai₁₁·honn₂₁/tua₃₂ tso₁₁ a₃₁/sa₂₂ he₃₃/la₃₂ sap₂/ m₁₁ tsiah₃ bue₁₁ that₂·le₁₁/lo₁₁ tsit₁ mi₁₃\n蔗揳②落來乎。帶糟仔捎③彼垃圾,毋即袂塞咧。落一冥。\n/tsue₃₂ gin₃₃ na₂₁/\n做囡仔。\nhe₃₃/tsio₁₁ lun₃₁/si₁₁ a₃₃ ne₃₃·la₁₁/sann₂₂ liam₂₂/sann₂₂ liap₁ tsio₁₁ lun₃₁/tsiap₂/lau₁₁ ih₃ tso₁₁ a₃₁/ ah₃ tsiah₃\n彼石碖④是按呢啦。三歛⑤,三粒石碖。汁流去糟仔,益即\nkoh₃ lau₃₂ i₃₂ thng₁₁ king₃₃ e₃₃·khi₁₁/ khia₁₁ sng₃₂ he₃₃/kam₂₂ tsiann₁₁/u₁₁ la₃₂ sap₂/ phoh₂/ bang₁₁ a₃₁/bat₁ bat₃/ ke₃₂\n閣落去糖間裏去,徛算彼甘蔗有垃圾、粕,網仔密密過\nli₂₂·ke₁₁/lo₁₁ sah₃/ tsiah₃ lo₁₁ i₃₃ khut₃ a₃₁/ ah₃ tsiah₃ tshong₁₁ ki₂₂ khi₁₁/pha₃₂ khi₃₃ e₃₃ thang₃₁/to₁₁ koh₃\n濾過,落煠⑥,即落去堀仔,益即創機器扑起去桶,著閣\ntshi₃₂ giam₂₂/ah₃ tsiah₃ koh₃ lau₃₂ i₃₁ thng₁₁ king₃₃·e₃₃/khi₃₂ sik₁ thng₁₂/tsi₂₃ thng₁₂/\n試驗益即閣落去糖間裏去熟糖(煮糖)。\nsik₁ thng₁₂/si₁₁ ing₁₁ thi₃₂ tiann₃₁/kong₂₃ si₁₁ thng₁₁ tiann₃₁/ hi₃₃ o₁₁ kau₂₂ =e₂₂/hit₃ khuan₃₁/tiann₃₁/\n熟糖是用鐵鼎⑦,講是「糖鼎」,許號厚个迄款。鼎\nkap₃ bue₁₁ ba₂₂·m₂₂/ tse₃₃/tiann₃₁/tse₃₃/a₁₁ tiann₃₁/tiann₂₃ kinn₃₃/tui₃₂ tiann₂₃ kinn₃₃/kho₁₁·e₁₁/tsiah₃\n敆⑧袂密⑨毋。這鼎,這亦鼎,鼎墘對鼎墘⑩靠咧,即\ntshong₁₁ hit₃ lo₁₁ ha₁₁ a₃₁/u i₁₂·le₁₁/ io₃₁·khiai₁₁/m₁₁ tsiah₃ e₁₁ koh₃ tui₁₁ ih₃ tiann₃₁·lo₂₁/ ah₃ tsit₁ tiann₃₁/\n創迄號箬仔,圍咧,舀起來,毋即會閣墜去鼎落去。益一鼎\npuann₁₁ ke₃₁ tsit₁ tiann₃₁/a₃₃ ne₃₃/tsi₂₃ ah₃ kah₃ be₂₃ tiann₃₁/hit₃ tsun₁₁ a₃₁/tsiah₃ ni₁₁ khuann₃₂ u₁₁ hio₃₁/ e₁₁ ing₂₂·\n蹣⑪過一鼎,按呢煮駕駕尾鼎,迄陣仔即捏看有彼號會用\ne₁₁/tsiah₃ tshut₃ khiai₃₁ thng₁₁ tso₁₂·e₁₁/tsiah₃ la₁₁ hoo₂₂ ling₃₁/to₁₁ pian₃₁ thng₁₂·a₂₂/oo₂₂ thng₁₂/\n得,即出起來糖槽裏,即撓⑫予冷著變糖矣。烏糖。\noo₂₂ thng₃₁ lun₃₁ lun₁₁/ oo₂₂ oo₃₃/ he₃₃/m₁₁ si₁₁ tshau₃₂ he₂₃ ta₃₃ = e₃₃/ oo₂₂ thng₁₃/tsi₃₁·kiai₁₁/tsi₁₁ lian₁₁\n烏糖潤潤⑬烏烏,彼毋是臭火礁⑭个,烏糖煮起來自然\noo₃₃ =e₃₃·la₁₁/\n烏个啦。\n註:\n①tsiann³ phoo⁷〔蔗廍〕:舊式糖廠。「蔗」當讀tsia³,發音人讀鼻化音,特殊个人差。\n②khueh⁴〔揳〕:壓榨。\n②270",
+"text": "住民志\nloh⁸ tsiann³ phoo⁷\n二、落蔗廍\ngun₂₃ lau₁₁ pe₂₂/lo₁₁ tsiann₃₂ phoo₂₂/tsue₃₂ kang₃₃/gua₃₁/lo₁₁ tsit₁ pai₃₁/tua₃₂ he₃₃/ki₂₂ khi₃₃ a₃₁/he₃₃/kam₂₂\n阮老父落蔗廍①做工。我落一擺。帶彼機器仔彼甘\ntsiann₁₁/khueh₂·lo₁₁·lai₁₁·honn₂₁/tua₃₂ tso₁₁ a₃₁/sa₂₂ he₃₃/la₃₂ sap₂/ m₁₁ tsiah₃ bue₁₁ that₂·le₁₁/lo₁₁ tsit₁ mi₁₃\n蔗揳②落來乎。帶槽仔捎③彼垃圾，毋即袂塞咧。落一冥。\n/tsue₃₂ gin₃₃ na₂₁/\n做囡仔。\nhe₃₃/tsio₁₁ lun₃₁/si₁₁ a₃₃ ne₃₃·la₁₁/sann₂₂ liam₂₂/sann₂₂ liap₁ tsio₁₁ lun₃₁/tsiap₂/lau₁₁ ih₃ tso₁₁ a₃₁/ ah₃ tsiah₃\n彼石碖④是按呢啦。三歛⑤，三粒石碖。汁流去槽仔，益即\nkoh₃ lau₃₂ i₃₂ thng₁₁ king₃₃ e₃₃·khi₁₁/ khia₁₁ sng₃₂ he₃₃/kam₂₂ tsiann₁₁/u₁₁ la₃₂ sap₂/ phoh₂/ bang₁₁ a₃₁/bat₁ bat₃/ ke₃₂\n閣落去糖間裏去，徛算彼甘蔗有垃圾、粕，網仔密密過\nli₂₂·ke₁₁/lo₁₁ sah₃/ tsiah₃ lo₁₁ i₃₃ khut₃ a₃₁/ ah₃ tsiah₃ tshong₁₁ ki₂₂ khi₁₁/pha₃₂ khi₃₃ e₃₃ thang₃₁/to₁₁ koh₃\n濾過，落煠⑥，即落去堀仔，益即創機器扑起去桶，著閣\ntshi₃₂ giam₂₂/ah₃ tsiah₃ koh₃ lau₃₂ i₃₁ thng₁₁ king₃₃·e₃₃/khi₃₂ sik₁ thng₁₂/tsi₂₃ thng₁₂/\n試驗益即閣落去糖間裏去熟糖(煮糖)。\nsik₁ thng₁₂/si₁₁ ing₁₁ thi₃₂ tiann₃₁/kong₂₃ si₁₁ thng₁₁ tiann₃₁/ hi₃₃ o₁₁ kau₂₂ =e₂₂/hit₃ khuan₃₁/tiann₃₁/\n熟糖是用鐵鼎⑦，講是「糖鼎」，許號厚个迄款。鼎\nkap₃ bue₁₁ ba₂₂·m₂₂/ tse₃₃/tiann₃₁/tse₃₃/a₁₁ tiann₃₁/tiann₂₃ kinn₃₃/tui₃₂ tiann₂₃ kinn₃₃/kho₁₁·e₁₁/tsiah₃\n敆⑧袂密⑨毋。這鼎，這亦鼎，鼎墘對鼎墘⑩靠咧，即\ntshong₁₁ hit₃ lo₁₁ ha₁₁ a₃₁/u i₁₂·le₁₁/ io₃₁·khiai₁₁/m₁₁ tsiah₃ e₁₁ koh₃ tui₁₁ ih₃ tiann₃₁·lo₂₁/ ah₃ tsit₁ tiann₃₁/\n創迄號箬仔，圍咧，舀起來，毋即會閣墜去鼎落去。益一鼎\npuann₁₁ ke₃₁ tsit₁ tiann₃₁/a₃₃ ne₃₃/tsi₂₃ ah₃ kah₃ be₂₃ tiann₃₁/hit₃ tsun₁₁ a₃₁/tsiah₃ ni₁₁ khuann₃₂ u₁₁ hio₃₁/ e₁₁ ing₂₂·\n蹣⑪過一鼎，按呢煮駕駕尾鼎，迄陣仔即捏看有彼號會用\ne₁₁/tsiah₃ tshut₃ khiai₃₁ thng₁₁ tso₁₂·e₁₁/tsiah₃ la₁₁ hoo₂₂ ling₃₁/to₁₁ pian₃₁ thng₁₂·a₂₂/oo₂₂ thng₁₂/\n得，即出起來糖槽裏，即撓⑫予冷著變糖矣。烏糖。\noo₂₂ thng₃₁ lun₃₁ lun₁₁/ oo₂₂ oo₃₃/ he₃₃/m₁₁ si₁₁ tshau₃₂ he₂₃ ta₃₃ = e₃₃/ oo₂₂ thng₁₃/tsi₃₁·kiai₁₁/tsi₁₁ lian₁₁\n烏糖潤潤⑬烏烏，彼毋是臭火礁⑭个，烏糖煮起來自然\noo₃₃ =e₃₃·la₁₁/\n烏个啦。\n註：\n①tsiann³ phoo⁷〔蔗廍〕：舊式糖廠。「蔗」當讀tsia³，發音人讀鼻化音，特殊个人差。\n②khueh⁴〔揳〕：壓榨。\n②270",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1970,12 +1960,11 @@
 },
 {
 "n": 196,
-"text": "語言篇\nsa₁ liau₅ a₂ mng₅ liau₅ a₂ soh₄ bo₁₁ kuan₂₂ he₂₂·la₁₁/sa₂₂ bo₁₁\n〔洪問:「捎無繚仔門佮繚仔索敢有關係?」吳答:「無關係啦,捎無\nliau₁₁ a₃₃/na₃₁ u₁₁ kuan₂₂ he₂₁/\n繚仔哪有關係?」〕\nlau₁₁ un₁₁=e₃₃/tho₂₃ hai₃₁/ma₁₁ kan₂₂ khoo₃₁/uann₁₁ gun₂₃ tsit₃ un₁₂=e₃₃/lai₁₃/tsun₁₁ na₃₁/tho₂₃ khah₃ tua₁₁\n老勻个討海嘛艱苦,換阮職勻=个來,船仔討卡大\ntsiah₂/tsit₁ tsia₃₁ tsun₁₃/bo₁₁ it₃ ting₁₁ gua₁₁ tsue₁₁ lang₁₂·la₁₁/tsap₁ gua₁₁ e₁₃/ma₁₁ u₂₂/ah₃ na₁₁ tho₂₃ gua₁₁ hai₃₁/\n隻。一隻船,無一定外儕儂啦。十外个嘛有,益若討外海\nsi₁₁ pue₃₂ e₁₃/khah₃ tsue₂₂·la₁₁/\n是八个卡儕啦。\ntsim₃₃ ma₃₁/tsuan₁₁ tho₂₃ ui₃₁ ki₂₂ khi₃₃ a₂₁·khi₁₁/ ki₂₂ khi₃₃ a₃₁/khuinn₃₂ uah₃/pang₃₁ tsio₃₁ tua₁₁ ling₁₂/\n職馬全討對機器仔㉘去,機器仔快活,放職號大苓㉙,\nke₃₁ tshong₁₁ ki₂₂ khi₁₁/khi₃₁·e₁₁/tsim₃₃ ma₃₁/khe₂₂ hak₁ tho₂₃ hai₃₁·loo₁₁/na₁₁ beh₃ gun₃₁/ing₂₃ pai₃₁/pang₃₂ ling₁₁\n皆創機器起㉚个。職馬科學討海咯。若卜阮往擺放苓\na₃₁/hong₃₃/tsit₁ e₁₁ lai₁₃·le₁₁/tshut₃ lat₃·oo₁₁/koh₃ lai₁₃·oo₁₁/giu₂₃ ah₃ tshiu₃₁ phong₃₂ pha₂₂·oo₁₁/\n仔,風一下來咧,出力噢!閣來噢!扭駕手凸疤噢。\npang₃₂ ling₁₁ a₃₁/bo₁₁ ing₁₁ phang₁₁ tsun₁₁ na₃₁/ing₁₁ ko₁₁·e₁₁/an₃₃ ko₁₁·tshut₁·li₁₁/beh₃ pang₁₁/tshiau₂₃₂/\n放苓仔無用帆船仔,用划个按呢划出去,卜放,差不多\ntsit₁ tiam₂₃ gua₁₁ tsing₂₂ ku₃₁/an₃₃ na₁₁ nia₂₂/u₁₁ si₂₂ a₃₃ na₁₁ e₁₁ ko₃₂ liah₃/tsau₂₃ ui₃₁ e₁₁ thau₁₂·khi₁₁·le₁₁/\n一點外鐘久按呢但但。有時仔若下划掠,走對下頭去咧。\nhong₃₃/it₃ tit₁ sau₁₁·lo₁₁ i₁₁·e₃₃/ ho₂₃ thinn₃₃/tsiah₃ khi₃₃ thua₃₃·to₁₁·lai₁₁/\n風一直掃·落去咧-,好天,即去拖·倒來。\nam₃₁ si₁₃/pang₃₁ tua₁₁ ling₁₂/thinn₃₃ beh₃ kng₃₃/tsiah₃ u₁₁ sio₂₃ khua₂₃/bi₁₂·tsit₁·e₁₁/tho₂₃ gua₁₁ hai₃₁/na₃₁\n暗時放大苓卜光,即有小可仔寐㉛一下,討外海哪\nu₁₁ siann₂₃ khun₁₁/tsit₁ am₁₁/khun₃₁ ma₁₁ bo₁₁ nng₁₁ tiam₂₃ tsing₂₂ ku₃₁/jit₃·si₁₁/tng₃₁ ainn₁₁/khang₂₂ khi₁₁/tsue₃₁\n有啥睏。一暗睏嘛無兩點鐘久,日時轉來,空課做\ntsue₁₁·e₁₁/tiong₂₂ tau₃₁ si₁₃/khun₁₁·tsit₁ ku₁₁ a₁₁/ si₃₁ tiam₂₃ gua₂₂/khio₃₂ ling₁₂/tshuan₁₁ beh₃ koh₃ tshut₃\n做咧,中晝時睏一久仔,四點外,卻苓,僎㉜卜閣出\nkhi₃₃ tho₂₃ hai₃₁·loo₁₁/\n去討海咯。\nling₁₃/pang₁₁·to₁₁ lai₁₁/to₁₁ koh₃ phak₁ hoo₂₂ ta:₃₃₁/beh₃ tshut₂·khi₁₁/khio₃₂ khioh₂/pak₁ pak₃/kui₂₂ te₁₁/\n苓放倒來,著閣曝予礁-,卜出去,卻卻㉝,縛縛歸塊,\nho₁₁ tsue₃₂ khio₃₁ ling₁₃/siong₁₁ tsa₃₁/si₁₁ ing₁₁ tue₁₁ a₃₁= e₁₁/ kau₃₂ gun₂₃ tsit₃ un₁₁=e₃₃/lai₁₃/tsuan₁₁ se₃₃=\n號做「卻苓」。上早是用苧仔㉞=个,▢阮職勻个來,全紗\n②273",
+"text": "語言篇\nsa₁ liau₅ a₂ mng₅ liau₅ a₂ soh₄ bo₁₁ kuan₂₂ he₂₂·la₁₁/sa₂₂ bo₁₁\n〔洪問：「捎無繚仔門佮繚仔索敢有關係？」吳答：「無關係啦，捎無\nliau₁₁ a₃₃/na₃₁ u₁₁ kuan₂₂ he₂₁/\n繚仔哪有關係？」〕\nlau₁₁ un₁₁=e₃₃/tho₂₃ hai₃₁/ma₁₁ kan₂₂ khoo₃₁/uann₁₁ gun₂₃ tsit₃ un₁₂=e₃₃/lai₁₃/tsun₁₁ na₃₁/tho₂₃ khah₃ tua₁₁\n老勻个討海嘛艱苦，換阮職勻=个來，船仔討卡大\ntsiah₂/tsit₁ tsia₃₁ tsun₁₃/bo₁₁ it₃ ting₁₁ gua₁₁ tsue₁₁ lang₁₂·la₁₁/tsap₁ gua₁₁ e₁₃/ma₁₁ u₂₂/ah₃ na₁₁ tho₂₃ gua₁₁ hai₃₁/\n隻。一隻船，無一定外儕儂啦。十外个嘛有，益若討外海\nsi₁₁ pue₃₂ e₁₃/khah₃ tsue₂₂·la₁₁/\n是八个卡儕啦。\ntsim₃₃ ma₃₁/tsuan₁₁ tho₂₃ ui₃₁ ki₂₂ khi₃₃ a₂₁·khi₁₁/ ki₂₂ khi₃₃ a₃₁/khuinn₃₂ uah₃/pang₃₁ tsio₃₁ tua₁₁ ling₁₂/\n職馬全討對機器仔㉘去，機器仔快活，放職號大零㉙，\nke₃₁ tshong₁₁ ki₂₂ khi₁₁/khi₃₁·e₁₁/tsim₃₃ ma₃₁/khe₂₂ hak₁ tho₂₃ hai₃₁·loo₁₁/na₁₁ beh₃ gun₃₁/ing₂₃ pai₃₁/pang₃₂ ling₁₁\n皆創機器起㉚个。職馬科學討海咯。若卜阮往擺放零\na₃₁/hong₃₃/tsit₁ e₁₁ lai₁₃·le₁₁/tshut₃ lat₃·oo₁₁/koh₃ lai₁₃·oo₁₁/giu₂₃ ah₃ tshiu₃₁ phong₃₂ pha₂₂·oo₁₁/\n仔，風一下來咧，出力噢！閣來噢！扭駕手凸疱噢。\npang₃₂ ling₁₁ a₃₁/bo₁₁ ing₁₁ phang₁₁ tsun₁₁ na₃₁/ing₁₁ ko₁₁·e₁₁/an₃₃ ko₁₁·tshut₁·li₁₁/beh₃ pang₁₁/tshiau₂₃₂/\n放零仔無用帆船仔，用划个按呢划出去，卜放，差不多\ntsit₁ tiam₂₃ gua₁₁ tsing₂₂ ku₃₁/an₃₃ na₁₁ nia₂₂/u₁₁ si₂₂ a₃₃ na₁₁ e₁₁ ko₃₂ liah₃/tsau₂₃ ui₃₁ e₁₁ thau₁₂·khi₁₁·le₁₁/\n一點外鐘久按呢但但。有時仔若下划掠，走對下頭去咧。\nhong₃₃/it₃ tit₁ sau₁₁·lo₁₁ i₁₁·e₃₃/ ho₂₃ thinn₃₃/tsiah₃ khi₃₃ thua₃₃·to₁₁·lai₁₁/\n風一直掃·落去咧-，好天，即去拖·倒來。\nam₃₁ si₁₃/pang₃₁ tua₁₁ ling₁₂/thinn₃₃ beh₃ kng₃₃/tsiah₃ u₁₁ sio₂₃ khua₂₃/bi₁₂·tsit₁·e₁₁/tho₂₃ gua₁₁ hai₃₁/na₃₁\n暗時放大天卜光，即有小可仔寐㉛一下，討外海哪\nu₁₁ siann₂₃ khun₁₁/tsit₁ am₁₁/khun₃₁ ma₁₁ bo₁₁ nng₁₁ tiam₂₃ tsing₂₂ ku₃₁/jit₃·si₁₁/tng₃₁ ainn₁₁/khang₂₂ khi₁₁/tsue₃₁\n有啥睏。一暗睏嘛無兩點鐘久，日時轉來，空課做\ntsue₁₁·e₁₁/tiong₂₂ tau₃₁ si₁₃/khun₁₁·tsit₁ ku₁₁ a₁₁/ si₃₁ tiam₂₃ gua₂₂/khio₃₂ ling₁₂/tshuan₁₁ beh₃ koh₃ tshut₃\n做咧，中晝時睏一久仔，四點外，卻零，僎㉜卜閣出\nkhi₃₃ tho₂₃ hai₃₁·loo₁₁/\n去討海咯。\nling₁₃/pang₁₁·to₁₁ lai₁₁/to₁₁ koh₃ phak₁ hoo₂₂ ta:₃₃₁/beh₃ tshut₂·khi₁₁/khio₃₂ khioh₂/pak₁ pak₃/kui₂₂ te₁₁/\n零放倒來，著閣曝予礁-，卜出去，卻卻㉝，縛縛歸塊，\nho₁₁ tsue₃₂ khio₃₁ ling₁₃/siong₁₁ tsa₃₁/si₁₁ ing₁₁ tue₁₁ a₃₁= e₁₁/ kau₃₂ gun₂₃ tsit₃ un₁₁=e₃₃/lai₁₃/tsuan₁₁ se₃₃=\n號做「卻零」。上早是用苧仔㉞=个，袼阮職勻个來，全紗\n②273",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },

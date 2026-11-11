@@ -154,14 +154,12 @@
 },
 {
 "n": 14,
-"text": "二二\n註十：柳之元譯語言與人生葉五二。\n註十一：何秀煌譯語言的哲學。",
+"text": "註十：柳之元譯語言與人生葉五二。\n註十一：何秀煌譯語言的哲學。\n二二",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "手寫",
-"未校",
 "直排"
 ]
 }
