@@ -14,7 +14,7 @@
   {{- $c = replace $c "<!--SCAN-->" $cards -}}
   {{- $c = replaceRE `(?s)<p class="sec-note">民間歌謠教學研究網原版「相關資源→專著」.*?</p>` `<p class="sec-note">民間歌謠教學研究網原版「相關資源→專著」列的五本，每一本都可以逐頁翻閱掃描頁。</p>` $c 1 -}}
   {{- range site.Data.song.books -}}
-    {{- $line := printf `<p class="bkr-readlink"><a href="/song/books/%s/">逐頁翻閱掃描頁</a>（%d 頁，可依 %d 條歌名查頁）</p></article>` .slug (int .n) (len .toc) -}}
+    {{- $line := printf `<p class="bkr-readlink"><a href="/song/books/%s/">逐頁翻閱掃描頁</a>（%d 張，可依 %d 條歌名查頁）</p></article>` .slug (int .n) (len .toc) -}}
     {{- $c = replaceRE (printf `(?s)(<article class="bk" id="%s">.*?)</article>` .anchor) (printf "${1}%s" $line) $c 1 -}}
   {{- end -}}
 {{- end }}

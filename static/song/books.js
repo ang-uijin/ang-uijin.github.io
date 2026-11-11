@@ -46,8 +46,13 @@
       s.textContent = songs[n].join('；');
       info.appendChild(s);
     }
+    var act = document.activeElement;
     root.querySelectorAll('.bkr-prev').forEach(function (b) { b.disabled = n <= 1; });
     root.querySelectorAll('.bkr-next').forEach(function (b) { b.disabled = n >= N; });
+    if (act && act.disabled && act.closest) {
+      var other = act.closest('.bkr-bar').querySelector(act.classList.contains('bkr-next') ? '.bkr-prev' : '.bkr-next');
+      if (other && !other.disabled) other.focus();
+    }
     root.querySelectorAll('a.is-cur').forEach(function (a) { a.classList.remove('is-cur'); });
     root.querySelectorAll('a[data-p="' + n + '"]').forEach(function (a) { a.classList.add('is-cur'); });
     if (push) {
@@ -62,7 +67,10 @@
   root.querySelectorAll('.bkr-bar').forEach(function (b) { b.hidden = false; });
   root.querySelectorAll('.bkr-prev').forEach(function (b) { b.addEventListener('click', function () { show(cur - 1, true, b.closest('.bkr-bar-bottom')); }); });
   root.querySelectorAll('.bkr-next').forEach(function (b) { b.addEventListener('click', function () { show(cur + 1, true, b.closest('.bkr-bar-bottom')); }); });
-  root.querySelector('.bkr-jump').addEventListener('submit', function (e) { e.preventDefault(); show(parseInt(num.value, 10) || 1, true, false); });
+  function jump() { var n = parseInt(num.value, 10); if (!n) { num.value = cur; return; } show(n, true, false); }
+  root.querySelector('.bkr-jump').addEventListener('submit', function (e) { e.preventDefault(); jump(); });
+  // iPhone 的數字鍵盤沒有「前往」鍵，按「完成」收鍵盤只會觸發 change
+  num.addEventListener('change', jump);
   // 目錄、全部頁面：點了在閱讀器裡開（沒有 JavaScript 時是直接開圖）
   root.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-p]') : null;
@@ -78,7 +86,7 @@
     else if (e.key === 'ArrowRight') show(cur + 1, true, false);
   });
   window.addEventListener('hashchange', function () { if (/p=\d+/.test(location.hash)) show(fromHash(), false, false); });
-  window.addEventListener('popstate', function () { show(fromHash(), false, false); });
+  window.addEventListener('popstate', function () { if (/p=\d+/.test(location.hash) || !location.hash) show(fromHash(), false, false); });
 
   // 目錄搜尋：子字串比對，不分大小寫
   var q = root.querySelector('.bkr-q'), cnt = root.querySelector('.bkr-count');
@@ -88,7 +96,8 @@
     q.addEventListener('input', function () {
       var k = q.value.trim().toLowerCase(), n = 0;
       items.forEach(function (li) {
-        var hit = !k || (li.textContent + ' ' + (li.getAttribute('data-k') || '')).toLowerCase().indexOf(k) >= 0;
+        var hay = li.querySelector('.bkr-tno').textContent + ' ' + li.querySelector('.bkr-t').textContent + ' ' + (li.getAttribute('data-k') || '');
+        var hit = !k || hay.toLowerCase().indexOf(k) >= 0;
         li.hidden = !hit; if (hit) n++;
       });
       cnt.textContent = k ? (n ? '找到 ' + n + ' 條' : '找不到，換個字試試') : '';

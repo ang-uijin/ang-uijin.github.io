@@ -9,6 +9,7 @@
           "url" (printf "/song/books/%s/" .slug)
           "title" (printf "《%s》" .title)
           "layout" "book"
-          "params" (dict "book" .code "description" (printf "《%s》（%s）逐頁掃描：依歌名查頁、逐頁翻閱，共 %d 頁。" .title .author .n))) -}}
+          "description" (printf "《%s》（%s）逐頁掃描：依歌名查頁、逐頁翻閱，共 %d 張。" .title .author (int .n))
+          "params" (dict "book" .code)) -}}
   {{- end -}}
 {{- end -}}

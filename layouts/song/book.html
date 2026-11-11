@@ -20,7 +20,7 @@
       <dt>ISBN</dt><dd>{{ $b.isbn }}</dd>
     </dl>
     <p class="desc">{{ $b.desc }}</p>
-    <p class="sg-note-line">這裡是原網站逐頁掃描的書頁，共 {{ $b.n }} 頁；著作權屬原作者與出版單位，僅供教學研究參考。購買通路見<a href="/song/books/#{{ $b.anchor }}">相褒歌書目</a>。</p>
+    <p class="sg-note-line">這裡是原網站逐頁掃描的書頁，共 {{ $b.n }} 張（「第幾張」是掃描的順序，不是書上的頁碼）；著作權屬原作者與出版單位，僅供教學研究參考。購買通路見<a href="/song/books/#{{ $b.anchor }}">相褒歌書目</a>。</p>
 
     <section class="bkr-reader" id="reader" aria-label="逐頁閱讀">
       <h2>逐頁閱讀</h2>
@@ -71,5 +71,5 @@
     </section>
   </article>
 </main>
-<script src="/song/books.js?v=1" defer></script>
+<script src="/song/books.js?v=2" defer></script>
 {{ end }}

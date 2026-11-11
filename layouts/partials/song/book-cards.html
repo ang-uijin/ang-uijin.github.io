@@ -5,6 +5,6 @@
 <ul class="bkr-cards">
 {{- range site.Data.song.books }}
   {{- $cv := index .pages (sub (int (.cover | default 1)) 1) }}
-  <li><a href="/song/books/{{ .slug }}/"><img src="{{ $base }}/{{ .code }}/{{ printf "%03d" (int $cv.s) }}.jpg" {{ with $cv.w }}width="{{ . }}" height="{{ $cv.h }}" {{ end }}alt="《{{ .title }}》封面" loading="lazy"><b>《{{ .title }}》</b><span>{{ .author }}</span><span>{{ .n }} 頁・{{ len .toc }} 條歌名</span></a></li>
+  <li><a href="/song/books/{{ .slug }}/"><img src="{{ $base }}/{{ .code }}/{{ printf "%03d" (int $cv.s) }}.jpg" {{ with $cv.w }}width="{{ . }}" height="{{ $cv.h }}" {{ end }}alt="《{{ .title }}》封面" loading="lazy"><b>《{{ .title }}》</b><span>{{ .author }}</span><span>掃描 {{ .n }} 張・{{ len .toc }} 條歌名</span></a></li>
 {{- end }}
 </ul>
