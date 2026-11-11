@@ -7,7 +7,7 @@
 "text": "台灣哲諺典\n五、天候篇\ntsa²jit⁸ · put⁴sieng⁵thian¹\n1早日 不成天\n譯:(略)\n【天】用文讀,指晴天○霪雨,台語謂之【僐雨sian⁷hoo⁷】,【僐】本慵懶義,毛毛細雨下個不停,故謂之【僐雨】。「僐雨」之間有時會出現晴天,但如早上晴天,則未必從此【落晴loh⁸tsenn⁵】(放晴),可能下午又開始下雨了。必須下午晴天,才會【好天】。此諺只用在冬天才準,夏天不準。比喻事業初期繁榮,不一定日後就會持續繁榮○又:【早出日袂好天】\nloh⁸sng¹ · u⁷jit⁸ · tsioh⁴ oo¹kuann⁵ · si²bo⁵ioh⁸\n2落霜 有日 炙,烏寒 死無藥\n譯:下霜逢日照,陰寒就糟糕\n【炙tsioh⁴】照射取暖也,與「藥」字押韻;【烏寒】【烏陰】又【寒】,陰寒也○下霜之後必有【日炙】,所以下霜不必擔憂,若【大寒】又碰上陰天,則將極度寒冷,家畜凍死,無可救藥。比喻性格爽朗的人雖\n204",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -21,7 +21,7 @@
 "text": "天候篇\n有生氣之時,但過後便立即恢復笑容,但性格陰險之人一旦生氣,可能施以無情的報復,極爲可怕。\ngueh⁸ · ui⁵khoo¹ · hoo⁷hoo⁷ak⁴\n3月 圍箍 予雨沃,\ngueh⁸ · ti³ leh⁸ · hoo⁷jit⁸ phak⁸\n月 戴笠 予日 曝\n譯:月圍暈將下雨,月戴笠將放晴\n月暈有二種,月亮周圍有一環狀者謂之【月圍箍】,月暈抱住月亮者謂之【月戴笠】。據農民說「月圍箍」不一定放晴,【箍】(暈環)有破隙則將下雨,否則會晴天。如【月戴笠】則占晴天,將得日曬○類:【月圍箍,火燒埔;日圍箍,曝草埔】(5.4)\ngueh⁸ · ui⁵khoo¹ · hue²sio¹poo¹ · jit⁸ · ui⁵khoo¹ ·\n4月 圍箍 火燒埔 日 圍箍\nphak⁸tshau²poo¹\n曝草埔\n譯:月環暈大天晴,日環暈大晴天\n空氣中霧氣重時,月亮周圍箍一暈環,謂之【月圍箍】,暈環完整無缺,則次日將出大太陽,把【草埔】曬得像火燒過一樣。太陽出現環狀日暈,亦占出太陽○類:【月圍箍,予雨沃,月載笠,予日曝】(3)\n205",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -35,7 +35,7 @@
 "text": "台灣哲諺典\nsann¹jit⁸hong¹ bo⁵tsit⁸tih⁴loo⁷\n5三日風,無一滴露\n譯:吹三日風,無一滴露\n【露】或讀陽去,或讀陰去○露的產生是因空氣中含濕氣,夜裡天氣轉涼,濕氣遇冷凝結成細水滴,落在地上,聚集成大水滴,清晨時葉尖上發現有朝露,便知道昨夜【凍露】。如遇風吹三日,濕氣都被吹走,故不見一滴朝露。比喻人不可連續受打擊,連續失敗則很難翻身。\nsann¹jit⁸hong¹ · sann¹jit⁸song¹ · sann¹jit⁸thinn¹ ·\n6三日風 三日霜 三日天\ntshieng¹kong¹\n淸光\n譯:三日風,三日霜,三日天晴天\n【淸光】天晴也○三天連續刮風,三天連續結霜,則其後三天一定【好天】。比喻雖連續遭到失敗,如連續遇貴人,一定有東山再起的希望。\nsai¹pak⁴ · tso³liau² · liam⁵mi¹hue⁵lam⁵\n7西北 做了 連鞭回南\n譯:吹了西北風,馬上轉南風\n206",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -49,7 +49,7 @@
 "text": "天候篇\n【連鞭】馬上也,俗作「連鞭」或「臨邊」,本字待考○北半球的颱風反時鐘方向旋轉。台灣的颱風多半由東南向西北進行。故颱風必定先吹東北風,轉西北風,再轉南風,謂之【回南】。【西北做了,連鞭回南】比喻人發脾氣,像颱風一樣銳不可當,可是轉眼間馬上出現完全不同的面孔──笑臉。言情緖變化迅速,有諷刺意味○又:【風颱做了,連鞭回南】【風颱做了轉回南】(意思較輕,不含貶意)\ntshut⁴puann³phang⁵ · tsui² lau⁵ lang⁵\n8出半篷 水流儂\n譯:半截虹,水流人\n【篷】(音帆)船上帳篷,編竹夾箬以覆舟。天花板叫【天篷thian¹phang⁵】(篷或讀pong⁵)○出虹,若只出半個、則占大水,可以把人流走○又【天頂出有半劂虹(khieng⁷)、卜做風颱敢(kann²)會成】\ntshut⁴khieng⁷ · phuah⁸kan¹tau⁷ hong¹thai¹ · tso³bue²au⁷\n9出虹 旆干豆,風颱 做尾後\n譯:關渡出虹,將做颱風\n【旆phuah⁸】披掛也,如【面布旆肩頭】;【干豆】關渡之本名,今民間仍說「干豆」○此爲士林一帶\n207",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -63,7 +63,7 @@
 "text": "台灣哲諺典\n天氣諺。虹的出現,乃因空氣中佈滿小水珠,清晨或黃昏時,背對太陽,陽光照在小水珠上,反射成彩虹。士林見西方的干豆出虹,必在清晨。早晨西方出虹,表示天氣有小水珠。颱風前後,多半會【出虹】,尤其是【半篷虹】○類:【出半篷、水流儂】(5,8)【天頂出有半劂虹、卜做風颱敢會成】(5.8)\ntiau¹ · he⁵ · me⁵ · tang⁷ loo⁷\n10朝霞 冥重露\n譯:朝霞,夜重露\n【霞】(音蝦)霞也○早上【天出紅霞】,謂之【朝霞】。霞之產生乃因空氣中有水氣,受陽光反射而呈紅色,故淸晨有【朝霞】,空氣中旣有水氣,則是日晚上必有【重露】。\noo¹hun⁵ · pue¹tsiunn⁷suann¹ · tsang¹sui¹ · theh⁸lai⁵mua¹\n11烏雲 飛上山 棕蓑 提來幔\noo¹hun⁵ · pue¹loh⁸hai² · tsang¹sui¹ · phak⁸kau²sai²\n烏雲 飛落海 棕蓑 曝狗屎\n譯:烏雲飛上山,蓑衣拿來披;烏雲飛入海,蓑衣曬狗屎\n【幔】(音「滿」第一聲陰平)披在身上○天有烏雲,\n208",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -79,6 +79,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ],
 "copied_from": {
@@ -91,7 +92,7 @@
 "text": "台灣哲諺典\n霧 曝死鬼，夏霧 做大水】(5.13)\ntshan⁵enn¹ · kiat⁴tui¹ · tioh⁸tshieng⁷tsang¹sui¹\n14田嬰 結堆 著穿 棕蓑\n譯：蜻蜓成堆，得穿蓑衣\n【田嬰】蜻蜓◯蜻蜓成群結堆出現，占天將下雨，須穿【棕蓑】。傳說如此，但筆者沒有經驗印證，不過【大水蚼蟻(kau² hia⁷)】(白蟻)卻非常準。【大水蚼蟻】幼蟲原是木材的蛀蟲，大雨前會出現，滿天飛，聚集於燈火旁。居民見此狀便知將下大雨。故長翅的白蟻俗名【大水蚼蟻】。\ntsa²hoo⁷ · tsa²tsenn⁵ · am³hoo⁷ · tiau⁵me⁵\n15早雨 早晴 暗雨 椆冥\n譯：早下雨早放晴，入夜下雨到天明\n【晴】(音「爭」白音第五聲陽平)晴也，古語，義同【好天】◯早上下雨，太陽上昇溫度增高，就可能壓住雨勢而放晴，但黃昏以後下雨，因太陽已下山，溫度降低，便越不可能放晴◯又：【早落 早好天，晏落 佫(kau³)半冥】(5.15)\nsai¹pak⁴hoo⁷ · loh⁸bo⁵kue³tshia¹loo⁷\n16西北雨 落無過車路\n210",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -105,7 +106,7 @@
 "text": "天候篇\n譯：雷雨，下不過車路\n【西北雨】夏天南部多雷雨，多半下午時分忽然烏雲密佈、雷電交作，大雨傾盆。但雨量分佈不均，車路這一邊有雨，車路那邊不雨，故云【西北雨，落袂過車路】，又這一坵田有雨，隔壁那坵田不下雨，故又云【西北雨 落無過田岸】。有一個笑話說，有一個女人正在田裡【作穡】，見雷雨交作，心想這下一身濕透了，正好尿急，急中生智，遂就地小便，省得跑甘蔗園。不巧【西北雨 落無過田岸】，隔壁田下大雨，這坵田竟不下雨。過後，有人打趣問她：【是按怎褲底澹(tam⁵)漉漉？】女人說：【都予(hoo⁷)雨害=个啦！】◯又：【西北雨，落無過田岸】(5.16)\ntshe¹ it⁴ · loh⁸hoo⁷ · tshe¹ ji⁷ suann³\n17初一 落雨 初二 散\ntshe¹sann¹ · loh⁸hoo⁷ · kau³gueh⁸puann³\n初三 落雨 佫月半\n譯：初一下雨初二散，初三下雨到月半。\n【佫kau³】(音「夠」)到也◯俗以爲初一下雨初二就會天晴，初三下雨就會一直下到月半。又十八日下雨，會下到月底。故俗又云：【頂初三、下十八】即上半月的初三，下半月十八下雨，以後的日子就會一直下雨。事實如何，讀者自己去【則(tsat⁴)看眛(bai⁷)\n211",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -119,7 +120,7 @@
 "text": "台灣哲諺典\n咧】(印證一下)吧！◯又：【頂初三、下十八】(5.17)\nji⁷ tsap⁸peh⁴kau² · au⁷gueh⁸ · gia⁵hoo³tau²\n18二十八九 後月 夯戽斗\n譯：二十八、九下雨，下月要拿戽斗\n【夯】(音「蜈蚣」的蜈)肩舉也，本字當作「荷」)=「何」)，詞義與【擧giah⁸】(手舉)常混淆)。【戽斗】竹編戽水之器◯俗信每月二十八、九日下雨，則下月多雨。旱田積水太多，作物會爛根，故需將【園hng⁵】(旱田)中的積水戽掉。又：【送月雨，後月 無礁塗】(5.19)\nsang³gueh⁸hoo⁷ · au⁷gueh⁸ · bo⁵ta¹thoo⁵\n19送月雨 後月 無礁塗\n譯：月底有雨，下月無乾土\n當一個月即將過去的月底下雨謂之【送月雨】，占下個月多雨。意同【二十八、九，後月夯戽斗】，但文詞更美，文學意味濃。\nsiap⁴kau²jit⁸oo¹thinn¹ · kinn³tioh⁸tua¹jit⁸thau⁵\n20卌九日烏天 見著大日頭\n譯：四十九個陰天，忽見大太陽\n212\n〔圖〕戽斗",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -133,7 +134,7 @@
 "text": "天候篇\n【卌siap】(音「澀」)四十的合音◯台灣北部冬天吹東北風，細雨綿綿，故有【雞籠雨、滬尾(淡水)風】、【蘭雨 竹風】之語，【卌九日烏天】即指此。【卌九日烏天，見著大日頭】與「久旱逢甘雨」的說法相反，意思卻差不多，有「雨過天靑」「撥雲見日」之義，比喩經歷長久的痛苦、憂患，突然解放。或雙方經過長久的誤會、爭執、忽然盡棄前嫌，言歸於好。意義比「雨過天靑」、「撥雲見日」更深刻。\ntsiann¹gueh⁸lui⁵ · ji⁷ gueh⁸seh⁴\n21正 月 雷 二 月 雪\nsann¹ gueh⁰ · bo⁵tsui² · kue³tshann⁵khiah⁴\n三·月 無水 過田隙\n譯：正月打雷二月雪，三月田裡無水\n【田隙】乃爲放田水在【田岸】所開的缺口。從前農民於放水時在「田隙」置一【魚笱hi⁵ko⁵】可以抓到許多魚蝦，近年因大量使用農藥，田裡魚蝦均死光光，遂不見此景◯正月打雷、二月下雪是天候混亂之象，占三月無雨，田裡無水，故云「無水 過田隙」。\ntsa²tang¹hoo⁷ · mng²tang¹loo⁷\n22早冬雨 晚冬露\n譯：一期稻需雨，二期稻需露\n213",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -147,7 +148,7 @@
 "text": "台灣哲諺典\n【晚冬mng² tang¹】台灣一年二收，第一期稻謂之【早冬】，第二期稻謂之【晚冬】或【慢冬ban⁷ tanng¹【◯早冬稻正月播種，需要下雨，六月收割時，收成才好；晚冬稻六月播種，秋天雨量較少需要「凍露」，十月收割時，收成才好。\ntshun¹kuann⁵ · hoo⁷ · na²tsuann⁷\n23春寒 雨那濺，\ntang¹kuann⁵ · tso³tua⁷huann⁷\n冬寒 做大旱\n譯：春寒下大雨，冬寒大旱災\n【濺tsuann⁷】沖水也，【旱huann⁷】又讀uann⁷◯台灣北部冬天吹東北風，陰雨連綿。但大安溪以南冬天無雨，春天吹南風，進入梅雨時節，空氣中充滿南洋吹來的濕氣，如北風突然反撲，天氣轉冷，必爲傾盆大雨，雨如水注。冬天寒流來襲時，越不容易帶來雨水，是大旱之象◯類：【春暴頭、冬暴尾】(5.27)\ntshun¹ · khuann³ · hai²khau² · tang¹ · khuann³ · suann¹\n24春 看 海口 冬 看 山\nthau⁵\n頭\n譯：春看海邊，冬看山顚\n214",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -161,7 +162,7 @@
 "text": "天候篇\n【海口】海邊也；【山頭】山頂也◯福建閩南及台灣南部，北部是山，南方是海，春天的南風直接吹入平原，所以春天的天氣看海口決定晴雨，冬天的北風被山阻隔，所以看山頭決定晴雨，所以整句的意思應是「春看南，冬看北」。\ntshun¹hoo⁷ · kuann⁵ tang¹hoo⁷ · tsenn⁷\n25春 雨 寒，冬 雨 靜\n譯：春雨天寒，冬雨風靜\n【靜tsenn⁷】漳腔白讀，泉腔白讀tsinn⁷，【恬靜tiam⁷ tsinn⁷】之義，今白讀漸亡，改讀文讀◯春天是南北風交鋒時期，南風來時，氣候溫暖，北風來襲，氣溫下降，同時水氣亦凝結爲雨，故云「春雨 寒」。冬天北風如大風則無雨，如微風則細雨綿綿，故云「冬雨靜」。其理與「冬暴尾」同。\ntshun¹thinn¹ · au⁷bo²bin⁷ beh⁴pinn³ · tsit⁸ si⁵ kan¹\n26春 天 後母面，卜變 一時間\n譯：春天繼母面，要變一時間\n【後母】繼母也，壞繼母往往虐待前妻所生子，故語云【後母 苦毒前儂囝】。壞繼母看「前儂囝」往往不順眼，「前儂囝」動輒得咎。繼母的臉色，喜怒哀樂，\n215",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -189,7 +190,7 @@
 "text": "天候篇\n北】可能只是【講鬥句=个kong²tau³ku³e】，是爲押韻勉強湊成句子而己。\ntshun¹he⁷ · huang¹ · put⁴sieng¹phang⁵\n29 春夏 風 不勝 帆，\ntshiu¹tang¹ · phang⁵ · put⁴sieng¹huang¹\n秋冬 帆 不勝 風\n譯：(略)\n【風huang¹】今讀同「豐富」的豐hong¹，此處當從泉州音讀huang¹，始可與【帆phang⁵】押韻○東亞地帶春夏吹南風，帆船順風北上貿易，秋冬吹北風，帆船又順風南下，故謂之「貿易風」。然北風強而南風弱，春夏的南風往往吹不動帆船，故云「春夏 風 不勝帆」；秋冬風勢甚強，船帆往往不勝吹拂，或破帆、或翻船，十分危險，故云「秋冬，帆 不勝風」。\ntsiann¹ gueh⁰ · kuann⁵ si² tu¹\n30 正·月 寒死豬\nji⁷ gueh⁰ · kuann⁵ si² gu⁵\n二·月 寒死牛\nsann¹ gueh⁰ . kuann⁵ si² po³tshan⁵hu¹\n三·月 寒死播田夫\nsi³ gueh⁰ · kuann⁵ si² kuai¹sim¹pu⁷\n四·月 寒死乖新婦\n217",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -203,7 +204,7 @@
 "text": "台灣哲諺典\nsi³ gueh⁰ · kuann⁵ si² keh⁸lan⁷ ku¹\n(四·月 寒死逆卵龜)\n譯：(略)\n【新婦】(訛音「心婦」)媳婦也○此諺言正月至四月都有極寒冷的天氣，不可不愼，正月最冷，可以凍死耐寒的龜(或豬)，二月可以凍死體積甚大的牛，三月已轉暖，但亦有寒天能凍死播田的窮農夫，所謂【清明 穀雨 寒死虎母】是也；四月寒死【逆卵龜ke⁸lan⁷ku¹】(執拗的人)，「逆卵龜」個性執拗，以爲四月已轉暖、出門不必穿衣，結果忽然轉冷，被凍死了，又云四月雖大體轉暖，但仍有寒天，所謂【未食五日節粽，破裘 毋願放】即指此，乖新婦早起弄飯，因爲怕穿多了挨婆婆罵說【四月 猶閣穿厚衫】，因【透早】天寒，被凍死。以上「死」字都只是形容詞，在台灣這樣的亞熱帶地區，冷到會【寒死儂】是很少的○類：【三月初，寒死少年家】(5.31)【清明 穀雨，寒死虎母】(5.32)\nsann¹gueh⁸tshe¹ · kuann⁵ si² siau³lian⁵ke¹\n31 三月 初 寒死 少年家\n譯：三月初，凍死小伙子\n三月初天氣轉暖，但有時也會寒流來襲，小伙子\n218",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -217,7 +218,7 @@
 "text": "天候篇\n不怕冷，不喜歡穿衣，被凍得要死○類：【三·月 寒死播田夫】(5.30)\ntshinn¹mia⁵ · kok⁴ u² · kuann⁵ si² hoo²bu²\n32 清明 穀雨 寒死虎母\n譯：清明穀雨，凍死母虎\n【清明】漳州讀tshieng¹bieng⁵，泉州讀tshinn¹mia⁵，此爲泉州諺故從泉腔。「清明」當西曆四月五日(若西曆當年爲閏年則當四月四日)，「穀雨」約當陽曆四月二十日，天氣己非常暖和，但偶爾也會寒流來襲，雖雄壯如虎，亦受不了○類：【三，月 寒死播田夫】(5.30)【三月初，寒死少年家】(5.31)\nlip⁸he⁷ · sio²mua² · hoo⁷tsui² · sio¹kuann²\n33 立夏 小滿 雨水 相趕\n譯：(略)\n「立夏」約當西曆五月五日起數日內，「小滿」約當西曆五月二十日起數日內。此時正當梅雨時節，埤雅云：「江湘兩浙四五月間，梅欲黃落，則水潤土溽，蒸鬱成雨，謂之梅雨。」農曆四五月 當西曆五六月。台灣的梅雨稍早，約在三四月間，而以四月最多，節氣正在立夏小滿之間。此時南北風交鋒，發生許多鋒面雨，\n219",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -231,7 +232,7 @@
 "text": "台灣哲諺典\n陰雨連綿，梅子欲黃故稱【夏梅he⁷ bue⁵/be⁵】○類：【立夏，雨水泎泎(tshe⁷x)】(4.22)\nsi³ gueh⁰ · bong⁵tsing²hoo⁷\n34 四·月 芒種雨；\ngoo⁷ gueh⁰ · bo⁵ta¹thoo⁵\n五·月 無礁塗；\nlak⁸ gueh⁰ · hue²sio¹poo¹\n六·月 火燒埔；\ntshit⁴ gueh⁰ · tsui² · lau⁵oo⁷\n七·月 水 流芋；\n譯：(略)\n四月「芒種」在「小滿」之後，正當梅雨時節，五月「梅雨」未退，陰雨連綿，謂之【芒種雨】，故云「四·月 芒種雨，五·月 無礁塗」。六月【芒種雨】完全結束，正是最天晴的季節，七月開始下【西北雨】(雷雨)，颱風亦較頻仍，往往大水氾濫，把土裡的芋頭都流走了。八七水災即在農曆七月，可以爲證。\nlak⁸ gueh⁰ · tsit⁸lui⁵ · teh⁴kau²thai¹\n35 六·月 一雷 矺九颱；\nkau² gueh⁰ · tsit⁸lui⁵ · kau²thai¹lai⁵\n九·月 一雷 九颱來\n譯：六月一雷鎭九颱，九月一雷九颱來\n220",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -245,7 +246,7 @@
 "text": "天候篇\n【矺teh⁴】壓也、鎭也。六月的雷雨可能有鎭止颱風之功，所以有雷雨就沒有颱風，如無雷雨則颱風將接續來襲，故俗語又云：【六·月 一雷 矺九颱，無雷 九颱來】，九月雷雨較少，如有雷雨將帶來連續颱風。俗說如此，其理不得而知○又：【六·月 一雷 矺九颱，無雷 九颱來】\nkau²gueh⁸thai¹ · bo⁵lang⁵tsai¹\n36 九月 颱 無儂知\n譯：九月颱風不可測\n九月本來就少颱風，人民疏於防犯，一旦來襲，造成很大災害。\ntam⁵tang¹tseh⁴ · ta¹kue³ni⁵\n37 澹冬節 礁過年\n譯：濕冬至，乾過年\n【冬節】：【冬至節】之略○冬至如下雨，過年就會晴天，俗說如此，其理不得而知。\ntanng¹tseh⁴ · ti⁷ gueh⁸thau⁵ · oo¹kuann⁵ · ni⁵bue²tau¹\n38 冬節 佇月頭 烏寒 年尾兜\n譯：冬至在月初，年終必陰寒\n221",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -259,7 +260,7 @@
 "text": "台灣哲諺典\n【烏寒】旣天寒又陰雨○「冬至」正當西曆十二月二十二日，再過半個月就是【小寒siau² han⁵】，再過一個月是【大寒tai⁷han⁵】，正是一年中最寒冷的季節。因此如冬至在十月中下旬，過年還沒趕上【小寒】【大寒】，但如冬至遲至十二月上旬才來，那麼下旬即【年尾兜】，正是【小寒】的節氣，台灣北部冬天吹北風時往往陰雨連綿，旣天寒又陰雨，故云「冬節 佇月頭，烏寒 年尾兜」○又：【冬節 在月頭、卜寒 在年兜】(5.38)\ntang¹tseh⁴ · gueh⁸tiong¹ng¹ · bo⁵seh⁴ · ia⁷bo⁵sng¹\n39 冬節 月中央 無雪 亦無霜\n譯：冬至在月中，無雪亦無霜\n「冬至」如在十二月中，年終的「年尾兜」尙未「小寒」，更未「大寒」，因此無雪又無霜。\ntang¹tseh⁴ · ti⁷ gueh⁸bue² · oo¹kuann⁵ · tsiann¹ ji⁷\n40 冬節 佇月尾 烏寒 正二\ngueh⁸\n月\n譯：冬至在月底，陰寒正二月\n冬至如在十二月底，小寒在正月，大寒可能要在二月初，故云「冬節 佇月尾，烏寒 正二月」。\n222",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -273,7 +274,7 @@
 "text": "天候篇\noo¹ku¹lam³ · lam³kau³ ji⁸ kau²am³\n41 烏龜坔 坔佮二九暗\n譯：烏龜神生日下雨，下到年底\n【烏龜】神名，有【烏龜公】十二月三日生日，有【烏龜母】十二月八日生日，【烏龜】神名，當讀oo¹ku¹，如讀oo¹kui¹則爲龜公之義。【坔lam³】爛泥巴之義，此處謂陰雨綿綿，地上到處是爛泥。字又作「湳」○烏龜神生日若下雨，可能東北風已來襲，台灣北部進入雨季，陰雨綿綿，直下到【二九暗】(除夕)。\ntua⁷loh⁸ · tua⁷huann⁷ · sio²loh⁸ · sio²huann⁷\n42 大落 大旱 小落 小旱\n譯：大雨大旱，小雨小旱\n秋天的雨，如下個大雨，大雨之後將會接著大旱天，如下個小雨，小雨之後也會有小旱天。，其理與「早雨 早晴、暗雨 椆冥」(5.15)差不多。\ntam⁷tsui² · tsit⁸lo⁷ thinn¹ hoo⁷ suann³ · khia⁷mng⁵pinn¹\n43 淡水 職號天，雨 傘 徛門邊\n譯：淡水這種天，雨傘豎門邊\n【淡水】指舊淡水廳。雍正元年(1723)從諸羅縣分立，轄大甲以北地域(今之淡水當時叫【滬尾hoo⁷\n223",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -287,7 +288,7 @@
 "text": "台灣哲諺典\nbe²】)。其後北部日益開發，行政區域代有變更，直至光緖十年(1884)建省，設淡水縣，轄艋舺、滬尾之間十堡。此處之淡水應指初設時之淡水廳。其轄區正合於東北季風到達的大安溪以北。區內因東北季風吹拂，冬季天天綿綿細雨，出門需帶雨傘，故有此諺。\nke¹lang⁵hoo⁷ · sin¹tiek⁴hong¹\n44 雞籠 雨 新竹 風\n譯：基隆雨、新竹風\n【雞籠】爲今基隆的之舊名。地處台灣東北角，直接承受冬天的東北季風，冬季天天下小雨，有「雨港」之稱。其暖暖里爲全台雨量最多之地。從金山到宜蘭，沿東北海岸皆與基隆同爲多雨之地，台灣西北海岸從淡水到新竹，因無大屯山脈、中央山脈阻隔，又因突出於台灣海峽，東北季風暢行無阻，因而風勢特大，區內以新竹爲最大都市，故新竹風遂與雞籠雨齊名。○又類：【蘭(宜蘭)雨 竹風】(5.44)【雞籠雨，滬尾風】(5.44)\nsio²hoo⁷ · be⁷kham¹tit⁴tsiap⁸loh⁸\n45 小雨 袂堪得習落\n譯：小雨不可不斷下\n224",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -301,7 +302,7 @@
 "text": "天候篇\n【袂堪得】不可忍受;【習tsiap⁸】常也,經常也○小雨若經常不斷也可能釀成水災。比喩做生意不斷賠小錢,終有倒閉之虞;經常借小錢,積少成多,就成大筆錢,還不了○類:【堀仔水 袂堪得習舀】(池水不斷舀也會舀乾)\nu⁷ kuann⁵ · tioh⁸ u⁷ juah⁸ · u⁷ kan¹khoo² · tioh⁸ u⁷\n46有寒 著有熱 有艱苦 著有\nkhuann³uah⁸\n快活\n譯:有冷就有熱,有苦就有樂\n【艱苦】痛苦,辛苦;【快活】舒服、快樂。人生有苦樂;正如天氣有寒有熱一樣、沒有天天快樂、或天天痛苦的事。\n225",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -315,7 +316,7 @@
 "text": "台灣哲諺典\n【又說錄】\nhong¹thai¹ · tso³liau² · liam⁵mi¹hue⁵lam⁵\n風颱 做了 連鞭回南\n見5.7【西北 做了,連鞭回南】\nhong¹thai¹ · tso³liau² · tng²hue⁵lam⁵\n風颱 做了 轉回南\n見5.7【西北 做了,連鞭回南】\nthinn¹tieng² · tshut⁴ u⁷ puann³kueh⁸khieng⁷ ,\n天頂 出有半劂虹,\nbeh⁴tso³hong¹thai¹ · kann² e⁷ sieng⁵\n卜做風颱 敢會成\n見5.8【出半逢,水流儂】\nbong⁵ · be⁷khui¹ · tioh⁸tshieng⁷tsang¹sui¹\n霧 袂開 著穿 棕蓑\n見5.11【罩霧 罩毋開,戴笠仔 幔棕蓑】\ntshun¹bu⁷ · phak⁸ si² kui² · he⁷ bu⁷ · tso³tua⁷tsui²\n春霧 曝死鬼 夏霧 做大水\n見5.13【春霧 曝死鬼,夏霧 做大水】\ntsa²loh⁸ · tsa²ho²thinn¹ · uann³loh⁸ · kau³puann³mi⁵\n早落 早好天 晏落 佫半冥\n見5.15【早雨 早晴、暗雨 椆冥】\nsai¹pak⁴hoo⁷ · loh⁸bo⁵kue³tshan⁵huann⁷\n西北雨 落無過田岸\n見5.15【西北雨 落無過車路】\n226",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -329,7 +330,7 @@
 "text": "天候篇\ntieng²tshe¹sann¹ · e⁷ tsap⁸peh⁴\n頂初三 下十八\n見5.17【初一落雨 初二散、初三 落雨佫月半】\nlak⁸ gueh⁸ · tsit⁸lui⁵ · teh⁴kau²thai¹ · bo⁵lui⁵ · kau²thai¹lai⁵\n六·月 一雷 矺九颱 無雷 九颱來\n見5.35【六·月 一雷 矺九颱,九·月 一雷 九颱來】\ntang¹tseh⁴ · tsai⁷gueh⁸thau⁵ · beh⁴kuann⁵ · tsai⁷ ni⁵tau¹\n冬節 在月頭 卜寒 在年兜\n見5.38【冬節 佇月頭,烏寒 年尾兜】\nlan⁵ u² · tik⁴hong¹\n蘭雨 竹風\n見5.44【雞籠雨、新竹風】\nke¹lang⁵hoo⁷ · hoo⁷bue²hong¹\n雞籠雨 滬尾風\n見5.44【雞籠雨、新竹風】\n227",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

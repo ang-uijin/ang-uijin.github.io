@@ -7,7 +7,7 @@
 "text": "天候篇",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "空白或圖"
@@ -22,7 +22,7 @@
 "text": "天候篇\n從諺語看台灣人的氣象知識\n每一個民族，根據他們長久居住在固定的風土，觀察四時風雲變化，對該地的氣象、氣候必得到一些經驗，並且將這些經驗，化做可以朗朗上口的諺語，做爲知識流傳或敎育下一代的敎材。這些氣象諺語，不是可以放諸四海而皆準的眞理，它只是根據當地的地形、緯度等特殊氣象條件所產生的經驗，正因此成爲當地人不可缺少的氣象知識。\n台灣諺語中，有關氣象，氣候的諺語特別多，吳瀛濤《台灣諺語》，特別在俚諺之後另立〈農諺〉一章，都是一些氣象諺。其中多半載於台灣總督府《台灣俚諺集覽》第一篇〈天文地理〉。但這些諺語中，有些似乎不太合理，比如：\ntshun¹kah⁴tsu² i²　tshiah⁴ te⁷ · tshian¹ li²　he⁷kah⁴tsu² i²　io⁵.tsun⁵\n春甲子雨，赤地千里；夏甲子雨，搖船\n· jip⁸tshi¹　tshiu¹kah⁴tsu² i²　tiu⁷ · sieng¹liong² ni²　tang¹kah⁴tsu² i²　gu⁵\n入市；秋甲子雨，稻生兩耳；冬甲子雨，牛\niunn⁵ · tang³ si²\n羊凍死\n187",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -36,7 +36,7 @@
 "text": "台灣哲諺典\ntshun¹ ki² bau² hong¹　tiu⁷ bue⁷ khong¹　he⁷ ki² bau² hong¹　tshiu⁷ bue²\n春己卯風、稻尾空；夏己卯風、樹尾\nkhong¹　tang¹ ki² bau²hong¹　tiau⁵lai⁷khong¹\n空；冬己卯風、椆內空\npeh⁴gueh⁸peh⁴ · loh⁸hoo⁷　peh⁴ko³gueh⁸ · ta¹ thoo⁵\n八月八落雨，八箇月礁塗\nlak⁸gueh⁸lak⁸ · loh⁸hoo⁷　piek⁴jit⁸ · kian³song¹\n六月六落雨，百日見霜\nlak⁸gueh⁸tsap⁸kau² · bo⁵hong¹ · tsui² · ia⁷ hau²\n六月十九無風水亦吼\n陰曆，不論是以甲子記日或以月之圓缺記日，都想不出和氣象扯上關係的道理。這些諺多用讀書音，又不合本地氣象，可能是外地氣象諺被讀書人移入，不是台諺，因此這類諺語本篇只收少數幾條以爲參考。本篇所收的46條氣象諺，大部份是根據筆者所知的現代氣象知識參證本地氣象，認爲合理或尚稱合理的諺語。\n從台灣的氣象諺之中，我們發現台灣人的氣象觀察是非常細膩的，茲分述如下：\n(一)地理位置與風雨\n台灣北部和南部的氣候不同，北部冬季吹東北季風，因此冬天北部幾乎天天下雨，因而有這樣的諺語：\ntam⁷tsui² · tsit⁴lo⁷ thinn¹ · hoo⁷suann³ · khia⁷mng⁵pinn¹\n淡水職號天，雨傘徛門邊(5.43)\n188",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -50,7 +50,7 @@
 "text": "天候篇\nke¹lang⁵hoo⁷ · sin¹tiek⁴hong¹\n雞籠雨　新竹風(5.44)\nlan⁵ u² · tiek⁴hong¹\n蘭雨　竹風(5.44)\n淡水指的是舊淡水廳，雍正元年(1723)初設，包括大甲以北至雞籠，正當東北季風帶來季節雨的地域。雞籠即今之基隆，蘭指蛤瑪蘭，即今之宜蘭，都在東北海岸，正是冬日多雨之地。\n新竹因靠台灣海峽，無高山阻隔，直接承受東北季風吹拂，故多風。其實台灣西北海岸冬季皆多風，不止新竹而己，此處當指舊竹塹廳而言。東北季風九月起吹拂，故曰【九降風】。\n南部冬季因有中央山脈及桃竹苗台地阻隔，因此冬季無雨，風亦小。可是北回歸線穿過嘉義，夏季太陽直射，因而產生對流雨。早上及中午水氣被太陽蒸發，下午【半晡仔】時，烏雲過處雷電交加、大雨傾盆，是爲「雷雨」，俗稱【西北雨】。此種「西北雨」分布極不平均。故俗云：\nsai¹pak⁴hoo⁷ · loh⁸bo⁵kue³tshia¹loo⁷\n西北雨　落無過車路(5.16)\nsai¹pak⁴hoo⁷ · loh⁸bo⁵kue³tshan¹huann⁷\n西北雨　落無過田岸(5.16)\n北部因緯度稍高，西北雨比南部少。\n189",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -64,7 +64,7 @@
 "text": "台灣哲諺典\n南部春天吹南風，風從海邊來。海邊俗稱【海口】、因此看「海口」有無烏雲，便可決定晴雨，故俗云：\ntshunn¹ · khuann³ · hai²khau²\n春看海口(5.24)\n冬天吹北風，北風由山上吹來，因而看山頂上有無烏雲，便知晴雨。故俗云：\ntang¹ · khuann³ · suann¹thau⁵\n冬看山頭(5.24)\n(二)雲霧虹霞與風雨\n雲與雨是不可分的，無雲自然無雨，但有雲也不一定有雨，諺語提供了這樣的知識：\noo¹hun⁵ · pue¹tsiunn⁷suann¹ · tsang¹sui¹ · theh⁸lai⁶mua¹　oo¹hun⁵ · pue¹loh⁸\n烏雲飛上山　棕蓑提來幔，烏雲飛落\nhai² · tsang¹sui¹ · phak⁸kau²sai²\n海　棕蓑　曝狗屎(5.10)\n原來烏雲吹上山，雲氣遇冷，乃可成雨。若吹下海，雨就下不成了。\n雲下降到地面稱爲霧，霧太濃，濃得化不開，也會成雨。故俗云：\nta³ bu⁷ · ta³ m⁷ khui¹ · ti³ leh⁸ a² · mua¹tsang¹sui¹\n罩霧　罩毋開　戴笠仔　幔棕蓑(5.12)\n190\n〔圖〕棕簔",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -78,7 +78,7 @@
 "text": "天候篇\nbong⁵ be⁷khui¹ · tioh⁸tshieng⁷tsang¹sui¹\n雺袂開　著穿棕蓑(5.12)\n但【雺霧bong⁵bu⁷】不一定成雨，春天氣溫暖和，太陽一出來就開了，若夏天有霧，表示空氣中溼氣重，加上被炎陽蒸發的水蒸汽，就會變成傾盆的大雷雨。俗云：\ntshun¹ bong⁵ /　bu⁷　· phak⁸ si² kui² · he⁷ bong⁵ /　bu⁷　· tso³ tua⁷ tsui²\n春雺(霧)曝死鬼　夏雺(霧)做大水(5.12)\n霧氣凝結成小水珠，小水珠受太陽照射，陽光折射成【霞he⁵】，或稱【彩霞tshai²he⁵】、【紅霞ang⁵he⁵】，陽光反射成【虹khieng⁷】。天出紅霞，表示空氣中水氣重，晚上會有重露，故諺云：\ntiau¹ · he⁵ · me⁵ · tang⁷loo⁷\n朝霞冥重露(5.9)\n【虹】的小水珠比【霞】大，背面出太陽，前面下【濛濛仔雨bang⁵bang⁵a²hoo⁷】時，就可看見。出虹有時候是颱風前兆。尤其是虹橋缺一部份時尤然。故俗云：\ntshut⁴puann³phang⁵ · tsui²lau⁵lang⁵\n出半篷　水流儂(5.8)\n191",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -92,7 +92,7 @@
 "text": "台灣哲諺典\nthinn¹tieng² · tshut⁴ u⁷ puann³kueh⁸khieng⁷　beh⁴tso³hong¹thai¹ · kann²\n天頂出有半劂虹，卜做風颱敢\ne⁷ sieng⁵\n(可能)會成(5.8)\ntshut⁴khieng⁷ · phuah⁸kan¹tau⁷ · hong¹thai¹ · tso³bue²au⁷\n出虹　旆干豆　風颱　做尾後(5.9)\n(三)風霜與晴雨\n風對晴雨的關係，強風與弱風不同。上舉【烏雲飛上山、棕蓑提來幔，烏雲飛落海、棕蓑曝狗屎】是指弱風，至於冬天由大陸吹來的東北風，強烈時，若空氣中水氣少，只要吹三天，連朝霧都不見了，如水氣多，頂多降三天霜，以後就是寒冷的晴天，諺云：\nsann¹jit⁸hong¹ · bo⁵tsit⁸tih⁴loo⁷\n三日風　無一滴露(5.5)\nsann¹jit⁸hong¹　sann¹jit⁸song¹　sann¹jit⁸thinn¹ · tshieng¹ · kong¹\n三日風、三日霜、三日天　清光(5.6)\nloh⁸sng¹ · u⁷ jit⁸tsioh⁴　oo⁷kuann⁵ · si² bo⁵ioh⁸\n落霜　有日炙(陽光)，烏寒　死無藥(5.2)\n依民間的經驗，下霜一定會出太陽，如果寒流來襲、又夾著烏雲，那就會凍死家畜，無可救藥了。\n(四)月暈與晴雨\n月暈有二種，一種是在月亮(大部份是圓月)的外\n192",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -106,7 +106,7 @@
 "text": "天候篇\n面箍上一圈光環，叫做【月圍箍】；一種是一團朦朧的光暈，像戴斗笠一樣，戴住月亮，叫【月戴笠】，民間依其經驗，認爲：\ngueh⁸ · ui⁵ khoo¹ hoo⁷ · hoo⁷ ak⁴ gueh⁸ · ti⁸ leh⁸ · hoo⁷ jit⁸ phak⁸\n月圍箍，予雨沃，月戴笠予日曝(5.3)\ngueh⁸ · ui⁵ khoo¹ · hue²sio¹poo¹ jit⁸ · ui⁵ khoo¹ · phak⁸tshau²poo¹\n月圍箍火燒埔，日圍箍曝草埔(5.4)\n這樣的兩條諺語看似矛盾，但老農夫說【箍】有破隙將下雨，完整無缺則會天晴，筆者曾有經驗印證。\n諺語只是簡單的提示，背後還有一些註解，後生子弟不能望文生義，這是一個敎訓。\n(五)昆蟲與晴雨\n昆蟲的活動跟晴雨也有關係。俗語說：\ntshan⁵enn¹ · kiat⁴tui¹ · tioh⁸tshieng⁷tsang¹sui¹\n田嬰(蜻蜓)結堆著穿棕蓑(5.13)\n【田嬰】即蜻蜓，蜻蜓成堆出現，占下雨。\n另外，俗以爲白蟻成蟲大量出現，晩上在電燈下成群飛翔是大雨前兆，故白蟻成蟲謂之【大水蚼蟻(kau²hia⁷)】。可惜未聞「大水蚼蟻結堆、著穿棕蓑」\n193\n〔圖〕笠仔",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "羅馬字多"
@@ -121,7 +121,7 @@
 "text": "台灣哲諺典\n之類的諺語。\n(六)雨的個性\n雨有好幾種，有【西北雨】(雷雨)、有【僐雨sian⁷hoo⁷】(霪雨)、有【夏梅he⁷bue⁵/be⁵】(梅雨)，還有普通的【雨】。「西北雨、落無過車路」前面己提過，這是雷雨的個性。\ntsa²jit⁸ · put⁴sieng⁵thian¹\n早日不成天(5.1)\n這是冬天的【僐雨】和春天的【夏梅】，夏天的【西北雨】的共同個性。\ntsa²hoo⁷ · tsa²tsenn⁵ am³hoo⁷ · tiau⁵me⁵\n早雨早晴、暗雨椆冥(5.15)\ntsa²loh⁸ · tsa²ho²thinn¹ · uann¹loh⁸ · kau³ puann³mi⁵\n早落早好天晏落佫(到)半冥(5.15)\ntua⁷loh⁸ · tua⁷huann⁷ · sio²loh⁸ · sio²huann⁷\n大落大旱小落小旱(5.42)\n這當然是指秋雨了。\n(七)四季氣候\n一年有四季，十二月，二十四節氣。\n四季是春夏秋冬。\n陰曆是按照月球環繞地球一周計爲一「月」，但一\n194",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -135,7 +135,7 @@
 "text": "天候篇\n月實際有二十九日半，故每月分配爲三十日、二十九日，前者爲大月，後者爲小月，十二個月計354日，一年365.25日多出11.25日，此必須三年再閏一月，故諺云：\nsann¹ ni⁵ · tsit⁸lun⁷ ho²phainn² · tsiau³lun⁵\n三年一閏、好歹照輪(3.25)\n閏年有十三月，平年十二月，故童謎曰：\ntng⁵ tng⁷sann¹ · te² tng⁷ ji⁷ thau⁵bue² · kah⁴phue⁷ · tiong¹ng¹ · tang⁷khue⁵sinn³\n長丈三短丈二，頭尾甲被中央動葵扇\n謎底即是「年」。\n陰曆是爲配合月之圓缺而設計，因潮汐與月之圓缺有關，所以陰曆爲漁民所必用。但因其不能和太陽周期配合，所以中國曆法又將一年365又1/4日平均分爲二十四節氣，是爲陽曆。爲農民所適用。二十四節氣中的冬至約當西曆十二月二十二日，清明必爲四月五日(如閏年則爲四月四日)。\n陰曆若不計閏月，四季與十二月，二十四節氣及西曆大約分配如下：\n195",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -164,7 +164,7 @@
 "text": "天候篇\n冬tang¹\n十月｜立冬lip⁸ tang¹｜11月7日\n｜小雪siau² suat⁴｜11月22日\n十一月｜大雪tai⁷suat⁴｜12月7日\n｜冬至tang¹ tsi³｜12月22日\n十二月｜小寒siau² han⁵｜1月6日\n｜大寒tai⁷ han⁵｜1月21日\n上述「立春」「立夏」「立秋」「立冬」之「立」，在口語中往往讀成【入jip⁸】，作「入春」「入夏」「入秋」「入冬」，只有「入夏」較少說，多半說「立夏」。「入」似乎較妥。「淸明」泉州人多讀tshinn¹mia⁵。茲就四季氣候分述如下：\n(一)春天\n「入春」以後，北風開始轉弱，南風開始吹拂，一元復始，萬象更新，故元月一日謂之【開春khui¹tshun¹】或【開正khui¹tsiann¹】。\n但是北風其來也疾，其去也徐。北風是強者，南風是弱者，只有北風自動轉弱時，南風才會反攻。南北風交戰時，會產生「鋒面雨」，因此寒暑、晴雨變化非常激烈，因而有這樣的諺語：\n197",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -179,7 +179,7 @@
 "text": "台灣哲諺典\ntshun¹thinn¹ · au⁷bo²bin⁷ beh⁴pinn³ · tsit⁸si⁵kan¹\n春天後母面，卜變一時間(5.26)\nji⁷pat⁴ · luan⁷tshuan¹i¹\n二八亂穿衣(4.16)\n如果南風頻吹，那將造成大晴天，所謂：\ntshun¹lam⁵ · he⁷pak⁴ · bo⁵tsui² · thang¹bua⁵bak⁸\n春南夏北無水通磨墨(5.28)\ntshun¹bong⁵ bu⁷ · phak⁸si²kui²\n春雺(霧)曝死鬼(5.13)\n如果北風反撲，寒流侵襲，那將造成「烏寒」，旣陰雨又寒冷。陰雨是分不開的。俗云：\ntshun¹hoo⁷ · kuann⁵\n春雨寒(5.25)\n「鋒面雨」的產生是北風反攻，把南風含容的水氣逼上高空、遇冷而爲雨。故一定是先寒後雨。俗云：\ntshun¹po³thau⁵\n春暴頭(5.27)\ntshun¹kuann⁵ · hoo⁷ · na²tsuann⁷\n春寒雨那濺(5.23)\n「春寒」的時間很長，一直會寒到夏至前的端午節爲止，故俗有云：\nbue⁷tsiah⁸goo⁷jit⁸tseh⁴tsang³ phua³hiu⁵ · m⁷kam¹pang³\n未食五日節粽，破裘毋甘放(4.23)\n198",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -207,7 +207,7 @@
 "text": "台灣哲諺典\nlip⁸ he⁷ · sio² mua² hoo⁷ tsui² · sio¹kuann²\n立夏小滿，雨水相趕(5.33)\nlip⁸ he⁷ · hoo⁷tsui² · tshe⁷ x · bi² tshiek⁴ · kuah⁴ ka³ bo⁵ te³ he⁷\n立夏雨水泎泎(潺潺)米粟割駕無塊下(4.18)\n立夏小滿之後爲「芒種」，梅雨繼續下，謂之【芒種雨】。\nsi³ gueh⁰ · bong⁵tsieng²hoo⁷ ·\n四·月芒種雨\ngoo⁷ gueh⁰ · bo⁵ ta¹ thoo⁵\n五·月無礁塗(乾土)(5.34)\n西北雨是一種「對流雨」，早晨及中午大太陽把地上的水份蒸發，上升遇冷下午爲雨，如水氣甚重成大霧，更會一雨成災，故俗云：\nhe⁷ bong⁵ / bu⁷ · tso³tua⁷tsui²\n夏雺(霧)做大水(5.13)\n「西北雨」分佈不均，此田有雨，鄰田可能大晴，故俗云：\nsai¹pak⁴hoo⁷ · loh⁸bo⁵kue³tshia¹loo⁷\n西北雨落無過車路(5.15)\n詳見第一節地理位置與風雨，此處不贅。\n「颱風」本於鶴佬語的「風颱」，「颱」字本應作「篩」\n200",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -221,7 +221,7 @@
 "text": "天候篇\n(thai¹),颱風來時,飛砂走石,如在篩中,故云【風篩】,字作「風颱」。颱風大約從六月至九月最多。諺語描寫颱風的個性說:\nlak⁸ gueh⁰ · tsit⁸lui⁵ · teh⁴ kau²thai¹\n六‧月 一雷 矺(壓)九颱,\nbo⁵ lui⁵ · kau²thai¹lai⁵\n無雷 九颱來(5.35)\nlak⁸ gueh⁰ · tsit⁸lui⁵ · teh⁴kau²thai¹\n六‧月 一雷 矺九颱,\nkau² gueh⁰ · tsit⁸lui⁵ · kau²thai¹ · lai⁵\n九‧月 一雷 九颱 來(5.35)\nkau²gueh⁸thai¹ · bo⁵lang⁵tsai¹\n九月颱 無儂知(5.36)\n(三)秋天\n夏天俗謂【熱天】,但【入秋】以後,北風就開始吹來,天氣較涼,所以【涼liang⁵】又云【秋凊tshiu¹tshinn³】,意謂像秋天一般涼快。窮人開始憂愁沒有冬衣,故俗云:\nang⁵khi⁷ · tshut⁴thau⁵ · lo⁵han³kha¹a² · bak⁸sai²lau⁵\n紅柿 出頭 羅漢跤仔 目屎流(4.31)\n但到十月,所謂「十月小陽春」,天氣會突然轉熱,謂之【秋後熱】,又稱【十月液(sioh⁸)】。\n「十月液」有時比夏天還悶熱,故俗云:\n201",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -235,7 +235,7 @@
 "text": "台灣哲諺典\ntsap⁸gueh⁸sioh⁸ khit⁴tsiah⁸ · khun³phua³tshioh⁸\n十月液,乞食 睏破蓆(4.39)\n九月北風和順,是放風箏的好月份,故俗云:\nkau²gueh⁸kau² hong¹tshue¹ · mua²thinn¹hau²\n九月九,風吹 滿天吼(4.33)\n十月的風就太強,會吹斷線,故俗云:\ntsap⁸gueh⁸tsap⁸ hong¹tshue¹ · tshue¹loh⁸sai²hak⁸\n十月十,風吹 吹落屎礐(4.38)\n至於十二月,那就更不適於放風箏了。\ntsap⁸ ji⁷ gueh⁸hong¹tshue¹ · siau²ka³bo⁵bue²\n十二月風吹 ▢駕無尾(4.44)\n(四)冬天\n冬天,北風已佔了絕對優勢,風勢甚大,帆船跑得快,卻很危險,故俗云:\ntshiu¹tang¹ · phang⁵ · put⁴sieng¹huang¹\n秋冬 帆 不勝風(5.29)\n冬風來時會先下小雨,俗云:\ntang¹hoo⁷tsenn⁷\n冬雨靜(5.25)\n雨後風越來越大,俗云:\n202",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -249,7 +249,7 @@
 "text": "天候篇\ntang¹po³bue²\n冬暴尾(5.27)\n若北風甚疾,就沒有雨露了,俗云:\ntang¹kuann⁵ · tso³tua⁷huann⁷\n冬寒 做大旱(5.23)\nsann¹jit⁸hong¹ bo⁵tsit⁸tih⁴loo⁷\n三日風,無一滴露(5.5)\n冬天最後一個節氣是【大寒tai⁷han⁵】,大寒當然要【大寒tua⁷kuann⁵】,把害蟲凍死,翌年才會豐收。否則:\ntai⁷han⁵ · put⁴han⁵ jin⁵ma² · put⁴an¹\n大寒 不寒,人馬 不安(4.42)\n那就糟了。\n把台灣氣象諺排列起來,使我們對於自然更加深一層認識。因爲這些諺語是先民長久觀察氣象、氣候,所得經驗的結晶,是他們的氣象學。雖非「放諸四海而皆準」,卻是「俟百世而不惑」的,除非我們破壞了氣象。\n203",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

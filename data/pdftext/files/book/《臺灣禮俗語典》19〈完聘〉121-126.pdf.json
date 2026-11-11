@@ -9,6 +9,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -17,7 +18,7 @@
 "text": "·122·　臺灣禮俗語典\nsiang'hi\n紙或紅布蓋着，上貼【囍】（雙喜）字樣，小東西另裝在盤子內\nˇpuaN'taN ˇpuaNˇthau ˇpuaN ˋpiˋpan\n，所以「聘禮」又稱【盤擔】【盤頭】或【盤】。【備辦】\nˋpanˇpuaN ˇtaNˇpuaN\n這些禮物謂之【辦盤】。把禮物折成現金謂之【打盤】，動詞\n'taN ˋing'taNˣe 'taNˇtsiN\n則單稱【打】，【用打个】、【打錢】。\nchunˋsiaN\n盛裝聘禮的「檻」特稱之爲【春檻】\ntaN-hu\n，由【擔夫】扛着，浩浩蕩蕩向女家前\nkngˋsiaN chue-pan\n進謂之【扛檻】。前有【吹班】（\n'koo chueˋtin ˇmuaiˇlang ahˋsiaN\n【鼓吹陣】）引領，後有【媒儂】護送，謂之【押檻】。\n'le-thiap ˇpuaNˇthau-thiap tuan-siok\n所有「聘禮」的項目名稱寫在一張摺成十二折的紅紙上，相當於清單，謂之【禮帖】又稱【盤頭帖】，上寫〖端肅〗二字。\nhokˇuan iam-ke ah'bo\n女方對於【聘禮】，有些可以全部收下或收一部份，有些要璧還，比如聘禮中的【福圓】【閹雞】【鴨母】代表男家福氣，\ntiˇping ti-kha\n不敢收，【豬爿】可以割下底部一片，其餘奉還。至少【豬跤】\nbah·'ai ˇhong· 'tsiah kut·be'sai\n一定要還，因爲俗語說：【肉愛（要）與儂（給人）食，骨袂使\nˇhong·'ge\n（不可）與儂齧（啃）】，如果女方收下便是不知禮。此外女方\ntehˇpuaN tehˋtiaN tehˋsiaN\n還要回禮，謂之【窒盤】或【窒定】、【窒檻】。其中有贈「囝\n'tsua'bak-pitˋhiN 'leˋbo\n婿」的【紙墨筆硯】，結婚禮服如【禮帽】（清朝及日據前期\nˇang-iaNˋbo ˋtuan'o ˋtuan-hia 'kimˋbueh tsu'li soo'bueh\n時爲【紅纓帽】）【緞襖】【緞靴】【錦襪】【朱履】【蘇襪\n'phau 'kua ˋtuaˋbo 'sioˋbo 'hi'tsiong 'chiu-kin\n】【袍】【褂】等，還有【大帽】【小帽】【喜種】【手巾】【\n〔圖〕春檻",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -27,7 +28,7 @@
 "text": "19　完　聘　·123·\nˇha-pau 'siu'too 'siN 'siNˋte ˇbak'kiaNˋte pitˋte 'kngˋte\n荷包】【繡肚】*【扇】【扇袋】【目鏡袋】【筆袋】【卷袋】\n（古時秀才考試時所攜帶的長方形袋，放書卷，紙張，又稱【\nˇbun-tsiuNˋte tik-sim tik-sim\n文章袋】）【竹心】（竹尖端之嫩芽，其心筆直，又與「得心\n」諧音）之類。也有一部份贈【親家】【親姆】。贈【小姑】的\nching-ke cheN'm\n'siuˇe 'cho-hue chiN-hue 'siahˇliu\n多半是【繡鞋】【草花】（蓪草所製花）【鮮花】【石榴】【\nˇlian-tsiau-hue 'thuaN ooˇthng kin-tsio 'lat'tsi ˋoo kiat'piaN\n蓮蕉花】【炭】【烏糖】【弓蕉】【栗子】【芋】【桔餅】\nsiok'hok\n之類。【禮帖】上寫上〖肅復〗二字。\n'tsiahˋtiaN\n當然免不了女家要辦酒席請男方的來客謂之【食定】。新\nteh-toh\n郎於席後在桌上放幾個紅包，謂之【窒桌】。男方如帶小孩女家\n應該給小孩一個小紅包，這是將紅線穿幾個方孔錢，給小孩掛在\nˋkuaNˋamˇtsiN\n頸上，謂之【縣領錢】。以上【窒桌】的紅包贈給廚師的，\n'tsong'phoo'le 'tsau-toh\n叫【總舖禮】，其金額略多於一桌酒席的工錢，給【走桌】（\nˇphang'chai'le\n端菜的人）一個小紅包，叫【奉菜禮】；此外新郎桌上有一位\nˋkuaNˇpanˣe\n專門爲客人敬酒的叫【縣瓶个】，也得到一個紅包。\n以上這些都是古禮，許多名稱現在連六七十歲的老人都不知道，好在日據時代留下許多文獻，給臺灣民俗留下一些記錄。現\nkngˋsiaN\n在禮俗正急速蛻變中，「扛檻」已經廢了將近三十年，現在改用\nchue-pan tehˋtiaN ching-ke cheN\n汽車運送，沒有【吹班】，【窒定】也多半不送【親家】【親\n'm 'sio-koo\n姆】【小姑】。\n'phing-kim\n至於【聘金】，多半是事先議定的，聘金要收下多少，要",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -37,7 +38,7 @@
 "text": "·124·　臺灣禮俗語典\nkah 'ke-tsng\n看女方準備【佮】多少【嫁妝】而定。【嫁妝】多可以多收，「\nˋing iˇeˇthoo·ˇkoo iˇe piah\n嫁妝」少應該少收，俗話說【用伊个塗糊伊个壁】（用他的聘金辦嫁粧），有些人爲了愛面子，送許多聘金，女方收下了，居然沒什麼嫁妝，就會引起男方極度不悅，甚至發生糾紛，卽使\nta-ke 'khoo'tok\n沒出事，將來新娘嫁過去也可能受到【大家】（婆婆）【苦毒】\n（虐待）。當然有些窮苦人家嫁女兒就是要拿聘金，等於把婚姻\nˋbe\n當成買賣，有些地方「嫁」女兒乾脆就叫【賣】，和有些地方稱\nˇchiaN\n爲【晟】*的不可同日而語。\nhun-su\n此外還有所謂【婚書】，相當於現在的「結婚證書」，多半\nˇkhian\n採用禮記，詩書的吉祥文句作成。男方送女方的【婚書】叫【乾\n-su ˇhue-hun-su khun-su\n書】，女方【回婚書】，叫【坤書】。\nˋtua'piaN sinˇniu'piaN\n完聘之後，女家把所收【大餅】（特稱【新娘餅】）分贈\nˋhing sinˇniu'piaN\n親友，謂之【貺新娘餅】，親友收到之後，送金子或紅包等\nthiam-tsng\n給女家，謂之【添妝】。\n'lap'chai 'lap'pe\n儒家禮俗在〖納采〗之外另有〖納幣〗*，從前臺灣婚俗「\n'peˇgi hueˇtiu ˇniˇgi tsiatˋgi\n納幣」之禮，男家要贈送【幣儀】、【花綢】、【年儀】【節義\n'hiˇiuN thiaNˋbin\n】【喜羊】等給女家，女家答以【廳面】（大廳用的家具）、\nˇe'bueh\n【鞋襪】，大概因爲和「納采」重複，早已合併爲「完聘」一次擧行。有些人甚至爲了從簡，把「完聘」和「完婚」合併擧行，\nˇuan'phingˋchua\n謂之【完聘娶】。現代多半是【完聘娶】。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -47,7 +48,7 @@
 "text": "19　完　聘　·125·\n諸羅縣志風俗志云：\n『此地（諸羅縣，嘉義以北的大半臺灣，康熙時屬諸羅縣）並納聘（納采）於納幣而一之，具婚書、聘金、幣帛、雜物，簽\ntehˇpuaN\n署納幣之敬：女家亦隨輕重而報之（指【窒盤】）。雖曰太簡，亦不大背於禮。』\nˇuan'phing\n可見〖納采〗〖納幣〗合而爲【完聘】的風俗在康熙時代已\nˋkuaNˋtiaN\n如此。現在則連「完聘」亦近廢除，結婚只一次【縣定】（【\nˋting-hun ˋchua-sinˇniu\n訂婚】），一次【娶新娘】便算完成。\n字解\n'lau-hue\n【粩花】① 臺灣傳統米菓。先以米粉、芋粉蒸熟，搗揉，然後\n'kue-kuaN\n切成小片，風乾，謂之【粿乾】。「粿乾」油炸之後膨脹，\n'unˇthng-ko\n然後【搵糖膏】（醮糖膏），丟入芝麻堆，使表面粘上芝麻\nˇmua'lau 'bi-phang 'bi\n，便成【麻粩】；丟入【米芳】（爆米花）裏，便成【米\n'lau ˇthooˋtau-hu ˇthooˋtau'lau\n粩】；丟入【塗豆灰】（花生末），便成【塗豆粩】，\n'lau-hue\n統稱之曰【粩花】。\nˇthng'aˋloo ˇthng-ko\n【糖仔路】　用糖熬成【糖膏】，然後製成各種形狀的糖點。現已極罕見。\nˋmi'suaN 'iuˋmi\n【麵線】　細麵線，又稱【幼麵】。\nhokˇuan 'kuiˇuan ˇling'ging-kuaN hokˇuan\n【福圓】　又名【桂圓】，【龍眼乾】也。其外殼曰【福圓\n-khak hokˇuan-bah 'tsut'biˇmuai\n殼】，其肉曰【福圓肉】。以【福圓肉】煮成的【秫米糜",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -57,7 +58,7 @@
 "text": "·126·　臺灣禮俗語典\nhokˇuanˇmuai\n】，謂之【福圓糜】。\npinˇnng siang-tang pinˇnng\n【檳榔】　又讀 punˇnng，現在以南投的【雙冬檳榔】，嘉\ntiong-poo pinˇnng\n義的【中埔檳榔】最有名。\nˇpuaNˇthauˇhiuˇkun ˇhiu'a 'siuˇkun\n【盤頭裘裙】　新娘的結婚禮服，包括【裘仔】、【繡裙】\nˇpuaN'taN ˇpuaˇthau\n，皆男家贈送，放在【盤擔】（卽【盤頭】）之中一起\nˇpuaN'ıaNˇhiuˇkun\n送到女家，故曰【盤頭裘裙】，析稱爲【盤擔裘（裙）】。\nˋsiaN\n【檻】　運送禮物的弔臺，兩人扛。現已改用汽車運送，所以從前的「檻」已不可見。\nˇchiaN ˇchiaNˇti\n【晟】② 培養，養育也。又曰【晟持】。正字可能要作「成\n」，俗作「晟」。說文：『晟，明也。』集韻：『飯匱也。\nˇsing\n時征切，音成。』音可通，義不洽，算是假借字。\n'pe\n【幣】③ 說文：『幣，帛也』橫渠理窟：『幣者金玉齒泉布之\nˋpe 'pe\n雜名。』唐韻：毗祭切（陽去），各韻書皆同。唯集韻：必袂切（陰去）。閩南各韻書皆讀 'pe。唯口語中往往訛爲 'phe\nˇtai'pe\n；更訛爲 'phio（票），如：【臺幣】→ ˇtai 'phe → ˇtai 'phio。\n'siu'too\n【繡肚】　從前臺灣的服式，無論男女老幼，胸前外衣下都懷着\n'tooˋkuaN kuaNˋtiaN\n一個【肚縣】，大人用來放錢，小孩用來放糖果。【縣定\nˇuan'phing 'tooˋkuaN\n】或【完聘】，新娘自製一個繡得非常漂亮的【肚縣】\n'siu'too ˇtsai'khi'too\n謂之【繡肚】，送給新郎，別稱爲【財氣肚】。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]

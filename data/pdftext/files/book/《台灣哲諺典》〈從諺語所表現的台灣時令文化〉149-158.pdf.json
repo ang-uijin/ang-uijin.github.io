@@ -7,7 +7,7 @@
 "text": "時令篇",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "空白或圖"
@@ -22,7 +22,7 @@
 "text": "時令篇\n諺語所表現的台灣時令文化\n台灣諺語中有關時令的諺語很多，我們在這個〈時令篇〉裡所收的，只限於跟台灣習俗文化和農業文化有關的部份，至於習俗諺或歇後語則不在此篇收錄範圍。\n台灣流傳的習俗時令諺提醒人們在一年之中、那個月令或節氣應該要做些什麼事，有些什麼規定需要遵守；農業時令諺提醒人們到了那個月令或節氣要做什麼農事，有什麼農產。因此這些時令諺可以說是維持生活秩序必不可少的文化語言。\n茲分述如下：\n(一)習俗\n台灣時令習俗之中，最重要的是過年。過年之前，所有一年間賒欠的款項，必須全部還淸，一日都不可拖欠。所以諺語說：\n149",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [],
 "copied_from": {
 "url": "/files/book/台灣哲諺典_compressed.pdf",
@@ -34,7 +34,7 @@
 "text": "台灣哲諺典\nu⁷ khiam³kue³jit⁸ · bo⁵khiam³kue³ni⁵\n有欠過日，無欠過年(4.1)\ne⁷ khiam³tit⁴tsit⁸ni⁵ · be⁷khiam³tit⁴tsit⁸jit⁸\n會欠得一年，袂欠得一日(4.1)\n對有錢人來說，過年是催討債務的好時機，可是對窮人來說，過年是一件旣煩惱又高興的事。煩惱的是大人，旣要還債、又要辦年貨，又要給孩子買新衣，但孩子卻高興過年可以穿新衣、放鞭炮。俗語說：\ntua⁷lang⁵ · huan⁵lo²bo⁵tsinn⁵ · gin²a² · huann¹hi²kue³ni⁵\n大儂　煩惱無錢，囡仔　歡喜過年(4.2)\ntua⁷lang⁵ · luan⁷tshau¹ x · gin²a² · ai³ni⁵tau¹\n大儂　亂操操，囡仔　愛年兜(4.2)\n對女人來說，過年是非常忙碌的，但卻是一年中唯一不必挨餓的日子。再怎樣窮、怎樣受【苦毒】，都得吃一頓飽，所以俗語說：\njih⁸kau²me⁵ · bo⁵iau¹sim¹pu⁷\n廿九冥　無枵新婦(4.3)\npa²ni⁵pa²tseh⁴\n飽年飽節(4.4)\n即使常挨打的調皮孩子，過年也可以盡情玩耍，不必擔心。因爲俗語說：\nsin¹ni⁵thau⁵ · ku⁷ni⁵bue²\n新年頭　舊年尾(4.6)\n150",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -48,7 +48,7 @@
 "text": "時令篇\n是不可以打孩子的。\n過年的這幾句哲諺，道盡了人生的哀愁與歡樂。\n然而並不是【一年　三百五十日　逐(tak⁸)日　都咧過年】(3.7)，過完年，便要把「放心」收回來，開始工作了。\ntshe¹goo⁷keh⁴khui¹ · tshe¹lak⁸ · io² pui⁵\n初五隔開　初六　舀肥(4.5)\n否則就成了好吃懶做、遊手好閒的「阿舍哥」了。\n過年之後的大節是淸明，出外人淸明必須回家掃墓。諺語對不回家【培墓】和不回家過年的人描寫說：\ntshieng¹bieng⁵ · m⁷tng²khi³tshu³ · bo⁵tsoo² kue³ni⁵ · m⁷tng²khi³\n淸明　毋轉去厝　無祖；過年　毋轉去\ntshu³ · bo⁵boo²\n厝　無某(4.17)\n端午節也有諺語；\ntshah⁴tshieng⁵ · khah⁴iong²lieng⁵ tshah⁴hiann⁷ · khah⁴iong²kiann⁷\n揷榕　卡勇龍、揷艾　卡勇健\n七月普度眾生，請和尚道士爲亡魂超度；七月半「大普」，備牲醴以祭「好兄弟仔」，諺語這麼描寫：\ntshit⁴ gueh⁸ · bo⁵ieng⁵hue⁵siunn⁷\n七‧‧月　無閒和尚(4.26)\ntshit⁴gueh⁸puann³ah⁴ · m⁷tsai¹si²\n七月半鴨　毋知死(4.27)\n151",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -62,7 +62,7 @@
 "text": "台灣哲諺典\n九月以後日頭短了，工作時間縮小，對女人的工作能力是一項考驗。俗語譏笑那些懶散成性的女人說：\nkau² gueh⁸ · kau² · na³ jit⁸ han¹ban⁷tsa¹boo² · sann¹tng³ · nia²be⁷\n九‧月　狗　乍日，頇顢查某　三頓　領袂\ntit⁸ · thau⁵tsang¹le⁵ a² · tiau⁵piah⁴khit⁸\n直　頭鬃螺仔　椆壁橛(4.34)\ntsap⁸ gueh⁸ · jit⁸ · senn¹sit⁸ lam²nua⁷tsa¹boo² · nia²be⁷ tit⁸\n十‧月　日　生翼，荏爛查某　領袂直(4.37)\n過了中秋，一年很快就要過去了。俗語說：\nni⁵ · phann³ · tiong¹tshiu¹ gueh⁸ · phann³ · sip⁸kiu²\n年　怕　中秋、月　怕　十九(4.36)\n九月是【九降風】(東北季風)初吹的時候，風勢和順，是放風箏最好的月份，所以俗語說：\nkau²gueh⁸kau² · hong¹tshue¹ · mua²thinn¹hau²\n九月九　風吹　滿天吼(4.33)\n此後風勢漸強，但仍然阻擋不了人們放風箏的興致。可是放風箏可沒那麼順了：\ntsap⁸gueh⁸tsap⁸ · hong¹tshue¹ · tshue¹loh⁸sai²hak⁸\n十月十　風吹　吹落屎礐(4.38)\ntsap⁸ ji⁷ gueh⁸hong¹tshue¹ · siau²ka³bo⁵bue²\n十二月　風吹　猶駕無尾(4.44)\n152",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -76,7 +76,7 @@
 "text": "時令篇\n冬至要【挲圓仔】過年要【炊粿】：\nbo⁵tang¹tseh⁴ · to¹beh⁴so¹inn⁵ · bo⁵kong²tang¹tseh⁴\n無冬節都卜挲圓無講冬節(4.42)\ntsap⁸ ji⁷ gue⁰ · bo⁵ieng⁵lang⁵sng⁵\n十二·月無閒籠▢(蒸籠)(4.49)\n把這些諺語串連起來，背誦一下，台灣習俗便像走馬燈一樣在你眼前活生生地重演一番。\n(二)四季衣著\n二月和八月是春秋換季的月份，人們的衣著呈現著五色繽紛，冬衣、夾衣都有人穿，諺語描寫說：\nji⁷ pat⁴ · luan⁷tshuan¹ i¹ ·\n二八亂穿衣(4.16)\n這不但由於各人健康的不同，也由於春天的氣溫變化無常，所謂【春天後母面】(5.26)，即使到了清明穀雨(西曆四月間)還會突然變冷。所謂：【正·月寒死龜、二·月寒死牛、三·月寒死播田夫、四·月寒死乖新婦】(5.30)【清明穀雨、寒死虎母】(5.32)，因此冬天的衣裘、棉被都不忍收起來，俗云：\nbue⁷tsiah⁸goo⁷jit⁸tseh⁴tsang³ · phua³hiu⁵ · m⁷ kam¹pang³\n未食五日節粽破裘毋甘放\n一旦端午節過後就眞的進入【熱天】了。\n153",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -90,7 +90,7 @@
 "text": "台灣哲諺典\n可是六月還有人蓋棉被，那必定是病人或老人或嬰兒了，俗云：\nlak⁸gueh⁸mi⁵phue⁷ · kieng²lang⁵kah⁴\n六月棉被揀儂甲(4.25)\nang⁵enn¹a² · bo⁵lak⁸gueh⁸thinn¹\n紅嬰仔無六月天(26.0)\n夏天對窮人來說是安心的季節，秋天以後窮人就開始煩惱沒衣服穿了。當八、九月紅柿上市的時候，也就是窮人開始流淚的時候。俗云：\nang⁵khi⁷ · tshut⁴thau⁵ lo¹han³kha¹a² · bak⁸sai²lau⁵\n紅柿出頭，羅漢跤仔目屎流(4.31)\n十月小陽春，秋涼了一陣，又會開始熱起來，台灣叫【秋後熱】、【十月液(sioh⁸)】，即秋老虎。「秋後熱」會熱得人懶洋洋的，連乞丐都不想出去要飯，俗語這麼描寫：\ntsap⁸gueh⁸sioh⁸ khit⁴tsiah⁸ · khun³phua³tshioh⁸\n十月液，乞食睏破蓆(4.39)\n把這些諺語串連起來，台灣的人衣著文化，不就活生生地擺在眼前嗎？\n(三)耕種\n農業是傳統文化的核心，必然會有許多農諺，其\n154",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -104,7 +104,7 @@
 "text": "時令篇\n中有關耕種的農諺，提醒和敎育人們該種什麼或收成什麼，以及天氣對農業或漁業的影響。\ntsiann¹kiunn¹ · ji⁷ oo⁷\n正薑二芋(4.10)\n正月種薑、二月種芋。\ntsa²tshun¹ · ho²tshit⁴tho⁵ · tsa²he⁷ · liap⁸bi²bo⁵\n早春好𨑨迌早夏粒米無(4.12)\nsi³gueh⁸ji⁷tsap⁸lak⁸ · hai²ieng² · khui¹bak⁸\n四月二十六海湧開目(4.21)\n四月二十六日，是開始捕虱目魚的日子。\n梅雨在立夏時，叫【夏梅】，俗稱：\nlip⁸he⁷ · hoo⁷tsui² · tshe⁷ x bi²tshiek⁴ · kuah⁴ka³bo⁵te³ he⁷\n立夏雨水▢▢(▢▢)，米粟割駕無塊下(4.24)\n【夏梅】(he⁷bue⁵)，正是早冬稻收成的日子，無地曬穀，惱煞農夫。\n【芒種】時下的梅雨叫【芒種雨】，此時春花盡謝，故云：【芒種蝶，討無食】\nsiau²si² · u⁷tshenn¹tshiek⁴ · bo⁵tshenn¹bi²\n小暑有靑粟無靑米(4.28)\n早冬稻再怎麼遲收割，都不能遲過【小暑】(西曆七月七日左右)。\n155",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -118,7 +118,7 @@
 "text": "台灣哲諺典\ntshiu¹tsieng⁵ · tai⁷su²au⁷\n秋前大暑後(4.29)\n【大暑】(西曆七月二十三日起)和【立秋】(八月七日左右)之間，除了【大暑日】之外，都是【慢冬稻】播種的日子。\nlip⁸tshiu¹ · bo⁵hoo⁷ · tsue³kham¹iu¹\n立秋無雨最堪憂(4.30)\n「看天田」最怕播種之後久旱不雨了。\ntai⁷han⁵ · put⁴han⁵ jin⁵ma² · put⁴an¹\n大寒不寒，人馬不安(4.42)\n冬天要【大寒】就來個眞的大寒，把害蟲凍死，否則明年就要患蟲災了。\n(四)收成\n農產或漁產，每年都有一定屬於某種產物【大出】(盛產)或【著時】(盛產)的月份。人們創造了許多諺語來記憶、傳誦。俗云：\ntsiann¹gueh⁸tshang¹ ji⁷gueh⁸ku²\n正月葱，二月韮(4.10)\n正月的葱、二月的韮菜又肥又嫩，最爲可口。\n156",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -132,7 +132,7 @@
 "text": "時令篇\ntshun¹tsim⁵ · tang¹mo⁵he⁷\n春蟳、冬毛蟹\n蟳、毛蟹各有其最【有仁】的季節。\ntshun¹bian² · tang¹ka¹lah⁸\n春鰵、冬鮫魶(4.14)\nsann¹gueh⁸sann¹ · tho⁵a²li²a² · thin⁷thau⁵tann¹\n三月三桃仔李仔伨頭擔(4.15)\nang⁵khi⁷ · tshut⁴thau⁵ · lo¹han³kha¹a² · bak⁸sai²lau⁵\n紅柿出頭羅漢跤仔目屎流(4.31)\ntsap⁸ji⁷gueh⁸kua³tshai³ · u⁷sim¹\n十二月芥菜有心(4.45)\ntsap⁸ji⁷gueh⁸kam¹tsia³ · to³bue²tinn¹\n十二月甘蔗倒尾甜(4.46)\ntsap⁸ji⁷gueh⁸kam¹tsia³ siang¹thau⁵tinn¹\n十二月甘蔗，雙頭甜\n這類諺語應該還有很多，只是筆者沒收集到而已。\n中國曆法不是純粹陰曆，而是「陰陽曆」。按月之圓缺周期29.5日分每月爲二十九日、三十日，使每月十五皆逢月圓，但一年有三百六十五又四分之一日，即十二個月又多出十日，因此必須三年來一次閏月，始能維持每年一月都在春天，此爲陰曆。又將三百六十五又四分之一日分爲二十四節氣，使每一節氣都能反映太陽在黃道上的循環，是爲陽曆。此種曆法因能反映自然現象，可謂十分便利，陰曆便於記認，且爲漁\n157",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -146,7 +146,7 @@
 "text": "台灣哲諺典\n民所不能不用，陽曆則適於農事。台灣自古運用這種曆法生活，因此也以這種曆法的名稱來創作諺語。\n自日據以來，台灣官方即改採西洋曆法，西曆有其便利之處，但不便之處更多。此爲題外話。我們所關心的是不但官方採用西曆，學校亦只敎西曆，不敎中國陰陽曆，因此傳統文化遺產遂無法傳承下去。以諺語爲例，不明中國曆法，則一定無法理解台灣時令諺，更無法傳承下去，時令諺也許將隨著中國曆法的放棄而成過時之物。\n158",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [],
 "copied_from": {
 "url": "/files/book/台灣哲諺典_compressed.pdf",

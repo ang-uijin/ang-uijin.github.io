@@ -7,7 +7,7 @@
 "text": "命運篇",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "空白或圖"
@@ -22,7 +22,7 @@
 "text": "命運篇\n從諺語看台灣人的命運觀\n台灣諺語中，談到命運時用了幾個不同的名詞，諸如時、運、命、緣；講到主掌命運者有天、造化、風水；描寫命運的好壞有好命：歹命；好運：歹運；福：禍；得意：失時。\n大抵說來，時與運不必由於天命造化，而命與緣則往往由天註定。命與緣不可改變，但時與運則可由人改變創造。所以人一方面要順天認命，不要怨天尤人，一方面要發揮潛能，待時而動，改變運道。茲分述於下：\n(一)時與運\n所謂「時」指的是時勢，「運」指的是機會。人的「命」由天註定，比如生長在書香門第，自然有機會讀書而爲讀書人，生長在商賈之家，自然有機會學做生意而爲商人，但同樣努力向上，有的飛黃騰達，有的懷才不遇，這是由於各人時運不同所致。\n105",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [],
 "copied_from": {
 "url": "/files/book/台灣哲諺典_compressed.pdf",
@@ -48,7 +48,7 @@
 "text": "命運篇\nphann²tshiek⁴ · te²tioh⁸ho² bi² lua⁵\n冇粟　貯著好米籮(3.43)\nphainn²tshiek⁴ · he⁷loh⁸ho² bi² na⁵\n歹粟　下落好米籃(3.43)\nphainn²sai¹kong¹ · gu⁷tioh⁸ho² jit⁸ tsi²\n歹司功(道士)　遇著好日子(3.44)\nphainn²tsun⁵ · kiann⁵tioh⁸ho²kang²loo⁷\n歹船　行著好港路(3.45)\ntshenn¹me⁵ke¹ · tok⁴tioh⁸bi²\n青盲雞　啄着米(3.46)\ntshenn¹me⁵niau¹ · ka⁷tioh⁸ si² niau²tshi²\n青盲貓　咬著死老鼠(3.47)\n都是諷刺不靠自己本事，只靠運氣好而得到福氣的事。\n人在一生中總是會碰到好運或歹運的事，命好的人有「失時落泊」的時候，俗云：\nkun¹tsu² · sit⁴ si⁵ · be⁷ ji⁷ · ka³oh⁸ , siau²jin⁵ · sit⁴ si⁵ · pun²tann¹\n君子　失時　賣字　敎學，小人　失時　扁擔\n· khoo¹loh⁸\n箍落(苦力)(3.42)\n至於命壞的人，也有好運的時候。俗云：\nkhit⁴tsiah⁸ · ia⁷ u⁷ sann¹ ni⁵ ho² un⁷\n乞食　亦有三年好運(3.6)\nbo⁵puan³kue¹ · tsi¹hok⁴ , iu² piek⁴ke¹ · tsi¹lok⁸\n無半瓜　之福，有百雞　之樂(3.61)\n由整個歷史看來，人的時運有輪流轉的現象，即月有陰晴圓缺，人有旦夕禍福，風水輪流轉，存在界\n107\n〔圖〕米籮",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -62,7 +62,7 @@
 "text": "台灣哲諺典\n榮枯盛衰，變動不居才是正常現象，人不會永享福氣，也不會永不得翻身。俗云：\nsiunn⁷beh⁴kang¹san¹ · ban⁷ x ni⁵\n想卜江山　萬萬年(3.30)\nhong¹sui²thau⁵ · tshut⁴hau¹lau⁵ · hong¹sui²bue² · tshut⁴ian⁵tau⁵\n風水頭　出嘐流　風水尾　出緣投(3.31)\nphainn²tiek⁴ · tshut⁴ho²sun²\n歹竹　出好筍(2.50)\nkuah⁴tin⁵ · ainn⁷kiann² · tshut⁴sieng³jin⁵\n葛藤　負囝　出聖人(2.63)\nho²giah⁸ · bo⁵kue³sann¹te⁷lang⁵\n好業　無過三代儂(3.29)\nit⁴ tai⁷hieng¹ ji⁷ tai⁷ hian⁵ · sam¹tai⁷lok⁴lian²\n一代興二代賢　三代落臉(3.28)\nte⁷ it⁴ tai⁷ · khiam⁷tng⁵ · neh⁴too⁷\n第一代　儉腸　納肚，\nte⁷ ji⁷ tai⁷ · khuann³tsinn⁵ · na²thoo⁵\n第二代　看錢　那塗，\nte⁷ sann¹tai⁷ · tng³kiann² · be⁷ boo²\n第三代　當囝　賣某(3.28)\nlang⁵ · bo⁵tshieng¹jit⁸ho² · hue¹ · bo⁵pah⁴jit⁸ang⁵\n儂　無千日好　花　無百日紅(3.27)\ninn⁵ lang⁰ · e⁷ pinn² pinn² lang⁰ · e⁷ inn⁵\n圓·儂　會扁，扁·儂　會圓(3.26)\nsann¹ ni⁵ · tsit⁸lun⁷ · ho²phainn² · tsiau³lun⁵\n三年　一閏　好歹　照輪(3.25)\nsann¹ ni⁵ tsui²lau⁵tang¹ · sann¹ ni⁵ tsui²lau⁵sai¹\n三年水流東　三年水流西(3.24)\nu⁷ si⁵ tshinn¹ kng⁰ · u⁷ si⁵ gueh⁸ kng⁰\n有時星·光　有時月·光(1.25)\n這種諺語實在太多了，都是人們觀察運道的盛\n108",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -76,7 +76,7 @@
 "text": "命運篇\n衰、榮枯，所得的結論。因此：\ntsit⁸ si⁵ · be⁷ pi² tit⁴ tsit⁸ si⁵ · e⁵ hang⁵tsieng⁵\n一時　袂比得一時　个行情(3.32)\n到底人對不斷流轉的時運該有什麼態度呢？\nsun⁷hong¹ · ho²sai²tsun⁵\n順風　好駛船(1.27)\ntsit⁸ si⁵ hong¹ · sai²tsit⁸ si⁵ tsun⁵\n一時風　駛一時船(1.32)\nu⁷ hong¹ · m⁷sai²tsun⁵ · bo⁵hong¹ · tsiah⁴beh⁴kiek⁴loo²\n有風　毋駛船　無風　即卜激櫓(1.33)\n這是敎人順時應勢，掌握時機，假使【火過　即卜炰(pu⁵)芋】，就後悔莫及了。\n但是這種思想太過度了，就會帶有機會主義的味道。\nsun⁷hong¹ · sak⁴ to² tshiunn⁵\n順風　捒倒牆(1.29)\nkau³ hit⁴ lo⁷ si⁵ · giah⁸ hit⁴ lo⁷ ki⁵\n佫彼號時　擧彼號旗(3.57)\n嚴重的就是像俗語所說的【擧順風旗】、【西瓜　倚大爿(音平)】。其差別在於有無原則。有原則的，寧可放棄眼前的利益。俗云：\nkam¹guan⁷tann¹tshang¹ · be⁷tshai³ m⁷ guan⁷siang¹lang⁵ · tsit⁸sai³\n甘願擔葱　賣菜，毋願雙儂　一婿\n109",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -90,7 +90,7 @@
 "text": "台灣哲諺典\n(21.0)\nkam¹guan⁷tann¹tshai³ · be⁷tshang¹ , m⁷ guan⁷kah⁴lang⁵kong¹ke¹ang¹\n甘願擔菜　賣葱，毋願佮儂公家翁\n(21.0)\n【擔菜　賣葱】指嫁給菜農，【佮儂公家翁】指嫁爲富婆。爲了一生的幸福與尊嚴，寧可放棄眼前的富貴，這是有原則的人。\n諺語也有思想很豁達的，如：\nsi⁵ kau³ · si⁵ tng¹ , bo⁵ bi² · tsu²han¹tsi⁵thng¹\n時佫　時當，無米　煮蕃薯湯(3.56)\n這句話比「船到橋頭自然直」還要瀟灑。\n運氣的確有的，機緣到處都存在，人是不能太【鐵齒】的。人做了壞事，雖然逃得了一時，不一定逃得了一世，因爲俗語說：\nhai²tsui² · khuah⁴ x · tsun⁵thau⁵ · ia⁷ e⁷ sio¹ tu² tioh⁸\n海水　闊闊　船頭　亦會相拄著(3.51)\nte⁷ kiu⁵ · si⁷ inn⁵ e · sio¹tu² · e⁷ tit⁴tioh⁸\n地球　是圓=个　相拄　會得着(3.52)\n因此人與人相處，必須要「惜緣」。俗云：\ntshiu²ng² · sio¹ e¹ · ia⁷ si⁷ ian⁵\n手碗　相挨　亦是緣(3.59)\nkang⁷toh⁴tsiah⁸ · kang⁷tshng⁵khun³ · ia⁷ si⁷ ian⁵hun⁷\n共桌食　共床睏　亦是緣份(3.59)\n110",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -104,7 +104,7 @@
 "text": "命運篇\njin⁵tsieng⁵ · lau⁵tsit⁸suann³ · jit⁸ au⁷ · ho²sio¹khuann³\n人情　留一線　日後　好相看(35.0)\n「緣」有二義，此處爲「機緣」，不是宿命的，但「姻緣」，則有宿命的意味。\n(二)緣與命\n「緣」者人之所以能夠相處、結合的因素，不包括「機緣」在內。至於「命」，是指天生的【命底】。緣與命本來也是一種運氣、機緣，但在傳統社會裡，「姻緣」和「命底」都有一種不可預知性、不可自主性，並且影響及一生，所以被認爲和後天的「時」、「運」分別作不同的種類。\n「緣」和「命」的確是存在的。譬如生爲皇子便注定是宮廷貴族；生爲乞丐之子只好跟著父母行乞；生在富貴人家註定就可享受特權與榮華富貴山珍海味，生在貧賤人家只能過著三餐不繼的日子，受人冷落歧視。這是不可預知，也是不能自主的。因此在傳統的觀念裡，這兩者都被認爲是天所註定的，或先天註定的。「命」者「令」也，人的「命底」如何，都是服從上天的命令決定的。\n俗語說：\n111",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -132,7 +132,7 @@
 "text": "命運篇\nmia⁷ · senn¹tua³kut⁴ ieng⁷ to¹ · siah⁴ be⁷ lut⁴\n命 生帶骨，用刀 削袂角(脫)\nbeh⁴ho²giah⁸ · tan²au⁷ si³ beh⁴tso³kuann¹ khi³ oh⁸ tso³ hi³\n卜好業 等後世，卜做官 去學做戲(3.38)\n這樣的宿命論，實在使人洩氣。命中如此，人還有什麼希望呢？於是產生了許多消極的諺語：\ntshian¹pian³ban⁷hua³ · m⁷ tat⁸tioh⁸tso⁷hua⁵\n千變萬化 毋値著造化(3.19)\nlang⁵ · gau⁵ thinn¹ · tso³tui³thau⁵\n儂 爻，天 做對頭(3.11)\nlang⁵ · gau⁵ mia⁷ · tso³tui³thau⁵\n儂 爻，命 做對頭(3.11)\nnng³tsng³ · m⁷ tat⁸ tu² tng⁷\n軁鑽 毋値拄搪(3.12)\ntshian¹sng³ · m⁷ tat⁸ tu² tng⁷\n千算 毋値拄搪(3.13)\ntshian¹sng³ban⁷sng³ · m⁷ tat⁸thinn¹ · tsit⁸ueh⁸\n千算萬算 毋値天 一劃(3.14)\nphin²mia⁷ te² · bo⁵phin²ho² be²\n品命底 無品好馬(3.16)\ntshieng¹kin¹lat⁸ · m⁷ tat⁸ si³ niu²mia⁷\n千 斤力 毋値四兩命(3.15)\ntsit⁸kin¹kiann² · m⁷ tat⁸ si³ niu²mia⁷\n一斤囝 毋値四兩命(3.9)\n這些消極的諺語實在多得令人驚訝。然而諺語是人生經驗的結晶。命運雖然有其不可抗拒性，但並不是完全不可抗拒的。換言之，人出生時命運雖無法主宰，但出生時的命運未必就能主宰人的一生，因此我\n113",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -146,7 +146,7 @@
 "text": "台灣哲諺典\n們又看到一些樂觀進取的諺語。\nhin⁷mia⁷ · bok⁸uan³thian¹\n恨命 莫怨天(3.3)\n這句話裡頭的「命」和「天」是相對的，意思是說，先天的「命」雖是天所決定的，但後天的命並非不可抗拒，苦命的人仍能受到天的眷愛。因此人可「恨命」，但不能「怨天」，這樣一來，就把「命」當成和時、運一樣是一種偶然的機緣，而不是一種不可抗拒的「天命」。\n旣然如此，人的努力奮鬥便有了希望。\n即使不完全否定「天命」，至少也把天所能註定的成份降低，這是近代以來的新諺：\ngoo⁷hun¹mia⁷ · goo⁷hun¹phah⁴piann³\n五分命 五分扑拚(3.49)\nsann¹hun¹ · thinn¹ · tsu³tiann⁷ tshit⁴hun¹ · kho³phah⁴piann³\n三分 天 註定，七分 靠扑拚(3.50)\n前句可能產生於日據時代，後句則爲近年產物，顯示民間的宿命觀已被打破。\n在這樂觀的諺語產生之前，台灣民間在宿命觀的束縛之下，也有一些十分達觀蕭灑的諺語。如：\nsi⁵ ia⁰ un⁷ ia⁰ bieng⁷ ia⁰\n時 · 也 · 運 · 也 · 命 · 也(3.4)\n114",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -160,7 +160,7 @@
 "text": "命運篇\nkhit⁴tsiah⁸ · ia⁷ si⁷ tsit⁸ si³ lang⁵\n乞食 亦是一世儂(3.5)\ntsit⁸ ki¹ tshau² · tsit⁸tiam²loo⁷\n一枝草 一點露(3.1)\nthinn¹ · bo⁵tsuat⁸lang⁵senn¹loo⁷\n天 無絶儂生路(3.2)\nthinn¹ te⁷ · bo⁵ go⁷ si² lang⁵\n天地 無餓死儂(1.1)\ntsit⁸jit⁸pieng⁵an¹ · tsit⁸jit⁸hok⁴\n一日平安 一日福(3.7)\npo²pieng⁵an¹tioh⁸ho² · m⁷ thang¹siunn⁷beh⁴thiam¹hok⁴siu⁷\n保平安著好 毋通 想卜 添福壽(3.8)\nlang⁵ · pi² lang⁵ · khi³ si² lang⁵\n儂 比儂·氣死儂(3.48)\n在這些認命的，達觀的諺語之外，也有一些鼓勵向上的諺語，如：\ntsiah⁸tinn¹ · toh⁸ ai³ it⁴ tioh⁸kiam⁵\n食甜 著愛憶著 鹹(3.47)\n是教人在命好的時候，不要忘了人也有歹命的時候。所謂【圓·儂 會扁，扁·儂 會圓】(3.26)，【三年水流東，三年水流西】(3.24)，【皇帝 江山 無萬年】(3.30)，因此保守現有的成就，也是十分重要的。\ntsit⁸ e⁵ lang⁵ · kau² e⁵ bue²\n一个儂 九个尾(3.33)\nkan¹khoo²thau⁵ · khuann³uah⁸bue²\n艱苦 頭 快 活尾(3.36)\nu⁷ kieng¹sng¹seh⁴ · u⁷ hong⁵tshun¹\n有 經 霜雪 有 逢 春(1.34)\n115",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -174,7 +174,7 @@
 "text": "台灣哲諺典\n吃得苦上苦，方爲人上人。\nho²thau⁵ · put⁴ ju⁵ ho²bue²\n好頭 不如好尾(3.35)\n少年時代過得安逸，不如晚年過得幸福。\n總而言之，隨著社會的民主化、多元化，人自主的空間，奮鬥的機會越來越多，傳統宿命觀越來越站不住脚，於是所謂命與運的區別越來越模糊，終於可以合而爲一。自由戀愛、自由離婚，女性經濟獨立，也使得「天訂姻緣」的迷信諺語成了一種單純的形容詞。社會的民主化、多元化，使得「時」勢越來越無法束縛人的命運的開展。傳統的命運諺將會逐漸沒落，必須以新的樂觀諺語加以取代了。\n附帶一提的是，傳統宿命觀，被算命家以「八字說」支持，並且加強、利用。人成了算命仔仙玩弄的工具，尤其在婚姻上更是如此。然而諺語以其經驗的印證卻證明其虛妄。因此俗有所謂：\nsng³mia⁷ a² tshui³ · hoo⁵lui³ ẋ\n算命仔喙 胡蛻蛻(3.55)\n之語。只可惜，戰後算命有越來越盛的趨勢，迷信之難以破除，此又一證。\n116",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

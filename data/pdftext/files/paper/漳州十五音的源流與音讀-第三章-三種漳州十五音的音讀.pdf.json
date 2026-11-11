@@ -251,7 +251,7 @@
 "text": "44\n｜褌｜褌｜褌｜鋼\n｜飯｜卵｜光｜糖\n漳州市｜puiN｜luiN｜kuiN｜thng\n長泰｜png｜lng｜kng｜thɔN\n龍海｜puiN｜luiN｜kuiN｜thng\n華安｜puiN｜luiN｜kuiN｜thng\n南靖｜puiN｜luiN｜kuiN｜thng\n平和｜puiN｜luiN｜kuiN｜thng\n漳浦｜puiN｜luiN｜kuiN｜thng\n雲霄｜puiN｜luiN｜kuiN｜thng\n東山｜puiN｜luiN｜kuiN｜thng\n詔安｜puiN｜lng｜kuiN｜thng\n漳平｜puiN｜luiN｜kuiN｜thng\n龍岩｜puiN｜liN｜kuiN｜thoN\n以上龍岩方言雖不屬漳州，卻是漳州音在邊界的支派，非常接近漳州音，其「糖」(鋼韻)字讀 thɔN，可能保存較古老的漳州音。《雅俗通》有個「扛」韻，讀 -oN*，可是「扛」字卻不在「扛」韻，而在「鋼」韻，「扛」韻只有一個宕開三的字，即「兩」(借「二」為之)，現在漳州、潮州「二」皆說 loN [no]，即是「鋼」韻（宕開一、三）古讀 -oN 的殘餘。\n長泰在漳州東疆、接近廈門、同安，其音韻系統受到廈門、同安的影響應是自然的事，「褌」「鋼」合併為「扛」應是這種影響的表現。但長泰以其為漳州邊界的地位，也可能因而保存了一些古漳州音，「鋼」韻讀 -ɔN，大概是古漳州音的少數保存者。只是開口度變大而己。\n《渡江書》十五音宕開一、三的字重見於「儺」(-oN*)，「褌」「鋼」又合併為「缸」(-ng*) 和長泰方言一致，另外在保存許多漳州音特色之餘，也有許多廈門音的特色（如上述一、二、五條），可見它所代表的方言，大概是接近廈門的長泰方言。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

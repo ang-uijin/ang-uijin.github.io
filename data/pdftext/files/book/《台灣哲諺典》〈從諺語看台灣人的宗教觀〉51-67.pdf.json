@@ -7,7 +7,7 @@
 "text": "鬼神篇",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "空白或圖"
@@ -22,7 +22,7 @@
 "text": "鬼神篇\n從諺語看台灣人的宗敎觀\n台灣是一個百敎雜陳的地方，是比較宗敎學者研究宗敎的好地方。但是研究宗敎可以有好幾種方法，根據田野調查、文獻資料去分析台灣各種宗敎派別的宗敎行爲是學院派的做法，但筆者以爲，要了解台灣人深層的宗敎觀、鬼神觀，非得要從諺語的分析不可。因爲諺語是民間思想的縮影。民間在實踐其宗敎生活時需要一些諺語做爲敎條。同時，透過體驗與印證，對信仰的本質做了客觀的反省。也就是所謂「入乎其內」而「出乎其外」。這類哲諺不是宗敎信仰者妄執的敎條，而是對宗敎信仰的評斷。\n台灣鶴佬語有豐富的宗敎諺語，我們選出其中有關鬼神、宗敎生活的部份，輯爲〈鬼神篇〉。從這些諺語中，我們可以分析出台灣人對鬼神及宗敎生活的看法。茲分述如下：\n(一)鬼神的來源與存在\n51",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [],
 "copied_from": {
 "url": "/files/book/台灣哲諺典_compressed.pdf",
@@ -34,7 +34,7 @@
 "text": "台灣哲諺典\n台灣民間的宗敎信仰源自漢文化的多神敎，如庶物崇拜、祖先崇拜、靈魂崇拜、偉人崇拜等。因此凡天地萬物、鬼魂，一切存在或存在過的實體都可能變成鬼神，存在於天上、地下。俗云：\niu² san¹ · pian⁷iu² sui² · iu² sin⁵ · pian⁷ iu² kui²\n有山 便有水 有神 便有鬼(2.1)\ngiah⁸thau⁵ · sann¹tshioh⁴ · u⁷ sin⁵bieng⁵\n擧頭 三尺 有神明 (2.2)\nkng¹ lang⁵ · m⁷tsai¹ am³ e · ia⁷tsai¹\n光·儂 毋知，暗=个 亦知(2.3)\n說明神是冥冥中隨地存在，並且隨時監督每一個人的行爲。由此看來，「神」與「天」有相同的職能，俗云：\nlang⁵ · le³ tso³ thinn¹ · le³ khuann³\n儂 咧做、天 咧看 (1.7)\n即表示，天、神明、【暗=个】(冥冥中存在的)都是人的監督者。\n「鬼」是人死後的存在，存在於地下。\nkann² si² · bian²kiann¹bo⁵kui² · thang¹tso³\n敢死 免驚無鬼 通做(2.46)\nkann² si² · kiann¹tso³kui²\n敢死 驚做鬼(2.45)\n但祖先的地位和鬼不同。照理說祖先也是「鬼」，孔子說：「非其鬼而祭之，諂也」的鬼就是指祖先，但\n52",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -48,7 +48,7 @@
 "text": "鬼神篇\n民間信仰卻認爲這種鬼如經常「服祀hok⁸sai⁷」，就是「家內神」，不稱爲鬼。有些家裡的「公媽牌」直稱祖先的「靈位」爲「神位」，便以爲祖先是神，不是鬼。\n雖然如此，這個「家內神」還是「鬼魂」；經常和其他外鬼在一起，甚至可能【內神 通外鬼】(2.48)來危害家人。\n(二)鬼神的形成與資格\n神的形成有二種，一種是自然神，如天公、雷公、山神、水仙、土地公、榕樹公、石頭公……凡是天地萬物都可能成爲神。另一種是賢人，善人。死後被崇拜，即爲神，如開漳聖王，延平郡王、關公、大道公……。最後是由「鬼」升格而爲神，前二者謂之「陽神」、「正神」，後二者謂之「陰神」或「邪神」，然而其間的分別並不是十分明顯，陽神或正神一般是經過皇帝的策封或認可，領有「執照」的神，然其根本，仍在於受到多少崇拜。俗云：\nsin⁵ · ai³ kng¹ lang⁵ · ai³ tsng¹\n神 愛扛，儂 愛妝(2.4)\nsin⁵ · tiong⁷kng¹ lang⁵ · tiong⁷tsng¹\n神 重扛，儂 重妝(2.4)\nlang⁵ · tiong⁷tsng¹ ang¹ · tiong⁷kng¹\n儂 重妝，尫 重扛(2.4)\n53",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -62,7 +62,7 @@
 "text": "台灣哲諺典\n由此可見 受人崇拜是神陞遷的必要條件。\n其次是資深的鬼，可以升爲神，俗云：\ntsui²kui² · tso³ku² · sieng¹sieng⁵hong⁵\n水鬼 做久 升城隍(2.31)\n由此看來神鬼之間並不是絕對懸隔，陰陽界是可以相通的。此一觀念反映了中國式封建社會的組織型態，中國的官吏並不是貴族全面壟斷，平民經科舉考試即可升任爲官。\n但鬼神世界的組織，尊卑是嚴格區分的。故俗云：\nkui² a² · bong¹giam⁵lo⁵ong⁵ · e⁵ kha¹tshng¹\n鬼仔 摸閻羅王 个尻川(2.33)\nkui² a² · bong¹sieng⁵hong⁵ia⁵ · e⁵ thau²\n鬼仔 摸城隍爺 个頭(2.33)\n即有「太歲頭上動土」、「膽大包天」之義。換個角度來說：\ntsui²kui² · phian³sieng⁵hong⁵\n水鬼 騙城隍(2.32)\nli² kui² · gua²giam⁵lo⁵ong⁵\n汝鬼 我閻羅王(2.32)\nkui² a² · phian³kui²ong⁵\n鬼仔 騙鬼王(2.32)\n即有臣欺君，民欺官之義，隱喩【我食鹽 卡儕汝食米，過橋 卡儕汝行路】，「你騙不了我」之義。\n54",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -76,7 +76,7 @@
 "text": "鬼神篇\n(三)神的人格\n神是人間的監督者，管理者，照理說，神應該是依法行事，明鏡高懸才對，但台灣民間信仰中的神全部是收受賄賂的貪官，這又明顯地反映了中國【衙門八字開，無錢 毋免來】的官場實況。俗語露骨地說：\nu⁷ sio¹hiunn¹ · u⁷ po² pi³ u⁷ tsiah⁸ · u⁷ kiann⁵khi³\n有燒香 有保庇，有食 有行氣(2.5)\nbo⁵siunn⁷tham¹ bian²sin³sin⁵\n無想貪，免信神(2.6)\nsin⁵bieng⁵ · tsuan¹than³phainn²mia⁷lang⁵tsinn⁵\n神明 專趁歹命儂錢(2.18)\n這樣看來，神的存在，其實等於收受保護費的地頭蛇、黑社會的老大而已。神的生活和人世間也沒什麼兩樣。\n神對人間也沒有普遍的關愛，神只愛媚神的信徒，人若得罪神，將受神的懲罰、刁難。俗云：\ntiek⁴sit⁴tho² ti⁷ kong¹ · tshi⁷bo⁵ke¹\n得失土地公 飼無雞(2.12)\nbue⁷tsieng⁷sio¹hiunn¹ · sieng¹phah⁴tsih⁸put⁸tshiu²\n未曾燒香 先扑折佛手(2.50)\n都表示神不可得罪，一如黑社會老大不可得罪一樣。\n神並非聖賢，格言有云「人非聖賢，孰能無過」。\n55",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -104,7 +104,7 @@
 "text": "鬼神篇\n野鬼)。因爲信仰眞誠，諺語中不見諷刺祖先崇拜的話。\n但祖先崇拜太過度，就變成風水迷信。祖先死後找好風水下葬原希望祖先住得舒服，但道敎加以蠱惑，就和子孫的利益相結合。一般相信好風水會【致蔭囝孫】，因此產生了「打桶」、「蔭堆」、「生墳」，甚至一再遷葬，風水師從中騙取錢財。因此諺語批評風水師是敗德職業，將遺禍子孫、永不得翻身，俗云：\ntshng¹suann¹lieng⁵ ban⁷ si³ kieng⁵\n穿 山 龍、萬 世 窮(2.61)\n又譏刺風水迷信，說：\nthian¹ li² · tsiau¹ x te⁷ li² · ho⁵tsai⁷\n天 理 昭 昭、地理 何在(2.61)\nim³ te⁷ · put⁴ ju⁵ sim⁴ te⁷\n蔭地 不 如 心 地(1.62)\nkau² te⁷ hong⁵kim¹ · kau² te⁷ kieng⁵\n九 代 黃 金 九 代 窮，\nkuah⁴tin⁵ · ainn⁷kiann² · tshut⁴sieng³jin⁵\n葛 藤 負 囝 出 聖 人(2.63)\n(五)鬼的生活與遭遇\n鬼是陰界的平民，受到閻羅王的統治，其中有些可以升爲陰神，有些可以輪迴轉世，做人或禽獸，有些則繼續活在陰間，過著鬼生活。\n57",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -118,7 +118,7 @@
 "text": "台灣哲諺典\n鬼的生活是很清苦的，神可以受到人供奉三牲，大豬頭，鬼只能吃到粗劣的「菜羹飯」，故俗譏笑小鬼說：\nsio²kui² a² · m⁷ bat⁴kinn³tioh⁸tua⁷ ti¹ thau⁵\n小鬼仔 毋捌見著大豬頭(2.12)\nsio²kui² · be⁷ kham¹tit⁴tua⁷pah⁴kim¹\n小鬼 袂堪得大百金(2.13)\ntshenn¹kong⁵kui² · tshia¹ to² tshai³kenn¹png⁷\n靑 狂 鬼 撦倒菜羹飯(2.22)\n即使七月開鬼門，民間「普度」，以祭「好兄弟仔」，眾鬼還是需要爭搶才有得吃，故俗云：\ntso³kui² · to¹ tshiunn²bo⁵kue²hah⁸\n做鬼 都 搶 無粿箬(2.28)\ntua⁷phoo² · go⁷ si² kui²\n大 普 餓死鬼(2.38)\n鬼之中最可憐的莫過於「水鬼」了。俗信水鬼需要出來抓替死鬼才能超生，謂之【討交替】。俗有謂：\ntsui²kui² · kio³pai²sui⁷\n水 鬼 呌跛睡(2.35)\nlang⁵ · khan¹ · m⁷kiann⁵ kui² · khan¹ · long³ x tsau²\n儂 牽 毋 行，鬼 牽 撞撞走(2.36)\nlang⁵ · khan¹ · m⁷kiann⁵ kui² · khan¹ · liu³ x tue³\n儂 牽 毋 行，鬼 牽 蹓蹓綴(2.36)\nbeh⁴ si² · khan¹thua¹kui² · liah⁸\n卜死 牽 拖 鬼 掠(2.44)\n58",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -132,7 +132,7 @@
 "text": "鬼神篇\n除了2.44不一定指水鬼抓人(指惡鬼，當然包括水鬼)之外，2.35則是指水鬼出來「討交替」的事。因此從前民間有一個惡習，就是見到有人落水，便以爲是水鬼在「討交替」，沒有人敢下水救溺，甚至吿誡子弟【溪邊魚、路邊鳥】(3.54)不可撿食，以免被水鬼拖下水(當然，「溪邊魚、路邊鳥」可能有毒或有病，不可撿食，但民間的吿誡不是出於衛生起見，而是出於迷信)。至於：\ntsui²kui² · gia⁵tang⁷ke⁵\n水 鬼 夯 重 枷(2.34)\n這是說淪爲水鬼已經夠可憐，再加上一付重枷，更是永不得超生了。\n民間另一信仰是【有應公】信仰。所謂「有應公」是孤魂野鬼，其屍體或枯骨被人收埋祭拜，謂之「有應公」。立小廟，謂之「有應公廟仔」。這種小廟，因其不成規制；每爲民間所鄙視，諺語中有許多是陶侃有應公的，如：\niu² ieng³kong¹ a² sin⁵tsu² loo⁷bue²lai⁵ · tshai⁷thau⁵tsieng⁵\n有 應 公 仔神主，落尾來 峙 頭 前 (2.25)\niu² ieng³kong¹ a² hiunn¹loo⁵\n有 應 公 仔 香 爐(2.24)\niu² ieng³kong¹ a² tang⁵ ki¹\n有 應 公 仔 童 乩(2.24)\n59\n〔圖〕有應公廟",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "羅馬字多"
@@ -147,7 +147,7 @@
 "text": "台灣哲諺典\n但有應公仍是眾可憐鬼之中最幸運的寵兒，有些有應公廟，甚至越蓋越大，儼然神廟一般，尤其近年來，神界的封建意識逐漸崩潰，此風越加盛行，如王爺、十八王公、大眾爺、仙姑等有應公的廟，有些蓋得比正神廟還豪華。\n有應公的產生原本是基於鬼靈崇拜和民間的惻隱之心，但旣建廟之後，便有一些可憐的庶民如乞丐、小偷、妓女、賭徒去崇拜，近年大家樂、六合彩盛行，賭徒多去找有應公求【明牌】(神明啓示中獎號碼的兆象)，有應公更是吃香，香火不絕。然而諺語對這種信仰是基於排斥的立場，故俗云；\nse³ kan¹ · na⁷ bo⁵gong⁷ loo⁷pinn¹ · na³ u⁷ iu² ieng³kong¹\n世 間 若無戇，路邊 哪有有 應 公(2.23)\n(六)童乩、尫姨、司功\n鬼神旣是【暗=个】(冥冥中的)存在，鬼神到底怎樣生活，他的意願如何，不得而知。民眾自己可以【跋杯】、【抽籤】來探知鬼神的意志，但如比較複雜難解的，就必須求助於【童乩】和【尫姨】了。「童乩」和「尫姨」都是靈媒。童乩通神、尫姨通鬼。到底民眾對靈媒的觀感如何？俗云：\n60",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -161,7 +161,7 @@
 "text": "鬼神篇\nang¹ i⁵ · sun⁵ue⁷bue²\n尫姨 徇話尾(2.58)\n是說「尫姨」說話子虛烏有，只是隨聲附和。\ntsit⁸ e⁵ tang⁵ ki¹ tsit⁸ e⁵ toh⁴thau⁵\n一个童乩，一个桌 頭(2.53)\n是狼狽爲奸之意。\nmng⁷sin⁵ · toh⁸ u⁷ m⁷ tioh⁸\n問 神 著有毋著，\ntshiann² i¹ sieng¹ · tioh⁸tsiah⁸ioh⁸\n請 醫 生 著 食 藥(2.14)\n童乩和尫姨差不多，請童乩來，一定是【徇話尾】，說祖先在地獄裡如何受苦，或死者有什麼要求等等，鬼話連篇。可見諺語對童乩和尫姨都沒有什麼正面的評價。尤其所謂：【司功仔神杯，契兄伙計】(2.52)更道出民間對道士的鄙視。\n(七)和尙與尼姑\n佛敎在民間信仰之中也佔有一席之地，但諺語之中談及佛敎的較少，如有談及，多半站在譏笑、批評的立場，尤其是對和尚尼姑更是不敬。如：\nni⁵ koo¹ · hue⁵siunn⁷boo² hue⁵siunn⁷ · ni⁵ koo¹loo⁵\n尼姑 和 尚 某，和 尚 尼姑奴(2.59)\n61",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -175,7 +175,7 @@
 "text": "台灣哲諺典\ntsiah⁸tshai³ tsiah⁸ka³too⁷tsai⁵ · ui⁵ kai³\n食 菜、食駕肚臍 爲界(2.55)\ntshui³ · liam⁷ o¹ mi² to⁵ tshiu² · giah⁸tshiah⁴hueh⁴ to¹\n喙 唸阿彌陀，手 揭 刺 血 刀(2.54)\n但民間對修道者成佛上西天的境界基本上是肯定的，也知道成佛不是易事，正如成仙不是易事。下面是譏刺妄想一步登天的人的諺語：\ntsiah⁸bo⁵sann¹pe² ieng³tshai³ toh⁸beh⁴tsiunn⁷ se¹ thian¹\n食 無 三 把 蕹 菜，著 卜 上 西 天(2.21)\ntsiah⁸bo⁵sann¹ ni⁵ sian¹sai² tioh⁸beh⁴tsiunn⁷ se¹ thian¹\n食 無 三 年仙屎，著 卜 上 西 天(2.21)\n(八)對基督敎的看法\n基督敎屬外來宗敎，十九世紀末葉才傳入台灣。直到今天，民間尙無法接受，當初更是受盡排斥。像這種爭議性很大的宗敎，敎內人士和民間敎外人士的價値觀念自然是南轅北轍了。敎內人士稱是「基督徒」、「信徒」，但敎外人士則譏之爲【食敎=个】。「信敎」謂之【食敎】。爲什麼說「食敎」呢？有說因爲民間稱信佛爲【食菜】，故稱信基督敎爲「食敎」。一說初期基督徒多依靠敎會供養、保護，故稱「食敎」。戰後，由於美援誘惑而入敎者眾，信敎可分麵粉、奶油、舊衣，民間譏之爲【食麵粉敎】、【食破衫仔敎】。\n基督敎不准信徒【拜公媽】，喪事也廢了哭喪的風\n62",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -189,7 +189,7 @@
 "text": "鬼神篇\n俗。故民間譏刺說：\nloh⁸kau³ si² bo⁵lang⁵khau³\n落 敎、死無儂 哭\n基督敎徒對這稱譏刺大槪也不太在乎，他們肯定自己的信仰，說：\nsiong⁷ te³ · si⁷ tsin¹ e · lang⁵ · si⁷ ke² e\n上 帝 是眞=个 儂 是假=个\n罵不受敎示的小孩【魔鬼仔囝】。\n基督徒也有自我反省的諺語。如：\nthuan⁵too⁷ · thuan⁵too⁷\n傳 道 傳 肚\nte⁷ gak⁸ · oo¹ lu¹ x\n地 獄 烏溜溜，\ntshuan³kuainn¹tiunn² lo² · kah⁴bok⁸su¹\n串 關 長老 佮 牧師(2.69)\ntang⁵kang¹ x₂ au⁷piah⁴ · oo²tsit⁸khang¹\n同 工、同工，後壁 摀 一 空(2.67)\nsann¹thiann³ sann¹piann³\n相 疼、相 拚(2.68)\nto⁷ li² tsiann¹ x3\n道理 精、道理精，\nseing³kieng¹ · phainn⁷tua³kha¹tsiah⁴phiann¹\n聖 經 揹 帶尻 脊 骿 (2.66)\n有些是譏刺傳敎士的，有些則是譏刺敎友的，都是敎會自我反省的諺語。\n63",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -203,7 +203,7 @@
 "text": "台灣哲諺典\n(九)民間的宗敎生活\n民間的宗敎生活可以分爲三種，一是在家裡燒香、拜神明公媽；二是到附近廟裡燒香，三是到遠處名廟【割香】。\n一般人的心裡，認爲家裡的【私佛仔su¹put⁸a²】不如廟神靈驗，附近的神不如遠處的神靈驗。俗語說：\nkin⁷bio⁷ · khi¹sin⁵\n近廟 欺神(2.9)\npun² te⁷ hiunn¹ · be⁷ phang¹\n本地香 袂 芳 (6.0)\npak⁴kang²ma²tsoo² · im³gua⁷hiunn¹\n北 港 媽 祖 蔭外 鄉 (2.10)\npeh⁸bak⁸put⁸ · hieng¹gua⁷kieng²\n白目佛 興 外 境 (2.11)\n這就有「外來和尚會唸經」的意思在，可說是人之常情。但上述的諺語，可窺見台灣人對神的信仰，不止是信某個神而已，並且相信，雖是同一個神，放在不同的廟，靈驗便有不同。\n神明的靈驗不一定自己親身體驗，多半聽信傳言，如果風聲某廟的神十分【靈聖】，所謂【一人傳虛，百人傳實】，大家就跟著去拜。\n並且台灣民眾對神祗的信仰，並不過問神明有什麼値得崇拜的，只要是神就拜。諺語譏諷這種現象說：\n64",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -217,7 +217,7 @@
 "text": "鬼神篇\ngiah⁸hiunn¹ · tue³pai³\n擧香 綴拜(2.56)\n民間這種【擧香 綴拜】的情形，有時嚴重到不分正神、邪神，陽神或陰神。\n如「王爺」本是明代枉死的三百六十進士的孤魂野鬼，屬有應公之流，後升爲瘟神，管理癘鬼，也只能算陰神，照一般習俗是不能迎入家中祭祀的。因爲如迎入家宅，則無異引鬼入宅，但事實上有人迎入家宅，故諺語譏之曰：\nbo⁵ su⁷ · tshiann²ong⁵ ia⁵\n無事 請王爺(2.57)\nin² kui² · jip⁸theh⁸\n引鬼 入宅(2.40)\n生病當請醫生，否則亦當祈求正神保庇，所謂「亦著愛神，亦著愛人」，但有人卻請有應公保佑，近年大醫院盛行拜「院公」、「院婆」，即病死之人，這樣做不怕被病死鬼牽去？俗諺譏刺這種人說；\ntshiann²kui² · i¹ penn⁷\n請鬼 醫病(2.40)\n台灣的民間宗敎以道敎的勢力最大，佛敎的勢力甚微，至於基督敎、天主敎等外國宗敎勢力更微。這一點從諺語的數量充份表現出來。本篇所收七十條宗\n65",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

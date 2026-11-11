@@ -7,7 +7,7 @@
 "text": "·22·　臺灣禮俗語典\nsam-tiau 'muaˋgueh\n4　三朝、滿月\nchutˋsi'gin'a ˇang-eN'a\n臺灣話稱新生兒爲【出世囡仔】或【紅嬰仔】,大概因爲新生兒剛降世時全身通紅,故云。【紅嬰仔】*「出世」三日謂之【三朝】。\nsam-tiau\nkhio'kiaN'bo\n'kui-hue-sim kam'aˋhioh ˇling\n'ging'hioh 'tsiohˇthau'a\ntah saNˋe 'kha'ho'taN\n'tso'taN\n三朝重要工作之一是請【却囝母】到家裏來替「紅嬰仔」【洗身軀】。【洗身軀水】用【桂花心】【柑仔葉】【龍眼葉】*及【石頭仔】煮成。「洗身軀」時用此石頭在「紅嬰仔」胸前【搭三下】(輕叩三下),希望小孩長大以後【較好膽】,故謂之【做膽】。\n'phua\n'poo-pau\nˇang-eN'a-saN\n'poo'liu'a 'samˇpoo\nˇhueˋsiuN-saN\nah-hing-saN\n從前嬰兒一出生並不穿衣服,而用破衣服包起來,謂之【破布包】。直到「三朝」,祖母把【紅嬰仔衫】做好了,洗完澡才穿上。【紅嬰仔衫】有兩種,一種是【布紐仔】、【鬖裒】(不緝邊)的,叫【和尙衫】;一種是左右腋下各開一個洞,在襟上縫帶子,穿時將一條帶子穿過腋下的洞,和另一條帶子紮起來,這種形式叫【押胸衫】,\n〔圖〕和尙衫 蝦仔衫",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "羅馬字多"
@@ -18,7 +18,7 @@
 "text": "4　三朝、滿月　·23·\nˇhe'a-saN\nˇthau'peh'poo\n'tooˋkuaN'khoo\nˋzioˋtsu'a\nˋzio'phe'a\n'tooˋkuaNˇkun'a\n又稱【蝦仔衫】。其質料多半利用喪事用的【頭帛布】。直到滿四個月,嬰兒才又穿一種叫【肚縣褲】的褲子。在此之前、嬰兒只包【尿褯仔】(尿布),外再包一層【尿帕仔】(尿褲)。再以前沒有塑膠或橡膠的「尿帕仔」,只用一條布包起來像裙子一樣,謂之【肚縣裙(仔)】。\n'paiˇchng'bo\nˋhoˇmia ˇmia\nˋhoo'khauˇmia\nling'aˇmia chehˇmia tsuˇmia ˋzi\nˋho 'thooˇmia phianˇmia\n'po-chut-sing\nˋhoo'khauˇmia\n「身軀」洗了以後,抱去大廳拜神明,祭告祖先,【拜床母】(參照6篇),並爲嬰兒【號名】。現代人多半只有一個【名】(日據以後只承認【戶口名】,以後要改名非常困難),但以前臺灣人有【奶仔名】、【册名】或稱【書名】、【字】、【號】、【土名】或稱【偏名】(綽號)……等,不一而足。「三朝號名」大概命的是【奶仔名】。日據時期規定嬰兒出生十日內要【報出生】,但民衆爲了命個好名,花上個把月是常事(今亦猶是)。戶口上登記的名字叫【戶口名】。\nˇiuˋpng ke'tsiu ˋgua-ke 'po'hi\n'po'tsiu\n'tso sin-cheN'm ˋtso'guehˋlai\n此外還要帶着【油飯】【鷄酒】前往【外家】【報喜】謂之【報酒】。從前女兒嫁出之後,如未生子,都不好意思訪問男家,女兒生子之後,才第一次前往男家替女兒「做月內」,謂之【做新親姆】。外家於十二朝送鷄及其他禮物來爲女兒【做月內\n〔圖〕肚縣褲",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -30,6 +30,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -40,6 +41,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -48,7 +50,7 @@
 "text": "·26· 臺灣禮俗語典\nˋtsoˋsiˊguehˊzit ˋbsoˇtooˊtse ˊtso\n要【做四月日】，滿周歲要【做度晬】，滿十六歲又要【做\nˋtsapˊlakˋhue ˇchi\n十六歲】，每次都要送很多【頭尾】，所以【飼查某囝(女兒)\nˇmˇna ˊpatˇlangˇe ˋke-tsug ˊtso\n毋但是別儂个(別人的)】，給女兒【嫁妝】，給外孫【做\n-tang-tso-sai\n東做西】，都需要花很多錢，但只換得一個【外公】【外媽】\npakˇphueˊma\n之名。所以「外媽」又有一個綽號，叫【剝皮媽】，意思是說外孫從一出生便隨着生長，一層一層的剝外媽的皮。\nˇm-kam\n雖然如此，「外公」「外媽」還是很高興，不會【毋甘】的。因爲俗話說：【後生得田骨，查某囝得田皮】，\nˇhau-seN·titˇchan-kut tsaˊbooˊkiaN·tiˇchanˇphue\n意思是說，家裏的財產主要還是要分給兒子，女兒再怎樣的【查\ntsa\n某囝賊】(常常囘娘家揩油)，也不過得到田產的一點皮毛而已\nˊaˊkiaNˋchat\n。這當然是對有田產的人說的咯，若是窮人，【顧三頓都袂致】\nˋkoo saNˋtng-toˇbeˋti\n(三餐都成問題)那還有什麼「皮」給女兒「剝」？\nthiam-ting ˋpuaN-ting\n生男兒謂之【添丁】，女兒只有【半丁】。基於這種重男\nseN tsa-poo seN tsaˊboo\n輕女的觀念，【生查夫】，尤其是【大囝】，禮最重，【生查某\n】禮最輕，甚至沒什麼慶賀之禮。\n附帶一提，中國人殺嬰和棄嬰的風俗自古有之，但幾乎只有\nchun tsa-poo ˇbo chun tsaˊboo\n女嬰才會被殺，被棄。正如俗語所謂【偆查夫，無偆查某】\n。但是男的棄嬰不是沒有。據我所知，歷史上男嬰被棄、孟嘗君是一個例子。孟嘗君出生在五月五日、戰國時代的風俗，認爲五月五日生的將來會害父，所以孟嘗君出生時，其父田嬰令其母把",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -58,7 +60,7 @@
 "text": "4三朝、滿月 ·27·\n孟嘗君丟掉(勿擧)，但其母偸偸把孟嘗君養大，後來繼承爲薛公，是戰國四公子之一。在臺灣殺嬰和棄嬰極少見，所謂【臺灣\nˇtaiˇuan\nˇtsiN·im khaˊbak\n錢淹跤目】*，自開臺以來，臺灣一直是富裕地區。這種違反人性的事極少發生。直到近一、二十年來，未婚媽媽越來越多才常有棄嬰。\nˊtngˇtsai ui\n但傳說古時殺嬰是當女嬰出生時，尚未【剸臍】便用【衣】\nhip=si ˋchiuNˊli\n(胎盤)將之【翕死】。又常聽父母生氣時罵兒女說：【像汝\nˊtsia=ni putˊhau putˇzu chutˊsi ˊtohˋkaˊliˋteN=si\n遮爾(這樣)不孝，不如出世着共汝鄭(捏)死。】有沒有捏死小孩的事未曾耳聞。\n另外傳說古時棄嬰時，將嬰兒放在籃裏，並附紅包和嬰兒生年月日。因民間相信只偸拿了錢不抱走嬰兒會【與雷公摃\nˋhooˇlui-kong ˋkong ˊiauˋsiuˋtai\n=si\n死】，所以沒有人敢作這種【夭壽事】。抱走棄嬰之後，如拾主加以收養自然跟拾主姓，如送往【育嬰堂】(淸末設立)，\nˊiok-ingˇtong\n一直無人收養，便成有名無姓，有人甚至十幾歲還無姓，這時官府會請【童乩】求神問姓，或從官員姓。\nˇtang-ki\nkooˇzi ˇboˇniuˊleˊaˊkiaN ˇboˋpeˇboˊboˣe\n【孤兒】或稱【無良嬭仔囝】【無父無母个】，常爲小孩譏笑對象，令人憐憫。\n字解\n【龍眼】 ˇlingˊging/ˇlingˊking/ˇgingˊging。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -68,7 +70,7 @@
 "text": "·28· 臺灣禮俗語典\nˋzioˋtsuˊa ˋtsia\n【尿褯仔】 尿布。王篇：『小兒衣也』。廣韻：慈夜切，音同「藉」。「褯」字從席，又與「藉」同音，當是墊在股下的小兒尿布之義。字在古音魚部，移換至遇韻，「褯」、「藉」皆音ˋtsu①。\nˇang-eNˊa\n【紅嬰仔】 ˊa 猶北平話「兒」。字作「仔」借自廣東土字。語\nˊgin ˊkan\n源上和【囝】(ˊkiaN 漳/ˊkaN 泉)、【囡】、【嫺】(婢女)同，今從俗作「仔」②。\nchinˇtsiaN\n【親情】③ 親戚也。「情」讀ˇtsiaN，如：【心情】，【情實】\nsimˇtsiaN ˇtsiaNˊsit\nˇlangˇtsiaN\n(實情)，泉州話還有【儂情】(人情味)，南管常見。俗借\nchin-chik\n「親戚」之戚爲之，不必。\nˋhing ˊhong\n【貺】④ 贈也。說文：『貺，賜也』；廣韻：『與也。許放切。音況(去)』。今貺、況皆 ˊhong (上)。但貺字從兄，可能閩語本在梗合三，故讀 hing。惟聲調不甚合，可能原始閩語爲濁聲，故今臺語入陽去。此字不是準正字亦可算是同源字。\nˊchu-piN\n【厝邊】⑤ 厝，家也。俗字。本字可能是「處」。「處女」(在室女)，「處士」(居家在野之士)之處卽作家解。不過處音\nˊchi 漳/ˊchü 泉/ˊchu 厦，而「厝」到處都讀 ˊchu，音韻不合，如依移等換韻原理，移爲遇合三，卽可解釋。但林金鈔考作「宿」，引集韻：『宿，舍也。』廣韻：「宿，星宿(星之家)。\nˊsiu sik\n息救切。」粟白話 chik，同韻鑄讀 ˊtsu，音韻",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -78,7 +80,7 @@
 "text": "4三朝、滿月 ·29·\n可通，可算是準正字。孰是孰非，待進一步考證。今從俗作\nˊchu\n「厝」。\nsioˋthin sio\n【胥伨】 相配也。【胥】⑥俗借「相」爲之，但「相」字泉廈\nˊtau-saNˋkang saN-kap\n讀作 saN⑦，如【鬥相共】【相敆】(相助、幫助、一起)\nkuaˊaˊcheh sio\n漳腔的 sio 無鼻音，不會是此字。「歌仔册」多借「燒」爲\nsi/sü/su\n之。廣韻：『胥，相也。相居切。』由上古音來看相(siang*)、胥(siag*)音近對轉，其關係與泉漳之 saN/sio 相同，可證 sio 卽胥字。不過音韻上難解釋。胥字上古在魚部。現\nˊtsioh ˊchioh tsioh\n在惟一可參考的是古魚部字入聲 石、蓆、借皆讀 -ioh。此字可當同源字。是否有正字，俟後之賢者考證。姑作「胥」\nˋthin\n。「伨」⑧，十五音：「使之均也。」閩南俗字，已約定俗成。配也。又作「與之一般見識」解，如\nˋthin ˊginˊa\n【伨囡仔】(與小孩一般見識)，\nˊmaiˋthin×i\n【勿伨伊】(不要跟他一般見識，不要理他)。\nˋtin ˋthin\n大槪和「陣」同源。凡使之相等、相配、相對皆曰【伨】。\nˊsinˊsai\n【囟屎】 嬰兒頭上胎垢。\nˊun\n【搵】⑨ 醮也。說文：『沒也。』廣韻：烏困切。凡按物於水\nˊun\nˊunˇthng ˊunˋtauˇiu\n中或粉末中皆稱「搵」，如【搵糖】【搵豆油】(醮醬酒)。\nˋu ut\n六書故：『搵，指按也。』語源上與尉，熨，按，揾同源。\nˊching\n【筅】⑩ 廣韻：『▢、筅、洗帚、飯具。蘇典切。』此指【鼎\nˊsian ˊtiaN\nˊching\n筅】(鍋帚)言。凡竹節破絲成束皆曰筅，【鷄筅】指形如\nˊching keˊching",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -90,6 +92,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "羅馬字多"
 ]
@@ -99,7 +102,7 @@
 "text": "4三朝、滿月 ·31·\n作「搉」字)。圖右少婦背上覆蓋嬰兒者卽是「▢被仔」。\nˊbi-ko ˊtsutˊbiˋpng\n【米糕】 「米糕」與「油飯」皆【秫米飯】(糯米飯)。惟米\nchamˊtsiu\n糕摻酒，油飯不摻酒。\nˋtooˊtse ˊtse\n【度晬】 【晬】⑬，周歲也。說文：『晬，周年也。』類篇：\nˊtsui\n『子生一歲也。』唐韻：子對切。ˊtsui 文/ˊtse 白之例有「脆」字 ˊchui/ˊche。\nˋmˋna\n【毋但】⑭ 不但，不止也。方言有 ˋmˋna/ˋmˋnia/ˋmˋtiaN。「毋」陽平聲變去，今客語 ˇm (毋) 仍讀陽平聲。如作爲語助詞用，當「而已」解，如【但但】ˇnia/ˋniaˋnia/ˋtiaN\nˋmˋna ˋsiˋ an-ne ˇnia\nˋtiaN⑮。客語 ˋthinˋthin。例句：【毋但是按爾但但】(不止如此而已)。\nˇtaiˇuan ˇtaiˇuan\n【臺灣】⑯ 字當作【臺員】。明正德年間福建莆田人周嬰著『\nˇtaiˇuan\n遠遊篇』，其「東蕃記」中最初稱臺灣爲「臺員」(見徐懷祖\nˇtai-uan\n「臺灣隨筆」)。今閩人稱臺灣，字雖寫成「臺灣」，口語\nˇtaiˇuan\n中仍稱「臺員」。「臺員」二字爲今臺南安平(古爲小島)之古名，因土人(西拉亞平埔族)稱漢人爲 Taian，故閩人稱安平爲「臺員」，後擴大稱全臺灣。今從俗作「臺灣」。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]

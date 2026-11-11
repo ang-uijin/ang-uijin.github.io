@@ -28,7 +28,7 @@
 "text": "國立清華大學博士學位論文\n指導教授推薦書\n語言學研究所洪惟仁君所提之論文\n音變的動機與方向：\n漳泉競爭與新台灣話的形成\n經由本人指導撰述，同意提付審查。\n指導教授曹逢甫 王旭（簽章）\n中華民國九十二年六月二十四日",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "手寫"
 ]
@@ -38,7 +38,7 @@
 "text": "國立清華大學博士學位論文\n考試委員審定書\n語言學研究所洪惟仁君所提之論文\n音變的動機與方向：\n漳泉競爭與新台灣話的形成\n經本委員會審查，符合博士資格標準。\n學位考試委員會\n主持人何大安（簽章）\n委員何大安\n王旭　連金發\n曹逢甫　龔煌城\n中華民國九十二年六月二十四日",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "手寫"
 ]
@@ -199,7 +199,7 @@
 "text": "xxii",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "空白",
 "空白或圖"

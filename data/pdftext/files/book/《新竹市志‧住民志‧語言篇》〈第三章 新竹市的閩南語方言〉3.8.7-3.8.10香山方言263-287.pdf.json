@@ -21,7 +21,7 @@
 "text": "住民志\nb.韻母：\n元音有七個\na、e、i、oo、o、u、ii\n香山65和大庄70一樣，「科」韻er→e，「居」韻ir→i/ii。-ii對應於大庄70的uu。這個音只出現在齒音之後，因此如前所述，-ii(舌尖元音)應該是保存古代閩南語的讀音。\n雖然香山65的-ii對應於大庄70的-uu，也只出現在「子」類字。但不同的是，香山70的「子」類字，往往有個-i的又讀，類似北港、晉江、惠安「煮」、「子」同讀-i的特色。由此看來，香山地區，於「子」類字確有兩種讀法並存，即兩種不同的惠安腔存在。茲舉數例，以明香山65「煮」、「子」兩類字的音讀：\n「煮」類\n汝｜li₃₁\n佇｜ti₂₂(在)\n煮｜tsi₃₁\n去｜khi₁₁\n魚｜hi₁₂\n讀書｜thak₁ tsii₃₃\n話語｜ue₁₁ gi₃₁\n過濾｜ke₃₂ li₂₂\n「子」類\n張天師｜tiunn₂₂ thian₂₂ si₃₃/sii₃₃\n歷史｜lik₁ sii₃₁\n自然｜tsi₁₁ lian₁₂\n由上面的例子可知，香山65「煮」類字，讀書的「書」唸tsii是吸收了當地同安腔tsuu的讀書，大庄70也讀tsuu，這個字所以不唸tsi¹的原因可能是爲了避諱，因爲tsi¹的意思是女陰。\n香山65另有「煮」類字唸-u的，如：\n爭取 tsing₂₂ tshu₃₁　聘書 phing₃₁ su₃₃\n都是一些新名詞，顯然是吸收了台灣優勢音。\n香山65「按呢」都唸an₃₃ ne₃₃，顯然是吸收了優勢音，因而多了-enn韻。\n②264",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -67,6 +67,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ],
 "copied_from": {
@@ -79,7 +80,7 @@
 "text": "住民志\nna₁₁ beh₃ tsing₃₂ king₂₂ long₁₁ bin₁₃/tio₁₁ gun₂₃ tsio₃₁ tsap₁ pue₃₂ puann₂₂ bu₂₃ ge₂₂/kiann₁₁ kiann₁₁ kai₂₂ ling₁₂/\n若卜正經農民著阮職號「十八般武藝件件皆能」\ntsiah₃ si₁₁ long₁₁ bin₁₂·la₁₁/poo₁₁/li₃₁/to₁₁ lai₁₁ poo₁₁·la₁₁/beh₃ lue₁₃/li₃₁/to₁₁ lai₁₁ lue₁₂/beh₃ pe₂₂/li₃₁/to₁₁ lai₁₁\n即是農民啦播汝著來播啦,卜犁汝著來犁,卜耙汝著來\npe₂₂·la₁₁/beh₃ lak₁ tak₃/li₃₁/to₁₁ lak₁ tak₃/tse₃₃/khia₁₁ sng₃₁ tsap₁ loo₁₁ tsng₁₂·loo₂₂·la₁₁/\n耙啦,卜磟碡汝著磟碡,這徛算「十路全」㉚咯啦。\ntsim₃₃ ma₃₁/si₁₁ ke₃₁ si₁₁ tai₂₂·loo₁₁·la₁₁/ah₃ tshut₃ mng₁₃/oo₂₂ to₃₃ bai₃₁/tshia₃₃·la₁₁/ m₂₂/to₁₁ hai₃₁\n職馬是過時代㉛咯啦。益出門オトバイ㉜,車啦,毋著ハイ\nia₁₁·la₁₁/kha₂₂ kut₂ beh₃ na₃₁ e₁₁ iong₃₁/e₁₁ tann:₃₃₁/tak₁ e₁₃/ma₁₁ nng₂₃ kha₂₂ he₁₃/ in₂₂ pe₂₂ ka₂₂ tshio₃₁ kong₂₃\nヤ㉝啦,跤骨卜哪會勇,會擔?逐个嘛軟跤蝦㉞。個父共笑講\nsi₁₁ tua₂₃/tsua₂₃ king₂₂ thau₁₃/thi₃₁ lan₁₁ tsiau₃₁/gun₃₁/ing₂₃ pai₃₁/m₁₁ si₂₂·oo₁₁/ing₂₃ pai₃₁/sau₃₁ khau₃₁/\n是拄好「紙肩頭鐵卵鳥㉟」。阮往擺毋是噢,往擺哨口㊱\ntshut₂·e₁₁/tsit₃ tsua₁₁ loo₂₂/tsio₁₁ thau₁₁ a₃₃ loo:₂₂₁/ti₁₁ hai₂₃ kinn₁₂/sau₃₁ khau₃₁/hia₁₃/to₁₁ tann₂₂ tng₃₂ ainn₁₁\n出去,職逝㊲路,石頭仔路—,佇海墘,哨口遐,著擔轉來\nkau₃₂ tshu₁₁/phak₃·le₁₁/loo₂₂/si₁₁ tsia₃₁ a₁₁ tiau₁₁ a₃₁/na₁₁ nia₂₂/phak₁ hi₁₁ poo₃₁/ma₁₁ a₃₃ ne₃₃ tann:₃₃₁/phak₁\n▢厝曝咧。路是即大條仔但但。曝魚晡嘛按呢擔—,曝\ntshik₂/ma₁₁ a₃₃ ne₃₃ tann:₃₃₁/tshik₃ tann₁₁/na₁₁ kua₃₂ tinn₂₂/bi₂₃ na₁₃/tann₃₃·lai₁₁/tio₁₁ tann₃₃ = e₃₃·la₁₁/tsim₃₃\n粟嘛按呢擔,粟擔若割淀㊳,米籃擔來,著擔个啦職\nma₃₁/si₁₁ tshong₁₁ gia₁₃ =e₃₃/gia₁₁ gia₁₁ e₃₃/tan₃₁ e₃₃ loo₂₂ =e₂₂/phok₁ phok₁ a₃₁/phok₃·to₁₁ ai₁₁/si₁₁ tai₂₂/\n馬是創夯㊴个,夯夯咧,擲咧路裏,搏搏仔㊵搏倒來。時代\nbo₁₁ kang₁₂·loo₂₂·la₁₁/ing₂₃ pai₃₁/ti₁₁ hai₂₃ pinn₃₃/lua₁₁ ah₃ beh₃ si₃₁·e₁₁/koh₃ li₁₁ lam₁₁ ping₁₃/ma₁₁ tio₁₁ tann₃₃·\n無仝咯啦,往擺佇海邊熱駕卜死去,閣佇南爿嘛著擔\nkhiai₁₁/u₁₁ tsio₃₁ loo:₂₂₁/kha₂₂ tshng:₃₃₁/tann₃₃·si₁₁/\n起來有職號路?尻川㊷!擔·死!\n註:\n①khoo¹〔箍〕:指日幣「圓」。台幣「元」亦曰「箍」。\n②hah⁸〔箬〕:籜。莖上外殼。\n③gua⁷ tsue⁷〔外儕〕:「外」本字「何」,何多,多少。\n④loo⁷ be³¹〔落尾〕:後來。\n⑤than³〔趁〕:賺。\n⑥ah⁴〔益〕:那…轉折語氣。\n⑦kinn¹ ann¹〔今旦〕:今天。\n⑧m⁷〔毋〕:…嘛。説明、解釋的語氣。\n⑨khia⁷ sng³〔徛算〕:等於。\n②268",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -95,6 +96,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ],
 "copied_from": {
@@ -109,6 +111,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ],
 "copied_from": {
@@ -135,7 +138,7 @@
 "text": "住民志\nian₁₁ tui₁₁ a₃₁/to₁₁ an₃₃ khih₃ iunn₁₂/tshong₁₁ tsit₁ e₁₁ khang₃₃/suann₁₁/tsian₃ nng₃₃ lo₁₁/u₁₁ ian₁₁\n鉛倕仔著按呢(鉛)去熔創一个空,線即穿落。有鉛\ntui₁₁ a₃₁/m₁₁ tsiah₃ tui₁₁ e₁₁ kau₃₂ tue₃₁/\n倕仔毋即縋會▢底。\ntio₃₁ hue₂₂ ki₃₃/ai₃₁ sai₂₃ phang₁₁ tsun₁₁ a₃₁/tsim₃₃ ma₃₁/bo₁₁ phang₁₁ tsun₁₁ na₃₁·loo₁₁/khah₃ tsa₃₁/tsue₂₂·\n釣花枝愛駛帆船仔。職馬無帆船仔咯,卡早儕\noo₁₁/khah₃ tsa₃₁/kan₂₂ na₂₂ lan₃₁/tsit₃ sann₂₂ tsng₂₂ thau₁₂/it₃₁ i₁₁ tsap₁ tsiah₂/hio₃₂ hai₂₃ phiann₁₂·e₂₂/\n噢,卡早干礁咱職三庄頭,一二十隻。歇海坪⑫裏。\nlan₃₁/tsia₁₃/tsun₁₁ phang₁₃/bo₁₁ tshiunn₁₁ tai₁₁ liok₃/uann₂₂ pinn₂₂ a₃₃ tsun₁₂/khah₃ an₂₃ tsiam₂₂ tsiam₃₃/\n咱遮船帆無像大陸灣邊仔船⑬,卡按呢尖尖,\nlan₃₁/tsia₁₃/si₃₁ kak₂/ah₃ ka₂₂ lak₂/ka₂₂ lui₁₁ khi₃₃ e₃₃ ui₁₁ a₃₃ be₃₁/hong₃₃/lai₁₃/tsun₁₁ na₃₁/tsiah₃ e₁₁\n咱遮四角。益加轆⑭共縲⑮起去桅仔尾。風來船仔即會\ntsau₃₁/\n走。\nliau₁₁ a₃₃ soh₂/ tio₁₁ si₁₁ liau₁₁ he₃₃/ui₁₁ a₃₁/khia₂₂·khi₁₁ =e₁₁/sang₂₂ ping₁₂/ui₃₁ tsun₁₁ be₃₁ liau₂₂/tsun₁₁\n「繚仔索」⑯著是繚⑰彼桅仔徛起去。雙爿⑱對船尾繚,船\nthau₁₃/liau₂₂/ui₁₁ a₃₁/ian₃₁· khiai₁₁/liau₁₁ a₃₃ soh₂/liau₁₁ sang₂₂ thau₁₁ be₃₁/\n頭繚。桅仔偃起來,繚仔索繚雙頭尾。\nphang₁₁ a₃₁/nng₂₂ tsit₁ ki₂₂ tik₃ a₂₁/tsit₁ ki₂₂ tik₃ a₂₁/tsit₁ ban₃₁/tsit₁ ki₂₂ tik₃ a₂₁/ tak₁ ki₂₂ tik₃ a₂₁/ma₁₁\n帆仔穿一枝竹仔一枝竹仔,一挽一枝竹仔。逐枝竹仔嘛\npak₁ so₃₃ a₂₁/ti₂₂ e₁₁/ ah₃ tsit₁ tiau₁₁ tsong₂₃ kun₂₂ bu₃₁/tua₁₁ tiau₁₁ =e₂₂ / ah₃ na₁₁ phin₃₁ kong₂₃ hong₃₃/siunn₂₂\n縛索仔佇咧。益一條總根母⑳大條个。益若譬論講風傷\nthau₁₁·oo₁₁/sai₂₃ a₃₃ ne₃₃ siunn₂₂ kin₃₁/bue₁₁ ing₂₂·e₁₁/ ah₃ kin₂₃ tio₁₁ ka₂₂ pang₃₁ khah₃ lo₂₁ ai₁₁/i₂₂ he₃₃/sai₂₃\n透噢,駛按呢傷緊袂用得,益緊著共放卡落來。伊彼駛\nnng₁₁ ki₂₂ ko₂₂ a₃₁/na₁₁ nia₂₂/phing₁₁ he₂₃ tshia₃₃/khah₃ gau₁₁ tsau₃₁/su₃₁ su₃₁ kio₁₁·oo₁₁/u₁₁ si₁₁ a₃₃ sai₂₃ sann₂₂\n兩枝篙仔但但,並㉑火車卡爻走。倏倏叫噢。有時仔駛三\nki₃₃/u₁₁ si₁₁ a₃₃ sai₂₃ goo₁₁ ki₃₃/bo₁₁ hong₃₃/to₁₁ ka₂₂ tsong₂₃ khi₃₁ i₁₁/\n枝,有時仔駛五枝,無風著共總起去。\ntik₃ a₃₃ be₃₁/pak₈ so₃₃ a₂₁/m₁₁ tsiah₃ e₁₁ ke₃₁ phang₁₂/bo₁₂/na₃₁ e₁₁ ke₁₁/ he₃₃ /so₃₃ a₂₁/le₃₃ un₁₁ tsuan₃₁\n竹仔尾縛索仔毋即會過帆㉒,無哪會過㉓。彼索仔咧運轉=\n=e₁₁· m₂₂/ lang₁₁ he₃₃/lau₁₁ un₁₁=e₂₂/ leh₃ sai₃₁·honn₂₁/e₁₁ ke₃₁ phang₁₂/ah₃ tiau₃₁ tsun₁₂/phang₁₂/tsim₃₃\n=个毋㉔。儂彼老勻=个㉕咧駛乎,會過帆,益吊船㉖,帆職\nma₃₁/m₁₁ to₁₁ tshong₂₂ tsit₃ ping₁₂·honn₂₁/ah₃ na₁₁ beh₃ uann₁₁ hong₂₂ hiong₁₁/ke₃₁ phang₁₂/sai₂₃ tsit₃ ping₁₂/\n馬毋著創職爿乎,益若卜換方向,過帆,駛職爿。\nphang₁₁ a₃₁/e₁₁ so₃₃ a₂₁/uan₂₂ na₃₃ kio₃₁ liau₁₁ a₃₃ soh₂/\n帆仔个索仔員仔㉗叫繚仔索。\n②272",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -151,6 +154,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ],
 "copied_from": {
@@ -163,7 +167,7 @@
 "text": "住民志\ne33/ing11 tsuu11 nng13/lo11 i33 ni31/khah3 bue11 tsia11 tsui31/bo11 tho31/to11 phak1 hoo22 ta33/he11 ih3 koo22\n个㉟用薯莨㊱落去染，卡袂食水無討，著曝予礁，下㊲去罟\nliau12/khng11/to22 m11 si11 tsim33 ma31/nai23 long31=e11/kong23 tshin32 tshai31/tan11/\n寮㊳囥㊴，都毋是職馬ナイロン㊴个講凊采㊵擲㊶。\nlit3·si11/khi33 e33 gua11 hai31/leh3 tio31 hue22 ki33·honn21/hio31 sann22 si31 tsap1 siam11 tsui31/si31 tsap1 gua11\n日時㊷去咧外海咧釣花枝乎，彼號三四十噚水、四十外\nsiam11 tsui31/khuann32 ka22 ki11 e13/m11 tsai22 thang22 kiann33/khuann31 pat1 lang13/kann23 na33 io11 ong22 a22·le11\n噚水。看家己丌毋知通驚，看別儂敢那搖旺=也㊸咧\n/kann23 na33 pui11 hia33·le11/tua31 hia13/ioh2.le11/ioh2.le11/\n，敢那匏▢㊹咧，帶遐搖咧，搖咧。\n註：\n①siat⁴ khiau²〔設巧〕：設計巧妙的辦法。\n②hue¹ ki¹〔花枝〕：一種章魚。\n③siam⁵〔噚〕：手張開的長度曰一「噚」。\n④tiau⁵〔椆〕：牢固。\n⑤khip⁸〔扱〕：抓。此處指「花枝」來吃餌。\n⑥tiuh⁴〔扡〕：急引。俗字。\n⑦kan¹ na¹〔干礁〕：只，只要。\n⑧ah⁴〔益〕：還有。\n⑨ian⁵ tui⁷ a²〔鉛倕仔〕：鉛墜子，使釣鉤沈入水中者。\n⑩suh⁴〔欶〕：口吸。此處指「花枝」吃餌。\n⑪giu²〔扭〕：拉。\n⑫hai² phiann⁵〔海坪〕：海灘。\n⑬uann¹ pinn¹ a² tsun⁵〔灣邊仔船〕：戎克船。或只稱uann¹ pinn¹〔灣邊〕或uann¹ pinn¹ tsun⁵〔灣邊船〕。\n⑭ka¹ lak⁴〔耞轆〕：轆轤。\n⑮lui⁷〔縲〕：用繩索吊上或吊下。同tui⁷〔縋〕。語源上可能跟「墜」相同。\n⑯liau⁵ a² soh⁴〔繚仔索〕：帆船牽挽船桅使其固定的繩索。\n⑰liau⁷〔繚〕：綁緊。牽挽。\n⑱sang¹ ping⁵〔雙爿〕：兩邊。\n⑲ian²〔偃〕：扶起、傾到皆曰「偃」。\n⑳tsong² kun¹ bu²〔總根母〕：總綱。\n②274",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "看不清",
 "羅馬字多"
@@ -178,7 +182,7 @@
 "text": "語言篇\n㉑suh⁴ suh⁴ kio³〔倏倏叫〕：飛快的樣子。\n㉒ke³ phang⁵〔過帆〕：改變航向。\n㉓ke³〔過〕：改變方向。\n㉔m⁷〔毋〕：嘛。説明之詞。\n㉕lau⁷ un⁵ = e〔老勻=个〕：老一輩的人。\n㉖tiau³ tsun⁵〔吊船〕：使船掉頭。回頭。\n㉗uan¹ na²〔員仔〕：仍然。iu¹ uan⁵ a²〔猶員仔〕合音。\n㉘ki¹ khi³ a²〔機器仔〕：機器勞作的漁船。\n㉙tua⁷ ling⁵〔大零〕：大型的立網。\n㉚khi²〔起〕：拉上。\n㉛bi⁵〔寐〕：小睡。假寐。\n㉜tshuan⁵〔僎〕：準備。\n㉝khioh⁴ x〔卻卻〕：收拾一下。\n㉞tue⁷ a²〔苧仔〕：苧麻。\n㉟se¹ = e〔紗=个〕：棉紗。\n㊱tsi⁵ nng⁵〔薯莨〕：一種蕃薯形的植物，長在山裏，可做褐色染料。\n㊲he⁷〔下〕：放。\n②275",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -192,7 +196,7 @@
 "text": "住民志\n3.8.8.方言標本之十五\n編號：蚵寮71\n發音人：林清　生年：1920年\n記音點：新竹市南港里\n地名俗稱：蚵寮(o11 liau⁵)\n成長地：世居本庄\n祖籍：惠安。來台第四代。\n職業：農、漁（討雜海）\n教育程度：公學校四年肄業\n發音日：1991年9月20日\n採訪：洪惟仁、潘科元\n記音：洪惟仁\n【方言特色】\n蚵寮位於新竹市舊香山最南端的一個小漁村。我們是在鐵路旁一個老人館訪得發音人蚵寮71，因發音人不耐久問，「仔」輕聲部份請其弟林爐蚵寮64代答。兩人口音相似，其不同處在文内説明。茲將其音韻特色簡述如下：\na.聲母：\n蚵寮71十五音俱全。「入」母不歸「柳」，如：\n熱juah3　　人蔘jin11 sim33\nb.韻母：\n蚵寮71的元音和大庄70一樣有七個：\na、e、i、oo、or、u、uu\n新竹市老派的「科」er→ e，「居」ir/uu→i，uu。\n「居」韻分爲二韻的條件和大庄70一樣，「煮」類字唸-i，「子」類字唸-uu。如：\n煮類｜子類\n鋤頭｜ti22 thau12｜自由｜tsuu11 iu12\n□箸｜kha22 ti22 (筷子)｜思想｜suu22 siong31\n老鼠｜niau23 tshi31\n豬肉｜ti22 bah2\n②276",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -222,7 +226,7 @@
 "text": "住民志\n保存了這個-uu-介音，可以説是古閩南語的一個化石性存在。\n蚵寮「刀」韻字有時唸-o，有時唸-or，又「燒」韻有時唸-io，有時唸-ior，語料不足，不知道是有條件分音，還是無定分音。\n蚵寮因爲地近竹南的漳州區，雖然保存了一些古代泉州音的特色，同時也吸收了一些比北部香山、新竹更多的漳州腔，比如：\n買賣bue23 be22　　找tshue7\n挨粿ue22 kue31　　雞卵ke22 nng22\n不過，雖然如此，泉腔的基本面貌仍然非常清楚，比如：前述雙、針的讀法，還有如：\n揹巾iang11 kun33　　橫　huinn12\n會袂ue22 bue22　　流血lau11 huih2\nc.主聲調：七音\n蚵寮71有七個主聲調，即：\n｜平｜上｜去｜入｜喉入\n陰｜33>22｜31>33/23｜11>32/31｜2>3｜2>32/31\n陽｜12>11｜｜22>11｜3/23>1｜3>11\n陰上變調有時有微升現象，陽入也常有微升。喉入聲變調時喉塞音喪失。\n蚵寮71的弟弟蚵寮64林爐，主聲調和蚵寮71差不多，唯一的差別是陽入本調唸22/23。\n蚵寮71的「仔」輕聲未詳細調查，調查蚵寮64的「仔」輕聲，和蚵寮71差不多。比如蚵寮71有這樣的説法。如：\n帽仔bo22 a31　　笠le22 a31\n指頭仔tsing23 thau22 a31　　蔘仔sim22 ma31\n尾指仔bue33 tsainn33 a31\n便知道是「仔」固定高降調，「仔」前字只有高平、中平兩種調子。\n詳查蚵寮64的「仔」輕聲便是如此。詳細資料參見蚵寮55的比較材料。\n②278",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -251,7 +255,7 @@
 "text": "住民志\ntsor31 hng12/tsor31 tsit1 kua33 hng12/ah3 thor33 he33 tsap1 hai33 a31/\n林：作園作一寡園，益討彼雜海仔。\n洪：討雜海是牽罟是否？\nlia11 hi12·la11/tap1 tap1 ti32 tih2/herh3 herh3 herh3/tsap1 hai33 a31\n林：掠魚啦，沓沓滴滴，嘿嘿嘿…雜海仔。\n洪：出去討海有坐船仔無？\ntse11 tik3 pai12/sok3 ka22 kong31/ka31=e11/ti11 eh3 kun11 hai31/thor31/na11 nia22·la11/bor11 khi31 gua11\n林：坐竹排，塑膠管絞=个，佇咧近海討但但啦，無去外\niunn12·la11/tua31 kun11 hai31/thor33 tsap1 hai33 a31/na11 tiann22·la11/\n洋啦，帶近海討雜海仔但但啦。\n洪：遮有石滬無？\nu¹¹·a11/kia11 ting31/hai33 tsui33 ik8/he33/tio11 tsio11 hoo22·loo11/\n林：有啊，崎頂海水浴彼著石滬咯。\n洪：崎頂？彼敢毋是佇竹南？咱南港遮無？\nbor12/tsia12/bor12/\n林：無。遮無。\ntsu¹\n洪：汝有讀書無？\nthak1 jit1 pun33 tsuu33·la11/thak1 bor1 tshut3 giap3·la11/thak1 si31 ni12/an11 nia22·la11/\n林：讀日本書啦，讀無出業啦。讀四年但但啦。\n②280",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -280,7 +284,7 @@
 "text": "住民志\n豬肉｜ti₂₂ bah₂｜歷史｜lik₁ su₃₁\n煮飯｜tsi₂₃ png₂₂\n姓呂｜sinn₃₂ li₂₂\n證據｜tsing₃₁ ki₁₁\n變化的結果，和漳州腔完全一樣。但蚵寮各方面的特色都明顯地屬於泉州腔。由大庄、香山、蚵寮71到蚵寮55，提示了由閩南祖語「煮」(*yu)「子」(*ii)音讀，到漳州「煮」(-i)、「子」(-u)音讀的發展歷程，那可能是：\n煮：tsyu(古閩語)→tsi(漳州、惠安、香山、蚵寮)\n子：tsii(古閩語)→tsuu(香山、蚵寮71)→tsu(漳州、蚵寮55)\n「軒」韻，蚵寮55也有喪失介音-i-的現象，喪失的字和蚵寮71一樣。如：\n蚵寮71｜蚵寮55\n可憐｜khoo₃₃ leen｜khoo₂₃ leen₁₂\n先生｜sieen₂₂ sinn₃₃｜sieen₂₂ sinn₃₃\n蚵寮55和蚵寮71都還保存了-uang韻母，如：\n蚵寮71｜蚵寮55\n歸嚾歸黨｜kui₂₂ uang₃₃ kui₂₂ tong₃₁｜kui₂₂ uang₃₃ kui₂₂ tong₃₁\nc.主聲調：七音\n主聲調有七個，音值如下：\n｜平｜上｜去｜入｜喉入\n陰｜33>22｜31>23'｜11>32｜2>3｜2>32\n陽｜12>11｜｜22>11｜'23>1｜'23>11\n蚵寮55和蚵寮71不同的是具有明顯的泉州音特色。即中升調：陰上變調；陽入本調。不過這兩個調的前後輕重不同，陰上變調／23'／前輕後重，陽入本調／'23／前重後輕。\nd.「仔」輕聲\n蚵寮55的「仔」輕聲是固定高降調，這跟蚵寮71、64一樣，但「仔」前字調只有中平調，這是非常特別的例子。現在和蚵寮64比較一下：\n②282",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -295,7 +299,7 @@
 "text": "語言篇\n蚵寮64｜蚵寮55\n一、狗仔｜kau₃₃ a₃₁｜kau₂₂ a₃₁\n囡仔｜gin₃₃ na₃₁｜gin₂₂ na₃₁\n椅仔｜i₃₃ a₃₁｜i₂₂ a₃₁\n稱仔｜tshin₃₃ na₃₁｜tshin₂₂ na₃₁\n印仔｜in₃₃ na₃₁｜in₂₂ na₃₁\n鋸仔｜ki₃₃ a₃₁｜ki₂₂ a₃₁\n竹仔｜tik₃ ga₃₁｜tik₂ ga₃₁\n粟仔｜tshik₃ ga₃₁｜tshik₂ ga₃₁\n桌仔｜to₃₃ a₃₁｜to₂₂ a₃₁\n鐵仔｜thi₃₃ a₃₁｜thi₂₂ a₃₁\n二、溝仔｜kau₂₂ a₃₁｜kau₂₂ a₃₁\n旗仔｜ki₂₂ a₃₁｜ki₂₂ a₃₁\n刀仔｜to₂₂ a₃₁｜to₂₂ a₃₁\n金仔｜ki₂₂ ma₃₁｜kim₂₂ a₃₁\n蠔仔｜o₂₂ a₃₁｜o₂₂ a₃₁\n蟳仔｜tsim₂₂ ma₃₁｜tsim₂₂ ma₃₁\n芋仔｜oo₂₂ a₃₁｜oo₂₂ a₃₁\n樹仔｜tshiu₂₂ a₃₁｜tshiu₂₂ a₃₁\n賊仔｜tshat₂ la₃₁｜tshat₂ la₃₁\n夾仔｜giap₂ ba₃₁｜giap₂ ba₃₁\n石仔｜tsio₂₂ a₃₁｜tsio₂₂ a₃₁\n蓆仔｜tshio₂₂ a₃₁｜tshio₂₂ a₃₁\n蚵寮55因爲「仔」前字調只有中調（入聲爲短中調，其餘爲長中調），致使一些本有意義區別的詞都混淆了。如：\na₂₂ a₃₁｜盒仔=鴨仔\nki₂₂ a₃₁｜旗仔=鋸仔\nto₂₂ a₃₁｜刀仔=桌仔\ntsim₂₂ ma₃₁｜蟳仔=職馬（現在）\ni₂₂ a₃₁｜姨仔=椅仔\nkau₂₂ a₃₁｜溝仔=狗仔\n「仔」前字只有中調的在新竹市只發現蚵寮55有這種情形。此外高雄大社鄉也有相同的例子。那是一個漳泉混合腔，而本方言明顯的屬偏泉腔。我們不知道他們是不是具有相同的祖籍來源。\n②283",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -310,7 +314,7 @@
 "text": "住民志\n【語料】\n陳金水訪問記音\n一九九一年九月二十日洪惟仁偕潘科元去新竹市舊香山鄉南港里訪問陳金水先生（一九二五年生），下面是訪問个記音。\n對話\n洪：汝是在地=个乎？\nhann₁₁/gua₂₃ tsai₁₁ te₂₂=e₂₂/tioh₃/\n陳：喏，我在地=个，著。\n洪：自古早祖先著帶佇塊遮？\nhann₁₁ hann₁₁ hann₁₁/\n陳：喏喏喏。\n洪：恁老母敢員仔遮个儂？\ngun₂₃ lau₁₁ bu₃₁/tiong₂₂ ai₃₁ lang₁₂/i₂₂ to₂₂ bo₁₂·khi₁₁·loo₁₁/\n陳：阮老母中隘儂，伊都無·去·咯。\nnia₅ nia₅\n洪：中隘嘛是遮耳。隔壁里耳嘛乎。恁祖籍佗位？\ntsoo₂₃ tsik₂₃/hoo₁₁/tsoo₂₃ sian₃₃·m₂₂/hok₃ kian₁₁·na₂₂/\n陳：祖籍？乎，祖先毋？福建啊。\n洪：泉州或漳州？\nhe₃₃/ma₁₁ m₁₁ tsai₂₂ iann₃₁/\n陳：彼嘛毋知影。\n洪：汝做啥頭路？\ntsim₂₂ ma₃₁/to₂₂ bo₁₁ tso₁₁·loo₁₁/\n陳：職馬都無做咯。\n洪：卡早呢？\ngua₂₃ hia₃₂ e₂₂ gin₂₂ na₃₁/tshua₁₁ boo₃₁/ah₃ tak₁ e₂₂ khi₃₃ kang₂₂ tiunn₁₁=e₂₂·loo₁₁/gua₃₁/tsim₂₂ ma₃₁/\n陳：我遐个囡仔娶某，益逐个去工場裏咯。我職馬\n②284",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -338,7 +342,7 @@
 "text": "住民志\n3.8.10.方言標本之十七\n編號：蚵寮48\n發音人：林福順　　生年：1943年\n記音點：新竹市南港里\n地名俗稱：蚵寮（o₁₁ liau₁₂）\n成長地：世居本地。未長期離開。\n祖籍：不明\n職業：漁、工、村長\n教育程度：國民學校畢業\n發音日：1991年9月20日\n採訪人：洪惟仁、潘科元\n記音：洪惟仁\n【方言特色】\n蚵寮48爲蚵寮71、64之弟。蚵寮48比兩名哥哥都更靠近於台灣優勢音，分述如下：\na.聲母：十五音\n蚵寮48也有十五音。但部份「入」母字歸「柳」母。\n熱｜juah₂₂｜日｜lit₃₃\n勒餅｜jun₁₁ piann₃₁｜人蔘｜lin₁₁ sim₃₃\n逐（追）｜jiok₂\nb.韻母：\n蚵寮48有六個元音：\na、e、i、oo、o/or、u\n「刀」韻的音值或展或圓，成無定分音。\n煮、子二類字走蚵寮55的路線，「煮」類唸-i，「子」類唸-u。\n「軒」韻介音-i-消失。如：\n堅凍｜keen₂₂ tang₁₁｜可憐｜khoo₃₃ leen₁₂\nc.主聲調：七音\n主聲調七個：\n②286",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -352,7 +356,7 @@
 "text": "語言篇\n｜平｜上｜去｜入｜喉入\n陰｜33>22｜31>33/23｜11>31/32｜2/21>3｜2/21>31/32\n陽｜12>11/22｜｜22>11｜22/33/23>1｜22/33/23>11\n蚵寮48主聲調調值不很穩定，兩可的情形很多，是處在泉州音向台灣優勢音靠攏的過程中。\nd.「仔」輕聲\n「仔」輕聲固定高降調，「仔」前只有高平、中平兩種調子。\n狗仔｜kau₃₃ a₃₁｜竹仔｜tik₃ a₃₁\n印仔｜in₃₃ na₃₁\n鐵仔｜thi₃₃ a₃₁\n溝仔｜kau₂₂ a₃₁｜賊仔｜tshat₂ la₃₁\n蠔仔｜o₂₂ a₃₁\n芋仔｜oo₂₂ a₃₁\n藥仔｜io₂₂ a₃₁\n②287",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

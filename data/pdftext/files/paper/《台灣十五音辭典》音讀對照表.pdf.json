@@ -18,7 +18,7 @@
 "text": "—｜oh〔oh〕高｜uh〔uh〕龜\naih〔aih〕｜auh〔auh〕交\niah〔iah〕迦｜ioh〔ioh〕滘｜iuh〔iuh〕丩｜iauh〔iauh〕嬌\noah〔uah〕｜oeh〔ueh〕▢｜uih〔uih〕規｜—\n2. ahⁿ〔aNh〕監｜ehⁿ〔ɛNh〕庚｜ihⁿ〔iNh〕梔\nohⁿ〔oNh〕扛｜—｜ngh〔ngh〕缸\naihⁿ〔aiNh〕閒｜auhⁿ〔auNh〕爻\niahⁿ〔iaNh〕驚｜—｜—｜iauhⁿ〔iauNh〕嘄\noahⁿ〔uaNh〕｜｜—｜oaihⁿ〔uaiNh〕關\n3. ap〔ap〕甘｜at〔at〕干｜ak〔ak〕江\nop〔op〕箴｜｜ok〔ok〕公\nip〔ip〕金｜it〔it〕根｜ek〔ik〕經\niap〔iap〕兼｜iat〔iat〕堅｜iak〔iak〕姜｜iok〔iɔk〕宮\nut〔ut〕君｜oat〔uat〕觀｜oak〔uak〕光\n註：本書以斗六方言爲基礎，兼收其他方言音讀。經調查，斗六方言並無韁(ioN)韻，此韻的字多重出薑(iuN)韻。\n三、聲調\n平｜上｜去｜入\n上｜君kun³³：²²｜滾kǔn³¹：³³｜棍kùn¹¹：³¹｜骨kut²：³\n下｜群kûn¹²：²²｜—｜郡kūn²²：¹¹｜滑kut¹²：¹\n註：斗六的聲調與台灣優勢音大體相同，唯一較特殊的是下入聲本調的讀法爲低升調",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
