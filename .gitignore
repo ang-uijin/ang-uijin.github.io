@@ -3,6 +3,8 @@
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
+# PDF 內文搜尋的索引：建置時由 tools/pdfsearch_build.py 從 data/pdftext/ 產生
+/static/pdfsearch/
 
 # OS files
 .DS_Store

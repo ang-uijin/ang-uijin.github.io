@@ -1474,6 +1474,37 @@ body {
   padding: 0 1px;
 }
 
+/* 搜尋頁：PDF 內文的結果（一份 PDF 一組，底下列第幾頁＋前後文） */
+.pdf-results .pdf-doc h3 {
+  margin: 20px 0 4px;
+  font-size: 16px;
+}
+
+.pdf-results .pdf-doc ul {
+  margin-top: 0;
+}
+
+.pdf-results .pdf-doc li > a {
+  white-space: nowrap;
+  margin-right: 6px;
+}
+
+.pdf-results .pdf-note {
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
+
+.pdf-more {
+  margin-top: 16px;
+  padding: 8px 18px;
+  font: inherit;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-bg-card);
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
 .search-suggest {
   margin-top: 28px;
   display: flex;

@@ -3,6 +3,8 @@
   站內搜尋：精確比對（子字串、不分大小寫），資料來自建置時產生的 /index.json（見 layouts/index.json）。
   書目：關鍵字出現在標題、出處或分類就算命中，結果依原本的頁面／分類分組、用跟列表頁一樣的格式列出。
   其他頁面：關鍵字出現在標題或內文就列出來，附上前後文。
+  PDF 內文：另外查 /pdfsearch/ 的分片索引（tools/pdfsearch_build.py 產生，查詢端 /js/pdfsearch.js），
+  列出「哪一份 PDF 的第幾頁＋前後文」；比對不分大小寫、羅馬字不分調符、舊字形與異體視為同字。
 */}}
 <main class="main-content">
   <article class="content-section search-page">
@@ -22,8 +24,15 @@
     </div>
     <p class="search-status" id="search-status"></p>
     <div id="search-results"></div>
+    <div id="pdf-results" class="pdf-results" hidden>
+      <h2>PDF 內文</h2>
+      <p class="search-status" id="pdf-status"></p>
+      <div id="pdf-list"></div>
+      <button type="button" id="pdf-more" class="pdf-more" hidden>再找更多</button>
+    </div>
   </article>
 </main>
+<script src="/js/pdfsearch.js"></script>
 <script>
 (function () {
   var input = document.getElementById('search-input');
@@ -97,10 +106,70 @@
     if (history.replaceState) {
       history.replaceState(null, '', q ? '?q=' + encodeURIComponent(q) : location.pathname);
     }
+    pdfSearch(q);
     if (!q) { results.innerHTML = ''; status.textContent = ''; return; }
     if (!index) { pending = q; return; }
     render(q);
   }
+
+  /* ---- PDF 內文 ---- */
+  var pdfBox = document.getElementById('pdf-results');
+  var pdfStatus = document.getElementById('pdf-status');
+  var pdfList = document.getElementById('pdf-list');
+  var pdfMore = document.getElementById('pdf-more');
+  var pdfState = null, pdfRun = 0;
+  var QUALITY = ['', '', '（這一頁的文字是機器辨識、還沒校對，可能有錯字）', '（手寫稿，機器辨識，可能有錯字）'];
+
+  function pdfSearch(q) {
+    var run = ++pdfRun;
+    pdfList.innerHTML = ''; pdfMore.hidden = true; pdfState = null;
+    if (!q || !window.PdfSearch) { pdfBox.hidden = true; return; }
+    window.PdfSearch.search(q).then(function (r) {
+      if (run !== pdfRun) return;
+      pdfState = { q: q, r: r, pos: 0, hits: 0, groups: {}, run: run };
+      pdfBox.hidden = false;
+      if (!r.candidates.length) { pdfStatus.textContent = 'PDF 內文裡找不到「' + q + '」'; return; }
+      pdfNext();
+    }).catch(function () {
+      if (run !== pdfRun) return;
+      pdfBox.hidden = false;
+      pdfStatus.textContent = 'PDF 內文的索引載入失敗，請重新整理再試。';
+    });
+  }
+
+  function pdfNext() {
+    var st = pdfState;
+    if (!st) return;
+    var ids = st.r.candidates.slice(st.pos, st.pos + 48);
+    st.pos += ids.length;
+    pdfStatus.textContent = '比對中…';
+    st.r.verify(ids).then(function (hits) {
+      if (st.run !== pdfRun) return;
+      hits.forEach(function (h) {
+        var g = st.groups[h.url];
+        if (!g) {
+          g = document.createElement('div');
+          g.className = 'pdf-doc';
+          g.innerHTML = '<h3><a href="' + esc(encodeURI(h.url)) + '" target="_blank" rel="noopener">' + esc(h.title) + '</a></h3><ul></ul>';
+          st.groups[h.url] = g;
+          pdfList.appendChild(g);
+        }
+        var li = document.createElement('li');
+        li.innerHTML = '<a href="' + esc(encodeURI(h.url)) + '#page=' + h.page + '" target="_blank" rel="noopener">第 ' + h.page + ' 頁</a> ' +
+          '<span class="source">…' + esc(h.before) + '<mark>' + esc(h.hit) + '</mark>' + esc(h.after) + '…' +
+          (QUALITY[h.quality] ? ' <span class="pdf-note">' + QUALITY[h.quality] + '</span>' : '') + '</span>';
+        g.querySelector('ul').appendChild(li);
+        st.hits++;
+      });
+      var left = st.r.candidates.length - st.pos;
+      if (!st.hits && left > 0) { pdfNext(); return; }
+      pdfStatus.textContent = st.hits
+        ? '「' + st.q + '」出現在 ' + st.hits + ' 頁（' + Object.keys(st.groups).length + ' 份 PDF）' + (left > 0 ? '，還有 ' + left + ' 頁沒比對' : '')
+        : 'PDF 內文裡找不到「' + st.q + '」';
+      pdfMore.hidden = left <= 0;
+    });
+  }
+  pdfMore.addEventListener('click', pdfNext);
 
   fetch('/index.json').then(function (r) { return r.json(); }).then(function (d) {
     index = d;
