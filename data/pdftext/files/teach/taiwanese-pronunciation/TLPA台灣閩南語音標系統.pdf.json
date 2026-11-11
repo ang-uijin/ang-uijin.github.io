@@ -4,29 +4,35 @@
 "pages": [
 {
 "n": 1,
-"text": "臺灣閩南語音標系統\n壹,音素\n一聲母:\n方法\n塞或塞音\n邊\n鼻\n音镲音\n音\n不送氣\n逽\n氣\n音\n邊\n毛\nh\nb文\nm\n舌尖中音\n耐\n地\n他\nth\nt\nn\n舌尖前音\nch出\n舌拫音\n求\nk\nkh\n0英\n註拼寫的畸候、零聲母( \"英\"母) \"\n二韻母'\n(一聲韻\nl.開尾韻\n啞\ne\n0\nee家(漳)\n於(泉)\n吖\nai\ne re\nau\n口\ni a昈\n1 au\n10\n威\nu 1\nuee\nua\n註; <ere)〔",
-"source": "winocr",
+"text": "臺灣閩南語音標系統\n壹、音素\n一、聲母：\n方法／部位｜清塞音或塞擦音｜鼻音｜擦音｜濁塞音或塞擦音｜邊音\n不送氣｜送氣\n唇音｜p 邊｜ph 波｜m 毛｜｜b 文｜\n舌尖中音｜t 地｜th 他｜n 耐｜｜｜l 柳\n舌尖前音｜c 貞｜ch 出｜｜s 時｜j 入｜\n舌根音｜k 求｜kh 去｜ng 雅｜｜g 語｜\n喉音｜｜｜｜h 喜｜｜\n（零聲母）｜○ 英｜｜｜｜｜\n註：拼寫的時候，零聲母（“英”母）省略。\n二、韻母：\n㈠舒聲韻：\n1.開尾韻：\na｜阿｜e｜啞｜i｜伊｜｜｜｜\noo｜烏｜o｜疴｜u｜污｜｜｜｜\nee｜家（漳）｜er｜鍋（泉）｜ir｜於（泉）｜｜｜｜\nai｜哀｜au｜歐｜ere｜挨（泉）｜｜｜｜\nia｜耶｜ioo｜□｜io｜腰｜iu｜優｜iau｜妖\nua｜娃｜ue｜話｜ui｜威｜uee｜話（漳）｜uai｜歪\n註：<ere> [əe]",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多",
+"表格"
 ]
 },
 {
 "n": 2,
-"text": "2鼻化韻\n0\nOn\n10雍\n囗囗\n囗囗\n督毒\n物物囗囗\n泉漳\n4 8-\n秧黃\n尪登永雙嚁\n舌突俠囗劃\n黑益的囗派\n新泂\n莢默囗囗\n漳漳\n遏核乙薰勳(或\n姆囗娕\n厄學郭囗藥劃\n安恩因冤\n6 0\n音ㄑ\n囗囗囗囗入\n餡铧跋鞍尾音溫>韻喉囗格囗投活化\n通壓揖業熨\n聲束\n,東中央",
-"source": "winocr",
+"text": "2.鼻化韻\nann｜餡｜enn｜嬰（漳）｜inn｜燕｜｜\nonn｜好：好奇｜m｜姆｜ng｜秧｜｜\nainn｜閒（同）｜aunn｜□｜irinn｜閒（泉）｜｜\niann｜纓｜ionn｜鶯（漳）｜iunn｜鴦｜iaunn｜貓\nuann｜鞍｜uenn｜妹（漳）｜uinn｜黃（漳）｜uainn｜關\n註：<irinn> [▢▢]\n3.鼻尾韻\nam｜庵｜an｜安｜ang｜尪｜om｜箴｜ong｜汪\nirm｜箴（泉）｜irn｜恩（泉）｜irng｜登（泉）｜｜｜｜\nim｜音｜in｜因｜ing｜永｜｜｜｜\niam｜閹｜ian｜煙｜iang｜雙｜｜｜iong｜雍\nun｜溫｜uan｜冤｜uang｜嚁｜｜｜｜\n註：<ing> [iəŋ]，<ian> [iɛn(老派)，ɛn(新派)]。\n㈡入聲韻\n1.束喉入聲韻（喉塞韻）\nah｜鴨｜eh｜厄｜ih｜舌｜｜\nooh｜□｜oh｜學｜uh｜突｜｜\neeh｜格（漳）｜erh｜郭（泉）｜ereh｜狹（泉）｜｜\naih｜□｜auh｜□｜｜｜｜\niah｜役｜ioh｜藥｜iuh｜□｜iauh｜□\nuah｜活｜ueh｜劃（漳）｜uih｜劃（泉）｜uaih｜□\n註：<ereh> [əeʔ]。\n2.鼻化入聲韻\nannh｜□｜ennh｜莢｜innh｜物\nonnh｜膜｜mh｜默｜ngh｜物（泉）\nainnh｜□｜aunnh｜□｜｜\niannh｜□｜iunnh｜□｜iaunnh｜□\nuennh｜□｜uinnh｜□｜uainnh｜□\n3.普通入聲韻\nap｜壓｜at｜遏｜ak｜握｜op｜□｜ok｜惡\nirp｜澀（泉）｜irt｜核（泉）｜irk｜黑（泉）｜｜｜｜\nip｜揖｜it｜乙｜ik｜益｜｜｜｜\niap｜業｜iat｜閱｜iak｜約（漳）｜iut｜□｜iok｜育\nut｜熨｜uat｜越｜uak｜□｜｜｜｜\n註：<ik> [iək]，<iat> [iɛt(老派)，ɛt(新派)]\n三、聲調：\n1｜東｜2｜董｜3｜凍｜4｜督\n5｜童｜6｜動（泉）｜7｜洞｜8｜毒\n9｜中央（合音）｜0｜（輕聲）｜｜｜｜\n註：中央（合音）<tiong⁹>，或作tiong9，音值為[tioŋ³⁵]，一個音節。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多",
+"表格"
 ]
 },
 {
 "n": 3,
-"text": "貳、韻母分析\n一韻頭(介音) :\ni伊(「野」的前一成份)\nuä(倚」的前一成份)\n;韻腹•\n(—)口部元音,\n00\n家( ) er (泉)\nir於( )\n鼻化元音\n譻(漳inn\n0好\n註0 >〔亅e皿>〔引+ < u吅>只是韻母\n1 >的一分\n化音,\nm姆秧\n韻尾例宇取後一成份)\ni伊(铖的後一成份)\nu污(的復一成份)\n輔音韻尾,\n仳甘\n複合韻尾,\nih囗囗\n以上凡作、'囗\"音、表示暫時缺乏適當的瀵字可寫,凡明(漳)丶(臬)者,表示\n該音標係州音,臬音所獨有·音系統兼含各地的次方言,各次方言可以依自己\n的聲韻統、從中選用",
-"source": "winocr",
+"text": "貳、韻母分析\n一韻頭(介音)：\ni伊(「野」的前一成份)\nu污(「倚」的前一成份)\n二韻腹：\n㈠口部元音：\na｜阿｜e｜啞｜i｜伊\noo｜烏｜o｜軻｜u｜污\nee｜家（漳）｜er｜鍋（泉）｜ir｜於（泉）\n註：<oo> [ɔ]，<o> [o(一般)，ə(南台灣)]，<ee> [ɛ]，<er> [ɘ]，<ir> [ɨ]。\n㈡鼻化元音：\nann｜骯｜enn｜嬰（漳）｜inn｜燕\nonn｜好 [惡]｜unn｜羊｜｜\n註：<onn> [ɔ̃]，<enn> [ẽ]，<unn>只是韻母<iunn>的一部分。\n㈢韻化輔音：\nm 姆　　ng 秧\n三韻尾：(例字取其後一成份)\n㈠元音韻尾：\ni 伊(「該」的後一成份)\nu 污(「鉤」的後一成份)\n㈡輔音韻尾：\nm 甘　　n 奸　　ng公\np 蛤　　t 結　　k 角　　h 甲\n㈢複合韻尾：\nih □　　uh □\n以上凡作“□”音，表示暫時缺乏適當的漢字可寫。凡註明（漳）、（泉）者，表示該音標係漳州音、泉州音所獨有。此音標系統兼含各地的次方言，各次方言可以依自己的聲韻調系統，從中選用。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多",
+"表格"
 ]
 }
 ]

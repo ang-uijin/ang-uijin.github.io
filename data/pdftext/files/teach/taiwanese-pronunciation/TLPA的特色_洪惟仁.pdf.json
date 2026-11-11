@@ -25,11 +25,12 @@
 },
 {
 "n": 4,
-"text": "4\n洪惟仁\n2000 / 8 / 12",
-"source": "winocr",
-"checked": "none",
+"text": "4\n洪惟仁\n2000/8/12",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"空白或圖"
 ]
 }
 ]

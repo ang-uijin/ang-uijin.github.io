@@ -46,11 +46,13 @@
 },
 {
 "n": 7,
-"text": "2014 , 06 / 05\n7",
-"source": "winocr",
-"checked": "none",
+"text": "2014, 06/05\n7",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"圖多字少",
+"空白或圖"
 ]
 }
 ]

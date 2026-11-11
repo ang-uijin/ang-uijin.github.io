@@ -4,11 +4,13 @@
 "pages": [
 {
 "n": 1,
-"text": "TLPA與敎會羅馬字差異對照表\n聲毌\nch\nTLPA\n教眾\nch\nchh\n韻毌\nue ueh lng lk 1 1\nTLPA 00 ua\nual ' u 1 1 uat\n教羅。oa\noe oeh eng ek\n0 - 0E1 0 1 0\n聲調符號\n調名陰平陰上陰去陰人陽平陽去陽人高升調輕聲\nTLPA 1\n4\n7\n8\n9\n0\n教羅a\nädh",
-"source": "winocr",
+"text": "TLPA與敎會羅馬字差異對照表\n聲母\nTLPA｜c｜ch\n教羅｜ch /ts｜chh\n韻母\nTLPA｜oo｜ua｜uai｜uan｜uah｜uat｜ue｜ueh｜ing｜ik｜nn\n教羅｜o͘｜oa｜oai｜oan｜oah｜oat｜oe｜oeh｜eng｜ek｜-ⁿ\n聲調符號\n調名｜陰平｜陰上｜陰去｜陰入｜陽平｜陽去｜陽入｜高升調｜輕聲\nTLPA｜1｜2｜3｜4｜5｜7｜8｜9｜0\n教羅｜a｜á｜à｜ah｜â｜ā｜a̍h｜｜--a",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多",
+"表格"
 ]
 }
 ]

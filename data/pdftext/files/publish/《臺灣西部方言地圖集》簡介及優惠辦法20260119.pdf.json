@@ -4,11 +4,12 @@
 "pages": [
 {
 "n": 1,
-"text": "優\nDialectal Atlas\nof、、'estern Taiwan\n第一本勾劃台灣話來龍去脈\n並追溯閩南語語音史的地圖集\n幻華創造洪隹仁ANG UIJIN\nDialectal Atlas\nof、Vestern Taiwan\n.A N G U、~",
-"source": "winocr",
+"text": "《臺灣西部方言地圖集》簡介及優惠辦法\n〔圖〕臺灣西部方言地圖集　第一本勾劃台灣話來龍去脈並追溯閩南語語音史的地圖集　幻華創造 BEGUILING CREATIVE　洪惟仁 ANG UIJIN ——著　Dialectal Atlas of Western Taiwan　臺灣西部方言地圖集　洪惟仁 ANG UIJIN\n〔圖〕洪惟仁　臺灣西部方言地圖集　ANG UIJIN　Dialectal Atlas of Western Taiwan　臺灣西部方言地圖集　洪惟仁 ANG UIJIN",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"圖多字少"
 ]
 },
 {
@@ -41,20 +42,24 @@
 },
 {
 "n": 6,
-"text": "QR code\n回",
-"source": "winocr",
-"checked": "none",
+"text": "QR code：",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"圖多字少",
+"空白或圖"
 ]
 },
 {
 "n": 7,
 "text": "",
-"source": "winocr",
-"checked": "none",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"空白",
+"空白或圖"
 ]
 }
 ]

@@ -19,10 +19,12 @@
 {
 "n": 3,
 "text": "",
-"source": "winocr",
-"checked": "none",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"空白",
+"空白或圖"
 ]
 }
 ]
