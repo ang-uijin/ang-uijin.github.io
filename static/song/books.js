@@ -10,7 +10,7 @@
     pages[+a.dataset.p] = { src: a.getAttribute('href'), pp: a.dataset.pp, t: a.dataset.t, w: +a.dataset.w, h: +a.dataset.h };
   });
   root.querySelectorAll('.bkr-toc-list a').forEach(function (a) {
-    var p = +a.dataset.p, no = a.querySelector('.bkr-tno').textContent, tt = a.querySelector('.bkr-tt').textContent;
+    var p = +a.dataset.p, no = a.querySelector('.bkr-tno').textContent, tt = a.querySelector('.bkr-t').textContent;
     (songs[p] = songs[p] || []).push((no ? no + '. ' : '') + tt);
   });
   var img = root.querySelector('.bkr-img'), link = root.querySelector('.bkr-imglink'), info = root.querySelector('.bkr-info');
@@ -88,7 +88,7 @@
     q.addEventListener('input', function () {
       var k = q.value.trim().toLowerCase(), n = 0;
       items.forEach(function (li) {
-        var hit = !k || li.textContent.toLowerCase().indexOf(k) >= 0;
+        var hit = !k || (li.textContent + ' ' + (li.getAttribute('data-k') || '')).toLowerCase().indexOf(k) >= 0;
         li.hidden = !hit; if (hit) n++;
       });
       cnt.textContent = k ? (n ? '找到 ' + n + ' 條' : '找不到，換個字試試') : '';

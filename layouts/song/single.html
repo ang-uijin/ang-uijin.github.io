@@ -112,6 +112,11 @@
             {{- end }}
           {{- end }}
         {{- end }}
+        {{- /* 同一首（同一葩）也收在五本專著裡的：資料在 data/song/book_refs.json（逐首對過書頁才寫進去）。
+               這一行一直都在；連到閱讀頁的連結要 show.books 開了才有。 */}}
+        {{- range (index (site.Data.song.book_refs | default dict) $p.no) }}
+        <li>{{ with .part }}第 {{ . }} 段{{ end }}也收在《{{ .title }}》{{ with .p }}第 {{ . }} 頁{{ end }}，歌名作「{{ .toc_title }}」{{ with .note }}（{{ . }}）{{ end }}{{ if $site.show.books }}　<a href="/song/books/{{ .slug }}/#p={{ printf "%03d" (int .s) }}">看這一頁</a>{{ end }}。</li>
+        {{- end }}
       </ul>
     </section>
 

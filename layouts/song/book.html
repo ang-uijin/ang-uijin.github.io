@@ -46,11 +46,14 @@
     {{- with $b.toc }}
     <section class="bkr-toc" id="toc">
       <h2>歌名目錄（{{ len . }} 條）</h2>
+      <p class="sg-note-line">歌名與頁碼逐頁對過書頁；「頁」是書上印的頁碼。原網站的目錄寫法不同的，附在歌名後面。</p>
       <p class="bkr-filter" hidden><label>找歌名：<input type="search" class="bkr-q" placeholder="輸入歌名裡的字" autocomplete="off"></label> <span class="bkr-count" aria-live="polite"></span></p>
       <ol class="bkr-toc-list">
         {{- range . }}
           {{- $pg := index $b.pages (sub (int .s) 1) }}
-        <li><a href="{{ $base }}/{{ printf "%03d" (int .s) }}.jpg" data-p="{{ .s }}"><span class="bkr-tno">{{ .no }}</span><span class="bkr-tt">{{ .title }}</span><span class="bkr-tp">{{ with $pg.p }}頁 {{ . }}{{ else }}第 {{ $pg.s }} 張{{ end }}</span></a></li>
+          {{- /* 歌名照書上印的；原網站目錄的寫法不同時（用字不同、或原網站用羅馬字代替）小字附在後面，異體字只放進 data-k 供搜尋 */}}
+          {{- $showOrig := and .orig (in (slice "different" "roman") .diff) }}
+        <li{{ with .orig }} data-k="{{ . }}"{{ end }}><a href="{{ $base }}/{{ printf "%03d" (int .s) }}.jpg" data-p="{{ .s }}"><span class="bkr-tno">{{ .no }}</span><span class="bkr-tt"><span class="bkr-t">{{ .title }}</span>{{ if $showOrig }}<small class="bkr-orig">原網站目錄作「{{ .orig }}」</small>{{ end }}{{ if .x }}<small class="bkr-orig">原網站目錄沒有列</small>{{ end }}</span><span class="bkr-tp">{{ with $pg.p }}頁 {{ . }}{{ else }}第 {{ $pg.s }} 張{{ end }}</span></a></li>
         {{- end }}
       </ol>
     </section>
