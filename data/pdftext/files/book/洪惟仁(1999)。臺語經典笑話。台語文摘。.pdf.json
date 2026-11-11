@@ -60,12 +60,12 @@
 "text": "台語文摘\n一、聲母\np邊｜ph波｜m毛｜b文\nt地｜th他｜n耐｜l柳\nts貞｜tsh出｜s時｜j入\nk求｜kh去｜ng雅｜g語\n○英｜h喜\n二、韻母\nA. 舒聲\na阿｜e啞｜i伊\noo烏｜o蚵｜u汚\nee家(漳)｜er鍋(泉)｜ir於(泉)\nai哀｜au甌｜eri挨(泉)\nia耶｜ioo□｜io腰｜iu優｜iau妖\nua娃｜uee話(漳)｜ue話｜ui威｜uai歪\n註: <eri> 〔əe〕\nann餡｜enn嬰(漳)｜inn燕\nonn好〔惡〕｜m姆｜ng秧\nainn閑(同)｜aunn□｜irinn閑(泉)\niann纓｜ionn鳶(漳)｜iunn鳶｜iaunn貓\nuann鞍｜uenn妹(漳)｜uinn黃(漳)｜uainn關\n註: <irinn> 〔ii〕\nam庵｜an安｜ang尪｜om蔘｜ong汪\nirm蔘(泉)｜irn恩(泉)｜irng登(泉)\nim音｜in因｜ieng永\niam閹｜ian煙｜iang央(漳)｜iong雍\nun溫｜uan寃｜uang▢\n註: <ieng> 〔ieng, ing〕, <ian> 〔ien, en, ian〕\nB. 入聲\nah鴨｜eh厄｜ih舌\nooh□｜oh學｜uh突\neeh格(漳)｜erh郭(泉)\naih□｜auh□｜erih狹(泉)\niah役｜ioh葯｜iuh□｜iauh□\nuah活｜ueh劃(漳)｜uih劃(泉)｜uaih□\nannh熇｜ennh莢｜innh物\nonnh膜｜mh默｜ngh物(泉)\nainnh□｜aunnh□｜erinnh夾(泉)\n4",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
-"兩讀不一致",
 "多欄",
 "羅馬字多",
-"表格"
+"表格",
+"表格順序不同"
 ]
 },
 {
@@ -140,7 +140,7 @@
 "text": "台語文摘\nhui⁷ thiann³thang³ he¹ iau² iau² hong⁷mao⁵ lin⁵kak⁴ tann¹ sua³\n彩个文章匯輯成冊，來予讀者欣賞、觀摩、學習，引起讀者對台語文个興趣、關心，進一步會曉以台文來創作。若是有儂來稿阮當然是閣卡歡喜。予文摘變做一本所有關心台語个儂上致意个雜誌，而且當做是家自个厝來經營，來疼痛，彼亦是咱最大个願望佮支持文摘个本意。\n但是文摘革新號創刊以來，稿源是一个上大个問題，雖然有袂少朋友投稿毋過無適用=个卡儕，台語文對大多數个儂夭閣是一種生疏个創作工具。這本來是一種眞自然个代誌，小想看講咱逐家學華文攏學十幾冬，但是華文个作家夭是鳳毛麟角。華語个書面語算是眞成熟个一種語文，卜寫駕好都無遐爾簡單，無講今仔即塊起勢个台文。\n稿源無夠予阮辦了眞艱苦，所以阮對《台語文摘》个編輯方針有淡薄仔修改。阮看現在台語運動个趨勢，提倡台語文創作个刊物目前已經有蕃藷詩社个《蕃藷詩刊》、台灣語文促進會个《台語風》、學生台灣語文促進會个《台語學生》、益佮鄭良光先生發行个《台文通訊》，學術方面亦有台灣語文學會以及其他眞儕學者塊扑拚，台語字典亦一本紲一本塊出‧來。顛倒是舊文獻个整理、口傳文學个收集，益無啥麼眞有系統个成果出\n12",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -1055,7 +1055,7 @@
 "text": "台語經典笑話\ntsiann⁵ sit⁸ tsau² tshui³ ua²\n作穡儂食飽轉去園=裏,看見鋤頭誠實予儂偷夯·去=矣,著趕緊走轉去厝,喙倚個某个耳仔邊,細細聲仔講:\nhong⁵\n「鋤頭已經逢偷夯·去=矣呢!」\n【註解】\n園　hng⁵：旱田曰【園】;水田曰【田tshan⁵】。\n作穡　tsoh⁴sit⁴：耕作。\n咻　hiu¹：向遠處大聲吶喊。\n藏　tshang³：隱藏。本字不可考,假借同義字。\n逢　hong⁵：被人…。【予儂hoo⁷lang⁵】的連音。\n誠實　tsiann⁵sit⁸：眞的、果然。\n【翻譯】\n有一個農夫在田裏耕作,他的太太來叫他回去吃飯,農夫大聲喊說:\n「好,我把鋤頭藏好就回去。」\n回到家裏,老婆罵他:\n「把鋤頭藏起來是秘密的事情,你叫這麼大聲,讓人聽見了,鋤頭豈不敎人給偷走了?」\n農夫吃過飯回到田裏,發現鋤頭眞的被人偷走了,就連忙跑回家,在他老婆耳邊小聲說:\n「鋤頭已經被人偷走了哩!」\n【附註】取材於《台灣笑話集》。\n103",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1324,6 +1324,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "winocr-agree",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1372,7 +1373,7 @@
 "text": "台語文摘\n【註解】\n狡怪 kau²kuai³：頑皮。\n擋袂椆 tong³be⁷tiau⁵：忍不住。\n修理 siu¹li²：處罰。\n投 tau⁵：投訴。\n盛 sieng⁷：寵。\n拄數 tu²siau³：充數、報復。\n箠仔 tshue⁵a²/tshe⁵a²：竹條、箠楚。\n起痟 khi²siau²：發瘋。\n家己 ka¹ki⁷：自己。\n家自 ka¹ti⁷：自己。\n【翻譯】\n一個小孩很頑皮，他爺爺氣得忍不住捉來修理一頓。小孩跑去跟爸爸哭訴。做爸爸的很寵這小孩，見了好不心疼，又不敢打他老爸算數，便竹條拿起直往自己身上拚命打。\n爺爺見了覺得奇怪，問說：\n「你瘋了不成？自己打自己幹嘛？」\n爸爸說：\n「你打我兒子，我也要打你兒子！」\n【附註】取材於《台灣笑話集》。\n134",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1502,7 +1503,7 @@
 "text": "台語經典笑話\n拆字素\nbuat⁸ tsong⁵tsieng¹ le³ tsau²\ntu² thiah⁴ ji⁷ soo³\n明朝末代皇帝崇禎君亡國咧走路个時，有一日拄著一个拆字素个相命仙。崇禎君想卜共明朝相一下仔命，相命仙問講：\n「卜相啥麼命？」\n崇禎君講：「相帝運。」\niu²\n相命仙先叫伊隨便寫一字，崇禎君著寫一个「友」·字。相命仙講：\nhai⁷ huan²\n「壞咯！『反』·字出頭。」\niu²\n崇禎君講：「毋著，我是卜寫『有』·字。」\ntai⁷bieng⁵\n相命仙講：「閣卡壞！『大明』去一半。」\niu²\n崇禎君趕緊閣改寫一字「酉」·字。\ntsam⁷ kha¹\n相命仙講：「無救=矣！至『尊』鏨頭閣鏨跤。」\nthoo²tua⁷khui³\n崇禎君聽一下吐大氣講：\nthian¹bieng⁷ ju⁵ tshu² hu⁵hiu⁷ho⁵ ui⁵ tau⁷\n「天命如此，夫復何爲。」就按呢吊脰自殺。\n147",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1886,7 +1887,7 @@
 "text": "台語文摘\ntong³ be⁷ tiau³ sio¹ tui³ siong³ mih⁴ tai⁷ tse¹ puann¹ kuann⁷\n職个老父帶厝=裏等駕擋袂椆，著出去共伊看是出啥麼代誌。去佫城門跤，看著𪜶囝佮儂徛塊相對相。著共𪜶囝問講「是麼代？」𪜶囝著如此這般投予𪜶老父聽。𪜶老父聽了，講：\n「駕是按呢，免讓=伊，汝菜先捾轉去煮，我留帶遮閣佮伊徛·一睏仔。」\n【註解】\n執 tsip⁴：固執。\n食晝 tsiah⁸tau³：吃中午飯。\n市仔 tshi⁷a²：市場。\n城門跤 siann⁵mng⁵kha¹：城門下。\n拄 tu²：碰巧。\n相搪頭 sio¹tng⁷thau⁵：相遇。\n湊拄坎 tshau³tu²kham²：湊巧。\n拗蠻 au²ban⁵：不講理。\n犀牛仔 照角 sai¹gu⁵a² tsio³kak⁴：對峙；互相瞪眼。\n徛 khia⁷：站立。\n擋袂椆 tong³be⁷tiau⁵：受不了。\n對相 tui³siong³：相對看；互相瞪眼。\n186",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]

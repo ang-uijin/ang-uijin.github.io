@@ -7,7 +7,7 @@
 "text": "麥都思《福建方言字典》音讀對照表\n一、聲母(十五字頭)\np〔p〕邊｜P'h〔P‘〕頗｜m〔m〕/b〔b〕門\nt〔t〕地｜t'h〔t‘〕他｜n〔n〕/l〔l〕柳\nch〔ts〕曾｜ch'h〔ts‘〕出｜s〔s〕時　j〔dz〕入\nk〔k〕求｜k'h〔k‘〕去｜gn〔ng〕/g〔g〕語\na,e,i,o,u,w,y〔ϕ〕英　h〔h〕喜\n註：十五音門、柳、語三字頭遇鼻音韻時，分別以m, n, gn表示；英字頭不用字母，合口音另加w-,齊齒音另加y-爲字頭\n二、韻母(五十字母)\nA.舒聲\n1.口音韻(18個)\na〔a〕膠｜ay〔ɛ〕嘉｜ay〔e〕伽｜e〔i〕居\no〔o〕高｜oo〔u〕艍\nae〔ai〕皆｜aou〔au〕交｜ey〔ei〕稽｜oe〔ou〕沽\nëa〔ia〕迦｜ëo〔io〕茄｜ew〔iu〕丩｜ëaou〔iau〕嬌\nwa〔ua〕瓜｜öey〔uei/ue〕檜｜wui〔ui〕規｜öae〔uai〕乖\n2.鼻音韻(17個)\nⁿa〔aN〕監｜aiⁿᵍ〔ɛN〕更｜—｜eeⁿᵍ〔iN〕梔\nⁿo〔oN〕扛｜uᵐ〔m〕姆｜eⁿᵍ〔ŋ〕鋼\naeⁿᵍ〔aiN〕閒｜ⁿaou〔auN〕艾｜—｜ⁿoe〔ouN〕姑\neⁿa〔iaN〕驚｜ëoⁿᵍ〔ioN〕薑｜ⁿew〔iuN〕牛｜ⁿëaou〔iauN〕嘄\nWⁿa〔uaN〕官｜ⁿöey〔ueiN〕糜｜wuiⁿᵍ〔uiN〕褌｜waeⁿᵍ〔uaiN〕閂\n3.陽聲韻(15個)\nam〔am〕甘｜an〔an〕干｜ang〔ang〕江\nom〔om〕箴｜—｜ong〔ong〕公\nim〔im〕金｜in〔in〕巾｜eng〔ɛng/iɛng〕經\nëem〔iɛm/iam〕兼｜ëen〔iɛn/ian〕堅｜ëang〔iang〕姜\nwun〔un〕君｜wan〔uaŋ〕觀｜wang〔uang〕光\n—｜—｜ëung〔iong〕恭",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -18,7 +18,7 @@
 "text": "B.入聲\n1.口音韻(12個)\năh〔ah〕膠｜ăyh〔ɛh〕嘉｜—｜eĕh〔ih〕居\nŏh〔oh〕高｜oŏh〔uh〕艍\n—｜aoŭh〔auh〕交｜—｜—\nëah〔iah〕迦｜ëŏh〔ioh〕茄｜—｜ëaoŭh〔iauh〕嬌\nwah〔uah〕瓜｜öĕyh〔ueih〕檜｜—｜waĕh〔uaih〕乖\n2.鼻音韻(6個)\nⁿăh〔aNh〕｜ăiⁿᵍh〔ɛNh〕更｜—｜eĕⁿᵍh〔iNh〕梔\nⁿŏh〔oNh〕｜—｜—\n—｜—｜—\n—｜—｜｜ëaoŭⁿᵍh〔iauNh〕梟\n—｜—｜｜waĕⁿᵍh〔uaiNh〕閂\n3.陽聲韻(15個)\nap〔ap〕甘｜at〔at〕干｜ak〔ak〕江\nop〔op〕箴｜—｜ok〔ok〕公\nip〔ip〕金｜it〔it〕巾｜ek〔ɛk/ik〕經\nëep〔iɛp/iap〕兼｜ëet〔iɛt/iat〕堅｜ëak〔iak〕姜\nwut〔ut〕君｜wat〔uat〕觀｜wak〔uak〕光\n—｜—｜ëuk〔iok〕恭\n註：1.麥典的拼音法，e和ɛ都標爲ay，但在說明中加以注明，字典中兩韻互相混淆。\n2.麥典的拼音法相當混亂，上表所列只是標準式，另外根據聲母不同而有拼音方式的變化。詳見標音說明及聲韻配合表。\n三、聲調(八音)\n1.調類｜平peN⁵｜上siang⁷｜去khi³｜入zip⁸\ntsioN⁷上｜君kwun｜滾kwûn｜棍kwùn｜骨kwut\nɛ⁷下｜羣kwûn｜滾kwûn｜郡kwūn｜滑kwùt\ntsioN⁷上｜嘉kay｜假kăy｜嫁kày｜格kăyh\nɛ⁷下｜枷kây｜假kăy｜下kāy｜逆kăyh\n2.調值｜平｜上｜去｜入\ntsioN⁷上｜44｜41｜21｜32\nɛ⁷下｜13｜｜22｜23\n註：漳州音聲調雖說是「八音」，實際只有七個，缺陽上，呼八音時以陰上調塡補。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

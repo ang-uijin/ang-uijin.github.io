@@ -220,12 +220,12 @@
 "text": "擬定泉州彙音妙悟音系及其音讀：\n嘉 a：a?　開 ai　效 au　三 am：ap　丹 an：at　江 ang：ak\n嗟 ia：ia?　朝 iau　兼 iam：iap　軒 ian：iat　商 iang：iak\n花 ua：ua?　乖 uai　川 uan：uat　風 uang：uak\n弍 aN：aN?　▢ aiN　〔嘐 auN〕\n京 iaN　貓 iauN\n歡 uaN\n基 i：i?\n飛 ui：ui?\n青 iN：iN?\n〔管 uiN〕\n居 ɨ　箴 ɨm：ɨp　恩 ɨn：ɨt　生 ɨng：ɨk\n金 iɨm：iɨp　賓 iɨn：iɨt　卿 iɨng：iɨk\n關 uɨiN\n珠 u　春 un：ut\n秋 iu\n箱 iuN\n西 e：e?\n杯 ue：ue?\n科 ə：ə?　雞 əe：əe?　鉤 əu\n刀 o：o?\n燒 io：io?\n高 ɔ　東 ɔng：ɔk\n莪 ɔN　香 iɔng：iɔk\n梅 m　毛 ng：ng?\n五七",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
-"兩讀不一致",
 "手寫",
 "羅馬字多",
-"表格"
+"表格",
+"表格順序不同"
 ]
 }
 ]

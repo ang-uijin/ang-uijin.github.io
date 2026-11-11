@@ -90,7 +90,7 @@
 "text": "54\n十五音｜居｜梔｜艍｜檜｜檜｜檜\n例字｜世白｜物白｜師文｜賠文｜稅白｜皮白\n漳州｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n長泰｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n龍海｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n華安｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n南靖｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n平和｜si³｜biN⁸｜su¹｜pue⁵｜suɛ³｜phue⁵\n漳浦｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n雲霄｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n東山｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n詔安｜si³｜biN⁸｜sɯ¹｜pue⁵｜sue³｜phue⁵\n漳平｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n龍岩｜si³｜mi⁶｜si¹｜pue⁵｜sie³｜phue⁵\n永福｜si³｜biN⁷｜su¹｜pie⁵｜sie³｜phie⁵\n東山²｜si³｜biN⁸｜su¹｜—｜sue³｜phue⁵\n宜蘭｜si³｜biN⁷｜su¹｜pue⁵｜sue³｜phue⁵\n新港｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n漳州²｜si³｜biN⁸｜su¹｜pue⁵｜sue³｜phue⁵\n漳浦｜—｜—｜—｜—｜—｜—\n灌口｜—｜—｜—｜—｜—｜—\n麥都思\n原拼音｜sè｜meeⁿᵍh｜soo｜pöêy｜söèy｜p'höêy\n譯｜si³｜biN⁸｜su¹｜puei⁵｜suei³｜phuei⁵",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -101,7 +101,7 @@
 "text": "55　附錄\n十五音｜檜｜檜｜伽｜官｜觀｜褌\n例字｜血白｜月白｜拔白｜關白｜縣｜卵\n漳州｜hue⁴｜gue⁸｜pe⁸｜kuaN¹｜kuan⁷｜luiN⁷\n長泰｜hue⁴｜ge⁸｜pue⁸｜kuaiN¹｜kuan⁷｜lng⁷\n龍海｜hue⁴｜gue⁸｜pe⁸｜kuaN¹｜kuan⁷｜luiN⁷\n華安｜hue⁴｜gue⁸｜peʔ⁸｜kuaN¹｜kuan⁷｜luiN⁷\n南靖｜hue⁴｜gue⁸｜pue⁸｜kuaiN¹｜kuan⁷｜luiN⁷\n平和｜huɛ⁴｜guɛ⁸｜pak⁸｜kuaiN¹｜kuan⁷｜luiN⁷\n漳浦｜huɛ⁴｜guɛ⁸｜pɛ⁸｜kuɛN¹｜kuan⁷｜luiN⁷\n雲霄｜hue⁴｜gue⁸｜pe⁸｜kuiN¹｜kuan⁷｜luiN⁷\n東山｜hue⁴｜gue⁸｜pe⁸｜kuaiN¹｜kuan⁷｜luiN⁷\n詔安｜hue⁴｜gue⁸｜pe⁸｜kueN¹｜kuan⁷｜lng⁷\n漳平｜huɛ⁴｜gue⁸｜pie⁸｜kuɛN¹｜kuan⁷｜luiN⁷\n龍岩｜huɛ⁴｜guɛ⁶｜pua⁶｜kuɛN¹｜kuiN⁷｜liN⁵\n永福｜hui⁴｜gie⁸｜pat⁸｜kuiN¹｜kuiN⁵｜long⁷\n東山²｜hue⁴｜gue⁸｜pe⁵(?)｜kuaiN¹｜kuiN⁷｜luiN⁷\n宜蘭｜hue⁴｜gue⁷｜—｜kuaiN¹｜kuan⁷｜luiN⁷\n新港｜hue⁴｜gue⁸｜pue⁸｜kuaiN¹｜kuan⁷｜lng⁷\n漳州²｜hue⁴｜gue⁸｜pue⁸/pe⁸｜kuaN¹｜kuan⁷｜luiN⁷\n漳浦｜—｜—｜—｜—｜—｜—\n灌口｜—｜—｜—｜—｜—｜—\n麥都思\n原拼音｜höéyh｜göèyh｜pàyh｜kwⁿa｜kwān｜noöiⁿᵍ\n譯｜huei⁴｜guei⁸｜pe⁸｜kuaN¹｜kuan⁷｜luiN⁷",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -112,7 +112,7 @@
 "text": "·56·\n十五音｜褌｜褌｜沽｜沽｜沽｜沽\n例字｜飯｜光｜祖｜雨白｜五白｜厚文\n漳州｜puiN⁷｜kuiN¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜hɔ⁷\n長泰｜png⁷｜kng¹｜tseu²｜heu⁷｜geu⁷｜heu⁷\n龍海｜puiN⁷｜kuiN¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜hɔ⁷\n華安｜puiN⁷｜kuiN¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜hɔ⁷\n南靖｜puiN⁷｜kuiN¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜hɔ⁷\n平和｜puiN⁷｜kuiN¹｜tsɔ²｜hɔu⁷｜gɔ⁷｜hɔ⁷\n漳浦｜puiN⁷｜kuiN¹｜tsɔu²｜hɔu⁷｜gɔu⁷｜həu⁷\n雲霄｜puiN⁷｜kuiN¹｜tsɔu²｜hɔu⁷｜gɔu⁷｜həu⁷\n東山｜puiN⁷｜kuiN¹｜tsɔu²｜hɔu⁷｜gɔu⁷｜hɔu⁷\n詔安｜puiN⁷｜kuiN¹｜tsɔu²｜hɔu⁷｜gɔu⁷｜hɔu⁷\n漳平｜puiN¹｜kuiN¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜hau⁷\n龍岩｜puiN⁷｜kuiN¹｜tsi²｜hu⁶｜ng⁶｜—\n永福｜puiN⁷｜kuiN¹｜tsou²/tso²/tsu²｜hou⁷｜gong⁷｜hau⁷\n東山²｜puiN⁷｜kuiN¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜—\n宜蘭｜puiN⁷｜kuiN¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜hɔ⁷\n新港｜png⁷｜kng¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜hɔ⁷\n漳州²｜puiN⁷｜kuiN¹｜tsɔ²｜hɔ⁷｜gɔ⁷｜hɔ⁷\n漳浦｜—｜—｜—｜—｜—｜—\n灌口｜—｜—｜—｜hio⁷｜—｜—\n麥都思\n原拼音｜pooi̅ⁿᵍ｜kwuiⁿᵍ｜choé｜hoē｜goē｜hoē\n譯｜puiN⁷｜kuiN¹｜tsou²｜hou⁷｜gou⁷｜hou⁷",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -123,7 +123,7 @@
 "text": "·57·附錄\n十五音｜高｜薑｜薑｜經｜經｜經\n例字｜河｜羊白｜牆白｜間白｜先白｜燈文\n漳州｜ho⁵｜iɔN⁵｜tshiɔN⁵｜kan¹｜sian¹｜ting¹\n長泰｜hɔ⁵｜iɔN⁵｜tshiɔN⁵｜kan¹｜san¹｜ting¹\n龍海｜ho⁵｜iɔN⁵｜tshiɔN⁵｜kin¹｜sing¹｜ting¹\n華安｜ho⁵｜iɔN⁵｜tshiɔN⁵｜kan¹｜san¹｜ting⁵\n南靖｜ho⁵｜iuN⁵｜tshiuN⁵｜kan¹｜sing¹｜ting¹\n平和｜hɔ⁵｜iuN⁵｜tshiuN⁵｜kɛng¹｜sɛng¹｜tɛng¹\n漳浦｜ho⁵｜iuN⁵｜siuN⁵｜kɛng¹｜sɛng¹｜tɛng¹\n雲霄｜ho⁵｜iuN⁵｜tshiuN⁵｜kian¹｜sian¹｜tian¹\n東山｜ho⁵｜iɔN⁵｜tshiɔN⁵｜kɛng¹｜sɛng¹｜tɛng¹\n詔安｜ho⁵/ua⁵｜iɔN⁵｜tshiɔN⁵｜king¹｜sieng¹｜tieng¹\n漳平｜huɤ⁵｜—｜tshiɔN⁵｜kan¹｜san¹｜tin¹\n龍岩｜ho⁵｜gioN⁵｜tshioN⁵｜kiN¹｜siN¹｜tin¹\n永福｜ho⁵｜ging⁵｜tshing⁵｜keiN¹｜seiN¹｜tin¹\n東山²｜ho⁵｜—｜tshiɔN⁵｜keng¹｜sin¹｜teng¹\n宜蘭｜ho⁵｜iuN⁵｜tshiuN⁵｜king¹｜sing¹｜ting¹\n新港｜ho⁵｜iɔN⁵｜tshiɔN⁵｜king¹｜sing¹｜ting¹\n漳州²｜ho⁵｜iuN⁵｜tshiuN⁵｜kan¹｜sing¹｜ting¹\n漳浦｜—｜iɔN⁵｜tshiɔN⁵｜king¹｜—｜—\n灌口｜—｜—｜—｜—｜—｜—\n麥都思\n原拼音｜hô｜yëôⁿᵍ｜ch'hëôⁿᵍ｜kan｜seng¹｜teng¹\n譯｜ho⁵｜iɔN⁵｜tshiɔN⁵｜kan¹｜sɛng¹｜tɛng",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -134,7 +134,7 @@
 "text": "·58·\n十五音｜經｜經｜經｜經｜經｜經\n例字｜生文｜亭文｜德文｜松白｜穿容｜叔白\n漳州｜sing¹｜ting⁵｜tik⁴｜tshing⁵｜—｜tisk⁴\n長泰｜sing¹｜ting⁵｜tik⁴｜tshing⁵｜—｜tsik⁴\n龍海｜sing¹｜tin⁵｜tit⁴｜tshing⁵｜—｜tsit⁴\n華安｜sing¹｜ting⁵｜tik⁴｜tshing⁵｜—｜tsik⁴\n南靖｜sing¹｜ting⁵｜tik⁴｜tshing⁵｜—｜tsik⁴\n平和｜sɛng¹｜tɛng⁵｜tek⁴｜siɔng⁵｜—｜tsɛk⁴\n漳浦｜sɛng¹｜tɛng⁵｜tik⁴｜siɔng⁵｜—｜tsiɔk⁴\n雲霄｜sian¹｜tian⁵｜tiat⁴｜siɔng⁵｜—｜tsiɔk⁴\n東山｜sɛng¹｜tɛng⁵｜tek⁴｜siɔng⁵｜—｜tsiɔk⁴\n詔安｜sieng¹｜tieng⁵｜tiek⁴｜siɔng⁵｜—｜tsik⁴\n漳平｜sin¹｜tin⁵｜tit⁴｜siɔng⁵｜—｜tsiɔk⁴\n龍岩｜sin¹｜tin⁵｜tiat⁴｜siong⁵｜—｜tsok⁴\n永福｜sin¹｜tin⁵｜tit⁴｜siong⁵｜tshong⁵｜tsok⁴\n東山²｜seng¹｜teng⁵｜tek⁴｜siɔng⁵｜tshiɔng⁷｜tsiɔk⁴\n宜蘭｜sing¹｜ting⁵｜tik⁴｜sing⁵｜tshing⁷｜tsik⁴\n新港｜sing¹｜ting⁵｜tik⁴｜tshing⁵｜tshing⁷｜tsik⁴\n漳州²｜sing¹｜ting⁵｜tik⁴｜tshiɔng⁵｜tshing⁷｜tsik⁴\n漳浦｜—｜—｜—｜—｜tshiɔng⁷｜tsiɔk⁴/tsioʔ⁴\n灌口｜—｜—｜—｜—｜—｜—\n麥都思\n原拼音｜seng¹｜têng｜tek⁴｜ch'heng⁵｜ch'hēng｜chek\n譯｜sɛng¹｜tɛng⁵｜tɛk⁴｜tshɛng⁵｜tshɛng｜tsɛk",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -145,7 +145,7 @@
 "text": "·59·附錄\n十五音｜經｜姜｜姜｜鋼｜高｜官\n例字｜粟白｜羊文｜雙白｜糖白｜薄白｜橫白\n漳州｜thhik⁴｜iang⁵｜siang¹｜thng⁵｜po⁸｜huaN⁵\n長泰｜tshik⁴｜iang⁵｜siang¹｜thɔN⁵｜pɔ⁸｜huaiN⁵\n龍海｜tshit⁴｜iang⁵｜siang¹｜thng⁵｜po⁸｜huaN⁵\n華安｜tshik⁴｜iang⁵｜siang¹｜thng⁵｜po⁸｜huaN⁵\n南靖｜tshik⁴｜—｜siang¹｜thng⁵｜po⁸｜huaN⁵\n平和｜tshek⁴｜—｜siang¹｜thng⁵｜pɔ⁸｜huaN⁵\n漳浦｜siɔk⁴｜iang⁵｜siang¹｜thng⁵｜pɔ⁸｜huɛN⁵\n雲霄｜tshiɔk⁴｜—｜siang¹｜thng⁵｜po⁸｜huiN⁵\n東山｜tshiɔk⁴｜iang⁵｜siang¹｜thng⁵｜po⁸｜huaN⁵\n詔安｜tshiɔk⁴｜ian⁵｜siang¹｜thng⁵｜pɔ⁸｜huɛN⁵\n漳平｜tshiɔk⁴｜giɔng⁵｜siang¹｜thng⁵｜puɤ⁸｜huɛN⁵\n龍岩｜tshok⁴｜—｜suang¹｜thoN⁵｜po⁶｜huɛN⁵\n永福｜tshok⁴｜giang⁵｜｜thng⁵｜po⁸｜huiN⁵\n東山²｜tshiɔk⁴｜—｜siang¹｜thəng⁵｜poʔ⁸｜huaN⁵\n宜蘭｜tshik⁴｜ing⁵｜sing¹｜thng⁵｜po⁷｜huaiN⁵\n新港｜tshik⁴｜iang⁵｜siang¹｜thng⁵｜po⁸｜huaiN⁵\n漳州²｜tshik⁴｜iang⁵｜siang¹｜thng⁵｜po⁸｜huaN⁵\n漳浦｜tshiɔk｜—｜—｜—｜—｜—\n灌口｜—｜—｜—｜—｜—｜—\n麥都思\n原拼音｜sëuk｜yâng｜sang｜thêⁿᵍ｜pǒh｜hwⁿâ\n譯｜siɔk⁴｜iang⁵｜sang¹｜thng⁵｜po⁸｜huaN⁵",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -156,7 +156,7 @@
 "text": "·60·\n十五音｜居｜瓜｜瓜｜官｜瓜\n例字｜肺白｜瓜文｜瓜白｜寡文｜寡白\n漳州｜hi³｜—｜—｜—｜—\n長泰｜hi³｜—｜—｜—｜—\n龍海｜hi³｜—｜—｜—｜—\n華安｜hi³｜—｜—｜—｜—\n南靖｜hi³｜—｜—｜—｜—\n平和｜hui³｜—｜—｜—｜—\n漳浦｜hui³｜—｜—｜—｜—\n雲霄｜hui³｜—｜—｜—｜—\n東山｜hui³｜—｜—｜—｜—\n詔安｜hui³｜—｜—｜—｜—\n漳平｜hi³｜—｜—｜—｜—\n龍岩｜hui³｜—｜—｜—｜—\n永福｜hi³｜kua¹｜kua¹｜kua²｜—\n東山²｜hui³｜—｜kua¹｜kuaiN²｜—\n宜蘭｜hi³｜—｜kuɛ¹｜kua²｜kua²\n新港｜hi³｜kua¹｜kue¹｜kuaN²｜kua²\n漳州²｜hi³｜kua¹｜kua¹｜kuaN²｜kua²\n漳浦｜—｜—｜kuɛ¹/kuai¹｜kuɛN²｜—\n灌口｜—｜—｜—｜—｜—\n麥都思\n原拼音｜hè｜kwa｜kwa｜kwⁿá｜—\n譯｜hi³｜kua¹｜kua¹｜kuaN²｜—",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

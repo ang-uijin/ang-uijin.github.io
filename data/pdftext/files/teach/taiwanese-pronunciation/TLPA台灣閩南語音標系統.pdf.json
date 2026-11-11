@@ -19,11 +19,11 @@
 "text": "2.鼻化韻\nann｜餡｜enn｜嬰（漳）｜inn｜燕｜｜\nonn｜好：好奇｜m｜姆｜ng｜秧｜｜\nainn｜閒（同）｜aunn｜□｜irinn｜閒（泉）｜｜\niann｜纓｜ionn｜鶯（漳）｜iunn｜鴦｜iaunn｜貓\nuann｜鞍｜uenn｜妹（漳）｜uinn｜黃（漳）｜uainn｜關\n註：<irinn> [▢▢]\n3.鼻尾韻\nam｜庵｜an｜安｜ang｜尪｜om｜箴｜ong｜汪\nirm｜箴（泉）｜irn｜恩（泉）｜irng｜登（泉）｜｜｜｜\nim｜音｜in｜因｜ing｜永｜｜｜｜\niam｜閹｜ian｜煙｜iang｜雙｜｜｜iong｜雍\nun｜溫｜uan｜冤｜uang｜嚁｜｜｜｜\n註：<ing> [iəŋ]，<ian> [iɛn(老派)，ɛn(新派)]。\n㈡入聲韻\n1.束喉入聲韻（喉塞韻）\nah｜鴨｜eh｜厄｜ih｜舌｜｜\nooh｜□｜oh｜學｜uh｜突｜｜\neeh｜格（漳）｜erh｜郭（泉）｜ereh｜狹（泉）｜｜\naih｜□｜auh｜□｜｜｜｜\niah｜役｜ioh｜藥｜iuh｜□｜iauh｜□\nuah｜活｜ueh｜劃（漳）｜uih｜劃（泉）｜uaih｜□\n註：<ereh> [əeʔ]。\n2.鼻化入聲韻\nannh｜□｜ennh｜莢｜innh｜物\nonnh｜膜｜mh｜默｜ngh｜物（泉）\nainnh｜□｜aunnh｜□｜｜\niannh｜□｜iunnh｜□｜iaunnh｜□\nuennh｜□｜uinnh｜□｜uainnh｜□\n3.普通入聲韻\nap｜壓｜at｜遏｜ak｜握｜op｜□｜ok｜惡\nirp｜澀（泉）｜irt｜核（泉）｜irk｜黑（泉）｜｜｜｜\nip｜揖｜it｜乙｜ik｜益｜｜｜｜\niap｜業｜iat｜閱｜iak｜約（漳）｜iut｜□｜iok｜育\nut｜熨｜uat｜越｜uak｜□｜｜｜｜\n註：<ik> [iək]，<iat> [iɛt(老派)，ɛt(新派)]\n三、聲調：\n1｜東｜2｜董｜3｜凍｜4｜督\n5｜童｜6｜動（泉）｜7｜洞｜8｜毒\n9｜中央（合音）｜0｜（輕聲）｜｜｜｜\n註：中央（合音）<tiong⁹>，或作tiong9，音值為[tioŋ³⁵]，一個音節。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
-"兩讀不一致",
 "羅馬字多",
-"表格"
+"表格",
+"表格順序不同"
 ]
 },
 {

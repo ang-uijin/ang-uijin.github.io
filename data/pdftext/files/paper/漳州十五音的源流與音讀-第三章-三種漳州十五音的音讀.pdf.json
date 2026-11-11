@@ -49,11 +49,11 @@
 "text": "25　三種漳州十五音的音讀\n沽｜koe｜[ -ou ]｜沽｜o｜[ -ɔ ]\n嬌｜këau｜[ -iau ]｜嬌｜iau｜[ -iau ]\n稽｜key｜[ -ei ]｜稽｜（併入嘉韻）\n恭｜këung｜[ -iong ]｜恭｜iong｜[ -iong ]\n高｜ko｜[ -o ]｜高｜o｜[ -o ]\n皆｜kae｜[ -ai ]｜皆｜ai｜[ -ai ]\n巾｜kin｜[ -ɪn /iɨn ]｜巾｜in｜[ -in ]\n姜｜këang｜[ -iang ]｜姜｜iang｜[ -iang ]\n甘｜kam｜[ -am ]｜甘｜am｜[ -am ]\n瓜｜kwa｜[ -ua ]｜瓜｜oa｜[ -ua ]\n江｜kang｜[ -ang ]｜江｜ang｜[ -ang ]\n兼｜këem｜[ -iɛm/iam ]｜兼｜iam｜[ -iam ]\n交｜kaou｜[ -au ]｜交｜au｜[ -au ]\n迦｜këa｜[ -ia ]｜迦｜ia｜[ -ia ]\n檜｜koëy｜[ -uei ]｜檜｜oe｜[ -ue ]\n監｜kⁿa｜[ -aN ]｜監｜aⁿ｜[ -aN ]\n艍｜koo｜[ -u ]｜龜｜u｜[ -u ]\n膠｜ka｜[ -a ]｜膠｜a｜[ -a ]\n居｜ke｜[ -i ]｜居｜i｜[ -i ]\n丩｜kew｜[ -iu ]｜丩｜iu｜[ -iu ]\n更｜kaiⁿᵍ｜[ -ɛN ]｜更｜eⁿ｜[ ɛN ]\n褌｜kwuiⁿᵍ｜[ -uiN ]｜▢｜uiⁿ｜[ -uiN ]\n茄｜këo｜[ -io ]｜茄｜io｜[ -io ]\n梔｜keeⁿᵍ｜[ -iN ]｜梔｜iⁿ｜[ -iN ]\n（與牛併為薑）\n薑｜këoⁿᵍ｜[ -ioN ]\n驚｜këⁿa｜[ -iaN ]｜驚｜iaⁿ｜[ iaN ]\n官｜kwⁿa｜[ -uaN ]｜官｜oaⁿ｜[ -uaN ]\n鋼｜keⁿᵍ｜[ -ng ]｜褌｜ng｜[ -ng ]\n（併褌鋼為一韻）",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
-"兩讀不一致",
 "羅馬字多",
-"表格"
+"表格",
+"表格順序不同"
 ]
 },
 {

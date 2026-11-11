@@ -19,7 +19,7 @@
 "text": "住民志\n油車港94出生於十九世紀。是我們所訪問過的，最年老的新竹發音人。\n油車港94的音韻系統和新竹76極爲相似，有一些不同，表現了新竹較保守的發音。茲分述於下：\na.聲母：十五音\n表面看來，油車港94和新竹76都是十五音齊全。但新竹76的話音有許多「入」母歸「柳」(j→l)，但油車港94於傳統「入」字頭的字都保存著j-[dz-]，沒有發現唸l的。如：\n廿五歲 ji₁₁ goo₁₁ her₁₁　日本 jit₁ pun₃₁　日暗jit₃/am₁₁\nb.韻母：\n油車港94的語料不足，尚難確定有多少韻母，但有八個元音則可以確定。即：\na，e，i，oo，o，u，er，uu\n和新竹76不同的是「居」韻肯定唸展唇後元音。 e的舌位也較新竹76爲低。er/or自由變讀。\n「卿」韻，一般台灣閩南語都有個小小的唰音，每一個人不太一樣。新竹市不論老派，新派都有唰音，爲音位整齊計，一般不標示出來。油車港94的「卿」韻也有一個小小的唰音-ing[ierng]，但-ik[iek]卻有明顯的大唰音，舌位接近e，爲不可忽視的音値。如：「新竹」sin₂₂ tiek₂。\n油車港94沒有-enn韻，但語助詞卻有一個「呢」ne₂₁，大概也是吸收了優勢音的結果。\nc.聲調\n油車港94的聲調系統跟新竹76也很相似。其七個主聲調是：\n平｜上｜去｜入｜喉入\n陰｜33>22｜31>23｜11>31｜2>3｜2>3/31\n陽｜13>11｜｜22>11｜3>1｜3>1\n不同的地方是陽平聲固定唸13調。新竹76只是偶爾唸13，大部份是接輕聲時，13調較明顯，其餘多半唸12調，油車港94則一律唸13調，沒有唸12調的。\n②204",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -201,7 +201,7 @@
 "text": "語言篇\nkam²\n洪：彼叫做三板仔咁毋是\nsi⁷・la₁₁/sam¹pan₃₃ na₂₁・la₁₁/\n韋：是啦，三板仔啦。\n牽罟\nkhan¹ koo¹\n洪：遮有咧牽罟無？\nkhan¹koo¹/u⁷・la₁₁/tsim₃₃ma₃₁/to¹kun¹pun²/liah⁸kah₃/to¹bo⁵siann²hir⁵/\n韋：牽罟有啦。職馬都根本掠駕都無啥魚。\n洪：職馬無咧牽=矣咁毋是？\nbo⁵・la₁₁/tsim₃₃ma₃₁/berh₃to₂₃₁sinn₃₃₁?/sio¹tsui²/sio¹kah₃/hir⁵he⁵/kann²ua²・lai₁₁/bo⁵・loo₁₁/\n韋：無啦。職馬卜佗位生-，燒水燒駕-，魚蝦敢倚=來？無咯。\n洪：汝講海水燒燙燙是否？\nhai²tsui²/tsim₃₃ma₃₁/sio¹thng³x/m⁷ kann²ua²・lai₁₁・a₁₁/\n韋：海水職馬燒燙燙，毋敢倚來啊。\n洪：魚仔嘛會曉走去涼。\nsi⁷・a₁₁/\n韋：是啊。\nkuann⁵thinn¹\n洪：寒天職馬咁天有咧牽？\nbo⁵・a₁₁/kuann⁵thinn¹/ma⁷bo⁵khan¹/tang¹thinn¹si⁵/ing²/tsin¹tua⁷/kann₃₃na₃₃tshu³/an₃₃ni¹/ing²/khi²・\n韋：無啊，寒天嘛無牽。冬天時湧眞大敢那厝按呢湧起\nai₁₁/m⁷na⁷tse¹/tshu³/e⁵kuainn⁵/sue³tsiah₃tsun₁₁na₃₁/suah₃u⁷huat⁴too⁷/sam¹pan₃₃na₂₁phah₃\n來毋但這厝个峘，細隻船仔煞有法度？三板仔扑\nping²・loo₁₁/herh₃herh₃herh₃\n反咯，嘿嘿嘿…\ntsha⁵\n董：三板仔是樵做=个或是竹仔=个？\nsam₂₂ma₃₁/tsue³・e₁₁/\n韋：杉仔做个。\n②217",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

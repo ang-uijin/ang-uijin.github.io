@@ -15,7 +15,7 @@
 "text": "‧44‧\ninto eight Tones. (五十字母與八音結合表)\n12. On the Difference Between th Colloquial and Reading Dialects. (論文白異讀)\n13. 本文。\n14. An Index of the Characters which occur in the Dictionary Arranged According to the Radicals. (漢字索引)",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -87,7 +87,7 @@
 "text": "·52·\n即十九世紀初期的漳州音最寶貴的資料。\n2.5《十五音》的音讀擬定\n我們現在就根據麥都思的描寫，參照現代漳州方言資料，來考證《十五音》的音讀。本文所引用的現代漳州音資料，主要有；董同龢(1960)、中嶋幹起(1977、1979)、周長楫(1986)，詳細請參閱卷末「本論文重要參考書目」。相關研究請參見拙著〈漳州三種十五音的源流與音讀〉(1989)。\n2.6 十五字頭\n聲母，傳統閩語韻學稱之為「字頭」(zi⁷ thau⁵)，麥都思譯為initial。\n麥都思對於「字頭」描寫如下：\n1. 柳 1 [1-]出現於非鼻化元音之前。依筆者審音，所有閩南語的1-，幾乎是個濁塞音[d]，只有在低元音之前，稍帶流音性質。董同龢〈廈門方言的音韻〉描寫廈門音的1-時說：「1的阻塞成分比一般的邊音多，有時接近塞音，閩南人學英語，往往不容易分別late和date，原因在此。」①閩南語的濁塞音b-d-g-阻塞度甚低，大約等於m，n，ŋ除去鼻音成分。事實上b-d-g-歷史上也是m-n-ŋ-除去鼻音變化的結果，d-因為阻塞度低，音質上類似1-，所以閩南語n>d之後便和1-混同為「柳」母，就系統上說，b-m，d-n，g-ŋ是成對的關係，所以「柳」母在系統上歸入塞音應較合理，只是宥於一般習慣，都標為1-罷了。\nn [n-]出現於鼻化韻之前。麥都思說：「（柳母）跟鼻化韻(nasal final)連接時，1大量混入鼻音，而聽到類似n的聲音。」換言之，《十五音》同一字頭的聲母，麥都思根據其音值，析為1和n。此一觀念亦應用於「門」b/m，「語」g/ng二母。聲母數因而多出三個。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -211,7 +211,7 @@
 "text": "·64·\n紛歧，依周長楫(1986)有這些讀法：\n-ing：漳州市、長泰、龍海、華安、南靖(皆在漳州府東片)。\n-in：漳平(-ing 的變種)\n-εng：平和、漳浦、東山(漳州府西片)\n-ieng：詔安(εng 的變種)\n-ian：雲宵(ieng 的變種)\n為了音位系統的整齊，我們姑且以 -ing 為代表來標示十五音的「經」韻。\n經過這樣的音位處理，我們將《彙集雅俗通十五音》的韻母系統整理如左列、並與麥都思的拼音(右列)對照列表於下：\n-a 部\n舒聲：\na 膠 a｜am 甘 am｜an 干 an｜ang 江 ang｜aN 監 ⁿa\nia 迦 ëa｜iam 兼 ëem｜ian 堅 ëen｜iang 姜 ëang｜iaN 驚 ëⁿa\nua 瓜 wa｜｜uan 觀 wan｜uang 光 wang｜uaN 官 wⁿa\nai 皆 ae｜｜｜｜aiN 閒 aeⁿᵍ\nuai 乖 öae｜｜｜｜uaiN 問 waeⁿᵍ\nau 交 aou｜｜｜｜auN 爻 ⁿaou\niau 嬌 ëaou｜｜｜｜iauN 嘄 ⁿëaou\n入聲：\na? 膠 ăh｜ap 甘 ap｜at 干 at｜ak 江 ak｜aN? 監 ⁿăh\nia? 迦 ëah｜iap 兼 ëep｜iat 堅 ëet｜iak 姜 ëak｜—\nua? 瓜 wăh｜｜uat 觀 wat｜uak 光 wak｜—\n—｜｜｜｜—\nuai? 乖 waĕh｜｜｜｜uaiN? 問 waĕⁿᵍh\nau? 交 aoŭh｜｜｜｜—\niau? 嬌 ëaoŭh｜｜｜｜iauN? 嘄 ëaoŭⁿᵍh\n-ε 部\n舒聲：",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -222,7 +222,7 @@
 "text": "麥都思《福建方言字典》的價值·65·\nε 嘉 ay｜｜｜｜εN 更 aiⁿᵍ\n入聲：\nε? 嘉 ăyh｜｜｜｜εN? 更 aĭⁿᵍh\n-e 部\n舒聲：\ne 伽 ay\nei 稽 ey\nuei 檜 öey｜｜｜｜ueiN 糜 ⁿöey\n入聲：\ne? 伽 ăyh\n—\nuei? 檜 öĕyh｜｜｜｜—\n-i 部\n舒聲：\ni 居 e｜im 金 im｜in 巾 in｜iŋ 經 eng｜iN 梔 eeⁿᵍ\nui 規 wui｜｜｜｜uiN 褌 wuiⁿᵍ\n入聲：\ni? 居 ĕh｜ip 金 ip｜it 巾 it｜ik 經 ek｜iN? 梔 eeⁿᵍh\n—｜｜｜｜—\n-o 部\n舒聲：\no 高 o｜om 箴 om｜｜ong 公 ong｜oN 扛 ⁿo\nio 茄 ëo｜｜｜iong 恭 ëung｜ioN 薑 ëoⁿᵍ\nou 沽 oe｜｜｜｜ouN 姑 ⁿoe\n入聲：\no? 高 ŏh｜op 箴 op｜｜ok 公 ok｜oN? 扛 ⁿŏh\nio? 茄 ëŏh｜｜｜iok 恭 ëuk｜—\n—｜｜｜｜—\n-u 部",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -287,7 +287,7 @@
 "text": "麥都思《福建方言字典》的價值·71·\n值描寫的不同符號加以區別而已。\n麥都思進一步解釋他的拼音法造成韻母數增加的結果(p.38)的一段話，充份說明他為適應歐洲人的習慣調整其拼音法的用心，他說：「這些對中國人來說只不過是聲調的變化而已，但是歐洲的書寫法要求拼法的變化。促聲韻不採用相同的字母，根據不同的韻尾而有所變化。」\n漳州話的元音系統，依照上節的分析可以歸納為 6 個，即：\ni｜u\ne｜o\nε｜a\n但是麥都思的符號系統卻遠為複雜。依其說明，可以列表如下：\ny,ë,e(i)｜w,oo,oe(u)\nim(ɪ)｜wun,öey,aou(ʊ)\ney ai,ay(e)｜o,ëung(o)\nëen,eng,ai,ay(ε)｜a,ëem(a)\n這個元音系統相當複雜，不但將同一音位的變體分別用不同的符號表示，如將 i 或 u 音各分為兩套，並且同樣的元音，也用不同的符號標示，完全承襲了英語拼音的缺點。後來出現的羅馬字閩南語辭典不再採用其拼法，可說是當然的選擇了。\n關於鼻化元音的處理，麥都思也別出心裁。他將鼻化音以三種方式標示(p.38)，茲抄錄於下：\n一、ⁿa [aN]｜ⁿëaou [iauN]\nëⁿa [iaN]｜ⁿaou[auN]\nwⁿa [uaN]｜ⁿo[oN]\nⁿoe[ouN]｜ⁿew[iuN]\n這一類用一個小 n 標在介音或元音之間，或介音之前。\n二、aiⁿᵍ [εN]｜ëoⁿᵍ [ioN]\nwuiⁿᵍ [uiN]｜eⁿᵍ [ng]\neeⁿᵍ [iN]｜aeⁿᵍ [aiN]",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -328,7 +328,7 @@
 "text": "麥都思《福建方言字典》的價值·75·\n藍清漢《中國語宜蘭方言語彙集》1980，東京外國語大學：亞非言語文化研究所。\n周長楫《福建境內閩南方言的分類》1986，《語言研究》2(11)：69-84。\n張振興《漳平（永福）方言同音字匯》1982，《方言》3：203-228。\n←——Handbook of Middle English Grammar: Phonology, by Richard Jordan, translated and revised by Eugene J. Crook, 1974, Mouton, the Hague, Paris.",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]

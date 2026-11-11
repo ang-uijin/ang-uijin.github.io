@@ -150,7 +150,7 @@
 "text": "·64·\n紛歧，依周長楫 (1986) 有這些讀法：\n-ing：漳州市、長泰、龍海、華安、南靖（皆在漳州府東片）。\n-in：漳平（-ing 的變種）\n-ɛng：平和、漳浦、東山（漳州府西片）\n-ieng：詔安（ɛng 的變種）\n-ian：雲宵（ieng 的變種）\n為了音位系統的整齊，我們姑且以 -ing 為代表來標示十五音的「經」韻。\n經過這樣的音位處理，我們將《彙集雅俗通十五音》的韻母系統整理如左列、並與麥都思的拼音（右列）對照列表於下：\n-a 部\n舒聲：\na 膠 a｜am 甘 am｜an 干 an｜ang 江 ang｜aN 監 ⁿa\nia 迦 ëa｜iam 兼 ëem｜ian 堅 ëen｜iang 姜 ëang｜iaN 驚 ëⁿa\nua 瓜 wa｜｜uan 觀 wan｜uang 光 wang｜uaN 官 wⁿa\nai 皆 ae｜｜｜｜aiN 閒 aeⁿᵍ\nuai 乖 öae｜｜｜｜uaiN 閂 waeⁿᵍ\nau 交 aou｜｜｜｜auN 爻 ⁿaou\niau 嬌 ëaou｜｜｜｜iauN 嘄 ⁿëaou\n入聲：\na? 膠 ăh｜ap 甘 ap｜at 干 at｜ak 江 ak｜aN? 監 ⁿăh\nia? 迦 ëah｜iap 兼 ëep｜iat 堅 ëet｜iak 姜 ëak｜—\nua? 瓜 wăh｜｜uat 觀 wat｜uak 光 wak｜—\n—｜｜｜｜—\nuai? 乖 waĕh｜｜｜｜uaiN? 閂 waĕⁿᵍh\nau? 交 aoŭh｜｜｜｜—\niau? 嬌 ëaoŭh｜｜｜｜iauN? 嘄 ëaoŭⁿᵍh\n-ɛ 部\n舒聲：",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -161,7 +161,7 @@
 "text": "麥都思《福建方言字典》的價值·65·\nɛ 嘉 ay｜｜｜｜ɛN 更 aiⁿᵍ\n入聲：\nɛ? 嘉 ăyh｜｜｜｜ɛN? 更 aĭⁿᵍh\n-e 部\n舒聲：\ne 伽 ay\nei 稽 ey\nuei 檜 öey｜｜｜｜ueiN 糜 ⁿöey\n入聲：\ne? 伽 ăyh\n—\nuei? 檜 öĕyh｜｜｜｜—\n-i 部\n舒聲：\ni 居 e｜im 金 im｜in 巾 in｜iŋ 經 eng｜iN 梔 eeⁿᵍ\nui 規 wui｜｜｜｜uiN 褌 wuiⁿᵍ\n入聲：\ni? 居 ĕh｜ip 金 ip｜it 巾 it｜ik 經 ek｜iN? 梔 eeⁿᵍh\n—｜｜｜｜—\n-o 部\n舒聲：\no 高 o｜om 箴 om｜｜ong 公 ong｜oN 扛 ⁿo\nio 茄 ëo｜｜｜iong 恭 ëung｜ioN 薑 ëoⁿᵍ\nou 沽 oe｜｜｜｜ouN 姑 ⁿoe\n入聲：\no? 高 ŏh｜op 箴 op｜｜ok 公 ok｜oN? 扛 ⁿŏh\nio? 茄 ëŏh｜｜｜iok 恭 ëuk｜—\n—｜｜｜｜—\n-u 部",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

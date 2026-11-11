@@ -14,7 +14,7 @@
 "text": "其四[門扇]\n上聯：小人去歇喘\n下聯：君子出頭天",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 }
 ]

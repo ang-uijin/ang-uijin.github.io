@@ -7,7 +7,7 @@
 "text": "台灣十五音辭典 音讀對照表\n一、聲母（十五字頭）\nP 〔P〕邊｜Ph 〔P‘〕頗｜b 〔b/m〕文\nt 〔t〕地｜th 〔t‘〕他｜l 〔l/n〕柳\nch 〔ts〕曾｜chh 〔ts‘〕出｜s 〔s〕時｜j 〔dz〕入\nk 〔k〕求｜kh 〔k‘〕去｜g 〔g/ng〕語\n〔ʔ-〕英｜h 〔h〕喜\n註：本辭典基本上採用敎會羅馬字，但仍堅持《十五音》的聲韻學觀念，聲母符號只用 15 個，文柳語三母接鼻音韻仍用 b, l, g 標示\n二、韻母（四十六字母）\nA.舒聲（46 個）\n1. a 〔a〕膠｜e 〔e〕家｜i 〔i〕居\no· 〔ɔ〕姑｜o 〔o〕高｜u 〔u〕龜\nai 〔ai〕皆｜au 〔au〕交\nia 〔ia〕迦｜io 〔io〕滘｜iu 〔iu〕丩｜iau 〔iau〕嬌\noa 〔ua〕瓜｜oe 〔ue〕▢｜ui 〔ui〕規｜oai 〔uai〕乖\n2. aⁿ 〔aN〕監｜eⁿ 〔ɛN〕｜iⁿ 〔iN〕梔\noⁿ 〔ɔN〕扛｜m 〔m〕姆｜ng 〔ng〕缸\naiⁿ 〔aiN〕閒｜auⁿ 〔auN〕爻\niaⁿ 〔iaN〕驚｜*ioⁿ 〔iɔN〕韁｜iuⁿ 〔iuN〕薑｜iauⁿ 〔iaN〕嘄\noaⁿ 〔uaN〕官｜—｜uiⁿ 〔uiN〕▢｜oaiⁿ 〔uaiN〕關\n3. am 〔am〕甘｜an 〔an〕干｜ang 〔ang〕江\nom 〔ɔm〕箴｜—｜ong 〔ɔng〕公\nim 〔im〕金｜in 〔in〕根｜eng 〔ing〕經｜iong 〔iɔng〕宮\niam 〔iam〕兼｜ian 〔ian〕堅｜iang 〔iang〕姜\nun 〔un〕君｜oan 〔uan〕觀｜oang 〔uang〕光\nB.入聲（40 個）\n1. ah 〔ah〕膠｜eh 〔eh〕家｜ih 〔ih〕居",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
