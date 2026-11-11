@@ -961,12 +961,11 @@
 },
 {
 "n": 98,
-"text": "鬼神篇\n【又說錄】\nsin⁵ · tiong⁷kng¹ lang⁵ · tiong⁷tsng¹\n神重扛，儂重妝\n見2.4【神愛扛，儂愛妝】\nlang⁵ · tioh⁸tsng¹ ang¹ · tioh⁸kng¹\n儂著妝，尫著扛\n見2.4【神愛扛，儂愛妝】\nhieng¹ka³ e⁷ tsiah⁸ko¹a²\n興駕會食糕仔\n見2.17【聖駕會食糕仔】\nang¹ · hian² te⁷tsu² · liau²tsinn⁵\n尫顯，弟子了錢\n見2.18【尫顯，弟子落臉】\nsin⁵bieng⁵ · hieng¹ te⁷tsu² · kieng⁵\n神明興，弟子窮\n見2.18【尫顯，弟子落臉】\ntsiah⁸bo⁵sann¹ni⁵sian¹sai² toh⁸beh⁴tsiunn⁷se¹thian¹\n食無三年仙屎，著卜上西天\n見2.22【食無三把蕹菜 著卜上西天】\ntso³kui² · to¹tshiunn²bo⁵tsiah⁸\n做鬼都搶無食\n見2.29【做鬼都搶無粿箬】\n101",
+"text": "鬼神篇\n【又說錄】\nsin⁵ · tiong⁷kng¹ lang⁵ · tiong⁷tsng¹\n神重扛，儂重妝\n見2.4【神愛扛，儂愛妝】\nlang⁵ · tioh⁸tsng¹ ang¹ · tioh⁸kng¹\n儂著妝，尫著扛\n見2.4【神愛扛，儂愛妝】\nhieng¹ka³ e⁷ tsiah⁸ko¹ a²\n興駕會食糕仔\n見2.17【聖駕會食糕仔】\nang¹ · hian² te⁷tsu² · liau²tsinn⁵\n尫顯，弟子了錢\n見2.18【尫顯，弟子落臉】\nsin⁵bieng⁵ · hieng¹ te⁷tsu² · kieng⁵\n神明興，弟子窮\n見2.18【尫顯 弟子落臉】\ntsiah⁸bo⁵sann¹ni⁵sian¹sai² toh⁸beh⁴tsiunn⁷se¹thian¹\n食無三年仙屎，著卜上西天\n見2.22【食無三把蕹菜 著卜上西天】\ntso³kui² · to¹tshiunn²bo⁵tsiah⁸\n做鬼都搶無食\n見2.29【做鬼都搶無粿箬】\n101",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },

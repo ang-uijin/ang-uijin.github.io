@@ -603,13 +603,13 @@
 },
 {
 "n": 61,
-"text": "台語經典笑話\n一袋蕃薯\nkap⁴khe³ tng¹ tu²\nphah⁴ te² iap⁴\nhiau¹\n有一个查某儂,佮契兄 當咧鬥陣。拄佪翁轉來咧扑門。查某儂 著急,將契兄 貯入去布袋仔,揜帶門後。佪翁 看著布袋 心内 梟疑,問講:\n「這是啥貨?」\ni¹ x ngh⁸ x\n佪某 伊伊 怏怏 應袂出=來。契兄 帶布袋仔内替伊應講:\nsuah⁴\n「煞毋知影是蕃薯。」\n59\n〔圖〕蕃薯",
+"text": "台語經典笑話\n一袋蕃薯\nkap⁴khe³ tng¹ tu² phah⁴ te² iap⁴ hiau¹\n有一个查某儂，敆契兄 當咧鬥陣。拄𪜶翁轉來咧扑門。查某儂 著急，將契兄 貯入去布袋仔，揜帶門後。𪜶翁 看著布袋 心内梟疑，問講：\n「這是啥貨？」\ni¹ x ngh⁸ x\n𪜶某 伊伊 怏怏 應袂出=來。契兄 帶布袋仔内替伊應講：\nsuah⁴\n「煞毋知影是蕃薯。」\n59\n〔圖〕蕃薯",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
-"圖多字少"
+"圖多字少",
+"羅馬字多"
 ]
 },
 {
@@ -727,12 +727,11 @@
 },
 {
 "n": 73,
-"text": "台語經典笑話\n咱卜請=伊。」\ntsiann⁵ sit⁸ iann³ tshi⁷tsha⁷hau² iah⁴ iau¹ ko³ na² nua⁷ tong³ tiau⁵\n隔轉日，先生誠實來卜予個請。囡仔个老母假佯佇灶跤用空鼎炒駕市吵吼，煮駕過晝，益未通好食。先生佇廳=裏是枵駕大腸告小腸。職个時陣，看著窗仔邊有兩塊餠，先生那看瀾那流，擋袂椆，著偷偷仔提來食。\nsiam¹ khian⁵\n囡仔个老母帶内面，瞻看著餠無·去，著出來，假虔講：\n「啊咦？餠是佗位去？阿囝，汝有偷食也無？」\npeh⁴ oo²\n著呌個囝喙擘開，用指頭仔共伊摀嚨喉，講：\nhe¹ te³ thau⁷niau² thoo³\n「死囡仔，彼是塊毒老鼠=个呢！若無緊吐·出來，汝會死。」\n先生聽了著驚，著照實講是伊食·去=个。\n老母講：\ntann¹\n「今著緊吐·出來。」\n先生講：\ntha³\n「卜塔吐會出=來？」\nhak⁸ io² hia¹\n老母趕緊去屎礐仔舀一櫼仔屎來卜予先生\n71",
+"text": "台語經典笑話\n咱卜請=伊。」\ntsiann⁵ sit⁸ iann³ tshi⁷tsha⁷hau² iah⁴ iau¹ ko³ na² nua⁷ tong³ tiau⁵\n隔轉日，先生誠實來卜予𪜶請。囡仔个老母假佯佇灶跤用空鼎炒駕市吵吼，煮駕過晝，益未通好食。先生佇廳=裏是枵駕大腸告小腸。職个時陣，看著窗仔邊有兩塊餠，先生那看瀾那流，擋袂椆，著偷偷仔提來食。\nsiam¹ khian⁵\n囡仔个老母帶内面，瞻看著餠無·去，著出來，假虔講：\n「啊咦？餠是佗位去？阿囝，汝有偷食也無？」\npeh⁴ oo²\n著呌𪜶囝喙擘開，用指頭仔共伊摀嚨喉，講：\nhe¹ te³ thau⁷niau² thoo³\n「死囡仔，彼是塊毒老鼠=个呢！若無緊吐·出來，汝會死。」\n先生聽了著驚，著照實講是伊食·去=个。\n老母講：\ntann¹\n「今著緊吐·出來。」\n先生講：\ntha³\n「卜塔吐會出=來？」\nhak⁸ io² hia¹\n老母趕緊去屎礐仔舀一櫼仔屎來卜予先生\n71",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -820,10 +819,9 @@
 "n": 82,
 "text": "台語文摘\n【註解】\n枵鬼　iau¹kui²：貪吃鬼。\n柴梳　tsha⁵se¹/sa⁵se¹：木製的梳子。餠被咬了一口，狀似【柴梳】，故謂之【柴梳餠】。\n月眉　gueh⁸bai⁵：弦月。餠再咬一大口，狀似【月眉】，故枵鬼大儂謂之【月眉餠】。\n掟　tenn⁷：緊握。\n涔涔流　tsim⁵xlau⁵：血流如注。\n【翻譯】\n一個貪吃鬼的大人看見一個小孩手上拿塊餠，就對小孩說：\n「我咬個梳子餠給你看。」\n說罷眞的就把小孩的餠咬了一口，說：\n「你看，像不像梳子？來，我再咬個弦月餠給你看！」\n小孩連忙用雙手把餠牢牢握緊，不讓他咬。那人硬要咬，竟咬到小孩的手，咬得血流不止。小孩大聲哭，大人趕緊拿手帕幫小孩擦血，說：\n「這下子不要緊了，回到家你媽要是問起被甚麼咬了，就說是被狗咬到的啊。」\n【附註】取材於《台灣風俗誌》。\n80",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1135,12 +1133,11 @@
 },
 {
 "n": 113,
-"text": "台語經典笑話\n毋知啥儂 算了卡著\n王·哥 个查某囝 一歲，柳·哥 个後生 兩歲。\niang¹ tshin¹tsiann⁵\n柳·哥 央一个媒儂 來共王·哥 講親 情，卜娶去\n做新婦仔。\ntsham¹siong⁵\n王·哥 佮亻因某 參 詳講：\nthang¹ nia⁷ x\n「我想 毋 通，咱查某囝即一歲 但但，亻因囝 已\ntsieng¹tsha¹\n經兩歲=矣， 增 差一倍。若後日，咱查某囝 二十\n歲，亻因囝 著四十歲=矣，咱查某囝 若四十歲，亻因囝\nhe¹ m⁷ toh⁸ tsinn²\n著八十歲=矣，彼 毋著老翁 配 芋 婆？」\n亻因某 講：\ntha³ a⁷\n「汝按呢 算 塔何 著。咱查某囝 今年一歲，明\ntoh⁸ ham⁵\n年 著兩歲=矣，益毋是 啥 亻因後生 同年=矣！」\n【註解】\n央 iong¹/iang¹：央託、請託。\n講親情 kong²tshin¹tsiann⁵：提親，說媒。\n新婦仔 sim¹pu⁷a²：童養媳。\n增差 tsieng¹tsha¹：相差。「增」多也；「差」少也，或\n111",
+"text": "台語經典笑話\n毋知啥儂 算了卡著\niang¹ tshin¹tsiann⁵\n王·哥 个查某囝 一歲，柳·哥 个後生 兩歲。柳·哥 央一个媒儂 來共王·哥 講親情，卜娶去做新婦仔。\ntsham¹siong⁵\n王·哥 佮𪜶某 參詳講：\nthang¹ nia⁷ x tsieng¹tsha¹ he¹ m⁷ toh⁸ tsinn²\n「我想 毋通，咱查某囝即一歲 但但，𪜶囝 已經兩歲=矣，增差一倍。若後日，咱查某囝 二十歲，𪜶囝 著四十歲=矣，咱查某囝 若四十歲，𪜶囝 著八十歲=矣，彼 毋著老翁 配▢婆？」\n𪜶某 講：\ntha³ a⁷ toh⁸ ham⁵\n「汝按呢 算 塔何著。咱查某囝 今年一歲，明年 著兩歲=矣，益毋是唅 𪜶後生 同年=矣！」\n【註解】\n央　iong¹/iang¹：央託、請託。\n講親情　kong²tshin¹tsiann⁵：提親，說媒。\n新婦仔　sim¹pu⁷a²：童養媳。\n增差　tsieng¹tsha¹：相差。「增」多也；「差」少也，或\n111",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
