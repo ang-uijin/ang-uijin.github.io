@@ -1,4 +1,4 @@
-{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=1">{{ end }}
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=2">{{ end }}
 {{ define "main" }}
 {{- $site := site.Data.song.site -}}
 {{- partial "song/nav.html" . -}}
@@ -23,9 +23,9 @@
         {{- range $p.places }} › {{ with (index $lk.places .).url }}<a href="{{ . }}">{{ end }}{{ . }}{{ if (index $lk.places .).url }}</a>{{ end }}{{ end }}</p>
       <h1><span class="sg-no">{{ $p.no }}</span>{{ .Title }}{{ with $p.subtitle }}<span class="sg-h1sub">{{ . }}</span>{{ end }}</h1>
       <p class="sg-meta">
-        <span class="sg-tag">{{ index $site.cat_names $p.cat }}・{{ index $site.kind_names $p.genre }}</span>
+        {{ $cn := index $site.cat_names $p.cat }}{{ $kn := index $site.kind_names $p.genre }}<span class="sg-tag">{{ $cn }}{{ if ne $cn $kn }}・{{ $kn }}{{ end }}</span>
         {{- if $p.places }}<span>地點：{{ range $i, $x := $p.places }}{{ if $i }}、{{ end }}{{ with (index $lk.places $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}</span>{{ end }}
-        {{- if $p.singers }}<span>演唱：{{ range $i, $x := $p.singers }}{{ if $i }}、{{ end }}{{ with (index $lk.singers $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}{{ if $p.singer_text }}（{{ $p.singer_text }}）{{ end }}</span>{{ end }}
+        {{- if $p.singers }}<span>演唱：{{ with $p.singer_text }}{{ . }}（列在{{ end }}{{ range $i, $x := $p.singers }}{{ if $i }}、{{ end }}{{ with (index $lk.singers $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}{{ if $p.singer_text }}名下）{{ end }}</span>{{ end }}
       </p>
       {{- if $p.untitled }}<p class="sg-note-line">這一首原網站沒有記曲名，只有編號{{ with $p.label }}（原編號 {{ . }}）{{ end }}。</p>{{ end }}
       {{- with $p.parts }}
@@ -42,9 +42,11 @@
             <img src="https://i.ytimg.com/vi/{{ .yt }}/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer">
             <span class="yt-play" aria-hidden="true"></span>
           </button>
+          <noscript><a class="sg-noscript" href="https://www.youtube.com/watch?v={{ .yt }}{{ with .start }}&amp;t={{ int . }}s{{ end }}">到 YouTube 看這一首的影片</a></noscript>
         </div>
         {{- if .end }}
-        <p class="sg-video-note">這一首在 YouTube 上是合輯「{{ .comp }}」裡的一段（{{ div .start 60 }}:{{ printf "%02d" (mod .start 60) }}–{{ div .end 60 }}:{{ printf "%02d" (mod .end 60) }}），按播放會從這一段開始、播完就停。合輯的畫質比較低。</p>
+        {{- $s := int .start }}{{ $e := int (math.Ceil .end) }}
+        <p class="sg-video-note">這一首的影片在 YouTube 上跟同一位歌手的其他歌接成一支，這一首是其中 {{ div $s 60 }}:{{ printf "%02d" (mod $s 60) }}–{{ div $e 60 }}:{{ printf "%02d" (mod $e 60) }} 那一段。按播放會從這一段開始，播完就停。這支影片的畫質比較低。</p>
         {{- end }}
         {{- with .note }}<p class="sg-gap">{{ . }}</p>{{ end }}
         {{- else }}
@@ -63,7 +65,7 @@
 
       {{- if $hasText }}
       <section class="sg-lyrics sg-lyrics-text" id="lyrics">
-        <h2>歌詞</h2>
+        <h2 id="trans">歌詞與中譯</h2>
         {{ partial "song-lyrics.html" (dict "no" $p.no "page" $) }}
         <p class="sg-orig">看原圖：{{ with $p.lyrics_img }}<a href="{{ .src }}" target="_blank" rel="noopener">歌詞圖</a>{{ end }}{{ with $p.trans_img }}　<a href="{{ .src }}" target="_blank" rel="noopener">中譯圖</a>{{ end }}</p>
       </section>
@@ -86,7 +88,7 @@
       </section>
       {{- else }}
       <section class="sg-lyrics" id="lyrics">
-        <p class="sg-gap">這首沒有歌詞紀錄，只有錄音{{ if $p.video }}與影片{{ end }}。</p>
+        <p class="sg-gap">這一首沒有歌詞紀錄，只有錄音{{ if $p.video }}與影片{{ end }}。</p>
       </section>
       {{- end }}
     </div>
@@ -95,7 +97,11 @@
     <section class="sg-source">
       <h2>出處</h2>
       <ul>
+        {{- if eq $p.cat "score" }}
+        <li>這一首是原「民間歌謠教學研究網」檔案裡的「譜例」，原網站沒有替它做網頁；錄音、歌詞與中譯取自原網站留下的檔案，編號 {{ $p.no }} 是原檔的檔名。</li>
+        {{- else }}
         <li>原載「民間歌謠教學研究網」（2004–2008）{{ if lt (int $p.weight) 104 }}唸歌曲目{{ else if and (ge (int $p.weight) 201) (le (int $p.weight) 226) }}相褒曲目{{ end }}第 {{ $p.no }} 首。</li>
+        {{- end }}
         {{- range $p.singers }}
           {{- with (index $lk.singers .) }}
             {{- $f := .d.fields }}
@@ -127,6 +133,6 @@
     </nav>
   </article>
 </main>
-<script src="/song/song.js?v=1" defer></script>
+<script src="/song/song.js?v=3" defer></script>
 {{- end }}
 {{ end }}

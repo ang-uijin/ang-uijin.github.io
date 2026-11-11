@@ -10,7 +10,9 @@
   {{- if .Params.trans_img }}{{ $has = $has | append "華語翻譯" }}{{ end -}}
   {{- $d = printf "%s第 %s 首〈%s〉：%s%s，%s演唱。有%s。" $site.site_name .Params.no .Title (delimit .Params.places "、") (index $site.kind_names .Params.genre) $who (delimit $has "、") -}}
 {{- else if .Params.place -}}
-  {{- $d = printf "%s採錄的民間歌謠：歌手介紹與每一首的錄音、影片。%s" .Params.place $site.site_name -}}
+  {{- $lk := partialCached "song/lookup.html" "x" -}}
+  {{- if gt (index $lk.places .Params.place).n 0 }}{{ $d = printf "%s採錄的民間歌謠：歌手介紹與每一首的錄音、影片。%s" .Params.place $site.site_name }}
+  {{- else }}{{ $d = printf "%s：原網站留下的幾位歌手的基本資料，沒有收錄歌曲。%s" .Params.place $site.site_name }}{{ end -}}
 {{- else if .Params.singer -}}
   {{- $d = printf "%s演唱的民間歌謠：歌手介紹與每一首的錄音、影片。%s" .Params.singer $site.site_name -}}
 {{- else }}{{ with .Description }}{{ $d = . }}{{ end }}{{ end -}}

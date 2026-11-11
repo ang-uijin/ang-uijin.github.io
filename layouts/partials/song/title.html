@@ -6,13 +6,17 @@
   {{- with .Params.singer_text }}{{ $who = . }}{{ end -}}
   {{- $name := .Title -}}
   {{- if .Params.parts }}{{ $name = printf "%s（相褒 %d 段）" .Title (len .Params.parts) }}{{ end -}}
-  {{- if .Params.untitled }}{{ $t = printf "%s %s（%s）" .Params.no $name (delimit .Params.places "、") }}
-  {{- else }}{{ $t = printf "%s %s（%s %s）" .Params.no $name (delimit .Params.places "、") $who }}{{ end -}}
+  {{- $paren := delimit .Params.places "、" -}}
+  {{- if and (not .Params.untitled) $who }}{{ $paren = strings.TrimSpace (printf "%s %s" $paren $who) }}{{ end -}}
+  {{- $t = printf "%s %s" .Params.no $name -}}
+  {{- with $paren }}{{ $t = printf "%s（%s）" $t . }}{{ end -}}
   {{- $t = printf "%s｜%s" $t $site.site_name -}}
 {{- else if .Params.place -}}
-  {{- $t = printf "%s的歌謠與歌手｜%s" .Params.place $site.site_name -}}
+  {{- $lk := partialCached "song/lookup.html" "x" -}}
+  {{- if gt (index $lk.places .Params.place).n 0 }}{{ $t = printf "%s的歌謠與歌手｜%s" .Params.place $site.site_name }}
+  {{- else }}{{ $t = printf "%s的歌手基本資料｜%s" .Params.place $site.site_name }}{{ end -}}
 {{- else if .Params.singer -}}
-  {{- $lk := partialCached "song/lookup.html" . -}}
+  {{- $lk := partialCached "song/lookup.html" "x" -}}
   {{- $t = printf "%s（%s）｜%s" .Params.singer (index $lk.singers .Params.singer).d.place $site.site_name -}}
 {{- else if and .IsSection (eq .RelPermalink "/song/") -}}
   {{- $t = $site.site_name -}}

@@ -21,7 +21,7 @@
         {{- with $p.subtitle }}<span class="sg-sub">{{ . }}</span>{{ end }}</td>
       {{- if not (in $hide "kind") }}<td class="c-kind">{{ index $site.kind_names $p.genre }}</td>{{ end }}
       {{- if not (in $hide "place") }}<td class="c-place">{{ range $i, $x := $p.places }}{{ if $i }}、{{ end }}{{ with (index $lk.places $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}</td>{{ end }}
-      {{- if not (in $hide "singer") }}<td class="c-singer">{{ range $i, $x := $p.singers }}{{ if $i }}、{{ end }}{{ with (index $lk.singers $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}{{ if $p.singer_text }}<span class="sg-sub">（學生）</span>{{ end }}</td>{{ end }}
+      {{- if not (in $hide "singer") }}<td class="c-singer">{{ if $p.singer_text }}{{ with (index $lk.singers (index $p.singers 0)).url }}<a href="{{ . }}">{{ $p.singer_text }}</a>{{ else }}{{ $p.singer_text }}{{ end }}{{ else }}{{ range $i, $x := $p.singers }}{{ if $i }}、{{ end }}{{ with (index $lk.singers $x).url }}<a href="{{ . }}">{{ $x }}</a>{{ else }}{{ $x }}{{ end }}{{ end }}{{ end }}</td>{{ end }}
       <td class="c-has" data-label="影片">{{ if $p.video }}有{{ else }}<span class="sg-none">無</span>{{ end }}</td>
       <td class="c-has" data-label="歌詞">{{ if $p.lyrics_img }}有{{ else }}<span class="sg-none">無</span>{{ end }}</td>
       <td class="c-len">{{ with $p.audio_sec }}{{ $s := int (math.Round .) }}{{ div $s 60 }}:{{ printf "%02d" (mod $s 60) }}{{ end }}</td>

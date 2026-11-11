@@ -26,9 +26,22 @@
   {{- if and (eq .Section "song") .Params.no -}}
     {{- /* 民間歌謠的每一首：標題帶曲號，內文放地點、歌手、類別（頁面本身沒有內文）；不露出的分類不收 */ -}}
     {{- if index site.Data.song.site.show .Params.cat -}}
+      {{- /* 對唱各段的題目、原站標頭的寫法也收，舊寫法才搜得到 */ -}}
+      {{- $extra := slice -}}
+      {{- range .Params.parts }}{{ $extra = $extra | append .t }}{{ end -}}
+      {{- with .Params.title_site }}{{ $extra = $extra | append . }}{{ end -}}
       {{- $pages = $pages | append (dict "title" (printf "%s %s（民間歌謠）" .Params.no .Title) "url" .RelPermalink
-            "text" (printf "民間歌謠 %s %s %s %s" (index site.Data.song.site.kind_names .Params.genre) (delimit .Params.places " ") (delimit .Params.singers " ") (.Params.singer_text | default ""))) -}}
+            "text" (printf "民間歌謠 %s %s %s %s %s" (index site.Data.song.site.kind_names .Params.genre) (delimit .Params.places " ") (delimit .Params.singers " ") (.Params.singer_text | default "") (delimit $extra " "))) -}}
     {{- end -}}
+  {{- else if and (eq .Section "song") .Params.singer -}}
+    {{- /* 歌手頁：內文放鄉鎮與原站的其他寫法 */ -}}
+    {{- $name := .Params.singer -}}{{- $txt := slice "民間歌謠 歌手" -}}
+    {{- range site.Data.song.singers }}{{ if eq .name $name }}{{ $txt = $txt | append .place }}{{ range .variants }}{{ $txt = $txt | append .text }}{{ end }}{{ end }}{{ end -}}
+    {{- $pages = $pages | append (dict "title" (printf "%s（民間歌謠歌手）" .Title) "url" .RelPermalink "text" (delimit ($txt | uniq) " ")) -}}
+  {{- else if and (eq .Section "song") .Params.place -}}
+    {{- $name := .Params.place -}}{{- $txt := slice "民間歌謠 地區" -}}
+    {{- range site.Data.song.places }}{{ if eq .name $name }}{{ $txt = $txt | append .county .intro }}{{ end }}{{ end -}}
+    {{- $pages = $pages | append (dict "title" (printf "%s（民間歌謠）" .Title) "url" .RelPermalink "text" (delimit $txt " ")) -}}
   {{- else if ne .Params.layout "search" -}}
     {{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "text" (.Plain | replaceRE `\s+` " ")) -}}
   {{- end -}}

@@ -40,6 +40,10 @@
   if (ts && location.pathname.slice(0, 12) !== "/taiwansong/") {
     var sm = /^song-m2\/song(\d{3})-([1-4])\.html?$/i.exec(ts[1] || ""), n = sm ? +sm[1] : 0;
     var to = sm && ((n >= 1 && n <= 103) || (n >= 201 && n <= 583)) ? "/song/" + sm[1] + "/" + ({ "2": "#trans", "3": "#video" }[sm[2]] || "") : "/song/";
+    // 專著的翻頁頁還在原版站（小寫網址），帶過去；專著選單帶到新站的相關資源
+    var bk = /^link\/([^\/]+\.html?)$/i.exec(ts[1] || "");
+    if (bk) to = "/taiwansong/link/" + bk[1].toLowerCase();
+    else if (/^link(-main|-left)?\.html?$/i.test(ts[1] || "")) to = "/song/books/";
     document.getElementById("moved").hidden = false;
     document.getElementById("notfound").hidden = true;
     location.replace(to);

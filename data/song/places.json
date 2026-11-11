@@ -11,9 +11,10 @@
    "h": 120
   },
   "src": "map-01.htm",
-  "n_songs": 22,
+  "n_songs": 23,
   "cats": {
-   "minnan": 22
+   "minnan": 22,
+   "score": 1
   },
   "extra_singers": [],
   "map": {
@@ -57,10 +58,10 @@
    "h": 120
   },
   "src": "map-03.htm",
-  "n_songs": 24,
+  "n_songs": 25,
   "cats": {
    "minnan": 23,
-   "score": 1
+   "score": 2
   },
   "extra_singers": [],
   "map": {

@@ -1,0 +1,40 @@
+{{- /* 跟 Hugo 內建的 RSS 樣板一樣，只多一個條件：民間歌謠站（/song/）的頁不進 RSS。
+       那裡有五百多頁（每首歌、鄉鎮、歌手各一頁），都沒有日期，會把「最新動態」的訂閱整個灌滿；
+       不露出的分類（data/song/site.json 的 show 開關）也會跟著漏出去。 */ -}}
+{{- $pctx := . }}
+{{- if .IsHome }}{{ $pctx = .Site }}{{ end }}
+{{- $pages := slice }}
+{{- if or $.IsHome $.IsSection }}
+{{- $pages = $pctx.RegularPages }}
+{{- else }}
+{{- $pages = $pctx.Pages }}
+{{- end }}
+{{- $pages = where $pages "Section" "ne" "song" }}
+{{- $limit := .Site.Config.Services.RSS.Limit }}
+{{- if ge $limit 1 }}
+{{- $pages = $pages | first $limit }}
+{{- end }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo</generator>
+    <language>{{ site.Language.LanguageCode }}</language>{{ with .Site.Copyright }}
+    <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{- with .OutputFormats.Get "RSS" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end }}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
+    </item>
+    {{- end }}
+  </channel>
+</rss>
