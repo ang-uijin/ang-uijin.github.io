@@ -1,0 +1,27 @@
+{
+"url": "/files/teach/chinese-phonetics/02-1華語音標系統.pdf",
+"sha256": "5d7e39e47e39f2b2709929031669a9ddb4d566addf534a3935c56a9ac4c4a03b",
+"pages": [
+{
+"n": 1,
+"text": "2-11 \n華語音韻系統 \n以下是華語的標準音韻系統，這個系統基本和北京話一樣。以下的系統用國\n際音標(IPA)，另有威妥瑪音標(1859)和漢語拼音(1958)，其不同處附上對照表。\n華語另有輕聲、兒化韻規則， \n一、聲母 \np- \nph- \nm-  \nf- \nt- \nth- \nn- \nl- \nt- \nth- \n- \n \nt- \nth- \n- \n- \nts- \ntsh- \ns- \n \nk- \nkh- \nh- \n二、韻母 \n〈開尾韻〉 \n \na \ne \ni \ny \n \n \nu \n \n  (空韻) \n \nai \nei \nau \nou \n \nia \nie \niou \niau \n \nua  \nuo \nuei   \nuai \n \nye \n〈閉尾韻〉 \n \nan \nang  \n \nn \n \n \n \nin \ni \n \nun \nu \n \nyn \ny \n \nian \nia \n \nuan \nua \n \nyan",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+},
+{
+"n": 2,
+"text": "2-12 \n三、聲調 \n〈調類與調型〉(調型記法採五調階制) \n調名 \n陰平 \n陽平 \n陰上 \n陰去 \n調號 \n１ \n2 \n3 \n4 \n本調 \n44 \n35 \n214 \n51 \n變調 \n \n \n21;35 \n \n例字 \n東 \n同 \n董 \n凍 \n四、IPA 與中文音標主要差異對照表 \nIPA \n注音 \n符號 \n威妥 \n瑪式 \n漢語 \n拼音 \n通用\n拼音\nIPA \n注音 \n符號 \n威妥 \n瑪式 \n漢語 \n拼音 \n通用 \n拼音 \np \nㄅ \np \nb \nb \n \n空 \ntzu;tz’\nu;ssu \nzi, ci, \nsi \nih \np \nㄆ \np‘ \np \np \nr \n空 \nchih; \nch’ih, \nshih; \njih \nzhi; \nchi, \nshi; ri \nih \nt \nㄉ \nt \nd \nd \nau \nㄠ \nao \nao \nao \nt \nㄊ \nt‘ \nt \nt \n\nㄦ \nêrh \ner \ner \nk \nㄍ \nk \ng \ng \n\nㄜ \nê \ne \ne \nk \nㄎ \nk‘ \nk \nk \nn \nㄣ \nên \nen \nen \nt \nㄐ \nch \nj \nj \n \nㄥ \nêng \neng \neng \nt \nㄑ \nch‘ \nq \nc \ni- \nㄧ \ny-;-i- \ny-; -i- \ny-; -i- \n \nㄒ \nhs \nx \ns \nie \nㄧㄝ \nyeh;-ie ye;ie \nye;ie \nt \nㄓ \nch \nzh \njh \nuei \nㄨㄟ \nwei;ui\nwei;ui wei;ui\nt \nㄔ \nch‘ \nch \nch \ny \nㄩ \ny　 ;\n　 \n　; u \nyu \n \nㄕ \nsh \nsh \nsh \nye \nㄩㄝ \nüe \nyue;ue yue \n \nㄖ \nj \nr \nr \nu \nㄨㄥ \nung \nong \nong \nts \nㄗ \nts \nz \nz \nyn \nㄩㄣ \nün \nyun;un yun \nts \nㄘ \nts‘ \nc \nc \nyu \nㄩㄥ \nyung; \n-iung \nyong; \n-iong \nyong \n說明： \n1) 漢語拼音及通用拼音以濁音符號標示不送氣音，而以清音符號標示送氣\n音，唯威妥瑪式與國際音標相同，不送氣清音用清音符號標示，送氣音\n加 ‘ 標示，不用濁音符號。",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+},
+{
+"n": 3,
+"text": "2-13 \n2) 注音符號三套舌冠音，只有漢語拼音分為三套，符號不夠，不得不採用\nzh, q, x 不普遍的符號。威妥瑪式舌面音與捲舌音合併為一套，用介音來\n辯識，凡齊齒音前為舌面音，其餘為捲舌音，惟ㄒ標為hs，ㄕ標為sh\n分為二套符號標示；通用拼音也不一致，舌面音原則上與舌尖音合併為\n一套，凡齊齒音前為舌面音，其餘為舌尖音，惟不送氣音ㄐ自成一套，\n標為j，與舌尖音z 區別；捲舌音照舌面音的一套加h 以為標示。 \n3) 空韻的標示法也很分歧，注音符號省略了韻母符號，所以謂之「空韻」，\n威妥瑪式則於舌尖音之後用u，為了和韻母u 區別，改變了聲母的標示\n法，變成ㄗtzu、ㄘtz’u、ㄙssu 的特殊標示法，至於捲舌音的空韻則標\n為ih；漢語拼音空韻與韻母ㄧ(i)都用i 標示，因為空韻和ㄧ(i)是互補的，\nㄧ(i)只能接舌面音ㄐ(j)、ㄑ(q)、ㄒ(x)，所以這三個符號前唸成ㄧ(i)，其\n餘的環境都唸成空韻。通用拼音則一律加h，以與ㄧ(i)區別，標為-ih。 \n4) 中元音  和 ，威妥瑪式用ê 標示，漢語拼音用e 標示，以與捲舌音ㄦ\n(erh; er)區別，通用拼音與漢語拼音同。 \n5) n 和 二韻威妥瑪式省略了元音 ，不標示，作ㄣ(n)、ㄥ()，漢語\n拼音和通用拼音則標為e，作ㄣ(en)、ㄥ(e)，惟ㄥ(e)在f 之後通用拼\n特別標為fong 以反映台灣華語的口音。 \n6) 三式齊齒介音在無聲母時用y，如yi, ya, ye, yan, yang 等，有聲母時用-i, \n-ia, -ie, -ian, -iang 等，唯威妥瑪式單元音韻母ㄧ(i)仍用i 不標為yi，這是\n威妥瑪式沒有將單元音韻母ㄧ(i)視為有介音，其他元音前的無聲母前視\n為有齊齒介音，用ya, ye, yan, yang 等。 \n7) 三式合口介音在無聲母時用w，如wu, wei, wa, wan, wang 等，有聲母時\n標為 -u, -ui, -ua, -uan, -uang 等，威妥瑪式單元音韻母ㄨ亦標為wu，視為\n有介音，與元音韻母ㄧ(i)視為無介音不一致。 \n8) 三式撮口介音(ㄩ)的標示法比較複雜，威妥瑪式一律用ü 標示，只有在\nㄩㄥ時標為yung，有聲母時標為iung，如ㄐㄩㄥchiung；漢語拼音在無\n聲母前用ㄩyu、ㄩㄝyue、ㄩㄣyun、ㄩㄢyuan，聲母j, q, x 之後用u, ue, \nun, uan，如ㄐㄩju、ㄐㄩㄝjue、ㄐㄩㄣjun、ㄐㄩㄢjuan，這是因為j, q, \nx 之後的唇元音一定是撮口的，不會是合口音，所以j, q, x 之後的u, un, \nuan 都必須唸成撮口呼，但ㄐㄩㄥjiong 比較特殊；通用拼音則不論有無\n聲母一律標有y，如ㄐㄩjyu, ㄐㄩㄝjyue、ㄐㄩㄣjyun, ㄐㄩㄢjyuan、\nㄐㄩㄥjyong。",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+}
+]
+}

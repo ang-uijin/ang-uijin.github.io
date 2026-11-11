@@ -1,0 +1,41 @@
+{
+"url": "/files/teach/chinese-phonetics/02-3台灣閩南語音標系統.pdf",
+"sha256": "354411ace207bd654c8001ebc83077293b0466465fc66edecad4b481a203b831",
+"pages": [
+{
+"n": 1,
+"text": "2-18\n台灣閩南語音韻系統 \n台灣閩南語主要有漳州腔、泉州腔兩種，其下又有若干次方言，音韻系統上\n主要的差異在有無央元音，或e 與ee 的對立。閩南語的音標系統有很多方案，\n與國際音標系統相容的羅馬字系統是白話字，TLPA 為教學方便做了小幅度的修\n改，2006 教育部綜合這兩套系統公告了「台灣閩南語羅馬字拼音方案」，簡稱「台\n羅拼音」。以下音符採用台羅系統。 \n一、聲母 \n邊 p- \n波 ph- \n文 m- / b- \n地 t- \n他 th- \n柳 n- / l- \n貞 ts- \n出 tsh- \n時 s- \n入 j- \n求 k- \n去 kh- \n語 ng- / g- \n英    \n喜 h- \n二、韻母 \n本表只列台灣優勢音，漳泉特殊韻母附錄於表後。下表中大字為「舒聲韻」，\n小字為「入聲韻」。 \n〈開尾韻〉 \n(一) 口音韻 \n阿 a \n挨e \n伊i \n ah \n \n  eh \n  ih \n烏 oo \n呵 o \n污u \n ooh \noh \nuh \n哀 ai \n甌au \n aih \nauh \n椰 ia \n腰io \n憂iu \n妖iau \n iah   \nioh \niuh   \niauh \n哇 ua \n椏ue   \n威ui   \n歪uai \n uah \nueh \nuih \nuaih",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+},
+{
+"n": 2,
+"text": "2-19\n(二) 鼻音韻 \n餡 ann \n嬰enn \n燕inn \n \nannh \nennh \ninnh \n惡 onn \n姆m \n秧ng \n \nonnh \nmh \nngh \n乃 ainn  \n腦aunn \n \nainnh \naunnh \n纓 iann \n鴦iunn  \n貓iaunn \n \niannh \niunnh \niaunnh \n鞍 uann  \n糜uenn \n每uinn  \n關uainn \n \nuannh \nuennh \nuinnh \nuainnh \n〈閉尾韻〉 \n庵am  \n安an \n尪ang \n ap \nat \nak \n蔘om  \n汪ong \n op \n \nok \n音im  \n因in    \n英ing \n \nip \n \nit \n \nik \n閹 iam  \n煙ian \n央iang  \n雍iong \n \niap \niat \n \niak \n \niok \n溫un \n冤uan \n嚾uang \n ut  \n \nuat  \nuak",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+},
+{
+"n": 3,
+"text": "2-20\n三、聲調 \n〈調類〉 \n聲名 \n陰平 陰上 陰去陰入陽平陽上陽去陽入 第九調 輕聲 \n調序 \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n0 \n台羅正式版 \na \ná \nà \nah \nâ \nǎ \nā \na̍h \na \n-- \n台羅方便版 \na1 \na2 \na3 \nah4\na5 \na6 \na7 \nah8\na9 \n-- \n例字 \n東 \n董 \n凍 \n督 \n同 \n動泉\n洞 \n毒 \n中央 \n \n 以上只有泉州腔有陽上聲，台灣大部分方言的陽上都已歸入陽去 \n〈調型〉 \n聲名 陰平 陰上 陰去 陰入陽平陽去陽入 第九\n調 \n中降調 升降調 \n調號 １ \n２ \n３ \n４ \n５ \n７ \n８ \n9 \n \n \n本調 \n33 \n31 \n11 \n2 \n12 \n22 \n30 \n23 \n21 \n231 \n變調 \n22 \n33 \n31 \n3 \n22 \n11 \n10 \n \n \n \n例字 \n東 \n董 \n凍 \n督 \n同 \n洞 \n毒 \n中央\n(合音)\nhonnh21 ha̋nnh231 \n 以上所標示陽入本調屬於台灣南部方言的調讀[3]，北部唸成[220]，鹿 \n港、台西等海口腔唸成[230] \n四、重疊 \n嫷嫷suí-suí \n \n    嫷嫷嫷suí-suí-suí \n老實老實láu si̍t-láu-si̍t \n老老實實láu-láu-si̍t-si̍t \n有人緣有人緣ū-lâng-iân ū-lâng-iân \n臭牛奶羶臭牛奶羶 tshàu-gû-ling-hiàn tshàu-gû-ling-hiàn \n五、漳泉方音特殊符號 \nee [] \ner [] \nir [] \neeh [](漳) \nerh [](泉) \nirh [](泉) \nuee[u] \nere[e] \nirm [m] \n \nueeh [u](漳) \nereh [e](泉) \nirp [p](泉) \n irinn [i](泉) \neng [] \nirng [] \nirn [n] \n \nek [k](漳) \nirk [k](泉) \nirt [t](泉)",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+},
+{
+"n": 4,
+"text": "2-21\n【附錄】 \n教羅、TLPA 與台羅重要差異對照表 \n一、聲母 \nIPA \nts\ntsʰ\n教羅 \nch / ts \nchh \nTLPA \nc \nch \n台羅 \nts \ntsh \n二、韻母 \n（一）口音韻 \nIPA \nɔ \nɔʔ\nua uaʔ uai\nuaiʔ\nue\nueʔ\nə\nəʔ\nɨ\nəe\nəeʔ \nɛ \nɛʔ\n教羅 \no. \no.h\noa oah oai\noaih\noe\noeh\n \n \n \n \n \nTLPA \noo ooh\nua uah uai\nuaih\nue\nueh\ner erh ir ere ereh ee eeh\n台羅 \noo ooh\nua uah uai\nuaih\nue\nueh\ner erh ir ere ereh ee eeh\n註：台羅韻母基本上和TLPA 相同，但為照顧習慣於傳統白話字之使用\n者，允許繼續使用o.為傳統版，但仍以oo 為正式版。 \n（二）鼻音韻 \nIPA \nã\nãʔ \nmɔ\nmɔʔ\nnɔ\nnɔʔ\nŋɔ\nŋɔʔ \niɔ̃ \nɨĩ \n教羅 \nan \nahn \nmo.\nmo.h\nno.\nnoh\nngo.\nngo.h \n \n \nTLPA \nann\nannh \nmo\nmoh\nno\nnoh\nngo\nngoh \nionn \nirinn\n台羅 \nann\nannh \nmoo mooh noo\nnooh\nngoo ngooh ionn \nirinn\n註一：台羅韻母基本上和TLPA 相同，但為照顧習慣於傳統白話字之使\n用者，允許繼續使用-n 為傳統版，但仍以nn 為正式版。表中以元\n音a 為例。 \n註二：TLPA 鼻音韻的中低元音在鼻音聲母之後寫成mo/moo、no/noo、\nngo/ngoo 兩可，未規定，上表為篇幅所限只列前者。台羅統一規定\n採用後者。",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+},
+{
+"n": 5,
+"text": "2-22\n（三）閉尾韻 \nIPA \nuan uat \nuaŋ \nuak\niŋ\nik\neŋ\nek\nɨm\nɨp\nɨn \nɨt \nɨŋ \nɨk\n教羅 \noan oat \noang \noak\neng\nek\n \n \n \n \n \n \n \n \nTLPA \nuan uat \nuang \nuak\ning\nik\neng\nek\nirm\nirp\nirn irt irng irk\n台羅 \nuan uat \nuang \nuak\ning\nik\neng\nek\nirm\nirp\nirn irt irng irk\n三、聲調 \n聲名 \n陰平\n陰上 陰去\n陰入\n陽平\n陽上\n陽去\n陽入 第九調 輕聲\n調序 \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n0 \n教羅 \na \ná \nà \nah \nâ \n \nā\na̍h \n \n-- \nTLPA \na1 \na2 \na3 \nah4\na5 \na6\na7 \nah8\na9 \na0 \n台羅正式版 \na \ná \nà \nah \nâ \nǎ \nā\na̍h \na \n-- \n台羅方便版 \na1 \na2 \na3 \nah4 \na5 \na6 \na7 \nah8 \na9 \n-- \n例字 \n東 \n董 \n凍 \n督 \n同 \n動泉 \n洞 \n毒 \n中央 \n \n註：台羅拼音方案基本上以教羅傳統潤號式聲調符號為正式版，以數字式為\n方便版。正式出版時須用正式版，電腦輸入、傳輸或無字型支援，潤號\n式使用不便時，得用方便版。",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+}
+]
+}

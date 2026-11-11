@@ -1,0 +1,20 @@
+{
+"url": "/files/teach/chinese-phonetics/02-4台灣客語音標系統.pdf",
+"sha256": "b3e86e45ea2122929cc573d553036791d852fd8a2dc0208944867cd61d6fe3e3",
+"pages": [
+{
+"n": 1,
+"text": "23\n2- \n台灣客語音位系統 \n台灣客語主要有四縣腔(龍潭、苗栗、六堆)；海陸腔(桃園、新竹)、大埔腔(東\n勢)三種。教育部雖然公告客家語拼音方案，但因其音符與國際音標及台羅系統\n相差太大，為教學計，採用與國際音標相似的TLPA 標示。四縣音系比較簡單，\n缺乏的音位用*標示。 \n一、聲母 \np- \nph- \nm- \nf- \nv- \nt- \nth- \nn-  \nl- \nc- \nch- \ns- \n \n*z-[t] \n*zh-[th] \n*sh-[] \n*j-[] \nk- \nkh- \nng- \n   \nh- \n二、韻母 \n〈開尾韻〉 \n \na \ne \ni \nii [] \no \nu \n \nm \nng \n \nai \nau \neu \noi \n \nia \nie \nio \niu \n \niau \n*ieu  \nioi \n \nua \nue   \nui \n \nuai \n〈閉尾韻〉 \n \nam  \nan \nang  \nem \n \nap \nat \nak  \nep \n \nem \nen \n \nep \net \n \n \non \nong \n \n \not \nok \n \nim  \nin \niim[m] \niin[n]",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+},
+{
+"n": 2,
+"text": "24\n2- \n \nip \nit  \niip[p] \niit[t] \n \n \nun \nung \n \n \nut \nuk \n \n \niam  \nian[in] \niang  \n \niap \niat[it] \niak \n \n \nion \niong \n \n \niot \niok \n \n \niun \niung \n \n \niut \niuk \n \n \nuan \nuang \n \n \nuat  \nuak \n \n \nuen \n \n \nuet \n三、聲調 \n〈調類與調型〉(調型記法採五調階制) \n方言 \n調名 陰平\n陰上\n陰去\n陰入\n陽平\n陽去 陽入 \n \n調號 １ \n２ \n３ \n４ \n５ \n７ \n８ \n苗栗四縣腔 \n本調 \n24 \n31 \n55 \n32 \n11 \n－ \n5 \n變調 11;35\n \n \n \n \n \n \n新竹海陸腔 \n本調 \n53 \n13 \n21 \n5 \n44 \n33 \n32 \n變調 \n \n33 \n \n \n \n \n \n東勢大埔腔 \n本調 \n33 \n31 \n51 \n32 \n13 \n－ \n5 \n變調 \n35 \n \n55 \n \n33 \n \n \n \n例字 \n東 \n董 \n凍 \n督 \n同 \n洞 \n毒 \n附註：苗栗「四縣腔」的陰平在陰平、去聲、陽入等升調及高調之前變11，\n其餘變35。東勢「大埔腔」的變調是有條件的：陰平只有在陽平、陰入、上聲\n前才變調；去聲只出現在上聲、去聲、陰入、陽入聲前才變調；陽平只出現在陽\n平前前才變調。",
+"source": "textlayer",
+"checked": "none",
+"flags": []
+}
+]
+}
