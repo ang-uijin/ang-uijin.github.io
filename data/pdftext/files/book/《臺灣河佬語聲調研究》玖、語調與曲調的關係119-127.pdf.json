@@ -86,12 +86,11 @@
 },
 {
 "n": 9,
-"text": "喝▢▢(hoáh-līn-long)\n喝鈴鐺\n（台北腔）\n宮=G\nhuaʔ din′ dɔŋ_\nt'au³¹ tsa³¹ ts'ut³ bŋ¹² din¹ dɔŋ¹ se?²³ a² ts'iŋ² a³ pe?² buə¹ tsap¹ suə¹\n透早出門鈴鐺旋阿清仔伯（噫）賣雜細\nkin³ dai¹² ɔ¹ be?²³ siɔk¹ bue¹ hɔ¹ din³¹ e¹ huã² hi²¹ de kɔŋ² to² bue³ bue² si¹ k'a?³\n緊來（歟）卜俗賣與您會歡喜（咧）公道買賣是較\nu¹ tue³¹ siŋ² di³¹ sit¹ sit² a³ tsue¹ tsit¹ tsŋ³ ke³¹ tsit¹ tsŋ³ he³ tsit¹ kue³\n有底，生理實在仔做，蜀庄過蜀庄，（咳）蜀街\nke³¹ tsit¹ kue³ dai¹² ɔ¹ sap³ bun¹² paŋ²tsui³¹ ian² tsi³ pɔŋ³¹hun³¹ diu³¹ a³¹\n過蜀街，來歟！雪文芳水、胭脂、胖粉、鈕仔、\nsi² suã¹ bin¹ kin³ bak¹ kiã¹ tsian³¹tsit¹ te⁶ da¹ he²a³ pɔ¹ de¹ he³ gin³a³\n絲線、面巾、目鏡，剪一地啦，花仔布（咧）（咳）囝仔\nhiã³ ɔ¹ di³ ai³¹ siã¹ be¹ a² pe?² a¹ di³a³ tsiam³¹ hɔ¹ di³ tsit¹ e¹² se³¹ kan³\n兄歟汝愛啥貨，阿伯也李仔槃與汝蜀個世間\nts'ut³ si¹ dai² tsue³¹ he³¹ bɔ¹ dun¹ dau¹ daŋ¹² gin³ a³¹ siau³¹ dian² kue³ su¹ su¹ kap³\n出世來作伙，無論老儂囝仔少年家，事事佮\ndaŋ¹ ke³¹ kau¹ u¹ sim³ mi³ bɔk¹ tik³ de¹ hua?³¹ din² dɔŋ³ bue¹ tsap¹\n儂計較有甚麼目的（咧）喝鈴鐺，賣雜\nsue¹\n細。\n〔圖〕樂譜（五線譜，無文字）",
+"text": "喝▢▢(hoáh-līn-long)\n喝鈴鐺\n（台北腔）\n宮=G\nhuaʔ din′ dɔŋ_\n透早出門鈴鐺旋阿清仔伯(噫)賣雜細\nt'au³¹ tsa³¹ ts'ut³ bŋ¹² din¹ dɔŋ¹ se?²³ a² ts'iŋ² a³ pe?² buə¹ tsap¹ suə¹\n緊來(歟)卜俗賣與您會歡喜(咧)公道買賣是較\nkin³ dai¹² ɔ¹ be?²³ siɔk¹ bue¹ hɔ¹ din³¹ e¹ huã² hi³¹ de kɔŋ² to² bue³ bue² si¹ k'a?³\n有底，生理實實仔做，蜀庄過蜀庄，(咳)蜀街\nu¹ tue³¹ siŋ² di³¹ sit¹ sit² – a³ tsue¹ tsit¹ tsŋ³ ke³¹ tsit¹ tsŋ³ he³ tsit¹ kue³\n過蜀街，來歟！雪文芳水、胭脂、胖粉、鈕仔、\nke³¹ tsit¹ kue³ dai¹² ɔ¹ sap³ bun¹² paŋ² tsui³¹ ian² tsi³ pɔŋ³¹ hun³¹ diu³¹ a³¹\n絲線、面巾、目鏡，剪一地啦，花仔布(咧)(咳)囝仔\nsi² suã¹ bin¹ kin³ bak¹ kiã¹ tsian³¹ tsit¹ te⁸ da¹ he² – a³ pɔ¹ de¹ he³ gin³ – a³¹\n兄歟汝愛啥貨，阿伯也李仔槃與汝蜀個世間\nhiã³ ɔ¹ di³ ai³¹ siã¹ be¹ a² pe?² a¹ di³ – a³ tsiam³¹ hɔ¹ di³ tsit¹ e¹² se³¹ kan³\n出世來作伙，無論老儂囝仔少年家，事事佮\nts'ut³ si¹ dai² tsue³¹ he³¹ bɔ¹ dun¹ dau¹ daŋ¹² gin³ a³¹ siau³¹ dian² kue³ su¹ su¹ kap³\n儂計較有甚座目的(咧) 喝鈴鐺，賣雜\ndaŋ¹ ke³¹ kau¹ u¹ sim³ mi³ bɔk¹ tik³ de¹ hua?³¹ din² dɔŋ³ bue¹ tsap¹\n細。\nsue¹",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少",
 "羅馬字多"
 ]

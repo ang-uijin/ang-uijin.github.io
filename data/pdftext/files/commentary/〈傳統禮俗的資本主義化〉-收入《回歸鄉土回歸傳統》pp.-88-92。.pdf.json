@@ -34,12 +34,11 @@
 },
 {
 "n": 4,
-"text": "‧91‧ 傳統禮俗的資本主義化\n最近流行的倩孝女哭喪",
+"text": "‧91‧ 傳統禮俗的資本主義化\n〔圖〕最近流行的倩孝女哭喪",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少"
 ]
 },

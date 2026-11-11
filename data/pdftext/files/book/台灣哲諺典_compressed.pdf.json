@@ -971,12 +971,11 @@
 },
 {
 "n": 99,
-"text": "台灣哲諺典\ntso³kui² · to¹tshiunn³bo⁵tshai³kenn¹png⁷\n做鬼都搶無菜羹飯\n見2.29【做鬼都搶無粿箬】\nkui²a² · phian³kui²ong⁵\n鬼仔騙鬼王\n見2.33【水鬼騙城隍】\nli² kui² · gua²giam⁵lo⁵ong⁵\n汝鬼我閻羅王\n見2.33【水鬼騙城隍】\nkui²a² · bong¹sieng⁵hong⁵ia⁵ · e⁵thau⁵\n鬼仔摸城隍爺个頭\n見2.34【鬼仔摸閻羅王个尻川】\nlang⁵ · kio³ · m⁷kiann⁵ kui² · kio³ liu³liu³tue³\n儂叫毋行，鬼叫・蹓蹓綴\n見2.37【儂牽毋行，鬼牽撞撞走】\nam⁸loo⁷ · tsiap⁸kiann⁵ e⁷ tu²tioh⁸kui²\n暗路習行，會拄著鬼\n見2.43【習行暗路，免驚袂拄著鬼】\nbo⁵sia⁵ · put⁴phann³kui²\n無邪不怕鬼\n見2.45【心無邪不怕鬼】\nkann² si² · bian²kiann¹bo⁵kui² · thang¹tso³\n敢死免驚無鬼通做\n見2.48【敢死驚無鬼通做？】\n102",
+"text": "台灣哲諺典\ntso³kui² · to¹ tshiunn³bo⁵ tshai³kenn¹png⁷\n做鬼 都搶無菜羹飯\n見2.29【做鬼都搶無粿箬】\nkui² a² · phian³kui²ong⁵\n鬼仔 騙鬼王\n見2.33【水鬼 騙城隍】\nli² kui² · gua²giam⁵ lo⁵ ong⁵\n汝鬼 我閻羅王\n見2.33【水鬼 騙城隍】\nkui² a² · bong¹sieng⁵hong⁵ia⁵ · e⁵ thau⁵\n鬼仔 摸城隍爺 个頭\n見2.34【鬼仔 摸閻羅王 个尻川】\nlang⁵ · kio³ · m⁷kiann⁵ kui² · kio³ liu³liu³tue³\n儂 叫 毋行，鬼 叫 ・蹓蹓綴\n見2.37【儂 牽 毋行，鬼 牽 撞撞走】\nam³loo⁷ · tsiap⁸kiann⁵ e⁷ tu² tioh⁸kui²\n暗路 習行，會拄著鬼\n見2.43【習行暗路，免驚袂拄著鬼】\nbo⁵sia⁵ · put⁴phann³kui²\n無邪 不怕 鬼\n見2.45【心無邪不怕鬼】\nkann² si² · bian²kiann¹bo⁵kui² · thang¹tso³\n敢死 免驚無鬼 通做\n見2.48【敢死 驚無鬼通做？】\n102",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1423,12 +1422,11 @@
 },
 {
 "n": 144,
-"text": "〔圖〕九八仙\n〔圖〕菊花心\n〔圖〕蜈蚣\n〔圖〕風吹",
+"text": "風吹\n〔圖〕九八仙\n〔圖〕菊花心\n〔圖〕蜈蚣",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少"
 ]
 },

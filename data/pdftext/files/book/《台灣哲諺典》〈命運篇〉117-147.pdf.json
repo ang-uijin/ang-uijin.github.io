@@ -426,12 +426,11 @@
 },
 {
 "n": 31,
-"text": "〔圖〕九八仙\n〔圖〕菊花心\n〔圖〕蜈蚣\n〔圖〕風吹",
+"text": "風吹\n〔圖〕九八仙\n〔圖〕菊花心\n〔圖〕蜈蚣",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少"
 ],
 "copied_from": {

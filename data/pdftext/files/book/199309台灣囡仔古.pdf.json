@@ -4,12 +4,11 @@
 "pages": [
 {
 "n": 1,
-"text": "台灣囝仔古\n講天說皇帝\n1995年 ▢▢畫\n第6卷第3期總31期　7",
+"text": "台灣囡仔古\n講天說皇帝\n第6卷第3期總31期\n7\n〔圖〕1995年 ▢瀛畫",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少",
 "手寫"
 ]

@@ -4,12 +4,11 @@
 "pages": [
 {
 "n": 1,
-"text": "非藍非綠唯黑白\n洪惟仁訪談紀錄\n陳銘城 攝影\n〔圖〕轉通任督",
+"text": "非藍非綠唯黑白\n洪惟仁訪談紀錄\n陳銘城　攝影\n〔圖〕轉通任督",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少"
 ]
 },

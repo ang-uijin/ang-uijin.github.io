@@ -35,12 +35,11 @@
 },
 {
 "n": 4,
-"text": "·133·　日月潭杵歌成絕響\n日月潭「舂石音」古貌",
+"text": "‧133‧　日月潭杵歌成絕響\n日月潭「舂石音」古貌",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少"
 ]
 },

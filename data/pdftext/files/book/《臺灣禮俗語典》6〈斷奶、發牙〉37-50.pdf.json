@@ -4,12 +4,11 @@
 "pages": [
 {
 "n": 1,
-"text": "6 斷奶、發牙　‧37‧\nᵒtng-ling　huat˅ge\n6 斷奶、發牙\n掛輾仔个椅轎",
+"text": "6 斷奶、發牙　‧37‧\nˋtng-ling huatˇge\n6 斷奶、發牙\n掛輾仔个椅轎\n〔圖〕▢海\n〔圖〕▢▢生涯有餘裕\n〔圖〕北▢　北▢　北捌　北玖",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少",
 "羅馬字多"
 ]

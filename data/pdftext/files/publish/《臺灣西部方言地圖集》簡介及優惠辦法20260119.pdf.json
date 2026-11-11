@@ -4,12 +4,11 @@
 "pages": [
 {
 "n": 1,
-"text": "《臺灣西部方言地圖集》簡介及優惠辦法\n〔圖〕臺灣西部方言地圖集　第一本勾劃台灣話來龍去脈並追溯閩南語語音史的地圖集　幻華創造 BEGUILING CREATIVE　洪惟仁 ANG UIJIN ——著　Dialectal Atlas of Western Taiwan　臺灣西部方言地圖集　洪惟仁 ANG UIJIN\n〔圖〕洪惟仁　臺灣西部方言地圖集　ANG UIJIN　Dialectal Atlas of Western Taiwan　臺灣西部方言地圖集　洪惟仁 ANG UIJIN",
+"text": "《臺灣西部方言地圖集》簡介及優惠辦法\n〔圖〕臺灣西部方言地圖集　第一本勾劃台灣話來龍去脈並追溯閩南語語音史的地圖集　幻華創造 BEGUILING CREATIVE　洪惟仁 ANG UIJIN ——著　Dialectal Atlas of Western Taiwan　臺灣西部方言地圖集　洪惟仁 ANG UIJIN\n〔圖〕洪惟仁　臺灣西部方言地圖集　ANG UIJIN　Dialectal Atlas of Western Taiwan　臺灣西部方言地圖集　洪惟仁 ANG UIJIN　本書由國家科學及技術委員會人文社會科學研究中心補助出版",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "sonnet-adjudicated",
 "flags": [
-"兩讀不一致",
 "圖多字少"
 ]
 },
