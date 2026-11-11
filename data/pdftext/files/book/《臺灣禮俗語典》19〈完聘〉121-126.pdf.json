@@ -4,56 +4,62 @@
 "pages": [
 {
 "n": 1,
-"text": "19\n完\nvuan、phing\n19完聘\n、sang•tiaN\n【送定】送物、禮金,但其數量都很少(現在己不送禮\nvuan、phing\n'sio•tiaN、SiO、phing\n金)。所以「送定」又呻【小定】【小聘】。但【完聘】所送\n*tua、phing\n•tua•tiaN\n禮物,禮金都很多,所以呌【大定】、【大聘】。\n、phing'le\nuan、phing\n【完聘】所送的禮可以分為三部份:物謂之【聘禮】\n、phing-kim\n'leVpuaN\nAphingVg1\npuaN\n聘儀,古云【盤】或單稱【盤】;禮金謂之【聘金】\n、phing*tiaNVgin\nhun—su\n、phingvgin\n【聘銀】、【聘定銀】;最後是【婚書】。\n【聘】的種類可以自已決定,常用的大概是以下的東西:\npingvthng\n'lau—hue muatlau tmitlau\n、tua piaN\n【氷糖】(又\n【大餅】(喜餅)【栳花】(蔴粩、米粩) *\nvthng'a*loo\ntang-kue\nvthng-sng\n稱【糖霜】)【冬瓜】(冬瓜糖)【糖仔路】* (做成各種形\nvthng\nvthng-ku\n*ban•ziVthng peh-kakVthng\nuan-iuNVthng\n狀,如【鴦糖】【卍字糖】【八角糖】【糖龜】【糖\n*khi'kue kiat'a'piaN•mi、suaN hokVuan pinVnng\n•tua\n—ke\n鷄】等)【杮粿】【桔仔餅】【麵線】【福圓】【檳榔】【大\ntiViuN\nah'bo\n'le-hiuN iam-ke\n—tsik\n燭】一對【禮香】【閹】兩隻、【鴨母】兩隻、【豬羊】(有\nViuNVping\nhue\ntiVping\nVtsuan-ti VtsuanViuN\n錢的用【全豬全羊】、普通用【豬爿】【羊爿】) ,【花\npuaNVthauVhiuVkun\n'chiuvkhuan M1iN-kau *hiN•tui'a\n】【手環】【耳鈎】【耳墜仔】【盤頭裘裙】(新娘的結\nkimta\n'hai-som Vlian、phau VlianVhi Vang-pau\n婚禮服)【海參】【聯炮】【鰦魚】【紅包】【金仔】\n*StaN\nVpuaN\nVchuan\n之要【僎】【十二盤(項)】,裝在兩人扛的【】內,用紅",
-"source": "winocr",
-"checked": "none",
+"text": "19 完聘 ・121・\nˇuanˊphing\n19 完聘\nˊsangˋtiaN\n【送定】送禮物、禮金，但其數量都很少(現在己不送禮金)。所以「送定」又叫【小定】【小聘】。但【完聘】所送禮物，禮金都很多，所以叫【大定】、【大聘】。\nˊsioˋtiaN ˊsioˊphing ˇuanˊphing ˋtuaˋtiaN ˋtuaˊphing\nˇuanˊphing ˊphingˊle\n【完聘】所送的禮可以分爲三部份：禮物謂之【聘禮】〖聘儀〗，古云【禮盤】或單稱【盤】；禮金謂之【聘金】、【聘銀】、【聘定銀】；最後是【婚書】。\nˊphingˇgi ˊleˇpuaN ˇpuaN ˊphing-kim ˊphingˇgin ˊphingˋtiaNˇgin hun-su\n【聘禮】的種類可以自已決定，常用的大概是以下的東西：【大餅】(喜餅)【栳花】(蔴粩、米粩)＊【氷糖】(又稱【糖霜】)【冬瓜】(冬瓜糖)【糖仔路】＊(做成各種形狀，如【鴛鴦糖】【卍字糖】【八角糖】【糖龜】【糖鷄】等)【柿粿】【桔仔餅】【麵線】【福圓】【檳榔】【大燭】一對【禮香】【閹鷄】兩隻、【鴨母】兩隻、【豬羊】(有錢的用【全豬全羊】、普通用【豬爿】【羊爿】)，【花】【手環】【耳鈎】【耳墜仔】【盤頭裘裙】(新娘的結婚禮服)【海參】【聯炮】【鰦魚】【紅包】【金仔】……總之要【僎】【十二盤(項)】，裝在兩人扛的【▢】內，用紅\nˋtuaˊpiaN ˊlau-hue ˇmuaˊlau ˊmiˊlau pingˇthng\nˇthng-sng tang-kue ˇthngˊaˋloo\nuan-iuNˇthng ˋbanˋziˇthng peh-kakˇthng ˇthng-ku ˇthng-ke ˋkhiˊkue kiatˊaˊpiaN ˋmiˋsuaN hokˇuan pinˇnng ˋtua-tsik\nˊle-hiuN iam-ke ahˊbo tiˇiuN ˇtsuan-ti ˇtsuanˇiuN tiˇping ˇiuNˇping hue\nˊchiuˇkhuan ˋhiN-kau ˋhiNˋtuiˊa ˇpuaNˇthauˇhiuˇkun ˊhai-som ˇlianˊphau ˇlianˇhi ˇang-pau kimˊa ˇchuan ˇpuaN ˋsiaN",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 2,
-"text": "·122·臺灣禮俗語典\nsiang'hi\n紙或紅布蓋着,上貼【】(雙喜)字樣,小東西另裝在盤子內\npuaN、taN VpuaNVthau\npuaN\n、PISpan\n,所以「聘禮」稱【盤擔】【盤頭】或【盤】。【備辦】\npanVpuaN\nVtaNVpuaN\n這些物謂之【辦盤】。把禮物折成現金謂之【打盤】,動詞\n'taN\n•ing'taNXe\n'taNVtsiN\n則單稱【打】,【用打个】、【打錢】。\nchun•siaN\n盛裝聘禮的「」特稱之為【春】\ntaN-hu\n,由【擔夫】扛着,浩浩蕩蕩向女家前\nkng*siaN\nchue-pan\n進謂之【扛】。前有【吹班】(\n~ k00 chue•tin\nVmuaiVlang\nah%iaN\n【吹陣】)引領,後有【媒儂】護送,謂之【押】\n0\n所有「聘禮」的項目名稱寫在一張摺成十二折的紅紙上,相\n'le-thiap\npuaNVthau-thiap\ntuan—siok\n當於清單,謂之【帖】又稱【盤頭帖】,上寫端嘝\n字。\n女方對於【聘禮】,有些可以全部收下或收一部份,有些要\nhokVuan iam—ke\nah'bo\n璧還,比如聘禮中的【福圓】【閹】【母】代表男家福氣,\ntiVping\nti-kha\n不敢收,【豬爿】可以割下底部一片,其餘奉還。至少【豬跤】\nbah•、ai\nVhong\n、tsiah kut•be'sai\n一定要還,因為偫語說:【肉愛(要)與儂(給人)食,袂使\nVhong•、ge\n(不可)與儂齧(啃)】,如果女方收下便是不知禮。此外女方\ntehVpuaN\nteh*tiaN\nteh*siaN\n還要囘體,謂之【窒盤】或【窒定】、【窒】。其中有「囝\n'tsua、bak-pit*hiN\n1 bo\n婿」的【紙墨筆硯】,結婚禮服如【禮帽】(清朝及日據前期\nang-iaN*bo\n$tuanto *tuan—hia 'kim、bueh tsu'li\ns00、bueh\n時為【紅纓帽】)【緞襖】【緞靴】【錦襪】【朱履】【蘇襪\n、phau\n、kua\n、tua•bo\ntsios\\bo\n'hittsiong 'chiu-kin\n】【袍】【褂】等,還有【大帽】【小帽】【喜種】【手巾】【",
-"source": "winocr",
-"checked": "none",
+"text": "·122·　臺灣禮俗語典\nsiang'hi\n紙或紅布蓋着，上貼【囍】（雙喜）字樣，小東西另裝在盤子內\nˇpuaN'taN ˇpuaNˇthau ˇpuaN ˋpiˋpan\n，所以「聘禮」又稱【盤擔】【盤頭】或【盤】。【備辦】\nˋpanˇpuaN ˇtaNˇpuaN\n這些禮物謂之【辦盤】。把禮物折成現金謂之【打盤】，動詞\n'taN ˋing'taNˣe 'taNˇtsiN\n則單稱【打】，【用打个】、【打錢】。\nchunˋsiaN\n盛裝聘禮的「檻」特稱之爲【春檻】\ntaN-hu\n，由【擔夫】扛着，浩浩蕩蕩向女家前\nkngˋsiaN chue-pan\n進謂之【扛檻】。前有【吹班】（\n'koo chueˋtin ˇmuaiˇlang ahˋsiaN\n【鼓吹陣】）引領，後有【媒儂】護送，謂之【押檻】。\n'le-thiap ˇpuaNˇthau-thiap tuan-siok\n所有「聘禮」的項目名稱寫在一張摺成十二折的紅紙上，相當於清單，謂之【禮帖】又稱【盤頭帖】，上寫〖端肅〗二字。\nhokˇuan iam-ke ah'bo\n女方對於【聘禮】，有些可以全部收下或收一部份，有些要璧還，比如聘禮中的【福圓】【閹雞】【鴨母】代表男家福氣，\ntiˇping ti-kha\n不敢收，【豬爿】可以割下底部一片，其餘奉還。至少【豬跤】\nbah·'ai ˇhong· 'tsiah kut·be'sai\n一定要還，因爲俗語說：【肉愛（要）與儂（給人）食，骨袂使\nˇhong·'ge\n（不可）與儂齧（啃）】，如果女方收下便是不知禮。此外女方\ntehˇpuaN tehˋtiaN tehˋsiaN\n還要回禮，謂之【窒盤】或【窒定】、【窒檻】。其中有贈「囝\n'tsua'bak-pitˋhiN 'leˋbo\n婿」的【紙墨筆硯】，結婚禮服如【禮帽】（清朝及日據前期\nˇang-iaNˋbo ˋtuan'o ˋtuan-hia 'kimˋbueh tsu'li soo'bueh\n時爲【紅纓帽】）【緞襖】【緞靴】【錦襪】【朱履】【蘇襪\n'phau 'kua ˋtuaˋbo 'sioˋbo 'hi'tsiong 'chiu-kin\n】【袍】【褂】等，還有【大帽】【小帽】【喜種】【手巾】【\n〔圖〕春檻",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 3,
-"text": "19完聘·123·\n、kng*te\npi 0\n、bak、kiaN•te\n、SiN\nVha—pau、Siuㄣ00\n、SIN te\n【目鏡袋】【筆袋】【卷袋】\n荷包】【繡肚】*【扇】\n【扇袋】\n(古時秀才考試時所擕帶的長方形袋,放書卷,紙張,稱【\ntik-sim\ntik-sim\nVbun—tsiuN•te\n文章袋】)【竹心】(竹尖端之嫩芽,其心筆直,與「得心\nching-ke cheN'm\n」諧音)之類。也有一部份贈【親家】【親姆】。贈【小姑】的\n、siahVlitl\nchiN-hue\n'cho-hue\n、stuve\n多半是【繡鞋】【草花】(蓪草所製花)【鮮花】【石榴】【\n00 kiattpiaN\n'lat'tsi\nVlian-tsiau-hue、thuaN ooVthng kin-tsio\n蓮蕉花】【炭】【烏糖】【弓蕉】【栗子】【芋】【桔餅】\nsiok、hok\n之類。【禮】上寫上肅復)l二字。\n、tsiaFtiaN\n當然免不了女家要辦酒席請男方的來客謂之【食定】。新\nteh-toh\n郎於席後在桌上放幾個紅包,謂之【窒桌】。男方如帶小孩女家\n心該給小孩一個小紅包,這是將紅線穿幾個方孔錢,給小孩掛在\n*kttaN•amVtsiN\n頸上,謂之【縣頷錢】。以上【窒桌】的紅包贈給師的,\nsong、ph0010\nttsau—toh\n,其金額略多於一桌酒席的工錢,給【走桌】(\n呻【禮】\nVphang、chai'le\n端菜的人)一個小紅包,呻【奉菜禮】;此外新郎桌上有一位\n*kuaNVpanXe\n專門為客人敬酒的呌【縣瓶个】,也得到一紅包。\n以上這些都是古禮,許多名稱現在六七十歲的老人都不知\n道,好在日據時代留下許多文,給臺民留下一些記錄。現\nkng*siaN\n在禮正急速蛻變中,「扛」已經廢了將近三十年,現在改用\nchue-pan\nteh*tiaN\nching-ke\nCheN\n汽車運送,沒有【吹\n【窒定】多牛不送【親家】\n【親\ntsio—koo\n姆】【小坫】\n0\n、phing-kim\n至於【聘金】\n,多中是事先議定的,聘金要收下多少,要",
-"source": "winocr",
-"checked": "none",
+"text": "19　完　聘　·123·\nˇha-pau 'siu'too 'siN 'siNˋte ˇbak'kiaNˋte pitˋte 'kngˋte\n荷包】【繡肚】*【扇】【扇袋】【目鏡袋】【筆袋】【卷袋】\n（古時秀才考試時所攜帶的長方形袋，放書卷，紙張，又稱【\nˇbun-tsiuNˋte tik-sim tik-sim\n文章袋】）【竹心】（竹尖端之嫩芽，其心筆直，又與「得心\n」諧音）之類。也有一部份贈【親家】【親姆】。贈【小姑】的\nching-ke cheN'm\n'siuˇe 'cho-hue chiN-hue 'siahˇliu\n多半是【繡鞋】【草花】（蓪草所製花）【鮮花】【石榴】【\nˇlian-tsiau-hue 'thuaN ooˇthng kin-tsio 'lat'tsi ˋoo kiat'piaN\n蓮蕉花】【炭】【烏糖】【弓蕉】【栗子】【芋】【桔餅】\nsiok'hok\n之類。【禮帖】上寫上〖肅復〗二字。\n'tsiahˋtiaN\n當然免不了女家要辦酒席請男方的來客謂之【食定】。新\nteh-toh\n郎於席後在桌上放幾個紅包，謂之【窒桌】。男方如帶小孩女家\n應該給小孩一個小紅包，這是將紅線穿幾個方孔錢，給小孩掛在\nˋkuaNˋamˇtsiN\n頸上，謂之【縣領錢】。以上【窒桌】的紅包贈給廚師的，\n'tsong'phoo'le 'tsau-toh\n叫【總舖禮】，其金額略多於一桌酒席的工錢，給【走桌】（\nˇphang'chai'le\n端菜的人）一個小紅包，叫【奉菜禮】；此外新郎桌上有一位\nˋkuaNˇpanˣe\n專門爲客人敬酒的叫【縣瓶个】，也得到一個紅包。\n以上這些都是古禮，許多名稱現在連六七十歲的老人都不知道，好在日據時代留下許多文獻，給臺灣民俗留下一些記錄。現\nkngˋsiaN\n在禮俗正急速蛻變中，「扛檻」已經廢了將近三十年，現在改用\nchue-pan tehˋtiaN ching-ke cheN\n汽車運送，沒有【吹班】，【窒定】也多半不送【親家】【親\n'm 'sio-koo\n姆】【小姑】。\n'phing-kim\n至於【聘金】，多半是事先議定的，聘金要收下多少，要",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 4,
-"text": "·124·臺灣禮俗語典\n、ke-tsng\nkah\n看女方準備【佮】多少【嫁妝】而定。【嫁妝】多可以多收,「\n*ing ev h00·VkOO piah\n嫁妝」少心該少收,俗話說【用伊个塗糊伊个壁】(用他的\n聘金辦嫁粧) ,有些人為了愛面子,送許多聘金,女方收下了,\n居然沒什麼嫁妝,就會引起男方極度不悅,甚至發生糾紛,卽使\n'khoo、tok\nta-ke\n沒出事,將來新娘嫁過去可能受到【大家】(婆婆)【苦毒】\n(虐待)。當然有些窮苦人家嫁女兒就是要拿聘金,等於把婚姻\ns\\be\n當成買賣,有些地方「嫁」女兒乾脆就呻【賣】,和有些地方稱\nVchiaN\n為【】的不可同日而語。\nhun—su\n此外還有所謂【婚書】,相當於現在的「結婚證書」,多半\nVkhian\n採用記,詩書的吉祥文句作成。男方送女方的【婚書】呌【乾\nkhun-su\nVhue—hun—su\n書】,女方【囘婚書】,呻【坤書】\n0\nstnVmu ptaN\n•tuatpiaN\n完聘之後,女家把所收【大餅】(特稱【新娘餅】)分贈\n*hing sinVniutpiaN\n親友,謂之【貺新娘餅】,親收到之後,送金子或紅包等\nthiam-tsng\n給女家,謂之【添妝】\n0\n'lap、pe\n、lap'chai\n家偫在納采)]之外另有(納* ,從前臺灣婚俗「\ntsiat•gi\nhuevtiu\n、Ⅴ\n納」之禮,男家要贈送【】、【花綢】、【年儀】【節義\nthiaN*bin\n'hiViuN\n】【喜羊】等給女家,女家答以【面】(大用的家共)\nⅤ0、bueh\n【鞋】,大概因為和「納采」重複,早已合併為「完聘」一\n擧行。有些人甚至為了從簡,把「完聘」和「完婚」合併擧行,\nvuan、phing•chua\n謂之【完聘娶】。代多平是【完聘娶】\n0",
-"source": "winocr",
-"checked": "none",
+"text": "·124·　臺灣禮俗語典\nkah 'ke-tsng\n看女方準備【佮】多少【嫁妝】而定。【嫁妝】多可以多收，「\nˋing iˇeˇthoo·ˇkoo iˇe piah\n嫁妝」少應該少收，俗話說【用伊个塗糊伊个壁】（用他的聘金辦嫁粧），有些人爲了愛面子，送許多聘金，女方收下了，居然沒什麼嫁妝，就會引起男方極度不悅，甚至發生糾紛，卽使\nta-ke 'khoo'tok\n沒出事，將來新娘嫁過去也可能受到【大家】（婆婆）【苦毒】\n（虐待）。當然有些窮苦人家嫁女兒就是要拿聘金，等於把婚姻\nˋbe\n當成買賣，有些地方「嫁」女兒乾脆就叫【賣】，和有些地方稱\nˇchiaN\n爲【晟】*的不可同日而語。\nhun-su\n此外還有所謂【婚書】，相當於現在的「結婚證書」，多半\nˇkhian\n採用禮記，詩書的吉祥文句作成。男方送女方的【婚書】叫【乾\n-su ˇhue-hun-su khun-su\n書】，女方【回婚書】，叫【坤書】。\nˋtua'piaN sinˇniu'piaN\n完聘之後，女家把所收【大餅】（特稱【新娘餅】）分贈\nˋhing sinˇniu'piaN\n親友，謂之【貺新娘餅】，親友收到之後，送金子或紅包等\nthiam-tsng\n給女家，謂之【添妝】。\n'lap'chai 'lap'pe\n儒家禮俗在〖納采〗之外另有〖納幣〗*，從前臺灣婚俗「\n'peˇgi hueˇtiu ˇniˇgi tsiatˋgi\n納幣」之禮，男家要贈送【幣儀】、【花綢】、【年儀】【節義\n'hiˇiuN thiaNˋbin\n】【喜羊】等給女家，女家答以【廳面】（大廳用的家具）、\nˇe'bueh\n【鞋襪】，大概因爲和「納采」重複，早已合併爲「完聘」一次擧行。有些人甚至爲了從簡，把「完聘」和「完婚」合併擧行，\nˇuan'phingˋchua\n謂之【完聘娶】。現代多半是【完聘娶】。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 5,
-"text": "19\n諸羅志風偫志云:\n『此地(詣羅縣,義以北的大半臺,康熙時屬諸羅縣)\n並納聘(納采)於納幣而一之,具婚書、聘金、幣帛、雜物,簽\ntehVpuaN\n署納之敬:女家亦隨輕重而報之(指【窒盤】)。雖日太簡,\n亦不大背於。』\nvuan、phing\n可見納采)]納合而為【完聘】的風偫在康熙時代已\nYcuaN*tiaN\n如此。現在則連「完聘」亦近廢除,結婚只一次【縣定】(【\n•ting—hun\n*chua-stnvmu\n訂婚】) ,一大【新娘】便算完成。\n字解\ntlau-hue\n【粩花】o臺灣傳統米菓。先以米粉、芋粉蒸熟,搗揉,然後\n'kue—kuaN\n切成小片,風亁,謂之【粿亁】。「粿乾」油炸之後膨脹,\n、unvthng-ko\n然後【搵糖膏】(醮糖膏) ,丢入芝麻堆,使表面粘上芝\nV\nmuatlau\n'bi-phang\n,便成【麻粩】;丢入【米芳】(爆米花)裏,便成【米\nvthoo•tau-hu\nVthoo•tautlau\n粩】;丢入【塗豆灰】(花生末) ,便成【塗豆粩】,\n'lau-hue\n統稱之日【粩花】\n0\nvthngta*loo\nVthng-k0\n【糖仔路】用糖熬成【糖膏】,然後成各種形狀的糖點。\n現已極罕見。\n、suaN\n【麵線】\n細麵線,又稱【幼麵】\n0\nhokVuan\n、kuiVuan\nVling ging-kuaN\nhokVuan\n【福圓】\n又名【桂圓】,【龍眼亁】也。其外殼日【福圓\n-khak\nh0kVuan-bah\n、tsut'biVmuai•\n殼】,其肉日【福圓肉】。以【福圓肉】煮成的【秫米",
-"source": "winocr",
-"checked": "none",
+"text": "19　完　聘　·125·\n諸羅縣志風俗志云：\n『此地（諸羅縣，嘉義以北的大半臺灣，康熙時屬諸羅縣）並納聘（納采）於納幣而一之，具婚書、聘金、幣帛、雜物，簽\ntehˇpuaN\n署納幣之敬：女家亦隨輕重而報之（指【窒盤】）。雖曰太簡，亦不大背於禮。』\nˇuan'phing\n可見〖納采〗〖納幣〗合而爲【完聘】的風俗在康熙時代已\nˋkuaNˋtiaN\n如此。現在則連「完聘」亦近廢除，結婚只一次【縣定】（【\nˋting-hun ˋchua-sinˇniu\n訂婚】），一次【娶新娘】便算完成。\n字解\n'lau-hue\n【粩花】① 臺灣傳統米菓。先以米粉、芋粉蒸熟，搗揉，然後\n'kue-kuaN\n切成小片，風乾，謂之【粿乾】。「粿乾」油炸之後膨脹，\n'unˇthng-ko\n然後【搵糖膏】（醮糖膏），丟入芝麻堆，使表面粘上芝麻\nˇmua'lau 'bi-phang 'bi\n，便成【麻粩】；丟入【米芳】（爆米花）裏，便成【米\n'lau ˇthooˋtau-hu ˇthooˋtau'lau\n粩】；丟入【塗豆灰】（花生末），便成【塗豆粩】，\n'lau-hue\n統稱之曰【粩花】。\nˇthng'aˋloo ˇthng-ko\n【糖仔路】　用糖熬成【糖膏】，然後製成各種形狀的糖點。現已極罕見。\nˋmi'suaN 'iuˋmi\n【麵線】　細麵線，又稱【幼麵】。\nhokˇuan 'kuiˇuan ˇling'ging-kuaN hokˇuan\n【福圓】　又名【桂圓】，【龍眼乾】也。其外殼曰【福圓\n-khak hokˇuan-bah 'tsut'biˇmuai\n殼】，其肉曰【福圓肉】。以【福圓肉】煮成的【秫米糜",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 6,
-"text": "臺灣禮俗語典\n·126·\nhokVuanVmuat\n,謂之【福圓】\n0\nsiang-tang prnVnng\nptnVnng\n【榔】又讀punvnng ,現在以南投的【雙冬榔】,嘉\ntiong-poo ptnVnng\n義的【中埔檳榔】最有名。\n、siuVkun\nVhiu'a\npuaNVthauVhiuVkun\n【盤頭裘裙】新娘的結婚禮服,包括【裘仔】、【繡裙】\nVpuaVthau\npuaN、taN\n,皆男家贈送,放在【擔】(卽【盤蝢】)之中一起\npuaN、IaNVhiuVkun\n送到女家,故曰【盤頭裘裙】,析稱為【盤擔裘(裙)】。\n•siaN\n【橀】運送禮物的弔臺,兩人扛。現已改用汽車運送,所以從\n前的「橀」已不可見。\nVchiaNVti\nVchiaN\n【】培養,養育也。ㄡ日【持】。正字可能要作「成\n」,偫作「」。說文:『,明也。』集盷:『飯匱也。\n時征切,音成。』音可通,義不冾,算是假借字。\n【幣】說文:『幣,帛也』横渠理窟:『幣者金玉齒泉布之\n雜名。』唐:眦祭切(陽去) ,各韵書皆同。唯集:必\n袂(陰去)。閩南各書皆、p。。唯語中往訛為、phe\n、pe\n一vtai、phe vtai\n;更訛為、phio (票)\n、phiO 0\n、S | u 00\n【繡肚】從前臺灣的服式,無論男女老幼,胸前外衣下都懷着\nkuaN*tiaN\n'too•kuaN\n一個【肚】,大人用來放錢,小孩用來放糖果。【縣定\nttoo$kuaN\nvuan、phing\n】或【完聘】,新娘自製一個繡得非常漂亮的【肚】\nvtsaitkhi'too\n、Siu 00\n胃之【繡肚】,送給新郎,別稱為【財氣肚】。",
-"source": "winocr",
-"checked": "none",
+"text": "·126·　臺灣禮俗語典\nhokˇuanˇmuai\n】，謂之【福圓糜】。\npinˇnng siang-tang pinˇnng\n【檳榔】　又讀 punˇnng，現在以南投的【雙冬檳榔】，嘉\ntiong-poo pinˇnng\n義的【中埔檳榔】最有名。\nˇpuaNˇthauˇhiuˇkun ˇhiu'a 'siuˇkun\n【盤頭裘裙】　新娘的結婚禮服，包括【裘仔】、【繡裙】\nˇpuaN'taN ˇpuaˇthau\n，皆男家贈送，放在【盤擔】（卽【盤頭】）之中一起\nˇpuaN'ıaNˇhiuˇkun\n送到女家，故曰【盤頭裘裙】，析稱爲【盤擔裘（裙）】。\nˋsiaN\n【檻】　運送禮物的弔臺，兩人扛。現已改用汽車運送，所以從前的「檻」已不可見。\nˇchiaN ˇchiaNˇti\n【晟】② 培養，養育也。又曰【晟持】。正字可能要作「成\n」，俗作「晟」。說文：『晟，明也。』集韻：『飯匱也。\nˇsing\n時征切，音成。』音可通，義不洽，算是假借字。\n'pe\n【幣】③ 說文：『幣，帛也』橫渠理窟：『幣者金玉齒泉布之\nˋpe 'pe\n雜名。』唐韻：毗祭切（陽去），各韻書皆同。唯集韻：必袂切（陰去）。閩南各韻書皆讀 'pe。唯口語中往往訛爲 'phe\nˇtai'pe\n；更訛爲 'phio（票），如：【臺幣】→ ˇtai 'phe → ˇtai 'phio。\n'siu'too\n【繡肚】　從前臺灣的服式，無論男女老幼，胸前外衣下都懷着\n'tooˋkuaN kuaNˋtiaN\n一個【肚縣】，大人用來放錢，小孩用來放糖果。【縣定\nˇuan'phing 'tooˋkuaN\n】或【完聘】，新娘自製一個繡得非常漂亮的【肚縣】\n'siu'too ˇtsai'khi'too\n謂之【繡肚】，送給新郎，別稱爲【財氣肚】。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 }
 ]

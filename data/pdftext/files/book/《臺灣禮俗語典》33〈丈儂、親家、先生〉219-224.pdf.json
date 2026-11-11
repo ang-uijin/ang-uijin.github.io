@@ -4,56 +4,62 @@
 "pages": [
 {
 "n": 1,
-"text": "33丈儂、親家、先生\n·219 ,\n•tiuNVlang\nching-ke\n$tn—seN\n33丈儂、家、\n•tit.lNVlang\n•tiuN'm\n男人結婚,稱妻之父母日【丈儂】、【丈姆】,隨妻直呼【\na'bO\n、gak4hu('bo)*taiVzin\n阿爸】【阿母】等。演戲或寫信時有稱岳父(母)大人)l ,平\n'kiaN、sai\n•tiuNVlang\n常不用,女婿稱【囝婿】。兩者的關係,或兩者合稱,日【丈儂\n'kiaN、sai\n'kiaN、、puan'tsu\n囝婿】。俗語說【囝婿是半子】說明女婿相當於兒子,但也\ngua-ke\n不卽等於兒子,只等於半個兒子而已。夫家稱岳家為【外家】,\ns00一ke\n•auVthau•auvthauqchu\n在妻之立場則稱【祖家】或【後頭】【後頭厝】。\n*tiuNVlang\na-kong\n*tiuNVlang\na ma\n【丈儂】之父母,直呼【阿公】【阿媽】,對外稱【丈儂\n-kong\n•tiLlNVlang'ma\n公】【丈儂媽】,但現在很少人這麼稱呼。多半說【阮阿公】\nguan tsatbooV1ang\n【阮阿媽】,如對方問起,為了分別起見才說明【阮查某儂\nVe a—kong\n个阿公(阿媽)】\n0\n*tiuNVlang\ntsik-peh\n•tiuNVlang-tsik•tiuN\n【丈儂】之兄弟,卽妻之【叔伯】,分稱【丈儂】【丈\nVlang-peh\n•tiuNVlang-tsik-peh\n•tiuNVlang'tsim'm\n儂伯】合稱【丈儂叔伯】,其妻稱【丈儂嬸姆】。此外,\n'tsoo'ma\ntSOO\n凡妻之親戚均可冠上「丈儂」二字。如【丈儂祖】【丈儂祖媽】\n指妻之祖父母。妻之姑、舅、姨當然可以稱為【丈儂姑】【丈儂\n姨】,雖然現在己不流行這類稱呼,我覺得是很値得保存的稱呼\n法。直呼時「丈儂」二字可以省略。",
-"source": "winocr",
-"checked": "none",
+"text": "33　丈儂、親家、先生　·219·\nᵛtiuNᵛlang　ching-ke　sin-seN\n33　丈儂、親家、先生\nᵛtiuNᵛlang ᵛtiuN'm a-pa a'bo 'gakᵛhu('bo)ᵛtaiᵛzin 'kiaN'sai ᵛtiuNᵛlang 'kiaN'sai 'kiaN'saiᵛsi'puan'tsu ᵛgua-ke 'tsoo-ke ᵛauᵛthau ᵛauᵛthau'chu\n男人結婚，稱妻之父母曰【丈儂】、【丈姆】，隨妻直呼【阿爸】【阿母】等。演戲或寫信時有稱〖岳父(母)大人〗，平常不用，女婿稱【囝婿】。兩者的關係，或兩者合稱，曰【丈儂囝婿】。俗語說【囝婿是半子】說明女婿相當於兒子，但也不卽等於兒子，只等於半個兒子而已。夫家稱岳家爲【外家】，在妻之立場則稱【祖家】或【後頭】【後頭厝】。\nᵛtiuNᵛlang a-kong a'ma ᵛtiuNᵛlang -kong ᵛtiuNᵛlang'ma 'guan tsa'booᵛlang ᵛe a-kong a'ma\n【丈儂】之父母，直呼【阿公】【阿媽】，對外稱【丈儂公】【丈儂媽】，但現在很少人這麼稱呼。多半說【阮阿公】【阮阿媽】，如對方問起，爲了分別起見才說明【阮查某儂个阿公(阿媽)】。\nᵛtiuNᵛlang tsik-peh ᵛtiuNᵛlang-tsik ᵛtiuN ᵛlang-peh ᵛtiuNᵛlang-tsik-peh ᵛtiuNᵛlang'tsim'm 'tsoo 'tsoo'ma\n【丈儂】之兄弟，卽妻之【叔伯】，分稱【丈儂叔】【丈儂伯】合稱【丈儂叔伯】，其妻稱【丈儂嬸姆】。此外，凡妻之親戚均可冠上「丈儂」二字。如【丈儂祖】【丈儂祖媽】指妻之祖父母。妻之姑、舅、姨當然可以稱爲【丈儂姑】【丈儂姨】，雖然現在已不流行這類稱呼，我覺得是很値得保存的稱呼法。直呼時「丈儂」二字可以省略。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 2,
-"text": "·220·臺灣禮俗語典\n•tua*ku'a\n妻之兄弟日【舅仔】兄日【大舅仔】,弟日【細舅仔】。為\n*kim'a\nche*ku\ntbo*ku\n了與【母舅】分別時,別稱【妻舅】。【舅仔】之妻稱【妗仔】,\n•lue-hing\ncheüim\n別稱【妻妗】。【舅仔】的文語,【大舅仔】日內兄,古時\n•tua•kuXa\n隨子直呼【大舅也】,近代隨妻直呼【阿兄】【(幾)兄】\nue te\n【細舅仔】日內弟)l ,占時隨子直呼【○舅也】,今直呼其名\natSO\n。[(內兄之妻今直呼【阿嫂】,內弟之妻直呼其名古時皆\n要隨子直呼。內兄)l往往比自己年齡低,但依禮還是要直呼【\n*lun、pue Vb0*lun、hue\n阿兄】等,俗稱【論輩無論歲】。這句話泛指一切親戚須依倫\n理關係稱呼,不論年歲大小。不過所謂【論輩】的「輩」不一定\n是上,像「內兄」雖是同,亦可適用此句。【舅仔】稱本\n、rnuat、\n'tse—hu\n人為【姊夫】或【妹婿】,不論姊夫或妹婿,兩者之關係概稱\n*ku'a'tse-hu\n【舅仔姊夫】。\n啊u0、tit*hu\n•lue、tit\n【舅仔】所生子,文語稱內姪)] ,其妻日內姪婦)l ,女\n啊u0、tit-sun\n$lue'tit'li、sai\n啊u0、tittli\n日內姪女,其夫日內姪女婿。【舅仔】之孫日內姪孫\n*lue、tit—sun*hu\n,其妻日[(內姪孫婦)l。孫女內姪孫女,其夫日內姪孫\n女婿。\nCheVi\n妻之姊妹合稱【姨仔】,為與「母姨」區分,別稱【妻姨】\n(kui) v *\n。妻之姊分稱為【大姨仔】,古時隨子直呼【幾姨也】,近代\n'tseXa\nttseXa\n隨妻直呼【姊也】,或【(幾)姊也】。「大姨仔」年雖較自\n己為小,【論輩無論歲】,亦須直呼為姊,妻之妹本應稱【細姨",
-"source": "winocr",
-"checked": "none",
+"text": "·220·　臺灣禮俗語典\nᵛku'a ᵛtuaᵛku'a 'seᵛku'a 'boᵛku cheᵛku ᵛkim'a cheᵛkim ᵛlue-hing ᵛtuaᵛkuˣa ᵛlueᵛte a'so ᵛlun'pue·ᵛboᵛlunᵛhue 'tse-hu ᵛmuai'sai ᵛku'a'tse-hu\n妻之兄弟曰【舅仔】兄曰【大舅仔】，弟曰【細舅仔】。爲了與【母舅】分別時，別稱【妻舅】。【舅仔】之妻稱【妗仔】，別稱【妻妗】。【舅仔】的文語，【大舅仔】曰〖內兄〗，古時隨子直呼【大舅也】，近代隨妻直呼【阿兄】【(幾)兄】；【細舅仔】曰〖內弟〗，古時隨子直呼【○舅也】，今直呼其名。〖內兄〗之妻今直呼【阿嫂】，〖內弟〗之妻直呼其名古時皆要隨子直呼。〖內兄〗往往比自己年齡低，但依禮還是要直呼【阿兄】等，俗稱【論輩無論歲】。這句話泛指一切親戚須依倫理關係稱呼，不論年歲大小。不過所謂【論輩】的「輩」不一定是上下輩，像「內兄」雖是同輩，亦可適用此句。【舅仔】稱本人爲【姊夫】或【妹婿】，不論姊夫或妹婿，兩者之關係概稱【舅仔姊夫】。\nᵛlue'tit ᵛlue'titᵛhu ᵛlue'tit'li ᵛlue'tit'li'sai ᵛlue'tit-sun ᵛlue'tit-sunᵛhu\n【舅仔】所生子，文語稱〖內姪〗，其妻曰〖內姪婦〗，女曰〖內姪女〗，其夫曰〖內姪女婿〗。【舅仔】之孫曰〖內姪孫〗，其妻曰〖內姪孫婦〗。孫女〖內姪孫女〗，其夫曰〖內姪孫女婿〗。\nᵛi'a cheᵛi ᵛtuaᵛi'a (kui) ᵛiˣa 'tseˣa 'kui 'tseˣa seᵛi\n妻之姊妹合稱【姨仔】，爲與「母姨」區分，別稱【妻姨】。妻之姊分稱爲【大姨仔】，古時隨子直呼【幾姨也】，近代隨妻直呼【姊也】，或【(幾)姊也】。「大姨仔」年齡雖較自己爲小，【論輩無論歲】，亦須直呼爲姊，妻之妹本應稱【細姨",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 3,
-"text": "33丈、親家、先生·221·\n仔】,但【細姨(仔)】已轉為妾之稱,一般只稱【姨仔】,要\n細分時可說明是【阮查某儂个小妹】。古時隨子直呼,今\n直呼其名。\n、se•tiuNta\n【姨仔】之夫與本人的關互為【大細丈(仔)】(連襟) ,\n•tua、se*kuaiN\n•tua、se Slan\n俗謔稱【大細縣】*、【大細腎】”。【大細縣】本義是【大細\nP1ng\n、chui'phe\n爿】,意卽左右不一樣大小之義,如【喙酺大細縣】(左右頰不\n*lanthutta*tua\nstan\n一樣大小) ,【大細腎】意思差不多,但多半只用於【卵核仔大\n、se\n細腎】(兩顆睾丸不一樣大小)。這些都是不登大雅之堂的話,\ngtat-siat•ue\n用於指【大細丈】原是一種【孽話】(黃色笑話) * ,俗人不\n•tua、se+Slan\n察,以為常語,竟至流行,連襟之間互稱【大細腎】不以為意。\n臺灣語言文化之沒落有如此者。\n•tua*tiLlN'a\n(fkui)•tiuNXa\n細分之,妻之姊夫日【大丈(仔)】,直呼【幾丈(也)】\n、se•tiuNXa\n,今直呼、sang ( =亻) ;妻之妹婿日【細丈(仔)】\n今直呼其名。\n、Se•t1UN\nkhim、tit\nkhim、tit*hu\n【姨仔】與【大細丈】所生子日襟姪)J ,其妻日襟姪婦\nkhim、tit'li\nkhim、tit'li、sai\nkhim、tit-sun\n)] ;所生女日(襟姪女)I ,其夫日(襟姪女婿)l ;孫日襟姪孫\n'li\nkhim、tit-sun*hu\nkhim、tit-sun'li、sai\n(女) ,其配偶日襟姪孫婦)]、襟姪孫女婿)1。\n斗u0、tit khim、tit\n不過[(內E)I (E)J都是文語,只用於書信上或文人談話\n、titta\ngue—stng'a\nsunta\n之間。一般和【姪仔】【外甥仔】並稱為【孫仔】,並無區別。\nching-ke cheN'm\n男女結婚之後,雙方父母互稱【親家】【親姆】,兩家關係",
-"source": "winocr",
-"checked": "none",
+"text": "33　丈儂、親家、先生　·221·\n'a ᵛi'a 'guan tsa'booᵛlangᵛe'sioᵛmuai\n仔】，但【細姨(仔)】已轉爲妾之稱，一般只稱【姨仔】，要細分時可說明是【阮查某儂个小妹】。古時隨子直呼，今直呼其名。\nᵛi'a ᵛtua'seᵛtiuN'a ᵛtua'seᵛkuaiN ᵛtua'seᵛsian ᵛtua'seᵛping 'chui'phe ᵛsian ᵛlan'hut'aᵛtua 'seᵛsian 'giat-siatᵛue ᵛtua'seᵛsian\n【姨仔】之夫與本人的關係互爲【大細丈(仔)】(連襟)，俗謔稱【大細縣】*、【大細腎】*。【大細縣】本義是【大細爿】，意卽左右不一樣大小之義，如【喙酺大細縣】(左右頰不一樣大小)，【大細腎】意思差不多，但多半只用於【卵核仔大細腎】(兩顆睪丸不一樣大小)。這些都是不登大雅之堂的話，用於指【大細丈】原是一種【孽褻話】(黃色笑話)*，俗人不察，以爲常語，竟至流行，連襟之間互稱【大細腎】不以爲意。臺灣語言文化之沒落有如此者。\nᵛtuaᵛtiuN'a ('kui)ᵛtiuNˣa 'seᵛtiuNˣa\n細分之，妻之姊夫曰【大丈(仔)】，直呼【幾丈(也)】；今直呼 'ni'sang (ニイサン)；妻之妹婿曰【細丈(仔)】，今直呼其名。\nᵛi'a ᵛtua'seᵛtiuN khim'tit khim'titᵛhu khim'tit'li khim'tit'li'sai khim'tit-sun 'li khim'tit-sunᵛhu khim'tit-sun'li'sai\n【姨仔】與【大細丈】所生子曰〖襟姪〗，其妻曰〖襟姪婦〗；所生女曰〖襟姪女〗，其夫曰〖襟姪女婿〗；孫曰〖襟姪孫(女)〗，其配偶曰〖襟姪孫婦〗、〖襟姪孫女婿〗。\nᵛlue'tit khim'tit 'tit'a ᵛgue-sing'a sun'a\n不過〖內姪〗〖襟姪〗都是文語，只用於書信上或文人談話之間。一般和【姪仔】【外甥仔】並稱爲【孫仔】，並無區別。\nching-ke cheN'm\n男女結婚之後，雙方父母互稱【親家】【親姆】，兩家關係",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 4,
-"text": ", 222·臺灣禮俗語典\nching-kevmng-hong\n日【親家門風】。「親家門風」之間的稱呼,無論是男家或\n女家,亦無論份大小,只要平輩以上,對結婚夫婦之父皆稱【\nching-ke-peh\n親家】,母皆稱【親姆】,「親家」之兄弟日【親家伯】【親家\nkong\ntsik\nma\n叔】。【親家】之父母日【親家公】【親家媽】,其餘可以類推\nchinVtsiaN\n,於對結婚夫婦之平輩以下的【親情】,大槪沒有特別的稱呼\nvlang\ne\n)个某某儂】卽可。但當面直呼\n,只說明是【阮囝婿(新婦\n,禮貌上,無論輩份如何,都要跟着結婚夫婦之子女稱呼。比如\n•tua+kuXa\n媳婦(女婿)的兄弟,明明是低一輩,禮貌上還是要呻【大舅也\n•zi-pehXa\n•tua—pehXa\n【大伯也】【二伯也】一一等。\n】【二舅也】\n十於本人結婚夫婦之晚輩對結婚夫婦之親,比如我哥哥\nching-ke\ntiuNVlang\n的【丈儂】我可以直呼【親家】,但我的兒子就不能稱【親家】\na-kong\nching-ke-kong\n,必須稱【親家公】或隨其堂兄弟稱【阿公】,餘可類推,原\n則卜皆隨平輩之兄弟稱呼。\n以上關於親屬的稱謂,山【親骨肉】、【房親】、【宗親】\nchinVtsiaNXgoottsap\nchinVtsiaN\n,乃至異姓的【親情】(戚)及所有【親情五十】(近親\na-peh\n遠親)的稱呼大抵如上。例外的稱呼,比如稱父親為【阿伯】\na-tsik\n【阿叔】,稱母為【阿姆】【阿姨】,甚而直呼其,都有特\n殊原因,多與迷仁有關,參見第7。但洧些地方,比如彰化\n縣員林近,竞整個村子稱母【阿姨】,「姨」字\n稱(a-i】,可視為例外稱呼常例化,得意。",
-"source": "winocr",
-"checked": "none",
+"text": "·222·　臺灣禮俗語典\nching-keᵛmng-hong ching-ke-peh tsik kong 'ma chinᵛtsiaN ᵛe ᵛlang ᵛtuaᵛkuˣa ᵛziᵛkuˣa ᵛtua-pehˣa ᵛzi-pehˣa\n曰【親家門風】。「親家門風」之間的稱呼，無論是男家或女家，亦無論輩份大小，只要平輩以上，對結婚夫婦之父皆稱【親家】，母皆稱【親姆】，「親家」之兄弟曰【親家伯】【親家叔】。【親家】之父母曰【親家公】【親家媽】，其餘可以類推，至於對結婚夫婦之平輩以下的【親情】，大概沒有特別的稱呼，只說明是【阮囝婿(新婦……)个某某儂】卽可。但當面直呼，禮貌上，無論輩份如何，都要跟着結婚夫婦之子女稱呼。比如媳婦(女婿)的兄弟，明明是低一輩，禮貌上還是要叫【大舅也】【二舅也】……【大伯也】【二伯也】……等。\ntiuNᵛlang ching-ke ching-ke-kong a-kong\n至於本人爲結婚夫婦之晚輩對結婚夫婦之親戚，比如我哥哥的【丈儂】我可以直呼【親家】，但我的兒子就不能稱【親家】，必須稱【親家公】或隨其堂兄弟稱【阿公】，餘可類推，原則上皆隨平輩之兄弟稱呼。\nchinᵛtsiaN chinᵛtsiaNᵛgoo'tsap a-peh a-tsik a'm aᵛi a-i\n以上關於親屬的稱謂，由【親骨肉】、【房親】、【宗親】，乃至異姓的【親情】(親戚)及所有【親情五十】(近親及遠親)的稱呼大抵如上。例外的稱呼，比如稱父親爲【阿伯】【阿叔】，稱母親爲【阿姆】【阿姨】，甚而直呼其名，都有特殊原因，多半與迷信有關，參見第7篇。但有些地方，比如彰化縣員林附近，竟整個村子稱母親爲【阿姨】，「姨」字變陰平，稱【a-i】，可視爲例外稱呼常例化，値得注意。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 5,
-"text": "33丈、親家、先生·223·\nstn—seN/sian—SIN\n最後附帶談一談老師的稱呼。臺語稱老師為【先生】,\n*lau-su\n這不是日語,而是古語。現在多牛改稱【老師】。「先生」略稱\nstanXe\n為【先个】,但直呼【先个】則嫌意慢。臺語稱有學問的人為【\n'boo'boo-SlanXa\n、srn—seN\n某某先也】,只用於平輩之間,晚輩稱長輩應稱【老先生】\nMau—SlanXe\nStn—SeN mu\n。亦稱【老先个】,但直呼則嫌意慢。「先生」之妻稱【先生娘】\nsuVn1ti\nstn—seN kong sin—seN、ma\n或【師娘】,「先生」之父母稱【先生公】【先生媽】(「先生\nS1n—seN'le\n媽」又稱鄕間女赤脚醫生)。給「先生」的謝禮呌【先生禮】,\nsok-siu\nhak、hui\n文語稱。現代語【學費】多半指向學校或補習班納的\n學費,帶有知識買賣的性質,沒有【先生禮】或束亻來得凊\n高。\nta-kuaN\nta-ke\n【大官】\n【大家】m俗作【乾官】【乾家】。這是錯誤的義\n借字。臺灣東北部漳腔還稱公公為*tua-kuaN ,稱婆婆為\n•tua-ke, ,•tua明明是「大」字。至於「大」為何ta ,值\n得考證。大摡是近代官話借着北管戲曲流傳而來的吧。\n、tiok'li\n、su\n【同姒】娌也。正盷:『兄弟之妻相謂曰姒。詳子切。』\n考:\n「使」文'su/白'sai。\n•kuaiN\n、chui'phe•tua%e•kuaiN\nS n\n【縣】o【腎】@身上器官的一中。如【喙酺大細縣】(\nMan'hut'a•tu、se•sian\n兩邊臉頰不一樣大) ;【卵核仔大細腎】(睪丸不一樣大",
-"source": "winocr",
-"checked": "none",
+"text": "33　丈儂、親家、先生　·223·\nsin-seN/sian-siN ᵛlau-su sianˣe 'boo'boo-sianˣa ᵛlau'sin-seN ᵛlau-sianˣe sin-seNᵛniu suᵛniu sin-seN kong sin-seN'ma sin-seN'le sok-siu hak'hui\n最後附帶談一談老師的稱呼。臺語稱老師爲【先生】，這不是日語，而是古語。現在多半改稱【老師】。「先生」略稱爲【先个】，但直呼【先个】則嫌怠慢。臺語稱有學問的人爲【某某先也】，只用於平輩之間，晚輩稱長輩應稱【老先生】。亦稱【老先个】，但直呼則嫌怠慢。「先生」之妻稱【先生娘】或【師娘】，「先生」之父母稱【先生公】【先生媽】(「先生媽」又稱鄕間女赤脚醫生)。給「先生」的謝禮叫【先生禮】，文語稱〖束脩〗。現代語【學費】多半指向學校或補習班繳納的學費，帶有知識買賣的性質，沒有【先生禮】或〖束脩〗來得淸高。\n字　解\nta-kuaN ta-ke\n【大官】　【大家】①　俗作【乾官】【乾家】。這是錯誤的義借字。臺灣東北部漳腔還稱公公爲 ᵛtua-kuaN，稱婆婆爲 ᵛtua-ke,，ᵛtua 明明是「大」字。至於「大」爲何讀 ta，値得考證。大概是近代官話借着北管戲曲流傳而來的吧。\nᵛtangᵛsai 'tiok'li ᵛsu\n【同姒】②　妯娌也。正韻：『兄弟之妻相謂曰姒。詳子切。』\n參考：「使」文'su/白'sai。\nᵛkuaiN ᵛsian 'chui'pheᵛtua'seᵛkuaiN ᵛlan'hut'aᵛtu'seᵛsian\n【縣】③【腎】④　身上器官的一半。如【喙酺大細縣】(兩邊臉頰不一樣大)；【卵核仔大細腎】(睪丸不一樣大",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 6,
-"text": "·224 ,\n臺灣禮俗語典\n)。本字未考。此取同音字。「縣」當縣名時音x\\kuan漳/\nüüiN ,•kuiN泉/N\\kuaiNJ!I。「腎」文•sin。sin白話可以\n、SIII\nsian ,如【信】(相信)漳浦(福建) ,嘉義一帶讀、sian ,\nkit\n、tsit-sianVsinVbing\n叹【蜀身神明】(一神明)的「身」åfisian ,又吉〕\n讀kiat。因此可見如視*sian為白話層系統,字當在臻開三\ntsok'giat\ngiat\ngtat'tsu\n【孽】◎有三義: 1•惡也:【孽子】\n。惡作劇:【作孽】\ngiatvsiau\n【孽韶】(駡惡作劇的小孩之詞、韶精液也。借字)。以\ngiat-siat\n惡作劇或猥的話開玩笑諷刺、揶掄:【孽】(猥)、\ngiat-siat•ue\ngiat*ue\n【孽話】(黃色)笑話、【孽話】(黃色)笑話。左傳\n昭十年:『利生孽。』注:『孽,妖害也。』前漢五行志\ngiat\nvthang•thua\n:『蟲豸之妖謂之孽。』可見「孽」字自古便有【妖孽】\n之義。",
-"source": "winocr",
-"checked": "none",
+"text": "·224·　臺灣禮俗語典\nᵛkuan ᵛküiN ᵛkuiN ᵛkuaiN 'sin 'sian 'tsit-sianᵛsinᵛbing kit\n)。本字未考。此取同音字。「縣」當縣名時音 ᵛkuan 漳/ᵛküiN，ᵛkuiN泉/ᵛkuaiN廈。「腎」文ᵛsin。sin 白話可以變 sian，如【信】(相信)漳浦(福建)，嘉義一帶讀 'sian，又【蜀身神明】(一尊神明)的「身」讀 sian，又〖吉〗讀 kiat。因此可見如視 ᵛsian 爲白話層系統，字當在臻開三軫韻。\n'giat 'giat'tsu tsok'giat 'giatᵛsiau 'giat-siat 'giatᵛue 'giat-siatᵛue ᵛthangᵛthua iau'giat\n【孽】⑤　有三義：1.惡也：【孽子】。2.惡作劇：【作孽】，【孽韶】(駡惡作劇的小孩之詞、韶精液也。借字)。3.以惡作劇或猥褻的話開玩笑諷刺、揶揄：【孽褻】(猥褻)、【孽話】(黃色)笑話、【孽褻話】(黃色)笑話。左傳昭十年：『蘊利生孽。』注：『孽，妖害也。』前漢五行志：『蟲豸之妖謂之孽。』可見「孽」字自古便有【妖孽】之義。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 }
 ]

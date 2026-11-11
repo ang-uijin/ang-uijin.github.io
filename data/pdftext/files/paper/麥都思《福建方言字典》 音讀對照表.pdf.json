@@ -4,7 +4,7 @@
 "pages": [
 {
 "n": 1,
-"text": "",
+"text": "麥都思《福建方言字典》音讀對照表\n、聲母(十五字頭)\nm〔m〕/b〔b〕門\nP'h〔P '〕頗\np〔p〕邊\nn〔n〕/ 1〔1〕柳\nt'h〔t '〕他\nt〔t〕地\ns〔s〕時j〔dz〕入\nch'h〔ts'〕出\nch〔ts〕曾\ngn〔ng〕/g〔g〕語\nk'h〔k '〕去\nk〔k〕求\na,e,i,o,u,w,y〔〕英h〔h〕\n註:十五音門、柳、語三字頭遇鼻音韻時,分別以m , n, g表示;英字頭不用字母,合\n囗音另加w一,齊齒音另加Y一為字頭\n丶韻母(五十字母)\nA·舒聲\n1·囗音韻( 18個)\ne〔i〕居\nay〔e〕伽\nay〔〕嘉\na〔a〕膠\noo〔u〕艍\no〔0〕高\noe〔ou〕沽\ney〔ei〕稽\naou〔au〕交\nae〔ai〕皆\néaou〔iau〕嬌\new〔iu〕丩\néO〔iO〕茄\n〔ia〕迦\nöae〔uai〕乖\nwui〔ui〕規\nöey〔uei/ue〕檜\nwa〔ua〕瓜\n2·鼻音韻( 17個)\neeng〔iN〕梔\naing〔〕更\nna〔aN〕監\num〔m〕姆\nno〔oN〕扛\nnoe〔ouN〕姑\nnaou〔auN〕艾\naeng〔aiN〕閒\nneaou〔iauN〕梟\nnew〔iuN〕牛\néong〔iON〕薑\nena〔iaN〕驚\nwaeng〔uaiN〕閂\nwuing (uiN〕褌\nnöey〔ueiN〕糜\nWna〔uaN〕官\n3·陽聲韻( 15個)\nang〔ang〕江\nan〔an〕干\nam〔am〕甘\nong〔ong〕公\nom〔om〕箴\neng〔€ng/ieng〕經\nin〔in〕巾\nim〔im〕金\nöang〔iang〕姜\néem〔i€m/iam〕兼\néen〔i€n/ian〕堅\nwang〔uang〕光\nwan〔u〕觀\nwun〔un〕君\néung〔iong〕恭",
 "source": "winocr",
 "checked": "none",
 "flags": [
@@ -13,7 +13,7 @@
 },
 {
 "n": 2,
-"text": "",
+"text": "B·入聲\n1·口音韻( 12個)\neöh〔ih〕居\näyh〔eh〕嘉\n〔ah〕膠\n〔oh〕高\noöh〔uh〕艍\naoüh〔auh〕交\néah〔iah〕迦\néöh〔ioh〕茄\néaoüh〔iauh〕嬌\nwah〔uah〕瓜\nööyh〔ueih〕檜\nwaéh〔uaih〕乖\n2·鼻音韻( 6個)\nnäh〔aNh〕\näingh〔€Nh〕更\neöngh〔iNh〕梔\nnöh〔oNh〕\néaoüngh〔iauNh〕梟\nwaöngh〔uaiNh〕閂\n3·陽聲韻( 15個)\nap〔ap〕甘\nat〔at〕干\nak〔ak〕江\nop〔op〕箴\nok〔ok〕公\nip〔ip〕金\nit〔it〕巾\nek〔Ek/ik〕經\néet〔iet/iat〕堅éak〔iak〕姜\néep〔iep/iap〕兼\nwut〔ut〕君\nwat〔uat〕觀wak〔uak〕光\néuk〔iok〕恭\n註: 1·麥典的拼音法, e和醏阝標為ay ,但在說明中加以注明,字典中兩韻互相混淆。\n2·麥典的拼音法相當混亂,上表所列只是標準式,另外根據聲母不同而有拼音方式\n的匕。詳見標音說明及聲韻配合表。\n丶聲調(八音)\n入zip8\n去khi3\n1·調類\n平peN5\n上siang\nts i 0N7上\n骨k wut\n滾kwfin\n棍kwün\n君kwun\n滑kwüt\n滾kwfin\n郡kwün\n羣k wün\n格käyh\ntsi0N7上\n嫁käy\n嘉kay\n假y\n逆kåyh\n枷kåy\n下\n假käy\n下käy\n入\n2·調值\n上\n去\n平\ntsiON7上\n32\n44\n下\n23\n13\n註:漳州音聲調雖說是「八音」",
 "source": "winocr",
 "checked": "none",
 "flags": [

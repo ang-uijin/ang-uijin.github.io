@@ -4,47 +4,52 @@
 "pages": [
 {
 "n": 1,
-"text": "臺灣禮俗語典\n, 292 ,\n'tiamttsu\n、10h、tsong\n45落葬、點生\nVtai\nVbai、tsong\n、10h、tsong\n入壙埋葬謂之【落葬】,亦稱【埋葬】,一般簡稱【埋】,\nVtai'siVlang\n不避諱的說法,直說【埋死儂】。「外家」及一般送葬者,於喪\n*sia•poo\n主【謝步】之後便自行散去。死者遺族繼續送至墳墓,擧行【落\n葬】之禮。\n'thoo-kong'a\n0 g\n墓地預先雇請【土公仔】(專司埋葬、洗骨之人)挖好【墓\n、zit—su\nkhui、khong\n、khong\n壙】,謂之【開壙】。遺族在【日師】所看的【時】之前送靈\nkuan、ta\n柩抵達墳地,將【棺柩】停下,取下【棺罩】,男哭於棺右,女\n哭於棺左。\nVhun、peh'a\n'bi'tau\n此時將【大孫】所奉【米斗】,連同裏面所放的【魂帛仔\n*bong-toh\n】放在暫時的【墓桌】上,神主置共旁。僧道唸經之後,將棺\npang-sng\n材穿孔,謂之【放栓】* ,目的是讓空氣進去,使屍體早日腐化\nkhioh-kut\n。臺偫相信【却骨】時,肉全部腐化,骨亁淨,死者才會【\n、im'kiaN—sun\nZIP\n蔭囝孫】(陰騭子孫)。然後將棺材移入【墓壙】,謂之【入\n、khong\n壙】*。棺木入壙要注意【棺樵頭】在後,【棺樵尾】在前,以\n便死者一坐起來就可以看到墓前的品。\n棺柩【落葬】之後,【孝男】領先取圓鍬挖土埋葬。",
-"source": "winocr",
-"checked": "none",
+"text": "· 292 · 臺灣禮俗語典\n`loh`tsong 'tiam'tsu\n45 落葬、點主\n`loh`tsong ˇbai`tsong ˇtai ˇtai'siˬlang ˬsiaˬpoo\n入壙埋葬謂之【落葬】,亦稱【埋葬】,一般簡稱【埋】,不避諱的說法,直說【埋死儂】。「外家」及一般送葬者,於喪主【謝步】之後便自行散去。死者遺族繼續送至墳墓,擧行【落葬】之禮。\n'thoo-kong'a ˬbong `khong khui`khong 'zit-su ˇsi kuanˬkiu kuan`ta\n墓地預先雇請【土公仔】(專司埋葬、洗骨之人)挖好【墓壙】,謂之【開壙】。遺族在【日師】所看的【時】之前送靈柩抵達墳地,將【棺柩】停下,取下【棺罩】,男哭於棺右,女哭於棺左。\n'bi'tau ˇhun`peh'a ˬbong-toh `pang-sng khioh-kut 'im'kiaN-sun `zip `khong\n此時將【大孫】所奉【米斗】,連同裏面所放的【魂帛仔】放在暫時的【墓桌】上,神主置其旁。僧道唸經之後,將棺材穿孔,謂之【放栓】*,目的是讓空氣進去,使屍體早日腐化。臺俗相信【却骨】時,屍肉全部腐化,屍骨乾淨,死者才會【蔭囝孫】(陰騭子孫)。然後將棺材移入【墓壙】,謂之【入壙】*。棺木入壙要注意【棺樵頭】在後,【棺樵尾】在前,以便死者一坐起來就可以看到墓前的供品。\n棺柩【落葬】之後,【孝男】領先取圓鍬挖土埋葬。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 2,
-"text": ", 293·\n45落葬、點主\n入\n然後以【五牲】【三牲】甚至【豬羊】祭祀【土地公】,謂\n、hau'thoo*ti-kong\n之【孝土地公】。「土地公」是墓地守護神,在墓前側方(男\nh00 ' t00\n左女右)立一石碑,上刻后士二字。\nsu h00 h00\n如果是有地位的人,還要請地方上有頭有臉的人當【祀后土\nsu*hoo ' thOO\n—kuaN\n官】拜士地公,謂之【祀后土】。然後以【五牲】或【三牲】\n、hau%ong\n祭墓,謂之【孝墓】。\nVsinttsu\n'tiamttsu-kuaN\n'tiamttsu\n有些地方有所謂【點主】,【點主官】在【神主】*上點\n上朱點,然後再點上黑點。這是古能書家在墓前寫【神主】的遺\n風。然後,朱筆擲向太陽的方向,黑筆收囘。\n這些程序完了,給【后土】【燒金紙】;給【墓】【燒銀紙\n】。收囘所有牲。\n然後子孫在墓前下跪,【師公】取出【米斗】內的【五穀",
-"source": "winocr",
-"checked": "none",
+"text": "45 落葬、點主 · 293 ·\n然後以【五牲】【三牲】甚至【豬羊】祭祀【土地公】,謂之【孝土地公】。「土地公」是墓地守護神,在墓前側方(男左女右)立一石碑,上刻〔后土〕二字。\n'hau'thooˬti-kong ˬhoo'too\n如果是有地位的人,還要請地方上有頭有臉的人當【祀后土官】拜土地公,謂之【祀后土】。然後以【五牲】或【三牲】祭墓,謂之【孝墓】。\nˬsuˬhoo'thoo -kuaN ˬsuˬhoo'thoo `hauˬbong\n有些地方有所謂【點主】,【點主官】在【神主】*上點上朱點,然後再點上黑點。這是古能書家在墓前寫【神主】的遺風。然後,朱筆擲向太陽的方向,黑筆收囘。\n'tiam'tsu 'tiam'tsu-kuaN ˇsin'tsu\n這些程序完了,給【后土】【燒金紙】;給【墓】【燒銀紙】。收囘所有牲禮。\n然後子孫在墓前下跪,【師公】取出【米斗】內的【五穀\n〔圖〕入壙",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 3,
-"text": "·294·臺灣禮典俗語\ngin—kak'a\nting\n】撒在墓上。其餘連同【釘】【銀角仔】分給遺族帶囘保存,祝\nthiam—ting•huatvtsai\n其【添丁發財】。然後【師公】一面唸經,引導遺族繞墓三\n周。遺族抓起一把土,放在衣裾部份,然後棄於墓上,謂之【\n、phe h00\n帕塗】。\n'hue、tsongVUuN\n'hue'tsong\n如為【火葬】,棺木比較簡單。靈柩送至【火葬場】,\nthue、tsongVloo 'hue、hua\n送入【火葬爐】【火化】。子孫在外號哭,當火一點起,遺族\nhue、Vla、100 'kinttsau•00\na-kong(atma)\n高喊:【阿公(阿媽) ,火來咯,緊走唤!……】。【帕塗】之\nVling-thah\nkut-hu\n禮卽免除,但【骨灰】送入【靈塔】時,仍需分【五穀】【釘\n】【錢】給遺族,五穀撒在塔前地上。\nsamVhun\nVstn'tsu\nttiam'tsu\n【點主】的意思是將死人【三謉】中的一條招入【神主】\ntsih-tsu\nthuanttsu\n。神主牌奉囘家,謂之【返主】。古時至市街,又有所謂【接主\n】之禮。諸羅縣志風俗篇云:『旣葬,題主(按卽點主)設祭而\nVkiaN-ke\n反,親朋拜迎於道,謂之「接主」。偶而前導,謂之「行街」。』\n「返主」時,【大孫】將新神主放在「米斗」內,坐【大孫\n轎】(【魂轎】)囘家。\n、tsiah-saN-kak-bah\n囘家後,設宴款待所有幫忙的人,謂之【食三角肉】。喪\nsaN-kak-bah\n宴稱【三角肉】蓋因喪事旣非喜事,無心料理,故肉皆切不整齊\n、lah-tsik\n、phau\nkOta\n%ing\n之故。宴後,喪主【貺】(贈)每人【炮】、【臘燭】、【糕仔\ns\\tsingVhu\npang、phau si0\n*siu—kim\n】、【壽金】(金紙)、【淨符】等。各人囘家後【放炮】【燒\ntse*tsing\nVmg*khia\n-kim\n金】、將【淨符】贴【門徛】,皆去霉運之意,謂之【洗淨】。",
-"source": "winocr",
-"checked": "none",
+"text": "· 294 · 臺灣禮典俗語\nting ˇgin-kak'a thiam-ting·huatˇtsai 'pheˇthoo\n】撒在墓上。其餘連同【釘】【銀角仔】分給遺族帶囘保存,祝其【添丁發財】。然後【師公】一面唸經,引導遺族繞墓三周。遺族抓起一把土,放在衣裾部份,然後棄於墓上,謂之【帕塗】。\n'hue'tsong 'hue`tsongˇtiuN 'hue`tsongˇloo 'hue`hua a-kong(a'ma) hue·ˇlai·`loo 'kin'tsau·`oo kut-hu ˇling-thah\n如爲【火葬】,棺木比較簡單。靈柩送至【火葬場】,送入【火葬爐】【火化】。子孫在外號哭,當火一點起,遺族高喊:【阿公(阿媽),火來咯,緊走噢!……】。【帕塗】之禮卽免除,但【骨灰】*送入【靈塔】時,仍需分【五穀】【釘】【錢】給遺族,五穀撒在塔前地上。\n'tiam'tsu samˇhun ˇsin'tsu 'huan'tsu tsih-tsu ˇkiaN-ke\n【點主】的意思是將死人【三魂】中的一條魂招入【神主】。神主牌奉囘家,謂之【返主】。古時至市街,又有所謂【接主】之禮。諸羅縣志風俗篇云:『旣葬,題主(按卽點主)設祭而反,親朋拜迎於道,謂之「接主」。偶而前導,謂之「行街」。』\n「返主」時,【大孫】將新神主放在「米斗」內,坐【大孫轎】(【魂轎】)囘家。\n'tsiah-saN-kak-bah saN-kak-bah ˬhing 'phau `lah-tsik ko'a ˬsiu-kim ˬtsingˇhu `pang`phau sio-kim ˇmgˬkhia 'seˬtsing\n囘家後,設宴款待所有幫忙的人,謂之【食三角肉】。喪宴稱【三角肉】蓋因喪事旣非喜事,無心料理,故肉皆切不整齊之故。宴後,喪主【貺】(贈)每人【炮】、【臘燭】、【糕仔】、【壽金】(金紙)、【淨符】等。各人囘家後【放炮】【燒金】、將【淨符】貼【門徛】,皆去霉運之意,謂之【洗淨】。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 4,
-"text": "45落葬、點主·295·\nSIOVSI\n所有客人於宴後或訪問喪家皆不【胥辭】(辭別) ,默默離\nkOh、tsaiVlai\nSIO、sang\n去,主人亦不【胥送】(送別)。蓋無人希望為喪事【閣再來】\n0\npang-khang*iaN\n喪家【出山】時,必須全家出動,家中【放空營】(無\n人在家)是不可以的,此時例由媳婦的外家或其他親族看家,謂\n、koovpang\n之【房】*\n0\nvthing-kuan\n以上是通常的情形。如果【停棺】太久,直至除靈之後才下\nVsiVtng\nkhuiVtng\n葬,古有所謂【開堂】、【辭堂】等名詞。諸羅志風俗志說:\nvtivling\ntsut-khok\n『凡葬於卒哭(按卽【除靈】)之後者,前三日擧哀,設\nuat VsiVtng\npit\nkhuiVtng\ntiau*boo•tian\n朝暮奠,名日「開堂」,親友畢至,日「辭堂」。』\n這句話是說,如果【除靈】卒哭之後才【出山】,應於【出\n、hau*png\n山日】以前三日恢復哭喪,並旱晚【孝飯】,與「除」前一樣\nVsiVtng\n$bai—song\nkhuivtng\n。這呻【開堂】。親友都來【抹喪】(問喪) ,謂之【辭堂】\n0\n、khong\n、zip、khong\n【入壙】O將棺木埋入墓穴。集:『壙,墓穴也。苦兠切。』\n周禮夏官方相氏:『及墓,入壙。』\npang-sng\n【放栓】製棺時預先穿孔,由內部塞着木栓,【入壙】時,\n將此木栓敲落入棺中,故日「放栓」。廣:『栓,木釘也\nsuan\n。山員切。』(參考:「酸」isuan—åsng)o",
-"source": "winocr",
-"checked": "none",
+"text": "45 落葬、點主 · 295 ·\nsioˇsi sio`sang koh`tsaiˇlai\n所有客人於宴後或訪問喪家皆不【胥辭】(辭別),默默離去,主人亦不【胥送】(送別)。蓋無人希望爲喪事【閣再來】。\n`pang-khangˬiaN `kooˇpang\n喪家【出山】時,必須全家出動,家中【放空營】(無人在家)是不可以的,此時例由媳婦的外家或其他親族看家,謂之【顧房】*。\nˇthing-kuan khuiˇtng ˇsiˇtng tsut-khok ˇtiˬling tiauˬbooˬtian pit `uat\n以上是通常的情形。如果【停棺】太久,直至除靈之後才下葬,古有所謂【開堂】、【辭堂】等名詞。諸羅縣志風俗志說:『凡葬於卒哭(按卽【除靈】)之後者,前三日擧哀,設朝暮奠,名曰「開堂」,親友畢至,曰「辭堂」。』\n`hauˬpng khuiˇtng ˬbai-song ˇsiˇtng\n這句話是說,如果【除靈】卒哭之後才【出山】,應於【出山日】以前三日恢復哭喪,並早晚【孝飯】,與「除靈」前一樣。這叫【開堂】。親友都來【抹喪】(問喪),謂之【辭堂】。\n字解\n`zip`khong `khong\n【入壙】① 將棺木埋入墓穴。集韻:『壙,墓穴也。苦晃切。』\n周禮夏官方相氏:『及墓,入壙。』\n`pang-sng suan\n【放栓】② 製棺時預先穿孔,由內部塞着木栓,【入壙】時,將此木栓敲落入棺中,故曰「放栓」。廣韻:『栓,木釘也。山員切。』(參考:「酸」文suan→白sng)。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 5,
-"text": "、296·灣禮俗語典\nVsin'tsu\n【神主】死者牌位。漳vsin'tsi/泉vsin'tsu。\n'hue-hu\nhu\n【灰】◎hu作木頭之類有機物燒後的灰,如【火灰】(木\nvthoo-hu\nhiuN-hu kim-hu\n灰)【香灰】【金灰】(燒金紙的灰)。又粉末:【塗灰】\n'bi hu\nging-hu\n、ki-sut-hu\n【鋸屑灰】(鋸木屑)【研灰】(研成粉末)【米灰】(米的\n、kautku、tsiOh\nhu-hu\n粉末) ,形容詞如粉末狀:【灰灰】。自動詞:【佫久石\nvthau、iah•e-hu\n頭亦會灰】(石頭久了也會成灰)。\n'tsioh hue\n讀hue Whö泉/he厦指無機物燒成的灰。如【石灰】\nvo-khak-hue\n、【殼灰】(牡殼燒成的灰)。\nVhue\nhue\n廣:呼恢切。白話音參考K囘)JVhueWVhö泉/VheJE。\n韵書只收此音,在灰。但楊方合歡詩:『生為併身物,死\nVtiu\nhiu\n為同棺灰;秦氏自言至,我情不可。』「」廣:侶也。\nkhiu\nVtiu\n直由切。在尤。參考[I邱(尤)白音khu ,「灰」\nhiu\n字當有「呼尤切」之音。證諸上古音,灰在之部,之部一等\nh00\n在灰,三等在尤。廉熙字典云:『灰,又叶呼侯切』,\n非是。由楊方詩及臺語看來,當在三等尤。參考:「灰」\nlt.l\n字从火又,「有」字从肉又聲。有〕白u。有在三等,「\n灰」字古音可能也在三等(尤) ,後轉一等,遂入灰(以\n上等呼偝用中古等書分法、上古等韵可能與中古不同)。\ntiVthau•m\n、k00、tiam\n、k00\n【顧】@看管、照也。又如:【顯店】照店面;【豬頭毋\n、koo'tsiah\n、k00、k00 ah'bo*nng\n,顧鴨母卵】小心眼,重要的不管,管不重要的;【食\n】只管吃,其他都不管。",
-"source": "winocr",
-"checked": "none",
+"text": "• 296 • 臺灣禮俗語典\nˇsinˊtsu\n【神主】死者牌位。漳ˇsinˊtsi/泉ˇsinˊtsu。\nhu ˊhue-hu\nhiuN-hu kim-hu ˇthoo-hu\nˋki-sut-hu ˊging-hu ˊbi hu\nhu-hu ˋkauˊku ˋtsioh\nˇthauˋiah‵e-hu\n【灰】③　讀hu作木頭之類有機物燒後的灰，如【火灰】（木灰）【香灰】【金灰】（燒金紙的灰）。又粉末：【塗灰】【鋸屑灰】（鋸木屑）【硏灰】（硏成粉末）【米灰】（米的粉末），形容詞如粉末狀：【灰灰】。自動詞：【佫久石頭亦會灰】（石頭久了也會成灰）。\nˊtsioh hue\nˇo-khak-hue\n讀hue漳/hö泉/he廈指無機物燒成的灰。如【石灰】、【蠣殼灰】（牡蠣殼燒成的灰）。\nhue ˇhue\n廣韻：呼恢切。白話音參考〖囘〗ˇhue漳/ˇhö泉/ˇhe廈。韻書只收此音，在灰韻。但楊方合歡詩：『生爲併身物，死爲同棺灰；秦氏自言至，我情不可儔。』「儔」廣韻：侶也。直由切。在尤韻。參考〖邱〗（尤韻）白音khu，「灰」字當有「呼尤切」之音。證諸上古音，灰在之部，之部一等在灰韻，三等在尤韻。廉熙字典云：『灰，又叶呼侯切』，非是。由楊方詩及臺語看來，當在三等尤韻。參考：「灰」字从火又聲，「有」字从肉又聲。〖有〗白‵u。有在三等，「灰」字古音可能也在三等（尤韻），後轉一等，遂入灰韻（以上等呼借用中古等韻書分法、上古等韻可能與中古不同）。\nˋkoo ˋkooˊtiam tiˇthau‵m\nˋkoo ˋkoo ah ˊbo‵nng ˋkooˊtsiah\n【顧】④　看管、照顧也。又如：【顧店】照顧店面；【豬頭毋顧，顧鴨母卵】小心眼，重要的不管，管不重要的；【顧食】只管吃，其他都不管。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 }
 ]
