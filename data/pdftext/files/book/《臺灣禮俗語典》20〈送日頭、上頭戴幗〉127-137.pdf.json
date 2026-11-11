@@ -17,7 +17,7 @@
 "text": "・128・　臺灣禮俗語典\nˋˋgoo　ˋziˊkau　ˋzihˊkau　ˊzih\n【誤】同音，【二九】和【捺狗】（【捺】是壓的意思，男人怕二九結婚被老婆當作狗壓在下面）同音的聯想，總之，所有禁忌無非聯想心理作祟，並沒有什麼根據。\nˋˋpiˋˋpanˊhiˋˋsu\nˇkiam-sng-tiⁿ　ti-kha　ˋmiˋsuaⁿ　ˇthngˊa\nˇpuaⁿ　ˋˋtiuⁿˊm\nbongˊsai-bongˋzio　kanˊkhooˋsiuˊkhooˋkaˑioˊkaˋtua\nˊhan　ˊsaiˋzioˇpuaⁿ　ˊseˊsaiˋzio\nˇpuaⁿ\nˋkioˇtsingˇpuaⁿ\nˊseˊchiu-ke\n婚期決定之後，男女雙方都要忙於【備辦喜事】。先說新郎這一邊要備【鹹酸甜】（蜜餞）【豬跤】【麵線】【糖仔】（四項）一【盤】準備【娶新娘】當日贈給【丈姆】，目的是答謝丈姆娘爲新娘從小【摸屎摸尿】，【艱苦受苦共育駕大漢】（辛苦把女兒養大），所以叫做【屎尿盤】，是【洗屎尿盤】的略稱，名稱很不雅，卻是非常富於人情味的。這份【洗屎尿盤】因爲是在新娘上花轎以前送的，所以又稱【轎前盤】。漳人叫【洗手鷄】，用鷄、酒等。\nˊbanˋbin　ˋteˊaˋsuaⁿ\nˊhoˋmiaˇlang\nkhuiˋbin\nkhuiˋbinˊle　ˋtsiuⁿˇthau\nˊtiˋkue\n新娘有件重要工作是【挽面】，用【苧仔線】絞，拔去汗毛。從前女孩子不可「挽面」，直到結婚前夕才找一個【好命儂】（父母兄弟俱全的女人）來「挽面」，所以這第一次的挽面又叫【開面】，「開面」給的紅包叫【開面禮】，然後擧行【上頭戴幗】之禮。\nˋtsiuⁿˇthau\nkuˊaˇthau\n所謂【上頭】是完婚前男女雙方各自選個吉日，洗髮梳頭，新娘梳成【龜仔頭】之後插上\n〔圖〕龜仔頭",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -39,6 +39,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },

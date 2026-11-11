@@ -4,11 +4,13 @@
 "pages": [
 {
 "n": 1,
-"text": "對照表\n漳州三種十五音\n、聲母(十五字頭)\n求語\n去入出\n地時喜\n邊\n柳\n1\nP\n他\n頗\nth\nph\n門\n英\nbO\n、韻母字母)\n1·《彙集雅俗通十五音》五十字母\n金\n夫見\n君\nlm\nlan\nun\n乖\nuan\neng\nual\nong\n厶\nan\n恭\n10ng\n0\nlau\nOLI\n晃\nam\nua\nlang\n迦\n兼\n江\nla\nuel\nau\nlam\na ng\naN\n薑\n梔\n礻軍\n更\n10N\n力口\nIIIN\n10\n亻加\n閒\n驚\nalN\nu aN\n1aN\n光\n女母\nualN\nouN\nuang\n牛\n扌工\n箴\noN\nIIIN\nauN\nlaUN\nom\n2·《增補彙音》三十字祖\n家\n金\nIITI\nlan\nun\n官\n乖\n干\nuan\nual\nlng\nong\nan\n厶\n稽\n女喬\n0\n10ng\nlau\n丨司\n扌艮\n姜\nam\nua\nlang\nal\n白\n蒹\n亻加\n江\n乂\nue\nau\nla\nlam\nang\n璣\n龜\n箴\n1\nom",
-"source": "winocr",
+"text": "漳州三種十五音音讀對照表\n一、聲母（十五字頭）\n柳 l｜邊 p｜求 k｜去 kh｜地 t\n頗 ph｜他 th｜曾 ts｜入 z｜時 s\n英 ø｜門 b｜語 g｜出 tsh｜喜 h\n二、韻母（字母）\n1.《彙集雅俗通十五音》五十字母\n君 un｜堅 ian｜金 im｜規 ui｜嘉 ɛ\n干 an｜公 ong｜乖 uai｜經 eng｜觀 uan\n沽 ou｜嬌 iau｜稽 ei｜恭 iong｜高 o\n皆 ai｜巾 in｜姜 iang｜甘 am｜瓜 ua\n江 ang｜兼 iam｜交 au｜迦 ia｜檜 uei\n監 aN｜艍 u｜膠 a｜居 i｜丩 iu\n更 ɛN｜褌 uiN｜茄 io｜梔 iN｜薑 ioN\n驚 iaN｜官 uaN｜鋼 ng｜伽 e｜閒 aiN\n姑 ouN｜姆 m｜光 uang｜門 uaiN｜糜 ueiN\n嘄 iauN｜箴 om｜爻 auN｜扛 oN｜牛 iuN\n2.《增補彙音》三十字祖\n君 un｜堅 ian｜金 im｜歸 ui｜家 ɛ\n干 an｜公 ɔng｜乖 uai｜京 ing｜官 uan\n姑 ɔ｜嬌 iau｜稽 e｜宮 iɔng｜高 o\n皆 ai｜根 in｜姜 iang｜甘 am｜瓜 ua\n江 ang｜蒹 iam｜交 au｜伽 ia｜▢ ue\n▢ a｜龜 u｜箴 ɔm｜璣 i｜▢ iu",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多",
+"表格"
 ]
 }
 ]

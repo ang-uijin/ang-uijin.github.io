@@ -4,38 +4,42 @@
 "pages": [
 {
 "n": 1,
-"text": "《閩南語經典辭書彙編》總目\n第一册泉州方言韻書三種黃謙等編\n《南語經典辭書編》總序\n閩南語辭書簡介\n彙音妙悟音讀對照表\n解題:彙音妙悟的版本及音讀\n泉州韻書三種:\n一、道光辛卯年:薰園藏版《增補彙音妙悟》\n一一、光緒癸卯年:福州集新堂版《詳註彙音妙悟》\n三丶《拍掌知音\n第二册漳州方言韻書三種謝秀嵐等編\n漳州三種十五音音讀對照表\n解題:漳州十五音的源流與音讀\n漳州韻書三種:\n一、彙集雅俗通十五音\n一一、增補彙音\n三、渡江書十五音\n第三册福建方言字典麥都思編\n音讀對照表\n解題:",
-"source": "winocr",
-"checked": "none",
+"text": "《閩南語經典辭書彙編》總目\n第一册　泉州方言韻書三種　黃謙等編\n《閩南語經典辭書彙編》總序\n閩南語辭書簡介\n彙音妙悟音讀對照表\n解題：彙音妙悟的版本及音讀\n泉州韻書三種：\n一、道光辛卯年：薰園藏版《增補彙音妙悟》\n二、光緒癸卯年：福州集新堂版《詳註彙音妙悟》\n三、《拍掌知音》\n第二册　漳州方言韻書三種　謝秀嵐等編\n漳州三種十五音音讀對照表\n解題：漳州十五音的源流與音讀\n漳州韻書三種：\n一、彙集雅俗通十五音\n二、增補彙音\n三、渡江書十五音\n第三册　福建方言字典　麥都思編\n音讀對照表\n解題：\n一",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"直排"
 ]
 },
 {
 "n": 2,
-"text": "一、麥都思傳\n一一、麥都思《福建方言字典》的價值\nDictionary of the Hok-Kéöin Dialec冖of the Chinese Lanquage, Accord…ng to the Reading and\nColloquial ld一oms《福建方言字典》\n第四册廈英大辭典杜嘉德編·巴克禮補編\n音讀對照表\n解題:\n一、杜嘉德《廈英大辭典》簡介\n一一、巴克禮《廈英大辭典補編》及杜典以後的辭書字典\n廈英大辭典二種:\n一、Chinese-English Dictionary of the Vernacular or Spoken Language of Amoy《廈英大辭典》\n一一、Supplement to Dictionary of the Vernacular or Spoken Amoy《廈英大辭典補編》\n第五册日臺大辭典〈上〉\n亅川尚義主編\n音讀對照表\n解題:日據時代的辭書編纂\n日治時代台語著作目錄\n臺灣漢語方言分布圖·一九八五一九八八老年層一九九○年洪惟仁繪\n臺灣高砂族言語分布圖\n《日臺大辭典》冖上一\n臺灣語數比較表\n臺灣言語分佈圖一九○七年總督府製\n日臺大辭典緖言\n臺灣語G發音",
-"source": "winocr",
-"checked": "none",
+"text": "一、麥都思傳\n二、麥都思《福建方言字典》的價值\nDictionary of the Hok-Këĕin Dialect of the Chinese Lanquage, According to the Reading and Colloquial Idioms《福建方言字典》\n第四册　廈英大辭典　杜嘉德編·巴克禮補編\n音讀對照表\n解題：\n一、杜嘉德《廈英大辭典》簡介\n二、巴克禮《廈英大辭典補編》及杜典以後的辭書字典\n廈英大辭典二種：\n一、Chinese-English Dictionary of the Vernacular or Spoken Language of Amoy《廈英大辭典》\n二、Supplement to Dictionary of the Vernacular or Spoken Amoy《廈英大辭典補編》\n第五册　日臺大辭典〈上〉　小川尚義主編\n音讀對照表\n解題：日據時代的辭書編纂\n日治時代台語著作目錄\n臺灣漢語方言分布圖·一九八五～一九八八老年層　一九九○年洪惟仁繪\n臺灣高砂族言語分布圖\n《日臺大辭典》（上）\n臺灣語數比較表\n臺灣言語分佈圖　一九○七年總督府製\n日臺大辭典緒言\n臺灣語の發音\n《日臺大辭典》ア～ゾ\n二",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"直排"
 ]
 },
 {
 "n": 3,
-"text": "第六册日臺大辭典〈下〉\n川尚義主編\n音讀對照表\n解題:日據時代的辭書編纂\n《日臺大辭典》冖下一\n百家姓\n臺灣地名\n舊臺灣度量衡\n親族表\n本書編纂@顚末\n《臺大辭典》夕\n第七册臺日大辭典〈上卷〉\n川尚義編\n音讀對照表\n解題:日據時代的辭書編纂\n《臺日大辭典》冖上卷一ㄡ\n川尚義編\n第八册臺日大辭典〈下卷〉\n音讀對照表\n解題:日據時代的辭書編纂\n第九册臺灣語常用語彙王育德編\n音讀對照表\n解題:\n一、王育德的臺語學研究\n一一、王育德博士@學問\n《臺灣語常用語彙》",
-"source": "winocr",
-"checked": "none",
+"text": "第六册　日臺大辭典〈下〉　小川尚義主編\n音讀對照表\n解題：日據時代的辭書編纂\n《日臺大辭典》（下）\n百家姓\n臺灣地名\n舊臺灣度量衡\n親族表\n本書編纂の顚末\n《臺大辭典》タ～ン\n第七册　臺日大辭典〈上卷〉　小川尚義編\n音讀對照表\n解題：日據時代的辭書編纂\n《臺日大辭典》（上卷）ア～ヌ\n第八册　臺日大辭典〈下卷〉　小川尚義編\n音讀對照表\n解題：日據時代的辭書編纂\n《臺日大辭典》（下卷）タ～ン\n第九册　臺灣語常用語彙　王育德編\n音讀對照表\n解題：\n一、王育德的臺語學研究\n二、王育德博士の學問\n《臺灣語常用語彙》\n三",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"直排"
 ]
 },
 {
 "n": 4,
-"text": "四\n十册台灣十五音辭典黃有實編\n音讀對照表\n解題:台灣十五音四種\n黃有實小傳| |附柯鐵傳\n《台灣十五音辭典》",
-"source": "winocr",
-"checked": "none",
+"text": "第十册　台灣十五音辭典　黃有實編\n音讀對照表\n解題：台灣十五音四種\n黃有實小傳——附柯鐵傳\n《台灣十五音辭典》\n四",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"直排"
 ]
 }
 ]

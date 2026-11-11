@@ -7,7 +7,7 @@
 "text": "字考索引 ・325・\n臺灣禮俗語典索引\n凡　例\n1.本索引分字考、謠諺兩部份。\n2.「字考索引」收本書出現之鶴佬語重要詞素的語源考證,共366字。加圈號碼表字次編號,附於字解中所考證字之後;不加圈號碼表其出現之篇次。\n3.「謠諺索引」收與臺灣鷄佬族禮俗有關的歌謠、諺語、成語,共392條。句後號碼表出現之篇次。\n4.本語典收禮俗名、禮器名及與禮俗有關的部份慣用辭,共約3000條,因份量太多,俟將來編入「臺灣文化辭典」。讀者可就辭義性質,從篇目中去查其出處。\n5.編排方式,聲韻依羅馬字母順序排比。聲調依八音順序排比,與普通羅馬字字典相同。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -15,7 +15,7 @@
 "text": "・326・ 臺灣禮俗語典\n字考索引\n'a 【仔】 4② 語尾詞,形容其小。\nˣa 【矣】 22⑧ 了。\nˣa 【也】 32① 語尾詞,附於人名下。\nia 【埃】 22⑩ 塵埃也。\niah 【抑】 22⑦ 還是,抑或。\n'iah 【或】 22⑥ 或。\nah 【抑】 22⑦ 抑或。\nah 【壓】 7④ 壓迫。\n'ah 【或】 22⑥ 或。\na-kong 【阿公】 27 祖父。\na'lo 【阿佬】 29② 暱稱男兒。\na˅loo 【阿孥】 29③ 暱稱男兒。\na'ma 【阿媽】 27 祖母。\n'am 【泔】 26⑦ 粥也。\na'ne 【阿嬭】 27② 母也。\nang'boo 【翁某】 13 夫婦也。\na`sia 【阿舍】 34⑤ 公予哥兒。\nau 【漚】 14⑥ 久漬也,〔喻姘居。\n'au 【漚】 14⑥ 朽也。\n`au`siu 【後受】 25④ 續絃也。\n˅ba 【貓】 15⑩ 貓也。\n˅ba 【狸】 15⑪ 狸也。\n`bai 【抹】 41① 探也、看也。\nban 【屘】 29① 末也。\n˅ban˅phue 【孿皮】 15⑨ 我行我素、皮也。\n'bang 【蠓】 20⑨ 蚊也。\nbat 【捌】 15⑤ 識、曾。\n˅be 【糜】 6⑩ (廈)粥也。(漳 ˅mue, ˅muai/泉˅bö,˅mai\n`be 【袂】 1① 不會。(漳)泉 `böe 廈`bue。\nbeh 【卜】 10① 要也。漳bueh/泉böh/廈beh/澎湖boh\n˅bin˅thau 【饅頭】 41② 糯米饅頭。\n˅bo˅tai˅ua 【無奈何】 34⑭ 何可奈何、無聊。\n˅bo˅tau˅ua 【無奈何】 34⑭ 同上。\n˅bö 【糜】 6⑩ 粥也。(泉)漳 ˅mue, ˅muai/ 泉 ˅mai/ 廈˅be\n˅bo-tik`tiaN 【無竺定】 9① 不穩重也。\nbong 【摸】 24⑥ 泉 boo。\n`bong 【墓】 (漳)泉`boo。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "多欄",
 "羅馬字多"
@@ -28,6 +28,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄",
 "羅馬字多"
 ]
@@ -39,6 +40,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄",
 "羅馬字多"
 ]
@@ -50,6 +52,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄",
 "羅馬字多"
 ]
@@ -61,6 +64,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄",
 "羅馬字多"
 ]
@@ -72,6 +76,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄",
 "羅馬字多"
 ]
@@ -83,6 +88,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄",
 "羅馬字多"
 ]
@@ -94,6 +100,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄",
 "羅馬字多"
 ]

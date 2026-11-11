@@ -27,7 +27,7 @@
 "text": "43　祭棺、封釘　·277·\n〔圖〕祭棺",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]

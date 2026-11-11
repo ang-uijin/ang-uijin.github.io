@@ -9,6 +9,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "羅馬字多"
 ]
@@ -98,7 +99,7 @@
 "text": "・46・臺灣禮俗語典\n'iah'aiᵛche 'iah'aiᵛbe\nphah·ʷhuan-phah 'thiaN·ʷhuan'thiaN\n股）。不過俗語說【亦愛箠，亦愛糜】*（也要箠楚，也要給稀飯吃），【扑還扑，痛還痛】*（打歸打，疼歸疼）。\n'oh'kongʷue 'chuiᵛtun·'tsit'liap-tsu\n'kongʷue·ʷmʷzin-su\ntioh'tsih-kin\nka'tsih-kin\n關於小孩【學講話】也有一句俗話，說【喙唇蜀粒珠，講話毋認輸】，意思是說，上唇尖端如果有個突起，這個小孩會講話。如果小孩【着舌筋】，就是舌下有一條筋特別大，舌頭被牽住，就不會說話，一出生就要【鉸舌筋】，把那條舌筋剪斷。\nʷtua'tsih ʷtua'tsih·\n'hing'kongʷue 'e'kau·'hingᵛpun-chue\n口吃叫【大舌】，口吃又愛說話，人家就會譏笑說：【大舌興講話，啞口興歕吹。】（口吃的愛講話，啞巴愛吹哨吶）。可是【大舌】往往是心理過度緊張，你越取笑他，他越【大舌】，應該慢慢糾正他才好。\n'to'chiu'aʷkuaiN 'to'chiu'uaiN\n'oh'giahʷti\n'giahʷti 'siaʷzi\n'sau'te chiat'chai\n'bai'chiu'a'kui\n左撇子叫【倒手（仔）縣】或【倒手踠】，一般是孩子【學揭箸】（學拿筷子）便敎他用右手，但若天生的「倒手縣」，倒也沒有嚴厲的糾正。有些人【揭箸】*【寫字】用右手，但【掃地】【切菜】用左手，就是大人從小嚴厲敎導的結果，長大自己學的就還是用左手。有些地方稱左撇子叫【穛手仔鬼】（醜手鬼）。\nseN'kiaN·'bian saiʷhu ʷchi'kiaN·'tsiaʷsi'ai saiʷhu\nbong'sai bongʷzio ʷmʷsi'saiʷtohʷsiʷzio\nliap'kaʷtua'han\n'chiu·ʷphoᵛhaiᵛzi 'tsia-tsaiʷpe'boᵛsi\n俗話說：【生囝免師傅，飼囝始是愛師傅】，母親從小給孩子【摸屎摸尿】，所謂【毋是屎着是尿】，慢慢【擛駕大漢】*，其中艱辛，只有自己當了父母才會了解，所以俗話說：【手抱孩兒，始知父母時】。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -108,7 +109,7 @@
 "text": "6斷奶、發牙・47・\n字解\nme\n【▢】① 抓也。泉音 mi，顯示正字在梗攝二等平聲。m 聲母多半在陽聲調，只有【摸】【抹】等少數字在陰聲調，所以這個字實際上難以找到正字。查梗攝二等明母並無適當字，又幫、滂母亦無適當字。查集韵：『▢，收歛也。謨蓬切。』義稍近。字從手，手指的收歛卽「抓」義。韵母不合，但古東陽合韵，蒙在東部、梗在陽部，可互轉。說較迂曲，姑視爲同源字。\nbong buah\nᵛbong\nʷthiaN ʷting\n【挺】② 補身體也。廣韵：『挺出，說文：挺也。徒鼎切音訂。』文白對當合乎常例。使身體挺拔，卽補身體之義。\nᵛkun 'kun\nhun\n【焄】③ 滾煮。形容詞【滾】的動詞形。閩南俗字。集韵：『焄香臭之氣。許云切。』玉篇：『火上出也』。是「燻」的異體字。並無ᵛkun義。姑從俗。\nhiam hiam\nhiam\n【薟】④ 辣也。集韵：『辛味，火占切』。又作「薟」，廣韵：『薟，芋之辛味曰薟。虛嚴切。』林金鈔有考，見『探源』356條。\nsuh 'sau 'soo\nsok\nsuh\nsuh\n【嗽】⑤ 吮也。「嗽」字有二義。1.咳嗽之【嗽】，廣韵：蘇奏切。2.集韵：『吮也。桑谷切，音速。』字在屋韵，屋韵沒有變 -uh 的。但【嗽】又音 soh。參考 tuh-ku（磕睡）又音 tok-ku。可能【嗽】本當讀 soh。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "winocr-agree",
 "flags": [
 "羅馬字多"
 ]
@@ -118,7 +119,7 @@
 "text": "・48・臺灣禮俗語典\nkha-chng ᵛtun\nkho 'tso\n'tsa\nkha-chng kau kha-chng'phe\nʷlingᵛui ke'siu ᵛbuᵛuiᵛgiuʷhoo\nʷling'khoo keᵛthau\nʷm'ho ᵛgu-kha-chng\n【尻川】⑥ 屁股也。廣韵：『尻，說文：脽（同臀）也。』廣韵：苦刀切。廣雅釋親：『尻，臀也。』同韵〖早〗白 'tsa，故知 kho 可對 kha。又山海經北山經：『倫山有獸，如麋焉，其川在尾上。』注：『川，竅也。』由上面的資料看來，川指【尻川溝】，尻依說文當指【尻川酺】言。尻可能是骶（尾骨）、后（屁股）的同源字。戰國策蘇秦云：『寧爲雞首，毋爲牛后。』譯成白話爲：【寧可做雞頭，毋好做牛尻川。】\nphah phahᵛlang phok'biat phah-\nphik\n【扑】⑦ 打也。同源字有好幾個。【扑儂】、【撲滅】、【扑拍】（打拍板），擬各以不同字表示。\nʷhuan ʷling\n【還】⑧ 歸也。陽平變陽去，與寧可之寧同。\nᵛche\ntui 'tsui\nᵛsui\n【箠】⑨ 箠楚。漳ᵛchue/泉ᵛchö/廈ᵛche，此爲廈腔諺語，故讀廈腔。與國音ㄔㄨˊㄟ相當，但廣韵：竹垂切。又：之累切。集韵：是爲切。臺語與國音屬集韵所記音系統相當。\nᵛbe\n【糜】⑩ 粥也。音最分歧，漳ᵛmue, ᵛmuai/泉ᵛbö,ᵛmai/廈ᵛbe。臺灣大部份地區讀漳腔；臺北市區、新竹、大甲屬廈腔；萬華以南的盆舷地帶，包括南港以東至七堵及林口、鸚歌、西海岸地區由梧棲、鹿港至臺西屬泉腔。廈腔皆分佈於泉腔的邊緣地帶。不但「糜」之讀音如此，就整體言，漳泉廈之分佈亦大抵如此。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "winocr-agree",
 "flags": [
 "羅馬字多"
 ]
@@ -128,7 +129,7 @@
 "text": "6斷奶、發牙・49・\nᵛgau'puah'to ᵛgau\nᵛhau\nʷgua ᵛgia\nᵛho\nᵛgau\n【爻跋倒】 【爻】⑪ 善也。跋，顚也，跌也。「爻」，廣韵：胡茅切，今閩南讀音皆讀ᵛgau，胡屬匣母，匣母字讀 g- 者如：何、荷。林金鈔、陳冠學擬爲「▢」。說文：『▢，健也。』集韵：乎刀切。ᵛho 白話 ᵛgau 可通。段玉裁認爲此乃「豪」傑字。但廣雅釋詁云：「爻，效也」。其同源字有學、覺、曉，皆有明義。臺灣話 ᵛgau 是聰明能幹之義，與「健也」義稍遠。姑以【爻】爲正字。\n'hang-ling 'hing\n【臖奶】⑫ 廣韵：『腫起。許應切，音興（去聲）』字在曾開三，曾開三白話音多爲 -in，轉一等，參考崩 pang，北 pak，勉强可視爲準正字。\n'sanᵛpi-pa 'san 'sing 'sing\nthing ᵛling-sing\nsing\nᵛphi\npau phau phau\n'sanᵛpi-\npa\n【▢皮包】⑬ 【▢】，廣韵：『瘦。所景切，音省。又息井切』字在梗開二、三等。參考梗開三的〖蟶〗白 than。又〖零星〗白 lan-san，〖鉎〗生鏽，白 san/sian。〖皮〗，並母又可讀ᵛpi，〖包〗讀 pa，參考〖拋〗〖脬〗白 pha。【▢皮包】謂瘦得皮包骨。\nᵛgai\nᵛgai\n【啀】⑭ 無理取鬧，不乖之義。玉篇：『啀，狗欲齧。』廣韵：『犬鬪。五佳切。』\n'liah'khiᵛthai 'liah 'liok\n'lik\nᵛthai\n【搦去刣】 捉去殺之義。【搦】⑮ 俗作「掠」，非是。凡白話 -iah 多在梗攝二、三等（文 -ik）。廣韵：『搦：捉搦。女白切。』如爲掠（'liak/'liok）白話音必是 'lioh，如略（liak/liok→lioh）。【刣】⑯ 俗字。可能是百越遺音，今越",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "winocr-agree",
 "flags": [
 "羅馬字多"
 ]
@@ -138,7 +139,7 @@
 "text": "· 50 · 臺灣禮俗語典\n語 thai，殺也。\nˋgiahˎti ˋgiah ˋkiat ˋziat ˎkiaN ˇgia ˋgiahˎti ˇgiaˎti ˋkiat giah-chuaN chuaN ˋchi kiat\n【揭箸】 拿筷子。【揭】⑰，泉音 ˋkiah，ˋkah，顯示 g- 是 k- 的濁化。說文：『揭，高擧也。』唐韻：渠列切音傑。文白對當合乎當例。參考同韻【熱】，又其上聲【件】。「揭」與【荷】⑱（擔也、負也）同源。古文中亦常相混。史記東方朔傳：『數賜縑帛，擔揭而去。』康熙字典：『揭，負也。』唐韻：『擔也』。今臺語擧箸或云【揭箸】又云【荷箸】。字通「竭」，廣韻：『竭，擧也。渠列切音揭。』此字又可能是 giah 的正字。如【揭扦】（挑刺）是用針把扦入皮內的刺挑出的意思。泉音 kiah 。大雅：『顚沛之揭。』傳：『揭，見根貌。』疏：『樹倒故根見。』廣韻：『揭，起也。居列切。』通語「揭瘡疤」卽此義。\nˋliap ˋliap ˋliapˇthooˇang'a liap ˋliam ˋliap ˋnih liap'iaN siap ˋliap liap\n【擸】⑲ 揑也，揑成一個樣子叫【擸】，如【擸塗俑仔】（揑泥人）。說文：『理持也』，廣韻：良涉切。如用兩手指撚，謂之【捻】⑳，集韻：『捻，揑也。諾叶切』此字從「念」，音 ˋliap 是陰陽對轉。可視爲準正字。如用手抓緊曰【揑】㉑（=ˎteN/ˎtiN）。ˋliap 俗作「攝」，但此字文讀 liap，如【攝影】，說文：『引持也。』廣韻：書涉切。liap 在陰入，當是 siap 的訛音，此字從〖聶〗，讀 siap 也是不合理的，閩南語可能保存古音。白話謂肛門收縮曰【攝】。本書於以上諸詞素的漢字選用依上述的考證爲原則。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]

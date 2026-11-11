@@ -4,20 +4,24 @@
 "pages": [
 {
 "n": 1,
-"text": "台灣十五音辭典音讀對照表\n丶聲母(十五字頭)\nb〔b/m〕文\nPh〔P '〕頗\nP〔P〕邊\n1〔1 / n〕柳\nth〔t '〕他\nt〔t〕地\ns〔s〕時j〔dz〕入\nchh〔ts'〕出\nch〔ts〕曾\ng〔g/ng〕語\nkh〔k '〕去\nk〔k〕求\nh〔h〕\n註:本辭典基本上採用敎會羅馬字,但仍堅持《十五音》的聲韻學觀念,聲母符號只用\n15個,文柳語三母接鼻音韻仍用b , 1 , g標示\n、韻母(四十六字母)\nA·舒聲( 46個)\ni〔i〕居\ne〔e〕家\n1·a〔a〕膠\nu〔u〕龜\n0〔。〕高\nau〔au〕交\nai〔ai〕皆\niau〔iau〕嬌\niu〔iu〕丩\nio〔i。〕滘\nia〔ia〕迦\noai〔uai〕乖\nui〔ui〕規\noe〔ue〕\noa〔ua〕瓜\nin〔iN〕梔\nen〔EN〕\n2·an〔a〕監\nng〔ng〕缸\nm〔m〕姆\non〔oN〕扛\naun〔auN〕爻\nain〔aiN〕閒\niaun〔iaN〕嘄\niun〔iuN〕薑\n*ion〔ioN〕韁\nian〔iaN〕驚\noain〔uaiN〕關\nuin〔uiN〕\noan〔uaN〕官\nang〔ang〕江\nan〔an〕干\n3·am〔am〕甘\nong〔ong〕公\nom〔om〕箴\niong〔iong〕宮\neng〔ing〕經\nin〔in〕根\nim〔im〕金\niang〔iang〕姜\nian〔ian〕堅\niam〔iam〕兼\noang〔uang〕光\noan〔uan〕觀\nun〔un〕君\nB·入聲( 40個)\nih〔ih〕居\neh〔eh〕家\n1·ah〔ah〕膠",
-"source": "winocr",
+"text": "台灣十五音辭典 音讀對照表\n一、聲母（十五字頭）\nP 〔P〕邊｜Ph 〔P‘〕頗｜b 〔b/m〕文\nt 〔t〕地｜th 〔t‘〕他｜l 〔l/n〕柳\nch 〔ts〕曾｜chh 〔ts‘〕出｜s 〔s〕時｜j 〔dz〕入\nk 〔k〕求｜kh 〔k‘〕去｜g 〔g/ng〕語\n〔ʔ-〕英｜h 〔h〕喜\n註：本辭典基本上採用敎會羅馬字，但仍堅持《十五音》的聲韻學觀念，聲母符號只用 15 個，文柳語三母接鼻音韻仍用 b, l, g 標示\n二、韻母（四十六字母）\nA.舒聲（46 個）\n1. a 〔a〕膠｜e 〔e〕家｜i 〔i〕居\no· 〔ɔ〕姑｜o 〔o〕高｜u 〔u〕龜\nai 〔ai〕皆｜au 〔au〕交\nia 〔ia〕迦｜io 〔io〕滘｜iu 〔iu〕丩｜iau 〔iau〕嬌\noa 〔ua〕瓜｜oe 〔ue〕▢｜ui 〔ui〕規｜oai 〔uai〕乖\n2. aⁿ 〔aN〕監｜eⁿ 〔ɛN〕｜iⁿ 〔iN〕梔\noⁿ 〔ɔN〕扛｜m 〔m〕姆｜ng 〔ng〕缸\naiⁿ 〔aiN〕閒｜auⁿ 〔auN〕爻\niaⁿ 〔iaN〕驚｜*ioⁿ 〔iɔN〕韁｜iuⁿ 〔iuN〕薑｜iauⁿ 〔iaN〕嘄\noaⁿ 〔uaN〕官｜—｜uiⁿ 〔uiN〕▢｜oaiⁿ 〔uaiN〕關\n3. am 〔am〕甘｜an 〔an〕干｜ang 〔ang〕江\nom 〔ɔm〕箴｜—｜ong 〔ɔng〕公\nim 〔im〕金｜in 〔in〕根｜eng 〔ing〕經｜iong 〔iɔng〕宮\niam 〔iam〕兼｜ian 〔ian〕堅｜iang 〔iang〕姜\nun 〔un〕君｜oan 〔uan〕觀｜oang 〔uang〕光\nB.入聲（40 個）\n1. ah 〔ah〕膠｜eh 〔eh〕家｜ih 〔ih〕居",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多",
+"表格"
 ]
 },
 {
 "n": 2,
-"text": "oh〔oh〕高\nuh〔uh〕龜\nauh〔auh〕交\n〔aih〕\naih\nioh〔ioh〕滘\n〔iah〕迦\niah\niuh〔iuh〕丩\n〔iauh〕嬌\niauh\n〔uah〕\noeh〔ueh〕\noah\nuih〔uih〕規\n〔aNh〕監\nehn〔ENh〕庚\n2·ahn\nihn〔iNh〕梔\nohn〔oNh〕扛\nngh〔ngh〕缸\n〔aiNh〕閒\naihn\nauhn〔auNh〕爻\n〔iaNh〕驚\niahn\ni a uhn\n〔iauNh〕嘄\n〔Nh〕\noahn\noaihn\n〔uaiNh〕關\n3·ap〔ap〕甘\nat〔at〕干\nak〔ak〕江\nop〔op〕箴\nok〔ok〕公\nip〔ip〕金\nit〔it〕根\nek〔ik〕經\niap〔iap〕兼\niat〔iat〕堅\niak〔iak〕姜\niok〔iok〕宮\nut〔ut〕君\noat〔uat〕觀\noak〔uak〕光\n註:本書以斗六方言為基礎,兼收其他方\n日讀。經調查,斗六方言並無韁( ioN )韻,\n此韻的字多重出薑(iuN)韻。\n、聲調\n上\n平\n去\n入\n上君kun33·\n22\n滾k n31·\n棍künll\n·31\n骨kut2·\n下群k 2·\n22\n郡k 22·\n11\n滑kut12·\n註:斗六的聲調與台灣優勢音大體相同,唯一較特殊的是下入聲本調的讀法為低升調",
-"source": "winocr",
-"checked": "none",
+"text": "—｜oh〔oh〕高｜uh〔uh〕龜\naih〔aih〕｜auh〔auh〕交\niah〔iah〕迦｜ioh〔ioh〕滘｜iuh〔iuh〕丩｜iauh〔iauh〕嬌\noah〔uah〕｜oeh〔ueh〕▢｜uih〔uih〕規｜—\n2. ahⁿ〔aNh〕監｜ehⁿ〔ɛNh〕庚｜ihⁿ〔iNh〕梔\nohⁿ〔oNh〕扛｜—｜ngh〔ngh〕缸\naihⁿ〔aiNh〕閒｜auhⁿ〔auNh〕爻\niahⁿ〔iaNh〕驚｜—｜—｜iauhⁿ〔iauNh〕嘄\noahⁿ〔uaNh〕｜｜—｜oaihⁿ〔uaiNh〕關\n3. ap〔ap〕甘｜at〔at〕干｜ak〔ak〕江\nop〔op〕箴｜｜ok〔ok〕公\nip〔ip〕金｜it〔it〕根｜ek〔ik〕經\niap〔iap〕兼｜iat〔iat〕堅｜iak〔iak〕姜｜iok〔iɔk〕宮\nut〔ut〕君｜oat〔uat〕觀｜oak〔uak〕光\n註：本書以斗六方言爲基礎，兼收其他方言音讀。經調查，斗六方言並無韁(ioN)韻，此韻的字多重出薑(iuN)韻。\n三、聲調\n平｜上｜去｜入\n上｜君kun³³：²²｜滾kǔn³¹：³³｜棍kùn¹¹：³¹｜骨kut²：³\n下｜群kûn¹²：²²｜—｜郡kūn²²：¹¹｜滑kut¹²：¹\n註：斗六的聲調與台灣優勢音大體相同，唯一較特殊的是下入聲本調的讀法爲低升調",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多",
+"表格"
 ]
 }
 ]
