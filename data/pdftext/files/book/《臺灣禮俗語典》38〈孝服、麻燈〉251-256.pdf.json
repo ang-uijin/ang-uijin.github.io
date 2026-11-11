@@ -27,7 +27,7 @@
 "text": "38 孝服、麻燈 ・253・\n'khuaN'zit 'thng'ha\n亦卽一年半以上,便可以【看日】【褪孝】。泉俗或偸在百日「\n〔圖〕麻杉",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -57,7 +57,7 @@
 "text": "・256・ 臺灣禮俗語典\n'ha 'hau\"png 'hau'tho\"ti-kong 'iu'hau put'hau\n【孝】① 服喪也,名詞。如讀 'hau ,則爲動詞,當祭拜解,如【孝飯】(爲死供飯)、【孝土地公】(祭拜土地公)。形容詞作孝順解,如【有孝】【不孝】。\n'samˇpoo 'sam ˇthau-mo 'sam'sam 'samˇmo'kau 'sam\n【鬖裒】② 不緝邊也。【鬖】頭髮散亂、不整之意。如【頭毛鬖鬖】、【鬖毛狗】(長毛狗)。玉篇:『亂髮也。蘇暫切。』引申凡一切散亂不整。字又作「毿」,字冷僻,用「鬖」字足矣。\nˇpoo ˇpoo\n【裒】謂緝邊。布邊反折縫上之謂。爾雅釋詁:『聚也。』唐韻:薄侯切。\n'sianˇpoo 'sian\n【搧裒】③ 緝邊也。【搧】打邊之謂。打邊如扇之打褶,故曰「搧」。\ntsu-chue tsu chue ˇtse-sue sue tsang-sui\n【齊衰】 緝邊之喪服。禮記曲禮注:『齊謂裳下緝也。』正韻:津私切。類篇:『衰,喪服也。』集韻:倉囘切。俗讀【齊衰】。「衰」另有二音,白話【衰】倒霉也;【棕衰】棕製雨衣。說文:『衰,草雨衣。』字借爲「衰弱」字,俗別作「蓑」。\nsuˇma\n【緦麻】 喪服之最輕等。俗讀 suˇmua。此詞乃文語,當讀文讀音。\n'chiN \"tian\n【靛】④ 藍色也。集韻:『以藍染也。堂練切。』聲調及聲母不相合。但義與韻相合,可視爲同源字。正字待考。俗或作「淺」,音理可通,義無所取。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]

@@ -4,128 +4,143 @@
 "pages": [
 {
 "n": 1,
-"text": "6斷奶、發牙·37·\nhuatVge\n•tng-ling\n6斷奶、發牙\n掛輾仔个掎",
-"source": "winocr",
+"text": "6 斷奶、發牙　‧37‧\nᵒtng-ling　huat˅ge\n6 斷奶、發牙\n掛輾仔个椅轎",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"圖多字少",
+"羅馬字多"
 ]
 },
 {
 "n": 2,
-"text": "·38·灣禮俗語典\n臺灣,也是中國,自古有一種重男輕女的傳統,所以生了男\n、siau•siu*be、tiOh\n兒,產婦就可吃到許多平常【數想袂着】(想得得不到)的好\n'hun'tsiau\n東西,多半是肉類的東西,像【雞仔】、【粉鳥】(子)、\nti-bah\niO'tSi\n【腰子】(豬腎)是最平常的,最窮的至少也可以吃到【豬肉】\nkettsiu\nVmuaViu'tsiu\n。天天煮麻油加酒,呌【油酒】,如煮的是雞,呌【雞酒】\n、kha'ling\n。禁忌吃蔬菜、水果,大槪因為中醫認為這些東西【較冷】(涼\n性的) ,不宜於產婦。\n不但是產婦【做月內】有得吃,就是嬰兒的哥哥、姊姊也【\nke'thui\n•png-hok、khi\n傍福氣】(托福) ,免不了吃【雞腿】什麼的;可是如果生女\n'bian、hau-koo\n的,不但產婦吃不到好東西,哥哥、姊姊也【免孝孤】(沒得\ntsto'sio•ti•ttsiah ke'thui•tsiotsio•muat•tsiah\n吃)了。所以偫話說:【招小弟食雞腿,招小妹食雞屎】,\n這句話是說如果生女的,哥哥、姊姊吵着要吃雞腿袓母就會說【\nme\n雞屎掾去食】·,活着才會放屎,會放雞屎,表示沒殺雞。哥\nphiN'a•bong•、10\n哥姊姊聽了只好【鼻仔摸咧】,到外面玩去了。\n•thiaN\n由此可見,產婦【做月內】雖然表面上是要給產婦【挺】·\n(補)身體,實際上還是為了嬰兒。因為正如現在的流行話所謂\n「一人吃,兩人補」,產婦營養好,奶水足,嬰兒吃母奶,身體\n也會跟着好。當然,月內吃好東西也有嘉獎媳婦替家裏添丁的\n意思。\n現代母親流行給嬰兒餵牛奶,這是最自私的做法,只圖自己",
-"source": "winocr",
-"checked": "none",
+"text": "‧38‧　臺灣禮俗語典\n臺灣，也是中國，自古有一種重男輕女的傳統，所以生了男\n'siau‵siu‵be‵tioh\n兒，產婦就可吃到許多平常【數想袂着】（想得得不到）的好\nke'a 'hun'tsiau\n東西，多半是肉類的東西，像【雞仔】、【粉鳥】（鴿子）、\nio'tsi ti-bah\n【腰子】（豬腎）是最平常的，最窮的至少也可以吃到【豬肉】\n‵mua‵iu'tsiu ke'tsiu\n。天天煮痲油加酒，叫【痲油酒】，如煮的是雞，叫【雞酒】\n‵kha'ling\n。禁忌吃蔬菜、水果，大概因爲中醫認爲這些東西【較冷】（涼性的），不宜於產婦。\n不但是產婦【做月內】有得吃，就是嬰兒的哥哥、姊姊也【\n‵png-hok'khi ke'thui\n傍福氣】（托福），免不了吃【雞腿】什麼的；可是如果生女\n'bian'hau-koo\n的，不但產婦吃不到好東西，哥哥、姊姊也【免孝孤】（沒得\ntsio'sio‵ti·'tsiah ke'thui·tsio'sio‵muai·tsiah ke'sai\n吃）了。所以俗話說：【招小弟食雞腿，招小妹食雞屎】，\n這句話是說如果生女的，哥哥、姊姊吵着要吃雞腿祖母就會說【\nme\n雞屎▢去食】＊，雞活着才會放屎，會放雞屎，表示沒殺雞。哥\nphiN'a·bong·‵le\n哥姊姊聽了只好【鼻仔摸咧】，到外面玩去了。\n‵thiaN\n由此可見，產婦【做月內】雖然表面上是要給產婦【挺】＊\n（補）身體，實際上還是爲了嬰兒。因爲正如現在的流行話所謂「一人吃，兩人補」，產婦營養好，奶水足，嬰兒吃母奶，身體也會跟着好。當然，月內吃好東西也兼有嘉獎媳婦替家裏添丁的意思。\n現代母親流行給嬰兒餵牛奶，這是最自私的做法，只圖自己",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 3,
-"text": "6斷奶、發牙·39 ,\n方便。其實母奶才是最自然的嬰兒食品。從前,不用說都是餵母\n奶。母奶大約三天才來,嬰兒天生有卵黃,三朝內,不奶也\n無所謂,不過母親不忍嬰仔哭,總是想辦法給嬰兒吃東西。現在\ncheN'chau'a'tsui\n流行餵葡萄糖水。以前是餜【靑草仔水】,或者用一竹筒插\nkin-tsiovtsang\n入【弓蕉欉】(香蕉樹幹) ,那流出的汁,現在沒有人敢吃那\nkam'cho-thng\n、bit\nkin-tsio—tsiap\n【弓蕉汁】了。此外還有【蜜】、【甘草湯】,用棉花醮\n濕,讓嬰兒含着。再以前沒有衞生棉的時侯,用湯匙,一點一滴\n的。\n•chi-ling\nling'tsui\nsam-tiau\n【三朝】之後,【奶水】來了,開始【飼奶】,餵奶之前,\nthua-tsitze\n'kun'tsui\n'kun'am\n用一隻葱在【滾】(開的飯湯)或【滾水】內【拖蜀下】(\n微燙一下) ,然後用葱葉擦奶頭,或者用葱根燙軟之後,把奶頭\n擦乾淨開始餵奶。\nti-khavkunvthoo\nling•tsun•、se ling'tsu VbO、kau\n如果【奶陣細】【奶水無够】,聽說母親吃【豬跤焄塗\n、chiaN ling\nVbo-Iing\nling•tsun\n*tau\n豆】·,【奶陣】就會大。如果眞的完全【無奶】,只好【倩奶\ntbo\n母】,奶媽大部份是奶水多的窮人,或是嬰兒夭亡的婦人。窮人\n'bi-ling\n無奶,只好饑【米奶】,營養不良是可以想見的。\nkhui-\n有些地方嬰兒【做四月日】時開始給嬰兒嘗肉類,謂之【開\n'ho•miavlang\nhO ue\ncho\n臊】,【好命儂】在旁講【好話】,譬如,女嬰的話,說:\n、tsiah keVthau、khaVgau seVthau\n【食雞頭,較爻梳頭;\nchiahVe\nVh 0\n食蝦,較爻刺;",
-"source": "winocr",
-"checked": "none",
+"text": "6 斷奶、發牙　‧39‧\n方便。其實母奶才是最自然的嬰兒食品。從前，不用說都是餵母奶。母奶大約三天才來，嬰兒天生有卵黃囊，三朝內，不餵奶也無所謂，不過母親不忍嬰仔哭，總是想辦法給嬰兒吃東西。現在\ncheN'chau'a'tsui\n流行餵葡萄糖水。以前是餵【靑草仔水】，或者用一根竹筒插\nkin-tsio‵tsang\n入【弓蕉欉】（香蕉樹幹），餵那流出的汁，現在沒有人敢吃那\nkin-tsio-tsiap 'bit kam'cho-thng\n【弓蕉汁】了。此外還有【蜜】、【甘草湯】，用棉花醮濕，讓嬰兒含着。再以前沒有衞生棉的時候，用湯匙，一點一滴的餵。\nsam-tiau ling'tsui ‵chi-ling\n【三朝】之後，【奶水】來了，開始【飼奶】，餵奶之前，\n'kun'am 'kun'tsui thua-tsit=e\n用一隻葱在【滾泔】（開的飯湯）或【滾水】內【拖蜀下】（稍微燙一下），然後用葱葉擦奶頭，或者用葱根燙軟之後，把奶頭擦乾淨開始餵奶。\nling‵tsun·'se ling'tsu·‵bo'kau ti-kha‵kun‵thoo\n如果【奶陣細】【奶水無够】，聽說母親吃【豬跤焄塗\n‵tau ling‵tsun ‵bo-ling 'chiaN ling\n豆】＊，【奶陣】就會大。如果眞的完全【無奶】，只好【倩奶\n'bo\n母】，奶媽大部份是奶水多的窮人，或是嬰兒夭亡的婦人。窮人\n'bi-ling\n無奶，只好餵【米奶】，營養不良是可以想見的。\nkhui-\n有些地方嬰兒【做四月日】時開始給嬰兒嘗肉類，謂之【開\ncho 'ho‵mia‵lang 'ho‵ue\n臊】，【好命儂】在旁講【好話】，譬如，女嬰的話，說：\n'tsiah ke‵thau 'kha‵gau se‵thau\n【食雞頭，較爻梳頭；\n‵he chiah‵e\n食蝦，較爻刺鞋；",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 4,
-"text": "、·臺灣禮俗語典\nbahVphue seN、tse、kha、phongvphue\n食肉皮,生做較肨皮。】\n*bethiau、tsiah\n當然嬰兒是【袂曉食】(不會吃)的。但是必須慢慢訓練\n00、tse\nkah、tsiah\n【佮食】其他類。直到【度晬】(周歲)之後,多半選在【\n•tng-ling\nMi-ling\n•tng-ling\nchitVniu'ma-seN\n七娘媽生】(七月七日)【斷奶】(或稱【離奶】)。【斷奶\nhiam\nVhoo—tsio\n】的方法是在奶頭上抹【胡椒】,嬰兒吃到【薟)* (也有人說【\n•guatma-tau\n、luah\n辣】)便不敢吃。也有人把嬰兒帶到【外媽兜】(外婆家) ,嬰\n兄吃不到奶,肚子餓了,只好吃【泔】。當然有人到了七、\nsuah'bueta'kiaN•\n八歲還沒【斷奶】,尤其是么兒,所以俗話說:【煞尾仔囝\n、tsiah、kha*u-ling\n吃較有奶】。\npeh、tso•nng、te\ns00 PIaN\n,【擘做兩○】(掰\n也有人在【斷奶】日放一塊【酥餅】\nchitVniutma\nttiaN、kua\n成兩片)放在【鼎蓋】上面拜【七娘媽】,請求七娘媽敎嬰兒\n肚子餓的時候吃酥餅。假定還不準備「斷奶」,也可能預先在【\nchitVniu'ma-seN\n七娘媽生】當日行上述的式。\nsuh'tsingvthauta\neNXa\n【嬰也】斷奶之後,沒有奶頭吮,往往會【嗽指頭仔】(\n吮手指) ,謔稱為【食雞腿】。嬰兒「嗽指頭仔」是一種習慣\n,有些人到上小學還在「欶指頭仔」,小玩件就會用手指在頰上\nchiu•chiu•chiu、kian、Siu、hanxa\n畫畫,笑說:【羞羞羞,袂見笑,靴大漢矣猶食\nke、thui\n雞腿】。(不要臉,那麼大了還吃雞腿) ,為什麼小孩子喜歡吮\nkuan—lm ma••u*ka•、un、bit\n手指?偫開玩笑,說是【觀音媽有共搵蜜】,所以手指會\n0",
-"source": "winocr",
-"checked": "none",
+"text": "‧40‧　臺灣禮俗語典\nbah‵phue seN'tse 'kha'phong‵phue\n食肉皮，生做較肨皮。】\n‵be'hiau'tsiah\n當然嬰兒是【袂曉食】（不會吃）的。但是必須慢慢訓練\nkah'tsiah ‵too'tse\n【佮食】其他穀類。直到【度晬】（周歲）之後，多半選在【\nchit‵niu'ma-seN ‵tng-ling ‵li-ling ‵tng-ling\n七娘媽生】（七月七日）【斷奶】（或稱【離奶】）。【斷奶\n‵hoo-tsio hiam\n】的方法是在奶頭上抹【胡椒】，嬰兒吃到【薟】＊（也有人說【\n'luah ‵gua'ma-tau\n辣】）便不敢吃。也有人把嬰兒帶到【外媽兜】（外婆家），嬰\n'am‵muai\n兒吃不到奶，肚子餓了，只好吃【泔糜】。當然有人到了七、\nsuah'bue'a'kiaN·\n八歲還沒【斷奶】，尤其是么兒，所以俗話說：【煞尾仔囝\n'tsiah'kha‵u-ling\n吃較有奶】。\nsoo'piaN peh'tso‵nng'te\n也有人在【斷奶】日放一塊【酥餅】，【擘做兩○】（掰\n'tiaN'kua chit‵niu'ma\n成兩片）放在【鼎蓋】上面拜【七娘媽】，請求七娘媽敎嬰兒肚子餓的時候吃酥餅。假定還不準備「斷奶」，也可能預先在【\nchit‵niu'ma-seN\n七娘媽生】當日行上述的儀式。\neN×a suh'tsing‵thau'a\n【嬰也】斷奶之後，沒有奶頭吮，往往會【嗽指頭仔】（\n'tsiah-ke'thui\n吮手指），謔稱爲【食雞腿】。嬰兒「嗽指頭仔」是一種習慣，有些人到上小學還在「欶指頭仔」，小玩伴就會用手指在頰上\nchiu·chiu·chiu ‵be'kian'siu hia·‵tua'han×a 'iau'tsiah\n畫畫，笑說：【羞羞羞，袂見笑，靴大漢矣猶食\nke'thui\n雞腿】。（不要臉，那麼大了還吃雞腿），爲什麼小孩子喜歡吮\nkuan-im'ma·‵u‵ka·'un'bit\n手指呢？俗開玩笑，說是【觀音媽有共搵蜜】，所以手指會\n甜。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 5,
-"text": "6斷奶、發牙·41\nchit•tse pehVpe 'kau-huatvge\n俗話說:【七坐、八爬、九發牙】,意思是說七個月大開\n始會坐,八個月開始會爬,九個月開始發矛。不過現在小孩子因\n為吃牛奶,牛奶鈣質比較豐富,嬰兒往往提前兩個月坐、爬、發\n但是從前也有一出生便發牙的,以為這個孩子將來會吃掉\n、tsiah4pe•、tsiah'bo\np00 pe p00 ' b0\n父母,所謂【哺父哺母】,或說【食父食母】,是不祥之\ntban\n物。所以如有這種情形,母親就會把乐齒【挽】(摘、拔)下來\npun Vlang、tSO sim•pu'a\n,自己把矛齒吞下。這種孩子往往會【分儂做新婦仔】(給\n人當養子女)\n0\nkoo'khi\nkoo'khi、tsiah\n還有如果發牙時只長一顆,【孤齒】。偫云【孤齒食\n'tsui'bi\nkootbi\na-koo\n姑米】。【阿姑】會送【水米】來,所謂【水米】是一點水和米\nk00 0\n,用來煮給小孩吃。另外還要送【姑鞋】,就是一雙鞋子,給嬰\nangve\n00v0\n兒。男孩送【烏鞋】,女孩送【紅鞋】。什麼理由沒聽說,我想\nk00\nk00\n不過是對於不正常現象的一種恐懼感,借着【孤】與【姑】的諧\n、tSO、khiantsng\n,【做譴爽】(討吉祥)罷了。\n從前包嬰兒,把嬰兒手包得緊緊的。說是嬰兒手如果在外面\n、ai-sio-phah\n亂動,將來會【愛胥扑】(愛打架)。嬰兒的糨褓一打開,手\nphahVkunVthau\n舞足踢,話說是在【扑拳頭】,所以聯想到將來會愛打架\nVkuaN=tioh\n。其實是怕嬰兒手露出在外面【寒着】(招涼)。還有一個原",
-"source": "winocr",
-"checked": "none",
+"text": "6 斷奶、發牙　‧41‧\nchit‵tse peh‵pe 'kau-huat‵ge\n俗話說：【七坐、八爬、九發牙】，意思是說七個月大開始會坐，八個月開始會爬，九個月開始發牙。不過現在小孩子因爲吃牛奶，牛奶鈣質比較豐富，嬰兒往往提前兩個月坐、爬、發牙。\n但是從前也有一出生便發牙的，俗以爲這個孩子將來會吃掉\n‵poo‵pe·‵poo'bo 'tsiah‵pe·'tsiah'bo\n父母，所謂【哺父哺母】，或說【食父食母】，是不祥之\n'ban\n物。所以如有這種情形，母親就會把牙齒【挽】（摘、拔）下來\npun ‵lang'tso sim‵pu'a\n，自己把牙齒吞下。這種孩子往往會【分儂做新婦仔】（給人當養子女）。\nkoo'khi koo'khi'tsiah\n還有如果發牙時只長一顆，叫【孤齒】。俗云【孤齒食\nkoo'bi a-koo 'tsui'bi\n姑米】。【阿姑】會送【水米】來，所謂【水米】是一點水和米\nkoo‵e\n，用來煮給小孩吃。另外還要送【姑鞋】，就是一雙鞋子，給嬰\noo‵e ‵ang‵e\n兒。男孩送【烏鞋】，女孩送【紅鞋】。什麼理由沒聽說，我想\nkoo koo\n不過是對於不正常現象的一種恐懼感，借着【孤】與【姑】的諧\n'tso'khian'sng\n音，【做譴爽】（討吉祥）罷了。\n從前包嬰兒，把嬰兒手包得緊緊的。說是嬰兒手如果在外面\n'ai-sio-phah\n亂動，將來會【愛胥扑】（愛打架）。嬰兒的襁褓一打開，手\nphah‵kun‵thau\n舞足踢，俗話說是在【扑拳頭】，所以聯想到將來會愛打架\n‵kuaN=tioh\n。其實是怕嬰兒手露出在外面【寒着】（招涼）。還有一個原",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 6,
-"text": "、42·灣禮俗語典\n、ziau、tiOh bat-tstu\n、ziau、tioh*bin\n四個月之前怕嬰兒指甲太長【抓着面】、【抓着目珠】。\nkattsing-kah\n因,就是從前嬰兒要【做四月日】才【鉸指甲】(剪指甲) ,\nVioVna'a\n嬰兒還不會坐的時侯,一天到晚躺在【搖籃(仔)】,這是\nVio•te'a\n竹篾或籐編成的;如用布做的,呌【搖袋仔】,另有一種編網,\nVioVko\n兩端各吊在牆上,呻【搖笱】。嬰兒哭了,大人就牽着帶子搖一\nio'kiaN-kua\n搖,或者唱【育囝歌】,嬰兒便會睡覺。最有名的「育囝歌」猒\n詞如下:\n1N-iN•、khun、tsitVme•tua、tsit、chun\n【○○睏蜀冥大蜀寸;",
-"source": "winocr",
-"checked": "none",
+"text": "・42・臺灣禮俗語典\n'ziau'tiohʷbin 'ziau'tioh bat-tsiu\nka'tsing-kah\n四個月之前怕嬰兒指甲太長【抓着面】、【抓着目珠】。因，就是從前嬰兒要【做四月日】才【鉸指甲】（剪指甲），\n搖・籃\nᵛioᵛna'a\nᵛioʷte'a\nᵛioᵛko\nio'kiaN-kua\n嬰兒還不會坐的時候，一天到晚躺在【搖籃（仔）】，這是竹篾或籐編成的；如用布做的，叫【搖袋仔】，另有一種編網，兩端各吊在牆上，叫【搖笱】。嬰兒哭了，大人就牽着帶子搖一搖，或者唱【育囝歌】，嬰兒便會睡覺。最有名的「育囝歌」歌詞如下：\niN-iN·'khun 'tsitᵛmeʷtua'tsit'chun\n【○○睏蜀冥大蜀寸；\n〔圖〕搖籃",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 7,
-"text": "6斷奶、發牙·43·\nchioh\niN—iN•sioh\n○○惜,蜀冥大蜀尺。】(或說ON-ON睏, ON一ON惜)\nⅥ0、kau saN'panVkio\nv10·、aVIO\n【搖啊搖,搖三板橋,\n•tua-ku•'nngvsiovsro ti-kha•siang pingVlio\n大龜軟苕苕,豬跤雙爿瞭】\n嬰兒開始會坐了,就讓他坐【\n'bo'kiaN'i\n椅仔】,或稱【母囝椅】。這是一\na麛0\n種竹製的椅子,【偃倒】(弄)就\n成嬰兒的椅子,有些帶輪子的,大人\n0\n可以推着走。嬰兒在「椅轎仔」\n直要坐到會走路。大人讓他在這兒玩\n椅轎仔\nchitvtho'mihta\nViotkoo\nVlin-Iong'a\n【鈴鐺仔】【搖】等【迵迌物仔】\n(玩具)。現在已經很少見到【椅仔】,多半是帶有輪子的學\nVmo*he—chia\n步車,俗話呌【毛蟹車】。玩具也多得不得了。並且還有【\nvgu-ling-kan'a\nling、chui'a\n奶喙仔】、【牛奶歼仔】(奶嘴、奶瓶) ,隨時供他嘴巴的需\n0\n、ohVkiaN\n00、tse\n嬰兒一般要到【度晬】以後才【學行】,「學行」時容易跌\nVbO、iau'kin\nkhan=khi=lai\ngau\n倒,大人滿懍愛心的把他【牽起來】,說:【無要,爻\n•eVkiaN\nApuah'to•Vgau•tua、han\n跋倒爻大漢】(沒關係,多跌倒長得快)。【會行】(會\n•eVkiaN•VkiaN、tse-it *beVkiaN•\n走路)的時間,隨人而異,俗話說:【會行行晬一,袂行\nvkiaN、tse-chit\n行晬七】,意思是說,一歲一個月不會走路,一歲七個月也會",
-"source": "winocr",
-"checked": "none",
+"text": "6斷奶、發牙・43・\niN-iN·sioh chioh\n○○惜，蜀冥大蜀尺。】（或說 ON-ON 睏，ON-ON惜）\nᵛio·'aᵛio ᵛio'kau saN'panᵛkio\n【搖啊搖，搖洛三板橋，\nʷtua-ku·'nngᵛsioᵛsio ti-kha·siangᵛpingᵛlio\n大龜軟苕苕，豬跤雙爿撩】\n'iʷkio'a 'bo'kiaN'i 'ian'to ᵛlin-long'a ᵛio'koo chitᵛtho'mih'a ᵛmoʷhe-chia ling'chui'a ᵛgu-ling-kan'a\n嬰兒開始會坐了，就讓他坐【椅轎仔】，或稱【母囝椅】。這是一種竹製的椅子，【偃倒】（弄傾）就成嬰兒的椅子，有些帶輪子的，大人可以推着走。嬰兒在「椅轎仔」一直要坐到會走路。大人讓他在這兒玩【鈴鐺仔】【搖鼓】等【迌迌物仔】（玩具）。現在已經很少見到【椅轎仔】，多半是帶有輪子的學步車，俗話叫做【毛蟹車】。玩具也多得不得了。並且還有【奶喙仔】、【牛奶矸仔】（奶嘴、奶瓶），隨時供他嘴巴的需要。\nʷtoo'tse 'ohᵛkiaN khan=khi=lai ᵛbo'iau'kin ᵛgau 'puah'to·ᵛgauʷtua'han ʷeᵛkiaN ʷeᵛkiaN· ᵛkiaN'tse-it ʷbeᵛkiaN· ᵛkiaN'tse-chit\n嬰兒一般要到【度晬】以後才【學行】，「學行」時容易跌倒，大人滿懷愛心的把他【牽起來】，說：【無要緊，爻跋倒爻大漢】*（沒關係，多跌倒長得快）。【會行】（會走路）的時間，隨人而異，俗話說：【會行行晬一，袂行行晬七】，意思是說，一歲一個月不會走路，一歲七個月也會\n〔圖〕椅轎仔",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 8,
-"text": "··臺灣禮俗語典\nke*nng•vpu、tsau-khang\n走路的。偫信孩子吃【雞卵炰灶空】(雞蛋放到灶裏去炰)\n、khuaiVkiaN$Ioo\n會【快行路】。\n、puahtto•、tsamvthoo-kha\n如果已經會走路而跌倒,偫話說:【跋倒踐塗跤】,母\n親會踩地上,對地上做懲罰,表示「不是你不會走路,是地把你\n絆倒的」,用來安慰小孩。\nVkiaN 00 m\n可是如果孩子長大了,還跌倒,大人就會說:【行路毋\n*khuaN*loo tpuahtto•ka*ti peh-khi-lai\n看路,跋倒家自趴起來。】孩子一面哭,一面爬起來。\n家敎好的孩子不會輕易把跌倒的孩子牽起來,以免養成孩子【\nsai-nai\n施賴】(撒嬌,依賴心)。\nhang-ling tsin、phang\n'sanvpi-pa\n嬰兒長得白白胖胖呌【臖奶)*【眞胖】,反之【皮包\nvng-sng'than\nvng-sng-tah\nVg-sng\n,臉色不好呌【黃痠】,發育不良呻【黃痠疸】、【黃痠貼\n'gtn'a—tan\ntan\n命】,又呻【癉】。發育不良的孩子呻【黃囝仔】,【甶仔癉\n、tit、tit vng-sng=khi•tan=khi•tsan\nah'a-tan\n】,譏笑為【鴨仔癉】。動詞說:【直直黃痠去、癉去、\n、tiuN-ti•Vpui、tiuN'kau•san、tiuNVlang•Vng\n=khi•mVtsiaN gtn'a-khi\n去、毋成囝仔去】。話云【脹豬肥,脹狗,脹儂黃\n—sng'than\n痠疸】。\n大人喜歡跟小孩開玩笑,把小孩子的褲子脫下來,說:【\n、khuaN'INu'tsiah*png-、b00\n•a-a囈b0、piat\n看汝有食飯否?】於是打他股,說:【啊,袂○(不響)\n•tiaN、tiohVbo、tsiah-bah\nu、、la 'li koh-pah'kha•tua•e•、le\n,定着無食肉。】小孩說:【有啦,汝閣扑較大下咧。】\n•utiaN、kha、piat*a\n(你再打重一點)大人再打得更用力,說:【有影,有較○矣\n•au'pai、ai'tsiah-bah kha-chng'tsia phah*e、piat\n後擺愛食肉,尻川始扑會○!】就這樣一面跟小孩開",
-"source": "winocr",
-"checked": "none",
+"text": "・44・臺灣禮俗語典\nkeʷnng·ᵛpu'tsau-khang\n'khuaiᵛkiaNʷloo\n走路的。俗信孩子吃【雞卵炰灶空】（雞蛋放到灶裏去炰）會【快行路】。\n'puah'to·'tsamᵛthoo-kha\n如果已經會走路而跌倒，俗話說：【跋倒踐塗跤】，母親會踩地上，對地上做懲罰，表示「不是你不會走路，是地把你絆倒的」，用來安慰小孩。\nᵛkiaN ʷlooʷm\n'khuaNʷloo 'puah'to·kaʷti peh-khi-lai\nsai-nai\n可是如果孩子長大了，還跌倒，大人就會罵說：【行路毋看路，跋倒家自趴起來。】孩子一面哭，一面爬起來。家敎好的孩子不會輕易把跌倒的孩子牽起來，以免養成孩子【施賴】（撒嬌，依賴心）。\nhang-ling tsin'phang 'sanᵛpi-pa\nᵛg-sng ᵛng-sng'than ᵛng-sng-tah\nʷmia tan 'gin'a 'gin'a-tan\nah'a-tan 'tit'tit ᵛng-sng=khi·tan=khi·'san\n=khi ʷmᵛtsiaN'gin'a-khi ʷtiuN-ti·ᵛpui' tiuN'kau·san 'tiuNᵛlang·ᵛng\n-sng'than\n嬰兒長得白白胖胖叫【臖奶】*【眞胖】，反之叫【▢皮包】*，臉色不好叫【黃痠】，發育不良叫【黃痠疸】、【黃痠貼命】，又叫【癉】。發育不良的孩子叫【黃痠囝仔】，【囝仔癉】，譏笑爲【鴨仔癉】。動詞說：【直直黃痠去、癉去、▢去、毋成囝仔去】。俗話云【脹豬肥，脹狗▢，脹儂黃痠疸】。\n'khuaN'liʷu'tsiahʷpng-'boo ʷa-a ʷbe'piat\nʷtian'tiohᵛbo'tsiah-bah ʷu·'la 'li koh-pah'khaʷtuaʷe·'le\nʷu'iaN ʷu'kha'piat×a\nʷau'pai'ai'tsiah-bah kha-chng'tsia phahʷe 'piat\n大人喜歡跟小孩開玩笑，把小孩子的褲子脫下來，說：【看汝有食飯否？】於是打他屁股，說：【啊，袂○（不響），定着無食肉。】小孩說：【有啦，汝閣扑較大下咧。】（你再打重一點）大人再打得更用力，說：【有影，有較○矣。後擺愛食肉，尻川始扑會○！】就這樣一面跟小孩開",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 9,
-"text": "45\n6斷奶、發牙\n笑,一面鈙勵小孩多吃飯,眞是充滿了人間的溫馨。\n010\n、kian'koo\n從前人很【見古】(迷信) ,說是【呵咾】(贊美)會招來\n~ hO ue\nseN-mo、mih•<be o'lo-tit\n相反的結果,話說【生毛物袂呵咾得】。平常說【好話】\nchik-tioh\n可以,有好事說【好話】就會【觸着】。所謂「觸着」是比較輕\ntkoo—tsut\n微的「冲犯」。所以贊美小孩只能說【古錐】(可愛) ,忌說【\n*tang、ka'natsivlang\n•tang\n重】,因為話說【重駕拏死】死人最重了。又忌說【肥】\n•tua-khoo\nVpui、k鑫~龜aㄣ1\n,因為俗話說【肥挐豬】(肥得像豬)。也忌說【大箍】(\n胖)。凡是形肉體的話都不能說。只能贊美其精神。否則對方\nsai-pe、chui oo'peh'kong\n如果是熟人會駡你【屎箆喙,烏白講】。「屎箆」是從前擦\nVngVmua-kut\n屁股的竹片,或【黃麻骨】。\n、pueh\n、pueh-kut\nsaN、hue—tsiok\n小孩大約【三歲足】,慢慢瘦下來,呌【拔骨】,【拔】\n是拉長的意思。骨頭拉長,人就瘦了。\nsaN、hue-kuai、si\n關於孩子的心理發展,臺灣也有一句俗話說:【三歲乖,四\nAhueVgai囈g00、hue•、liah、khiVthai\n歲啀,五歲搦去刣】·。意思是說,三歲的小孩最乖,剛\n學會講話,天眞爤漫,最可愛。四歲的小孩開始變得執拗,呌【\n•m-thiaN*ue\n睚】,五歲開始有個性,凡事【毋聽話】恨不得抓去殺了。可是\n'phaiN\n因為有這句話,大人都很了解小孩的心理發展,再怎樣【歹】,\n*tua'kiaNVthi、setkiaN'hau\n都會忍耐。當然如果孩子多一點,【大囝啼,細囝號】,母\ntik\n'khi、sing*te\n親受不了,不免【起性地】(發脾氣) ,往往大家吃一頓【竹\n、sau-se'gim'a•phah-kha-chng\n•'a-ki•'cha-ti-bah\n仔枝炒豬肉】,也就是【掃梳錦仔扑尻川】(竹枝打",
-"source": "winocr",
-"checked": "none",
+"text": "6斷奶、發牙・45・\n玩笑，一面鼓勵小孩多吃飯，眞是充滿了人間的溫馨。\n'kian'koo o'lo senN-mo'mih·ʷbe o'lo=tit 'hoʷue chik-tioh 'koo-tsui\nʷtang ʷtang'ka'na'siᵛlang ᵛpui ᵛpui'ka'na'ti ʷtua-khoo\n從前人很【見古】（迷信），說是【呵咾】（贊美）會招來相反的結果，俗話說【生毛物袂呵咾得】。平常說【好話】可以，有好事說【好話】就會【觸着】。所謂「觸着」是比較輕微的「冲犯」。所以贊美小孩只能說【古錐】（可愛），忌說【重】，因爲俗話說【重駕拏死儂】死人最重了。又忌說【肥】，因爲俗話說【肥駕拏豬】（肥得像豬）。也忌說【大箍】（胖）。凡是形容肉體的話都不能說。只能贊美其精神。否則對方如果是熟人會罵你【屎箆喙，烏白講】。「屎箆」是從前擦屁股的竹片，或【黃麻骨】。\n'sai-pe'chui oo'peh'kong ᵛngᵛmua-kut\nsaN'hue-tsiok 'pueh-kut 'pueh\n小孩大約【三歲足】，慢慢瘦下來，叫【拔骨】，【拔】是拉長的意思。骨頭拉長，人就瘦了。\nsaN'hue-kuai 'si 'hueᵛgai ʷgoo'hue·'liah'khiᵛthai\nʷm-thiaNʷue 'phaiN ʷtua'kiaNᵛthi 'se'kiaN'hau\n'khi'singʷte tik 'a-ki·'cha-ti-bah 'sau-se'gim'a·phah-kha-chng\n關於孩子的心理發展，臺灣也有一句俗話說：【三歲乖，四歲啀，五歲搦去刣】*。意思是說，三歲的小孩最乖，剛學會講話，天眞爛漫，最可愛。四歲的小孩開始變得執拗，叫【啀】，五歲開始有個性，凡事【毋聽話】恨不得抓去殺了。可是因爲有這句話，大人都很了解小孩的心理發展，再怎樣【歹】，都會忍耐。當然如果孩子多一點，【大囝啼，細囝號】，母親受不了，不免【起性地】（發脾氣），往往大家吃一頓【竹仔枝炒豬肉】，也就是【掃梳錦仔扑尻川】（竹枝打屁",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 10,
-"text": "·46·臺灣禮俗語典\n'iah'aiVbe\n、iah、aiVche\n股)。不過俗語說【亦愛箠,亦愛(也要楚,也要\nphah•4huan-phah、thiaN•*huan、thiaN\n稀飯吃) ,【扑還扑,痛還痛】* (打歸打,疼歸疼)。\n、chuivtun•、tsit'liap-tstx\n、oh ' kO g ue\n關於小孩【學講話】也有一句偫話,說【喙唇蜀粒珠,\n'kong•ue•*m•zin—su\n講話毋認】,意思是說,上唇尖端如果有個突起,這個小孩會\ntioh、tsih-kin\n講話。如果小孩【着舌筋】,就是舌下有一條筋特別大,舌頭被\nka、tsih-kin\n牽住,就不會說話,一出生就要【鉸舌筋】,把那條舌筋剪斷。\n•tua、tsih\n•tua、tsih\n口吃呌【大舌】,口吃又愛說話,人家就會笑說:【大舌\n、h g、kong ue '0吙au、、hingVpun-chue\n興講話,啞口興歕吹。】(口吃的愛講話,啞巴愛吹哨\n吶)。可是【大舌】往往是心理過度緊張,你越取笑他,他越【\n大舌】,應該慢慢糾正他才好。\n、to'chiutuaiN\n、totchiu'a4kuaiN\n左撇子呌【倒手(仔)縣】或【倒手】,一般是孩子【\n、Oh、giahfti\n學揭箸】(學拿筷子)便敎他用右手,但若天生的「倒手縣」\ngtah\n,倒也沒有嚴厲的糾正。有些人【揭箸】·【寫字】用右手,但\nchiat、chai\n、sau、te\n【掃地】【切菜】用左手,就是大人從小嚴厲敎導的結果,長\n'baitchiuta'kui\n大自己學的就還是用左手。有些地方稱左撇子呌【穛手仔鬼】\n(醜手鬼)。\nseNtkiaN•'bian、ai\n俗話說:【生囝免師傅,飼囝始是愛師傅】,母親\n•m•sitsai•、toh*si*zio\nbong'sai bong•zio\n從小給孩子【摸屎摸尿】,所謂【毋是屎着是尿】,慢慢【\nliap、ka•tua、han\n大漢】,其中艱辛,只有自己當了父母才會了解,所以\n'chiu••phoVhaiVzi 'tsia-tsai*pe'bovsi\n俗話說:【手抱孩兒,始知父母時】。",
-"source": "winocr",
+"text": "・46・臺灣禮俗語典\n'iah'aiᵛche 'iah'aiᵛbe\nphah·ʷhuan-phah 'thiaN·ʷhuan'thiaN\n股）。不過俗語說【亦愛箠，亦愛糜】*（也要箠楚，也要給稀飯吃），【扑還扑，痛還痛】*（打歸打，疼歸疼）。\n'oh'kongʷue 'chuiᵛtun·'tsit'liap-tsu\n'kongʷue·ʷmʷzin-su\ntioh'tsih-kin\nka'tsih-kin\n關於小孩【學講話】也有一句俗話，說【喙唇蜀粒珠，講話毋認輸】，意思是說，上唇尖端如果有個突起，這個小孩會講話。如果小孩【着舌筋】，就是舌下有一條筋特別大，舌頭被牽住，就不會說話，一出生就要【鉸舌筋】，把那條舌筋剪斷。\nʷtua'tsih ʷtua'tsih·\n'hing'kongʷue 'e'kau·'hingᵛpun-chue\n口吃叫【大舌】，口吃又愛說話，人家就會譏笑說：【大舌興講話，啞口興歕吹。】（口吃的愛講話，啞巴愛吹哨吶）。可是【大舌】往往是心理過度緊張，你越取笑他，他越【大舌】，應該慢慢糾正他才好。\n'to'chiu'aʷkuaiN 'to'chiu'uaiN\n'oh'giahʷti\n'giahʷti 'siaʷzi\n'sau'te chiat'chai\n'bai'chiu'a'kui\n左撇子叫【倒手（仔）縣】或【倒手踠】，一般是孩子【學揭箸】（學拿筷子）便敎他用右手，但若天生的「倒手縣」，倒也沒有嚴厲的糾正。有些人【揭箸】*【寫字】用右手，但【掃地】【切菜】用左手，就是大人從小嚴厲敎導的結果，長大自己學的就還是用左手。有些地方稱左撇子叫【穛手仔鬼】（醜手鬼）。\nseN'kiaN·'bian saiʷhu ʷchi'kiaN·'tsiaʷsi'ai saiʷhu\nbong'sai bongʷzio ʷmʷsi'saiʷtohʷsiʷzio\nliap'kaʷtua'han\n'chiu·ʷphoᵛhaiᵛzi 'tsia-tsaiʷpe'boᵛsi\n俗話說：【生囝免師傅，飼囝始是愛師傅】，母親從小給孩子【摸屎摸尿】，所謂【毋是屎着是尿】，慢慢【擛駕大漢】*，其中艱辛，只有自己當了父母才會了解，所以俗話說：【手抱孩兒，始知父母時】。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 11,
-"text": "6斷奶、發牙\n47\n字解\n【掾】o抓也。泉音,顯示正字在梗攝二等平聲。m聲母多\nbong buah\n半在陽聲調,只有【摸】【抹】等少數字在陰聲調,所以這\n個字實際上難以找到正字。查梗攝二等明母並無適當字,又\nVbong\n幫、滂母亦無適當字。查集:『,收歛也。謨蓬切。』\n義稍近。字從手,手指的收卽「抓」義。母不合,但古\n東陽合,蒙在東部、梗在陽部,可互轉。說較迂曲,姑視\n為同源字。\n•thiaN\n•ting\n【挺】補身體也。廣:『挺出,說文:挺也。徒鼎切音訂\n。』文白對當合乎常例。使身體挺拔,卽補身體之義。\nvkun\n【】◎滾煮。形容詞【滾】的動詞形。閩南偫字。集:『\nhun\n君香臭之氣。許云切。』玉篇:『火上出也』。是「薰」的\n異體字。並無Vkun義。姑從俗。\nhiam\nhiam\n【薟】@辣也。集:『辛味,火占切』。又作「」,廣、\nhiam\n『,芋之辛味日。嚴切。』林金鈔有考,見『探源』\n356條。\n、s00\nsuh\nsau\n【】◎吮也。「嗽」字有二義。1•咳之【】,廣:蘇奏\nsok\n切。集:『吮也。桑谷切,音速。』字在,屋沒\nsuh\n有變-uh的。但【嗽】又音soh。參考tuh-ku (磕陲)又\nsuh\n音tok-ku。可能【】本當讀soh。",
-"source": "winocr",
+"text": "6斷奶、發牙・47・\n字解\nme\n【▢】① 抓也。泉音 mi，顯示正字在梗攝二等平聲。m 聲母多半在陽聲調，只有【摸】【抹】等少數字在陰聲調，所以這個字實際上難以找到正字。查梗攝二等明母並無適當字，又幫、滂母亦無適當字。查集韵：『▢，收歛也。謨蓬切。』義稍近。字從手，手指的收歛卽「抓」義。韵母不合，但古東陽合韵，蒙在東部、梗在陽部，可互轉。說較迂曲，姑視爲同源字。\nbong buah\nᵛbong\nʷthiaN ʷting\n【挺】② 補身體也。廣韵：『挺出，說文：挺也。徒鼎切音訂。』文白對當合乎常例。使身體挺拔，卽補身體之義。\nᵛkun 'kun\nhun\n【焄】③ 滾煮。形容詞【滾】的動詞形。閩南俗字。集韵：『焄香臭之氣。許云切。』玉篇：『火上出也』。是「燻」的異體字。並無ᵛkun義。姑從俗。\nhiam hiam\nhiam\n【薟】④ 辣也。集韵：『辛味，火占切』。又作「薟」，廣韵：『薟，芋之辛味曰薟。虛嚴切。』林金鈔有考，見『探源』356條。\nsuh 'sau 'soo\nsok\nsuh\nsuh\n【嗽】⑤ 吮也。「嗽」字有二義。1.咳嗽之【嗽】，廣韵：蘇奏切。2.集韵：『吮也。桑谷切，音速。』字在屋韵，屋韵沒有變 -uh 的。但【嗽】又音 soh。參考 tuh-ku（磕睡）又音 tok-ku。可能【嗽】本當讀 soh。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 12,
-"text": "·48·臺灣禮俗語典\nkha-chng\nun\n【尻川】◎股也。廣:『尻,說文:眒(同臀)也。』廣\n'tso\nkho\n:苦刀切。廣雅釋親:『尻,臀也。』同早)J白'tsa\n,故知kho可%khao又山海經北山經:『倫山有獸,如\n焉,其川在尾上。』注:『川,竅也。』由上面的資料看來\nkha-chngtphe\nkha-chng kau\n,川指【尻川溝】,尻依說文當指【尻川酺】言。尻可\n能是骺(尾骨)、后(股)的同源字。戰國策蘇秦云:『\n*ling'khoo kevthau\n41ingVui ke'siu VbuVuiVgiu*hoo\n寧為雞首,毋為牛后。』譯成白話為:\n【寧可做雞頭,\nu-kha-chng\n4m'hO\n毋好做牵尻川。】\nphok、biat\nphah-\nphahVlang\nphah\n打也。同源字有好幾個。【扑儂】、【撲減】、【扑\n【扑】O\nphik\n(打拍板) ,擬各以不同字表示。\n拍】\nli g\n*huan\n歸也。陽平變陽去,與寧可之寧同。\nVChe\n【】◎箠楚。•MtVchue/泉Vchö/!ZVche ,此為厦腔諺語,故讀\ntui\n'tsui\n厦腔。與國音彳ㄨㄟ相當,但廣:竹垂切。又:之累切。\nVsui\n集:是為切。臺語與國音屬集所記音系統相當。\n粥也。音最分歧, vmuai/泉Vbö'Vmai/rzVbe\n。臺灣大部份地區讀漳腔;臺北市區、新竹、大甲屬厦腔;\n萬華以南的盆舷地帶,包括南港以東至七堵及林口、鸚歌、\n西海岸地區由梧棲、鹿港至臺西屬泉腔。厦腔皆分佈於泉腔\n的邊緣地帶。不但「」之讀音如此,就整體言,漳泉廈之\n分佈亦大抵如此。",
-"source": "winocr",
+"text": "・48・臺灣禮俗語典\nkha-chng ᵛtun\nkho 'tso\n'tsa\nkha-chng kau kha-chng'phe\nʷlingᵛui ke'siu ᵛbuᵛuiᵛgiuʷhoo\nʷling'khoo keᵛthau\nʷm'ho ᵛgu-kha-chng\n【尻川】⑥ 屁股也。廣韵：『尻，說文：脽（同臀）也。』廣韵：苦刀切。廣雅釋親：『尻，臀也。』同韵〖早〗白 'tsa，故知 kho 可對 kha。又山海經北山經：『倫山有獸，如麋焉，其川在尾上。』注：『川，竅也。』由上面的資料看來，川指【尻川溝】，尻依說文當指【尻川酺】言。尻可能是骶（尾骨）、后（屁股）的同源字。戰國策蘇秦云：『寧爲雞首，毋爲牛后。』譯成白話爲：【寧可做雞頭，毋好做牛尻川。】\nphah phahᵛlang phok'biat phah-\nphik\n【扑】⑦ 打也。同源字有好幾個。【扑儂】、【撲滅】、【扑拍】（打拍板），擬各以不同字表示。\nʷhuan ʷling\n【還】⑧ 歸也。陽平變陽去，與寧可之寧同。\nᵛche\ntui 'tsui\nᵛsui\n【箠】⑨ 箠楚。漳ᵛchue/泉ᵛchö/廈ᵛche，此爲廈腔諺語，故讀廈腔。與國音ㄔㄨˊㄟ相當，但廣韵：竹垂切。又：之累切。集韵：是爲切。臺語與國音屬集韵所記音系統相當。\nᵛbe\n【糜】⑩ 粥也。音最分歧，漳ᵛmue, ᵛmuai/泉ᵛbö,ᵛmai/廈ᵛbe。臺灣大部份地區讀漳腔；臺北市區、新竹、大甲屬廈腔；萬華以南的盆舷地帶，包括南港以東至七堵及林口、鸚歌、西海岸地區由梧棲、鹿港至臺西屬泉腔。廈腔皆分佈於泉腔的邊緣地帶。不但「糜」之讀音如此，就整體言，漳泉廈之分佈亦大抵如此。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 13,
-"text": "6斷奶、發牙\n·49\nMgau、puah'to\ngau\n【爻】善也。跋,顚也,跌也。「爻」,廣·\n【爻跋倒】\nVhau\n胡茅切,今閩南音皆讀vgau ,屬匣母,匣母字讀g-者\n•gua gta\n如:何、荷。林金鈔、陳冠學擬為「」。說文:『,健也。\nVh 0\n』集:乎刀切。Vho白話vgau可通。段玉裁認為此乃「\n豪」傑字。但廣雅釋詁云:「爻,效也」。其同源字有學、\n覺、嘵,皆有明義。臺灣話vgau是聰明能幹之義,與「健\ngau\n也」義稍遠。姑以【爻】為正字。\n、hang-ling\n、hing\n【奶】廣:『腫起。許應切,音興(去聲)』字在曾開\n,曾開三白話音多為-in ,轉一等,參考崩pang ,北pak\n,勉强可視為準正字。\ntsanvpi-pa\nStng\nStng\n【】,廣韵:『瘦。所景切,音。又息井切』\n【皮包】\nVling-sing\nthing\n字在梗開二、三等。參考梗開三的蟶)]白than。又[(零星\nvphi\nStng\nélan-san ,鉎)]生鏽,白san/sian。[(皮,並母又可\nphau phau\npau\npt—\nvpi ,包)]讀pa ,參考[-(ft)]脬白pha。【皮\n包】謂瘦得皮包骨。\ngal\n【啀】@無理取鬧,不乖之義。玉篇:『啀,狗欲齧。』廣\n:『犬鬪。五隹切。』\n\\liah、khiVthai\n、liok\n、liah\n【搦去刣】捉去殺之義。【搦】俗作「掠」,非是。凡白\n話-iah多在梗攝二、三等(文-ik)。廣:『搦:捉搦。\n、lik\n女白切。』如為掠(、liak/、liok)白話音必是、lioh ,如略(\nVthai\nliak/liok—+lioh)\n。【刣】$俗字。可能是百越遺音,今越",
-"source": "winocr",
+"text": "6斷奶、發牙・49・\nᵛgau'puah'to ᵛgau\nᵛhau\nʷgua ᵛgia\nᵛho\nᵛgau\n【爻跋倒】 【爻】⑪ 善也。跋，顚也，跌也。「爻」，廣韵：胡茅切，今閩南讀音皆讀ᵛgau，胡屬匣母，匣母字讀 g- 者如：何、荷。林金鈔、陳冠學擬爲「▢」。說文：『▢，健也。』集韵：乎刀切。ᵛho 白話 ᵛgau 可通。段玉裁認爲此乃「豪」傑字。但廣雅釋詁云：「爻，效也」。其同源字有學、覺、曉，皆有明義。臺灣話 ᵛgau 是聰明能幹之義，與「健也」義稍遠。姑以【爻】爲正字。\n'hang-ling 'hing\n【臖奶】⑫ 廣韵：『腫起。許應切，音興（去聲）』字在曾開三，曾開三白話音多爲 -in，轉一等，參考崩 pang，北 pak，勉强可視爲準正字。\n'sanᵛpi-pa 'san 'sing 'sing\nthing ᵛling-sing\nsing\nᵛphi\npau phau phau\n'sanᵛpi-\npa\n【▢皮包】⑬ 【▢】，廣韵：『瘦。所景切，音省。又息井切』字在梗開二、三等。參考梗開三的〖蟶〗白 than。又〖零星〗白 lan-san，〖鉎〗生鏽，白 san/sian。〖皮〗，並母又可讀ᵛpi，〖包〗讀 pa，參考〖拋〗〖脬〗白 pha。【▢皮包】謂瘦得皮包骨。\nᵛgai\nᵛgai\n【啀】⑭ 無理取鬧，不乖之義。玉篇：『啀，狗欲齧。』廣韵：『犬鬪。五佳切。』\n'liah'khiᵛthai 'liah 'liok\n'lik\nᵛthai\n【搦去刣】 捉去殺之義。【搦】⑮ 俗作「掠」，非是。凡白話 -iah 多在梗攝二、三等（文 -ik）。廣韵：『搦：捉搦。女白切。』如爲掠（'liak/'liok）白話音必是 'lioh，如略（liak/liok→lioh）。【刣】⑯ 俗字。可能是百越遺音，今越",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 },
 {
 "n": 14,
-"text": "·50·臺灣禮俗語典\n語thai ,殺也。\ngiah\n、giah*ti\n【揭箸】拿筷子。【揭】@ ,泉音、kiah ,、kah ,顯示g-是k一的\n、kiat\n濁化。說文:『揭,高擧也。』唐韵:渠列切音傑。文白對\n•kiaN\nziat\n當合乎當例。參考同韵【熱】,又其上聲【件】。「揭」與\n【荷】(擔也、負也)同源。古文中亦常相混。史記東方\n朔傳:『數賜縑帛,擔揭而去。』康熙字典:『揭,負也。\nVgia•ti\nglah\n』唐:『擔也』。今臺語擧箸或云【揭箸】又云【荷箸】\n、kiat\n。字通「竭」,廣:『竭,擧也。渠列切音揭。』此字又\nchuaN\ngiah-chuaN\n可能是giah的正字。如【揭扦】(挑刺)是用針把扦入\n、Chi\n皮內的刺挑出的意思。泉音kiah。大雅:『顚沛之揭。』\n傳:『揭,見根貌。』疏:『樹倒故根見。』廣韵:『揭,\nkiat\n起也。居列切。』通語「揭瘡疤」卽此義。\n、IiapVth00Vangta\n、liap\n、liap\n【】揑也,揑成一個樣子【】,如【塗俑仔】(揑\nliap\n泥人)。說文:『理持也』,廣韵:良涉切。如用兩手指\n、liap\n、liam\n,謂之【捻】,集:『捻,揑也。諾叶切』此字從「\n念」,音、liap是陰陽對轉。可視為準正字。如用手抓緊日\n、nih\n【揑】(=•teN/MiN)。、liap俗作「攝」,但此字文讀liap\nIiap'iaN\nS1ap\n,如【攝影】,說文:『引持也。』廣:書涉切。liap在\n、liap\n陰入,當是siap的訛音,此字從聶)I ,讀siap也是不合\nliap\n理的,閩南語可能保存古音。白話謂肛門收縮日【攝】。本\n書於以上諸詞素的漢字選用依上述的考證為原則。",
-"source": "winocr",
-"checked": "none",
+"text": "· 50 · 臺灣禮俗語典\n語 thai，殺也。\nˋgiahˎti ˋgiah ˋkiat ˋziat ˎkiaN ˇgia ˋgiahˎti ˇgiaˎti ˋkiat giah-chuaN chuaN ˋchi kiat\n【揭箸】 拿筷子。【揭】⑰，泉音 ˋkiah，ˋkah，顯示 g- 是 k- 的濁化。說文：『揭，高擧也。』唐韻：渠列切音傑。文白對當合乎當例。參考同韻【熱】，又其上聲【件】。「揭」與【荷】⑱（擔也、負也）同源。古文中亦常相混。史記東方朔傳：『數賜縑帛，擔揭而去。』康熙字典：『揭，負也。』唐韻：『擔也』。今臺語擧箸或云【揭箸】又云【荷箸】。字通「竭」，廣韻：『竭，擧也。渠列切音揭。』此字又可能是 giah 的正字。如【揭扦】（挑刺）是用針把扦入皮內的刺挑出的意思。泉音 kiah 。大雅：『顚沛之揭。』傳：『揭，見根貌。』疏：『樹倒故根見。』廣韻：『揭，起也。居列切。』通語「揭瘡疤」卽此義。\nˋliap ˋliap ˋliapˇthooˇang'a liap ˋliam ˋliap ˋnih liap'iaN siap ˋliap liap\n【擸】⑲ 揑也，揑成一個樣子叫【擸】，如【擸塗俑仔】（揑泥人）。說文：『理持也』，廣韻：良涉切。如用兩手指撚，謂之【捻】⑳，集韻：『捻，揑也。諾叶切』此字從「念」，音 ˋliap 是陰陽對轉。可視爲準正字。如用手抓緊曰【揑】㉑（=ˎteN/ˎtiN）。ˋliap 俗作「攝」，但此字文讀 liap，如【攝影】，說文：『引持也。』廣韻：書涉切。liap 在陰入，當是 siap 的訛音，此字從〖聶〗，讀 siap 也是不合理的，閩南語可能保存古音。白話謂肛門收縮曰【攝】。本書於以上諸詞素的漢字選用依上述的考證爲原則。",
+"source": "llm",
+"model": "claude-sonnet-5-5",
+"checked": "winocr-agree",
 "flags": [
-"未校"
+"羅馬字多"
 ]
 }
 ]

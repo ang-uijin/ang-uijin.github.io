@@ -27,7 +27,7 @@
 "text": "3　人之初《剸臍》　·17·\n生產是一件人生最大的肉體痛苦，產婦忍不住會痛苦地喊出\na'bu·'a　aˇnia·'a　ta-ke\n：【阿母啊！】【阿娘啊！】呼天搶地。【大家】（婆婆）在旁安\n'ai'kha pa-kiat·'le　ˇlang seⁿ'lan·　'lan seⁿˇlang·'la\n慰說：【愛　較　巴　結　咧，儂　生　咱，咱　生　儂　啦】。意思是說\n，生產本來就是一件痛苦的事，妳母親生妳也是一樣的痛苦呀。\n還有俗信難產是因爲平時對婆婆不孝，所以難產時便跪下來向婆婆求饒，婆婆免不了要安慰幾句。因爲有這種觀念，所以平\n'in'chui'in'tsih　'li'toh　‶chun‶pan\n時如果媳婦【應　喙　應　舌】，婆婆就會威脅說：【汝　着　存　辦\nbeh　'ho-seⁿ·‶hoⁿ=oo\n卜　好　生　乎！】（你要是不怕難產就這樣頂嘴吧）。\n'khoo-kue\n俗又信生產時痛苦，生的兒子將來也會苦命，所謂【苦　瓜\n'bo·seⁿ'khoo-kue'kiaⁿ\n母　生　苦　瓜　囝】便是這個意思，所以婆婆往往以此鼓勵媳婦把\npa-kiat　tam-suˇiaⁿ\n心情放鬆，要【巴結】（堅忍）、【擔輸贏】（不怕苦），而事\n'ho-seⁿ\n實上越是勇敢的母親越【好生】。\n產出【紅嬰仔】的場所有二。一種是臨產時在地上舖稻草，\n‶tse'chau\n蹲着把嬰兒生在稻草上，謂之【坐　草】；\nio'thang\n另一種是坐在【腰桶】上，將嬰兒生在裏面\n‶tseˇphun　ˇlimˇphun\n，謂之【坐　盆】。生產謂之【臨　盆】，\n此之故也。\n【坐草】比較普遍。所以從前女人之間\n'tsit‶nng'tsang'chau\n有句玩笑話。比如看到熟鄰居抱着【蜀　兩　總　草】*（一兩綑草）\n‶si behseⁿ'kiaⁿ·‶si·'boo\n囘家，總會打趣說：【是　卜　生　囝　是　否？】\n〔圖〕腰　桶",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "winocr-agree",
 "flags": [
 "羅馬字多"
 ]
@@ -37,7 +37,7 @@
 "text": "・18・ 臺灣禮俗語典\n'tsu-sun'thang io'thang\n嫁妝中有所謂【子孫桶】(詳見21篇)。包括【腰桶】*\nkha'thang choo'thang\n【跤桶】【溲桶】三種。其中【腰桶】平時用來洗女人的【\n‵e-sin\n下身】,生產時用來【坐盆】、洗產婦內褲等;【跤桶】平時用\n來洗衣服、洗澡、洗脚,生產時用來【洗紅嬰仔】;【溲桶】分\n'sai'thang ‵zio'thang ‵pang'sai‵zio\n【屎桶】、【尿桶】,平時用來【放屎尿】,生產時用來放\nlah-sap'mih\n【垃圾物】(髒東西,如血紙等)。因爲都跟【生囝】有關,所\n'si-sik 'thang 'zipˇmng\n以叫【子孫桶】,因爲有四樣,故又稱【四色桶】。【入門】\nkah\n必由娘家【佮】來。\n'tngˇtsai ˇmuaˇiu\n【生婆】【剸臍】以後並不立卽洗澡,只用【麻油】擦去\ntheˇiu 'se-\n【胎油】。直到日據時代的【產婆】才流行給「紅嬰仔」【洗\nsing-khu\n身軀】*。現在又流行美國式的不洗澡。不立卽洗澡的原因是\nchut‵si'gin'a theˇiu\n因爲【出世囡仔】表面天生覆蓋着一層【胎油】保護皮膚,如果\n'iu‵mi‵mi pit\n洗掉,「紅嬰仔」皮膚【幼麵麵】,容易【必】*(皹裂),所\n'tngˇtsai\n以嬰兒出生只【剸臍】、不【洗身軀】。\nke\n臺灣人殺鷄時往往用開水燙一下,鷄毛好拔,這種水叫【鷄\nˇmo'tsui\n毛水】,從前產婦生產後用來作消毒水,事實上恐怕是個感染源,很不衞生。\n關於產婦生產的地點,現在多半在醫院、或助產士的產旁,過去都是在家,並且在夫家,很少在娘家,卽使產婦要回娘家生產,娘家也不一定歡迎,因爲俗話說:\ntsiohˇlang'si·‵m tsiohˇlang siN\n【借儂死,毋借儂生",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]

@@ -235,11 +235,13 @@
 {
 "n": 20,
 "text": "",
-"source": "winocr",
+"source": "llm",
+"model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
 "手寫",
-"未校"
+"未校",
+"空白"
 ]
 }
 ]

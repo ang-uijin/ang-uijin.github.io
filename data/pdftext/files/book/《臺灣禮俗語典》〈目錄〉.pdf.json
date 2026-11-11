@@ -9,6 +9,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "直排",
 "看不清",
@@ -30,7 +31,7 @@
 "text": "洪惟仁著\n臺灣禮俗語典",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "直排"
 ]

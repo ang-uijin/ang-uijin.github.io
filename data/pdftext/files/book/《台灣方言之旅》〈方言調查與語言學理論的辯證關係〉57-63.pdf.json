@@ -62,7 +62,7 @@
 "text": "台灣方言之旅\n的對立是古漳州音的遺留。\n這些經驗吿訴我們，過去的研究態度太過粗疏。\n田野工作與理論假設的辯證發展，不但提昇了我們的理論層次，同時也改進了我們的研究方法與研究態度。\n參考文獻\nDouglas, Carstairs (杜嘉德)\n“Chinese-English Dictionary of the Vernacular or Spoken Language of Amoy,with the Principal Variation of Chang-chew & Chin-chew Dialects”(廈英大辭典) 1973, London: Glasgow.\n董同龢、趙榮琅、藍亞秀合著\n《記台灣的一種閩南語》\n1967，台北：中研院史語所單刊甲種之二四\n董同龢，\n《四個閩南方言》\n1960，台北：中研院史語所集刊三十本\nWang, william S.Y.(王士元)\n62",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "直排",
 "羅馬字多"
@@ -73,7 +73,7 @@
 "text": "方言調查與語言學理論的辯證關係\n“Competing Change as a Cause of Risidue”\n1969, Language 45.1:9～12\n中嶋幹起\n《閩語東山島基礎語彙集》\n1977,東京外國語大學アジア、アフリカ言語文化研究所\n(原載《台灣史田野研究通訊》第十八期)\n〔圖〕輯二／台灣方言之旅\n63",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "直排",

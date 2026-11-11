@@ -9,6 +9,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -17,7 +18,7 @@
 "text": "臺灣客家方言島消失示意圖\n1989年洪惟仁繪\n山地語區　鶴佬語區　尚通行客語區　已消失方言島\n〔圖〕三芝　台北　新竹　礁溪　八德　豐原　員林　西螺　溪口　社頭　花蓮　玉里　高雄　台東　佳冬　滿州　恒春",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -29,6 +30,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 }

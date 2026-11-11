@@ -57,7 +57,7 @@
 "text": "·262· 臺灣禮俗語典\n擧例如下：\nvki｜kiN｜kiN'a｜piN'a｜piN\n墘｜幵｜幵仔｜邊仔｜邊\n｜海幵｜海幵仔｜海邊仔｜海邊\n溪仔墘｜溪仔幵｜｜｜溪仔邊\n港墘｜港幵｜港幵仔｜｜港邊\n‵e'tang 'tang tit-thang ‵e-tit-thang\n【會凍】③　可以也。【凍】是【得通】的合音，「會凍」卽「會得通」。無字，假同音字爲之，不另創新字。\nvthau-tsangvle 'kuevle'a\n【頭鬃螺】　髻也，又稱【鬠螺仔】。\nvsa-se\n【樵梳】④　木梳子。本應讀 vcha-se，多訛變爲 vsa-se。\n‵m-kam\n【毋甘】　捨不得也。與普通話「不甘」意思不同。\noo-kin 'hiahvbi oo-kin-khoo\n【烏巾】　原指新娘出嫁時頭上戴的黑色蓋頭，有時指女人頭上的【額眉】，又稱【烏巾箍】。\n'hiahvbai\n【額眉】　同上。又讀 'hiahvbi。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

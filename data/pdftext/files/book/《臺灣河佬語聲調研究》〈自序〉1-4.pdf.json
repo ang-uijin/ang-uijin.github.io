@@ -9,6 +9,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "直排",
 "看不清",
@@ -20,7 +21,7 @@
 "text": "ISBN 957-596-035-1 (802.5232)\n00150\n9 789575 960353\n自立晚報與您一起追求——\n政治民主，經濟繁榮，社會公道",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
