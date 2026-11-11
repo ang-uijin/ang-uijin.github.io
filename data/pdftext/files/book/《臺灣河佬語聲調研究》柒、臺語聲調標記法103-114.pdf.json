@@ -63,7 +63,7 @@
 "text": "台灣河佬語聲調研究 ·108·\n東方tɔŋ₂ hɔŋ³\n董事taŋ₃ su²\n凍結tɔŋ₃₁ kiat²\n督察tɔk₃ ts'at²\n同學tɔŋ₂ hak³\n洞空pɔŋ₁ k'aŋ³\n毒藥tɔk₁ io?³\n桌頂to?₃₁ tiŋ³¹\n熠火to?₁ hue₁³¹\n如果不標調位，則以標示於右上角表變調，標示於右下角表讀本調。相反的，如果不採用調類符號，則1、2、3之類的調位符號寫在右上角表本調，右下角表變調。\n至於兩個不在八音之內的中升調和中降調，分別以\n▢＝中升調/2̲3̲/\n▢＝中降調/2̲1̲/\n如：\n□四界tɔŋˊ siˊ keˏ（多得是）\n何好哩guaˊ hoˏ deˏ（多麼好）",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "直排",
 "羅馬字多"
@@ -76,6 +76,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "直排",
 "羅馬字多",
 "表格"
