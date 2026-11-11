@@ -30,3 +30,6 @@ CLAUDE.md
 /docs
 /.claude
 .hugo_build.lock
+
+# Python
+__pycache__/
