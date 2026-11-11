@@ -1,0 +1,14 @@
+{{- /* 五本專著的閱讀頁 /song/books/<書名>/：一本書一頁，資料在 data/song/books.json。
+       data/song/site.json 的 show.books 是 true 才產生（先生還沒確認全書上網的授權，預設不產生）。
+       放在 song 這一層而不是 books/ 底下，是因為 /song/books/ 本身是一個單頁（content/song/books.html），
+       不想為了這五頁把它改成 section；網址用 url 指定。 */ -}}
+{{- if site.Data.song.site.show.books -}}
+  {{- range site.Data.song.books -}}
+    {{- $.AddPage (dict
+          "path" (printf "book-%s" .code)
+          "url" (printf "/song/books/%s/" .slug)
+          "title" (printf "《%s》" .title)
+          "layout" "book"
+          "params" (dict "book" .code "description" (printf "《%s》（%s）逐頁掃描：依歌名查頁、逐頁翻閱，共 %d 頁。" .title .author .n))) -}}
+  {{- end -}}
+{{- end -}}

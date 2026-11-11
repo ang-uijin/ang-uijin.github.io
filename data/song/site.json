@@ -3,7 +3,9 @@
   "site_name": "民間歌謠教學研究網",
   "site_desc": "台北、桃竹苗等地民間歌謠（唸歌、相褒）的錄音、影片、歌詞與中譯，洪惟仁主持採錄。",
   "cat_names": { "minnan": "閩南語民歌", "hakka": "客家山歌", "score": "譜例" },
-  "show": { "minnan": true, "hakka": false, "score": false },
+  "show": { "minnan": true, "hakka": false, "score": false, "books": false },
+  "books_說明": "show.books＝五本專著的逐頁掃描（/song/books/<書名>/）。先生確認全書上網的授權以前是 false：閱讀頁不產生，「相關資源」只有連到原版網站的一段話。scan_base＝掃描圖放的位置（圖不在這個 repo 裡），圖搬到哪裡就改這個值，底下是 <代號 01–05>/<三位數流水號>.jpg。",
+  "scan_base": "/song/scan",
   "kind_names": { "唸歌": "唸歌", "相褒": "相褒", "山歌": "山歌", "譜例": "譜例" },
   "region_names": { "台北": "台北地區", "桃竹苗": "桃竹苗地區", "花蓮": "花蓮地區" },
   "region_order": ["台北", "桃竹苗", "花蓮"]

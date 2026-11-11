@@ -1,0 +1,27 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=2">{{ if site.Data.song.site.show.books }}<link rel="stylesheet" href="/song/books.css?v=1">{{ end }}{{ end }}
+{{ define "main" }}
+{{- /* 相關資源 /song/books/。文字在 content/song/books.html。
+       data/song/site.json 的 show.books：
+         false（預設）— 跟 single.html 的文字頁一模一樣：五本專著只有一段話連到原版網站。
+         true — 最上面那一段換成五本書的卡片（連到 /song/books/<書名>/ 的閱讀頁），書目第三區的每一本加一行「逐頁翻閱」。 */ -}}
+{{- $site := site.Data.song.site -}}
+{{- partial "song/nav.html" . -}}
+{{- $c := .Content -}}
+{{- if $site.show.books -}}
+  {{- $base := strings.TrimSuffix "/" ($site.scan_base | default "/song/scan") -}}
+  {{- $cards := partial "song/book-cards.html" (dict "base" $base) -}}
+  {{- $c = replaceRE `(?s)<h2 id="scan">.*?</p>` "<!--SCAN-->" $c 1 -}}
+  {{- $c = replace $c "<!--SCAN-->" $cards -}}
+  {{- $c = replaceRE `(?s)<p class="sec-note">民間歌謠教學研究網原版「相關資源→專著」.*?</p>` `<p class="sec-note">民間歌謠教學研究網原版「相關資源→專著」列的五本，每一本都可以逐頁翻閱掃描頁。</p>` $c 1 -}}
+  {{- range site.Data.song.books -}}
+    {{- $line := printf `<p class="bkr-readlink"><a href="/song/books/%s/">逐頁翻閱掃描頁</a>（%d 頁，可依 %d 條歌名查頁）</p></article>` .slug (int .n) (len .toc) -}}
+    {{- $c = replaceRE (printf `(?s)(<article class="bk" id="%s">.*?)</article>` .anchor) (printf "${1}%s" $line) $c 1 -}}
+  {{- end -}}
+{{- end }}
+<main class="main-content sg-main">
+  <article class="content-section sg-text">
+    <h1>{{ .Title }}</h1>
+    {{ $c | safeHTML }}
+  </article>
+</main>
+{{- end }}

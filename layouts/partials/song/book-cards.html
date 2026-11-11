@@ -1,0 +1,10 @@
+{{- /* 相關資源頁最上面的「五本專著（掃描頁）」：五張書卡。只有 show.books 開了才會被呼叫。參數：base＝圖檔位置 */ -}}
+{{- $base := .base -}}
+<h2 id="scan">原網站收的五本專著（掃描頁）</h2>
+<p>原網站把下面五本書一頁一頁掃描上網。每一本都可以依歌名查頁、逐頁翻閱；書的出版資料與購買通路見<a href="#zhuanzhu">書目第三區</a>。</p>
+<ul class="bkr-cards">
+{{- range site.Data.song.books }}
+  {{- $cv := index .pages (sub (int (.cover | default 1)) 1) }}
+  <li><a href="/song/books/{{ .slug }}/"><img src="{{ $base }}/{{ .code }}/{{ printf "%03d" (int $cv.s) }}.jpg" {{ with $cv.w }}width="{{ . }}" height="{{ $cv.h }}" {{ end }}alt="《{{ .title }}》封面" loading="lazy"><b>《{{ .title }}》</b><span>{{ .author }}</span><span>{{ .n }} 頁・{{ len .toc }} 條歌名</span></a></li>
+{{- end }}
+</ul>

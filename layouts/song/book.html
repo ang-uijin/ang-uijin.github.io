@@ -1,0 +1,72 @@
+{{ define "head" }}<link rel="stylesheet" href="/song/song.css?v=2"><link rel="stylesheet" href="/song/books.css?v=1">{{ end }}
+{{ define "main" }}
+{{- /* 專著閱讀頁 /song/books/<書名>/：出版資料、歌名目錄（可搜尋）、逐頁閱讀器。
+       一本書一頁；翻頁在同一頁上（網址 #p=032），由 /song/books.js 處理。
+       沒有 JavaScript 時：目錄與「全部頁面」的每一條都是直接連到那一頁的圖。
+       圖的位置＝data/song/site.json 的 scan_base ＋ /<代號>/<三位數流水號>.jpg */ -}}
+{{- $site := site.Data.song.site -}}
+{{- $code := .Params.book -}}
+{{- $b := index (where site.Data.song.books "code" $code) 0 -}}
+{{- $base := printf "%s/%s" (strings.TrimSuffix "/" ($site.scan_base | default "/song/scan")) $code -}}
+{{- $first := index $b.pages 0 -}}
+{{- partial "song/nav.html" . }}
+<main class="main-content sg-main">
+  <article class="content-section sg-text bkr" id="bkr" data-base="{{ $base }}" data-n="{{ $b.n }}">
+    <p class="sg-crumb"><a href="/song/">{{ $site.site_name }}</a> › <a href="/song/books/">相關資源</a> › <a href="/song/books/#scan">五本專著</a></p>
+    <h1>{{ .Title }}</h1>
+    <dl class="info">
+      <dt>作者</dt><dd>{{ $b.author }}</dd>
+      <dt>出版</dt><dd>{{ $b.pub }}</dd>
+      <dt>ISBN</dt><dd>{{ $b.isbn }}</dd>
+    </dl>
+    <p class="desc">{{ $b.desc }}</p>
+    <p class="sg-note-line">這裡是原網站逐頁掃描的書頁，共 {{ $b.n }} 頁；著作權屬原作者與出版單位，僅供教學研究參考。購買通路見<a href="/song/books/#{{ $b.anchor }}">相褒歌書目</a>。</p>
+
+    <section class="bkr-reader" id="reader" aria-label="逐頁閱讀">
+      <h2>逐頁閱讀</h2>
+      <div class="bkr-bar" hidden>
+        <button type="button" class="bkr-prev" aria-label="上一頁">‹ 上一頁</button>
+        <form class="bkr-jump"><label>第 <input type="number" inputmode="numeric" min="1" max="{{ $b.n }}" value="1" class="bkr-num" aria-label="第幾張"> ／ {{ $b.n }} 張</label><button type="submit" class="bkr-go">前往</button></form>
+        <button type="button" class="bkr-next" aria-label="下一頁">下一頁 ›</button>
+      </div>
+      <p class="bkr-info" aria-live="polite"></p>
+      <figure class="bkr-fig">
+        <a class="bkr-imglink" href="{{ $base }}/{{ printf "%03d" (int $first.s) }}.jpg" target="_blank" rel="noopener" title="開新分頁看原圖">
+          <img class="bkr-img" src="{{ $base }}/{{ printf "%03d" (int $first.s) }}.jpg" {{ with $first.w }}width="{{ . }}" height="{{ $first.h }}" {{ end }}alt="《{{ $b.title }}》第 1 張">
+        </a>
+      </figure>
+      <div class="bkr-bar bkr-bar-bottom" hidden>
+        <button type="button" class="bkr-prev" aria-label="上一頁">‹ 上一頁</button>
+        <a href="#toc" class="bkr-totoc">回目錄</a>
+        <button type="button" class="bkr-next" aria-label="下一頁">下一頁 ›</button>
+      </div>
+      <noscript><p class="sg-gap">瀏覽器沒有開啟 JavaScript，這裡只顯示第一張。請從下面的目錄或「全部頁面」點選，會直接打開那一頁的圖。</p></noscript>
+    </section>
+
+    {{- with $b.toc }}
+    <section class="bkr-toc" id="toc">
+      <h2>歌名目錄（{{ len . }} 條）</h2>
+      <p class="bkr-filter" hidden><label>找歌名：<input type="search" class="bkr-q" placeholder="輸入歌名裡的字" autocomplete="off"></label> <span class="bkr-count" aria-live="polite"></span></p>
+      <ol class="bkr-toc-list">
+        {{- range . }}
+          {{- $pg := index $b.pages (sub (int .s) 1) }}
+        <li><a href="{{ $base }}/{{ printf "%03d" (int .s) }}.jpg" data-p="{{ .s }}"><span class="bkr-tno">{{ .no }}</span><span class="bkr-tt">{{ .title }}</span><span class="bkr-tp">{{ with $pg.p }}頁 {{ . }}{{ else }}第 {{ $pg.s }} 張{{ end }}</span></a></li>
+        {{- end }}
+      </ol>
+    </section>
+    {{- end }}
+
+    <section class="bkr-all" id="pages">
+      <details>
+        <summary>全部頁面（{{ $b.n }} 張）</summary>
+        <ol class="bkr-page-list">
+          {{- range $b.pages }}
+          <li><a href="{{ $base }}/{{ printf "%03d" (int .s) }}.jpg" data-p="{{ .s }}" data-pp="{{ .p }}" data-t="{{ .t }}" data-w="{{ .w }}" data-h="{{ .h }}">{{ .s }}{{ with .p }}<small>頁 {{ . }}</small>{{ else }}{{ with .t }}<small>{{ . }}</small>{{ end }}{{ end }}</a></li>
+          {{- end }}
+        </ol>
+      </details>
+    </section>
+  </article>
+</main>
+<script src="/song/books.js?v=1" defer></script>
+{{ end }}

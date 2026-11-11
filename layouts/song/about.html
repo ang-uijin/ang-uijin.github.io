@@ -26,7 +26,9 @@
       <li><b>在合輯裡的 {{ len $comp }} 首影片</b>：這些歌在 YouTube 上是一位歌手一整支的合輯，頁面上只播該首的那一段；合輯的畫質比原來的影片低。
         {{- $muted := where $comp "Params.video.note" "!=" nil }}
         {{- with $muted }}其中 {{ range $i, $x := . }}{{ if $i }}、{{ end }}<a href="{{ .RelPermalink }}">{{ .Params.no }}</a>{{ end }} 這 {{ len . }} 首，合輯上開頭有幾秒沒有聲音，請聽錄音。{{ end }}</li>
+      {{- if not $site.show.books }}
       <li><b>五本專著的掃描頁</b>還沒有搬進新版面，仍在原版網站（見<a href="/song/books/#scan">相關資源</a>）。</li>
+      {{- end }}
       <li><b>〈台北的民間歌謠〉全文</b>沒有放上來，只有章節目錄（見<a href="/song/essay/#taipei">民間歌謠論</a>）。</li>
       <li><b>訪客留言</b>：原網站的留言板是主機上的程式，網站搬家以後沒有這個功能。</li>
     </ul>
