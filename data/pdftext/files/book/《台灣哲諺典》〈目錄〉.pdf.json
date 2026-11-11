@@ -7,7 +7,7 @@
 "text": "台語文摘\n台灣哲諺典\n一九九四年敎育部\n母語研究甲等獎作品\n編著：洪惟仁",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ],
@@ -21,7 +21,7 @@
 "text": "台語文摘　台灣哲諺典\nTLPA　3\n台灣哲諺典\n祖先智慧的寶石　8\n例言　16\n天理篇\n從諺語看台灣人的宇宙觀　21\n天理篇　29\n又說錄　48\n鬼神篇\n從諺語看台灣人的宗敎觀　53\n鬼神篇　70\n又說錄　103",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "表格"
 ],
@@ -65,7 +65,7 @@
 "text": "台灣哲諺典\n〔圖〕",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "直排"

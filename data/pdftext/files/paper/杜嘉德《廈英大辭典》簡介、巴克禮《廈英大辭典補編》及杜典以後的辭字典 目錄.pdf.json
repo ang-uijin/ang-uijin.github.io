@@ -7,7 +7,7 @@
 "text": "解題：\n一、杜嘉德《廈英大辭典》簡介\n二、巴克禮《廈英大辭典補編》及杜典以後的辭書字典",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 },
 {

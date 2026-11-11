@@ -7,7 +7,7 @@
 "text": "台語文摘\n台語經典笑話\n■洪惟仁／著",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -17,7 +17,7 @@
 "text": "大師畫荷．和成畫生活\nAlps荷花系列\n限量供應\n大師親筆彩繪，和成精心燒鑄\n中國人愛荷，自古即然，賞她綠葉翩翩，逸氣非凡；愛她出身淤泥，一身清骨。\nHCG荷花系列，精心燒鑄大師張杰手跡，\n水彩渲潤、靈逸飄動，\n爲生活創造最高意境的藝術空間。\n讓荷花在您的生活中，四時開放，品味清淨雅趣。\nHCG荷花系列——\n難得藝術珍品，限量供應，只獻給愛荷雅士。\n張杰，江蘇上海人，以擅畫荷聞名於世。畫風富有中國水墨及書法趣味，深受中外人士喜愛。\nHCG\n和成欣業公司\n台北市南京東路三段26號10樓\nTEL：(02)5068101\n全省展示中心及服務中心\n台北總經銷 (02)5015167\n基隆營業所 (02)4279411\n桃園總經銷 (03)3625661\n新竹營業所 (035)315152\n苗栗營業所 (037)358608\n台中總經銷 (04)2540030\n彰化總經銷 (04)7611330\n南投總經銷 (049)253626\n雲林總經銷 (05)6220810\n嘉義營業所 (05)2226479\n台南總經銷 (06)2638110\n高雄總經銷 (07)3330129\n宜蘭營業所 (039)304108\n花蓮營業所 (038)525192\n屏東營業所 (08)7334778\n台東營業所 (089)322394\n因應擴大營業，誠徵：企管、資訊、經濟、工管、化工、電機、機械、工程、工設人才",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -29,6 +29,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "手寫"
 ]
@@ -40,6 +41,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄"
 ]
 },
@@ -48,7 +50,7 @@
 "text": "為囝 報仇 133\n搬厝 我請 135\n予汝扑半死 著好 138\n三儂 共五目 140\n的確是 =个 143\n拆字素 146\n通經 149\n長短跤 151\n我是走佗位去 153\n討卜娶某 155\n大麵 个價數 157\n財現、五子 出頭 160\n食飽 等死 163\n衆儂 代一 165\n錢 卡値命 167\n職款錯 愈習 愈好 170\n自己 要用 不賣他人 173\n號臭賤名 176\n踞三年 咁卡輸汝倒三日 180\n怪癖=个 拄怪癖=个 184\n請帖 188\n1989年8月15日創刊\n1999年8月15日修訂三版\n《台語文摘》\n學術顧問/\n張裕宏 張月琴 董忠司 羅肇錦 鍾榮富 曹逢甫 徐金松 姚榮松 黃宣範 范文芳\n文學顧問/\n巫永福 杜文靖 杜潘芳格 林宗源 鍾肇政 黃勁連 向陽\n電腦顧問/\n駱嘉鵬 徐維君 江永進 王聖宗\n法律顧問/莊柏林\n編輯委員/\n杜建坊 董忠司 羅肇錦 姚榮松 洪惟仁\n贊助團體/\n台北大安扶輪社 台語社\n發行人/洪惟仁\n編輯/\n陳其勇 林宗浩 林錦賢 郭清課 李智存 邱文錫 楊文玄 洪錦田\n美術主編/高燈立\n總務/黃美慈\n發行所/台語文摘雜誌社\n打字/大光華電腦排版中心\n劃撥帳號/1240886-1\n戶名/黃美慈\n地址/台北縣汐止鎭水源路一段25號3F\n電話/(02)26436197\n傳真/(02)26473391\n行政院出版事業登記證\n局版臺誌字第9146號\n零售/每期200元\n長期訂閱12期\n國內新台幣1800元\n亞洲美金160元\n歐美美金200元",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "多欄"
 ]
@@ -60,6 +62,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "多欄",
 "羅馬字多",
 "表格"
@@ -70,7 +73,7 @@
 "text": "台語經典笑話\niannh□｜iunnh□｜iaunnh□\nuannh□｜uinnh□｜uainnh□\nap壓｜at遏｜ak握\nop□｜｜ok惡\nirp澀(泉)｜irt核(泉)｜irk黑(泉)\nip揖｜it乙｜iek益\niap葉｜iat閱｜iak約(漳)\n｜iut□｜iok育\nut熨｜uat越｜uak□\n註: <iek> 〔iek, ik〕, <iat> 〔iet, et, iat〕\n三、聲調\n1東｜2董｜3凍｜4督\n5童｜6動(泉)｜7洞｜8毒\n9中央(合音)｜0(輕聲)\n註:中央<tiong⁹>〔tiong³⁵〕\n四、韻母分析\nA. 韻頭(介音)\ni伊｜u汚\nB. 韻腹\na阿｜e啞｜i伊\noo烏｜o蚵｜u汚\nee家(漳)｜er鍋(泉)｜ir於(泉)\nann餡｜enn嬰(漳)｜inn燕\nonn好〔惡〕｜unn羊\nm姆｜ng秧\n註:\n<oo> 〔ɔ〕, <onn> 〔ɔ̃〕, <o> 〔o,ə (南台)〕\n<ee> 〔ɛ〕, <enn> 〔ɛ̃〕, <er> 〔ə〕\n<ir> 〔ɨ〕\nC. 韻尾\ni該｜u鉤\nm甘｜n奸｜ng港\np蛤｜t結｜k角｜h甲\n5",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -161,7 +164,7 @@
 "text": "台語經典笑話\n15",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -203,7 +206,7 @@
 "text": "台語經典笑話\n19\n〔圖〕▢▢",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -223,7 +226,7 @@
 "text": "台語經典笑話\n21",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -253,7 +256,7 @@
 "text": "台語文摘\n24\n〔圖〕德記布莊",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -315,6 +318,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -343,7 +347,7 @@
 "text": "台語經典笑話\n33",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -402,7 +406,7 @@
 "text": "台語經典笑話\n39",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -432,7 +436,7 @@
 "text": "台語文摘\n車頭 七車\nsan³tshiah⁴ tsiann⁵ hit⁴ pieng⁵\n有一个媒儂替一个散赤儂講親情，查某囡仔迄爿問起對方田園幾車？媒儂講：\n42",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "羅馬字多"
@@ -505,7 +509,7 @@
 "text": "台語經典笑話\n點阿兄 食戇小弟\nkiat⁸\nkong¹ke¹kiek⁴\n个一阿兄 眞點,個小弟 是眞戇。阿兄 有一日 佮小弟 參詳 公家激酒。小弟 問大兄 講:\niah⁴\n「益是卜按怎公家?」\n阿兄 講:\n「汝出米,我出水。」\n小弟 問講:\n49",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "羅馬字多"
@@ -526,7 +530,7 @@
 "text": "台語經典笑話\n51",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -556,7 +560,7 @@
 "text": "台語文摘\n54\n〔圖〕台歌",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -576,7 +580,7 @@
 "text": "台語文摘\n56",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -624,7 +628,7 @@
 "text": "台語經典笑話\n皇帝命\ngiah⁸ pai²\n有一个好額儂，有一擺 去相命，相命仙 共伊講：\n61",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -654,7 +658,7 @@
 "text": "台語文摘\n阮某咧想和尚\nsiong¹ho²\n有一對翁仔某眞相好。翁有一日卜出外，著\nkam²\n問講：「我無佇=咧，汝咁會想我？」\n64",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "羅馬字多"
@@ -706,7 +710,7 @@
 "text": "台語經典笑話\n69",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -827,7 +831,7 @@
 "text": "台語經典笑話\n81",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -888,7 +892,7 @@
 "text": "台語經典笑話\n哭禮數\n87\n〔圖〕福",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -959,7 +963,7 @@
 "text": "台語文摘\n苦瓜 貓貓 削皮 亦罵\nham⁵ban⁷ tu² tiann⁷ x ta¹ ke¹ tshan¹\n講有一个頇顢新婦,做空課攏袂拄好,定定都予大家罵。有一擺轉去後頭厝,共個老母哭呻講:\nta¹ ke¹\n「大家眞爻共我苦毒。」\n個老母講:\n94",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "羅馬字多"
@@ -1011,7 +1015,7 @@
 "text": "台語經典笑話\n99",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -1082,7 +1086,7 @@
 "text": "台語文摘\n呂宋 張犁\nhiunn¹ li² tsiann⁵\n講有一个儂 對呂宋 轉來 鄕 里，看親 情 朋\n友。\n106",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "羅馬字多"
@@ -1195,7 +1199,7 @@
 "text": "台語經典笑話\n\n117",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "空白"
 ]
@@ -1256,7 +1260,7 @@
 "text": "台語經典笑話\n123",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -1378,7 +1382,7 @@
 "text": "台語經典笑話\n135",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -1457,7 +1461,7 @@
 "text": "台語經典笑話\n143",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "空白"
 ]
@@ -1578,6 +1582,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -1596,7 +1601,7 @@
 "text": "台語經典笑話\n157",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -1626,7 +1631,7 @@
 "text": "台語文摘\n160\n〔圖〕▢口直▢",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -1678,6 +1683,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -1688,6 +1694,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1698,6 +1705,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1757,7 +1765,7 @@
 "text": "台語經典笑話\n173",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -1938,7 +1946,7 @@
 "text": "書名｜出版年｜編作者｜訂價\n《台語文摘》革新版第1-4期 精裝本｜1992｜台語文摘｜800.00\n新訂日台大辭典(上、下冊)｜1938｜小川尙義｜2,500.00\n潮正兩音字集｜1924｜JOHN SIEELE, B. A｜750.00\n臺日新辭書｜1917｜東方孝義｜2,500.00\n客語入門｜1835｜DROUGHT｜650.00\n台灣主要樹木方言集｜1936｜佐佐木舜一｜600.00\n客語陸豐方言｜1897｜S. H. SCHAANK｜480.00\n台灣語之研究(上、下)｜1929｜熊谷良正｜1,950.00\n日台小字典｜1898｜小川尙義 上田萬年｜950.00\n臺語大成｜1916｜劉克明｜850.00\n台灣俚諺集覽｜1914｜台灣總督府｜1,200.00\n電　話/(02)6436197　社　址/台北縣汐止郵政信箱55號\n傳　眞/(02)6473391　郵政劃撥/1240886-1 黃美慈\n〔圖〕政治是暫時的 文字是永久的",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "表格"
@@ -1951,6 +1959,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "手寫"
 ]
@@ -1960,7 +1969,7 @@
 "text": "東方超越西方\n義美 海鮮浪潮 超越 美國洋芋片\n新台灣人的休閒新零嘴即將引領風潮\n義美海鮮浪潮，精心烘焙不油手\n少鹽少油少負擔\n鮮蝦、魷魚原味現，修長包裝好掌握\n一片一小口，獻給優雅的嚐「鮮」族\n全國義美門市、7-11、全家、福客多、OK、萊爾富…等便利商店均有售\n義美食品公司\n〔圖〕義美 海鮮浪潮 新鮮蝦仁烘焙！片片鮮美，口口香脆！ 鮮蝦脆片 新上市 碳烤魷魚風味！片片鮮美，口口香脆！ 魷魚脆片",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]

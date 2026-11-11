@@ -7,7 +7,7 @@
 "text": "語言篇\n3.6.3 方言標本之二\n編　　號：新竹77\n發音人：鄭煙地\n出生年：1915年\n祖　　籍：漳州平和縣，雍正時遷彰化，嘉慶時遷新竹\n成長地：世居新竹市\n職　　業：印刷，地理師\n教育程度：新竹第二公學校畢業\n熟習語文：日文、日語、華文\n發音日：1991年7月\n採訪人：洪惟仁、張德南\n記　　音：洪惟仁\n【方言特色】\n新竹77鄭煙地與新竹76鄭衍宗同年，爲編號區別，編爲新竹77。\n新竹77的音韻系統和新竹76的音韻系統完全相同。唯特殊字的讀法有些參差。比如語料上收錄的「縣」字，用在「宜蘭縣」唸kuan⁷，用在「縣長」唸kuainn⁷。\n新竹76的元音相當穩定，不論緩讀急讀，元音音値都差不多，但新竹77的央元音-ir急讀時會變-i。\n汝lir²₃₁｜急讀爲lih₃/lirh₃/li₃₁｜新竹76爲lirh₃\n佇tir⁷₁₁｜急讀爲ti₁₁｜新竹76爲tir₁₁\n去khir³₃₁｜急讀爲khih₃/kirh₃/khi₃₁｜新竹76爲khirh₃\n起去khi₃₁.khir₁₁｜急讀爲khi₃₁.i₁₁｜新竹76爲khi₃₁\n佇塊tir⁷₁₁ter³₃₁｜急讀爲lih₃〔置〕｜新竹76爲lirh₃\n至於其他的變化和新竹76差不多，如：\n即（才）tsiah₃｜閣koh₃｜卡khah₃｜卜berh₃｜就按呢tsuan₁₃/₂₃\n新竹77也有-enn韻，只用於語助詞，如：\n嗯enn₁₁｜呢ne₁₁｜係henn₁₁\n但實詞沒有-enn韻。「按呢」一定説an₃₃ ni₁。此外沒有蒐集到-enn韻的實詞。\n②165",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -248,7 +248,7 @@
 "text": "住民志\n｜三十六字母｜｜｜二十三字母｜｜｜十五音\n｜全清｜半濁｜全濁｜全清｜半濁｜全濁｜\n牙｜見｜｜群｜見｜｜群｜求k\n｜溪｜｜｜溪｜｜｜去kh\n音｜｜疑｜｜｜疑｜｜語g/ng\n舌｜端知｜｜定澄｜端｜｜定｜地t\n｜透徵｜｜｜透｜｜｜他th\n｜｜泥娘｜｜｜泥｜｜柳 l/n\n音｜｜來｜｜｜來｜｜柳\n齒｜精照｜｜從｜精｜｜從｜爭ts\n｜清｜｜｜清｜｜｜出tsh\n｜心審｜｜邪禪｜心｜｜邪｜時s\n音｜｜日｜｜｜日｜｜入j\n喉｜影｜｜喻｜影｜｜喻｜英\n音｜曉｜｜匣｜曉｜｜匣｜喜h\n唇｜非｜｜奉｜｜｜｜喜h\n｜敷｜｜｜｜｜｜喜h\n｜幫｜｜並｜幫｜｜並｜邊p\n｜滂｜｜｜滂｜｜｜頗ph\n音｜｜明微｜｜｜明｜｜文b\n三十六字母太複雜，分了舌頭舌上、齒頭齒上，對於查切語、切閩南音並無實益；十五音太簡單，分不出陰陽，而反切的原則是「上字決陰陽、下字定四聲」，分不出陰陽，八音就切不準。鄭舉人折衷爲二十三字母，兼具理論與實際，看出台灣傳統讀書人貫通漢語聲韻學與閩南語聲韻學的努力。\n這套二十三字母比較値得商榷的是泥來二母在閩南語根本不分，分了泥來，對於切閩南音也沒實益，鄭舉人加以區分，大概是爲了理解古音的目的。但非敷奉微四母和幫滂並明四母不同音，非敷奉歸曉匣而爲「喜」\n②182",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "表格"
 ],
@@ -277,7 +277,7 @@
 "text": "住民志\n貓iaunn｜—｜鳥iaunn｜\n關uirinn｜梅uinn｜梅uinn｜\n三am(-p)｜覽am(-p)｜杉am(-p)｜\n丹an(-t)｜欄an(-t)｜丹an(-t)｜\n江ang(-k)｜邦ang(-k)｜江ang(-k)｜\n東ong(-k)｜郎ong(-k)｜東ong(-k)｜\n箴irm(-P)｜針irm(-p)｜—｜C歸金韻\n恩irn(-t)｜巾irn(-t)｜—｜C歸春韻\n生irng(-k)｜能irng(-k)｜—｜C歸卿韻\n兼iam(-p)｜廉iam(-p)｜兼ian(-p)｜\n軒ian(-t)｜連ian(-t)｜軒ian(-t)｜\n香iong(-k)｜兩iong(-k)｜香iong(-k)｜\n金iirm(-p)｜林im(-p)｜金im(-p)｜\n賓iirn(-t)｜吝in(-t)｜賓in(-t)｜\n卿iirng(-k)｜令ing(-k)｜卿ing(-k)｜\n春un(-t)｜侖un(-t)｜春un(-t)｜\n川uan(-t)｜⊙卵uan(-t)｜川uan(-t)｜\n由上表可知，新竹81的文讀系統和兩本傳統韻書所記載的泉州文讀音系具有一脈相承的關係。分韻不同的只有一韻，其餘都是音讀變化引起的韻類歸併，少數具有方言差的來源，茲簡述如下：\n一、B魯（效開一）、勞（效開二）分韻，AC歸併爲一韻，讀oo，A文讀系統無o元音，鼻化韻-onn的音値亦是-oonn，陽聲韻-ong(-k)的音値也是-oong(-k) 。但因C的鉤韻讀-io，有o元音，但o和oo沒有音位對立。\n二、AB以央元音爲主要元音的韻母分開齊兩套，即irm(-p):iirm(-p):irn(-t):iirn(-t):irng(-k):iirng(-k) ，但這三套的開口韻C消失了 ，irm(-p)→im(-p)；irn(-k)→un(-t)；irng(-k)→ing(-k)。\n三、文讀音韻母的鼻化成份並非來自古代鼻音韻尾的消失，所有鼻化韻應該都來自中古 m-（明）、n-（泥娘）、ny-（日）、ng-（疑）等鼻音聲母，這四聲母的字，在現代閩南語有的變b、1-、j-、ng-，鼻化成份消失，有的把聲母的鼻化成份轉移到韻母。到底那些字鼻音消失了，那些字在韻母部份保存著鼻音，不是每個泉州方言都一致。B比A少了三個韻，C比A多了一個韻（貌）就是由於這個原因。\n不過A多出 iunn（箱）韻，全韻只有「缶」、「朽」兩字，二字又重見「秋」韻，其具有鼻化成份的讀法是泉\n②184",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -446,7 +446,7 @@
 "text": "住民志\n因此新竹24的聲母只剩14字頭，「入」字頭消失。\nb.韻母：音韻變化\n新竹老派有八個元音。但新竹24的央元音er→e/ue.ir→i/u，向台灣優勢音靠攏，只剩六個元音。\n新竹81｜新竹76｜新竹24\n稅｜ser₁₁｜ser₁₁｜sue₁₁\n和尚｜her₁₂ siunn₂₂｜her₁₁ siunn₂₂｜heen₁₁ siunn₂₂\n雪｜serh₂｜serh₂｜see₂₁\n坐｜tser₂₂｜tser₂₂｜tse₂₂\n揣（找）｜tsher₂₂｜tsher₂₂｜tshe₂₂\n自｜tsuu₂₂｜tsir₂₂｜tsu₂₂\n思｜suu₃₃｜sir₃₃｜su₃₃\n煮｜tsuu₃₁｜tsir₃₁｜tsu₃₁\n豬｜tuu₃₃｜tir₃₃｜ti₃₃\n鼠｜tshuu₃₁｜tshir₃₁｜tshi₃₁\n新竹24「和尚」唸heen₁₁ siunn₂₂非常奇怪，這是因爲「和」字本應讀he，變音時受到「尚」字鼻音及s的部位的同化，而變heen。\n新竹24也有-ir韻，但和老派「居」韻無關，而是來自國語的借字。如：\n老師lau₁₁ sir₃₃　思考sir₃₃ khau₁₂\n新竹24，「刀」字母-o的讀音大部份變展唇後元音or，舌位稍微偏央，但有時候仍讀o，o/or應算是自由變体，顯示新竹24的o正向or移位。茲按實際發音的記錄摘錄於下：\n老派｜新竹24\n刀｜to₃₃｜to₃₃\n倒退｜to₃₁ ther₁₁｜to₃₁ thue₁₁\n倒反｜to₃₁ ping₃₁｜tor₃₁ ping₃₁\n高麗菜｜ko₂₂ le₁₁ tshai₁₁｜kor₂₂ le₁₁ tshai₁₁\n蠔仔｜o₁₁ a₃₁｜or₂₂ a₃₁\n落雨｜lo₁₁ hoo₂₂｜lor₁₁ hoo₂₂\n②196",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -461,7 +461,7 @@
 "text": "語言篇\n新竹24不但單元音時常變or，即複元音也常變ior，如：\n老派｜新竹24\n茄｜kio₁₂｜kior₁₂\n秒｜bio₃₁｜bior₃₁\n廟｜bio₂₂｜bior₂₂\n但也可讀io，如\n小妹｜sio₂₃ ber₂₂｜sio₂₃ bee₂₂\n藥仔｜io₁₁ a₃₁｜io₂₂ a₃₁\n石仔｜tsio₁₁ a₃₁｜tsio₁₁ a₃₁\n叫｜kio₁₁｜kio₁₁\n由此可見io/ior也是自由變讀。\n新竹24的介音i有消失的情形。即在ian[ieen]韻時變een，其餘不變。這是台灣中青年普遍的現象不足爲奇。譬如：\n老派｜新竹24\n戰｜tsian₁₁｜tseen₁₁\n憐｜lian₁₂｜leen₁₂\n新竹24的韻尾也有許多變化。最明顯的是喉塞韻尾消失了。如：\n老派｜新竹24\n著｜toh₃｜tor₃₃\n白｜peh₃｜pee₃₃\n食｜tsiah₃｜tsia₃₃\n桌｜toh₂｜tor₂₁\n雪｜serh₂｜see₂₁\n另外，受台北華語的影響，in有時唸ing。如：\n老派｜新竹24\n原因｜guan₁₁ in₃₃｜guan₁₁ ing₃₃\n檳榔｜pin₂₂ nng₁₂｜ping₂₂ lng₁₂\n不過這不普遍，新竹24的in還算穩定。\nc.聲調：九音\n新竹24的聲調也有七個，但和老派比較起來，有很顯著的不同。先將新竹24的主聲調系統列表於下（>左\n②197",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -521,7 +521,7 @@
 "text": "語言篇\n新竹76｜新竹24｜意義\n天未光｜thinn₃₃ ber₁₁ kng₃₃｜thinn₃₃ ah₃ bue₁₁ kng₃₃｜天未亮\n天卜光｜thinn₃₃ berh₃ kng₃₃｜thinn₃₃ beh₃ kng₃₃｜天快亮\n扑殕光｜pha₃₁ phu₂₃ kng₃₃｜×｜天魚肚白\n天光｜thinn₃₃ kng₃₃｜thinn₃₁ kng₃₃｜天亮\n透早｜thau₃₁ tsa₃₁｜thau₃₁ tsa₃₁｜清晨\n早起｜tsai₃₁ khi₃₁｜tsai₂₃ khi₃₁｜早上\n早頭仔｜tsa₂₃ thau₁₁ a₃₁｜×｜約七、八點\n大晏｜tua₁₁ uann₁₁｜×｜約九至十一時\n卜晝仔｜berh₃ tau₃₃ a₂₁｜beh₃ tau₁₁｜近午時分\n中晝｜tiong₂₂ tau₁₁｜tiong₂₂ tau₁₁｜中午\n過晝｜ker₃₁ tau₁₁｜下晝e₁₁ tau₁₁｜過午\n過午｜ker₃₁ ngo₃₁｜×｜（過午）\n下晡｜e₁₁ poo₃₃｜下晡e11 poo33｜下午\n下晡時｜e₁₁ poo₂₂ si₁₂｜下晝e11 tau11｜（下午）\n半晡｜puann₃₁ poo₃₃｜×｜三、四點\n黃昏｜hong₁₁ hun₃₃｜×｜黃昏\n卜暗仔｜berh₃ am₃₃ a₃₁｜×｜（黃昏）\n點燈酉｜tiam₂₃ ting₂₂ iu₃₁｜×｜酉時、黃昏\n天暗｜thinn₃₃ am₁₁｜下晝thinn₃₃ am₁₁｜天黑\n暗頭仔｜am₃₁ thau₁₁ a₃₁｜下晝am₃₁ thau₂₂ a₃₁｜天剛黑不久\n暗時｜am₃₁ si₁｜下晝am₃₁ si₁₂｜晚上\n冥時｜mi₁₂·si₁₁｜暗冥am₃₁ mee₁₂｜（晚上）\n頂半冥｜ting₂₃ puann₃₁ mi₁₂｜×｜上半夜\n半冥｜puann₃₁ mi₁₂｜puann₃₁ mi₁₂｜半夜，十二點\n翻點｜huan₂₂ tiam₃₁｜×｜十二點多\n下半冥｜e₁₁ puann₃₁ mi₁₂｜×｜下半夜\n半冥後｜puann₃₁ mi₁₁ au₂₂｜×｜兩三點\n冥尾仔｜mi₁₁ ber₃₃ a₂₁｜×｜三四點\n雞啼｜kue₃₃ thi₁₂｜×｜雞鳴時分\n雞叫寅｜kue₂₂ kio₃₁ in₁₂｜×｜（雞鳴時分）\n②201",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

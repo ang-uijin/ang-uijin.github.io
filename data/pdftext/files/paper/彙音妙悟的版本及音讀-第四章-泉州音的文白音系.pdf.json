@@ -7,7 +7,7 @@
 "text": "第四章　泉州音的文白音系\n一、閩南語的多重語言層次\n閩南語是個語言層次十分複雜的語言,我們把它分成文白兩層其實是很粗略的。據我們現在所知,閩南語至少有近代外來語、官話層、文讀層、白話層、百越遺音。其中官話層還可分現代官話、早期官話。文讀層、白話層又可細分爲若干層,無法在此深究。茲從《彙音妙悟》中略摘數例,以見泉州方言語音層次之一斑:\n泉州方言語音層次略摘:\n｜白話層｜文讀層｜官話層\n唱｜tshiuᴺ³｜tshiɔng³｜tshiang³\n軟｜lng²｜zuan²/luan²｜\n針｜tsam¹｜tsim¹/tsiɨm¹｜\n澀｜siap⁴｜sɨp⁴/siɨp⁴｜\n長｜tng⁵/thiuᴺ⁵｜tiɔng⁵｜\n家｜ke¹｜ka¹｜kia¹\n下｜he⁶/e⁶｜ha⁶｜\n斤｜kɨn¹→kun¹｜kin¹｜\n欣｜hiɨm¹｜｜hiɨn¹\n浮｜phu⁵｜piu⁵/həu⁵｜\n頭｜thau⁵｜thəu⁵/thiu⁵｜\n樹｜tshiu⁷｜su⁷/sɨ⁷｜\n五九",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "直排",
 "羅馬字多",
@@ -96,7 +96,7 @@
 "text": "《拍掌知音》音系：\na巴｜ai來｜au撓｜am覽｜an欄｜ang邦\nia嗟｜｜iau鳥｜iam廉｜ian連｜\nua瓜｜uai乖｜｜｜uan卵｜\naN拿｜aiN乃｜｜｜｜\nɨ女｜｜｜ɨm針｜ɨn巾｜ɨng能\n｜i里｜iu鈕｜im林｜in吝｜ing令\n｜ui雷｜u誄｜un侖｜｜\n｜uiN梅｜｜｜｜\ne禮｜｜｜｜｜\nue內｜｜｜｜｜\nɔ魯｜｜｜｜｜ɔng郎\nɔN老｜｜｜｜｜iɔng兩\no勞｜｜｜｜｜\nio婁｜｜｜｜｜\n枚\n六、《拍掌知音》與《彙音妙悟》文讀音系的比較\n以上共36個韻母，比《彙音妙悟》的文讀音系少了兩個。\n兩相比較，得到這樣的結果：\n一、《彙音妙悟》有-iauN，-iuN，-iN等鼻化音韻，收字極少，在《拍掌知音》一書裡全歸入口音韻，舉例如下：\n六七",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "手寫",
 "直排",
@@ -143,7 +143,7 @@
 "text": "白話層音韻系統(舉舒賅入):\na 嘉｜ai 開｜au 郊｜am 三｜an 丹｜ang 江\nia 嗟｜｜iau 朝｜iam 兼｜ian 軒｜iang 商\nua 花｜｜｜｜｜uang 風\naN ▢ 式｜aiN 熊\niaN 京｜｜iauN 貓\nuaN 歡\nə 科｜əe 雞\nɨ 居｜｜｜｜ɨn 恩\n｜i 基｜iu 秋｜iɨm 金｜iɨn 賓｜iɨng 卿\n｜ui 飛｜u 珠｜｜uɨn 春\n｜iN 靑｜iuN 箱\n｜uɨiN 關\ne 西\nue 杯\nɔ 高\no 刀\nio 燒\n｜｜｜｜｜m 梅\n｜｜｜｜｜ng 毛\n七一",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "手寫",
 "羅馬字多",

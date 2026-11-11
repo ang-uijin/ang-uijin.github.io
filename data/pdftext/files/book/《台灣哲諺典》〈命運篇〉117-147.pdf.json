@@ -133,7 +133,7 @@
 "text": "台灣哲諺典\n時星・光、有時月・光】(3.25)\ninn⁵ lang⁰ · e⁷pinn² · pinn² lang⁰ · e⁷inn⁵\n26 圓 ・儂 會扁，扁 ・儂 會圓\n譯：圓人會扁，扁人會圓\n【圓・儂】喩幸運之人，【扁・儂】不幸之人○幸運的富貴之人會有貧賤的一天；不幸的貧賤之人也會有幸運的時候○類：【三年水流東，三年水流西】(3.24)【三年 一閏，好歹 照輪】(3.25)\nlang⁵ · bo⁵tshieng¹jit⁸ho² hue¹ · bo⁵pah⁴jit⁸ang⁵\n27 儂 無 千 日好，花 無百日紅\n譯：人無千日好，花無百日紅\n人不會永遠幸運○類：【圓・儂 會扁，扁・儂 會圓】(3.26)\nit⁴tai⁷hieng¹ · ji⁷tai⁷hian⁵ · sam¹tai⁷lok⁴lian²\n28 一代 興 二代 賢 三 代 落 臉\n譯：一代興，二代賢，三代丟臉\n【落臉lok⁴lian²】(注意發音)落魄，衰敗、丟臉義，若讀lak⁴lian²多半只有丟臉之義○第一代發財，第二代出賢人，第三代淫逸過度，做出丟臉的事，家道於\n126",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -431,6 +431,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ],
 "copied_from": {

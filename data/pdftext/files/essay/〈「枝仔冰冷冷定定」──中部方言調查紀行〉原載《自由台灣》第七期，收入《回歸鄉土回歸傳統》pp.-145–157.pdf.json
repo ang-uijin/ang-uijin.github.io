@@ -122,7 +122,7 @@
 "text": "回歸鄕土回歸傳統 · 156 ·\n左起：作者、埔里最有學問的平埔老人潘君乃先生、熱心鄕土文化的楊文彬博士",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "直排"

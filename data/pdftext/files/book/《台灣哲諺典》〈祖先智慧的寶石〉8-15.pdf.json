@@ -93,7 +93,7 @@
 "text": "台灣哲諺典\n疏，不負責任，實在令人失望啊！\n15",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [],
 "copied_from": {
 "url": "/files/book/台灣哲諺典_compressed.pdf",

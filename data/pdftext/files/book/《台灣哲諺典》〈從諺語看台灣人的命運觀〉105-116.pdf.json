@@ -34,7 +34,7 @@
 "text": "台灣哲諺典\niong² x be² · pak⁸ ti⁷ tsiong¹kun¹thiau⁷\n勇勇馬　縛佇將軍柱(3.41)\niong² x be² · pak⁸tua³ au³ tshiu⁷thau⁵\n勇勇馬　縛帶漚樹頭(3.41)\nbat⁴phe⁷ · bo⁵tshan⁵tsoh⁴\n捌稗　無田作(3.40)\nho² pi⁵ pe⁵ · tiau³puann³piah⁴\n好琵琶　吊半壁(3.39)\n這是指「時」不我與，懷才不遇。\nkuainn¹mng⁵ · tshu³lai⁷tse⁷ · hoo⁷ · phuah⁴tui³thinn¹thang¹ ·\n關門　厝内坐　雨(禍)　潑對天窗\njip⁸ · lai⁰\n入·來(1.20)\n這是「運」氣太乖，飛來橫禍。\ntsau²tshat⁸ · gu⁷tioh⁸hoo²\n走賊　遇著虎(3.55)\nsann¹tu² · si³ m⁷ tioh⁸ , tshuan³ tu² · loo²koo²tsioh⁸\n三拄　四毋著，串拄　磟砧石(3.54)\n這是禍不單行，厄運連連。\ntsui²kui² · gia⁵tang⁷ke⁵\n水鬼　夯重枷(2.18)\n這豈止禍不單行，已經是萬劫不復了。\n可是如果運氣好的話，歪打正著，醜人都可行大運。俗云：\n106",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],
@@ -118,7 +118,7 @@
 "text": "台灣哲諺典\nloh⁸thoo⁵ si⁵ · peh⁴ ji⁷ mia⁷\n落塗時　八字命(3.51)\nin¹ ian⁵ · thinn¹tsu³tiann⁷\n姻緣　天註定(3.21)\nu⁷ kiann² · u⁷ kiann²mia⁷ , bo⁵kiann² · thinn¹ · tsu³tiann⁷\n有囝　有囝命，無囝　天　註定(3.20)\n可見民間相信，人一生的命運都是天所註定的。「命」也有生命，壽命之義。\n所謂：\nthih⁴ · phah⁴ e · ia⁷ bo⁵siang¹tiau⁵mia⁷\n鐵　扑=个　亦無雙條命(3.19)\n這個「命」字就是生命的意思。不但人的命運由天註定，並且人壽命的長短也是由天註定的，俗云：\nthinn¹ · beh⁴ka⁷lang⁵tshong³ ti⁷ · thih⁴thui⁵ a² kong³be⁷ si²\n天　卜共儂　創治　鐵槌仔·摃袂死(3.17)\nsin⁵sian¹ · be⁷kiu³tit⁴ bo⁵mia⁷lang⁵\n神仙　袂救得無命儂(3.18)\n命運不但無法自主，並且無法預知。俗云：\ntsa¹boo²gin² a² · iu⁵ mua⁵tshai³tsi²mia⁷\n查某囡仔　油蔴菜子命(3.22)\ntsa¹boo²gin² a² · ku²tshai³mia⁷\n查某囡仔　韮菜命(3.22)\nkau²bue² · io⁵ hinn³ x , lang⁵bue² · khuann³ m⁷ kinn³\n狗尾　搖幌幌，儂尾　看毋見(3.34)\n命運又是無法改變的。俗云：\n112",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

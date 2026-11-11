@@ -23,6 +23,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -38,6 +39,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -51,7 +53,7 @@
 "text": "語言篇\n固定詞組｜起 來｜起 去｜爬 起 來｜爬 過 來\n新竹81｜khi₃₁·ai₁₁｜khi₃₁·khuu₁₁｜peh₂₁·khiai₁₁｜pe₁₂·ker₁₁ lai₁₁\n新竹76｜khi₃₁·lai₁₁｜khi₃₁·khir₁₁｜peh₂·khiai₁₁｜pe₁₃·ker₁₁ lai₁₁\n新竹24｜khit₂·lai₁₁｜khit₂·lr₁₁｜pe₂₁·khit₁₁ lai₁₁｜pe₁₂·kue₁₁ lai₁₁/~ke₁₁/~\n港南69｜khiai₃₁｜khi₃₁｜peh₂·khiai₁₁｜\n港南30｜khiai₃₁ : khi₃₁ iai₁₁｜｜peh₂·khiai₁₁｜\n大庄80｜khi₃₁·lai₁₁｜khi₃₁·khir₁₁｜peh₂·khi₁₁ lai₁₁｜pe₁₂·ker₁₁·lai₁₁\n大庄70｜｜｜｜\n大庄21｜khit₂·lai₁₁｜｜｜\n大庄19｜khiai₃₁｜｜｜\n蚵寮71｜｜｜｜\n蚵寮55｜khiai₁₁｜khi₃₁·khi₁₁｜peh₂·khiai₁₁｜pe₁₂·kuai₁₁ : pe₁₂ ke₁₁ lai₁₁\n蚵寮48｜khi₃₁·ai₁₁｜khit₃·li₁₁｜peh₂·khiai₁₁｜pe₁₂·kue₁₁ lai₁₁\n千甲71｜khi₃₁·lai₁₁｜khi₃₁·khi₁₁｜peh₂·khi₁₁ lai₁₁｜pe₁₂·kue₁₁ lai₁₁\n大湖57｜｜｜｜\n千甲71｜hi₂₂·loi₃₃｜shong₃₁·hi₁₁｜pak₂ hi₂₂ loi₃₃｜pha₃₃ ko₁₁ loi₃₃\n青草湖64｜hong₃₃·hi₂₁ loi₁₁｜shong₁₁·hi₃₃｜pak₂ hi₂₁ loi₁₁｜pha₁₂ ko₃₃ loi₁₁\n竹中62｜hi₂₂·loi₃₃｜shong₃₁·hi₁₁｜pak₂ shong₁₁ hi₂₂ loi₃₃｜pha₃₃ ko₁₁ loi₃₃\n新埔｜｜shong₁₁·hi₃₃｜pak₂ shong₁₁ hi₃₃｜pha₁₁ ko₃₁ lai₁₁\n大湖57｜｜｜pak₂ shong₁₂ loi₁₁ : pak₂ hong₃₃ hi₂₁ loi₁₁｜pha₁₁ ko₃₃ loi₁₁\n②361",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -66,7 +68,7 @@
 "text": "住民志\n隨前變調▢聲｜眞的｜假的｜大的｜小的\n新竹81｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n新竹76｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n新竹24｜tsin₃₃=nee₃₃:tsiann₁₁=enn₁₁｜kee₃₁=ee₁₁｜tua₂₂=e₂₂｜sue₁₁ee₁₁\n港南69｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n港南30｜tsin₃₃=nee₃₃:tsiann₁₁=e₁₁｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n大庄80｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n大庄70｜｜｜｜\n大庄21｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n大庄19｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n蚵寮71｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜se₁₁e₁₁\n蚵寮55｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₁₁=e₂₂｜se₁₁e₁₁\n蚵寮48｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n千甲71｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜se₁₁=e₁₁\n大湖57｜｜｜｜\n千甲71｜chin₃₁ne₁₁｜ka₂₃kai₁₁｜thai₂₂ke₁₁｜se₁₁kai₁₁\n青草湖64｜chin₁₂kai₃₃｜ka₂₁kai₃₃｜thai₃₃chak₂｜se₃₃chak₂\n竹中62｜chin₃₁ne₁₁｜ka₁₃e₁₁｜thai₂₂e₁₁｜se₁₁e₁₁\n新埔｜chin₁₂kai₃₃｜ka₃₁kai₃₃｜thai₃₃e₃₃｜se₃₃e₃₃\n大湖57｜chin₁₁ne₃₃｜ka₂₁e₃₃｜thai₃₃e₃₃｜se₃₃e₃₃\n②362",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -81,7 +83,7 @@
 "text": "語言篇\n｜狗的｜薄的｜生的｜熟的｜銅的｜鐵的\n新竹81｜kau₂₂=e₂₂｜poh₃=e₁₁｜｜sik₂=e₁₁｜｜\n新竹76｜kau₂₂=e₂₂｜poh₃=e₁₁｜tshinn₃₃=enn₃₃｜sik₃=ge₁₁｜tang₁₁enn₃₃｜thih₂=e₁₁\n新竹24｜｜｜｜sik₃₃=ge₃₃｜｜\n港南69｜kau₂₂=e₂₂｜poh₃=e₁₁｜tshinn₃₃=e₃₃｜sik₃=e₁₁｜tang₁₃/₁₁=e₃₃｜thih₂=e₁₁\n港南30｜kau₂₂·e₁₁｜poh₂₂=e₁₁｜tshinn₃₃=enn₃₃｜sik₃=e₁₁｜tang₁₁=e₃₃｜×\n大庄80｜kau₂₂=e₂₂｜poh₂₃=e₁₁｜tshinn₃₃=enn₃₃｜sik₂₃=e₁₁｜tang₁₁=e₂₂｜thih₂=e₁₁\n大庄70｜｜｜｜｜｜\n大庄21｜kau₂₂=e₂₂｜poh₃=e₁₁｜tshinn₃₃=eenn₃₃｜sik₂₃=e₁₁｜tang₁₁=e₃₃｜thih₂=e₁₁\n大庄19｜kau₂₂=e₂₂｜poh₂₂=e₂₂｜tshinn₃₃·eenn₁₁｜sik₂₂=e₁₁｜tang₁₁=e₂₂｜thih₂=e₁₁\n蚵寮71｜kau₂₂=e₂₂｜poh₂₂=e₁₁｜tshinn₃₃=enn₃₃｜sik₂₂=e₁₁｜tang₁₂｜thih₂\n蚵寮55｜kau₂₂=e₂₂｜poh₂₃=e₁₁｜tshinn₃₃=enn₃₃｜sik₂₃=e₁₁｜tang₁₁=enn₂₂｜thih₂=e₁₁\n蚵寮48｜kau₂₂=e₂₂｜poh₂₂=e₁₁｜tshinn₃₃=enn₃₃｜sik₂₃=e₁₁｜tang₁₁=e₂₂｜thih₂=e₁₁\n千甲71｜kau₂₂=e₂₂｜poh₃=e₁₁｜tshinn₃₃=enn₃₃｜sik₃=e₁₁｜tang₁₁=e₂₂｜thih₂=e₁₁\n大湖57｜｜｜｜｜｜\n千甲71｜｜｜sang₃₁kai₁₁｜shuk₃kai₁₁｜｜\n青草湖64｜phun₁₂nai₃₃｜phok₃·kai₃₃｜sang₁₂·ngai₃₃｜shuk₃kai₃₃｜thung₁₁·ngai₃₃｜thiat₃·ai₃₃\n竹中62｜phun₃₁ne₁₁｜phok₂·e₁₁｜sang₃₁·nge₁₁｜shuk₂·e₁₁｜thung₃₃·nge₁₁｜thiat₃·le₁₁\n新埔｜phun₁₂ne₃₃｜phok₃·e₃₃｜sang₁₂nge₃₃｜shuk₃e₃₃｜thung₁₁·nge₃₃｜thiat₃e₃₃\n大湖57｜phun₁₁e₃₃｜phok₃·ge₃₃｜sang₁₂nge₃₃｜shuk₃ge₃₃｜thung₁₁·nge₃₃｜thiet₃e₃₃\n②363",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -96,7 +98,7 @@
 "text": "住民志\n▢▢▢▢｜振動｜重視(看重)｜堅凍(凝固)｜運動｜山洞\n新竹81｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n新竹76｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n新竹24｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜keen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₃₃\n港南69｜tin₂₃tang₂₂｜｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜\n港南30｜tin₂₃tang₂₂｜khuann₃₁tang₂₂｜keen₂₂tang₁₁｜un₁₁tong₂₂｜×\n大庄80｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n大庄70｜｜｜｜｜\n大庄21｜tin₂₃tang₂₂｜｜keen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n大庄19｜tin₃₃tang₂₂｜｜keen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n蚵寮71｜｜｜｜｜\n蚵寮55｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n蚵寮48｜tin₃₃tang₂₂｜khuann₃₁tang₂₂｜keen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n千甲71｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₃tang₁₁｜un₁₁tong₂₂｜\n大湖57｜｜｜｜｜\n千甲71｜thin₃₁thung₃₁｜khon₁₁chhung₃₁｜kiat₃tung₁₁｜jun₂₂thung₂₂｜pong₁₁khung₃₁\n青草湖64｜thin₁₁thung₁₂｜khon₃₁chhung₂₃｜kian₁₁tung₃₁｜iun₃₃thung₃₃｜san₁₁thung₃₁\n竹中62｜thin₃₁thung₃₁｜khon₁₁chhung₃₁｜｜yiun₂₂thung₂₂｜san₃₁thung₂₂\n新埔｜thin₁₁thung₁₂｜khon₃₁chhung₁₂｜kiat₂tung₃₁:khian₁₁tung₃₁｜jun₃₃thung₃₃｜san₂₂thung₃₁\n大湖57｜thin₁₁thung₁₂｜khon₃₃tshung₁₂｜khin₁₁tung₃₃｜yun₃₃thung₃₃｜san₁₁thung₃₃\n②364",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -111,7 +113,7 @@
 "text": "語言篇\n｜老儂｜流膿｜父｜白｜伯｜▢｜▢\n新竹81｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n新竹76｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n新竹24｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pee₂₂｜pee₃₃｜pee₂₁｜tok₂₁｜tok₃₃\n港南69｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n港南30｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n大庄80｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₃｜peh₂｜tok₂｜tok₃\n大庄70｜｜｜｜｜｜｜\n大庄21｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₃｜peh₂｜tok₂｜tok₂₃\n大庄19｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₃｜peh₂｜tok₂｜tok₂₃\n蚵寮71｜｜｜｜｜｜tok₂｜tok₂₃\n蚵寮55｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₃｜peh₂｜tok₂｜tok₂₃\n蚵寮48｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₂｜peh₂₁｜tok₂｜tok₂₂\n千甲71｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n大湖57｜｜｜｜｜｜｜\n千甲71｜lo₂₂nyin₃₃｜liu₃₃nung₃₃｜fu₁₁｜phak₂｜pak₃｜tok₃｜thuh₂\n青草湖64｜lo₃₁nyin₁₁｜liu₁₁nung₁₁｜a₁₁pa₂₃｜｜｜tok₂｜thuh₂\n竹中62｜lo₂₂nyin₃₃｜liu₃₃nung₃₃｜｜｜｜tok₃｜thuh₂\n新埔｜lo₂₁nyin₁₁｜liu₁₁nung₁₁｜｜｜｜tok₂｜thuh₃₃\n大湖57｜lo₂₁nyin₁₁｜liu₁₁nung₁₁｜｜｜｜tok₃｜thuh₂\n②365",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -126,7 +128,7 @@
 "text": "住民志\n｜水溝｜狗仔｜印仔｜蚵仔｜芋仔｜竹仔｜鐵仔｜賊仔｜藥仔\n新竹81｜tsui₂₃kau₂₃a₂₁｜kau₃₃a₂₁:kau₃₃a₃₃kiann₃₁:kau₂₃kiann₃₁｜in₃₃na₂₁｜o₁₁a₃₁｜oo₁₁a₃₁｜tik₃ga₂₁｜thi₃₃a₂₁｜tshat₁₁la₃₁｜io₁₁a₃₁\n新竹76｜kau₂₂a₃₁｜kau₃₃a₂₁｜in₃₃na₂₁｜o₁₁a₃₁｜oo₁₁a₃₁｜tik₃a₂₁｜thi₃₃a₂₁｜tshat₁la₃₁｜io₁₁a₃₁\n新竹24｜tsui₂₃kau₂₂a₃₁｜kau₃₃a₂₁｜in₃₃na₂₁｜or₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₃₁｜thi₃₃a₂₁｜tshat₂la₃₁｜io₂₂a₃₁\n港南69｜kau₂₂a₃₁｜kau₃₃a₂₁｜in₃₃na₂₁｜o₁₁a₃₁｜oo₁₁a₃₁｜tik₃a₂₁｜thi₃a₂₁｜｜ioh₃\n港南30｜tsui₂₃kau₂₂a₂₁｜kau₃₃a₃₃kiann₃₁｜in₃₃na₂₁｜or₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₂₁｜thi₃₃a₂₁｜tshat₂la₃₁｜io₂₂a₃₁\n大庄80｜kau₂₂a₃₁｜kau₃₃a₃₁｜in₃₃na₃₁｜o₁₁a₃₁｜oo₁₁a₃₁｜tik₃a₃₁｜thi₃a₃₁｜tshat₁₁la₃₁｜ioh₁₁a₃₁\n大庄70｜｜｜｜｜｜｜｜｜\n大庄21｜tsui₂₃kau₂₂a₃₁｜kau₃₃a₃₁｜in₃₃a₃₁｜or₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₃₁｜thi₃a₃₁｜tshat₂la₃₁｜io₂₂a₃₁\n大庄19｜kau₂₂a₃₁｜kau₃₃a₂₁｜in₃₃na₂₁｜or₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₂₁｜thi₃₃a₂₁｜tshat₂la₃₁｜io₂₂a₃₁\n蚵寮71｜kau₂₂a₃₁｜kau₃₃a₃₁/kau₃₁｜in₃₃a₃₁｜a₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₃₁｜thi₃₃a₃₁｜tshat₂la₃｜io₂₂a₃₁\n蚵寮55｜tsui₂₃kau₂₂a₃₁｜kau₂₂a₃₁/kau₃₁｜in₂₂a₃₁｜o₂₂a₃₁｜oo₂₂a₃₁｜tik₂a₃₁｜thi₂₂a₃₁｜tshat₂la₃₁｜io₂₂a₃₁\n蚵寮48｜｜kau₃₃a₃₁｜in₃₃na₃₁｜o₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₃₁｜thi₃₃a₃₁｜tshat₂la₃₁｜io₂₂a₃₁\n千甲71｜｜kau₃₃a₂₁｜in₃₃a₂₁｜oo₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₂₁｜thi₃₃a₂₁｜tshat₂₂la₃₁｜io₂₂a₃₁\n大湖57｜｜｜｜｜｜｜｜｜\n千甲71｜keu₃₁e₃₃｜keu₂₂er₃₃/keu₂₂tsi₂₃｜jin₁₁ner₃₃｜o₃₃er₃₃｜vu₂₂er₃₃｜chuk₂er₃₃｜thiat₂er₃₃｜tshet₂ler₃₃｜jok₂er₃₃\n青草湖64｜keu₁₂er₂₁｜keu₂₁:er₂₁｜yin₃₃ner₂₁｜o₁₁er₂₁｜vu₃₃er₂₁｜chuk₂er₂₁｜thiat₂er₂₁｜tshet₃er₂₁｜yok₃er₂₁\n竹中62｜keu₃₁er₃₃｜keu₁₃｜yin₁₁ner₃₃｜o₃₃er₃₃｜vu₁₁er₃₃｜chuk₃er₃₃｜thiat ler₃₃｜tshet₃ler₃₃｜jok₂er₃₃\n新埔｜keu₂₃er₂₂｜keu₂₁｜｜o₁₁ir₂₁｜vu₃₃er₂₁｜chuk₃er₃₃｜thiat₃er₃₃｜tshet₃e₁₁｜jok₃er₁₁\n大湖57｜keu₁₂e₁₁｜keu₂₁keu₂₁tsii₂₁｜yin₃₃e₁₁｜o₁₁e₁₁｜bvu₃₃e₁₁｜chuk₂e₁₁｜thiet₂｜tshet₂le₁₁｜yok₃e₁₁\n②366",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -143,6 +145,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -158,6 +161,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -173,6 +177,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -186,7 +191,7 @@
 "text": "住民志\n｜戰爭｜高低｜慣勢（習慣）｜我的｜一個｜犯法｜很（真、誠、足）涼\n新竹81｜tsieen₃₂tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₂₃e₁₂｜tsit₁e₁₂｜huan₁₁huat₂｜tsin₂₂liang₁₂/tsin₁₁liang₁₂/tsiok₃liang₁₂\n新竹76｜tsieen₃₁tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₂₃e₁₂/gua₃₁e₁₂｜tsit₁e₁₂｜huan₁₁huat₂｜tsiann₁₁liang₁₂\n新竹24｜tseen₃₂tsing₃₃｜kuan₁₂ : kee₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁le₁₂｜huan₁₁huat₂₁｜tsiann₁₁liang₁₂/tsiok₄liang₁₂\n港南69｜tsieen₃₂tsing₃₃｜kuan₁₂ke₂₂｜kuan₃₁si₁₁｜gua₂₃e₁₂｜tsit₁₁le₁₃｜huan₁₁huat₂｜tsin₂₂liang₁₂/tsiann₁₁liang₁₂\n港南30｜tsieen₃₁tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁le₁₂｜huan₁₁huat₂｜tsiok₃liang₁₂\n大庄80｜tsieen₃₂tsing₃₃｜kuan₁₁ke₂₂｜kuan₃₂si₁₁｜gua₂₃e₁₃｜tsit₁le₁₃｜huan₁₁huat₂₁｜tsin₂₂liang₁₂/tsiann₁₁liang₁₂\n大庄70｜tsieen₃₂tsing₃₃｜kuan₁₃ : ke₂₂｜kuan₃₁si₁₁｜gua₂₃e₁₃｜｜huan₁₁huat₂₂｜tsin₁₁liang₁₂\n大庄21｜tseen₃₂tsing₃₃｜kuan₁₃ : ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁le₂₂｜huan₁₁huat₂｜tsiok₃liang₁₂\n大庄19｜tseen₃₂tsing₃₃｜kuan₁₁ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁le₂₂｜huan₁₁huat₂₂｜tsiok₃liang₁₂\n蚵寮71｜tseen₃₂tsing₃₃｜kuan₁₁ke₂₂｜kuan₃₁si₁₁｜gua₃₃e₁₂｜｜huan₁₁huat₂｜tsin₂₂liang₁₂\n蚵寮55｜tseen₃₂tsing₃₂｜kuan₁₁ke₂₂｜kuan₃₁si₁₁｜gua₃₃e₁₂｜｜huan₁₁huat₂｜tsin₂₂liang₁₂\n蚵寮48｜tseen₃₂tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₃₃e₁₂｜tsit₁le₁₂｜huan₁huat₂｜tsin₂₂liang₁₂\n千甲71｜tsieen₃₂tsing₃₃｜kuan₁₁ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁e₁₂｜huan₁₁huat₂｜tsiann₁₁liang₁₂\n大湖57｜tsien₃₁tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁e₁₂｜huan₁₁huat｜tsin₂₂liang₁₂\n千甲71｜chan₁₁tsen₃₁｜ko₃₁ : ai₂₃｜(m₃₃)kuan₁₁｜ngai₂₃kai₁₁｜jit₂kai₁₁｜fam₂₂fap₃｜an₃₂liong₃₃\n青草湖64｜chian₃₁tsen₁₂｜ko₁₁ : tai₁₂｜kuan₃₃she₃₃｜ngai₁₁kai₁₁｜jit₂kai₃₃｜fam₃₃fap₂｜tshin₃₁liong₁₁\n竹中62｜chan₁₁tsen₃₁｜ko₃₁ : tai₃₁｜｜｜｜｜\n新埔｜｜｜｜｜｜｜\n大湖57｜tsan₃₃tsen₁₃｜ko₁₂ : tai₁₂｜kuan₃₃se₃₃｜ngai₁₁kai₃₃｜yit₂kai₃₃｜fam₃₃fap₂｜tshin₃₃liong₁₁\n②370",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -201,7 +206,7 @@
 "text": "語言篇\n｜鬼混（動詞）｜鬼混（副詞）｜結黨鬼混｜啞狗（啞巴）｜抵抗｜坐｜長短｜落雪\n新竹81｜uang₃₃｜i₂₂i₃₃uang₂₂uang₃₃｜kui₂₂uang₃₃kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tser₂₂｜tng₁₁ter₃₁｜lo₁₁serh₂\n新竹76｜uang₃₃｜inn₂₂inn₃₃uang₂₂uang₃₃｜kui₂₂uang₃₃kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tser₂₂｜tng₁₁ter₃₁｜lo₁₁serh₂\n新竹24｜uang₃₃｜inn₂₂inn₃₃uang₂₂uang₃₃｜×｜e₂₃kau₃₁｜te₂₃khong₁₁｜tse₂₂｜tng₁₁tee₃₁｜lo₁₁see₂₁\n港南69｜uang₃₃｜i₂₂i₃₃uang₂₂uang₃₃｜kui₂₂uang₃₃kui₂₂tong₃₃｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tser₂₂｜tng₁₂ : ter₃₁｜lo₁₁serh₂\n港南30｜×｜×｜kui₃kun₁₃sing₁₁tong₃₁｜e₂₃kau₃₁｜te₂₃khong₁₁｜tsie₂₂｜tng₁₁te₃₁｜lo₁₁sieh₂\n大庄80｜uang₃₃｜inn₂₂inn₂₂uang₂₂uang₃₃｜kui₂₂uang₂₂kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tsor₂₂｜tng₁₂ : tor₃₁｜loh₁₁sorh₂\n大庄70｜×｜×｜kui₂₂uang₂₂kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₁te₃₁｜lo₁₁seh₂\n大庄21｜×｜×｜keet₃tong₃₁｜e₂₃kau₃₁｜te₂₃khong₁₁｜tse₂₂｜tng₁₁te₃₁｜lor₁₁seh₂₁\n大庄19｜×｜×｜×｜e₂₃kau₃₁｜te₂₃khong₁₁｜tse₂₂｜tng₁₁tee₃₁｜lor₁₁se₂₁\n蚵寮71｜uang₃₃｜i₂₂i₃₃uang₂₂uang₃₃｜kui₂₂uang₃₃kui₂₂tong₃₃｜e₃₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₂ : te₃₁｜lor₁₁seh₂\n蚵寮55｜uang₃₃｜×｜kui₂₂uang₃₃kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₂ : te₃₁｜lo₁₁seh₂\n蚵寮48｜uang₃₃｜i₂₂li₁₁uang₂₂uang₃₃｜×｜e₃₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₂ : te₃₁｜lo₁₁seh₂₁\n千甲71｜×｜×｜kiat₃kun₁₂kiat₃tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₁te₃₁｜lo₁₁serh₂\n大湖57｜×｜×｜×｜e₃₃kau₃₁｜ti₃₃khong₁₁｜tse₂₂｜tng₁₂ : ter₃₁｜lo₁₁se₂₁\n千甲71｜×｜×｜kiat₂khiun₃₃kiat₂tong₂₃｜a₂₂keu₂₃｜ti₂₁khong₁₁｜tsho₃₁｜chhong₃₃ton₂₃｜lok₂siat₃\n青草湖64｜×｜×｜kiat₂khiun₁₁kiat₂tong₂₁｜a₂₁keu₂₁｜ti₂₁khong₃₃｜tsho₁₂｜chhong₁₁ton₂₁｜lok₃siat₂\n竹中62｜×｜×｜kiat₂khiun₃₃kiat₂tong₂₃｜a₂₂keu₂₃｜ti₂₂khong₁₁｜tsho₃₁｜chhong₃₃ton₂₃｜lok₂siat₃\n新埔｜｜｜｜｜｜｜｜\n大湖57｜×｜×｜kiat₂khiun₁₁kiat₂tong₂₁｜a₂₁keu₂₁｜tui₃₃khong₃₃｜tsho₁₂｜tshong₁₁ton₂₁｜lok₃siat₂\n②371",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -216,7 +221,7 @@
 "text": "住民志\n｜會不會｜買賣｜拿｜找｜工作｜回信\n新竹81｜ue₂₂a₂₃bue₂₂｜bue₂₃bue₂₂｜theh₃｜tsher₂₂｜tsue₃₂khang₂₂khir₁₁｜her₁₁phue₃₃\n新竹76｜e₂₂ia₂₂(~a~₃₃~)bue₂₂｜bue₂₃bue₂₂｜theh₃｜tsher₂₂｜tsue₃₁khang₂₂kher₁₁｜her₁₁phue₃₃\n新竹24｜e₂₂a₁₁bue₂₂｜bue₂₃bue₂₂｜thee₃₃｜tshe₂₂｜tsue₃₂khang₂₂khi₁₁｜hue₁₁phue₃₃\n港南69｜ue₂₂a₃₃bue₂₂｜bue₂₃bue₂₂｜theh₃｜tsher₂₂｜tsue₃₂khang₂₂khir₁₁｜her₁₁phue₃₃\n港南30｜e₂₂a₃₃bue₂₂｜bue₂₃bue₂₂｜theh₃｜tshie₂₂｜tsue₃₁khang₂₂khir₁₁｜hue₁₁phue₃₃\n大庄80｜ue₂₂ia₂₃bue₂₂｜bue₂₃bue₂₂｜theh₃｜tshor₂₂｜tsue₃₂khang₂₂khor₁₁｜hor₁₁phue₃₃\n大庄70｜ue₂₂a₁₁bue₂₂｜bue₂₃bue₂₂｜theh₂₃｜tshe₂₂｜tsue₃₂khang₂₂khi₁₁｜he₁₁phue₃₃\n大庄21｜e₂₂a₁₁bue₂₂｜bue₂₃bue₂₂｜theh₂₃｜tshe₂₂｜tsue₃₁khang₂₂khe₁₁｜hue₁₁phue₃₃\n大庄19｜ee₂₂bue₁₁｜bue₃₃bue₂₂｜thee₂₂｜tshue₂₂｜tso₃₁khang₂₂khe₁₁｜hue₁₁phue₃₃\n蚵寮71｜ue₂₂bue₂₂｜bue₂₃bue₂₂｜theh₃｜tshue₂₂｜tso₃₂khang₂₂khe₁₁ : tso₃₂hang₂₂khi₁₁｜he₁₁phue₃₃\n蚵寮55｜ue₂₂bue₂₂｜bue₂₃bue₂₂｜theh₂₃｜tshe₂₂｜tso₃₂khang₂₂khe₁₁ : tso₃₂lang₂₂khue₁₁｜he₁₁phue₃₃\n蚵寮48｜e₂₂a₂₃bue₂₂｜be₃₃bue₂₂｜theh₂₂｜tshue₂₂｜tsue₃₂khang₂₂khe₁₁｜hue₁₁phue₃₃\n千甲71｜e₂₂hiau₃₁a₁₁bue₁₁hiau₃₁｜bue₂₃bue₂₂｜theh₃｜tshe₂₂｜tsue₃₁khang₂₂kher₁₁｜hue₁₁phue₃₃\n大湖57｜e₂₂bue₂₂｜bue₃₃bue₂₂｜the₂₂｜tshe₂₂｜tso₃₂khang₂₂khue₁₁｜hue₁₁phue₃₃\n千甲71｜voi₂₂a₁₁m₃₃voi₂₂｜mai₃₁mai₂₂｜na₃₁｜tshim₃₃｜tso₁₁she₂₂｜fui₃₃sin₁₁\n青草湖64｜voi₃₃m₁₁voi₃₃｜mai₁₁mai₃₃｜na₁₂｜tshim₁₁｜tso₃₃she₃₃｜foi₁₁sin₃₃\n竹中62｜voi₂₂a₁₁m₃₃voi₂₂｜mai₃₁mai₂₂｜na₃₁｜tshim₃₃｜tso₁₁she₂₂｜fui₃₃sin₁₁\n新埔｜｜｜｜｜｜\n大湖57｜bvoi₃₃m₁₁bvoi₃₃｜mai₁₁mai₃₃｜na₁₂｜tshim₁₁｜tso₃₃se₃₃｜fui₁₁sin₃₃\n②372",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -233,6 +238,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -248,6 +254,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -261,7 +268,7 @@
 "text": "語言篇\n｜老鼠｜豬肉｜煮飯｜姓呂｜考慮｜廢物｜緊張\n新竹81｜niau₂₃tshuu₃₁｜tuu₂₂bah₂｜tsuu₂₃png₂₂｜luu₂₂｜khonn₂₃luu₂₂｜hue₃₂but₃｜kin₂₃tiunn₃₃\n新竹76｜niau₂₃tshir₃₁｜tir₂₂bah₂｜tsir₂₃png₂₂｜lir₂₂｜khonn₂₃lir₂₂｜hue₃₁but₃｜kin₂₃tiunn₃₃\n新竹24｜niau₂₃tshi₃₁｜ti₂₂ba₂₁｜tsu₃₃png₂₂｜×｜khor₃₃/₂₃luu₂₂｜hui₃₂but₃｜kin₂₃tiunn₃₃\n港南69｜niau₂₃tshir₃₁｜tir₂₂bah₂｜tsir₂₃png₂₂｜lir₂₂｜kho₂₃lir₂₂｜hue₃₁but₃₃｜kin₂₃tiunn₃₃\n港南30｜niau₂₃tshi₃₁｜ti₂₂bah₂｜tsu₂₃png₂₂｜sinn₃₁li₂₂｜khor₂₃lu₂₂｜×｜kin₂₃tiunn₃₃\n大庄80｜niau₂₃tshuu₃₁｜tuu₂₂bah₂｜tsuu₂₃png₂₂｜sinn₃₂li₂₂｜khonn₂₃luu₂₂｜hue₃₂but₃｜kin₂₃tiunn₃₃\n大庄70｜niau₂₃tshi₃₁｜tir₂₂bah₂｜tsi₂₃png₂₂｜sinn₃₂li₂₂｜khoo₂₃/khoonn₂₃li₂₂/luu₂₂｜hue₃₂but₂₃｜kin₂₃tiunn₃₃\n大庄21｜niau₂₃tshi₃₁｜ti₂₂bah₂₁｜tsu₂₃png₂₂｜×｜khor₂₃lu₂₂｜hui₃₂but₃｜kin₂₃tiunn₃₃\n大庄19｜niau₃₃tshi₃₁｜ti₂₂bah₂｜tsu₂₃perng₂₂｜sinn₃₂lu₂₂｜khor₂₃lu₂₂｜hui₃₂but₂₁｜kin₂₃tiunn₃₃\n蚵寮71｜niau₂₃tshi₃₁｜ti₂₂bah₂｜tsu₃₃png₂₂｜sinn₃₂lu₂₂｜khoo₃₃li₂₂｜hue₃₂but₃｜kin₃₃tiunn₃₃\n蚵寮55｜niau₂₃tshi₃₁｜ti₂₂bah₂｜tsi₂₃png₂₃｜sinn₃₂li₂₂｜kho₂₃lu₂₂｜hue₃₂but₃｜kin₂₃tiunn₃₃\n蚵寮48｜niau₃₃tshi₃₁｜ti₂₂bah₂｜tsu₃₃png₂₂｜sinn₃₂li₂₂｜khor₃₃li₂₂｜hue₃₂but₃₃｜kin₃₃tiunn₃₃\n千甲71｜niau₂₃tshir₃₁｜tir₂₂bah₂｜tsir₂₃png₂₂｜sinn₃₂li₂₂｜kho₂₃lir₂₂｜hue₃₂but₃｜kin₂₃tiunn₃₃\n大湖57｜niau₂₃tshi₃₁｜ti₂₂bah₂₁｜tsu₃₃png₂₂/tsi₃₃png₂₂｜seenn₃₂li₂₂｜kho₃₃le₂₂｜bo₂₂loo₁₁ing₂₂mi₁₁kiann₂₂｜kin₃₃tiunn₃₃\n千甲71｜lo₂₂chhu₂₃｜chu₃₁nyiuk₃｜chu₂₂phon₂₂｜siang₁₁li₂₂｜khau₂₂li₂₂｜fui₁₁vut₂｜khin₂₂chong₃₁\n青草湖64｜lo₂₂chhu₂₁｜chu₁₂nyiuk₂｜chu₂₁fan₃₃｜siang₃₃li₁₂｜kho₂₁li₃₁｜fui₃₃vut₃｜kin₂₁chong₁₂\n竹中62｜lo₂₂chhu₁₃｜chu₃₁nyiuk₃｜chu₂₂phon₂₂｜siang₁₁li₃₁｜khau₂₂li₂₂｜fui₁₁vut₂｜kin₂₂chong₃₁\n新埔｜｜｜｜｜｜｜\n大湖57｜lo₁₂tshu₂₁｜tsu₁₂nyuk₂｜tsu₂₁fan₂₃｜siang₃₃li₁₂｜kho₂₁li₃₃｜mo₁₁yiung₃₃kai₃₃tung₁₁si₁₂｜kin₂₁'song₁₂\n②375",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -276,7 +283,7 @@
 "text": "住民志\n｜斤｜銀行｜毋肯｜證據｜興旺｜出席｜在室女\n新竹81｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kuu₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃luu₃₁\n新竹76｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kir₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃lir₃₁\n新竹24｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜×｜hing₂₂ong₂₂｜×｜×\n港南69｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kir₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃lir₃₁\n港南30｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ku₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃lu₃₁\n大庄80｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kuu₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃luu₃₁\n大庄70｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ki₁₁｜hing₂₂ong₂₂｜tshut₃sit₂₃｜tsai₁₁sik₃li₃₁\n大庄21｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ku₁₁｜hing₂₂ong₂₂｜×｜×\n大庄19｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ku₁₁｜hing₂₂ong₂₂｜×｜×\n蚵寮71｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ki₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃li₃₁\n蚵寮55｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kinn₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃li₃₁\n蚵寮48｜kun₃₃｜gin₁₁hang₁₂｜×｜tsing₃₁ki₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tshu₁₁lu₃₁\n千甲71｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kir₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃lir₃₁\n大湖57｜kun₃₃｜gin₁₁/gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ku₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃li₃₁\n千甲71｜kin₃₃｜nyiun₃₃hong₃₃｜m₃₃hen₂₃｜chin₁₁ki₂₃｜hin₃₁vong₂₂｜chhut₂sit₂｜nyin₃₃ka₃₁ng₂₃\n青草湖64｜kin₁₂｜nyiun₁₁hong₁₁｜m₁₁hen₂₁｜chin₃₃ki₃₁｜hin₁₁vuong₃₃｜×｜nyin₁₁ka₁₂ng₂₁\n竹中62｜kin₃₃｜ngiun₃₃hong₁₂｜m₃₃hen₁₃｜chin₁₁ki₁₃｜hin₃₁vong₂₂｜chhut₂sit₂｜chhu₁₁ng₁₃ : tshai₂₂shiuk₃ng₁₃\n新埔｜｜｜｜｜｜｜\n大湖57｜kin₁₂｜nyiun₁₁hong₁₁｜m₁₁hen₂₁｜tsin₃₃ki₂₁｜hin₁₁vong₃₃｜tshut₂sit₃｜nyin₁₁ka₁₂ng₂₁\n②376",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -293,6 +300,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -308,6 +316,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -324,6 +333,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -339,6 +349,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -355,6 +366,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -371,6 +383,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -387,6 +400,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -402,6 +416,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -417,6 +432,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -430,7 +446,7 @@
 "text": "住民志\n｜再大後年｜去年｜前年｜大前年｜再大前年\n新竹81｜lo₃₂au₂₂·ni₁₁｜ku₁₁ni₁₂｜tsun₁₃·ni₁₁｜tua₁₁tsun₁₃·ni₁₁｜lo₃₂tsun₁₃·ni₁₁\n新竹76｜×｜ku₁₁ni₁₂｜tsun₁₂·ni₁₁｜tua₁₁tsun₁₂·ni₁₁(lo₃₁)｜×\n新竹24｜×｜ku₁₁ni₁₂｜×｜×｜×\n港南69｜｜｜｜｜\n港南30｜×｜ku₁₁ni₁₂｜tsun₁₃·ni₁₁｜tua₁₁tsun₁₃ni₁₁｜×\n大庄80｜×｜ku₁₁ni₁₂｜tsun₁₃·ni₁₁｜tua₁₁tsun₁₃·ni₁₁｜×\n大庄70｜×｜｜｜｜\n大庄21｜×｜ku₁₁ni₁₂｜×｜×｜\n大庄19｜lo₃₂au₂₂·ni₁₁｜ku₁₁ni₁₂/ting₂₃ni₁₂｜×｜×｜\n蚵寮71｜｜｜｜｜\n蚵寮55｜｜｜｜｜\n蚵寮48｜×｜ku₁₁ni₁₂｜tsu₃₃·ni₁₁｜ting₃₃ting₃₃·ni₁₂｜×\n千甲71｜×｜ku₁₁ni₁₂｜tsun₂₃·ni₁₂｜tua₁₁tsun₂₃ni₁₂｜×\n大湖57｜×｜ku₁₁ni₁₂｜tsu₃₃·ni₁₂｜tua₁₁tsu₃₃ni₁₂｜×\n千甲71｜×｜khiu₂₂nyian₃₃｜tshian₃₃nyian₃₃｜thai₂₂tshian₃₃nyian₃₃｜×\n青草湖64｜iu₃₁tshai₂₂heu₂₃nyian₁₁｜khiu₃₁nyian₁₁｜tshian₁₁nyian₁₁｜thai₃₁tshian₁₁nyian₁₁｜iu₃₁tsa₃₃ko₂₂thai₃₁tshian₁₁nyian₁₁\n竹中62｜thai₂₂thai₂₂heu₂₂nyian₃₃｜khiu₂₂nyian₃₃｜tshian₃₃nyian₃₃｜thai₂₂tshian₃₃nyian₃₃｜thai₂₂thai₂₂tshian₃₃nyian₃₃\n新埔｜｜｜｜｜\n大湖57｜｜khiu₃₃nyien₁₁｜tshien₁₁nyien₁₁｜thai₃₃tshien₁₁nyien₁₁｜×\n②386",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -445,7 +461,7 @@
 "text": "語言篇\n｜今天｜明天｜後天｜大後天｜再大後天｜昨天\n新竹81｜kiann₂₂ann₃₃lit₃｜bin₁₁na₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit₁｜lo₃₂au₂₂·lit₁｜tsa₂₂ng₃₃\n新竹76｜kin₂₂na₃₃lit₃｜mi₂₂ann₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit₁｜lo₃₁au₂₂·lit₁｜tsa₂₂ng₃₃\n新竹24｜kin₂₂na₃₃lit₃｜mi₂₂ann₃₃tsai₁₁｜au₂₂lit₂₁｜tua₁₁au₂₂·lit₂₁｜×｜tsang₂₂hng₃₃\n港南69｜｜｜｜｜｜\n港南30｜kiann₂₂a₃₃lit₃｜mi₂₂a₃₃tsai₁₁｜au₂₂·lit₂｜tua₁₁au₂₂·lit₁｜×｜tsa₂₂ng₃₃\n大庄80｜kin₂₂na₃₃jit₃｜bin₁₁na₃₃tsai₁₁｜au₂₂·jit₁｜tua₁₁au₂₂·jit₁｜lo₃₂au₂₂·jit₁｜tsang₂₂hng₃₃\n大庄70｜｜｜｜｜｜\n大庄21｜kin₂₂na₃₃lit₃｜mi₂₂na₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit₁｜tua₁₁tua₁₁au₂₂·lit₁｜tsang₂₂hng₃₃\n大庄19｜kin₂₂na₃₃lit₃｜mi₂₂na₃₃tsai₁₁｜au₂₂·jit₃｜tua₁₁au₂₂·lit₁｜×｜tsang₂₂hng₃₃\n蚵寮71｜｜｜｜｜｜\n蚵寮55｜｜｜｜｜｜\n蚵寮48｜kin₂₂na₃₃lit₃｜bin₂₂na₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit₁｜lo₃₃au₂₂·lit₁｜tsa₂₂hng₃₃\n千甲71｜kin₂₂na₃₃jit₃｜｜au₁₁jit₃｜tua₁₁au₁₁jit₃｜×｜tsa₂₂ng₃₃\n大湖57｜kin₂₂na₃₃lit₂₂｜mi₂₂na₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit｜×｜tsa₂hng₃₃\n千甲71｜kim₃₁pu₃₁nyit₃｜thian₃₁kong₃₁nyit₃｜heu₂₂nyit₃｜thai₂₂heu₂₂nyit₃｜×｜tshap₂pu₂₂nyit₃\n青草湖64｜kim₁₁pu₁₂nyit₂｜thian₁₁kong₁₂nyit₂｜heu₁₂nyit₂｜thai₃₁heu₁₂nyit₂｜iu₃₁tsa₃₃ko₂₂thai₃₁heu₂₃nyit₂｜tsho₁₁pu₁₂nyit₂\n竹中62｜kim₃₁pu₃₁nyit₃｜shau₃₃tso₁₃｜heu₂₂nyit₃｜thai₂₂heu₂₂nyit₃｜thai₂₂thai₂₂heu₂₂nyit₃｜tsho₃₁pu₃₁nyit₃\n新埔｜kim₁₁pu₂₃nyit₂｜thian₁₁kong₂₃nyit₂｜heu₂₃nyit₂｜thai₃₁heu₂₃nyit₂｜×｜chha₁₁pu₂₃nyit₂\n大湖57｜｜thien₁₁kong₁₂nyit₂｜heu₁₂nyit₂｜thai₃₃heu₁₂nyit₂｜×｜tshop₁pu₁₂nyit₂\n②387",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -460,7 +476,7 @@
 "text": "住民志\n｜前天｜大前天｜再大前天｜這些｜那些｜這裡｜那裡\n新竹81｜tso₃₃·lit｜tua₁₁tso₃₃·lit₁₁｜lo₃₂tso₃₃·lit₁₁｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₁₂｜hia₁₂\n新竹76｜tso₃₃·lit₁｜tua₁₁tso₃₃·lit₁｜lo₃₁tso₃₃·lit₁｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₁₂｜hia₁₂\n新竹24｜tso₂₂·lit₂₁/₁₁｜tua₁₁tso₂₃·lit₁｜×｜tsit₄kua₃₁｜hit₃kua₃₁｜tsia₃₃｜hia₃₃\n港南69｜｜｜｜｜｜｜\n港南30｜tsor₃₃·lit₂｜tua₁₁tsor₃₃·lit₂｜｜tsia₁₃=e₃₃｜hia₁₃=e₃₃｜tsia₁₂｜hia₁₂\n大庄80｜tso₂₃·jit₁｜tua₁₁tso₂₃·jit₁｜lo₃₂tso₂₃·jit₁｜｜｜tsia₃₃｜hia₃₃\n大庄70｜｜｜｜tsia₃₁｜hia₃₁｜tsia₁₃｜hia₁₃\n大庄21｜tso₂₃lit₁｜×｜×｜tsua₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₃₃｜hia₃₃\n大庄19｜×｜×｜×｜tsua₃₃｜hua₃₃｜tsia₃₃｜hia₃₃\n蚵寮71｜｜｜｜tsia₁₃=e₃₃｜｜tsia₁₂｜\n蚵寮55｜｜｜｜｜｜｜\n蚵寮48｜tsor₃₃·lit₁｜×｜×｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₁₂｜hia₁₂\n千甲71｜tso₃₁·jit₁₁｜×｜×｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₁₂｜hia₁₂\n大湖57｜tso₂₂·lit₁｜tua₁₁tso₂₂·lit₁｜×｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₃₃｜hia₃₃\n千甲71｜tshian₃₃nyit₃｜thai₂₂tshian₃₃nyit₃｜×｜lia₃₃kai₁₁｜kai₃₃kai₁₁｜li₂₃en₃₁｜kai₃₃phian₂₃\n青草湖64｜tshian₃₃nyit₂｜thai₃₁tshian₁₁nyit₂｜iu₃₁tsa₃₃ko₂₂thai₃₁tshian₁₁nyit₂｜lia₂₁teu₁₂｜kai₃₃teu₁₂｜lia₂₁vui₃₃｜kai₃₃vui₃₃\n竹中62｜tshian₃₃nyit₃｜thai₂₂tshian₃₃nyit₃｜thai₂₂thai₂₂tshian₃₃nyit₃｜lia₃₃teu₃₁｜kai₃₃teu₃₁｜lia₃₃vui₂₂｜kai₃₃vui₂₂\n新埔｜tshian₁₁nyit₂｜｜｜tu₃₃lia₂₁kai₂₂｜tu₃₃kai₃₃e₃₃｜lia₂₁｜hia₃₃\n大湖57｜tshien₁₁nyiet₂｜thai₃₃tshien₁₁nyit₂｜×｜lia₂₁teu₁₂｜kai₃₃teu₁₂｜lia₁₁vui₃₃｜kai₃₃vui₃₃\n②388",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -475,7 +491,7 @@
 "text": "語言篇\n｜我｜汝｜他｜我們｜咱們｜你們｜他們｜懶惰｜遊戲\n新竹81｜gua₃₁｜luu₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜thit₃tho₁₂\n新竹76｜gua₃₁｜lir₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜tshit₃tho₁₂\n新竹24｜gua₃₁｜li₃₁｜i₂₂｜gun₃₁｜lan₃₁｜lin₃₁｜in₂₂｜pin₁₁tuann₂₂｜\n港南69｜｜｜｜｜｜｜｜｜\n港南30｜gua₃₁｜li₃₁｜i₂₂｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜tshit₃/thit₃tho₁₂\n大庄80｜gua₃₁｜luu₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₂₂｜pan₁₁tuann₂₂(pin₁₁~)｜thit₃tho₁₂\n大庄70｜gua₃₁｜li₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pan₁₁tuann₂₂｜thit₃tho₁₃\n大庄21｜gua₃₁｜li₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜thit₃/tho₁₂sng₃₁\n大庄19｜ua₃₁｜li₃₁｜i₃₃｜un₃₁｜lan₃₁｜lin₃₁｜in₂₂｜pin₁₁tuann₂₂｜thit₃tho₁₂\n蚵寮71｜｜｜｜｜｜｜｜｜\n蚵寮55｜｜｜｜｜｜｜｜｜\n蚵寮48｜gua₃₁｜li₃₁｜i₂₂｜gun₃₁｜lan₃₁｜｜in₃₃｜pan₁₁tuann₂₂｜tshit₃tho₁₂\n千甲71｜gua₃₁｜lir₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pun₁₁tuann₂₂｜tshit₃tho₁₂\n大湖57｜gua₃₁｜li₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜tshit₃tho₁₂\n千甲71｜ngai₃₃｜nyi₃₃｜ki₃₃｜ngai₃₃teu₃₁｜ngai₃₃li₃₃/en₃₁li₃₃｜nyi₃₃teu₃₁｜ki₃₃teu₃₁｜lan₃₁shi₃₁｜liau₁₁\n青草湖64｜ngai₁₁｜nyi₁₁｜ki₁₁｜ngai₁₁teu₁₂｜ngai₁₁li₁₁｜nyi₁₁teu₁₂｜ki₁₁teu₁₂｜lan₁₁shi₁₂｜liau₃₃\n竹中62｜ngai₃₃｜nyi₃₃｜ki₃₃｜ngai₃₃li₃₃a₃₃teu₃₁｜ngai₃₃li₃₃a₃₃teu₃₁｜nyi₃₃a₃₃teu₃₁｜ki₃₃a₃₃teu₃₁｜lan₃₁shi₃₁｜liau₁₁\n新埔｜ngai₁₁｜nyi₁₁｜ki₁₁｜ngai₁₁li₂₁｜ngai₁₁li₁₁｜｜｜lan₁₁shi₁₂｜liau₃₁\n大湖57｜ngai₁₁｜nyi₁₁｜ki₁₁｜ngai₁₁teu₁₂｜en₂₃li₁₁｜nyi₁₁teu₁₂｜ki₁₁teu₁₂｜lan₁₁si₁₂｜liau₃₃\n②389",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -492,6 +508,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"

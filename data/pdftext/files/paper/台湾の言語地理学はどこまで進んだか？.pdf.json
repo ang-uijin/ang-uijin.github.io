@@ -129,7 +129,7 @@
 "text": "【図9】鄭錦全「新竹県新豊郷の閩南語客家語分佈図」\n〔圖〕中央研究院　計算中心　GIScience",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -155,6 +155,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -165,6 +166,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "羅馬字多"
 ]

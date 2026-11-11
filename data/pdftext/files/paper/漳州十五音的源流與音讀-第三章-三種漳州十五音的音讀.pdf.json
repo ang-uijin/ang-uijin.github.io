@@ -51,6 +51,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -71,7 +72,7 @@
 "text": "27　三種漳州十五音的音讀\n是普遍的擬音，但對「伽」就很困擾，不得不借用潮州的 -oi 來擬音。\n現在我們先將《雅俗通十五音》嘉稽伽三韻的字分類舉例如下：\n韻目｜例　字｜中古韻\n嘉 ɛ*｜1. 嘉家加沙把賈馬架帕詐爬茶牙下｜假開二文白\n2. 佳差債儕寨｜蟹開二文白\n3. 柏百格客隔軛厄冊白帛｜梗開二白\n4. 汐逆｜梗開三白\n5. 裼績｜梗開四白\n稽 ei*｜1. 稽雞禮底批計帝妻(易)弟濟(多)系世｜蟹開四文白\n2. 胎袋｜蟹開一白\n3. 矮買賣改解街｜蟹開二白\n4. 推退｜蟹合一白\n5. 所初｜遇開三文白\n6. 螺坐(短)｜果合一白\n7. 地｜止開三文白\n伽 e*｜1. 胎矮袋代賣｜蟹開一、二白\n2. 推退｜蟹合一白\n3. 螺坐桗(塊處)(短)｜果合一白\n4. 脃｜止合三白\n5. 八｜山開二\n6. 歇｜山開三\n7. 節鍥｜山開四\n8. 拔奪｜山合一\n9. 雪絕｜山合三\n10.莢狹峽｜咸開二\n11.笠｜侵開三",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "表格"
 ]
@@ -81,7 +82,7 @@
 "text": "28\n由以上的歸韻，比較現代漳州音和泉州音、廈門音、潮州音，將會發現《雅俗通十五音》的作者並未真實反應某一特定方言的音系，而是綜合不同的方言，納入二韻之中，於是混亂了「稽」「伽」的區別。\n《彙音妙悟》上面這些字分別歸入嘉、西、雞、杯、科、高六韻。茲將六韻中的字列舉如下：\n嘉 a*｜1. 嘉家加沙把賈架詐帕茶牙下｜假開二文\n2. 佳｜蟹開二文\n西 e*｜1. 家加把馬架帕爬茶牙下｜假開二文\n2. 債儕寨｜蟹開二文\n3. 格隔客冊白帛｜梗開二白\n4. 稽雞禮計帝妻弟系濟世｜蟹開四文\n5. 地｜止開三文\n雞 əe*｜1. 雞(易)溪底替齊題蟹｜蟹開四白\n2. 矮改解街｜蟹開二白\n3. 地｜止開三白\n4. 節鍥(鋏)｜山開四白\n5. 夾莢狹｜咸開二白\n6. 笠｜侵開三白\n7. 初｜遇開三白\n杯 ue*｜1. 批｜蟹開四白\n2. 買賣｜蟹開二白\n3. 八｜山開二白\n4. 拔｜山合一白\n科 ə*｜1. 袋｜蟹開一白\n2. 推退｜蟹合一白\n3. 螺坐桗(塊處)(短)｜果合一白\n4. (脃)｜上合三白\n5. 奪｜山合一白",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -146,7 +147,7 @@
 "text": "· 34 ·\n「鉤」韻字) 二類，只有漳浦、雲霄、漳平有分，其餘都不分。\nc. 音韻對稱問題\n麥都思的記音從音韻論來看顯得有些不對稱，如：\n1.兼 këem [-iɛm]｜堅 këen [-iɛn]｜姜 këang [-iang]\n2.金 kim [-ɪm/iɪm]｜巾 kin [-ɪn/iɪn]｜經 keng [-ɛng/iɛng]\n現代語言學家為《十五音》擬音時，為了音韻對稱整齊，一律這樣擬音：\n1.兼 -iam｜堅 -ian｜姜 -iang\n2.金 -in｜巾 -in｜經 -ing\n但這樣擬法，雖然得到音韻的對稱，未必反映音韻的事實。先看第二組的漳州方音。下述資料仍引自周長楫 (1986)：\n根｜燈｜亭｜德｜粟\n漳州市｜kin｜ting｜ting｜tik｜tshik\n長泰｜kin｜ting｜ting｜tik｜tshik\n龍海｜kin｜ting｜ting｜tit｜tshit\n華安｜kin｜ting｜ting｜tik｜tshik\n南清｜kin｜ting｜ting｜tik｜tshik\n平和｜kin｜tɛng｜tɛng｜tek｜tshek\n漳浦｜kin｜tɛng｜tɛng｜tik｜siɔk\n雲霄｜kin｜tian｜tian｜tiat｜tshiɔk\n東山｜kin｜tɛng｜tɛng｜tek｜tshiɔk\n詔安｜kin｜tieng｜tieng｜tiek｜tshik\n漳平｜kin｜tin｜tin｜tit｜tshiɔk",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -167,7 +168,7 @@
 "text": "· 36 ·\n平｜上｜去｜入\n膠｜a｜a｜a｜aʔ\n甘｜am｜am｜am｜ap\n干｜an｜an｜an｜at\n江｜ang｜ang｜ang｜ak\n3.6 《彙集雅俗通十五音》的音系\n以下以舉平以賅上去入的方式，依麥都思的記音將《雅俗通十五音》的音系整理如下：\na 部｜a 膠｜am 甘｜an 干｜ang 江｜aN 監\n｜ia 迦｜iam 兼｜ian 堅｜iang 姜｜iaN 驚\n｜ua 瓜｜｜uan 觀｜uang 光｜uaN 官\n｜ai 皆｜｜｜｜aiN 閒\n｜uai 乖｜｜｜｜uaiN 閂\n｜au 交｜｜｜｜auN ▢\n｜iau 嬌｜｜｜｜iauN 嘄\nɛ 部｜ɛ 嘉｜｜｜｜ɛN 更\ne 部｜e 伽\n｜ei 稽\n｜uei 檜｜｜｜｜ueiN 糜\ni 部｜i 居｜im 金｜in 巾｜ing 經｜iN 梔\n｜ui 規｜｜｜｜uiN 褌\no 部｜o 高｜om 箴｜｜ong 公｜oN 扛\n｜io 茄｜｜｜iong 恭｜ioN 薑\n｜ou 沽｜｜｜｜ouN 姑\nu 部｜u 艍｜｜un 君\n｜iu 丩｜｜｜｜iuN 牛\nɵ 部｜｜m 姆｜｜ng 鋼",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

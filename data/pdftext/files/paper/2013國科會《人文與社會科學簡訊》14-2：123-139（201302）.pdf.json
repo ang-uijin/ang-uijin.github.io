@@ -89,6 +89,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -99,6 +100,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -109,6 +111,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -139,6 +142,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -147,7 +151,7 @@
 "text": "臺灣的語種分佈與區劃\n【附圖 2】臺灣語種分佈區劃圖\n〔圖〕北閩州　客語州　澎湖州　中閩州　南島語州　花東州　南閩州　綠島　(南島語州)　蘭嶼　語言　泉州腔閩南語　漳州腔閩南語　混合腔閩南語　詔安客語　饒平客語　海陸客語　四縣客語　大埔客語　華語　阿美語　布農語　達悟語　卑南語　排灣語　魯凱語　賽夏語　賽德克語　鄒語　泰雅語　客里▢日語\n2013年3月・14卷2期　139",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]

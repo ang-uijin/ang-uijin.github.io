@@ -86,7 +86,7 @@
 "text": "kap⁴i⁰ kong²ue⁷ 敆³伊⁰講²話¹\n數字tsap⁸(十)在第二字時重音移前:\nzi⁷tsap⁸ si³lang⁵ 廿³十⁰四²儂¹\nsaN¹tsap⁸gɔ⁷tɔ¹ 三³十⁰五²都¹\n若第二字爲不重要的字(見B)時亦同:\nkau³beh⁴sit⁴sin⁵ 到³卜⁴失²神¹\n如第一字特別重要時,次重音落在首字:\nnng⁷ki¹puaN³ui⁵ 兩²枝⁰半³桅¹\nD.五字組以上依較少字組相似的規律組合。\n杜嘉德的重音研究也應用到音節內複元音的重音分佈。現代語音學家一般認爲元音的響度依口部開合,舌位前後有別。開口度大的低元音響度大於高元音,後元音響度大於前元音。響度最大的是主要元音。這點杜嘉德早就注意到了。只是,他是以重音(accent)來表示響度。因此他把聲調符號統一加在主要元音上,後來的西方敎士往往不能掌握到這一點,因而有混亂的情形發生。\n由這些細節可知杜嘉德的語音學(phonetics)是相當不錯的,但他的聲韻學(phonology)則相當差。譬如ts-母、tsh-母,麥都思(1831)字典一律以ch、ch'h表示,羅啻以ch、ch'表示,杜嘉德認爲齒音在前、元音有腭化現象,因此在前元音i.e之前用ch,後及低元音用ts,但tsh-則只用chh,s-也只用s-。他沒有互補的音位觀念,所用符號非常偏重音値。但其影響很深遠,以後的字典都跟他走,直到1930年代以後才有人逐漸放棄ts,而將ts-不論前後元音之前都用ch-表示。\n還有合口介音,麥都思都用-w-表示,但杜嘉德堅持像oa的音很清楚的聽到o音而不是w,所以合口音只在高元音-i前作ui,其餘皆作oa、oe。他的審音能力雖然很強,但完全沒有聲韻學(phonology)的觀念。Schlegel曾在他的《荷華文語類參》序(1882)中提到他曾和杜嘉德協調ch/ts不必分別之類的聲韻學問題,但不爲杜嘉德所接受。杜嘉德以後,長老敎會的勢力成長非常迅速,著作也最勤,長老會內部又很團結,因此拼音法相當接近,只有在細節上有小的出入。長老會以外的拼音法即使較合理也沒有影響力。\n註解\n①本節主要參考賴永祥《敎會史話》第一輯。\n②參見拙作《麥都思小傳》、〈麥都思《福建方言字典》的價値〉。\n③參見本文參考書目衛三畏條。\n④杜嘉德字典Preface P.9。\n⑤J.M. Douglas: Memorials of Rev. C. Douglas, London, 1877. P.10.。引自村上嘉英〈プロテスタント宣敎師の閩南語硏究〉。\n⑥前書P.7。\n⑦杜嘉德字典序P.1。\n⑧杜嘉德字典附錄P.609-610。\n⑨杜典附錄II,P.608。\n⑩依周長楫〈福建境內閩南方言的分類〉(語言硏究1986.2:79)附表2所載漳州、龍海,及董同龢《四個閩南方言》(1960,史語所集刊第30本,P.853)所載龍溪方言聲調本調調値如下:\n｜陰平｜陽平｜上聲｜陰去｜陽去｜陰入｜陽入\n漳州｜44｜13｜53｜21｜22｜32｜12\n龍海｜24｜12｜42｜21｜22｜32｜5\n龍溪｜24｜213｜53｜21｜22｜31｜13\n⑪杜典序P.13及附錄II,P.618。\n⑫羅常培(1931) P.19-22。\n參考書目\nMedhurst, W.H.(麥都思)\n\"A Dictionary of the Hok-Këen Dialect of\n8",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "多欄",
 "羅馬字多",
@@ -98,7 +98,7 @@
 "text": "the Chinese Language\" 1837. Maccao: Honorable East India Company.\nWilliams, S.W(衛三畏)\n\"Alphabetic Language for the Chinese\" Aug. 1835, Chinese Repository (C.R.) 4: 167-176.\n\"Orthography of Chinese Words\" May 1836, C.R. 5:22-30.\n\"Orthography of Chinese Language\" March 1837, C.R. 5:481-485.\n\"System of Orthography for the Chinese Language\" Feb. 1838, C.R. 6: 479-486.\n\"System of Chinese Orthography\" Jan. 1839, C.R. 7:490-497.\n\"New System of Orthography\" Jan 1842, C.R. 11:28-44.\nTalmage, John Van Nest(打馬字)\n\"Tn̂g-hoan-jī Chho͘-ha̍k\"(唐番字初學 Amoy Spelling Book) 1852, Amoy.\n\"ē-mn̂g-im ê jī-tián\"(廈門音个字典)1894,廈門:大美國歸正敎會印。\nDoty, Elihu(羅啻)\n\"Iok-hān thoân hok-im su\"(約翰傳福音書)1852.\n\"Anglo-Chinese Manual with Romanized Colloquial in the Amoy Dialect\"(翻譯英華廈腔語彙)1853,廣州:鷺門梓行。\nDouglas, Carstairs(杜嘉德)\n\"Chinese-English Dictionary of the Vernacular or Spoken Language of Amoy\"(廈英大辭典)1873, London: Missionary of the Presbyterian Church in England.\n9",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "多欄",
 "羅馬字多"

@@ -9,6 +9,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ],
 "copied_from": {
@@ -150,7 +151,7 @@
 "text": "住民志\n青草湖「個」(的)詞尾多半唸kai₃₃有時唸e₃₃，但k-聲母往往弱化，略見濁化。接鼻音韻尾時「個」的鼻音往往延續爲「個」的聲母，如：\n熟個shuk₃ kai₃₃\n薄個phok₃ kai₃₃\n眞個chin₁₂ kai₃₃\n生個sang₁₂ ngai₃₃\n銅個thung₁₁ ngai₃₃\n鐵個thiat₃ ai₃₃\n單個tan₁₁ ne₃₃\n雙個sung₁₁ nge₃₃\nf.三疊音詞\n青草湖64也有三疊音詞，但很少用。其夫劉錦堂也有三疊詞，也很少用。兩夫婦的三疊音詞變調規律和千甲71不太一樣。千甲71的三疊音詞第一字都唸23調，青草湖64夫婦的三疊音詞變調規律，只有陰平、陽平變23調，其餘都讀原調，如：\n一、開開開khoi₂₃ khoi₁₁ khoi₁₂\n厚厚厚phun₂₃ phun₁₁ phun₁₂\n圓圓圓ian₂₃ ian₁₁ ian₁₁\n二、扁扁扁pian₃₁ pian₃₁ pian₃₁\n幼幼幼yiu₃₁ yiu₃₁ yiu₃₁\n大大大thai₃₃ thai₃₃ thai₃₃\n白白白phak₃₃ phak₃ phak₃\n直直直chhit₃₃ chhit₃ chhit₃\n闊闊闊fat₂ fat₂ fat₂\n搭搭搭tap₂ tap₂ tap₂\n4.4.方言標本之二十三\n編號：大湖57\n發音人：張義全　生年：1934年\n成長地：苗栗縣大湖鄉。十三歲遷居新竹市\n祖籍：廣東四縣\n②306",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

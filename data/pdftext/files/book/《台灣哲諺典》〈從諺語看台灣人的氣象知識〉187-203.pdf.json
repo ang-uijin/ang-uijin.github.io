@@ -149,7 +149,7 @@
 "text": "台灣哲諺典\n農曆｜｜西曆\n春tshun¹\n正月｜立春lip⁸tshun¹｜2月5日\n｜雨水u²sui²｜2月19日\n二月｜驚蟄kenn¹tit⁸｜3月5日\n｜春分tshun¹hun¹｜3月20日\n三月｜淸明tshieng¹bieng⁵｜4月5日\n｜穀雨kok⁴u²｜4月20日\n夏he⁷\n四月｜立夏lip⁸ he⁷｜5月5日\n｜小滿sio² mua²｜5月20日\n五月｜芒種bong⁵ tsieng²｜6月6日\n｜夏至he⁷ tsi³｜6月21日\n六月｜小暑siau² su²｜7月7日\n｜大暑tai⁷su²｜7月23日\n秋tshiu¹\n七月｜立秋lip⁸ tshiu¹｜8月7日\n｜處暑tshu² su²｜8月23日\n八月｜白露peh⁸ loo⁷｜9月8日\n｜秋分tshiu¹ hun¹｜9月23日\n九月｜寒露han⁵ loo⁷｜10月8日\n｜霜降sng¹ kang³｜10月23日\n196",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -193,7 +193,7 @@
 "text": "天候篇\n在端午節之前，北風會突然反擊，令人措手不及，故俗云：\ntsiann¹ gueh⁰ · kuann⁵ si² ku¹\n正·月寒死龜，\nji⁷ gueh⁰ · kuann⁵ si² gu⁵\n二·月寒死牛，\nsann¹ gueh⁰ · kuann⁵ si² poo³tshan⁵hu¹\n三·月寒死播田夫，\nsi³ gueh⁰ · kuann⁵ si² keh⁸lan⁷ku¹\n四·月寒死逆卵龜(5.30)\ntsiann¹ geh⁰ · kuann⁵ si² tu¹\n正·月寒死豬，\nji⁷ geh⁰ · kuann⁵ si² gu⁵\n二·月寒死牛，\nsann¹ gueh⁰ · kuann⁵ si² poo³tshan⁵hu¹\n三·月寒死播田夫，\nsi³ geh⁰ · kuann⁵ si² kuai¹sim¹pu⁷\n四·月寒死乖新婦(5.30)\nsann¹gueh⁸tshe¹ · kuann⁵ si² siau³lian⁵ke¹\n三月初寒死少年家(5.31)\ntshinn¹mia⁵ · kok⁴ u² · kuann⁵ si² hoo²bu²\n淸明穀雨寒死虎母(5.32)\n(二)夏天\n夏天有三種雨，即梅雨、西北雨、颱風雨。\n梅雨開始於立夏，天天下雨，東西發霉，鶴佬語謂之【夏梅he⁷bue⁵】(或作「夏霉」)。諺語描寫初夏的「夏梅」說：\n199",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ],

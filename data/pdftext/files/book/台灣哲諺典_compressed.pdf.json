@@ -7,7 +7,7 @@
 "text": "台語文摘\n台灣哲諺典\n台語文摘\n台灣哲諺典\n洪惟仁 著\n第6卷第1期總29\n早、午餐當飯，晚餐當菜。\n義美 茶碗蒸新鮮上市！\n歡迎美妙的現代女性、勇於創新的新新人類、\n還有正在長大的小朋友們嚐嚐看。\n義美將傳統日本料理現代化了！隨時想吃，熱一下就好。\n【原料天然化】不用防腐劑、人工色素及人工香料，有蝦、魚板、香菇、雞肉、玉米，純正天然、新鮮香濃，沒有負擔。\n【價格大衆化】真材實料，豐富好吃，品質高價值，價格實惠，分享大衆。\n【食用便利化】隔水加熱、蒸炊、微波加熱(請將封膜全部撕掉)都便利，好吃有效率。\n〔圖〕茶碗蒸 傳統原味 不含防… 不添加人… 日式ちゃわんむし天然好吃！ 茶碗蒸 六十年名牌，世界性的義美 義美食品公司",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "直排"
@@ -18,7 +18,7 @@
 "text": "台語文摘\n台灣哲諺典\n一九九四年敎育部\n母語研究甲等獎作品\n編著：洪惟仁",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -28,7 +28,7 @@
 "text": "台語文摘　台灣哲諺典\nTLPA　3\n台灣哲諺典\n祖先智慧的寶石　8\n例言　16\n天理篇\n從諺語看台灣人的宇宙觀　21\n天理篇　29\n又說錄　48\n鬼神篇\n從諺語看台灣人的宗敎觀　53\n鬼神篇　70\n又說錄　103",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "表格"
 ]
@@ -60,7 +60,7 @@
 "text": "台灣哲諺典\n〔圖〕",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "直排"
@@ -129,7 +129,7 @@
 "text": "台灣哲諺典\n疏，不負責任，實在令人失望啊！\n15",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -624,7 +624,7 @@
 "text": "鬼神篇\n然而就在這種現實宗敎信仰的背後，我們卻由諺語的整理中，發現了台灣人對民間信仰的反省是如此淸明、冷靜，每一句批判的諺語都是一針見血，令人對墮落的台灣民間信仰產生一絲希望。\n67",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -662,7 +662,7 @@
 "text": "鬼神篇\n神力。古諺所謂【盡人事、聽(去聲)天命】、西諺所謂「自助、天助」就是這樣的意思。此諺亦用於當祈禱不靈時之安慰語○又：【亦著神、亦著人】\nsann¹inn⁵put⁸ a² · tsai¹tshit⁴inn⁵tshiu¹\n8三圓佛仔 栽七圓鬚\n譯：三文神像栽七文鬍子\n【圓】貨幣單位，千分之一【箍khoo¹】(元)。【佛仔put⁸a²】神像○三圓的神像栽七圓的鬍子，太不相稱。譏笑裝飾品的價格，超過被裝飾的東西○類：【豬屎籃仔 結綵】(18.0)【草厝仔 安玻璃窗】(17.0)\nkin⁷bio⁷ · khi¹sin⁵\n9近廟 欺神\n譯：外來和尚會唸經\n台灣人過去遊覽觀光的主要目的是到遠方的廟去進香，謂之【割香kuah⁴hiunn¹】，但對家鄕的廟神卻不信仰、敬重。廟只是鄕人聊天、娛樂的場所。就好比許多人喜歡出國觀光，但對台灣的風土人情不聞不問；對鄕土文化不去珍惜，卻崇拜西洋文化；對國內學者不知敬重，卻迢迢千里去招聘外國專家，頗有「外來的和尚會唸經」之慨○類：【本地香 袂芳】(6.0)\n71",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -754,7 +754,7 @@
 "text": "台灣哲諺典\n譯:有應公神位,後來居前\n【落尾】(「落」讀如「露」)落後,在後之義。【峙tshai⁷】(音菜陽去聲)動詞當「放置」解○有應公廟的神主,不像人家的靈位,按倫序排列,而是後來者居前,把先來者排擠在後。此諺用於咒罵不按次序排隊、輪流的特權者或不守規矩的人。\niu²ieng³kong¹ a² hiunn¹loo⁵\n27有應公仔香爐\n譯:問者多,銷路少\n有應公廟使用的香爐和神廟不同。有應公廟很小,香爐也很小,市場上很難找到。有個故事,說某村新蓋有應公廟,想購置一個有應公香爐,於是發動全村人去問,問的都是鎭上的同一家神器店,這家神器店於是大量進貨,結果只賣了一個香爐。此諺誡生意人當注意市場調查,不可爲表面的現象所迷惑,問的人雖多,銷路不一定就好。\ntshenn¹kong⁵kui² · tshia¹ to² tshai³kenn¹png⁷\n28靑狂鬼撦倒菜羹飯\n譯:莽撞鬼打倒菜羹飯\n「靑狂」莽撞也。【撦tshia¹】推也。推進曰【捒\n80",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -804,7 +804,7 @@
 "text": "鬼神篇\n萬劫不復之義也。意同俗語所謂【永遠 袂超生(thiau¹sieng¹)】。例如有人公司倒閉,負債數十億,人又坐牢,可以說是【水鬼 夯重枷】了。\ntsui²kui² · kio³pai²sui⁷\n36水鬼 叫 跛 睡\n譯:惡人引誘做壞事\n【跛睡】又跛脚又打瞌睡之人,喻無主見之人。水鬼須「討交替」始得超生,故常在岸邊誘人下水,其中最好引誘的便是又跛脚又打瞌睡的「跛睡」,「跛睡」無主見,被水鬼叫去,當然是當替死鬼去了。水鬼喻壞人,比如有色鬼引誘去嫖妓,酒鬼引誘去喝酒,賭鬼引誘去賭博等,可用此諺勸戒受誘人,也可勸阻誘人者,也可用於在旁譏諷。\nlang⁵ · khan¹ · m⁷kiann⁵　kui² · khan¹ · long³ x tsau²\n37儂 牽 毋 行,鬼 牽 撞 撞 走\n譯:人牽不走,鬼牽著跑\n【行kiann⁵】步行也,【走tsau²】跑也。台語中有關行走的詞彙極多,多保存古義,如:碎步曰【趿tship⁴】例【趿·一下、趿·一下】;徐行曰【步】,例【散步】;前進曰【行kiann⁵】,例【行路】;急行曰【踉\n85",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -864,7 +864,7 @@
 "text": "鬼神篇\n【敢死】本義當作勇敢解，俗多引申作厚顏無恥，不擇手段解○想當鬼？敢死就行了，敢死便可成鬼。咒人之成就乃由厚顏無恥、不擇手段而得，一語雙關。比如有人問：「那樣無能無恥的壞人，怎麼可能當那麼高的官？」你便可回答：【敢死 驚無鬼通做？】有不屑並咒其下地獄之意○又：【敢死 免驚無鬼 通做】(用在事未成之時。意即狠下心去做一定可以做成壞事)(2.48)\nkui² · kah⁴ be² · hau² bo⁵kang⁷siann¹\n49鬼 佮馬 哮(無共 聲)\n譯：牛頭不對馬嘴\n【哮】(音孝陰上)號也，有意呼喚謂【叫】，如【叫伊來】，無意號啼或無淚號泣謂【哮】，如【紅嬰仔哮】，有淚謂【哭khau³】，如【愛哭】，鬼和馬的叫聲都叫【哮】，可是【鬼哮】和【馬哮】的聲音是不一樣的，豈可混爲一談，譏人說話文不對題，牛頭不對馬嘴。\nlai⁷sin⁵ · thong¹gua⁷kui²\n50內神 通外鬼\n譯：監守自盜\n91",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -924,7 +924,7 @@
 "text": "鬼神篇\n譯：風水師遺禍子孫\n【穿tshng¹】鑽營尋找之義，【山龍】山中龍脈，即墳墓的風水○風水師爲了找龍脈，必須在山中穿來穿去，故稱風水師的職業爲「穿山龍」。風水師多半是利用民眾迷信風水，詐騙錢財，是敗德的職業，必遺禍子孫，永不得翻身。\nim³te⁷ · put⁴ju⁵sim¹te⁷\n63蔭地不如心地\n譯：(略)\n【蔭地】迷信風水也。台俗每於好風水▢做一假墓，佔爲已有，以爲他日祖先風水之用，謂之【蔭堆】，其做「蔭堆」的行爲謂之「蔭地」，故「蔭地」有迷信風水之義○祖先風水好壞與子孫福禍並無實際關係，無奈民眾多迷信風水，忘了「善有善報」，即「心地」好才能得到福氣的道理，此以佛敎的輪迴說斥道敎迷信○類：【天理昭昭，地理何在】(1.18)又：【住場好不如肚(too⁷)腸好，墳地好不如心地好】\nkau²te⁷hong⁵kim¹ · kau²te⁷kieng⁵ kuah⁴tin⁵ · ainn⁷kiann²\n64九代黃金九代窮，葛藤負囝\n· tshut⁴sieng³jin⁵\n出聖人\n97",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -954,7 +954,7 @@
 "text": "台灣哲諺典\n鬥爭○類：【同工、同工，後壁摀一空】\nte⁷gak⁸ · oo¹lu¹ x tshuan³kuainn¹tiunn²lo² · kah⁴\n70地獄黑溜溜，串關長老佮\nbok⁸su¹\n牧師\n譯：地獄黑幽幽，往往關著長老與牧師\n【串】往往之意；【長老】敎友所選出之代表以掌理敎會事務者，【牧師】精通敎理，從事敎職者，皆爲敎友敬重的人○長老與牧師大部份都是受人敬重的聖職人物，但難免違背聖經，背地裡做男盜女娼之事，死後關進地獄的往往是長老與牧師。\n100",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -976,6 +976,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -1013,7 +1014,7 @@
 "text": "台灣哲諺典\niong² x be² · pak⁸ ti⁷ tsiong¹kun¹thiau⁷\n勇勇馬　縛佇將軍柱(3.41)\niong² x be² · pak⁸tua³ au³ tshiu⁷thau⁵\n勇勇馬　縛帶漚樹頭(3.41)\nbat⁴phe⁷ · bo⁵tshan⁵tsoh⁴\n捌稗　無田作(3.40)\nho² pi⁵ pe⁵ · tiau³puann³piah⁴\n好琵琶　吊半壁(3.39)\n這是指「時」不我與，懷才不遇。\nkuainn¹mng⁵ · tshu³lai⁷tse⁷ · hoo⁷ · phuah⁴tui³thinn¹thang¹ ·\n關門　厝内坐　雨(禍)　潑對天窗\njip⁸ · lai⁰\n入·來(1.20)\n這是「運」氣太乖，飛來橫禍。\ntsau²tshat⁸ · gu⁷tioh⁸hoo²\n走賊　遇著虎(3.55)\nsann¹tu² · si³ m⁷ tioh⁸ , tshuan³ tu² · loo²koo²tsioh⁸\n三拄　四毋著，串拄　磟砧石(3.54)\n這是禍不單行，厄運連連。\ntsui²kui² · gia⁵tang⁷ke⁵\n水鬼　夯重枷(2.18)\n這豈止禍不單行，已經是萬劫不復了。\n可是如果運氣好的話，歪打正著，醜人都可行大運。俗云：\n106",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1073,7 +1074,7 @@
 "text": "台灣哲諺典\nloh⁸thoo⁵ si⁵ · peh⁴ ji⁷ mia⁷\n落塗時　八字命(3.51)\nin¹ ian⁵ · thinn¹tsu³tiann⁷\n姻緣　天註定(3.21)\nu⁷ kiann² · u⁷ kiann²mia⁷ , bo⁵kiann² · thinn¹ · tsu³tiann⁷\n有囝　有囝命，無囝　天　註定(3.20)\n可見民間相信，人一生的命運都是天所註定的。「命」也有生命，壽命之義。\n所謂：\nthih⁴ · phah⁴ e · ia⁷ bo⁵siang¹tiau⁵mia⁷\n鐵　扑=个　亦無雙條命(3.19)\n這個「命」字就是生命的意思。不但人的命運由天註定，並且人壽命的長短也是由天註定的，俗云：\nthinn¹ · beh⁴ka⁷lang⁵tshong³ ti⁷ · thih⁴thui⁵ a² kong³be⁷ si²\n天　卜共儂　創治　鐵槌仔·摃袂死(3.17)\nsin⁵sian¹ · be⁷kiu³tit⁴ bo⁵mia⁷lang⁵\n神仙　袂救得無命儂(3.18)\n命運不但無法自主，並且無法預知。俗云：\ntsa¹boo²gin² a² · iu⁵ mua⁵tshai³tsi²mia⁷\n查某囡仔　油蔴菜子命(3.22)\ntsa¹boo²gin² a² · ku²tshai³mia⁷\n查某囡仔　韮菜命(3.22)\nkau²bue² · io⁵ hinn³ x , lang⁵bue² · khuann³ m⁷ kinn³\n狗尾　搖幌幌，儂尾　看毋見(3.34)\n命運又是無法改變的。俗云：\n112",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1213,7 +1214,7 @@
 "text": "台灣哲諺典\n時星・光、有時月・光】(3.25)\ninn⁵ lang⁰ · e⁷pinn² · pinn² lang⁰ · e⁷inn⁵\n26 圓 ・儂 會扁，扁 ・儂 會圓\n譯：圓人會扁，扁人會圓\n【圓・儂】喩幸運之人，【扁・儂】不幸之人○幸運的富貴之人會有貧賤的一天；不幸的貧賤之人也會有幸運的時候○類：【三年水流東，三年水流西】(3.24)【三年 一閏，好歹 照輪】(3.25)\nlang⁵ · bo⁵tshieng¹jit⁸ho² hue¹ · bo⁵pah⁴jit⁸ang⁵\n27 儂 無 千 日好，花 無百日紅\n譯：人無千日好，花無百日紅\n人不會永遠幸運○類：【圓・儂 會扁，扁・儂 會圓】(3.26)\nit⁴tai⁷hieng¹ · ji⁷tai⁷hian⁵ · sam¹tai⁷lok⁴lian²\n28 一代 興 二代 賢 三 代 落 臉\n譯：一代興，二代賢，三代丟臉\n【落臉lok⁴lian²】(注意發音)落魄，衰敗、丟臉義，若讀lak⁴lian²多半只有丟臉之義○第一代發財，第二代出賢人，第三代淫逸過度，做出丟臉的事，家道於\n126",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1427,6 +1428,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -1552,7 +1554,7 @@
 "text": "台灣哲諺典\n惱。小孩子不知天高地厚，心中只高興【穿新衫、領紅包】。言過年時，大人小孩的心情不同○又：【大儂亂操操，囡仔愛年兜】(4.2)【年兜】指年尾做完【尾牙】以後到過年的日子\njih⁸kau²me⁵ · bo⁵iau¹sim¹pu⁷\n3廿九冥無枵新婦\n譯：大年夜沒有餓媳婦。\n【廿九冥】除夕也，若十二月有三十日則稱【三十冥】。【枵】吃不飽○從前男女不平等，吃飯時，男人先吃，女人後吃，女人多半只能吃男人的殘羹剩菜，挨餓的情形時時有之。但【過年冥】(大年夜)一定要【圍爐】，全家一起吃年夜飯，飯菜也很豐富，媳婦可以儘量吃飽。此諺主要在訓誡那些平常【苦毒】(虐待)媳婦的【大家官】(翁姑)或丈夫，到過年時也要讓媳婦吃一頓飽○又：【過年下昏(e⁷hng¹)無枵新婦】\npa²ni⁵ pa²tseh⁴\n4飽年飽節\n譯：(略)\n【年】指大年夜至【初五隔開】的【過年】而言，【節】指一般的大節日，如【七月半】【中秋節】或各\n160",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1562,7 +1564,7 @@
 "text": "時令篇\n【埔頭】(地方)的【神明生】或【迎媽祖】等【過節】，【大年大節】須準備許多好菜請客，過年時請人來【行春kiann⁵tshun¹】，或過節時請人來【看戲】，都【來予阮請】的意思。客人吃得飽，主人也吃得飽，故云【飽年飽節】。意謂【年仔節仔 免驚枵・著】。\ntsiann¹gueh⁸tsiann¹ muai⁵lang⁵ · bo⁵tshut⁴thiann¹\n5正月正，媒儂 無出廳\n譯：正月正，媒人不出廳\n正月十五以前注重【好頭采】，做媒不容易，若做不成媒，便是【歹頭采】，一年都做不成媒。因此以做媒爲業賺取紅包的【媒儂公】【媒儂婆】，新年不出廳去做媒。\ntshe¹goo⁷keh⁴khui¹ · tshe¹lak⁸ · io²pui⁵\n6初五隔開 初六 舀肥\n譯：(略)\n年初一開始，一家穿新衣、過新年，或旅遊或賭錢，好不高興。但初六便要開始做工，故云【初五隔開】。【舀肥io²/iunn²/ionn² pui⁵】舀糞施肥，下田【作穡tsoh⁴sit⁴】。意謂過年時要好好玩個痛快，但只能玩到初五，初六便要開始做工。【隔開】就是玩與做工分\n161",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1712,7 +1714,7 @@
 "text": "台灣哲諺典\n完。【椆】牢也。牛牢亦曰【牛椆】，此處當卡住解。【橛khit⁸】（音【橛糊仔】（打漿糊）的「橛」，或借「杙」字爲之）椿也，釘在壁上的木釘謂之【壁橛】○九月起太陽越來越短，一照即過，【日頭軟】，狗曬太陽最舒服，無能的女人弄三頓飯都忙不過來，沒有時間去梳妝。腦後的髻子蓬蓬鬆鬆，頭一轉便卡住壁釘。此諺形容九月起【日頭短】○類：【十·月 日 生翼，荏爛查某 領袂直】（4.38）\ntsap⁸ gueh⁸ · jit⁸ · senn¹sit⁸ · lam²nua⁷tsa¹boo² · nia²\n37十·月 日 生翼 荏爛查某 領\nbe⁷tit⁸\n袂直\n譯：十月太陽長翅膀，邋遢女人工作做不完\n【荏爛lam²nua⁷】懶惰不整潔○【立冬】當西曆11月7日左右，陰曆十月，立冬之後，太陽很晚露臉，很早就落西，工作時間縮短，【荏爛查某】，工作能力低，事情做不完，形容十月【日頭短】○類：【九月狗乍日，頇顢查某領袂直，頭鬃螺仔椆壁橛】（4.35）。\ntsap⁸gueh⁸tsap⁸ · hong¹tshue¹ · tshue¹loh⁸sai²hak⁸\n38十月十 風吹 吹落屎礐\n176",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1913,7 +1915,7 @@
 "text": "台灣哲諺典\n農曆｜｜西曆\n春tshun¹\n正月｜立春lip⁸tshun¹｜2月5日\n｜雨水u²sui²｜2月19日\n二月｜驚蟄kenn¹tit⁸｜3月5日\n｜春分tshun¹hun¹｜3月20日\n三月｜淸明tshieng¹bieng⁵｜4月5日\n｜穀雨kok⁴u²｜4月20日\n夏he⁷\n四月｜立夏lip⁸ he⁷｜5月5日\n｜小滿sio² mua²｜5月20日\n五月｜芒種bong⁵ tsieng²｜6月6日\n｜夏至he⁷ tsi³｜6月21日\n六月｜小暑siau² su²｜7月7日\n｜大暑tai⁷su²｜7月23日\n秋tshiu¹\n七月｜立秋lip⁸ tshiu¹｜8月7日\n｜處暑tshu² su²｜8月23日\n八月｜白露peh⁸ loo⁷｜9月8日\n｜秋分tshiu¹ hun¹｜9月23日\n九月｜寒露han⁵ loo⁷｜10月8日\n｜霜降sng¹ kang³｜10月23日\n196",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1945,7 +1947,7 @@
 "text": "天候篇\n在端午節之前，北風會突然反擊，令人措手不及，故俗云：\ntsiann¹ gueh⁰ · kuann⁵ si² ku¹\n正·月寒死龜，\nji⁷ gueh⁰ · kuann⁵ si² gu⁵\n二·月寒死牛，\nsann¹ gueh⁰ · kuann⁵ si² poo³tshan⁵hu¹\n三·月寒死播田夫，\nsi³ gueh⁰ · kuann⁵ si² keh⁸lan⁷ku¹\n四·月寒死逆卵龜(5.30)\ntsiann¹ geh⁰ · kuann⁵ si² tu¹\n正·月寒死豬，\nji⁷ geh⁰ · kuann⁵ si² gu⁵\n二·月寒死牛，\nsann¹ gueh⁰ · kuann⁵ si² poo³tshan⁵hu¹\n三·月寒死播田夫，\nsi³ geh⁰ · kuann⁵ si² kuai¹sim¹pu⁷\n四·月寒死乖新婦(5.30)\nsann¹gueh⁸tshe¹ · kuann⁵ si² siau³lian⁵ke¹\n三月初寒死少年家(5.31)\ntshinn¹mia⁵ · kok⁴ u² · kuann⁵ si² hoo²bu²\n淸明穀雨寒死虎母(5.32)\n(二)夏天\n夏天有三種雨，即梅雨、西北雨、颱風雨。\n梅雨開始於立夏，天天下雨，東西發霉，鶴佬語謂之【夏梅he⁷bue⁵】(或作「夏霉」)。諺語描寫初夏的「夏梅」說：\n199",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -2115,7 +2117,7 @@
 "text": "台灣哲諺典\n變幻無常。春天梅雨時節，南北風交鋒，時雨時晴，變幻莫測，猶如後母之善於【變面pinn³ bin⁷】，故云「春天 後母面」。下一句只是對上句的進一步說明，通常不說。\ntshun¹po³thau⁵ · tang¹po³bue²\n27春 暴 頭 冬 暴 尾\n譯：春風在雨前，冬風在雨後\n【暴po³】音「報」，暴風也。【暴頭】暴風在前，【暴尾】暴風在後也。颱風前的暴風，亦可謂之「暴頭」◯春天梅雨時節往往是北風突然吹襲，暖風被逼上升，成鋒面雨，故云「春暴頭」。冬天時北風如強烈吹拂，是大陸性乾風直抵台灣，沒有太多時間含容水氣，故一陣雨後即晴，而強風繼續吹拂，故云「冬暴尾」。其理與【春寒 雨 那濺，冬寒 做大旱】一樣◯類：【春寒 雨 那濺，冬寒 做大旱】(5.22)\ntshun¹lam⁵ · he⁷pak⁴ bo⁵tsui² · thang¹bua⁵bak⁸\n28春 南 夏 北，無 水 通 磨 墨\n譯：春南夏北，大旱無水\n春天若持續吹南風而不吹北風，就不會造成鋒面雨，故云「春南、無水 通磨墨」。夏天不會吹北風，【夏\n216",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]

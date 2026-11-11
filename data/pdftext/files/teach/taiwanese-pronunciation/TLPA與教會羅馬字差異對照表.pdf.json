@@ -7,7 +7,7 @@
 "text": "TLPA與敎會羅馬字差異對照表\n聲母\nTLPA｜c｜ch\n教羅｜ch /ts｜chh\n韻母\nTLPA｜oo｜ua｜uai｜uan｜uah｜uat｜ue｜ueh｜ing｜ik｜nn\n教羅｜o͘｜oa｜oai｜oan｜oah｜oat｜oe｜oeh｜eng｜ek｜-ⁿ\n聲調符號\n調名｜陰平｜陰上｜陰去｜陰入｜陽平｜陽去｜陽入｜高升調｜輕聲\nTLPA｜1｜2｜3｜4｜5｜7｜8｜9｜0\n教羅｜a｜á｜à｜ah｜â｜ā｜a̍h｜｜--a",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

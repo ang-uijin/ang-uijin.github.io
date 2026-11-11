@@ -7,7 +7,7 @@
 "text": "解題：漳州十五音的源流與音讀",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "直排"
 ]

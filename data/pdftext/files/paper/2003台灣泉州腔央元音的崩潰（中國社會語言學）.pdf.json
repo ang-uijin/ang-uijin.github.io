@@ -143,6 +143,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "表格"
 ]
@@ -253,6 +254,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -263,6 +265,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -273,6 +276,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -283,6 +287,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -293,6 +298,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -301,7 +307,7 @@
 "text": "Phonetic Markedness and The Collapse of Central Vowels of Quanzhou Dialects in Taiwanese\nAng, Uijin\nDepartment of Chinese Linguistics and Literature\nYuan Ze University\nAbstact\nTaiwanese Minnan originated from Quanzhou and Zhangzhou of Fujian. After competing for centuries, the two dialects changed respectively and mixed into many new dialects in Taiwan.\nThe major difference between the two dialects in their phonological inventories is that Quanzhou dialect has two central vowels /ə/ and /ɨ/ in its vowel system, while there are only plain vowels in that of Zhangzhou. The data of our sociolinguistic survey shows that the Quanzhou’s two central vowels are declining, and shifting to Zhangzhou’s vowel system.\nThe immigrants from Quanzhou are more than those from Zhangzhou by about 12%, while the central vowels lost in the competition with Zhangzhou dialect. This provides evidence that the result is not due to external factors of dialect contact, but an internal motivation, that is, the phonetic markedness. Central vowels are marked so they tend to change to another unmarked vowels.\nKey words: Southern Min, Quanzhou dialect, Zhangzhou dialect, New dialects in Taiwan, Sound change, Phonetic markedness.\n30",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 }
 ]

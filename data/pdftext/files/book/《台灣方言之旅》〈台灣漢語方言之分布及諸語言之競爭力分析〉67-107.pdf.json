@@ -308,7 +308,7 @@
 "text": "台灣漢語方言之分佈及諸語言之競爭力分析\n夾仔 giap⁴ be³¹（←閩南語 giap⁴ba⁴¹）\n顯然是受到閩南語的影響。\n又客語的 ʃ-變 f-也很特殊。如：\n海水 hoi⁴⁴ fi³¹\n也是其他客語聽不到的。\n韻母方面，凡 -k 韻尾都消失了。如：\n鴨肉 ap⁴ ngiu¹³\n脚 kio¹³\n阿伯 a³³ pa¹³\n阿叔 a³³ su¹³\n下去 lo⁴⁴ ui²¹（落去）\n「東」韻字，八德客語還保存 -ung，其他地方大部份都變 -ng，而這種鼻音韻只有閩南語才有。\n如：\n阿公 a³³ kng²¹\n颱風 thai³³ fng²¹\n另 -eu 都簡化爲 -io，如：\n95",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "直排",
 "羅馬字多"

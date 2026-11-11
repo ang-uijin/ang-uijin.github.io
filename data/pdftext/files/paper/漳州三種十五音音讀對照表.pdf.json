@@ -7,7 +7,7 @@
 "text": "漳州三種十五音音讀對照表\n一、聲母（十五字頭）\n柳 l｜邊 p｜求 k｜去 kh｜地 t\n頗 ph｜他 th｜曾 ts｜入 z｜時 s\n英 ø｜門 b｜語 g｜出 tsh｜喜 h\n二、韻母（字母）\n1.《彙集雅俗通十五音》五十字母\n君 un｜堅 ian｜金 im｜規 ui｜嘉 ɛ\n干 an｜公 ong｜乖 uai｜經 eng｜觀 uan\n沽 ou｜嬌 iau｜稽 ei｜恭 iong｜高 o\n皆 ai｜巾 in｜姜 iang｜甘 am｜瓜 ua\n江 ang｜兼 iam｜交 au｜迦 ia｜檜 uei\n監 aN｜艍 u｜膠 a｜居 i｜丩 iu\n更 ɛN｜褌 uiN｜茄 io｜梔 iN｜薑 ioN\n驚 iaN｜官 uaN｜鋼 ng｜伽 e｜閒 aiN\n姑 ouN｜姆 m｜光 uang｜門 uaiN｜糜 ueiN\n嘄 iauN｜箴 om｜爻 auN｜扛 oN｜牛 iuN\n2.《增補彙音》三十字祖\n君 un｜堅 ian｜金 im｜歸 ui｜家 ɛ\n干 an｜公 ɔng｜乖 uai｜京 ing｜官 uan\n姑 ɔ｜嬌 iau｜稽 e｜宮 iɔng｜高 o\n皆 ai｜根 in｜姜 iang｜甘 am｜瓜 ua\n江 ang｜蒹 iam｜交 au｜伽 ia｜▢ ue\n▢ a｜龜 u｜箴 ɔm｜璣 i｜▢ iu",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"

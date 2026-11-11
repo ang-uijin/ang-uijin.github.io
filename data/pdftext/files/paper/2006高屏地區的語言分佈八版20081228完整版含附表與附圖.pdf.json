@@ -240,6 +240,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少",
 "看不清"
 ]
@@ -258,6 +259,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -273,7 +275,7 @@
 "text": "【附圖 5】〈高雄縣美濃以北地區語言分佈圖〉\n38\n〔圖〕高雄縣美濃周邊地區語言分佈圖\n布農語區\n閩南混合腔區\n客語區\n排灣語區\n魯凱語區\n海陸客語區\nBk 鶴佬客\nBp 閩南平埔\nKs 四縣客語\nKl 海陸客語\n.Ts 鄒語語言島\n.M 華語語言島\n.K 客語語言島\n民權村 .Ts\n三民\n民族村 .Ts\n小林村 Bp\n高中村 .Ts\n甲仙\n桃源\n西安村 Bk\n台南縣\n興龍村 Bp\n六龜\n溝坪村 Bp\n杉林\n新庄村 B\n木柵村 Bp\n內門\n上平村\n永富村\n大林里 K Bp\n月眉村\n中正里 K\n月美村\n圓富里 K Bp\n新興村 Bp\n大津村\n新威村\n新寮村\n美濃\n旗山\n茂林\n新豐村 Kl Ks\n舊寮村 K\nBp\n青葉村\n廣福里\n吉洋里 M\n高樹\n三地門\n德文村 Rk\n大埔村 K.D\n東振村 D\n高樹村 B\n建興村 B\n里港\n霧台",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -283,7 +285,7 @@
 "text": "【附圖 6】〈屏東北部語言分佈圖〉\n39\n〔圖〕屏東北部語言分佈圖\n閩南混合腔區\n客語區\n排灣語區\n魯凱語區\nB 閩語\nKs 四縣客語\nKl 海陸客語\nBp 閩南平埔\n.D 大陳方言島\n.Rk 魯凱語方言島\n新威村\n新興村 Bp\n大津村\n六龜\n新寮村\n茂林\nKl\n新豐村 Ks\n舊寮村 Ks\nBp\n青葉村\n大埔村 Ks.D\n東振村 D\n高樹村 B\n建興村 B\n東興村\n高樹\n鹽樹村 Ks.D\n長榮村 Ks\n里港\n三地門\n泰山村 Bp\n茄苳村\n下武洛\n廣福村\n賽嘉村 Rk\n鹽埔\n廣興村\n九如\n玉泉村\n長治",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -295,6 +297,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -305,6 +308,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -315,6 +319,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -325,6 +330,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 }

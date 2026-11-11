@@ -15,7 +15,7 @@
 "text": "語言篇\n第二篇 語言(稿)\n撰稿者:洪惟仁",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -42,7 +42,7 @@
 "text": "住民志\n音標説明\n本文音標採用台灣語文學會所訂「台灣語言音標方案」、略事增補幾個符號（加＊號者）。茲將本文音標與國際音標對照説明如下：\n一、輔音\nP[P]：雙唇不送氣清塞音。\nph[p’]：雙唇送氣清塞音。\nm[m]：雙唇鼻音。\nb[b]：雙唇濁塞音。阻塞度甚輕，濁度很高。\nf[f]：唇齒清擦音。\nv[v]：唇齒濁擦音。\n＊bv[bv]：唇齒濁塞擦音。雙唇與雙齒同時阻塞，雙唇爆炸之後，緊接唇齒摩擦。\nt[t]：舌尖不送氣清塞音。\nth[t’]：舌尖送氣清塞音。\nn[n]：舌尖鼻音。\nl[d/l]：在閩南語爲阻塞度甚輕，濁度很高的舌尖濁塞音，在客家話表舌尖邊音。\nts[ts]：舌尖不送氣清塞擦音。\ntsh[ts’]：舌尖送氣清塞擦音。\ns[s]：舌尖擦音。\nj[dz/z;dʑ/ʑ]：舌尖塞擦音。在客語表舌面濁擦音。\nch[tɕ]：舌面清不送氣塞擦音。\nchh[tɕ’]：舌面清送氣塞擦音。\nsh[ʃ/ɕ]：舌面清擦音。\nny[nɕ]：舌面鼻音。\nk[k]：舌根清不送氣塞音。\nkh[k’]：舌根清送氣塞擦音。\nng[ŋ]：舌根鼻音。\ng[g]：舌根濁塞音。\n②82",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -64,7 +64,7 @@
 "text": "住民志\n調類：記在音標右上角。其調序依陰平、上、去、入，陽平、上、下、去、入之順序爲序。缺第六聲（陽上）則6懸缺，不以陽去遞補。\n本變調：本調之後加一左斜線／，變調之後不加符號。\n輕聲：固定調輕聲在輕音節之前加・，如：「落・來」loh⁸・lai₁₁。\n隨前變調輕聲在輕音節之前加短=，如「眞=个」tsin₁=ne₃₃。\n輕聲之前原則上讀本調。\n②84",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -74,7 +74,7 @@
 "text": "語言篇\n第一章　台灣語言概説\n②85",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "圖多字少"
 ]
@@ -124,7 +124,7 @@
 "text": "語言篇\n民族移至近山地帶,一部份移至台東。\n以上第2、3類即通常所謂「平埔族語」。依現在調査所知,第三類已完全消失、第二類只剩少數古稀平埔族人尚有一些記憶,預料本世紀末或二十一世紀初將完全消失。\n1.6 各種語言在台灣的使用人口\n以上四種語言的使用人口,因政府未曾調査,沒有確實資料,若依族群人口比率推計,大約\n閩南語:一千五百萬人。佔台灣總人口74.9%。\n客家語:二百萬人。佔台灣總人口10%。\n北方官話:二百七十萬人。佔台灣總人口13.5%。\n南島語:三十二萬人。佔台灣總人口1.6%。\n這項估計是假定閩南人以閩南語爲母語;客家人以客家話爲母語;外省人以國語爲母語;山地人以南島語爲母語所做的推算。但四十餘年以來政府強力推行國語的結果,致使國語取代閩南語的共通語地位,成爲台灣勢力最強的共通語,凡戰後受國民敎育以上者都會説國語。加上族群交往、通婚頻繁,許多台灣人家庭,尤其都市家庭紛紛以國語敎育下一代,國語遂成爲新生代的母語,因此以國語爲母語的人口,必遠遠超過13.5%的比率。因無調査資料,無法確定。\n②91",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -132,7 +132,7 @@
 "text": "住民志\n第二章　新竹市語言概説\n②92",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -198,7 +198,7 @@
 "text": "語言篇\n第三章　新竹市的閩南語方言\n②99",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -282,7 +282,7 @@
 "text": "住民志\n1. 韻實（介音）有i，u二種，合零介音共三種：開口音、齊齒音（-i-）、合口音（-u-）\n2. 韻實i、u的音値根據元音的高低有所調整。接高元音時舌位高，接低元音時舌位偏低。譬如uan的實際音値可能是[oan]或[ɔan]，iang的實際音値可能是[eang]。\n3. 元音的實際音値隨著前後音的環境有所調整。如a元音接-i，-t，或iau中的a舌位偏高，實際音値可能是次低央元音[ɐ]。在ian時的a實際音値是[ɛ]。\n4. 入聲韻尾-p，-t，-k的實際音値爲-b，-d，-g，後接英字頭輕聲時，這個音値會延續到第二音節，即爲輕聲詞的聲母，其塞音阻塞度也變輕，b，g接近擦音，d接近閃塞音。\n5. 新竹方言八個元音只有a，e，i，oo，u可以鼻化爲ann，enn，inn，oonn[ɔ]，unn[u]。其中oonn因爲沒有onn[o]音位的對立，通常簡寫爲onn。unn[u]不能獨立成韻，unn韻早在古代閩南語已變成-m，-ng。unn音在現代方言只能當成iunn的韻腹（主要元音）或aunn的韻尾。\nb. 韻母\n口音韻\n1 嘉a／ah｜2 西e／eh\n3 基i／ih｜4 姑oo／ooh\n5 刀o／oh｜6 珠u／uh\n7 科er／erh｜8 居ir／irh\n9 開ai｜10 郊au／auh\n11 嗟ia／iah｜12 燒io／ioh\n13 秋iu／iuh｜14 朝iau／iauh\n15 花ua／uah｜16 杯ue,'ueh\n17 飛ui／uih｜18 乖uai／uaih\n鼻化韻\n19 監ann／annh｜20 夾enn／ennh\n②108",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -292,7 +292,7 @@
 "text": "語言篇\n21 青inn／innh｜22 娥onn／onnh\n23 梅m／mh｜24 黃ng／ngh\n25 乃ainn｜26 藕aunn／auuh\n27 京iann／iannh｜28 箱iunn／iunnh\n29 貓iaunn／iaunnh｜30 歡uann\n31 茨uennh｜32 關uinn\n33 桿uainn／ainnh\n陽聲韻\n34 杉am／ap｜35 丹an／at\n36 江ang／ak｜37 東ong／ok\n38 金im／ip｜39 賓in／it\n40 卿ing／ik｜41 兼iam／iap\n42 軒ian／iat｜43 涼iang／iak\n44 香iong／iok｜45 君un／ut\n46 川uan／uat｜47 嚾uang\n＜音値説明＞\n1. ir韻的音値可以讀展唇高央元音-ir[ɨ]，也可以讀展唇高後元音uu[ɯ]。讀-ir的情形較多。本文把兩個無定分音歸爲-ir韻。原無入聲，急讀時會產生-irh[ɨʔ]音。\n2. er[ə]韻爲舌位偏前的展唇中央元音。\n3. onn的音値是oonn[ɔ]。\n4. im／ip，in／it在韻尾之前有個很小的唰音-ir-，在ing／ik的韻尾之前有個較大的小唰音-er-，因爲不成音位，一般不記。i遂可兼任字領、字身。\n5. ian的實際音値是[iɛn]。\n三、聲調\na. 調位及主聲調\n新竹76的聲調系統有高中低三調階，依長短升降，組成十個調位：\n②109",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -335,7 +335,7 @@
 "text": "語言篇\n現象和其他輕聲是一致的。\n二、固定調輕聲\n新竹76和其他的閩南語一樣有豐富的固定調輕聲。\n固定調輕聲的調位固定爲11[21]而較輕。固定調輕聲字前字必讀本調。\n固定調輕聲字數目很多，讀輕與讀重意義不同。\n固定調輕聲接下字時喪失輕聲，連同其前字都恢復其主聲調變調規則。\n請看下面的例子，固定調輕聲字前以·表示：\n去｜過去｜ker₃₁ khir₁₁｜以前\n｜過·去｜ker₁₁·khir₁₁｜通過\n｜過去彼爿｜ker₃₁ khir₃₁ hit₃ ping₁₂｜過去那邊\n死｜驚死｜kiann₂₂ si₃₁｜怕死\n｜驚·死｜kiann₃₃·si₁₁｜嚇死\n｜驚死儂｜kiann₂₂ si₂₃ lang₁₂｜嚇死人了\n去｜無去｜bo₁₁ khir₁₁｜沒去\n｜無·去｜bo₁₂·khir₁₁｜死了\n｜無去眞久矣｜bo₁₁ khirh₃ tsin₂₂ ku₃₁·a₁₁｜死很久了\n｜儂做儂｜tsue₃₁ lang₁₂｜做人\n｜做·儂｜tsue₁₁·lang₁₁｜許配人家、訂婚\n｜做儂了矣｜tsue₃₁ lang₁₁ liau₃₁·a₁₁｜許配人了\n讀輕的詞還有：\n來｜起·來｜khi₃₁·lai₁₁\n｜出·來｜tshut₂·lai₁₁\n｜過·來｜ker₁₁·lai₁₁\n｜落·來｜loh₃·lai₁₁\n｜入·來｜jip₃·lai₁₁／lip₃·lai₁₁\n去｜起·去｜khi₃₁·khir₁₁\n｜出·去｜tshut₂·khir₁₁\n｜過·去｜ker₁₁·khir₁₁\n②113",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -346,7 +346,7 @@
 "text": "住民志\n落・去　loh₃・khir₁₁\n入・去　jip₃・khir₁₁／lip₃・khir₁₁\n起來　　・起來　peh₂・khiai₁₁\n起去　起・起去　peh₂・khi₁₁\n過來　爬・過來　pe₁₂・ker₁₁ lai₁₁\n過去　跳・過去　thiau₁₁・ker₁₁ khir₁₁\n出來　走・出來　tsau₃₁・tshut₁ lai₁₁\n出去　闖・出去　tsong₁₂・tshut₁ khir₁₁\n落來　剝・落來　pak₂・lo₁₁ lai₁₁\n落來　坐・落去　tser₂₂・lo₁₁ khir₁₁\n入來　行・入來　kiann₁₃・jip₁ lai₁₁\n入去　塞・入去　that₂・jip₁ khir₁₁\n來去　轉・來去　tng₃₁・lai₁₁ khir₁₁\n但輕聲詞接下字時便恢復其主聲調變調規則。不過「去」字往往變khirh₃。還有兩字組輕聲詞往往合成一個音節。\n趥・起來　peh₂・khiai₁₁\n趥起來樓頂　pe₃₁ khiai₃₁ lau₁₁ ting₃₁\n趥・起去　peh₂・khi₁₁\n趥起去樓頂　pe₃₁ khi₃₃ lau₁₁ ting₃₁\n轉・來去　tng₃₁・lai₁₁ khir₁₁\n轉來去厝　tng₂₃ lai₁₁ khirh₃ (lai₂₃)tshu₁₁\n以上是一些方向詞，其他還有許多詞，也可以讀輕聲。如：\n昭和十・年　tsiau₂₂ ho₁₂／tsap₃・ni₁₁\n五・月　goo₂・ger₁₁\n五月五・日　goo₁₁ ger₁₁ goo₂₂・jit₁\n食・一屑仔　tsiah₃・tsit₁ sut₁ a₁₁\n去・一半擺仔　ˋkhir₁₁・tsit₁ puann₁₁ pai₁₁ a₁₁\n偆・一寡仔　tshun₃₃・tsit₁ kua₁₁ a₁₁\n動・一下　tang₂₂・tsit₁ e₁₁\n賣一寡針線・啥貨（等等）\n②114",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -356,7 +356,7 @@
 "text": "語言篇\nbue₁₁ tsit₁ kua₂₃ a₃₃tsam₂₂ suann₁₁ siann₁₁her₁₁\n以上是年、月、日及數量詞。\n三隨前變調輕聲\n新竹76也和一般台灣優勢音一樣，有豐富的隨前變調。\n隨前變調詞的調値不定，其調値決定於前字的調尾，前字調尾爲高調，則唸高平，中調、低調亦同。如：\n眞=个　tsin₃₃=ne₃₃\n假=个　ke₃₁=e₁₁\n大=个　tua₂₂=e₂₂\n細=个　sue₁₁=e₁₁\n紅=个　ang₁₁=nge₂₂\n靘=个　tshinn₃₁=enn₁₁\n熟=个　sik₃=ge₁₁\n活=个　uah₃=e₁₁\n有色=个　u₁₁sik₂=ge₁₁\n四語助詞輕聲\n語助詞也是一種輕聲・但語助詞輕聲有各種不同的調値，有時保存原字的本調，有時讀變調；有時有固定聲調；有時讀隨前變調，有時變化出新調。本文也以・表示。\n1. 讀本調\n都有影・毋(m₂₂)　是眞的嘛\n我都愛𨑨迌毋(m₂₂)　因爲我喜歡玩嘛\n2. 讀變調\n矻力　即趁有錢・講-(kong₃₃)　勤勞才有錢賺嘛\n功課做完　都煞戲矣・卜-(beh₃)　功課做完　戲都演了還……\n我都夭少年・汝-(lir₃₃)　因爲我還年輕嘛，你說是不是\n以上凡讀本調或變調的語氣詞，都是完整句的省略。以上列句子爲例，完整句可以推測可能如下\n②115",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -386,7 +386,7 @@
 "text": "住民志\n詞又可讀an₃₁ ni₃₃，故知「按」本調是陰去。an₃₃是an₃₁的再變調。\n今旦日(kin¹ na³ lit⁴)：今天。依方言比較可知此詞的音變過程是＊kin₂₂ tuann₃₁ lit₃→kin₂₂ na₃₁ lit₃→kin₂₂ na₃₃ lit₃。\n明旦早起(mi₂₂ ann₃₃ tsai₁₁)：明天。＊mi₁₁ tuann₃₁ tsa₂₃ khi₃₁→min₁₁ na₃₁ tsai₁₁→mi₃₃ ann₃₃ tsai₁₁。\n益(ah⁴)：那、還、而…。例：益汝出業・咯（那你畢業了）；益閣（再）；益都(ah₃ to₂₂) 那是因爲…)、益未（還沒有）。本字「益」（增益、溢出、超出），應讀＊iah₄，今變iah₃或ah₃。\n卜(berh⁴)：要・依變調規則應讀＊ber₃₁，都讀berh₃。\n駕(kah₃)：到，既然。例：了駕無半項。「駕」是kau³〔一〕的變化。表抽象語意，如「到了某程度」的意思時往往變ka₃₁，實際常常急讀爲kah₃。\n去(khih₃)：去。khir₃₁，常常急讀爲khirh₃。\n由以上的例子可知，不規則變調都是陰上、陰去、陰入的字，由原來的變調23，23、31等具有高調徵性的調子急讀爲33或-h3，如果出現在一個語詞的前字具鼻音成分時變33，其餘少數保存33調，多數急讀爲-h3。正常變調、不規則再變調往往可以並存。\nd.縮　讀\n新竹76和其他台灣閩南方言一樣，往往把多音節縮讀爲一二音節。如：\n・起來　peh₂・khi₁₁ lai₁₁→peh₂・khiai₁₁\n・起去　peh₂・khi₁₁ khir₁₁→peh₂・khi₁₁\n佇塊-　tir₁₁ ter₃₁→lirh₃〔置〕\n彼號-　＊hit₃ ho₁₁→hit₃ lo₁₁或hio₃₁\n職號-　＊tsit₃ ho₁₁→tsit₃ lo₁₁或tsio₃₁\n彼个-　hit₃ e₁₁→he₃₁\n②118",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -406,7 +406,7 @@
 "text": "住民志\n紅駕紅─紅紅─紅紅　ang₂₂ ka₃₁ ang₂₂ ng₃₁\nang₂₂ ang₂₃₁ ang₂₂ ang₁₂\n「駕」字虛化之後ka₃₁→a₃₁，有些方言還可讀khui₂₂ a₃₁ khui₂₂ khui₃₃；a₃₁再虛化，就連元音都消失了，只剩聲調，而變成khui₂₂ i₃₁ khui₂₂ khui₃₃，其中第二音節的i元音是前字韻尾的延續。四音節急讀，變成三個半音節、三音音節、二個半音節。\n下面再舉數例：\na.金金金　kim₂₂ m₃₁ kim₂₂ kim₃₃\n（非常亮）　kim₂₃₁ kim₂₂ kim₃₃\n　kim₂₃ kim₂₂ kim₃₃\n　kim₂₃₂ kim₃₃\n長長長　tng₂₂ ng₃₁ tng₁₁ tng₁₂\n（非常長）　tng₂₃₁ tng₁₁ tng₁₂\n　tng₂₃ tng₂₂ tng₃₃\n　tng₂₃₁ tng₃₃\n恬恬恬　tiam₂₂ m₃₁ tiam₁₁ tiam₂₂\n（非常靜）　tiam₂₃₁ tiam₁₁ tiam₂₂\n　tiam₂₃ tiam₁₁ tiam₂₂\n　tiam₂₃₁ tiam₂₂\n白白白　pe₂₂ e₃₁ pe₁₁ peh₃\n（非常白）　pe₂₃₁ pe₁₁ peh₃\n　pe₂₃ pe₁₁ peh₃\n　pe₂₃₁ peh₃\n直直直　ti₂₂ it₃₁ tit₁ tit₃\n（非常直）　tit₂₃₁ tit₁ tit₃\n　tit₂₃ tit₁ tit₃\n　tit₂₃₁ tit₃\nb.扁扁扁　pinn₂₃ inn₃₁ pinn₂₃ pinn₃₁\n（非常扁）　pinn₂₃₁ inn₂₃ pinn₃₁\n　pinn₂₃₃ pinn₃₃ pinn₃₁\n②120",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -482,7 +482,7 @@
 "text": "語言篇\n毛ng／ngh｜卵楓光當磚酸／物｜黃ng／ngh｜卵楓光當磚酸／物\n熊ainn／ainnh｜耐反肩還前研／喝｜乃ainn｜耐揩指怎勿幌荔\n嘐｜（有音無字）｜藕aunn／aunnh｜惱腦包矛貌熬／□\n關uirinn｜反桿峘縣橫每梅｜○｜（歸關、桿、川三韻）\n京ann｜領餅囝鼎正艾｜京iann／iannh｜領餅囝鼎正艾／挈\n箱iunn｜兩薑張上養香｜箱iunn／iunnh｜兩薑張上養兩／□\n貓iaunn｜鳥了｜貓iaunn／iaunn｜老爪擽妙囈喵／縐（▢）\n歡uann｜欄搬官單煎山滿｜歡uann｜欄搬官單煎山滿\n○｜｜莢一／uennh｜／夾挾\n管uinn｜（漳腔，有音無字）｜關uinn｜縣快橫煤每梅\n○｜｜桿uainn／uainnh｜桿梗橫莖檨　／□□\n三am／ap｜覽甘淡針參含／答十｜杉am／ap｜覽甘淡針參含／答十\n丹an／at｜蘭干單曾田限／達節｜丹an／at｜蘭干單曾田限／達節\n江ang／ak｜籠放降冬桶夢／角墨｜江ang／ak｜籠放降冬桶夢／角墨\n東ong／ok｜郎公鴻當統風／國木｜東ong／ok｜郎公鴻當統風／國木\n箴irn／irp｜斟簪針森蔘欣／｜○｜（全韻歸「金」韻）\n恩irn／irt｜根巾墾允銀恨／迄核｜○｜（全韻歸「春」韻）\n生irng／irk｜能朋更登爭牲／默特｜○｜（全韻歸「卿」韻）\n兼iam／iap｜廉檢添詹染險／諜協｜兼iam／iap｜廉檢添詹染險／諜協\n軒ian／iat｜連堅天煎然顯／哲血｜軒ian／iat｜連堅天煎然顯／哲血\n商iang／iak｜涼掌唱香響喨／褥｜涼iang／iak｜涼掌唱香響曉／爆摔\n香iong／iok｜良章昌香恭央／足約｜香iong／iok｜良章昌香恭央／足約\n金iirn／iirp｜林今斟任音熊／集十｜金im／ip｜林今斟任音熊／集十\n｜｜｜森蔘欣\n賓iirn／iirt｜鄰賓緊人因民／筆失｜賓in／it｜鄰賓緊人因民／筆失\n卿iirng／iirk｜領冰經貞英明／百色｜卿iing／iirk｜領冰經貞英明／百色\n｜｜｜能朋更登爭牲／默特\n春un／ut｜倫分君尊溫文／不述｜春un／ut｜倫分君尊溫文／不述\n川uan／uat｜亂半官專彎歡／劣絕｜川uan／uat｜亂半官專彎歡／劣絕\n風uang／uak｜風放　　　／伏｜嚾uang｜嚾\n由以上的比較可知，新竹76有三個韻是《彙音妙悟》\n②127",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "多欄",
 "羅馬字多",
@@ -525,7 +525,7 @@
 "text": "語言篇\ngua² e⁵ gir² gian⁵ sing¹ uah⁸\n我个語言生活\n鄭衍宗　訪問記音\ngua² e⁵ kok⁴ gir²/si⁷ lau⁷ kok⁴ gir² /gun² lau⁷ pe⁷/ka³ e₁₁/ gua² tsap⁸ si³her³/tioh⁸ thak⁸=a₁₁/ ber²=\n我个國語是老國語。阮老父教。我十四歲著讀=矣。尾=\n/ a₁₁/ tshiau₂₂ u₃₁/tsap⁸tshit⁴ her³·la₁₁/u⁷ nng⁷ e⁵ sian¹ sinn¹/ka⁷ gua² ka³/tsit⁸ e⁵/si⁷ lam⁵\n也，差不多十七歲啦，有兩个先生共我教，一个是南\nkiann¹/sir¹ huan³ tai⁷ hak⁸/pit⁸ giap⁸= e₁₁/kio³ iunn⁵ ping⁷ hu¹/tsit⁸ e⁵ si⁷ kio³ tsiam¹ khe² bing⁵/ tsuan⁵ tsiu¹\n京師範大學畢業=个叫楊病夫；一个是叫詹啓明，泉州\nlang⁵·la₁₁/hit⁴ tsun⁷ a²/ in¹ui⁷ gua²/e⁷ hiang² kong² kheh⁴ ue⁷·le₃₃/gua²/lirh₃ au² im¹/ tsin¹ gau⁵ / phoo²\n儂啦。彼陣仔，因為我會曉講客話哩，我置拗音①眞爻。普\nthong¹/kok⁴ gir²/tioh⁸ai³kng²tsih⁸im¹· lam₃₁/ tai⁵uan⁵lang⁵/tioh⁸ kong²a₃₁ lir₁₁/a₃₁ lir₁₁/kong² bue⁷ tsuan²\n通國語著愛捲舌音汝知母，台灣儂著講『ㄦ、ㄦ』，講袂轉\n·an₃₃ ni¹/ ah₃gua²/lirh₃ kong²/kong² e⁷ tsun²/ah₃ hit⁴ tsun⁷ a²/ gun²/ e⁵ sian¹ sinn¹/tsin¹ gau⁵ ka³·lirh₃\n②按呢，益我置講，講會準。益彼陣仔，阮个先生眞爻教汝\ntsai¹·m₁₁/i¹ sing¹ ka³ lirh₃ kok⁴ gir²/ ka³ liau²/hok⁸ sip⁸/tsip⁴ ma²/tsiah₃ tsu⁷ hia⁵/kong² tai⁵ uan⁵ ue⁷/kio³\n知母，伊先教汝國語，教了複習，職馬即就遐講台灣話叫\nlir²/kong² kok⁴ gir²/ in¹ si⁷ kong² phoo² thong¹ ue⁷ an₃₃ ni¹ / ah₃ tsip⁴ ma²/kong² liau² au⁷/tsiah₃\n汝講國語——個是講普通話—按呢。益職馬講了後，即\nkoh₃ uann⁷ lir²/kong² kok⁴ gir²/i¹ tsiah₃ koh₃ kong² tai⁵ uan⁵ ue⁷/ ah₃ an₃₃ ni¹/ka³ =gun₁₁/tsin¹ kang₃¹ hu¹·la₁₁\n閣換汝講國語，伊即閣講台灣話。益按呢教阮，眞工夫啦\n/hit⁴ e⁵ lam⁵ kiann¹ lang⁵/uan⁵ a² e⁷ hiang² kong² tai⁵ uan⁵ ue⁷·oo₂₃/hit⁴ e⁵ sian¹ sinn¹/tsin¹ kuai³·\n。彼个南京儂員仔③會曉講台灣話胡，彼个先生眞怪\noo₂₃/i¹ pun₂₃ si⁵/na⁷ lirh₃ kong² ue⁷/iah₃ tioh⁸ an₃₃ ni¹/ hit⁴ tsun⁷ a²/thua₁₁ lin⁵/siok⁸·ma₁₁/na²\n胡，伊不管時若置講話，益著按呢——彼陣仔塗豆仁俗嘛，那\nkong²/na² tsiah⁸/tsit⁸ kuan³ a² tang⁵ kong² a² /hit⁴ lo⁷hun¹ kong² a² /goo⁷sian²tsinn⁵ a₁₁/ah₃\n講那食，一罐仔銅簍仔④，彼號薰簍仔⑤五鮮錢⑥啊，益\ntsit⁸ am³·honn²¹/hit⁴kuan³ thua⁵ lin⁵/ah₃ tsiah⁸ liau² liau²/na² ka³/na² tsiah⁸/iah₃ i¹ e⁷ kong² koo³ sir⁷/\n一暗乎，彼罐塗豆仁益食了了。那教那食。益伊會講故事，\nkong² kok⁴ gir²/kong² pak⁴ kiann¹ gir²/hoo⁷ lir²/thiann¹/ah₃ lan²/tsiah₃ hue⁵ tai⁵ uan⁵ ue⁷/ iah₃ u⁷tang¹\n講國語（講北京語）予汝聽，益咱即回台灣話，益有東\nsi² a²/lan²/kong² tai⁵ uan⁵ ue⁷/ i¹ tsiah₃ koh₃ kong² kok⁴ gir²/ he¹/tsin¹ gau⁵ ka³/ah₃/soo² i²/\n時仔⑦咱講台灣話，伊即閣講國語，彼眞爻教。益所以\ngua²/sann¹ koo³ gerh⁸/gua²/toh⁸ bo⁵ thak⁸= a₁₁ /an₃₃ na₂₁/ i¹ kan¹ na¹ tsu³ im¹ / tsu³ he¹ bue² bue⁷/\n我三个月我著無讀矣。按怎？伊干礁注音，注彼「買賣」，\n②131",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -555,7 +555,7 @@
 "text": "住民志\ne⁷ tioh⁸/bue² kui² pah⁴ kuan³ =e₁₁·ler₃₃/ah³ hit⁴ tsun⁷ a²/lirh₃ tsue³·honn₂₁/tsin¹ ban⁷·la³/ sui² jian⁵ u⁷\n會著。買幾百卷=个咧。益彼陣仔置做乎眞慢啦。雖然有\niong⁷ mo₃₁t₁₁/lirh₃ kiann⁵/lirh₃ tsuan²/tan⁷ si⁷ tsit⁸ am³/na⁷ tsha¹ put⁴ to¹ u⁷ li⁷ tsap⁸ kuan³·a₁₁/ toh⁸ tsue³\n用モ－タ－①置行、置轉但是一暗若差不多有二十卷啊，著做\nlirh₃ kui¹ am³ =e₁₁·ler₃₃/\n置歸暗个咧。\ni¹ na² tsue³/lan²/na² suat⁴ bing⁵/hit⁴ tsun⁷ a²/long² e² kau² phinn³=e₁₁·ler₃₃/ah₃ na⁷ se¹ iunn⁵ =e₂₂/\n伊那做咱那説明。彼陣仔攏啞口片②个咧益若西洋个\ntoh⁸ oo¹ peh⁸ kah⁴ i¹ kong²·loo₁₁/khuann³ u⁷ iann²·boo₁₁/\n著烏白佮伊講③咯。看有影否。\nioh⁴\n（洪：毋看伊个意思是按怎，用臆个？）\nm⁷ bian²/m⁷ bian²/u⁷khau¹ pun²/lai⁵/lit⁸ pun²/e⁵ khau¹ pun²/ tioh⁸ ai³ bun⁵ poo⁷ sing²/kiam² giam⁷·ker/\n毋免，毋免，有跤本⑤來。日本跤本著愛文部省檢驗過，\nkoh₃ lai⁵ lan² tai⁵ uan⁵/ tsong² tok⁴ hu²/ koh₃ tsai³ kiam² giam⁷/ kiam² giam⁷ he¹/khau¹ pun²/ u⁷ hun¹ nng⁷ khuan²/\n閣來咱台灣總督府閣再檢驗。檢驗彼跤本有分兩款，\nna⁷ si⁷ lit⁸ pun² =e¹¹/ guan⁵ bun⁵/lit⁸ pun² bun⁵ /long² long² u⁷ tshut⁴ =lai¹¹/ ah₃ na⁷ gua⁷ kok⁴ =e¹¹ / phi³ lun⁷ kong²\n若是日本个，原文（日本文）攏攏有出來，益若外國个，譬論講\ntik⁴ phinn³ =e¹¹/tik⁴ gir²/ huat⁴ phinn³=e¹¹ huat⁴ gir²/ bi² phinn³ =e¹¹/bi² gir²/ pinn¹ =a₃₃/ tsiah₃ ik⁸ lit⁸ pun² ue⁷/\n德片=个德語，法片个法語，美片个美語，邊也即譯日本話。\nna⁷si⁷ tsue³ huat⁴ siann¹ =e³³/ he¹/ tsin¹ siong⁵ se³·lirh₃ tsai¹·m₁₁/ tshan¹ tshiunn⁷ lirh₃ khui¹ mng⁵/no₂₃khuh₂\n若是做發聲=个彼眞詳細。汝知毋親像置開門、knock\nau₃₁to₁₁/long² long² suah₃ tsu³·lo₁₁ khir₁₁/tsin¹ siong⁵ se³·la₁₁/bin⁵ na₃₃ tsai³/ berh₃ puann¹ lan² tse¹/khau¹ pun²/\nout，攏攏煞注落去，眞詳細啦。明旦再卜搬，咱這跤本\ntoh⁸ sing¹ khuann³ x·le₁₁/ na⁷ tsian³ tsing¹ phinn³=e₁₁/ to⁷ m⁷ bian²/ na⁷ he¹/bun⁵ ge⁷ phinn³ =e₁₁/ toh⁸ ai³\n著先看看咧若戰爭片个著毋免，若彼文藝片个，著愛\nsing¹ khuann³ tsit⁸ pian³/ ah₃ toh⁸ ka₂₂ ki³· e₁₁/ m⁷ koh₃ tsiau³ an₃₃ ni¹/kong²/ hui³ khi³/a⁷ berh₃ khuann³ khau² pun²\n先看一遍，益著共記咧。毋過照按呢講費氣，亦卜看跤本\n/a⁷ berh₃ khuann³ ji⁷ boo⁷/ a⁷ berh₃ khuann³ gun⁵ boo⁷/kan¹ khoo²/ hi¹/toh⁸ ai³ an₃₃ tsuann²·lirh₃ tsai¹·m₁₁/ he¹/\n亦卜看字幕，亦卜看銀幕，艱苦。彼著愛按怎汝知毋，彼\ntsit⁸ e⁵ kuat⁴/te⁷ hng¹/e⁵ mia⁵·la₁₁/ lang⁵ mia⁵·la₁₁/ ni⁵ gerh⁸ lit⁸ tsia¹ =e₃₃/ tai⁷ iau³/ sio² ka₂₂ ki³ · khiai₁₁/ ah³\n一个訣，地方个名啦，儂名啦，年月日遮个，大要小共記·起來，益\ntsia¹ =e₃₃/ liam⁷/si⁷ tng⁵ lo² lo²· lirh₃ tsai¹·m₁₁/ tu³ thau⁵/ nng⁷ li⁷ ka₂₂ kong²·tshut₁₁ lai₁₁/ ah₃ na⁷ tsi¹/tiong¹\n遮个唸是長佬佬汝知毋，對頭兩字共講出來。益若這中\nkok⁴ phinn³/ lai⁵/tsuan¹ han³ bun⁵/ he¹/ to¹ siong⁷ khuai³· ma₁₁/ he/ tsit⁸ e⁷ khuann³/ma⁷ tsai¹/\n國片來，全漢文，彼都上快嘛，彼一下看嘛知。\n②134",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -585,7 +585,7 @@
 "text": "語言篇\nkhan¹·lo₁₁ /khuann³ gua⁷ khuah⁴ / berh₃ poo³ gua⁷ tsue⁷ tiu⁷ a²/ berh₃ tsing³ gua⁷ tsue⁷ han¹ tsir⁵/berh₃ tshah⁴ kui² ki¹\n牽落，看外闊，卜播外儕④稻仔，卜種外儕番薯，卜插幾枝\nkam¹ tsia³ tsai¹/ i¹ kha¹ poo⁷/kiann⁵· ker₁₁/toh⁸ tsai¹/ ah⁴ to¹ bo⁵ un⁷·la₁₁/ guah₃ ka⁷ lirh₃ kong²· honn²¹/ poo³\n甘蔗栽，伊跤步行過著知。益都無運啦。我共汝講乎，播\ntshan⁵/e⁵ si⁵ tsun⁷/kho³ huann⁷·la₁₁/kong² tann¹:e⁷ kho³ huann⁷/ m⁷ thang¹ poo³ tshan⁵· oo₁₁/tsing³ tshinn¹ a²/ ni²\n田个時陣洘旱⑤啦，講今一會洘旱毋通播田噢，種菁仔（染\npoo³/ he¹ tshinn¹ a²/suah₃ au³ hoo⁷/ loh⁸ hoo⁷/ soo² i² bo⁵ un⁷·la₁₁/ber² =a₁₁/koh₃ puah⁸ koo² kuan³/hit⁴ tsun⁷\n布彼菁仔）煞漚雨⑥（落雨），所以無運啦。尾也閣跋股券⑦，彼陣\na²/koo¹ tsin² hu²/ in¹ lau⁷ pe⁷/ koo¹ hian² ing⁵·a₁₁/lirh₃ tshong³ he₃₁ kiam⁵ tsui² kang²/tse³ thng⁵ hue⁷ sia⁷/kann²\n仔辜振甫因老父辜顯榮啊，置創彼个鹹水港製糖會社，敢\nna² hit⁴ tsun⁷ a²/koo² phio³/na² siau² e₁₁/kang⁷ khuan²/oo¹ peh⁸ tit⁸ x huah⁴/ giah⁸ bin⁷/goo⁷ tsap⁸ khoo¹/\n那彼陣仔股票那犭肖个⑧共款烏白直直喝，額面⑨五十箍\nhuah⁴ ka³ tsit⁸ koo²/nng⁷ pah⁴ goo⁷ khoo¹ / kah₃ tai⁷ tsing³ kau² ni⁵·honn₂₁/tsian³ tsing¹/kiat⁴ sok⁴/iah₃ king² khi³/\n喝駕一股兩百五⑩箍⑪。駕大正九年乎，戰爭結束，益景氣\nbai²· lo₁₁ khir₁₁/ tsit⁸ e⁷ puah⁸/puah⁸ kah₃/ i¹ he¹/ koh₃ si⁷ bu⁵ han⁷ tsit⁷ jim⁷ e₂₂/m⁷ si⁷ tsip⁴ ma²/tse¹/\n穲⑫·落去，一下跋⑬跋駕—伊彼閣是無限責任个毋是職馬這\niu² han⁷ kong¹ si¹/tsit⁸ koo²/ji⁷ tsap⁸ khoo¹/ tshiann³ pian⁷ hoo⁷ sir⁷/khirh₃ phah⁴ kuann¹ si¹/khirh₃ kah₃ lang⁵\n有限公司，一股二十箍倩⑭，辯護士去扑官司，去佮儂\nkai² kuat⁴/bue⁷ hiang²· e₁₁ /ah₃ ber²=a₁₁/koh₃ sua³ loh⁸ khirh₃ kah₃ lang⁵ puah⁸ tsiann³ bi²/tsiann³ bi²/ toh⁸ si⁷\n解決。袂曉得。益尾也閣紲落去佮儂跋正米，正米著是\nki⁵ bi²·la₁₁ / ki⁵ her³· la₁₁/\n期米·啦，期貨啦。\n註：\n①當：最盛之義。「當做」：事業最旺盛的時候。「當出」：水果最盛產的時候。\n②爻：賢、善、精通。「爻算」：精於算術。另有斤斤計較之義。\n③踅：繞。\n④外儕：幾多。多少。\n⑤洘旱：旱災。\n⑥漚雨：霪雨。\n⑦股券：股票。\n⑧犭肖＝个：瘋子。\n⑨額面：面額。\n⑩兩百五：二百五十。\n⑪箍：元。\n⑫穲：壞。\n⑬跋：跌。\n⑭倩：雇用曰「倩」，拜托曰「央」iong¹。\n②137",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -696,7 +696,9 @@
 "source": "llm",
 "model": "claude-sonnet-5-5",
 "checked": "none",
-"flags": []
+"flags": [
+"兩讀不一致"
+]
 },
 {
 "n": 72,
@@ -725,6 +727,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多"
 ]
 },
@@ -733,7 +736,7 @@
 "text": "住民志\nap₃ ap₃ ap₃ pai⁵ ka³ tit⁸ x x/ liah⁸ i¹ khuann³/hoo₃₁₁:/ i¹ hit⁴ tsun⁷ a²/tua⁷ huann¹ hi²·loo₁₁/iu⁵ koh₃ tua⁷ x e⁷/ lang⁷ tsit⁸ e⁷ tik⁴ ko¹/huah⁴ tsit⁸ siann¹ tsuan⁵ poo⁷/peh⁴ khi₁₁ lai₁₁/pai⁵ tsue³ nng⁷ tui⁷/ ue⁷/ kong² suah⁴/la⁷ nia⁷/tsia¹/e⁵ ah⁴ a²/kuann² kin²/tsit⁸ tsiah⁴ x²/peh⁴ tsiunn⁷ khue¹ poo¹/na² tshan¹ niunn⁷ king¹ ker³ hun³ lian⁷/e⁵ kun¹ tui⁷ le₁₁/ tak⁸ tsiah⁴ ah⁴ a²/hainn³·a₁₁ hainn³/io⁵·a₁₁ io⁵/pui⁵ x e⁵kha¹ tshng¹/ ngiauh⁴·tse₁₁ x²/ koh₃ pai⁵ tsue³ nng⁷ tua⁷ tui⁷·lirh₃ tsai¹ m₁₁/enn₂₁/sua³ lo₁₁/ koh₃ tsai³ huah⁴ bing¹ ling⁷/he¹ ah⁴ a² long² tsiau³ i¹ e⁵ tsi² hui¹/ an₃₃ ni¹/tsue³·la₁₁/\n盒盒盒…排駕直直直，掠伊看。唬！伊彼陣仔大歡喜咯，又閣大大下，弄一下竹篙，喝一聲：「全部▢起來，排做兩隊。」話講煞但但，遮个鴨仔趕緊一隻一隻▢上溪埔，那親像經過訓練个軍隊哩，逐隻鴨仔幌啊幌，搖啊搖，肥肥个尻川撽一下撽一下，閣排做兩大隊·汝知毋。噫，紲落閣再喝命令，彼鴨仔攏照伊个指揮按呢做啦。\na₂₁/tse¹ bok⁸ hui¹ si⁷ thian¹ soo³·la₁₁ thinn¹ i³·la₁₁/\n「啊！這莫非是天數啦！天意啦！」\nhoo₃₁:/hit⁴ tsun² a²/huann¹ hi² kah₃ to¹ kiong⁵ ber₃ siau²·khir₁₁·lirh₃ tsai¹ m₁₁/ui⁷ tioh⁸ tsit⁴ tsan⁵ tai⁷ tsi³/hit⁴ tsit⁸ am³/i¹ kui¹ am³ bue⁷ khun³·e₁₁/siunn⁷ lai₁₃/siunn⁷ khir³/ khui¹ am³/long² bo⁵ khun³·la₁₁/\n唬！彼陣仔歡喜駕都強卜▢⑧去·汝知毋。為著職層代誌，彼一暗伊歸暗袂睏得，想來想去，歸暗攏無睏啦。\nla₁₁/ te⁷ li⁷ lit⁸/kue¹/tu² x thi⁵ e⁵ si⁵ tsun⁷/tang¹·ping₁₁/thinn¹/tu² x phah⁴ phu² peh⁸/i¹ tsit⁸ e⁵ khang³·khiai₁₁/loh⁸ bin⁵ tshng⁵ kha¹/ uan⁵ a² tsiau³ ku⁷ le⁷/koh₃ theh⁸ tse¹/ma⁵ a²/khirh₃ khioh⁴ ah⁴ nng⁷/tshiu²/tsit⁸ e⁷ tshng¹·lip₁₁ khir₁₁/tsit⁸ e⁷ mo¹·le₁₁/hut⁴ jian⁵ kan¹/ huah⁴ tsit⁸ siann¹ aih₃/ki⁵ kuai³/guan⁵ lai⁵/he¹/ah⁴/tak⁸ tsiah⁴/to¹ sinn¹ nng⁷ liap⁸ nng⁷·la₁₁/tan⁷ si⁷ i¹ uan⁵ a² puann³ sin³ a² puann³ bo⁵ sin³/tsiong⁷ tsia₃₁ ah⁴ bu²/tsit⁸ tsiah⁴ x²/ ka⁷ i¹ kiam² tsa¹·khi₁₁ lai₁₁/tsiah₃ tsai¹ iann² khak⁴ sit⁸/ tak⁸ tsiah⁴ ah⁴ bu²/to¹ sinn¹ nng⁷ liap⁸ nng⁷/hoo₃₁ a₁₁ /hit⁴ tsun⁷ a²/ i¹ sim¹ kuann¹ lai⁷ iah₃ khah₃ uann¹ hi²·loo₁₁/thau⁵ khak⁴ lai⁷/ma² siong⁷ iu⁷ koh₃ phu⁵ khi² hinn¹ i³/tsit⁴ nng⁷ li⁷/tshut⁴·lai₁₁/\n啦。第二日雞拄拄啼時陣，東爿天拄拄扑殕白⑨，伊一下控⑩起來，落眠床跤，員仔照舊例閣提這籃仔去卻鴨卵。手一下伸入去一下摸一下忽然間喝一聲：「噯，奇怪！」原來彼鴨逐隻都生兩粒卵啦。但是伊員仔半信仔半無信，將遮个鴨母，一隻一隻共伊檢查起來，即知影確實逐隻鴨母都生兩粒卵。唬啊，彼陣仔伊心肝內益卡歡喜咯，頭殼內馬上又閣浮起「天意」職兩字出來。\ntsu¹ it⁴ kui³/e⁵ ah⁴ bu²/tsit⁸ mi⁵/sinn¹ nng⁷ liap⁸ nng⁷/ah⁴ a² e⁷ thiann¹/i¹ e⁵ bing⁷ ling⁷/ e⁷\n「朱一貴个鴨母一冥生兩粒卵，鴨仔會聽伊个命令會\n②152",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -763,7 +766,7 @@
 "text": "語言篇\nlong² m⁷ si⁷ tsu¹ it⁴ kui³/tsia¹/ e⁵ gi⁷ bin⁵/ e⁵ tui³ tshiu²/tsuan⁵ poo⁷/pai⁷·loo₁₁/ji⁵ tshiann² kok⁴ te⁷/e⁷\n攏毋是朱一貴遮个義民个對手,全部敗落而且各地个\niu² tsi³/ tsi¹ sir⁷ / tak⁸ ke¹ koh₃ kah₄ i¹ hiong² ing³ /soo² i² i¹ e⁵ kun¹ sir⁷ tsin³ tian²/tsin¹ kin² /bo⁵ tsit⁸\n有志之士,逐家閣佮伊響應。所以伊个軍事進展眞緊,無一\nko³ gerh³/ e⁵ si⁵ kan¹ /tsu¹ it⁴ kui³/ e⁵ se³ lat⁸/e⁷ sai² kong² kui¹ tai⁵ uan⁵ thau⁵/tai⁵ uan⁵ ber² /tsha¹ put⁴\n个月个時間,朱一貴个勢力會使講歸台灣頭台灣尾,差不\nto¹ kiong⁵ berh₃ hah⁴·loo₁₁ khir₁₁/kah₃ gerh⁸ tue²/e⁵ si⁵ tsun⁷/lam⁵ poo⁷/it⁴ tai³/tsuan⁵ poo⁷/i² king¹ tir⁷ eh₃\n多強卜竭⑱落去。駕月底个時陣南部一帶全部已經佇塊\ntsu¹ it⁴ kui³/e⁵ tshiu² lai⁷·loo₁₁/\n朱一貴个手內咯。\nkah₃ goo⁷ gerh⁸ tshue¹/e⁵ si⁵ tsun⁷/lam⁵ poo⁷/ tai⁵ uan⁵/e⁵ tshiu⁷ bak⁸ /tu² tu² a² tshinn¹ iam⁷ x /hong⁷\n駕五月初个時陣,南部台灣个樹木,拄拄仔青炎炎,鳳\nhong⁵ bok³ ia⁷ tu² tu² an₃₃ ni¹/ thing⁵ tioh⁸ tse¹/tsu¹ ang⁵ sik⁴/ e⁵ sik⁴ tshai²/ e⁵ si⁵ tsun⁷/he¹/tai⁷ tsir⁷ jian⁵/\n凰木亦拄拄按呢呈著這朱紅色个色彩个時陣。彼大自然\ne⁵ king² kuan¹/ e⁷ sai² kong² tsin¹ sui²/ tsin¹ khonn³ ai³/ tan⁷ si⁷ mui² tsit⁸ e⁵ soo² tsai⁷/to¹ ta³ tioh⁸ tsin¹ kin²\n个景觀會使講眞媠,眞可愛。但是每一个所在都罩著眞緊\ntiunn¹/e⁵ tsian³ hun⁵/tsu¹ it⁴ kui³/ than³ tsit⁴ e⁵ lian⁵ tsian³lian⁵sing³/e⁵ kun¹ ui¹/tshin¹tsir⁷ki²/tshua⁷tsit⁸\n張个戰。士朱一貴趁職个連戰連勝个軍威,親自己▢一\ntin⁷/e⁵ kun¹ tui⁷/hiong³ tai⁵ lam⁵ hu²/tsin³ kun¹/ i¹ e⁵ tui⁷ ngo²/tsin¹tsing²tsue⁵/kha¹poo¹ tong⁵ x / i³ khi³/\n陣个軍隊向台南府進軍。伊个隊伍眞整齊,跤步堂堂,意氣\ntshiong¹ thian¹/hoo₃₁ a₁₁ /tsiann⁵ sit⁸ u⁷ iann²tsit⁸ e⁵ tshiu²/berh₃long³lip⁸tai⁵ lam⁵hu²/e⁵ se³bin⁷·oo₂₃/\n沖天,唬啊,誠實有影一个手卜弄入台南府▢勢面胡。\nin¹ e⁵ kun¹ tui⁷/tu² tu² lai⁵ kah₃ tai⁵ lam⁵ hu²/hu³ kun⁷ e⁵ tse₃₁ tshun¹gu⁵poo¹/e⁵ si⁵ tsun⁷/khuann³ hit⁴\n個个軍隊拄拄來駕台南府附近个職个春牛埔个時陣,看彼\ne⁵ soo² tsai⁷/kah₃ pat⁸ ui⁷/ bo⁵ sang⁵·lam₃₁ /tiam⁷ tsih⁴ x/lian⁵ kan₃ tsit⁸ tiam² a²/kin² tiunn¹/e⁵khuan²/to¹bo⁵/\n个所在佮別位無相同汝知母,恬寂寂連駕一點仔緊張个款都無。\nenn₂₃/khuann³ tioh⁸ tsit⁴ e⁵ pan⁷ se³ /kam² kak⁴ bok⁸ bing⁵ ki⁵ biau⁷/ ah₃ tsu⁷an₃₃ ni¹/kah₃ tsia⁵/ m⁷ kann²\n咦?看著職个範勢⑲,感覺莫明其妙。益自按呢駕遮毋敢\nkoh₃ tsai³ tsin³·loo₁₁ lirh₃ tsai¹ m₁₁/ hut⁴ jian⁵ kan¹ /u⁷ thiann¹ kinn³ lo⁵ koo² siann¹/he₃₁ /i¹ lam⁵ bian² tioh⁸ liau²\n閣再進咯汝知毋。忽然間,有聽見鑼鼓聲,嘿!伊難免著了\ntsit⁸ kiann¹/kuann² kin²/phai³ ping¹ tsut⁴/khir³ tann² tham³ siau¹ sit⁴/ hann₂₁/li⁷ tsit⁴ e⁵ soo² tsai⁷/ iok⁴ liok⁸/u⁷\n一驚。趕緊派兵卒去打探消息。喏離職个所在約略有\ntsit⁸ li² gua⁷ hng⁷/e⁵ tua⁷poo¹/ e⁵ soo²tsai⁷/hia⁵/kuan⁵ x tah⁴ tsit⁸ e⁵ hi³ tai⁵/ tu² tirh₃ puann¹ hi³/ hu³ kun⁷/\n一里外遠个大埔个所在。遐峘峘⑳搭一个戲台,拄置搬戲,附近\n②155",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -803,7 +806,7 @@
 "text": "語言篇\npeh⁴ sinn³/tak⁸ ke¹ huann¹ hi² kah₃·lam₃₁ / oo₃₁ a₁₁/kong² tann¹/tsip⁴ ma²/khue¹ hok⁸ tiok⁸ lan² han³ lin⁵/e⁵\n百姓逐家歡喜駕·汝知毋。嗚啊!講今職馬恢復著咱漢人个\nthinn¹ kha¹ e⁷·loo₁₁/\n天跤下㉛咯。\nit⁴ kui³/ i² king¹ ting¹ ki¹.loo₁₁/ ke¹ ke¹/ hoo⁷ hoo⁷/ tiam² ting¹/ kat⁴ tshai²/ pang³ phau³/ tse³ tsoo²/ kui¹ loo⁷/\n一貴已經登基咯,家家戶戶點燈結綵、放砲、祭祖,歸路\ntak⁸ ke¹ kinn³ bin⁷/an₃₃ ni¹/bin⁷ a²/tshio³ bun² x /hi² khi³ iong⁵ iong⁵/ tsin¹ lau⁷ liat⁸/tsit⁸ e⁷ mi⁵= si₁₁ le₁₁/\n逐家見面按呢面仔笑吻吻,喜氣洋洋眞鬧熱。一下冥時嚦,\noo₃₁ a₁₁/ kui¹ tai⁵ lam⁵ hu²/ e⁵ tshi⁷ kue¹/ ting¹ a² her²/an₃₃ ni¹/tiam² kah₃ kng¹ pha³ x/ pinn³ tsue³ tsit⁸\n嗚啊!歸台南府个市街燈仔火按呢點駕光炮炮,變做一\ne⁵ put⁴ ia⁷ siann⁵·la₁₁/ tsa¹ poo¹ tsa¹ boo²/lau⁷= e₂₂/ kang⁷ tsinn²= e₁₁ / tak⁸ ke¹ an₃₃ ni¹/ bo⁵ ing⁵/ huann¹\n个不夜城啦。查夫查某老个共呰个㉜,逐个按呢無閒、歡\nhi²/ lau⁷ liat⁸ tsher¹ x/ nau⁷ kah₃ puann³ mi⁵ au₇/\n喜,鬧熱吹吹,鬧駕半冥後。\nit⁴ kui³/ thong² it⁴ tai⁵ uan⁵/ bo⁵ gua⁷ ku²·a₁₁/ buan² tshing¹ tsing³ hu²/ khuann³ kinn³ tse₃₁ tsing⁵ hing⁵/ na²\n一貴統一台灣無外久啊,滿清政府,看見職个情形那\nlai⁵/ na² giam⁵ tiong⁷/ m⁷ si⁷ lirh₃ tsue³ sng².e₁₁/ soo² i²/ tioh⁸ phai³¹ liau² lam⁵ o³ tin³/ e⁵ tsong² ping¹/ na⁵\n來那嚴重,毋是置做▢=个㉝所以著派了南澳鎭个總兵藍\nting⁵ tin¹/ kah₃ tsui² sir¹ the⁵ tok⁴/ si¹ se³ phiau¹/ tai³ ling² tioh⁸ tsit⁸ ban⁷ tshit⁴ tshing¹ lang⁵/ e⁵ tua⁷ ping¹/ tsun⁵\n廷珍佮水師提督施世標,帶領著一萬七千儂个大兵,船\ntsiah⁴/ lak⁸ tsap⁸ gua⁷ tsiah⁴/ iu⁵ tai⁵ liok⁸/ tsin³ kong¹ tai⁵ uan⁵/\n隻六十外隻,由大陸進攻台灣。\ntse₃₁ na⁵ ting⁵ tin¹/ si⁷ tsit⁸ e⁵ put⁴ tsi² pat⁴ ping¹ huat⁴/ e⁵ tshut⁴ mia⁵/ e⁵ bu² tsiong³/ i¹ e⁵ tai⁷ kun¹/\n職个藍廷珍是一个不止捌兵法个出名个武將。伊个大軍,\nberh₃ tshut⁴ huat⁴/ e⁵ si⁵ tsun⁷/ i¹ toh⁸ kau¹ hoo⁷ kok⁴ tsun⁵/ e⁵ tsu² tsiong³/ tsit⁸ hong¹ phue¹/ kau¹ tai³ kong² lin²/\n卜出發个時陣,伊著交予各船个主將一封批,交待講恁\nna⁷ bo⁵ kah₃ puann³ loo⁷·a₁₁/ tsuat⁸ tui³ gua²/ tsit⁴ hong¹ phue¹/ tse₃₁ gim² long²/ bue⁷ sai² ka⁷ a² thiah⁴\n若無駕半路啊,絕對㉞我職封批、職个錦囊,袂使共我拆\nkhui¹·le₁₁/\n開得。\nkok⁴ tsun⁵/ tsu⁷ an₃₃ ni¹/ hun¹ loo⁷·loo₁₁/ than³ tioh⁸ hong¹ se³/ tshiong¹ phua³ hong¹ ing²/ hiong³ tse₃₁\n各船就按呢分路咯,趁著風勢,衝破風湧,向職个\nbok⁸ tit⁸ te⁷/ toh⁸ tsin³ huat⁴·a₁₁/ lai⁵ kah₃ puann³ loo⁷/ kok⁴ tsu² tsiong³/ toh⁸ tsiau³ tioh⁸ i¹ tse₃₁ tsiong¹ kun¹/\n目的地著進發㉟矣。來駕半路,各主將著照著伊職个將軍\n②159",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -813,7 +816,7 @@
 "text": "住民志\ne⁵ bing⁷ ling⁷/ tsiong¹ tsit⁴ tiunn¹ phue¹/ ka⁷ thiah⁴·khui₁₁ lai₁₁/ tsua² bin⁷ tsiunn⁷/ kan¹ na¹ u⁷ sia² kong² tsuan¹\n个命令,將職張批共拆·開來,紙面上干礁有寫講「專\nkong¹/ lok⁸ ni² bun⁵/ goo⁷ ji⁷/ nia⁷ x/ soo² i² tak⁸ tsun⁵/ tsu⁷ an₃₃ ni¹ sinn¹/ m⁷ bian² iok⁴ sok⁴/ tang⁵ tsit⁸ e⁵\n攻鹿耳門」五字但但所以逐船就按呢生毋免約束,同一个\nsi⁵ kan¹/ tsiong¹ tsun⁵/ e⁵ lo⁵ puann⁵ tsiam¹/ ki² hiong³ lok⁸ ni² bun⁵/ tsian⁵ tsin³/ kah₃ hian⁷ tsai⁷/ iau² u⁷ lau⁵\n時間將船个羅盤針指向鹿耳門前進,駕現在天有留\ntsit⁸ ku³ ue⁷/ kong² tsuan¹ kong¹/ lok⁸ ni² bun⁵ / toh⁸ si⁷ ui³ tsia⁵/ lai⁵=e₂₂/\n一句話,講「專攻鹿耳門」,著是對遮來=个。\nbuan² tshing¹ tsing³ hu²/ phai³ na⁵ ting⁵ tin¹/ kong¹ tann² tai⁵ uan⁵/ e⁵ siau¹ sit⁴/ tsit⁸ e⁷ thuan⁵·lai₁₁/ liau²\n滿清政府派藍廷珍攻打台灣个消息一下傳來了\nau⁷ / it⁴ kui³/ tsiu⁷ tsa² tsa²/ phai³ ping¹/ khian² tsiong³/ siu² pi⁷ tioh⁸ kok⁴ iau³ tiam³/ e⁵ soo² tsai⁷/ soo² i² lok⁸\n後,一貴就早早派兵遣將,守備著各要點个所在。所以鹿\nni² bun⁵/ e⁵ kang² khau²/ a⁷ bo⁵ tik⁸ piat⁸/ khir³ ka₂₂ kai³ hong⁵·la₁₁/ ah₃ lak⁸ gerh⁸ tsap⁸ lak⁸/ tsit⁸ e⁷ bo⁵ tsu³\n耳門个港口亦無特別去共戒防啦。益六月十六,一下無注\ni³/ e⁵ tiong¹ kan¹/ tshing¹ tiau⁵/ e⁵ kun¹ tui⁷. a₁₁/ tsuan⁵ lik⁸/tsin³ kong¹ tse₃₁ lok⁸ ni² bun⁵/ bo⁵ kui² tiunn⁵ a²/\n意个中間,清朝个軍隊啊,全力進攻職个鹿耳門,無幾場仔\ne⁵ sio¹ thai⁵/nia⁷ nia⁷/ah₃ lik⁸ ni² bun⁵/toh⁸ hoo⁷ i¹ kong¹·phua₁₁ loo₁₁·lam₂₁/ m⁷ han⁷ tiann⁷ an₃₃ ni¹/sua³.\n个相刣但但,益鹿耳門著予伊攻·破咯汝知毋。毋限定按呢,紲·\nloo₁₁/ koh₃ lian⁵ an¹ ping⁵/ ia⁷ suah₃ hoo₂₂ tsiam³ ling²·khir³· lam₂₁\n落閣連安平亦煞予佔領去汝知毋?\nit⁴ kui³/e⁵ kun¹ tui⁷/khi² gi⁷/liau² au⁷/ long² m⁷ pat⁴ an₃₃ ni/sinn¹/sit⁴ pai⁷·tio₁₁/ua₃₁ he₃₁ sun⁷/\n一貴个軍隊起義了後,攏毋捌按呢生失敗·著哇!彼个時陣\ntse₃₁ ping¹ sir⁷/ e⁵ sir⁷ khi³ tua⁷ tua⁷/siu⁷ sun²·loo₁₁/ ji⁵ tshiann² i¹ kai¹ ki⁷/ lai⁷ poo⁷/ ia⁷ huat⁴ sing¹ tioh⁸\n職个兵士个士氣大大受損咯,而且伊家己內部亦發生著\nkiu³ hun¹/ tsu¹ it⁴ kui³/ toh⁸ kuann² kin²/ tshua⁷ tioh⁸ i¹ tshun¹·e₃₃/ tsia¹ e⁵ poo⁷ tui⁷/ tsiong⁵ tai⁵ lam⁵ hu²/\n糾紛,朱一貴著趕緊▢著伊偆个㊱遮个部隊,從台南府\nhiong³ pak⁴ hng¹/ e⁵ tsir¹ loo⁵/ hong¹ bin⁷/ lai⁵ thiat⁴ thue³/ tsir¹ loo⁵/ toh⁸ si⁷ tsim₃₃ ma²/ e⁵ ka¹ gi⁷·la₁₁/ tai⁵\n向北方个諸羅方面來撤退,諸羅著是職馬个嘉義啦。台\nlam⁵ hu²/ tsai⁷ i¹ e⁵ tshiu² lai⁷/ kan¹ na¹ tsi² u⁷ tsap⁸ gua⁷ lit⁸/ nia⁷ nia⁷/ iu⁷ koh₃ kau¹ huan⁵ i¹ tshing¹ tiau⁵·\n南府在伊个手內干礁只有十外日但但又閣交還伊清朝·\nloo₁₁/\n咯。\nit⁴ kui³/lian⁵ tsian³/lian⁵ pai⁷/kian³ thai⁵/kian³ su¹/ tsau² lai⁵ kau₃ gerh⁸ bai⁵ tham⁵/ e⁵ si⁵ tsun⁷/ i¹ soo²\n一貴連戰連敗,見刣見輪㊲,走來▢月眉潭个時陣,伊所\n②160",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -823,7 +826,7 @@
 "text": "語言篇\nu⁷/ e⁵ poo⁷ ha⁷/ tak⁸ ke¹ long² suann³ kah₃ berh₃ liau²·a₁₁/ kan¹ na¹ tsi² u⁷/ tshun¹ tshing¹ gua⁷ lang⁵/ niu⁵\n有个部下,逐家攏散駕卜了矣,干礁只有偆千外儂,糧\ntshau²/ a⁷ khiam³ kherh⁴/\n草亦欠缺。\nhit⁴ e⁵ si⁵ tsun⁷/ gerh⁸ bai⁵ tham⁵/ u⁷ tsit⁸ e⁵ kio³ tsue³ kau¹ a² ber² tsng¹/ u⁷ tsit⁸ e⁵ lang⁵/ sinn³ iunn⁵/\n彼个時陣,月眉潭有一个叫做溝仔尾庄,有一个儂姓楊,\nmia⁵/ kio³ tsue³ hiong⁵/ kah₃ iunn⁵ hiok¹/ ong⁵ jim⁷ ho⁵/ iunn⁵ tsioh⁸/ in¹ tsit⁴ si³ e⁵ lang⁵/ i² king¹ tsa² tsa²/ pi³\n名叫做雄,佮楊旭、王任何、楊石個職四个儂,已經早早秘\nbit⁸/ thong¹ ti¹ hoo⁷ tshing¹ tiau⁵/ e⁵ kun¹ tui⁷/ tah⁴ ing³ kong² tsu¹ it⁴ kui³/ na⁷ bo⁵ lai⁵/ bian² kong²/ na⁷ lai⁵/\n密通知予清朝个軍隊,答應講朱一貴若無來免講,若來,\nberh₃ ka₂₂ tshinn¹ khim⁵/ uah⁸ liah⁸/ berh₃ lai⁵ hian³ hoo⁷ i¹ tshing¹ tiau⁵·an₃₃ ni¹ sinn¹/ am³ tiong¹/ iok⁴ sok⁴ kok⁴\n卜共生擒活掠,卜來獻予伊清朝·按呢生。暗中約束各\ntsng¹/ e⁵ tsong³ ting¹/ lai⁵ ka₂₂ tau³ sann¹ kang⁷/ kah₃ lun⁷ lak⁸ gerh⁸ tshue⁷ goo⁷·lit₁/ hit⁴ tsit⁸ jit⁸/ iunn⁵ hiong⁵/\n庄个壯丁來共鬥三共,駕閏六月初五·日彼一日,楊雄\ntoh⁸ ke² ho² le²/ tshiann² it⁴ kui³/ lai⁵ kau³ in¹ kau¹ a² ber² tsng¹/ ah₃ toh⁸ thai⁵ gu⁵/ thai⁵ tir¹/ to² iunn⁵/ tsun²\n著假好禮,請一貴來▢個溝仔尾庄,益著刣牛、刣豬、倒羊,準\npi⁷ tsiu² tshai³/ khuan² tai⁷/ huan¹ ging⁵/ kho³ kun¹ in¹ tsia¹/ e⁵ poo⁷ tsut⁴/ kah₃ ng⁵ hun¹/ e⁵ si⁵ tsun⁷/ooh₃/\n備酒菜,款待,歡迎,犒軍個遮个部卒,駕黃昏个時陣,喔!\nhut⁴ jian⁵ kan¹/ suah₃ loh⁸ tua⁷ hoo⁷/ hoo⁷ si⁷ na² tshan¹ tshiunn⁷ kui¹ phun⁵/ lirh₃ piann³·le₁₁· lir₃₃ tsai₃₃ m₁₁/\n忽然間煞㊳落大雨,雨是若親像歸盆置迸咧汝知毋,\ntsiann⁵ tua⁷/ tsit⁸ bak⁸ ni₃₃ a₃₃ ku²/ tsit⁸ si³ kue³/ long² tsik⁴ tsui²/ khah₃ ke⁷/ e⁵ soo² tsai⁷/ lioh⁸ lioh⁸ a²/ tsui²/\n誠大。一目瞬仔久,一四界攏積水,卡下个所在,略略仔水\nkui¹ tshioh⁴ tshim¹/ tsu¹ it⁴ kui³/ tsit⁸ e⁷ khuann³·e₁₁ tsiah₃ kong² tann¹/ berh₃ an₃₃ tsainn₃₃ iunn⁷ tsit⁴ khuan²/\n歸尺深,朱一貴一下看見即講「今卜按怎樣?」職款\ne⁵ hoo⁷/ an₃₃ ni¹/ loh⁸/ berh₃ na³ u⁷ huat⁴ too⁷/ thang¹ tsat⁴ iann⁵·le₁₁/ it⁴ kui³/ sim¹ kuann¹ lai⁷/ toh⁸ tam⁷ poh⁸\n个雨按呢落,卜哪有法度通紮營咧一貴心肝內著淡薄\na² lirh₃ huan⁵ lo²·loo₁₁/ bak⁸ thau⁵/ kat⁴·tse₁₁/ tsiah₃ lirh₃ kong²/ ah₃ bo⁵/ toh⁸ tsiong¹ tse₃₁ poo⁷ tui⁷ hun¹ khui¹/\n仔置煩惱咯。目頭結一下即置講「益無著將職个部隊分開,\nlai⁵ kia³ khng³ eh₃ peh⁴ sinn³ tshu³·e₁₁/ khun³·tsit₁ am₁₁ a₁₁/ iunn⁵ hiong⁵/ thiann¹ tioh⁸ an₃₃ ni₃₃/ an₃₃ ni¹/ ho²·\n來寄囥咧百姓厝裏,睏·一暗仔」楊雄聽著按呢「按呢好\nla₁₁ / bo⁵/to¹ bo⁵ huat⁴ too⁷/thang¹ tsat⁴ iann⁵·a₂₂/tsiam⁷ tshiann²/tua³ tsia⁵/ker³ tsit⁸ mi⁵/ koh₃/ ah₃ toh⁸ lau⁵\n啦,無都無法度通紮營=矣暫且帶遮過一冥閣-。」益著留\ntsu¹ it⁴ kui³/ tua³ in¹ tau¹/ ah₃ i¹ a⁷ bo⁵ pan⁷ huat⁴·lir₃₃/ kah₃ tsia⁵/ to¹ bo⁵ ter³ thang¹ tsat⁴ iann⁵·lir₃₃/ oo₃₁\n朱一貴帶個兜。益伊亦無辦法汝,駕遮都無塊通紮營汝-。哇\n②161",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -833,7 +836,7 @@
 "text": "住民志\na₁₁/ iunn⁵ hiong⁵/thiann¹ tioh⁸ an₃₃ ni₁/ ke² ho² i³/ phai³ tsit⁸ kua² a² hiong¹ ting¹/ lai⁵ ka₂₂ po² hoo⁷/ tsit⁸ hong¹\n啊，楊雄聽著按呢，假好意，派一寡仔鄉丁來共保護一方\nbin⁷/ am³ tiong¹/ tsiong¹ tsui²/ ka⁷ i¹ kuan³ jip⁸ khir³ tsu¹ it⁴ kui⁷/ e⁵ poo⁷ tui⁷/ soo² tua³/ e⁵ tshing³/ lai⁷ bin⁷/\n面暗中將水共伊嚾入去朱一貴个部隊所帶个銃內面，\nliau² au⁷/ tsuann₁₃/ huah⁴ tsit⁸ siann¹ kong² liah⁸ huan² tshat⁴·oo₁₁/ thai⁵ huan² tshat⁸. oo₁₁/ tsiong¹ tse₃₁\n了後就按呢喝一聲講「掠反賊噢！刣反賊噢！」將職个\ngik⁸ tshat⁸/ kai₂₂ pak⁸·khi₁₁ ai₁₁ / sann¹ kinn¹ puann³ mi⁵/ it⁴ kui³/ thiann¹ kinn³ lang⁵ lirh₃ huah⁴/ e⁵ siann¹ im¹/\n逆賊共伊縛·起來。」三更半冥一貴聽見儂置喝个聲音\ne⁵ tiong¹ kan¹/tsiah₃ tsing¹ sin⁵·khi₁₁ ai₁₁·lam₂₁ / hit⁴ e⁵ si⁵ tsun⁷/bak⁸ tsiu¹/nih⁴ kim¹/tsit⁸ e⁷ khuann³/ i²\n个中間，即精神起來汝知毋，彼个時陣，目珠瞬金一下看，已\nking¹ hoo⁷ lang⁵ sang¹ tshiu²/ khun² pak⁸/ tiau⁵· e₁₁·loo₁₁ ler₃₃/ khun² kah₃ tshiunn⁷ he¹/ bah⁴ tsang³·e₁₁/ tsu⁷ an₃₃\n經予儂雙手綑縛椆咧咯咧-，綑駕像彼肉粽哩，就按\nni₁/ tsiong¹ tsu¹ it⁴ kui³/ ka⁷ i¹ sak⁴ jip⁸ khir³ gu⁵ tshia¹ ting²· e₁₁/ ka₂₂ sang³ lai⁵ kau³ tshing¹ tiau⁵/ e⁵ kun¹\n呢將朱一貴共伊捒入去牛車頂裏，共送來佮清朝个軍\niann⁵/\n營。\niunn⁵ hiong⁵/ kian³ tioh⁸ tsit⁴ e⁵ tai⁷ kong¹ loo⁵·loo₁₁/ ah³ iu⁵ na⁵ ting⁵ tin¹/ kah₃ tsir⁷ ki²/ lai⁵ ka⁷ sim² mng⁷/\n楊雄建著職大功勞咯，益由藍廷珍佮自己來共審問\ne⁵ si⁵ tsun⁷/ tsu¹ it⁴ kui³/ lian⁵ tshuah⁴·tsit₁ e₁₁/ to¹ bo⁵/ tsir⁷ tsai₂₃ tsir⁷ tsai⁷/ na⁵ tsiong¹ kun¹/ khuann³ i¹ hiah₃\n个時陣，朱一貴連掣·一下都無，自在—自在，藍將軍看伊遐\nkau² kuai³/ kio³ i¹ kui⁷·loo₁₁/ it⁴ kui³/ bak⁸ tsiu¹/ ka⁷ i¹ kang³·tsit₁ e₁₁/ m⁷ han⁷ tiann⁷ bo⁵ tsiong⁵ i¹/\n狡怪，叫伊「跪落！」一貴目珠共伊㉙睭·一下，毋限定無從伊，\nhuan² tng² lai⁵ ma⁷ i¹ na⁵ ting⁵ tin¹/ kong²/ gua²/ si⁷ tai⁵ bing⁵/ e⁵ peh⁴ sinn³/ kin¹ na₃₃ lit⁸ berh₃ lai⁵ khi² gi⁷/ hok⁸\n反轉來罵伊藍廷珍講「我是大明个百姓，今旦日卜來起義，復\nkok⁴/ ah³ lin²/ si⁷ tong⁵ x/ e⁵ tai⁷ tiong⁷ hu¹ oo₂₃/ kam¹ sim¹/ lai⁵ jin⁷ tshat⁸/ tsue³ tsu²/ an₃₃ ni₁/ lin² bue⁷\n國；益恁是堂堂个大丈夫胡，甘心來認賊做主，按呢恁袂\nkian³ siau³/ si⁷· m₁₁/\n見·笑是毋？」\nsuah³ tian¹ to³ lai⁵ ma⁷ i¹ na⁵ ting⁵ tin¹/ i¹ uan⁵ na² si⁷ han³ jin⁵·la₁₁/ na⁵ ting⁵ tin¹/hoo⁷ i¹ tsit⁸ e⁷\n煞顛倒來罵伊藍廷珍（伊員仔是漢人啦）。藍廷珍予伊一下\nbu² jiok⁸/ tua⁷ siu⁷ khi³· loo₁₁/ bing⁷ ling⁷ kong² ka⁷ ham² kha¹ kut⁴/ kau² kuai³/ lir²/ m⁷ kui⁷ tit⁸ x/ ka⁷\n侮辱，大受氣咯，命令講「共砍跤骨！狡怪，汝毋跪！」直直共\nlong³ kha¹ kut⁴/ long³ kah₃ i¹ an₃₃ bue⁷ khia⁷/ tsiah₃ kui⁷·loo₁₁/\n挵跤骨，挵駕伊按呢袂徛，即跪落。\n②162",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -843,7 +846,7 @@
 "text": "語言篇\ntse¹/ si⁷ bio⁵ huan²/ e⁵ tua⁷ huan⁷/ soo² i²/ i¹ ia⁷ m⁷ kann² sui⁵ pian⁷/ ka⁷ tshir² ti³/ tsuan₁₃\n這是謀反个大犯，所以伊亦毋敢隨便共伊處置，就按呢\nka₂₂ ah⁴ sang³/ khirh₃ kinn¹ siann⁵/ pak⁴ kinn¹/ liau² au⁷/ tshir³ si² hing⁵/ hit⁴ tsun¹/ tsu¹ it⁴ kui³/ tsiah₃\n共押送去京城北京。了後，處死刑。彼陣朱一貴即\nsann¹ tsap⁸ sann¹ her³/ nia⁷ nia⁷/\n三十三歲但但。\ntsu¹ it⁴ kui³/ tsue³ sann¹ lit⁸/ e⁵ hong⁵ te³/ tai⁵ uan⁵/ lik⁸ sir² siong⁷/ thau⁵ tsit⁸ pai²/ huan² tshing¹ hok⁸ bing⁵/\n朱一貴做三日个皇帝，台灣歷史上頭一擺反清復明\ne⁵ un⁷ tong⁷/ tsiu⁷ an₃₃ kiat⁴ sok⁴/ au⁷·lai₁₁/ tai⁵ uan⁵/ u⁷ liu⁵ hing⁵ tsit⁸ siu²/ e⁵ kua¹/ serh⁴ kong² hit⁴ e⁵\n个運動，就按結束。後來台灣有流行一首个歌，説講彼个\nsi⁵ tsun⁷/ na² tshan¹ tshiunn⁷ tham⁵ hua¹·le₁₁/ tsit⁸ e⁷ khui¹/ liam⁵ mi¹ tsiu⁷ bo⁵·khir₁₁/ kong²\n時陣那親像曇花哩，一下開，連鞭就無去，講-\nthau⁵/ ti³/ bing⁵ tiau⁵ bo⁷/\n頭戴明朝帽\nsin¹/ tshing⁷/ tshing¹ tiau⁵ hok⁸/\n身穿清朝服\ngoo⁷ gerh⁸/ tshing¹ ing² ho⁵/\n五月稱永和\nlak⁸ gerh⁸/ hing⁵ khong¹ hi¹/\n六月還康熙\n註：\n①帶：住。\n②刣：殺。\n③糟踢：糟踏，蹂躪。\n④趥：爬高。如peh⁴suann¹〔趥山〕：爬山；peh⁴tshiu⁷〔趥樹〕：爬樹；peh⁴kuan⁵〔趥峘〕：爬高。\n⑤啄龜：打瞌睡。\n⑥善善：疲倦的樣子。\n⑦伸勻：伸懶腰。\n⑧狗：瘋。\n⑨扑殕白：拂曉，天魚肚白。\n⑩控：爬。\n⑪凸風：吹牛。\n⑫嘐韶：謊言。\n⑬啉：喝。消\n②163",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -861,7 +864,7 @@
 "text": "語言篇\n3.6.3 方言標本之二\n編　　號：新竹77\n發音人：鄭煙地\n出生年：1915年\n祖　　籍：漳州平和縣，雍正時遷彰化，嘉慶時遷新竹\n成長地：世居新竹市\n職　　業：印刷，地理師\n教育程度：新竹第二公學校畢業\n熟習語文：日文、日語、華文\n發音日：1991年7月\n採訪人：洪惟仁、張德南\n記　　音：洪惟仁\n【方言特色】\n新竹77鄭煙地與新竹76鄭衍宗同年，爲編號區別，編爲新竹77。\n新竹77的音韻系統和新竹76的音韻系統完全相同。唯特殊字的讀法有些參差。比如語料上收錄的「縣」字，用在「宜蘭縣」唸kuan⁷，用在「縣長」唸kuainn⁷。\n新竹76的元音相當穩定，不論緩讀急讀，元音音値都差不多，但新竹77的央元音-ir急讀時會變-i。\n汝lir²₃₁｜急讀爲lih₃/lirh₃/li₃₁｜新竹76爲lirh₃\n佇tir⁷₁₁｜急讀爲ti₁₁｜新竹76爲tir₁₁\n去khir³₃₁｜急讀爲khih₃/kirh₃/khi₃₁｜新竹76爲khirh₃\n起去khi₃₁.khir₁₁｜急讀爲khi₃₁.i₁₁｜新竹76爲khi₃₁\n佇塊tir⁷₁₁ter³₃₁｜急讀爲lih₃〔置〕｜新竹76爲lirh₃\n至於其他的變化和新竹76差不多，如：\n即（才）tsiah₃｜閣koh₃｜卡khah₃｜卜berh₃｜就按呢tsuan₁₃/₂₃\n新竹77也有-enn韻，只用於語助詞，如：\n嗯enn₁₁｜呢ne₁₁｜係henn₁₁\n但實詞沒有-enn韻。「按呢」一定説an₃₃ ni₁。此外沒有蒐集到-enn韻的實詞。\n②165",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1034,7 +1037,7 @@
 "text": "住民志\n｜三十六字母｜｜｜二十三字母｜｜｜十五音\n｜全清｜半濁｜全濁｜全清｜半濁｜全濁｜\n牙｜見｜｜群｜見｜｜群｜求k\n｜溪｜｜｜溪｜｜｜去kh\n音｜｜疑｜｜｜疑｜｜語g/ng\n舌｜端知｜｜定澄｜端｜｜定｜地t\n｜透徵｜｜｜透｜｜｜他th\n｜｜泥娘｜｜｜泥｜｜柳 l/n\n音｜｜來｜｜｜來｜｜柳\n齒｜精照｜｜從｜精｜｜從｜爭ts\n｜清｜｜｜清｜｜｜出tsh\n｜心審｜｜邪禪｜心｜｜邪｜時s\n音｜｜日｜｜｜日｜｜入j\n喉｜影｜｜喻｜影｜｜喻｜英\n音｜曉｜｜匣｜曉｜｜匣｜喜h\n唇｜非｜｜奉｜｜｜｜喜h\n｜敷｜｜｜｜｜｜喜h\n｜幫｜｜並｜幫｜｜並｜邊p\n｜滂｜｜｜滂｜｜｜頗ph\n音｜｜明微｜｜｜明｜｜文b\n三十六字母太複雜，分了舌頭舌上、齒頭齒上，對於查切語、切閩南音並無實益；十五音太簡單，分不出陰陽，而反切的原則是「上字決陰陽、下字定四聲」，分不出陰陽，八音就切不準。鄭舉人折衷爲二十三字母，兼具理論與實際，看出台灣傳統讀書人貫通漢語聲韻學與閩南語聲韻學的努力。\n這套二十三字母比較値得商榷的是泥來二母在閩南語根本不分，分了泥來，對於切閩南音也沒實益，鄭舉人加以區分，大概是爲了理解古音的目的。但非敷奉微四母和幫滂並明四母不同音，非敷奉歸曉匣而爲「喜」\n②182",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "表格"
 ]
@@ -1055,7 +1058,7 @@
 "text": "住民志\n貓iaunn｜—｜鳥iaunn｜\n關uirinn｜梅uinn｜梅uinn｜\n三am(-p)｜覽am(-p)｜杉am(-p)｜\n丹an(-t)｜欄an(-t)｜丹an(-t)｜\n江ang(-k)｜邦ang(-k)｜江ang(-k)｜\n東ong(-k)｜郎ong(-k)｜東ong(-k)｜\n箴irm(-P)｜針irm(-p)｜—｜C歸金韻\n恩irn(-t)｜巾irn(-t)｜—｜C歸春韻\n生irng(-k)｜能irng(-k)｜—｜C歸卿韻\n兼iam(-p)｜廉iam(-p)｜兼ian(-p)｜\n軒ian(-t)｜連ian(-t)｜軒ian(-t)｜\n香iong(-k)｜兩iong(-k)｜香iong(-k)｜\n金iirm(-p)｜林im(-p)｜金im(-p)｜\n賓iirn(-t)｜吝in(-t)｜賓in(-t)｜\n卿iirng(-k)｜令ing(-k)｜卿ing(-k)｜\n春un(-t)｜侖un(-t)｜春un(-t)｜\n川uan(-t)｜⊙卵uan(-t)｜川uan(-t)｜\n由上表可知，新竹81的文讀系統和兩本傳統韻書所記載的泉州文讀音系具有一脈相承的關係。分韻不同的只有一韻，其餘都是音讀變化引起的韻類歸併，少數具有方言差的來源，茲簡述如下：\n一、B魯（效開一）、勞（效開二）分韻，AC歸併爲一韻，讀oo，A文讀系統無o元音，鼻化韻-onn的音値亦是-oonn，陽聲韻-ong(-k)的音値也是-oong(-k) 。但因C的鉤韻讀-io，有o元音，但o和oo沒有音位對立。\n二、AB以央元音爲主要元音的韻母分開齊兩套，即irm(-p):iirm(-p):irn(-t):iirn(-t):irng(-k):iirng(-k) ，但這三套的開口韻C消失了 ，irm(-p)→im(-p)；irn(-k)→un(-t)；irng(-k)→ing(-k)。\n三、文讀音韻母的鼻化成份並非來自古代鼻音韻尾的消失，所有鼻化韻應該都來自中古 m-（明）、n-（泥娘）、ny-（日）、ng-（疑）等鼻音聲母，這四聲母的字，在現代閩南語有的變b、1-、j-、ng-，鼻化成份消失，有的把聲母的鼻化成份轉移到韻母。到底那些字鼻音消失了，那些字在韻母部份保存著鼻音，不是每個泉州方言都一致。B比A少了三個韻，C比A多了一個韻（貌）就是由於這個原因。\n不過A多出 iunn（箱）韻，全韻只有「缶」、「朽」兩字，二字又重見「秋」韻，其具有鼻化成份的讀法是泉\n②184",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1176,7 +1179,7 @@
 "text": "住民志\n因此新竹24的聲母只剩14字頭，「入」字頭消失。\nb.韻母：音韻變化\n新竹老派有八個元音。但新竹24的央元音er→e/ue.ir→i/u，向台灣優勢音靠攏，只剩六個元音。\n新竹81｜新竹76｜新竹24\n稅｜ser₁₁｜ser₁₁｜sue₁₁\n和尚｜her₁₂ siunn₂₂｜her₁₁ siunn₂₂｜heen₁₁ siunn₂₂\n雪｜serh₂｜serh₂｜see₂₁\n坐｜tser₂₂｜tser₂₂｜tse₂₂\n揣（找）｜tsher₂₂｜tsher₂₂｜tshe₂₂\n自｜tsuu₂₂｜tsir₂₂｜tsu₂₂\n思｜suu₃₃｜sir₃₃｜su₃₃\n煮｜tsuu₃₁｜tsir₃₁｜tsu₃₁\n豬｜tuu₃₃｜tir₃₃｜ti₃₃\n鼠｜tshuu₃₁｜tshir₃₁｜tshi₃₁\n新竹24「和尚」唸heen₁₁ siunn₂₂非常奇怪，這是因爲「和」字本應讀he，變音時受到「尚」字鼻音及s的部位的同化，而變heen。\n新竹24也有-ir韻，但和老派「居」韻無關，而是來自國語的借字。如：\n老師lau₁₁ sir₃₃　思考sir₃₃ khau₁₂\n新竹24，「刀」字母-o的讀音大部份變展唇後元音or，舌位稍微偏央，但有時候仍讀o，o/or應算是自由變体，顯示新竹24的o正向or移位。茲按實際發音的記錄摘錄於下：\n老派｜新竹24\n刀｜to₃₃｜to₃₃\n倒退｜to₃₁ ther₁₁｜to₃₁ thue₁₁\n倒反｜to₃₁ ping₃₁｜tor₃₁ ping₃₁\n高麗菜｜ko₂₂ le₁₁ tshai₁₁｜kor₂₂ le₁₁ tshai₁₁\n蠔仔｜o₁₁ a₃₁｜or₂₂ a₃₁\n落雨｜lo₁₁ hoo₂₂｜lor₁₁ hoo₂₂\n②196",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1187,7 +1190,7 @@
 "text": "語言篇\n新竹24不但單元音時常變or，即複元音也常變ior，如：\n老派｜新竹24\n茄｜kio₁₂｜kior₁₂\n秒｜bio₃₁｜bior₃₁\n廟｜bio₂₂｜bior₂₂\n但也可讀io，如\n小妹｜sio₂₃ ber₂₂｜sio₂₃ bee₂₂\n藥仔｜io₁₁ a₃₁｜io₂₂ a₃₁\n石仔｜tsio₁₁ a₃₁｜tsio₁₁ a₃₁\n叫｜kio₁₁｜kio₁₁\n由此可見io/ior也是自由變讀。\n新竹24的介音i有消失的情形。即在ian[ieen]韻時變een，其餘不變。這是台灣中青年普遍的現象不足爲奇。譬如：\n老派｜新竹24\n戰｜tsian₁₁｜tseen₁₁\n憐｜lian₁₂｜leen₁₂\n新竹24的韻尾也有許多變化。最明顯的是喉塞韻尾消失了。如：\n老派｜新竹24\n著｜toh₃｜tor₃₃\n白｜peh₃｜pee₃₃\n食｜tsiah₃｜tsia₃₃\n桌｜toh₂｜tor₂₁\n雪｜serh₂｜see₂₁\n另外，受台北華語的影響，in有時唸ing。如：\n老派｜新竹24\n原因｜guan₁₁ in₃₃｜guan₁₁ ing₃₃\n檳榔｜pin₂₂ nng₁₂｜ping₂₂ lng₁₂\n不過這不普遍，新竹24的in還算穩定。\nc.聲調：九音\n新竹24的聲調也有七個，但和老派比較起來，有很顯著的不同。先將新竹24的主聲調系統列表於下（>左\n②197",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1231,7 +1234,7 @@
 "text": "語言篇\n新竹76｜新竹24｜意義\n天未光｜thinn₃₃ ber₁₁ kng₃₃｜thinn₃₃ ah₃ bue₁₁ kng₃₃｜天未亮\n天卜光｜thinn₃₃ berh₃ kng₃₃｜thinn₃₃ beh₃ kng₃₃｜天快亮\n扑殕光｜pha₃₁ phu₂₃ kng₃₃｜×｜天魚肚白\n天光｜thinn₃₃ kng₃₃｜thinn₃₁ kng₃₃｜天亮\n透早｜thau₃₁ tsa₃₁｜thau₃₁ tsa₃₁｜清晨\n早起｜tsai₃₁ khi₃₁｜tsai₂₃ khi₃₁｜早上\n早頭仔｜tsa₂₃ thau₁₁ a₃₁｜×｜約七、八點\n大晏｜tua₁₁ uann₁₁｜×｜約九至十一時\n卜晝仔｜berh₃ tau₃₃ a₂₁｜beh₃ tau₁₁｜近午時分\n中晝｜tiong₂₂ tau₁₁｜tiong₂₂ tau₁₁｜中午\n過晝｜ker₃₁ tau₁₁｜下晝e₁₁ tau₁₁｜過午\n過午｜ker₃₁ ngo₃₁｜×｜（過午）\n下晡｜e₁₁ poo₃₃｜下晡e11 poo33｜下午\n下晡時｜e₁₁ poo₂₂ si₁₂｜下晝e11 tau11｜（下午）\n半晡｜puann₃₁ poo₃₃｜×｜三、四點\n黃昏｜hong₁₁ hun₃₃｜×｜黃昏\n卜暗仔｜berh₃ am₃₃ a₃₁｜×｜（黃昏）\n點燈酉｜tiam₂₃ ting₂₂ iu₃₁｜×｜酉時、黃昏\n天暗｜thinn₃₃ am₁₁｜下晝thinn₃₃ am₁₁｜天黑\n暗頭仔｜am₃₁ thau₁₁ a₃₁｜下晝am₃₁ thau₂₂ a₃₁｜天剛黑不久\n暗時｜am₃₁ si₁｜下晝am₃₁ si₁₂｜晚上\n冥時｜mi₁₂·si₁₁｜暗冥am₃₁ mee₁₂｜（晚上）\n頂半冥｜ting₂₃ puann₃₁ mi₁₂｜×｜上半夜\n半冥｜puann₃₁ mi₁₂｜puann₃₁ mi₁₂｜半夜，十二點\n翻點｜huan₂₂ tiam₃₁｜×｜十二點多\n下半冥｜e₁₁ puann₃₁ mi₁₂｜×｜下半夜\n半冥後｜puann₃₁ mi₁₁ au₂₂｜×｜兩三點\n冥尾仔｜mi₁₁ ber₃₃ a₂₁｜×｜三四點\n雞啼｜kue₃₃ thi₁₂｜×｜雞鳴時分\n雞叫寅｜kue₂₂ kio₃₁ in₁₂｜×｜（雞鳴時分）\n②201",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1309,7 +1312,7 @@
 "text": "語言篇\ntshi⁷tuu¹/u⁷· loo₁₁/ing²pai²/khioh₃₂tsit⁸e⁵phun¹tsui²/koh₃bo⁵tsio₃₁tshi⁷ianu⁷/ke³khioh₃khann¹thau⁵\n王：飼豬有囉，往擺卻一个潘水閣無職號飼料，皆卻坩頭\nkhann¹ber²/lai⁵tsiah⁸/tshi⁷ni⁵gua⁷/to¹bo⁵hang¹bue:₂₁/ah₃tsin¹siok⁸/tsit⁸pah₃kun¹tuu¹/tsiah₃tsap⁸lak⁸\n坩尾來食，飼年外都無通賣。益眞俗，一百斤豬，即十六\nkhoo¹· e₁₁/lir₃₃kai₂₂siunn₃₁bai⁷=e₂₂koh₃/tsit⁸kun¹/kak⁴lak⁸gun⁵· la₁₁/\n箍咧，汝共伊算眛⑦咧閣-，一斤角六銀啦。\n張：天有種啥麼物件？\noo₁₁a₃₁/an¹tsuu⁵/khah₃tsue⁷/tsim₃₃ma²/tsio²/tsim₃₃ma²/e⁵lang⁵/tsin¹kian¹/tsiann⁵hu³kui³· la₁₁/\n王：芋仔番薯卡儕。職馬少。職馬个儂眞慳⑧，誠富貴啦。\ning²pai²/lang⁵/ma⁷bo⁵tsim₃₃ma²/e⁵kau²/tsiah⁸ha₃₃ho²/tsiann⁵uann²ber⁵/lo¹m⁷kam¹hinn³sak⁴/\n往擺儂嘛無職馬个狗食遐好。成碗糜都毋甘擜掉⑨。\nsin⁷\n董：牽牛个時陣乎，儂予汝食啥麼物？\nuan₂₂na₃₃tsiah⁸an¹tsuu⁵ber₁₃/berh₃tsiah⁸sann²/\n王：員仔食番薯糜，卜食啥？\n董：配啥麼菜？\nbo₁₃· a₁₁/phor³huu₁₂/tsiah⁸huu₁₂/khah₃tsue⁷/hit⁴tsun₂₂a₃₁/huu⁵/gua⁷siok⁸· a₂₁/gun²/e⁵tshiu²· e₁₁/lerh₃\n王：無啊，配魚食魚卡儕。彼陣仔魚外俗啊，阮个手裏咧\nliah⁸· honn₂₁/hoo₃₁a₁₁/sua₁huu₁₃· honn₂₁/kah₃jit⁸/am³/lai₁₂/gua²ke³tsit⁸kak⁴gun⁵/bue⁷tshit⁴kun¹/ah₃\n掠乎，唬啊，鯊魚乎，駕日暗來，我皆一角銀賣七斤。益\ntann¹· khuu₁₁honn₂₁/bo⁵siann²her³/thang¹ping¹/bo⁵bue⁷/uan₂₂na₃₃bue⁷ing⁷· e₁₁/ m⁷ guan⁷tann¹· to₁₁\n擔去乎，無啥貨通冰，無賣員仔袂用得，毋願擔倒\nai₁₁/ke³ma⁷bue⁷x/hinn³sak⁴/\n來皆嘛賣賣擜掉。\ning²pai²/huu₁₂/koh₃tsiann⁵kau⁷· ler₃₃/an₃₃ni¹/tshut⁴mng⁵· honn₂₁/tsit⁸jit⁸/ke³kui²lo⁷pah₃kun¹/goo¹\n往擺魚閣誠厚咧。按呢出門乎，一日皆幾何百斤，五\nlak⁸ e⁵/liah⁸· eh₃/\n六个掠咧-。\n董：牽罟？\nbo⁵/ gua⁷ hai²· e₁₁/ koo¹/si⁷tuu⁷eh₃suann³ ting²/gun²/tho²he¹/gua⁷hai²/toh⁸li⁷tsin¹khui¹/\n王：無，外海。罟是佇塊汕頂⑩，阮討彼外海著離眞開\nsinn⁷\n張：魚掠傷儕有鹽⑪·起來無？\nphai²thinn¹si⁵/long²pher³kiam₁₁=e₃₃/khah₃tsue⁷/khah₃bo⁵tsuu²tshai³· la₁₁/tsuan₂₂tsuan₂₂pher³\n王：歹天時攏配鹹个卡儕。卡無煮菜啦，專專配\n②209",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1509,7 +1512,7 @@
 "text": "語言篇\n3.7.5 方言標本之八\n編號：油車港30\n發音人：蘇瑞凱\n生年：1961年\n記音點：新竹市港南里\n地名俗稱：油車港\n成長地：世居本地\n祖籍：南安\n職業：木工\n教育程度：高中\n發音日：1991年7月\n採訪人：董忠司、徐士賢、蔡錦雀\n記音：洪惟仁、蔡錦雀\n【方言特色】\n油車港30代表油車港的新派。這新派在語音、語彙、語法上都有相當大的變化，茲分述於下：\n1.聲母：十四音\n油車港30凡十五音的「入」母全歸「柳」母(l-)。如：\n字｜li₂₂｜日｜lit₃｜熱｜luah₃\n故十五音只剩十四音。\n2.韻母：\n油車港的元音只有六個，即：\na、e、i、oo、or、u\n老派的央元音er、ir/uu全部消失，所屬的字分散向台灣優勢音靠攏。如：\n②229",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1520,7 +1523,7 @@
 "text": "住民志\n老派｜新派｜優勢音\n豬｜tir₃₃｜tiD₃₃｜ti₃₃\n鼠｜tshir₃₁｜tshiD₃₁｜tshi₃₁\n呂｜lir₂₂｜liD₂₂｜li₂₂\n慮｜lir₂₂｜luD₂₂｜lu₂₂ / li₂₂\n煮｜tsir₃₁｜tsuD₃₁｜tsu₃₁\n據｜kir₁₁｜ku₁₁｜ku₁₁ / ki₁₁\n自｜tsir₂₂｜tsu₂₂｜tsu₂₂\n史｜sir₃₁｜su₃₁｜su₃₁\n回｜her₁₂｜hue₁₂｜hue₁₂\n糜｜ber₁₂｜bue₁₂｜mue₂ /muai₁₂\n妹｜ber₂₂｜bue₂₂｜mue₂₂ / muai₂₂\n卜｜berh₂｜beh₂｜beh₂(要)\n當然油車港30不會完全向優勢音靠攏，有一部是按著自己的規律在變化。這個規律大体是ir→i，er→e。如：\n老派｜新派｜優勢音\n空課｜khang₂₂ khir₁₁｜khang₂₂ khi₁₁｜khang₂₂ khue₁₁(工作)\n揳粿｜khue₃₂ ker₃₁｜khue₃₁ ke₃₁｜e₂₂ kue₃₁\n油車港八個元音之中，o的音值亦變得展唇化→or，這是新竹新派的一個普遍現象。也許是前元音有e、i兩個，後元音有oo、o、u三個不太平衡，央元音er變e之後，以o→or取代er的地位，使得圓唇後元音剩下oo、u二個，和展唇e、i二個取得平衡的緣故。\n油車港30的e音也有一個奇特的變化。e在齒音以外的任何音之後如保存e音，如：「父」pe₂₂、「短」te₃₁、「下」(低)ke₂₂「(高)麗」le₁₂，但在齒音之後全部多出一個齊齒介音。如：\n坐｜tsie₂₂｜戰｜tsien₁₁\n揣｜tshie₂₂｜千｜tshien₃₃\n雪｜sieh₂｜先生｜sien₂₂ sinn₃₃\n②230",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1593,7 +1596,7 @@
 "text": "語言篇\nsuu⁷₂₂tshi³₃₁giam⁷₁₁tiunn⁵₁₂/e⁵₂₂kang²₂₃sip⁸₁sing¹₃₃·la₁₁/hak⁸₁sing¹₃₃/long²₂₃tsong²₃₁/u⁷₁₁sann¹₂₂si³₃₁pa⁴₃₁e⁵₁₂/\n事試驗場个講習生啦。學生攏總有三四百个。\ntsoh⁴ toh⁸ toh⁸\n汝：汝讀農个，恁老父就按呢共汝買一塊土地予汝作著著啦乎？\ngun²₂₃lau⁷₁₁pe⁷₂₂/i¹₂₂kann²₂₃na₃₃khia⁷₁₁sng³₃₁si⁷₁₁tsip⁴₃ma²₃₁/ho⁷₁₁tsue³₃₁thoo²₂₃tue⁷₁₁huan³₁₁/i¹₂₂na⁷₁₁tsinn⁵₁₃/\n朱：阮老父，伊敢那徛算是職馬號做土地販。伊若錢\nu⁷₂₂·tam₁₁po₁₁/tioh⁸₁thoo²₂₃tue⁷₂₂/ka₂₂bue²₃₁·lai₁₁/ah₃kin²₂₃khui¹₂₂khun²₃₁/kin²₂₃thang¹₂₂tsoh⁴₂/koo²₂₃\n有・淡薄，著土地共買來，益緊開墾，緊通作。古\ntsa²₃₁/tsit⁴₄e⁵₂₂soo²₂₃tsai⁷₂₂/tsiah₃lak⁸₁tsioh⁸₁tsoo¹₃₃/lak⁸₁tsioh⁸₁tsoo¹₃₃/khui¹₂₂kah₃pa⁴₃₁ji⁷₁₁tsioh⁸₃/long⁵₁₁giap⁸₂₃/\n早職个所在即六石租。六石租、開駕百二石農業\ntsin¹₂₂kan¹₂₂khoo²₃₁/e⁵₂₂khang¹₂₂kher³₁₁/\n眞艱苦个空課。\n洪：六石租是啥麼？\nlak⁸₁tsioh⁸₃/lak⁸₁pah⁴₃₁kun¹₃₃/tsit⁸₁ni⁵₁₂/tsiah₃u⁷₁₁thang¹₂₂siu¹₂₂sing⁵₁₁lak⁸₁pa⁴₃₁kun¹₃₃/na⁷₁₁nia⁷₂₂/gun²₂₃lau⁷₁₁\n朱：六石六百斤一年即有通收成六百斤但但。阮老\npe⁷₂₂/mui²₂₃ni⁵₁₂/tit⁸₁xkhui¹₃₃/tit⁸₁ x khui¹₃₃/khui¹₂₂kah₃pa⁴₃₁ji⁷₁₁tsioh⁸₃/ji⁷₁₁tsap⁸₁per⁷₂₂·koh₃·a₁₁/\n父每年直直開，直直開，開駕百二石，二十倍・閣-啊！\ntsioh⁸\n洪：一石是一百斤？\ntsit⁸₁pa⁴₃₁kun¹₃₃/tsit⁸₁tsioh⁸₃/\n朱：一百斤一石。\ntong¹\n洪：一甲當收外儕？\ntsit⁸₁kah⁴₃₁tong¹₃₃/ma⁷₁₁si⁷₁₁tsha¹₂₂but⁴₃₁o¹₂₂si³₂₁tsap⁸₁tsioh⁸₃/e⁵₂₂thing⁵₁₁too⁷₂₂/na⁷₁/nia⁷₂₂pa⁴₃₁ji⁷tsioh⁸₃/to⁸₁₁sann¹₂₂\n朱：一甲當嘛是差不多四十石个程度但但。百二石著三\nkah⁴₂/\n甲。\ntsioh⁸\n洪：益汝講六石是外闊？\ntsin¹tsio²·la₁₁/sui⁵pian⁷/u⁷tsui²/e⁷tsing³tsoh⁴/e⁵soo²tsai⁷/\n朱：眞少啦，隨便有水會種作个所在。\ntoh⁸ tioh⁸\n洪：無限定外闊著著啦乎？\nbo⁵·la₁₁\n朱：無啦。\n②237",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1695,7 +1698,7 @@
 "text": "語言篇\n猴仔kau₁₁ a₃₁\n蠔仔o₁₁ a₃₁｜賊仔tshat₁ la₃₁\n芋oo₁₁ a₃₁｜藥仔ioh₁ a₃₁\n「仔」輕聲調固定爲31調，但「仔」前字調保存主聲調的原變調。\n【語料】\nthak⁸ am³ tsuu¹\n讀　暗　書\n呂灶　自述\ngua₃₂/hit₃ e₁₁ si₁₁ tai₂₂/am₃₂ tsuu₃₃/si₁₁ kim₃₁ tsi₃₁·la₁₁/tsuan₁₁ poo₁₁ ke₃₁ siu₁₁ lit₁ pun₂₃ kau₃₂ iok₃/tan₁₁ si₁₁\n我彼个時代暗書①是禁止啦，全部皆受日本教育。但是\ngua₃₁/hit₃ tiong₂₂ kan₃₃/kah₃ kok₃ bin₁₁ hak₁ hau₂₂/goo₁₁ ni₁₂·honn₂₁/tsiah₃ khuu₃₂ thau₂₂ thak₁ am₃₂ tsuu₃₃/tsue₃₁\n我彼中間，駕國民學校②五年乎，即去偷讀暗書。最\nte₁₁ it₃ thau₁₁ tsit₁ e₁₃/e₁₁ lau₁₁ suu₃₃/to₁₁ si₁₁ tsai₁₁ gun₂₃ tsng₂₂ lai₂₂/e₁₁ tsit₃ e₁₁ khoo₂₃ tsun₃₁ khing₃₃/phoo₂₃\n第一頭一个个老師著是在阮庄内个職个許俊卿，普\nthong₃₃/tak₁ ke₂₂ kio₃₂ i₂₂ tik₃ ong₁₁ sian₃₃/ah₃ i₂₂ tsiann₃₁ mia₁₃/si₁₁ khoo₂₃ tsun₃₂ khing₃₃/\n通逐家叫伊德旺先③，益伊正名是許俊卿。\ntsit₃ e₁₁ lau₁₁ suu₃₃/tong₂₂ si₁₂·a₁₁/iu₂₂ uan₂₂ na₃₃ u₁₁ kuann₁₁ tiunn₁₁ na₁₂/borh₃ kah₃ lang₁₁ hu₃₁\n職个老師，當時啊，猶員仔有▢④場籃⑤卜佮儂赴\nkho₃₁·luu₂₂ tsai₂₂ m₁₁/ah₃ si₁₁ in₂₂ ui₁₁ tsit₁ e₁₁ hit₃ e₁₁ kuan₂₂ he₂₂/loo₁₁ bor₃₁/suah₃ tsiu₁₁ a₃₃ ni₃₃/tshu₂₃\n考。汝知毋。益是因爲一个彼个關係落尾⑥煞就按呢取\nsiau₃₃/bo₁₁ khuu₁₁/gua₃₁/soo₂₃ khuann₁₁=e₁₁/i₂₂ soo₂₃ sia₃₁/e₁₁ li₂₂/uan₂₂ na₃₃ it₃ tshe₁₁/long₂₃ si₁₁ khai₂₃\n消，無去。我所看見，伊所寫个字，員仔一切攏是楷\nsuu₃₃/tik₁ piat₁ ho₃₁ e₁₁/to₁₁ si₁₁ tshun₃₂ li₂₂/i₂₂ teh₃ ka₃₂ tsuu₃₃/e₁₁ si₁₂·honn₂₁/ka₁₁=e₁₁/na₁₁ thak₁ u₁₁\n書，特別好个著是寸字。伊塊教書个時·乎，教个若讀有\nsik₃/gua₃₁/to₁ mo₁₁ pit₂/giah₁ khi₃₃ ai₁₁ sia₃₁/borh₃ theh₁ hoo₂₂ kai₃₁ honn₂₁/ka₁₁ a₃₃ kong₂₃/hahaha₂₂₂₁/\n熟，我著毛筆攑起來寫，卜提予伊改乎，共我講「啊哈！\nhui₃₂ kai₃₁·a₁₁/m₁₁ ka₁₁ a₃₃ kai₃₁/\n費改啊！」毋共我改。\n②247",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1715,7 +1718,7 @@
 "text": "語言篇\n3.8.4 方言標本之十一\n編號：大庄21\n發音人：呂立仁｜生年：1970年\n成長地：世居本庄\n祖籍：不明。道光時遷來至今\n職業：學生\n教育程度：新竹縣新豐鄉明新工專在學中\n發音日：1991.8.29\n採訪人：洪惟仁\n記音：洪惟仁\n【方言特色】\n大庄21和大庄19是兄妹，大庄80之孫。但三代之間，語言變化極大。呂氏兄妹家居説話華、台語夾雜使用，無法以完全的台語表達，説台語必須夾雜大量華語詞彙、甚至整句華語。他們甚至連自己的姓名都不知道台語怎麼説。口語中殘存的台語、無論語音、詞彙、句法都有極大的變化。茲僅就語音部份略述於下：\na.聲母：十四音\n「入」母全歸「柳」母(l-)，只剩十四音。如：\n日lit₃｜熱luah₂₂\nb.韻母：\n元音有六個。即：\na、e、i、oo、or、u\n祖父的「▢」韻-o，大庄21唸展唇後元音or，而祖父的or屬「科」韻。大庄21唸e/ue，祖父的「居」韻-uu，唸i/u，均向台灣優勢音靠攏。\n「軒」韻介音消失，唸een/eet。如：\n戰爭tseen₃₂ tsing₃₃｜結黨keet₃ tong₃₁\n蓮藕leen₁₁ ngau₂₂\nc.聲調：\n②249",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1736,7 +1739,7 @@
 "text": "語言篇\na、ee、i、oo、or、u\n前中元音ee比大庄80、21都低。or也展唇化。老派的uu變i或u，or變e或ue，向優勢音靠攏。「軒」韻介音消失，變een。變化方向和大庄21一致。\n韻母im，in，ing；ip，it，ik的發音部位有後向同化趨勢，即和後字聲母的部位相同。下面左列爲變讀，右列保存原音。\n人蔘 lin₁₁ sing₃₃　蔘仔 sim₂₂ ma₃₁\n收音機 siu₂₂ ing₂₂ ki₃₃\n習慣 sik₁ kuan₁₁\n直▢ tik₂₂ gee₂₂　直直 tit₁ tit₃\n歷史 leet₁ su₃₁　竹仔 tik₃ ga₃₁\n蓮藕 leeng₁₁ ngau₂₂\nc.聲調：七音\n主聲調七個，其調値和大庄21大同小異，差異有：\n1.陰上變調23/33自由變讀，蒐集到的例子，如：\n扁扁 pinn₃₃ pinn₃₁　抵抗 te₂₃ khong₁₁\n啞口 e₃₃ kau₃₁　買賣 bue₂₃ bue₂₂\n2.入聲本調偶爾保存喉塞音，多半喪失喉塞音。下面左列保存、右列喪失：\n熱 luah₂₂　薄 poo₂₂\n白 peh₂₂　脈 mee₂₂\n伯 peh₂　提 the₂₂\n血 hu˙₂₁\n雪 see₂₁\n陰入調直爲2/21，陽入調値爲22/3/23，自由變讀，跟祖父的調値差很多。\nd.「仔」輕聲\n大庄19和大庄21最大的差別在於「仔」輕聲。大庄21的「仔」輕聲爲固定高降調(31)，大庄19則爲隨前變調，有高降調(31)，有中降調(21)其仔前後調配置呈「翹翹板現象」。茲舉例比較如下：\n②251",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1757,7 +1760,7 @@
 "text": "語言篇\n洪：佮爸爸呢？\nu₁₁ si₁₂/kong₂₃ tai₁₁ gi₃₁/u₁₁ si₁₂/kong₂₃ kok₃ gi₃₁/\n立仁：有時講台語，有時講國語。\nkong₂₃ kok₃ i₃₁/khah₃ tsue₂₂/io₁₁ sii₂₃ hor₃₁/tshan₃₃ tsa₂₃ i₃₃ sie₃₃/hio₃₁ tai₁₁ i₃₁・a₂₂/henn₁₁/tsiang₃₁/\n美珍：講國語卡儕。『有時候摻雜一些』彼號台語啊。嘿『這樣』。\nkiann²\n洪：摻摻濫濫做伙講・乎？後擺汝會教恁囝講台語或是國語？\ntai₂₂ uang₂₂ ue₂₂/a₁₁ ai₃₁ ka₁₁・a₂₂/\n美珍：台灣話亦愛教啊。\nah³　a\n洪：益汝有个話都袂曉講=矣卜按怎？\nherh₁ herh₃ herh₃ e₁₁ hiau₂₃ kong₃₁・e₁₁/to₁₁/ ai₃₁ ka₁₁/bue₁₁ hiau₃₃ kong₃₁・e₁₁/to₁₁ tsai₃₁ suo₃₃/herh₁\nherh₃ herh₃\n美珍：嘻嘻嘻…會曉講个著愛教，袂曉講个著…『再說』嘻嘻嘻…\n洪：袂曉講=个著愛學・啊，汝無講。\nhor₃₁/herh₁ herh₃ herh₂\n美珍：好，嘻嘻嘻…\ngau⁵ tsiap⁸\n洪：恁阿公足爻講=个。卡習佮伊講・咧。\nhm₁₁/\n美珍：嗯。\na⁷\n洪：汝會感覺講汝若放棄台灣話會按怎，或是無啥麼？\ngua₃₃ kam₃₃ kak₃ tsiok₃ kho₂₃ sioh₂ e₁₁/ sau₁₁ i₃₃ tsong₁₁ yu₁₁ en₁₂ a₂₂\n立仁：我感覺足可惜=个。『少一種語言啊』。\n洪：『大家統一啊，吃統一麵』。\nthong₁₁ i:₃₃₃ /kan₁₁ tsyue₂₃ min₁₁ nan₂₃ yu₁₁ pi₁₁ tsiau₃₁ io₁₁ tshin₃₃ hor₂₃ li₃₁/ta₃₁ tsia₃₃ tsai₃₁ i₃₃ tshi₁₁\ntsiang₁₁ thai₂₃ yu₁₁/tsern₃₃ ter₂₁/pi₁₁ tsiau₃₁ io₁₁ tshin₃₃ hor₂₃ li₃₁/\n立仁：『統一…？感覺閩南語比較有親和力。大家在一起講台語，眞的，比較有親和力』。\nhe¹\n洪：但是後擺若講了慣勢，著變『國語比較有親和力』啊，彼是慣勢个問題啊。\nkho₂₃ ling₁₃/si₁₁ an₃₃ ni₃₃/\n立仁：可能是按呢。\n②253",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1767,7 +1770,7 @@
 "text": "住民志\n洪：汝聽著台語著想著阿公毋？\nsue₃₁ han₁₁/tiann₁₁ tiann₁₁ kong₂₃ tai₂₂ gi₃₁・ma₁₁/sang₃₁ syue₂₃ io₁₁ sii₂₃ ho₃₁/lau₁₁ sii₃₃hue₃₁ tsiang₁₁ suo₃₃\ntsai₃₁ tsiau₃₁ sii₃₁ li₁₁ puh₃ nng₂₃ tsiang₁₁ thai₂₃ yu₁₁・a₂₂/\n立仁：細漢定定講台語嘛。『上學有時候老師會講說在教室裏不能講台語啊。\n洪：有罰錢・無？\nhuat₁ tsinn₁₂/bue₂₂・la₁₁/si₁₁ bue₁₁ huat₁ tsinn₁₂/si₁₁ lau₁₁ sii₃₃/e₁₁ kong₃₁・tsit₁ e₁₁/a₁₁ nia₂₂/\n立仁：罰錢？袂啦，是袂罰錢，是老師會講一下但但。\n洪：恁（美珍）學校有咧罰錢無？\nua₃₁ a₁₁ bo₁₁ hoo₂₂ huat₂・tio₁₁ a₁₁/khor₁₁ sii₃₁/thann₃₃ na₃₃・ker₂₂ me₁₁ i₃₃ pan₃₃ puh₃i₂₃ iang₃₁/\n美珍：我也無予罰著啊。『可是，他那个每一班不一樣』。\n洪：是外省老師个班或是台灣老師个班？\nuo₂₃ ie₁₁ puh₃ tsii₃₃ tau₃₁/hau₁₁ siang₃₁ to₃₃ sii₃₁ uai₃₁ sng₁₁・ter₂₁/\n美珍：『我也不知道。好像都是外省的。』\nhe₃₃/lau₁₁ sii₃₃・honn₂₁/m₁₁ pat₃ thiann₂₂ i₂₂ kong₂₃ ke₃₁ min₁₁ nan₂₃ yu₁₁・a₂₂/to₃₃ sii₃₁ tsiang₁₁kuo₂₃yu₁₁/\nthing₃₃ puh₃ tshu₃₃ lai₂₃/\n立仁：彼老師乎，毋捌聽伊講過『閩南語啊。都是講國語。聽不出來』。\n洪：『他們有沒罰你錢』？\nuo₁₁ mern₂₃ na₃₁ pan₃₃ io₁₁/fa₂₃ tshien₂₃ tsio₃₁ sii₃₁ suo₃₃/thong₂₃ syue₂₃ hu₃₁ siang₃₃ tsien₂₃ tsyu₁₁・a₂₂/\nah₃ sia₃₁ i₃₃ sia₃₁/ie₁₁ me₂₃ io₁₁ tsern₃₃ terh₂ fa₁₂/\n美珍：『我們那班有。罰錢就是說同學互相檢舉啊。』益『嚇一嚇，也沒有眞的罰』。\n洪：益有掛狗牌仔無？\nme₂₃ io₁₁\n美珍：『沒有』。\n洪：『嚇一嚇』逐家都驚・死矣閣一。\nherh₃ herh₃ herh₃₁/io₁₁ i₃₃ sie₃₃/iau₃₁ tsiang₁₁ hai₂₃ sii₃₁ hue₃₁ tsiang₁₁/kher₁₁ sii₃₁ pi₁₁ iau₃₃ sau₂₃\ntsiang₁₁/\n美珍：嘿嘿嘿，『有一些要講還是會講可是比較少講。』\n洪：汝認爲台灣話敢會凍閣保存・落去？\n②254",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1777,7 +1780,7 @@
 "text": "語言篇\nuo₂₃ siang₁₁ suo₃₃/tsue₃₁ ho₃₁ si₁₁ po₂₃ tsun₁₂・lo₁₁/bo₁₂/an₂₂\n立仁：『我想說』…最好是保存落，無，按呢…\n洪：職馬若準學校有卜實施台語教育，汝有贊成無？\nuo₁₂ tang₃₃ lan₂₃ tsan₃₁ tsherng₂₃・a₂₂/ju₂₃ ko₁₁ tser₃₃ kerh₂ tsai₃₁ puh₃ thi₂₃ tshang₃₁ ter₂ hua₃₁,khor₁₁\nnng₂₃ tsio₃₁ hue₃₁ sii₃₃ tshuan₁₂・la₂₂/\n立仁：『我當然贊成啊。如果這个再不提倡的話，可能就會失傳啦』。\n洪：益外省儂愛學或免學？\ngua₃₁/a₁₁ m₁₁ si₁₁ gua₁₁ sing₃₁ e₁₁/gua₃₃ tshap₃ tshap₃・i₁₁\n立仁：我亦毋是外省=个，我唚唚伊。\nbo₁₂・a₁₁/un₃₃ kam₃₃ kak₃ ai₃₁ o₂₂ a₂₂/ ni₁₁ tsai₃₁ thai₂₃ uan₃₃ tsio₃₁ iau₃₁ syue₂₃ ma₁₁/tsai₃₁\nthai₂₃ uan₃₃/tsio₃₁ sii₃₃ iau₃₁ syue₂₃ thai₂₃ yu₁₁・a₂₂/\n美珍：無啊，阮感覺愛學啊。『你在台灣就要學嘛。在台灣就是要學台語啊』。\n3.8.6 方言標本之十三\n編號：大庄70\n發音人：陳清波　生年：1921年\n成長地：世居本地\n祖籍：不明\n職業：農、漁、散工\n教育程度：不識字\n發音日：1991年9月20日\n採訪人：洪惟仁、潘科元\n記音：洪惟仁\n【方言特色】\n大庄70雖與大庄80鄰居，但音韻系統差異不小。茲分述如下：\na.聲母：十四音\n②255",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1787,7 +1790,7 @@
 "text": "住民志\n大庄80「入」母字尚有部份保存j-音讀，但大庄70缺j-音讀，「入」母歸「柳」母，十五音只剩十四音。如：\n熱 luah₂₃　一跡 tsit₁ liah₂\n人參 lin₁₁ sim₃₃　字 li₂₂\n入 lip₂₃\nb.韻母：\n大庄70的元音共七個：\na、e、i、oo、o、u、uu\no的音値有時候展唇度不夠，大部份讀圓唇。大庄80的「科」韻(or)字全部歸「西」韻(e)。\n大庄70的韻母系統最大的特色在uu元音。這個uu元音略當於《彙音妙悟》和新竹76一類新竹老派的「居」韻ir/uu。不過「居」韻字在大庄70卻分爲二韻。《彙音妙悟》的「居」韻包含中古遇開三的字和止開二莊系字・止開三精系字。漳州音遇開三的字唸-i，止開二、三字唸-u，泉州音大部份全唸ir-/uu，晉江、惠安、北港等地全唸-i。泉系方言能分爲二類的只有香山方言。大庄70遇開三唸-i，止開二莊系字及止開三精系字文讀唸-uu，這是非常獨特的。茲舉例如下：\n番薯* an₂₂ tsi₁₃｜歷史* lik₁ suu₃₁｜自*由 tsuu₁₁ iu₁₃\n煮*糜 tsi₂₃ be₁₂｜老師* lau₁₁ suu₃₃｜思*想 suu₂₂ siong₃₁\n四書* suu₃₁ si₃₃｜無事* bo₁₁ suu₂₂｜四* suu₁₁\n考慮* khoo₂₃ li₂₂｜次* tshuu₁₁\n▢苴* ka₂₂ tsi₁₁｜孔子* khong₂₃ tsuu₃₁\n箸* ti₂₂｜仁慈* lin₁₁ tsuu₁₂\n佇* ti₂₂｜自私* tsuu₁₁ suu₃₃\n豬*肉 ti₂₂ bah₂｜賜* suu₁₁\n魚* hi₁₃\n呂* li₂₂\n去* khi₁₁\n規矩* kui₂₂ ki₃₁\n②256",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1820,7 +1823,7 @@
 "text": "語言篇\n囝仔gin₃₃ na₃₁｜尾指仔 be₂₃ tsainn₃₃ a₃₁\n狗仔kau₃₃ a₃₁｜西南氣仔sai₂₂ lam₁₁ khui₃₃ a₃₁\n鉤仔kau₂₂ a₃₁\n蠔仔o₁₁/₂₂ a₃₁｜芋仔 oo₁₁/₂₂ a₃₁\ne.詞彙\n大庄70的詞彙也很有特色。大庄70不識字，閩南語是他唯一的語言，所以他的閩南語詞彙相當豐富，用法活潑。舉手指爲例。\n指頭仔(手指)｜tsing₂₃ thau₂₂ a₃₁\n步頭拇(大拇指)｜poo₁₁ thau₁₁ bu₃₁\n指指(食指)｜ki₂₃ tsainn₃₁\n中指｜tiong₂₂ tsainn₃₁\n愛　(無名指)｜ai₃₁ sui₃₁\n尾指仔(小指)｜be₂₃ tsainn₃₃ a₃₁\n貧惰(小指)｜pan₁₁ tuann₂₂\n小指不必工作，是最懶惰的手指，所以「貧惰」遂引申稱「尾指仔」，然後「貧惰儂」(懶人)遂可以稱爲「尾指仔儂」。二詞交互引申，是個奇特的例子。\n【語料】\n談話四則\n陳清波談話記音\n一、出身\ngua₃₁/si₁₁ tsai₁₁ tue₂₂=e₂₂/gun₂₃ lau₁₁ bu₃₁/bi₂₃ san₂₂ lang₁₂/gun₂₃ lau₁₁ pe₂₂/khih₃ hong₁₁ tsio₃₃=e₃₃/\n我是在地个。阮老母美山儂。阮老父，去予儂招个，\ntsiah₃ koh₃ tshua₁₁ tng₃₁ ·ai₁₁/gua₃₁/ti₁₁ tsia₁₃/tshut₃ si₁₁=e₁₁/gun₂₃ hiann₂₂ ti₂₂ a₃₁/long₂₃ lai₁₁ tsia₁₃/tshut₃ si₁₁\n即閣▢①轉來。我佇遮出世个，阮兄弟仔攏來遮出世\n②259",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1851,7 +1854,7 @@
 "text": "住民志\n⑦tshit⁴ tho¹²〔迌迌〕：遊玩。\n⑧hiann¹ ti⁷〔兄弟〕：叫喚不相識的人的一種稱呼。\n⑨siann¹〔聲〕：口音。\n⑩sian²〔鮮〕：一分錢。借自日語sen〔錢〕。\n⑪an¹ tsam¹〔腌臢〕：骯髒。am1 tsam1之訛音。\n⑫kang¹〔工〕：日，天。\n⑬bak⁴·〔沐〕：接觸到。\n⑭e⁷ sai² …e⁰〔會使…得〕：可以。\n⑮pun² tsiann⁵〔本前〕：以前。\n⑯he⁷ be⁵〔夏霉〕：立夏所下梅雨。\n⑰tsuann⁷〔濺〕：沖。\n⑱si³ suann³〔四散〕：本有的雨都打散，即無雨。此句他　處又云：「春寒雨那濺，冬寒做大旱」。\n⑲he⁵ sio¹〔回燒〕：回復溫暖的天氣。\n⑳sio¹ lo⁷〔燒烙〕：溫暖。\n②262",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1861,7 +1864,7 @@
 "text": "語言篇\n3.8.7 方言標本之十四\n編號：香山65\n發音人：吳漢清　生年：1916年\n成長地：世居本庄\n地名俗稱：香山(hiong₂₂ san₃₃)\n祖籍：不明\n職業：農、漁、散工\n教育程度：不識字\n發音日：1991年8月29日\n採訪：洪惟仁、潘科元\n記音：洪惟仁\n【方言特色】\n香山與大庄緊臨，香山老人都到大庄的「明烈宮」休息。本調查即在明烈宮做的。香山65和大庄70相當接近，但有些不同。茲分述如下：\na.聲母：十四音\n香山65「入」母大部份歸「柳」l-，但偶爾也會唸j-。茲從語料中摘取數例：\n十二 tsap₁ li₂₂｜日·時 jit₃·si₁₁(白天)\n魚餌 hi₁₁ li₂₂\n手爪 tshiu₂₃ liau₃₁\n寫字 sia₂₃ li₂₂\n日·時 lit₃·si₁₁\n「入」母字唸j-的只有一個孤例「日·時」的「日」，此字另有唸「柳」母的又讀，可以判斷香山65和大庄70一樣，原本沒有「入」母，偶爾讀j-是受當地即將沒落的「偏同安腔」的影響。\n②263",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1882,7 +1885,7 @@
 "text": "語言篇\nc.聲調\n香山65的主聲調七個，其系統如下：\n｜平｜上｜去｜入｜喉入\n陰｜33>22｜31>23｜11>32/31｜2>3｜2>32/31\n陽｜12/13>11｜22>11｜3>1｜3>11\n跟大庄70不同的是陽入聲唸短高調，而非中升調。又喉入聲變調時喉塞音全喪失。\nd.「仔」輕聲\n香山65的「仔」輕聲是隨前變調，有31/21的條件變調，表現了新竹地區「翹翹板現象」的特色。不過21調，卻往往也有31調的又讀，顯示隨前變調正在趨向固定31調的變化之中。茲舉例如下：\n一釣仔｜tio₃₃ a₂₁/tio₃₃ a₃₁\n索仔｜so₃₃ a₂₁/so₃₃ a₃₁(繩子)\n機器仔｜ki₂₂ khi₃₃ a₂₁(機動船)\n囡仔｜gin₃₃ na₂₁/gin₃₃ na₃₁\n堀仔｜khut₃ a₂₁/khut₃ la₃₁(池子)\n竹仔｜tik₃ a₂₁/tik₃ a₃₁\n二篙仔｜ko₂₂ a₃₁\n溝仔｜kau₂₂ a₃₁\n金仔｜kim₂₂ ma₃₁\n三稻仔｜tiu₁₁ a₃₁\n稗仔｜phue₁₁ a₃₁\n網仔｜bang₁₁ nga₃₁\n鐵牛仔｜thi₃₁ gu₁₁ a₃₁(機器三輪貨車)\n石頭仔｜tsio₁₁ thau₁₁ a₃₁\n船仔｜tsun₁₁ na₃₁\n▢仔｜ha₁₁ a₃₁\n「仔」字雖是陰上，變調時不變23，只變33，算是例外，這是新竹的普遍現象，但也舉一些例子，附在這裡。\n灣邊仔船｜uann₂₂ pinn₂₂ a₃₃ tsun₁₂(戎克船)\n竹仔尾｜tik₃ a₃₃ be₃₁\n②265",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -1893,7 +1896,7 @@
 "text": "住民志\n【語料】\n談話四則\n吳漢清談話記音\nso¹ tshau² khit⁴ tsiah⁸/poo³ tshan⁵ sai¹ hu⁷\n一、挲草乞食播田師傅\ngoo₁₁ tsap₁ kui₂₃ ni₁₁ tsing₁₂/gua₃₁/tsap₁ it₃ he₁₁/to₁₁ hong₁₁ tshiann₃₂ tshi₁₁ gu₁₂/tsap₈ li₁₁ he₁₁/o₁₁ lue₁₁ tshan₁₂\n五十幾年前我十一歲著予儂倩飼牛十二歲學犁田。\n/tsit₁ ni₁₂/tsap₁ li₁₁ khoo₃₃/ koh₃ khi₂₃ tsap₁ si₃₂ khoo₃₃/ko₃₁ tsap₁ lak₁ khoo₃₃/tsap₈ si₃₁ he₁₁/koh₃ li₁₁ si₃₁ khoo₃₃/ah₃\n一年十二箍①;閣起十四箍;閣十六箍;十四歲閣廿四箍;益\ntsap₁ goo₁₁ he₁₁/gua₃₁/to₁₁ tng₃₁·lai₁₁/tsing₃₂ kam₂₂ tsia₁₁/pak₃ kam₂₂ tsia₃₂ hah₂₃/tsit₁ kang₃₃ gua₁₁ tsue₂₁/\n十五歲我著轉來。種甘蔗,剝甘蔗箬②。一工外儕③?\nsann₂₂ si₃₂ kak₃ gun₁₂₁/kau₃₂ ah₃ loo₁₁ be₃₁/ it₄ tit₁ sing₃₃/sing₂₂ kah₃ lak₁ kak₂/lak₁ kak₃ gua₂₂/tsit₃ kak₂/ah₃\n三四角銀—,▢駕落尾④,一直升,升駕六角,六角外,七角,益\nkhih₃ kang₁₁ tsue₃₂ liam₁₁ si₁₁ kang₃₃/gua₁₁ tsue₂₁/tsit₁ kang₃₃/than₃₂ tsit₈ khoo₂₂ gun₁₂/tng₃₃ lai₁₁/the₁₁ hoo₁₁ gun₂₃\n去共儂做臨時工,外儕?一工趁⑤一箍銀轉來,提予阮\nlau₁₁ u₃₁/gun₂₃ lau₁₁ u₃₁/kong₂₃ ah₃ li₃₁ na₃₁ u₁₁ tsit₁ khoo₂₂ gun₁₂₁/kong₂₃ u₂₂·a₂₂/gua₃₁/kinn₂₂ a₃₃\n老母。阮老母講「益⑥汝哪有一箍銀?」講「有啊,我今旦⑦\nkhih₃ pat₁ ui₂₂/pak₂·e₁₁·a₁₁/ pak₃ tsia₃₁ ha₁₁ a₃₁·m₂₂/ tsit₁ kang₃₃ tsit₁ khoo₂₂ gun₁₂/khih₃ pak₃ sann₂₂\n去別位剝个啊。」剝蔗箬仔毋⑧。一工一箍銀,去剝三\nkang₂₂/sann₂₂ khoo₂₂ gun₁₂/khia₁₁ sng₃₁ kong₂₃ tsit₁ poo₁₁ hun₂₂/tsho₃₂ bue₁₁ khi₃₁·ai₁₁/ah₃ kio₃₂ gun₂₃ khi₃₃ tau₃₁\n工三箍銀,待算⑨講一部份剉⑩袂起來,益叫阮去鬥\ntsho₃/than₃₂ sann₂₂ kang₃₃/sann₂₂ khoo₂₂ gun₁₂/si₁₁ tua₁₁ lang₁₃/huann₂₂ hi₃₃ ah₃/\n剉,趁三工,三箍銀,視大儂⑪歡喜駕-。\ntsim₃₃ ma₃₁/long₁₁ bin₁₃/ke₃₁ ki₂₂ khi₃₁ hua₁₁/tshong₂₂ ki₂₂ khi₁₁/leh₃ poo₁₁/gua₃₁/tsap₁ si₃₁ he₁₁/o₁₁ poo₃₁\n職馬農民皆⑫機器化,創機器咧播,我十四歲學播\ntshan₁₃/io₂₂ tsia₃₂ kut₂/na₁₁ sng₃₃/gia₁₃·khiai₁₁/kong₂₃ bue₁₁ ing₂₂·e₁₁/an₃₃ ne₃₃ gia₁₁ tioh₃/e₁₁ kuan₃₁ si₁₁/\n田,腰脊骨若酸,夯起來,講「袂用得!按呢夯著會慣勢」;\nkong₂₃ tio₁₁ sng₂₂ ah₃ ba₁₃/ba₁₃/koh₃ pi₁₁/ah₃ sng₂₂ ah₃ m₁₁ tsai₂₂ thang₂₂ sng₃₃/lang₁₁ na₁₁ poo₁₁·lai₁₁/tio₁₁\n講「著酸駕麻,麻閣痺,益酸駕毋知通酸。」儂⑬若播來,著\nkin₂₃ piann₃₁ se₃₁ poo₁₁·khi₁₁/\n緊拚勢⑭播去。\n②266",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -1943,7 +1946,7 @@
 "text": "語言篇\n③sa¹〔捎〕:抓。\n④tsioh⁸ lun²〔石碖〕:石製的圓筒,用來壓榨甘蔗。\n⑤liam⁷〔歛〕:稜角。\n⑥sah⁸〔煠〕:清煮。\n⑦tiann²〔鼎〕:鍋。\n⑧kap⁴〔敆〕:接合。\n⑨ba⁷〔密〕:密合。\n⑩kinn⁵〔墘〕:邊緣。\n⑪puann⁵〔蹣〕:換。換車曰〔蹣車〕。\n⑫la⁷〔撓〕:攪。\n⑬lun³ lun³〔潤潤〕:微濕。\n⑭tshau³ he² ta¹〔臭火礁〕:燒焦。\nphang⁵ tsun⁵/tio³ hue¹ ki¹\n三、帆船釣花枝\ntsim₃₃ ma₃₁/tak₁ ke₂ siat₄ khiau₃₁/tshong₁₁ bang₂₂/khih₃ teh₂/ing₂₃ pai₃₁/gun₂₃ leh₃ tio₃₂ hue₂₂ ki₃₃/si₁₁\n職馬逐家設巧①,創網去□。往擺阮咧釣花枝②是\ntshong₁₁ tse₃₃/bang₁₁ suann₁₁/tio₁₁ =e₁₁/hue₂₂ ki₂₂ suann₁₁/sann₂₂ si₃₁ tsap₁ siam₁₂/sue₃₃ a₃₃ tiau₁₂/pak₈ pe₁₁\n創這網線釣=个。花枝線三四十噚③。細仔條。縛白\npoo₃₃ a₂₁/tio₃₂ hue₂₂ ki₃₃/bian₂₃ li₂₂/tio₃₃ a₂₁/tshong₂₂ tsit₁ te₃₁ tsha₁₂/tio₃₃ a₂₁/tsiah₃ ting₃₁ e₁₁ tiau₁₂/ ah₃ tinn₁₁\n布仔。釣花枝免餌,釣仔創一塊柴,釣仔即釘會椆④,益纏\npe₁₁ poo₃₃ a₂₁/ah₃ i₂₂ lai₁₁ khip₃/ tsiu₁₁ an₃₃ tiuh₂.khiai₁₁/tio₃₂ hue₂₂ ki₃₃/siong₁₁sing₂₃pun₃₁/\n白布仔,益伊(花枝)來扱⑤,就按呢⑥挓起來。釣花枝上省本,\nkan₂₂ na₂₂ suann₁₁/ah₃ ian₁₁ tui₁₁ a₃₁/na₁₁ nia₂₂/\n干礁⑦線,益鉛倕仔⑨但但。\ntio₃₃ a₂₁/tsha₁₂/ting₃₂ ian₁₁ suann₁₁/ bua₁₁ tsiam₃₃/au₂₃ tshiunn₁₁ tse₃₃/tshiu₂₃ liau₃₁/an₃₃ ne₃₃/\n釣仔柴釘鉛線,(鉛線)磨尖,拗像這手爪按呢,\npak₈ pe₁₁ poo₃₃ a₂₁/hue₂₂ ki₃₃/na₁₁ khuann₃₃ e₃₃ peh₂₃/ah₃ lang₂₂ lang₃₃/i₂₂ to₁₁ an₃₃ suh₂· khi₁₁/ ah₃ tsian₁₃\n縛白布仔,花枝若看見白,益空空,伊著按呢敕⑩去,益就按呢\nka₂₂ giu₃₁·khiai₁₁/tsit₁ tiau₁₁ suann₁₁ tio₃₁ tsit₁ mng₁₁ tio₃₃ a₂₁/\n共扭⑪起來。一條線釣一門釣仔。\n②271",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -2005,7 +2008,7 @@
 "text": "語言篇\n考慮｜khoo23 li22\n證據｜tsing31 ki11\n這種情形和大庄70一樣具有古代泉州音活化石的價値。\n其中也有例外，明顯地是吸收了當地同安腔或台灣優勢腔。如「讀書」唸thak1 tsuu33，如前大庄70所述是爲了避諱，吸收了同安腔。姓「呂」唸lu22是台灣優勢音之一。\n蚵寮71最大的特色是，介音除了-i-、-u-之外，還有一個-uu-介音。如：\n雙suuang33　　針tsuuam33\n這個-uu-介音只有鹿港北頭村老人及南管傳唱音尚保存著，現代泉州音幾乎已喪失。蚵寮71居然還保存了這兩個字的介音，可謂難能可貴。這個-uu-介音不止是泉州古音，相信也是閩南祖語所有的介音。現代方言有的保存部份-uu-介音，有的變-i-介音，有的全部喪失。請看下面的例子：\n泉州｜永春｜漳州｜潮州｜蚵寮｜閩南祖語\n一囝｜kann2｜kiann2｜kiann2｜kiann2｜kiann2｜*kuuann2\n驚｜kiann1｜kiann1｜kiann2｜kiann1｜kiann1｜*kiann2\n二奇｜kha1｜khia1｜khia1｜khia1｜khia1｜*khuua1\n寄｜kia3｜kia3｜kia3｜kia3｜kia3｜*kia3\n三雙｜sang1｜sang1｜siang1｜sang1｜suuang1｜*suuang1\n相｜siong1｜siong1｜siang1｜siang1｜siong1｜*siang1\n四針｜tsam1｜tsam1｜tsiam1｜tsam1｜tsuuam1｜*tsuuam1\n尖｜tsiam1｜tsiam1｜tsiam1｜tsiam1｜tsiam1｜*tsiam1\n上面四組中，下字全部方言都保存-i-介音，上字分二類，陰聲韻的一、二組（甲類）和陽聲韻的三、四組（乙類），在泉州音全部喪失介音。但在永春、蚵寮、潮州、甲類變-i-介音。乙類在永春、潮州喪失介音，蚵寮保存-uu-介音。\n-uu-介音在漢語中是非常特殊的一種介音，它可能源自上古的-r-介音，在閩南語中的-uu-的型式保存下來，後來根據韻尾的條件或變爲-i-，或消失，蚵寮71在乙類\n②277",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2027,7 +2030,7 @@
 "text": "語言篇\n【語料】\n林清訪問記音\n一九九一年九月二十日洪惟仁　潘科元去新竹市舊香山鄉南港里訪問林清先生（一九一一年生），下面是訪問丌記音。\n對話\n洪：請問汝今年幾歲？\ntshit3 tsap1 ji11 he11/bin1 kok2/kau33 ni12/sinn33=e33/\n林：七十二歲。民國九年生=个。\n洪：恁祖籍啥麼所在汝知毋？\nhui11 huann33·la11\n林：惠安啦。\n洪：恁搬來遮有幾年=矣，汝咁知？\ntsing11/gun23 tsoo31=a11/lai12/kah3 tsim33 ma31·loo11/\n林：從阮祖=也來駕職馬咯。\n洪：敢有一百年矣？\nhe311/kann23 m11 na22·no11/\n林：赫，敢毋但喏。\n洪：祖是啥麼祖？\na22 tsoo31/te11 si32 tai22·loo11/\n林：阿祖。第四代咯。\n洪：恁祖過來一直帶遮是否？\nlong33 ke31 tua31 tsia33/\n林：攏皆帶遮。\n洪：太太咁員仔遮个儂？\nbo12 la11/tik3 lam11 lang12/kue32 sin33·khi11·loo11/\n林：無啦，竹南儂，過身去咯。\n洪：汝做啥麼頭路？\n②279",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -2047,7 +2050,7 @@
 "text": "語言篇\n3.8.9.方言標本之十六\n編號：蚵寮55\n發音人：陳金水　　生年：1936年\n記音點：新竹市南港里\n地名俗稱：蚵寮(o11 liau⁵)\n成長地：世居本庄\n祖籍：不明。祖父由田中遷此。\n職業：農、漁、工\n教育程度：不識字\n發音日：1991年9月20日\n採訪人：洪惟仁、潘科元\n記音：洪惟仁\n【方言特色】\n蚵寮55的音韻和同庄的林氏兄弟不盡相同，茲分述如下：\na.聲母：十五音\n蚵寮55也有十五音。不過「入」母字有一部份混入「柳」母。如：\n熱juah3　　捌字bat3 li22\n責任tsit3 jim22\n人蔘jin11 sim33\n大体説來，「入」母保存j-讀法的較多。\nb.韻母：\n元音有六個：\na、e、i、oo、o、u\n和蚵寮71相同的是「煮」類字唸-i，但「子」類字唸-u，蚵寮71則唸-uu。可見蚵寮55把-uu歸入-u了。請看下面的例子：\n煮類｜子類\n□箸｜kha22 ti22｜自由｜tsu11 iu12\n老鼠｜niau23 tshi31｜思想｜su22 siong31\n②281",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2090,7 +2093,7 @@
 "text": "語言篇\nkann₂₃ na₃₃ kong₂₃ bo₁₁ tso₁₁·loo₁₁·la₁₁/\n敢那講無做咯啦。\na⁷\n洪：汝做農=个或工=个？\nlong₁₁ e₂₂/a₁₁ tso₁₁·la₁₁/kang₃₃=e₃₃/a₁₁ tso₁₁·la₁₁/\n陳：農=个亦做啦，工个亦做啦。\n洪：有掠魚·無？\nu₂₂·la₁₁/siau₃₁ lian₁₂/tih₃ lia₁₁ hi₁₂·la₁₁/\n陳：有啦，少年置掠魚啦。\n洪：有讀冊無？\nbo₁₃/bo₁₁ thak₁ tsheh₂/m₁₁ bat₃ li₂₂/ ah₃ gin₂₂ na₃₁/tshua₁₁ boo₂₃ liau₂₃ au₂₂/koo₂₃ lang₁₂/pun₂₂ hoo₂₂=\n陳：無無讀冊，毋捌字。…益囡仔娶某了後，各儂分予=\ni₂₂/ah₃ lau₂₂=e₂₂/to₁₁ bo₁₁ tsit₃ jim₂₂/\n伊益老个著無責任。\n洪：汝眞好命。遮少年…\nsin₂₂ the₃₁/bo₁₁ iong₃₁·la₁₁/siau₃₁ lian₁₂/hua₁₃ tso₃₂ siunn₂₂ ke₃₂ to₃₃/\n陳：身體無勇啦，少年予我做傷過多。\n②285",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -2131,7 +2134,7 @@
 "text": "語言篇\n閩南語。茲分述如下：\n一、語音\na.聲母：\n千甲客71的聲母和新竹市老派一樣、十五音俱全。\n「入」字頭仍唸-j，如：\n熱｜juah₃｜人蔘｜jin₁₁ sim₃₃\n字｜ji₂₂｜日｜jit₃\n逐｜jiok₂\n另外還有一些外來語，如：\nラジオ（收音機）la₂₂ ji₃₃ ooh₂\nb.韻母：\n千甲客71的元音有八個：\na、e、i、oo、o、u、er、ir\n新竹兩個央元音，er、ir，千甲客保留了ir，但er只有部份字保留，部份變e，另外一些字變-ue（見下節），茲將千甲71「居」及部份「科」韻字的音讀舉例如下：\n居韻｜科韻\n1.豬｜tir₃₃｜1.稅｜ser₁₁\n鼠｜tshir₃₁｜空課｜khang₂₂ kher₁₁\n煮｜tsir₃₁｜落雪｜lo₁₁ serh₂\n慮｜lir₂₂｜2.小妹｜sio₂₃ be₂₂\n女｜lir₃₁｜糜｜be₁₂\n自由｜tsir₁₁ iu₁₂｜坐｜tse₂₂\n思想｜sir₂₂ siong₃₁｜短｜te₃₁\n歷史｜lit₁ sir₃₁\n2.呂｜li₂₂\n上面「居」韻字大部份保留-ir音讀1.，少部份吸收了台灣優勢音2.。「科」韻字部份保留-er音讀1.，部份變-e 2.。讀-e應該是向新竹新派學來的。\n千甲客71沒-uang韻。「歸嚾歸黨」一詞將客語「結群結黨」直譯爲閩南語：\n②289",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2175,7 +2178,7 @@
 "text": "語言篇\n的閩南小朋友學一些閩南語。遷居新竹以後，天天跟閩南人相處，自然學會閩南語。現在分析一下大湖客57的閩南語。\na.聲母：十五音\n大湖客57的聲母也是十五音俱全。但大部份「入」母己歸「柳」母。如：\n熱 juah₃｜日 lit₃\nラジオ la₂₂ ji₃₃ oh₂₁｜人蔘 lin₁₁ sim₃₃\n｜字 li₂₂\nb.韻母：\n大湖客57的元音共有七個：\na、e、i、oo、o、u、ii\n新竹老派的「科韻」(er)變e或ue。變e是語音之自然演變，變ue是跟著優勢音走。以下第二、三組台灣優勢音唸-ue。大湖客57的音讀是：\n一、短｜te₃₁｜三、粿｜kue₃₁\n雪｜se₂₁｜糜｜bue₁₂\n二、和尚｜he₁₁ siunn₂₂｜小妹｜sio₃₃ bue₂₂\n揣｜tshe₂₂｜稅｜sue₁₁\n火｜he₃₁｜番仔火｜huan₂₂ na₃₃ hue₃₁\n尾｜be₃₁\n上面的字全屬新竹76「科」韻字。第一組字漳泉都開口，第二、三組漳及台灣優勢音合口，大湖客57第二組唸開口，第三組唸合口，顯示一部份跟隨新派的自然演變er→e，一部份向台灣優勢音-ue靠攏。\n新竹老派的-ir/-uu，在大湖客57一部份唸-i，少數字唸-u。下面是新竹老派「居」韻的「煮」類字，大湖客57的音讀：\n鼠｜tshi₃₁｜證據｜tsin₃₁ ku₁₁\n鋤頭｜ti₂₂ thau₁₂\n豬｜ti₃₃\n煮飯｜tsi₃₃ png₂₂\n呂｜li₂₂\n在室女tsai₁₁ sik₃ li₃₁\n②293",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2210,6 +2213,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "圖多字少"
 ]
 },
@@ -2311,7 +2315,7 @@
 "text": "住民志\n青草湖「個」(的)詞尾多半唸kai₃₃有時唸e₃₃，但k-聲母往往弱化，略見濁化。接鼻音韻尾時「個」的鼻音往往延續爲「個」的聲母，如：\n熟個shuk₃ kai₃₃\n薄個phok₃ kai₃₃\n眞個chin₁₂ kai₃₃\n生個sang₁₂ ngai₃₃\n銅個thung₁₁ ngai₃₃\n鐵個thiat₃ ai₃₃\n單個tan₁₁ ne₃₃\n雙個sung₁₁ nge₃₃\nf.三疊音詞\n青草湖64也有三疊音詞，但很少用。其夫劉錦堂也有三疊詞，也很少用。兩夫婦的三疊音詞變調規律和千甲71不太一樣。千甲71的三疊音詞第一字都唸23調，青草湖64夫婦的三疊音詞變調規律，只有陰平、陽平變23調，其餘都讀原調，如：\n一、開開開khoi₂₃ khoi₁₁ khoi₁₂\n厚厚厚phun₂₃ phun₁₁ phun₁₂\n圓圓圓ian₂₃ ian₁₁ ian₁₁\n二、扁扁扁pian₃₁ pian₃₁ pian₃₁\n幼幼幼yiu₃₁ yiu₃₁ yiu₃₁\n大大大thai₃₃ thai₃₃ thai₃₃\n白白白phak₃₃ phak₃ phak₃\n直直直chhit₃₃ chhit₃ chhit₃\n闊闊闊fat₂ fat₂ fat₂\n搭搭搭tap₂ tap₂ tap₂\n4.4.方言標本之二十三\n編號：大湖57\n發音人：張義全　生年：1934年\n成長地：苗栗縣大湖鄉。十三歲遷居新竹市\n祖籍：廣東四縣\n②306",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -2351,7 +2355,7 @@
 "text": "住民志\n音韻系統表\n聲母(十五音)\n邊p[p]　頗ph[p']　文m[m]/b[b]\n地t[t]　他th[t']　柳n[n]/l[l]\n曾ts[ts]　出tsh[ts']　時s[s]　入j[dz]\n求k[k]　去kh[k']　語ng[ŋ]/g[g]\n英[ʔ]　喜h[h]\n韻母(四十五字母)\n一、口音韻\n1.嘉a[a]/ah[aʔ]　2.西e[e]/eh[eʔ]　3.基i[i]/ih[iʔ]　4.姑oo[ɔ]\n5.刀o[o] /oh[oʔ]　6.珠u[u]/uh[uʔ]　7.科er[ə]/erh[əʔ]　8.居ii[i]\n9.開ai[ai]　10.郊au[auʔ]/auh[auʔ]11.嗟 ia[ia]/iah[iaʔ]\n12.燒io[io]/ioh[ioʔ]13.秋iu[iu]/iuh[iuʔ]　14.朝iau[iau]\n15.花ua[ua]/uah[uaʔ]16.杯ue[ue]/ueh[ueʔ]　17.飛 ui[ui]/uih[uiʔ]\n18.乖uai[uai]\n二、鼻音韻\n19.監ann[a]/annh[aʔ]　20.夾ennh[eʔ]　21.青inn[i]/innh[iʔ]\n22.娥onn[ɔ]　23.梅m[m]/mh[mʔ]24.黄ng[ŋ]/ngh[ŋʔ]\n25.乃ainn[ai]　26.藕aunn[au]　27.京iann[ia]\n28.箱iunn[iu]/iunnh[iuʔ]29.貓iaunn[iau]　30.歡uann[ua]/\n31.夾uennh[ueʔ]　32.關uinn[ui]　33.桿uainn[uai]\n三、陽聲韻\n34.杉am[am]/ap[ap]　35.丹an[an]/at[at]　36.江ang[aŋ]/ak[ak]\n37.東ong[ɔŋ]/ok[ɔk]　38.金im[im]/ip[ip]　39.賓in[in]/it[it]\n40.卿ing[iəng]/iak[iək]　41.兼iam[iam]/iap[iap]　42.軒ian[iɛn]/iat[iɛt]\n43.涼iang[iaŋ] / iak[iak]44.香iong[iɔŋ]/iok[iɔk]45.君un[un]/ut[ut]\n46.川uan[uan]/uat[uat]　47.▢uang[uaŋ]\n聲調\n上平33:22[44>33]　上聲31:23[51>35]　下平12:11[13>11]—\n上去11:31[21>51]　上入2:3[32>4]/2:31[32>51]\n下去22:11[33:11]　下入3:1[4>2]/3:11[4>22]\n②310",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "看不清",
 "羅馬字多"
@@ -2364,6 +2368,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2376,6 +2381,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2388,6 +2394,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2400,6 +2407,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2411,6 +2419,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2422,6 +2431,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2433,6 +2443,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2442,7 +2453,7 @@
 "text": "住民志\n八｜1上 平｜2上 聲｜3上 去｜4上 入｜5下 平｜7下 去｜8下 入\n居｜ir³³:²²｜ir³¹:²³｜ir¹¹:³¹｜｜ir¹²:¹¹｜ir²²:¹¹｜\n邊 p｜｜｜｜｜｜｜\n頗 ph｜｜｜｜｜｜｜\n文 b｜｜｜｜｜｜｜\n地 t｜豬｜｜著#置ˣ#在｜｜除鋤｜箸佇｜\n他 th｜｜貯#儲｜｜｜｜｜\n柳 l｜｜女旅汝｜置ˣ#在｜｜驢茹亂如｜呂慮濾｜\n曾 ts｜資書滋諸² 之｜子煮楮ˣ｜｜｜薯螿蠩* 慈｜自字#三~ 經住⁴｜\n出 tsh｜舒~被 差參~｜鼠處此｜次｜｜｜｜\n時 s｜思書司私 師斯#｜史使死#｜四#賜肆豎# 思意~，庶#｜□巴士｜詞辭#｜序嶼士祀 事仕緒｜\n入 j｜｜汝#｜｜｜薯~莨如# 愉#俞#｜喻#³比 ~｜\n求 k｜居俥据｜矩舉｜鋸據｜｜｜距巨拒｜\n去 kh｜｜｜去 課空~｜｜｜｜\n語 g｜｜語｜｜魚#漁｜御gu⁷｜\n英｜於#｜與#｜去出~飫#｜｜餘余與｜預譽豫#｜\n喜 h｜虛墟｜許｜｜魚漁｜｜\n説明｜○tsiunn¹ tsir⁵「螿蠩」：蟾蜍。\n○lir³〔置〕：正在。tir³〔置〕之訛變。再變調爲lirh₃，如：i₂₂ lirh₃ tshit₃ tho₁₂〔伊置迌迌〕：他在遊戲。tir³是tir⁷ ter³〔佇塊〕之合音。lir³ tir³再變調lirh₃、tirh₃，均出現喉塞尾，急讀之故也。\n○朱啓星(94)〔空課〕的〔課〕kher³、khuu³二讀。5.6.7.皆讀khir³\n○tsir²〔楮〕：紙也。用於tsir² king³〔楮敬〕同「紙敬」。\n○ba₃₃ sirh₄〔バス〕：巴士。\n②318",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2455,6 +2466,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2466,6 +2478,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2477,6 +2490,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2488,6 +2502,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2499,6 +2514,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2508,7 +2524,7 @@
 "text": "住民志\n十四朝｜1上　平｜2上　聲｜3上　去｜4上　入｜5下　平｜7下　去｜8下　入\n｜iau³³:²²｜iau³¹:²³｜iau¹¹:³¹｜iauh²:³¹｜iau¹²:¹¹｜iau²²:¹¹｜iauh³:¹¹\n邊p｜｜表婊｜｜｜｜｜\n頗ph｜標漂飄｜｜｜｜嫖｜｜\n文b｜｜藐｜｜｜描#苗｜妙｜\n地t｜刁雕凋貂朝調｜鳥*講話~~｜吊召｜｜調桐潮#條｜調兆#肇#掉｜\n他th｜挑#刁｜｜跳｜｜｜柱｜\n柳l｜｜了｜｜｜寮條療聊潦ˣ嘹瞭膫｜廖料繚｜\n曾ts｜招昭｜鳥｜照｜｜焦~勻椒#｜｜\n出tsh｜搜超｜｜笑~談｜｜樵｜｜□~~叫\n時s｜蕭消銷逍#硝□抽打｜猶小少｜少笑含~肖數｜｜韶精□啄~｜紹｜\n入j｜｜擾｜抓｜｜饒~裕絝鱙~仔魚｜｜\n求k｜交與及嬌#驕｜攪澆筊跤~袪跤~｜｜｜僑｜撟*｜\n去kh｜曲蹻｜巧｜翹竅#｜｜｜｜\n語g｜｜｜｜｜堯｜｜\n英｜枵妖邀｜夭~壽ˣ夭還｜要｜｜遙#搖#謠｜耀曜#｜\n喜h｜梟□搜□~反｜曉會³⁴⁸｜｜□剝落｜嬈｜｜\n説明\n○kiau⁷〔撟〕：①撬開；②用粗話罵人；③用粗野動作罵人。如：撟中指、撟中營。\n○kha¹ kiau²〔跤袙〕：綁腿。\n○〔調〕三音：tiau¹ 用在〔風調雨順〕；tiau⁵ 用在〔調整〕；tiau⁷ 用在〔音調〕\n○〔會曉〕：新竹市區説e⁷ hiang²，市郊多半唸e⁷ hiau²。\n○kiau¹〔交〕：與、及，官話音。又見lam⁵ pak⁴ kiau¹ ka〔南北交加〕：南北和。\n○liau⁵〔潦ˣ〕：涉水。\n○〔條〕只用於i² liau⁵〔椅條〕：長板凳。\n○liau⁵〔膫〕：拍子。\n○liau⁵〔膫〕：長條。用於phiann¹ liau⁵〔骿膫〕豬肋骨部份。\n○liau⁷〔繚〕：繞也。用於拉帆的叫liau⁷ soh⁴〔繚索〕。\n②324",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2521,6 +2537,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2532,6 +2549,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2541,7 +2559,7 @@
 "text": "語言篇\n十八乖｜1上　平｜2上　聲｜3上　去｜4上　入｜5下　平｜7下　去｜8下　入\n｜uai³³:²²｜uai³¹:²³｜uai¹¹:³¹｜uaih²:³¹｜uai¹²:¹¹｜uai²²:¹¹｜uaih³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文b｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳l｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜乖｜枴｜怪｜｜｜乖~筋□搭｜\n去kh｜｜｜快｜｜｜｜\n語g｜｜｜｜｜｜｜\n英｜歪｜｜｜｜｜｜\n喜h｜｜｜壞#³毀~｜｜懷淮｜壞｜\n説明\n②327",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2554,6 +2572,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2565,6 +2584,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2574,7 +2594,7 @@
 "text": "住民志\n二十夾｜1 上　平｜2 上　聲｜3 上　去｜4 上　入｜5 下　平｜7 下　去｜8 下　入\n　｜enn³³:²²｜enn³¹:²³｜enn¹¹:³¹｜ennh²:³¹｜enn¹²:¹¹｜enn²²:¹¹｜ennh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳l｜呢⁵按～｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜｜｜｜｜｜｜\n去kh｜｜｜｜｜｜｜\n語g｜｜｜｜夾～仔*夾¹蔡｜｜｜\n英｜｜｜嗯｜噫｜咦｜｜\n喜h｜｜｜係³ 是的｜｜咦｜｜\n說明｜○ngeh⁴ a²〔夾仔〕：鑷子，又當動詞，夾住。吸收漳腔。 ○an³ ne¹〔按呢〕：這樣。新竹本讀an³ ni¹，有時也說an³ ne¹，吸收漳腔。 ○本韻除嗯、噫、咦等語助詞之外，ne¹〔呢〕，ngeh⁴〔夾〕，henn³〔係〕都是吸收漳腔的讀法，新竹另外分別又讀ni¹〔呢〕，ngueh⁴〔夾〕， hann³〔喏〕。\n②330",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2587,6 +2607,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2596,7 +2617,7 @@
 "text": "住民志\n廿二娥｜1 上　平｜2 上　聲｜3 上　去｜4 上　入｜5 下　平｜7 下　去｜8 下　入\n　｜onn³³:²²｜onn³¹:²³｜onn¹¹:³¹｜onnh²:³¹｜onn¹²:¹¹｜onn²²:¹¹｜onnh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜□臭～～ 摸¹嗲～～｜｜｜扪抱｜毛姥耗消～ 魔摩｜冒｜膜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳n｜｜老｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜□臭～～｜｜｜｜肝｜｜\n去kh｜｜考可｜｜｜｜｜\n語ng｜｜五伍我｜｜｜吳蛾俄 吾｜傲臥誤悟｜\n英｜｜｜惡｜｜｜｜\n喜h｜｜火好｜好～色｜熇*｜｜｜\n說明｜○tshau³ mi¹ x〔臭□□〕：很臭(擬態詞) ○tshau³ konn¹ x〔臭□□〕：很臭(擬態詞) ○honnh⁴〔熇〕：貼著取熱。烘烤。 ○鄭(1)認爲mo¹〔摸〕是一般的摸，bong¹〔摸〕則有偷摸之義。\n②332",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2607,7 +2628,7 @@
 "text": "語言篇\n廿三梅｜1 上　平｜2 上　聲｜3 上　去｜4 上　入｜5 下　平｜7 下　去｜8 下　入\n　｜m³³:²²｜m³¹:²³｜m¹¹:³¹｜mh²:³¹｜m¹²:¹¹｜m²²:¹¹｜mh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳n｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜｜｜｜｜｜｜\n去kh｜｜｜｜｜｜｜\n語ng｜｜｜｜｜｜｜\n英｜｜姆｜｜｜梅｜毋不｜\n喜h｜｜｜｜｜媒茅｜｜默\n說明｜○hmh⁸〔默〕只用於hmh⁸ x tsiah⁸ sann¹ uann² kong¹〔默默食三碗公〕(城府深)。\n②333",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2620,6 +2641,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2629,7 +2651,7 @@
 "text": "語言篇\n廿五乃｜1 上　平｜2 上　聲｜3 上　去｜4 上　入｜5 下　平｜7 下　去｜8 下　入\n　｜ainn³³:²²｜ainn³¹:²³｜ainn¹¹:³¹｜｜ainn¹²:¹¹｜ainn²²:¹¹｜\n邊p｜｜□*｜｜｜｜｜\n頗ph｜｜｜｜｜｜揹｜\n文m｜｜挽*｜勿｜｜｜邁｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜□*｜\n柳n｜妮*｜乃#眯｜｜｜｜耐賴#荔 奈#｜\n曾ts｜｜指中～ 怎～樣｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜猄*×｜｜｜｜｜｜\n去kh｜堅｜｜快～活⁸｜｜｜｜\n語ng｜｜研｜｜｜｜｜\n英｜｜搴挑｜｜｜｜｜\n喜h｜哼｜｜悅｜｜｜｜\n說明｜○sai¹ nai¹〔思妮〕：撒嬌。 ○painn² thainn⁷ □□：違背常情；不規矩；反復無常。 ○mai² x tshuah⁴ x〔挽挽掣掣〕：不情願的惡劣態度。 ○kainn¹〔猄x〕：狗叫聲。 ○ainn²〔搴〕：挑一頭曰ainn²〔搴〕；挑=頭曰tann¹〔擔〕。 ○ngai²〔研〕：咬韌物曰ngai²，研粉曰ging²，又曰ngai²，字皆作「研」。ngai²是同安腔遺音。\n②335",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2642,6 +2664,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2653,6 +2676,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2664,6 +2688,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2675,6 +2700,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2686,6 +2712,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2695,7 +2722,7 @@
 "text": "語言篇\n卅一英｜1上　平｜2上　聲｜3上　去｜4上　入｜5下　平｜7下　去｜8下　入\n｜uenn³³:²²｜uenn³¹:²³｜uenn¹¹:³¹｜uennh²:³¹｜uenn¹²:¹¹｜uenn²²:¹¹｜uennh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳n｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜｜｜｜｜｜｜\n去kh｜｜｜｜｜｜｜\n語ng｜｜｜｜夾～菜茭鋏～仔｜｜｜挾\n英｜｜｜｜｜｜｜\n喜h｜｜｜｜｜｜｜\n說明｜○ngueh⁴ a²〔鋏仔〕：鉗子。 ○ngueh⁸〔挾〕：挾在腋下。\n②341",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2708,6 +2735,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2717,7 +2745,7 @@
 "text": "語言篇\n卅三桿｜1上　平｜2上　聲｜3上　去｜4上　入｜5下　平｜7下　去｜8下　入\n｜uainn³³:²²｜uainn³¹:²³｜uainn¹¹:³¹｜uainnh¹¹:³¹｜uainn¹²:¹¹｜uainn²²:¹¹｜uainnh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳n｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜樣｜□搖床聲\n入j｜｜｜｜｜｜｜\n求k｜｜桿稱～梗｜｜｜峘⁵高｜縣³｜\n去kh｜｜｜｜｜｜｜□敲擊聲\n語ng｜｜｜｜｜｜｜\n英｜｜□*｜｜｜｜｜□innh⁸×～～\n喜h｜橫｜｜｜｜莖芋～｜｜\n說明｜○sinn¹ x suainnh⁸ x □□□□/ inn¹ x uainnh⁸ x □□□□狀搖床或搖椅時木竹摩擦之聲。前者狀竹子摩擦聲，後者狀木頭摩擦聲。 ○uainn² □：扭到筋。 ○本韻與uinn韻重出的字。讀uainn是同安遺音，uinn是三邑遺音。\n②343",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2730,6 +2758,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2741,6 +2770,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2752,6 +2782,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2764,6 +2795,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2776,6 +2808,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2788,6 +2821,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2800,6 +2834,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2812,6 +2847,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2824,6 +2860,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2836,6 +2873,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -2846,7 +2884,7 @@
 "text": "住民志\n四四香｜1上平｜2上聲｜3上去｜4上入｜5下平｜7下去｜8下入\n｜iong³³:²²｜iong³¹:²³｜iong¹¹:³¹｜iok²:³｜iong¹²:¹¹｜iong²²:¹¹｜iok³:¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文b｜｜｜｜｜｜｜\n地t｜中忠張#出~｜長｜漲中｜築｜重腸墜｜重丈#仲#｜著#逐#\n他th｜衷｜塚寵｜暢昶#｜畜｜蟲#｜｜\n柳l｜｜兩#｜｜｜良隆梁龍#娘#｜讓冗量諒｜六#陸\n曾ts｜將¹把章終彰｜種獎｜將｜足祝芍爵｜從｜將²把｜\n出tsh｜昌充｜｜縱放~｜觸矗｜｜｜擉~塗\n時s｜相商傷｜想賞｜相象印~｜淑宿｜松常祥詳嫦#嘗#｜誦頌上尚像訟｜續俗熟#塾屬贖\n入j｜｜嚷｜｜逐追｜絨｜讓｜肉#若#弱辱褥搦揉\n求k｜宮恭芎｜拱棋｜｜菊鞠｜強窮#｜共｜局\n去kh｜僵姜供｜恐供²~給｜｜曲卻｜｜｜\n語g｜｜仰｜｜｜｜｜虐玉瘧\n英｜央｜勇踴養｜映｜約｜容榕#陽揚庸楊｜用｜育欲\n喜h｜凶香胸慌~狂凶髒｜享#｜向餉｜旭蓄｜雄融#｜｜\n説明｜○hiong¹ x kong⁵ x〔慌慌狂狂〕:慌慌張張。\n○liong⁵〔娘〕:(鄭7)只用於守溫三十六字母ti¹〔知〕thiat⁴〔徹〕ting⁵〔澄〕liong⁵〔娘〕。\n○tshiok⁸〔擉〕:抓泥巴之類稀爛的東西。或揉成團,意近jiok⁸〔搦〕。\n○jiok⁸〔褥〕:墊被謂之jiok⁸ a² pher⁷〔褥仔被〕。\n②354",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2859,6 +2897,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2868,7 +2907,7 @@
 "text": "住民志\n四六川｜1上平｜2上聲｜3上去｜4上入｜5下平｜7下去｜8下入\n｜uan³³:²²｜uan³¹:²³｜uan¹¹:³¹｜uat²:³｜uan¹²:¹¹｜uan²²:¹¹｜uat³:¹\n邊p｜｜｜半｜｜｜｜拔提~\n頗ph｜｜｜｜｜盤~古｜叛背~｜潑活~\n文b｜｜滿輓# 挽#｜｜｜｜｜末\n地t｜端｜｜斷#｜｜｜斷# 緞｜奪\n他th｜｜｜鍛~鍊｜脫｜團傳｜｜\n柳l｜｜暖# 軟｜｜劣#²｜戀攣｜亂｜劣#²\n曾ts｜專｜轉□就按呢 攢~錢｜｜｜全泉｜纂#鏇水~仔 ~開撰｜絕\n出tsh｜川穿 村｜喘｜串篡｜□氣~~｜撰備｜｜\n時s｜辿溜~宣 珊~瑚｜選｜蒜算#｜雪說刷｜旋｜漩~尿 璇~石｜\n入j｜｜｜｜｜｜｜\n求k｜娟捐關棺 觀冠²｜館管｜慣冠卷貫 灌｜決括訣 抉 摑｜峘高權｜縣²｜\n去kh｜寬冠¹｜款｜勸｜缺｜環園｜｜\n語g｜｜頑｜｜｜元原源｜願｜月\n英｜冤鴛灣彎｜遠婉# 腕苑# 玩# 轉*｜怨｜斡轉彎｜完員灣×台~九圓園袁｜援緩｜越粵# 曰#\n喜h｜歡# 番翻｜反返#｜販範²煥#｜法發髮#｜還礬樊煩繁凡｜犯患凡下凡範¹｜罰活閥# 伐#\n説明｜○uan²〔轉〕:只用於tsir⁷ uan² tshia¹〔目轉車〕。\n○tsuan²□:tsu⁷ an³ ni¹〔就按呢〕合音。如:伊tsuan₁₃走去因兜揣伊。\n○uan⁵ a²〔員仔〕是iu¹ guan⁵ a²。〔猶×原仔〕合音。本字可能是〔依原仔〕:依舊。又讀iu¹ uan⁵, i¹ uan⁵(朱4)。\n○huan³〔範〕,(鄭1)於「師範」之「範」唸huan³。\n②356",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2879,7 +2918,7 @@
 "text": "語言篇\n四七嚾｜1上平｜2上聲｜3上去｜4上入｜5下平｜7下去｜8下入\n｜uang³³:²²｜uang³¹:²³｜uang¹¹:³¹｜uak²:³｜uang¹²:¹¹｜uang²²:¹¹｜uang³:¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文b｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳l｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜｜｜｜｜｜｜\n去kh｜｜｜｜｜｜｜\n語g｜｜｜｜｜｜｜\n英｜嚾x*｜｜｜｜｜｜\n喜h｜｜｜｜｜｜｜\n説明｜○uang¹〔嚾×〕:鬼混。kiat⁴ uang¹ kiat⁴ tong²〔結嚾結黨〕(結黨鬼混);i¹ x uang¹ x〔□□嚾嚾〕:無所事事,胡亂鬼混。\n②357",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2902,6 +2941,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2913,6 +2953,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -2922,7 +2963,7 @@
 "text": "語言篇\n固定詞組｜起 來｜起 去｜爬 起 來｜爬 過 來\n新竹81｜khi₃₁·ai₁₁｜khi₃₁·khuu₁₁｜peh₂₁·khiai₁₁｜pe₁₂·ker₁₁ lai₁₁\n新竹76｜khi₃₁·lai₁₁｜khi₃₁·khir₁₁｜peh₂·khiai₁₁｜pe₁₃·ker₁₁ lai₁₁\n新竹24｜khit₂·lai₁₁｜khit₂·lr₁₁｜pe₂₁·khit₁₁ lai₁₁｜pe₁₂·kue₁₁ lai₁₁/~ke₁₁/~\n港南69｜khiai₃₁｜khi₃₁｜peh₂·khiai₁₁｜\n港南30｜khiai₃₁ : khi₃₁ iai₁₁｜｜peh₂·khiai₁₁｜\n大庄80｜khi₃₁·lai₁₁｜khi₃₁·khir₁₁｜peh₂·khi₁₁ lai₁₁｜pe₁₂·ker₁₁·lai₁₁\n大庄70｜｜｜｜\n大庄21｜khit₂·lai₁₁｜｜｜\n大庄19｜khiai₃₁｜｜｜\n蚵寮71｜｜｜｜\n蚵寮55｜khiai₁₁｜khi₃₁·khi₁₁｜peh₂·khiai₁₁｜pe₁₂·kuai₁₁ : pe₁₂ ke₁₁ lai₁₁\n蚵寮48｜khi₃₁·ai₁₁｜khit₃·li₁₁｜peh₂·khiai₁₁｜pe₁₂·kue₁₁ lai₁₁\n千甲71｜khi₃₁·lai₁₁｜khi₃₁·khi₁₁｜peh₂·khi₁₁ lai₁₁｜pe₁₂·kue₁₁ lai₁₁\n大湖57｜｜｜｜\n千甲71｜hi₂₂·loi₃₃｜shong₃₁·hi₁₁｜pak₂ hi₂₂ loi₃₃｜pha₃₃ ko₁₁ loi₃₃\n青草湖64｜hong₃₃·hi₂₁ loi₁₁｜shong₁₁·hi₃₃｜pak₂ hi₂₁ loi₁₁｜pha₁₂ ko₃₃ loi₁₁\n竹中62｜hi₂₂·loi₃₃｜shong₃₁·hi₁₁｜pak₂ shong₁₁ hi₂₂ loi₃₃｜pha₃₃ ko₁₁ loi₃₃\n新埔｜｜shong₁₁·hi₃₃｜pak₂ shong₁₁ hi₃₃｜pha₁₁ ko₃₁ lai₁₁\n大湖57｜｜｜pak₂ shong₁₂ loi₁₁ : pak₂ hong₃₃ hi₂₁ loi₁₁｜pha₁₁ ko₃₃ loi₁₁\n②361",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2933,7 +2974,7 @@
 "text": "住民志\n隨前變調▢聲｜眞的｜假的｜大的｜小的\n新竹81｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n新竹76｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n新竹24｜tsin₃₃=nee₃₃:tsiann₁₁=enn₁₁｜kee₃₁=ee₁₁｜tua₂₂=e₂₂｜sue₁₁ee₁₁\n港南69｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n港南30｜tsin₃₃=nee₃₃:tsiann₁₁=e₁₁｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n大庄80｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n大庄70｜｜｜｜\n大庄21｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n大庄19｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n蚵寮71｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜se₁₁e₁₁\n蚵寮55｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₁₁=e₂₂｜se₁₁e₁₁\n蚵寮48｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜sue₁₁e₁₁\n千甲71｜tsin₃₃=ne₃₃｜ke₃₁=e₁₁｜tua₂₂=e₂₂｜se₁₁=e₁₁\n大湖57｜｜｜｜\n千甲71｜chin₃₁ne₁₁｜ka₂₃kai₁₁｜thai₂₂ke₁₁｜se₁₁kai₁₁\n青草湖64｜chin₁₂kai₃₃｜ka₂₁kai₃₃｜thai₃₃chak₂｜se₃₃chak₂\n竹中62｜chin₃₁ne₁₁｜ka₁₃e₁₁｜thai₂₂e₁₁｜se₁₁e₁₁\n新埔｜chin₁₂kai₃₃｜ka₃₁kai₃₃｜thai₃₃e₃₃｜se₃₃e₃₃\n大湖57｜chin₁₁ne₃₃｜ka₂₁e₃₃｜thai₃₃e₃₃｜se₃₃e₃₃\n②362",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2944,7 +2985,7 @@
 "text": "語言篇\n｜狗的｜薄的｜生的｜熟的｜銅的｜鐵的\n新竹81｜kau₂₂=e₂₂｜poh₃=e₁₁｜｜sik₂=e₁₁｜｜\n新竹76｜kau₂₂=e₂₂｜poh₃=e₁₁｜tshinn₃₃=enn₃₃｜sik₃=ge₁₁｜tang₁₁enn₃₃｜thih₂=e₁₁\n新竹24｜｜｜｜sik₃₃=ge₃₃｜｜\n港南69｜kau₂₂=e₂₂｜poh₃=e₁₁｜tshinn₃₃=e₃₃｜sik₃=e₁₁｜tang₁₃/₁₁=e₃₃｜thih₂=e₁₁\n港南30｜kau₂₂·e₁₁｜poh₂₂=e₁₁｜tshinn₃₃=enn₃₃｜sik₃=e₁₁｜tang₁₁=e₃₃｜×\n大庄80｜kau₂₂=e₂₂｜poh₂₃=e₁₁｜tshinn₃₃=enn₃₃｜sik₂₃=e₁₁｜tang₁₁=e₂₂｜thih₂=e₁₁\n大庄70｜｜｜｜｜｜\n大庄21｜kau₂₂=e₂₂｜poh₃=e₁₁｜tshinn₃₃=eenn₃₃｜sik₂₃=e₁₁｜tang₁₁=e₃₃｜thih₂=e₁₁\n大庄19｜kau₂₂=e₂₂｜poh₂₂=e₂₂｜tshinn₃₃·eenn₁₁｜sik₂₂=e₁₁｜tang₁₁=e₂₂｜thih₂=e₁₁\n蚵寮71｜kau₂₂=e₂₂｜poh₂₂=e₁₁｜tshinn₃₃=enn₃₃｜sik₂₂=e₁₁｜tang₁₂｜thih₂\n蚵寮55｜kau₂₂=e₂₂｜poh₂₃=e₁₁｜tshinn₃₃=enn₃₃｜sik₂₃=e₁₁｜tang₁₁=enn₂₂｜thih₂=e₁₁\n蚵寮48｜kau₂₂=e₂₂｜poh₂₂=e₁₁｜tshinn₃₃=enn₃₃｜sik₂₃=e₁₁｜tang₁₁=e₂₂｜thih₂=e₁₁\n千甲71｜kau₂₂=e₂₂｜poh₃=e₁₁｜tshinn₃₃=enn₃₃｜sik₃=e₁₁｜tang₁₁=e₂₂｜thih₂=e₁₁\n大湖57｜｜｜｜｜｜\n千甲71｜｜｜sang₃₁kai₁₁｜shuk₃kai₁₁｜｜\n青草湖64｜phun₁₂nai₃₃｜phok₃·kai₃₃｜sang₁₂·ngai₃₃｜shuk₃kai₃₃｜thung₁₁·ngai₃₃｜thiat₃·ai₃₃\n竹中62｜phun₃₁ne₁₁｜phok₂·e₁₁｜sang₃₁·nge₁₁｜shuk₂·e₁₁｜thung₃₃·nge₁₁｜thiat₃·le₁₁\n新埔｜phun₁₂ne₃₃｜phok₃·e₃₃｜sang₁₂nge₃₃｜shuk₃e₃₃｜thung₁₁·nge₃₃｜thiat₃e₃₃\n大湖57｜phun₁₁e₃₃｜phok₃·ge₃₃｜sang₁₂nge₃₃｜shuk₃ge₃₃｜thung₁₁·nge₃₃｜thiet₃e₃₃\n②363",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2955,7 +2996,7 @@
 "text": "住民志\n▢▢▢▢｜振動｜重視(看重)｜堅凍(凝固)｜運動｜山洞\n新竹81｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n新竹76｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n新竹24｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜keen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₃₃\n港南69｜tin₂₃tang₂₂｜｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜\n港南30｜tin₂₃tang₂₂｜khuann₃₁tang₂₂｜keen₂₂tang₁₁｜un₁₁tong₂₂｜×\n大庄80｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n大庄70｜｜｜｜｜\n大庄21｜tin₂₃tang₂₂｜｜keen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n大庄19｜tin₃₃tang₂₂｜｜keen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n蚵寮71｜｜｜｜｜\n蚵寮55｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n蚵寮48｜tin₃₃tang₂₂｜khuann₃₁tang₂₂｜keen₂₂tang₁₁｜un₁₁tong₂₂｜suann₂₂tong₂₂\n千甲71｜tin₂₃tang₂₂｜khuann₃₂tang₂₂｜kieen₃tang₁₁｜un₁₁tong₂₂｜\n大湖57｜｜｜｜｜\n千甲71｜thin₃₁thung₃₁｜khon₁₁chhung₃₁｜kiat₃tung₁₁｜jun₂₂thung₂₂｜pong₁₁khung₃₁\n青草湖64｜thin₁₁thung₁₂｜khon₃₁chhung₂₃｜kian₁₁tung₃₁｜iun₃₃thung₃₃｜san₁₁thung₃₁\n竹中62｜thin₃₁thung₃₁｜khon₁₁chhung₃₁｜｜yiun₂₂thung₂₂｜san₃₁thung₂₂\n新埔｜thin₁₁thung₁₂｜khon₃₁chhung₁₂｜kiat₂tung₃₁:khian₁₁tung₃₁｜jun₃₃thung₃₃｜san₂₂thung₃₁\n大湖57｜thin₁₁thung₁₂｜khon₃₃tshung₁₂｜khin₁₁tung₃₃｜yun₃₃thung₃₃｜san₁₁thung₃₃\n②364",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2966,7 +3007,7 @@
 "text": "語言篇\n｜老儂｜流膿｜父｜白｜伯｜▢｜▢\n新竹81｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n新竹76｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n新竹24｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pee₂₂｜pee₃₃｜pee₂₁｜tok₂₁｜tok₃₃\n港南69｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n港南30｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n大庄80｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₃｜peh₂｜tok₂｜tok₃\n大庄70｜｜｜｜｜｜｜\n大庄21｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₃｜peh₂｜tok₂｜tok₂₃\n大庄19｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₃｜peh₂｜tok₂｜tok₂₃\n蚵寮71｜｜｜｜｜｜tok₂｜tok₂₃\n蚵寮55｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₃｜peh₂｜tok₂｜tok₂₃\n蚵寮48｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₂₂｜peh₂₁｜tok₂｜tok₂₂\n千甲71｜lau₁₁lang₁₂｜lau₁₁lang₁₂｜pe₂₂｜peh₃｜peh₂｜tok₂｜tok₃\n大湖57｜｜｜｜｜｜｜\n千甲71｜lo₂₂nyin₃₃｜liu₃₃nung₃₃｜fu₁₁｜phak₂｜pak₃｜tok₃｜thuh₂\n青草湖64｜lo₃₁nyin₁₁｜liu₁₁nung₁₁｜a₁₁pa₂₃｜｜｜tok₂｜thuh₂\n竹中62｜lo₂₂nyin₃₃｜liu₃₃nung₃₃｜｜｜｜tok₃｜thuh₂\n新埔｜lo₂₁nyin₁₁｜liu₁₁nung₁₁｜｜｜｜tok₂｜thuh₃₃\n大湖57｜lo₂₁nyin₁₁｜liu₁₁nung₁₁｜｜｜｜tok₃｜thuh₂\n②365",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2977,7 +3018,7 @@
 "text": "住民志\n｜水溝｜狗仔｜印仔｜蚵仔｜芋仔｜竹仔｜鐵仔｜賊仔｜藥仔\n新竹81｜tsui₂₃kau₂₃a₂₁｜kau₃₃a₂₁:kau₃₃a₃₃kiann₃₁:kau₂₃kiann₃₁｜in₃₃na₂₁｜o₁₁a₃₁｜oo₁₁a₃₁｜tik₃ga₂₁｜thi₃₃a₂₁｜tshat₁₁la₃₁｜io₁₁a₃₁\n新竹76｜kau₂₂a₃₁｜kau₃₃a₂₁｜in₃₃na₂₁｜o₁₁a₃₁｜oo₁₁a₃₁｜tik₃a₂₁｜thi₃₃a₂₁｜tshat₁la₃₁｜io₁₁a₃₁\n新竹24｜tsui₂₃kau₂₂a₃₁｜kau₃₃a₂₁｜in₃₃na₂₁｜or₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₃₁｜thi₃₃a₂₁｜tshat₂la₃₁｜io₂₂a₃₁\n港南69｜kau₂₂a₃₁｜kau₃₃a₂₁｜in₃₃na₂₁｜o₁₁a₃₁｜oo₁₁a₃₁｜tik₃a₂₁｜thi₃a₂₁｜｜ioh₃\n港南30｜tsui₂₃kau₂₂a₂₁｜kau₃₃a₃₃kiann₃₁｜in₃₃na₂₁｜or₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₂₁｜thi₃₃a₂₁｜tshat₂la₃₁｜io₂₂a₃₁\n大庄80｜kau₂₂a₃₁｜kau₃₃a₃₁｜in₃₃na₃₁｜o₁₁a₃₁｜oo₁₁a₃₁｜tik₃a₃₁｜thi₃a₃₁｜tshat₁₁la₃₁｜ioh₁₁a₃₁\n大庄70｜｜｜｜｜｜｜｜｜\n大庄21｜tsui₂₃kau₂₂a₃₁｜kau₃₃a₃₁｜in₃₃a₃₁｜or₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₃₁｜thi₃a₃₁｜tshat₂la₃₁｜io₂₂a₃₁\n大庄19｜kau₂₂a₃₁｜kau₃₃a₂₁｜in₃₃na₂₁｜or₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₂₁｜thi₃₃a₂₁｜tshat₂la₃₁｜io₂₂a₃₁\n蚵寮71｜kau₂₂a₃₁｜kau₃₃a₃₁/kau₃₁｜in₃₃a₃₁｜a₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₃₁｜thi₃₃a₃₁｜tshat₂la₃｜io₂₂a₃₁\n蚵寮55｜tsui₂₃kau₂₂a₃₁｜kau₂₂a₃₁/kau₃₁｜in₂₂a₃₁｜o₂₂a₃₁｜oo₂₂a₃₁｜tik₂a₃₁｜thi₂₂a₃₁｜tshat₂la₃₁｜io₂₂a₃₁\n蚵寮48｜｜kau₃₃a₃₁｜in₃₃na₃₁｜o₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₃₁｜thi₃₃a₃₁｜tshat₂la₃₁｜io₂₂a₃₁\n千甲71｜｜kau₃₃a₂₁｜in₃₃a₂₁｜oo₂₂a₃₁｜oo₂₂a₃₁｜tik₃a₂₁｜thi₃₃a₂₁｜tshat₂₂la₃₁｜io₂₂a₃₁\n大湖57｜｜｜｜｜｜｜｜｜\n千甲71｜keu₃₁e₃₃｜keu₂₂er₃₃/keu₂₂tsi₂₃｜jin₁₁ner₃₃｜o₃₃er₃₃｜vu₂₂er₃₃｜chuk₂er₃₃｜thiat₂er₃₃｜tshet₂ler₃₃｜jok₂er₃₃\n青草湖64｜keu₁₂er₂₁｜keu₂₁:er₂₁｜yin₃₃ner₂₁｜o₁₁er₂₁｜vu₃₃er₂₁｜chuk₂er₂₁｜thiat₂er₂₁｜tshet₃er₂₁｜yok₃er₂₁\n竹中62｜keu₃₁er₃₃｜keu₁₃｜yin₁₁ner₃₃｜o₃₃er₃₃｜vu₁₁er₃₃｜chuk₃er₃₃｜thiat ler₃₃｜tshet₃ler₃₃｜jok₂er₃₃\n新埔｜keu₂₃er₂₂｜keu₂₁｜｜o₁₁ir₂₁｜vu₃₃er₂₁｜chuk₃er₃₃｜thiat₃er₃₃｜tshet₃e₁₁｜jok₃er₁₁\n大湖57｜keu₁₂e₁₁｜keu₂₁keu₂₁tsii₂₁｜yin₃₃e₁₁｜o₁₁e₁₁｜bvu₃₃e₁₁｜chuk₂e₁₁｜thiet₂｜tshet₂le₁₁｜yok₃e₁₁\n②366",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -2990,6 +3031,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3001,6 +3043,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3012,6 +3055,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3021,7 +3065,7 @@
 "text": "住民志\n｜戰爭｜高低｜慣勢（習慣）｜我的｜一個｜犯法｜很（真、誠、足）涼\n新竹81｜tsieen₃₂tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₂₃e₁₂｜tsit₁e₁₂｜huan₁₁huat₂｜tsin₂₂liang₁₂/tsin₁₁liang₁₂/tsiok₃liang₁₂\n新竹76｜tsieen₃₁tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₂₃e₁₂/gua₃₁e₁₂｜tsit₁e₁₂｜huan₁₁huat₂｜tsiann₁₁liang₁₂\n新竹24｜tseen₃₂tsing₃₃｜kuan₁₂ : kee₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁le₁₂｜huan₁₁huat₂₁｜tsiann₁₁liang₁₂/tsiok₄liang₁₂\n港南69｜tsieen₃₂tsing₃₃｜kuan₁₂ke₂₂｜kuan₃₁si₁₁｜gua₂₃e₁₂｜tsit₁₁le₁₃｜huan₁₁huat₂｜tsin₂₂liang₁₂/tsiann₁₁liang₁₂\n港南30｜tsieen₃₁tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁le₁₂｜huan₁₁huat₂｜tsiok₃liang₁₂\n大庄80｜tsieen₃₂tsing₃₃｜kuan₁₁ke₂₂｜kuan₃₂si₁₁｜gua₂₃e₁₃｜tsit₁le₁₃｜huan₁₁huat₂₁｜tsin₂₂liang₁₂/tsiann₁₁liang₁₂\n大庄70｜tsieen₃₂tsing₃₃｜kuan₁₃ : ke₂₂｜kuan₃₁si₁₁｜gua₂₃e₁₃｜｜huan₁₁huat₂₂｜tsin₁₁liang₁₂\n大庄21｜tseen₃₂tsing₃₃｜kuan₁₃ : ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁le₂₂｜huan₁₁huat₂｜tsiok₃liang₁₂\n大庄19｜tseen₃₂tsing₃₃｜kuan₁₁ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁le₂₂｜huan₁₁huat₂₂｜tsiok₃liang₁₂\n蚵寮71｜tseen₃₂tsing₃₃｜kuan₁₁ke₂₂｜kuan₃₁si₁₁｜gua₃₃e₁₂｜｜huan₁₁huat₂｜tsin₂₂liang₁₂\n蚵寮55｜tseen₃₂tsing₃₂｜kuan₁₁ke₂₂｜kuan₃₁si₁₁｜gua₃₃e₁₂｜｜huan₁₁huat₂｜tsin₂₂liang₁₂\n蚵寮48｜tseen₃₂tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₃₃e₁₂｜tsit₁le₁₂｜huan₁huat₂｜tsin₂₂liang₁₂\n千甲71｜tsieen₃₂tsing₃₃｜kuan₁₁ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁e₁₂｜huan₁₁huat₂｜tsiann₁₁liang₁₂\n大湖57｜tsien₃₁tsing₃₃｜kuan₁₂ : ke₂₂｜kuan₃₁si₁₁｜gua₃₁e₁₂｜tsit₁e₁₂｜huan₁₁huat｜tsin₂₂liang₁₂\n千甲71｜chan₁₁tsen₃₁｜ko₃₁ : ai₂₃｜(m₃₃)kuan₁₁｜ngai₂₃kai₁₁｜jit₂kai₁₁｜fam₂₂fap₃｜an₃₂liong₃₃\n青草湖64｜chian₃₁tsen₁₂｜ko₁₁ : tai₁₂｜kuan₃₃she₃₃｜ngai₁₁kai₁₁｜jit₂kai₃₃｜fam₃₃fap₂｜tshin₃₁liong₁₁\n竹中62｜chan₁₁tsen₃₁｜ko₃₁ : tai₃₁｜｜｜｜｜\n新埔｜｜｜｜｜｜｜\n大湖57｜tsan₃₃tsen₁₃｜ko₁₂ : tai₁₂｜kuan₃₃se₃₃｜ngai₁₁kai₃₃｜yit₂kai₃₃｜fam₃₃fap₂｜tshin₃₃liong₁₁\n②370",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3032,7 +3076,7 @@
 "text": "語言篇\n｜鬼混（動詞）｜鬼混（副詞）｜結黨鬼混｜啞狗（啞巴）｜抵抗｜坐｜長短｜落雪\n新竹81｜uang₃₃｜i₂₂i₃₃uang₂₂uang₃₃｜kui₂₂uang₃₃kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tser₂₂｜tng₁₁ter₃₁｜lo₁₁serh₂\n新竹76｜uang₃₃｜inn₂₂inn₃₃uang₂₂uang₃₃｜kui₂₂uang₃₃kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tser₂₂｜tng₁₁ter₃₁｜lo₁₁serh₂\n新竹24｜uang₃₃｜inn₂₂inn₃₃uang₂₂uang₃₃｜×｜e₂₃kau₃₁｜te₂₃khong₁₁｜tse₂₂｜tng₁₁tee₃₁｜lo₁₁see₂₁\n港南69｜uang₃₃｜i₂₂i₃₃uang₂₂uang₃₃｜kui₂₂uang₃₃kui₂₂tong₃₃｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tser₂₂｜tng₁₂ : ter₃₁｜lo₁₁serh₂\n港南30｜×｜×｜kui₃kun₁₃sing₁₁tong₃₁｜e₂₃kau₃₁｜te₂₃khong₁₁｜tsie₂₂｜tng₁₁te₃₁｜lo₁₁sieh₂\n大庄80｜uang₃₃｜inn₂₂inn₂₂uang₂₂uang₃₃｜kui₂₂uang₂₂kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tsor₂₂｜tng₁₂ : tor₃₁｜loh₁₁sorh₂\n大庄70｜×｜×｜kui₂₂uang₂₂kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₁te₃₁｜lo₁₁seh₂\n大庄21｜×｜×｜keet₃tong₃₁｜e₂₃kau₃₁｜te₂₃khong₁₁｜tse₂₂｜tng₁₁te₃₁｜lor₁₁seh₂₁\n大庄19｜×｜×｜×｜e₂₃kau₃₁｜te₂₃khong₁₁｜tse₂₂｜tng₁₁tee₃₁｜lor₁₁se₂₁\n蚵寮71｜uang₃₃｜i₂₂i₃₃uang₂₂uang₃₃｜kui₂₂uang₃₃kui₂₂tong₃₃｜e₃₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₂ : te₃₁｜lor₁₁seh₂\n蚵寮55｜uang₃₃｜×｜kui₂₂uang₃₃kui₂₂tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₂ : te₃₁｜lo₁₁seh₂\n蚵寮48｜uang₃₃｜i₂₂li₁₁uang₂₂uang₃₃｜×｜e₃₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₂ : te₃₁｜lo₁₁seh₂₁\n千甲71｜×｜×｜kiat₃kun₁₂kiat₃tong₃₁｜e₂₃kau₃₁｜ti₂₃khong₁₁｜tse₂₂｜tng₁₁te₃₁｜lo₁₁serh₂\n大湖57｜×｜×｜×｜e₃₃kau₃₁｜ti₃₃khong₁₁｜tse₂₂｜tng₁₂ : ter₃₁｜lo₁₁se₂₁\n千甲71｜×｜×｜kiat₂khiun₃₃kiat₂tong₂₃｜a₂₂keu₂₃｜ti₂₁khong₁₁｜tsho₃₁｜chhong₃₃ton₂₃｜lok₂siat₃\n青草湖64｜×｜×｜kiat₂khiun₁₁kiat₂tong₂₁｜a₂₁keu₂₁｜ti₂₁khong₃₃｜tsho₁₂｜chhong₁₁ton₂₁｜lok₃siat₂\n竹中62｜×｜×｜kiat₂khiun₃₃kiat₂tong₂₃｜a₂₂keu₂₃｜ti₂₂khong₁₁｜tsho₃₁｜chhong₃₃ton₂₃｜lok₂siat₃\n新埔｜｜｜｜｜｜｜｜\n大湖57｜×｜×｜kiat₂khiun₁₁kiat₂tong₂₁｜a₂₁keu₂₁｜tui₃₃khong₃₃｜tsho₁₂｜tshong₁₁ton₂₁｜lok₃siat₂\n②371",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3043,7 +3087,7 @@
 "text": "住民志\n｜會不會｜買賣｜拿｜找｜工作｜回信\n新竹81｜ue₂₂a₂₃bue₂₂｜bue₂₃bue₂₂｜theh₃｜tsher₂₂｜tsue₃₂khang₂₂khir₁₁｜her₁₁phue₃₃\n新竹76｜e₂₂ia₂₂(~a~₃₃~)bue₂₂｜bue₂₃bue₂₂｜theh₃｜tsher₂₂｜tsue₃₁khang₂₂kher₁₁｜her₁₁phue₃₃\n新竹24｜e₂₂a₁₁bue₂₂｜bue₂₃bue₂₂｜thee₃₃｜tshe₂₂｜tsue₃₂khang₂₂khi₁₁｜hue₁₁phue₃₃\n港南69｜ue₂₂a₃₃bue₂₂｜bue₂₃bue₂₂｜theh₃｜tsher₂₂｜tsue₃₂khang₂₂khir₁₁｜her₁₁phue₃₃\n港南30｜e₂₂a₃₃bue₂₂｜bue₂₃bue₂₂｜theh₃｜tshie₂₂｜tsue₃₁khang₂₂khir₁₁｜hue₁₁phue₃₃\n大庄80｜ue₂₂ia₂₃bue₂₂｜bue₂₃bue₂₂｜theh₃｜tshor₂₂｜tsue₃₂khang₂₂khor₁₁｜hor₁₁phue₃₃\n大庄70｜ue₂₂a₁₁bue₂₂｜bue₂₃bue₂₂｜theh₂₃｜tshe₂₂｜tsue₃₂khang₂₂khi₁₁｜he₁₁phue₃₃\n大庄21｜e₂₂a₁₁bue₂₂｜bue₂₃bue₂₂｜theh₂₃｜tshe₂₂｜tsue₃₁khang₂₂khe₁₁｜hue₁₁phue₃₃\n大庄19｜ee₂₂bue₁₁｜bue₃₃bue₂₂｜thee₂₂｜tshue₂₂｜tso₃₁khang₂₂khe₁₁｜hue₁₁phue₃₃\n蚵寮71｜ue₂₂bue₂₂｜bue₂₃bue₂₂｜theh₃｜tshue₂₂｜tso₃₂khang₂₂khe₁₁ : tso₃₂hang₂₂khi₁₁｜he₁₁phue₃₃\n蚵寮55｜ue₂₂bue₂₂｜bue₂₃bue₂₂｜theh₂₃｜tshe₂₂｜tso₃₂khang₂₂khe₁₁ : tso₃₂lang₂₂khue₁₁｜he₁₁phue₃₃\n蚵寮48｜e₂₂a₂₃bue₂₂｜be₃₃bue₂₂｜theh₂₂｜tshue₂₂｜tsue₃₂khang₂₂khe₁₁｜hue₁₁phue₃₃\n千甲71｜e₂₂hiau₃₁a₁₁bue₁₁hiau₃₁｜bue₂₃bue₂₂｜theh₃｜tshe₂₂｜tsue₃₁khang₂₂kher₁₁｜hue₁₁phue₃₃\n大湖57｜e₂₂bue₂₂｜bue₃₃bue₂₂｜the₂₂｜tshe₂₂｜tso₃₂khang₂₂khue₁₁｜hue₁₁phue₃₃\n千甲71｜voi₂₂a₁₁m₃₃voi₂₂｜mai₃₁mai₂₂｜na₃₁｜tshim₃₃｜tso₁₁she₂₂｜fui₃₃sin₁₁\n青草湖64｜voi₃₃m₁₁voi₃₃｜mai₁₁mai₃₃｜na₁₂｜tshim₁₁｜tso₃₃she₃₃｜foi₁₁sin₃₃\n竹中62｜voi₂₂a₁₁m₃₃voi₂₂｜mai₃₁mai₂₂｜na₃₁｜tshim₃₃｜tso₁₁she₂₂｜fui₃₃sin₁₁\n新埔｜｜｜｜｜｜\n大湖57｜bvoi₃₃m₁₁bvoi₃₃｜mai₁₁mai₃₃｜na₁₂｜tshim₁₁｜tso₃₃se₃₃｜fui₁₁sin₃₃\n②372",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3056,6 +3100,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3067,6 +3112,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3076,7 +3122,7 @@
 "text": "語言篇\n｜老鼠｜豬肉｜煮飯｜姓呂｜考慮｜廢物｜緊張\n新竹81｜niau₂₃tshuu₃₁｜tuu₂₂bah₂｜tsuu₂₃png₂₂｜luu₂₂｜khonn₂₃luu₂₂｜hue₃₂but₃｜kin₂₃tiunn₃₃\n新竹76｜niau₂₃tshir₃₁｜tir₂₂bah₂｜tsir₂₃png₂₂｜lir₂₂｜khonn₂₃lir₂₂｜hue₃₁but₃｜kin₂₃tiunn₃₃\n新竹24｜niau₂₃tshi₃₁｜ti₂₂ba₂₁｜tsu₃₃png₂₂｜×｜khor₃₃/₂₃luu₂₂｜hui₃₂but₃｜kin₂₃tiunn₃₃\n港南69｜niau₂₃tshir₃₁｜tir₂₂bah₂｜tsir₂₃png₂₂｜lir₂₂｜kho₂₃lir₂₂｜hue₃₁but₃₃｜kin₂₃tiunn₃₃\n港南30｜niau₂₃tshi₃₁｜ti₂₂bah₂｜tsu₂₃png₂₂｜sinn₃₁li₂₂｜khor₂₃lu₂₂｜×｜kin₂₃tiunn₃₃\n大庄80｜niau₂₃tshuu₃₁｜tuu₂₂bah₂｜tsuu₂₃png₂₂｜sinn₃₂li₂₂｜khonn₂₃luu₂₂｜hue₃₂but₃｜kin₂₃tiunn₃₃\n大庄70｜niau₂₃tshi₃₁｜tir₂₂bah₂｜tsi₂₃png₂₂｜sinn₃₂li₂₂｜khoo₂₃/khoonn₂₃li₂₂/luu₂₂｜hue₃₂but₂₃｜kin₂₃tiunn₃₃\n大庄21｜niau₂₃tshi₃₁｜ti₂₂bah₂₁｜tsu₂₃png₂₂｜×｜khor₂₃lu₂₂｜hui₃₂but₃｜kin₂₃tiunn₃₃\n大庄19｜niau₃₃tshi₃₁｜ti₂₂bah₂｜tsu₂₃perng₂₂｜sinn₃₂lu₂₂｜khor₂₃lu₂₂｜hui₃₂but₂₁｜kin₂₃tiunn₃₃\n蚵寮71｜niau₂₃tshi₃₁｜ti₂₂bah₂｜tsu₃₃png₂₂｜sinn₃₂lu₂₂｜khoo₃₃li₂₂｜hue₃₂but₃｜kin₃₃tiunn₃₃\n蚵寮55｜niau₂₃tshi₃₁｜ti₂₂bah₂｜tsi₂₃png₂₃｜sinn₃₂li₂₂｜kho₂₃lu₂₂｜hue₃₂but₃｜kin₂₃tiunn₃₃\n蚵寮48｜niau₃₃tshi₃₁｜ti₂₂bah₂｜tsu₃₃png₂₂｜sinn₃₂li₂₂｜khor₃₃li₂₂｜hue₃₂but₃₃｜kin₃₃tiunn₃₃\n千甲71｜niau₂₃tshir₃₁｜tir₂₂bah₂｜tsir₂₃png₂₂｜sinn₃₂li₂₂｜kho₂₃lir₂₂｜hue₃₂but₃｜kin₂₃tiunn₃₃\n大湖57｜niau₂₃tshi₃₁｜ti₂₂bah₂₁｜tsu₃₃png₂₂/tsi₃₃png₂₂｜seenn₃₂li₂₂｜kho₃₃le₂₂｜bo₂₂loo₁₁ing₂₂mi₁₁kiann₂₂｜kin₃₃tiunn₃₃\n千甲71｜lo₂₂chhu₂₃｜chu₃₁nyiuk₃｜chu₂₂phon₂₂｜siang₁₁li₂₂｜khau₂₂li₂₂｜fui₁₁vut₂｜khin₂₂chong₃₁\n青草湖64｜lo₂₂chhu₂₁｜chu₁₂nyiuk₂｜chu₂₁fan₃₃｜siang₃₃li₁₂｜kho₂₁li₃₁｜fui₃₃vut₃｜kin₂₁chong₁₂\n竹中62｜lo₂₂chhu₁₃｜chu₃₁nyiuk₃｜chu₂₂phon₂₂｜siang₁₁li₃₁｜khau₂₂li₂₂｜fui₁₁vut₂｜kin₂₂chong₃₁\n新埔｜｜｜｜｜｜｜\n大湖57｜lo₁₂tshu₂₁｜tsu₁₂nyuk₂｜tsu₂₁fan₂₃｜siang₃₃li₁₂｜kho₂₁li₃₃｜mo₁₁yiung₃₃kai₃₃tung₁₁si₁₂｜kin₂₁'song₁₂\n②375",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3087,7 +3133,7 @@
 "text": "住民志\n｜斤｜銀行｜毋肯｜證據｜興旺｜出席｜在室女\n新竹81｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kuu₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃luu₃₁\n新竹76｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kir₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃lir₃₁\n新竹24｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜×｜hing₂₂ong₂₂｜×｜×\n港南69｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kir₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃lir₃₁\n港南30｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ku₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃lu₃₁\n大庄80｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kuu₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃luu₃₁\n大庄70｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ki₁₁｜hing₂₂ong₂₂｜tshut₃sit₂₃｜tsai₁₁sik₃li₃₁\n大庄21｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ku₁₁｜hing₂₂ong₂₂｜×｜×\n大庄19｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ku₁₁｜hing₂₂ong₂₂｜×｜×\n蚵寮71｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ki₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃li₃₁\n蚵寮55｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kinn₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃li₃₁\n蚵寮48｜kun₃₃｜gin₁₁hang₁₂｜×｜tsing₃₁ki₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tshu₁₁lu₃₁\n千甲71｜kun₃₃｜gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁kir₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃lir₃₁\n大湖57｜kun₃₃｜gin₁₁/gun₁₁hang₁₂｜m₁₁khing₃₁｜tsing₃₁ku₁₁｜hing₂₂ong₂₂｜tshut₃sit₃｜tsai₁₁sik₃li₃₁\n千甲71｜kin₃₃｜nyiun₃₃hong₃₃｜m₃₃hen₂₃｜chin₁₁ki₂₃｜hin₃₁vong₂₂｜chhut₂sit₂｜nyin₃₃ka₃₁ng₂₃\n青草湖64｜kin₁₂｜nyiun₁₁hong₁₁｜m₁₁hen₂₁｜chin₃₃ki₃₁｜hin₁₁vuong₃₃｜×｜nyin₁₁ka₁₂ng₂₁\n竹中62｜kin₃₃｜ngiun₃₃hong₁₂｜m₃₃hen₁₃｜chin₁₁ki₁₃｜hin₃₁vong₂₂｜chhut₂sit₂｜chhu₁₁ng₁₃ : tshai₂₂shiuk₃ng₁₃\n新埔｜｜｜｜｜｜｜\n大湖57｜kin₁₂｜nyiun₁₁hong₁₁｜m₁₁hen₂₁｜tsin₃₃ki₂₁｜hin₁₁vong₃₃｜tshut₂sit₃｜nyin₁₁ka₁₂ng₂₁\n②376",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3100,6 +3146,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3111,6 +3158,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -3123,6 +3171,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3134,6 +3183,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -3146,6 +3196,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -3158,6 +3209,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -3170,6 +3222,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3181,6 +3234,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3192,6 +3246,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ]
@@ -3201,7 +3256,7 @@
 "text": "住民志\n｜再大後年｜去年｜前年｜大前年｜再大前年\n新竹81｜lo₃₂au₂₂·ni₁₁｜ku₁₁ni₁₂｜tsun₁₃·ni₁₁｜tua₁₁tsun₁₃·ni₁₁｜lo₃₂tsun₁₃·ni₁₁\n新竹76｜×｜ku₁₁ni₁₂｜tsun₁₂·ni₁₁｜tua₁₁tsun₁₂·ni₁₁(lo₃₁)｜×\n新竹24｜×｜ku₁₁ni₁₂｜×｜×｜×\n港南69｜｜｜｜｜\n港南30｜×｜ku₁₁ni₁₂｜tsun₁₃·ni₁₁｜tua₁₁tsun₁₃ni₁₁｜×\n大庄80｜×｜ku₁₁ni₁₂｜tsun₁₃·ni₁₁｜tua₁₁tsun₁₃·ni₁₁｜×\n大庄70｜×｜｜｜｜\n大庄21｜×｜ku₁₁ni₁₂｜×｜×｜\n大庄19｜lo₃₂au₂₂·ni₁₁｜ku₁₁ni₁₂/ting₂₃ni₁₂｜×｜×｜\n蚵寮71｜｜｜｜｜\n蚵寮55｜｜｜｜｜\n蚵寮48｜×｜ku₁₁ni₁₂｜tsu₃₃·ni₁₁｜ting₃₃ting₃₃·ni₁₂｜×\n千甲71｜×｜ku₁₁ni₁₂｜tsun₂₃·ni₁₂｜tua₁₁tsun₂₃ni₁₂｜×\n大湖57｜×｜ku₁₁ni₁₂｜tsu₃₃·ni₁₂｜tua₁₁tsu₃₃ni₁₂｜×\n千甲71｜×｜khiu₂₂nyian₃₃｜tshian₃₃nyian₃₃｜thai₂₂tshian₃₃nyian₃₃｜×\n青草湖64｜iu₃₁tshai₂₂heu₂₃nyian₁₁｜khiu₃₁nyian₁₁｜tshian₁₁nyian₁₁｜thai₃₁tshian₁₁nyian₁₁｜iu₃₁tsa₃₃ko₂₂thai₃₁tshian₁₁nyian₁₁\n竹中62｜thai₂₂thai₂₂heu₂₂nyian₃₃｜khiu₂₂nyian₃₃｜tshian₃₃nyian₃₃｜thai₂₂tshian₃₃nyian₃₃｜thai₂₂thai₂₂tshian₃₃nyian₃₃\n新埔｜｜｜｜｜\n大湖57｜｜khiu₃₃nyien₁₁｜tshien₁₁nyien₁₁｜thai₃₃tshien₁₁nyien₁₁｜×\n②386",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3212,7 +3267,7 @@
 "text": "語言篇\n｜今天｜明天｜後天｜大後天｜再大後天｜昨天\n新竹81｜kiann₂₂ann₃₃lit₃｜bin₁₁na₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit₁｜lo₃₂au₂₂·lit₁｜tsa₂₂ng₃₃\n新竹76｜kin₂₂na₃₃lit₃｜mi₂₂ann₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit₁｜lo₃₁au₂₂·lit₁｜tsa₂₂ng₃₃\n新竹24｜kin₂₂na₃₃lit₃｜mi₂₂ann₃₃tsai₁₁｜au₂₂lit₂₁｜tua₁₁au₂₂·lit₂₁｜×｜tsang₂₂hng₃₃\n港南69｜｜｜｜｜｜\n港南30｜kiann₂₂a₃₃lit₃｜mi₂₂a₃₃tsai₁₁｜au₂₂·lit₂｜tua₁₁au₂₂·lit₁｜×｜tsa₂₂ng₃₃\n大庄80｜kin₂₂na₃₃jit₃｜bin₁₁na₃₃tsai₁₁｜au₂₂·jit₁｜tua₁₁au₂₂·jit₁｜lo₃₂au₂₂·jit₁｜tsang₂₂hng₃₃\n大庄70｜｜｜｜｜｜\n大庄21｜kin₂₂na₃₃lit₃｜mi₂₂na₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit₁｜tua₁₁tua₁₁au₂₂·lit₁｜tsang₂₂hng₃₃\n大庄19｜kin₂₂na₃₃lit₃｜mi₂₂na₃₃tsai₁₁｜au₂₂·jit₃｜tua₁₁au₂₂·lit₁｜×｜tsang₂₂hng₃₃\n蚵寮71｜｜｜｜｜｜\n蚵寮55｜｜｜｜｜｜\n蚵寮48｜kin₂₂na₃₃lit₃｜bin₂₂na₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit₁｜lo₃₃au₂₂·lit₁｜tsa₂₂hng₃₃\n千甲71｜kin₂₂na₃₃jit₃｜｜au₁₁jit₃｜tua₁₁au₁₁jit₃｜×｜tsa₂₂ng₃₃\n大湖57｜kin₂₂na₃₃lit₂₂｜mi₂₂na₃₃tsai₁₁｜au₂₂·lit₁｜tua₁₁au₂₂·lit｜×｜tsa₂hng₃₃\n千甲71｜kim₃₁pu₃₁nyit₃｜thian₃₁kong₃₁nyit₃｜heu₂₂nyit₃｜thai₂₂heu₂₂nyit₃｜×｜tshap₂pu₂₂nyit₃\n青草湖64｜kim₁₁pu₁₂nyit₂｜thian₁₁kong₁₂nyit₂｜heu₁₂nyit₂｜thai₃₁heu₁₂nyit₂｜iu₃₁tsa₃₃ko₂₂thai₃₁heu₂₃nyit₂｜tsho₁₁pu₁₂nyit₂\n竹中62｜kim₃₁pu₃₁nyit₃｜shau₃₃tso₁₃｜heu₂₂nyit₃｜thai₂₂heu₂₂nyit₃｜thai₂₂thai₂₂heu₂₂nyit₃｜tsho₃₁pu₃₁nyit₃\n新埔｜kim₁₁pu₂₃nyit₂｜thian₁₁kong₂₃nyit₂｜heu₂₃nyit₂｜thai₃₁heu₂₃nyit₂｜×｜chha₁₁pu₂₃nyit₂\n大湖57｜｜thien₁₁kong₁₂nyit₂｜heu₁₂nyit₂｜thai₃₃heu₁₂nyit₂｜×｜tshop₁pu₁₂nyit₂\n②387",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3223,7 +3278,7 @@
 "text": "住民志\n｜前天｜大前天｜再大前天｜這些｜那些｜這裡｜那裡\n新竹81｜tso₃₃·lit｜tua₁₁tso₃₃·lit₁₁｜lo₃₂tso₃₃·lit₁₁｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₁₂｜hia₁₂\n新竹76｜tso₃₃·lit₁｜tua₁₁tso₃₃·lit₁｜lo₃₁tso₃₃·lit₁｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₁₂｜hia₁₂\n新竹24｜tso₂₂·lit₂₁/₁₁｜tua₁₁tso₂₃·lit₁｜×｜tsit₄kua₃₁｜hit₃kua₃₁｜tsia₃₃｜hia₃₃\n港南69｜｜｜｜｜｜｜\n港南30｜tsor₃₃·lit₂｜tua₁₁tsor₃₃·lit₂｜｜tsia₁₃=e₃₃｜hia₁₃=e₃₃｜tsia₁₂｜hia₁₂\n大庄80｜tso₂₃·jit₁｜tua₁₁tso₂₃·jit₁｜lo₃₂tso₂₃·jit₁｜｜｜tsia₃₃｜hia₃₃\n大庄70｜｜｜｜tsia₃₁｜hia₃₁｜tsia₁₃｜hia₁₃\n大庄21｜tso₂₃lit₁｜×｜×｜tsua₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₃₃｜hia₃₃\n大庄19｜×｜×｜×｜tsua₃₃｜hua₃₃｜tsia₃₃｜hia₃₃\n蚵寮71｜｜｜｜tsia₁₃=e₃₃｜｜tsia₁₂｜\n蚵寮55｜｜｜｜｜｜｜\n蚵寮48｜tsor₃₃·lit₁｜×｜×｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₁₂｜hia₁₂\n千甲71｜tso₃₁·jit₁₁｜×｜×｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₁₂｜hia₁₂\n大湖57｜tso₂₂·lit₁｜tua₁₁tso₂₂·lit₁｜×｜tsia₃₃=e₃₃｜hia₃₃=e₃₃｜tsia₃₃｜hia₃₃\n千甲71｜tshian₃₃nyit₃｜thai₂₂tshian₃₃nyit₃｜×｜lia₃₃kai₁₁｜kai₃₃kai₁₁｜li₂₃en₃₁｜kai₃₃phian₂₃\n青草湖64｜tshian₃₃nyit₂｜thai₃₁tshian₁₁nyit₂｜iu₃₁tsa₃₃ko₂₂thai₃₁tshian₁₁nyit₂｜lia₂₁teu₁₂｜kai₃₃teu₁₂｜lia₂₁vui₃₃｜kai₃₃vui₃₃\n竹中62｜tshian₃₃nyit₃｜thai₂₂tshian₃₃nyit₃｜thai₂₂thai₂₂tshian₃₃nyit₃｜lia₃₃teu₃₁｜kai₃₃teu₃₁｜lia₃₃vui₂₂｜kai₃₃vui₂₂\n新埔｜tshian₁₁nyit₂｜｜｜tu₃₃lia₂₁kai₂₂｜tu₃₃kai₃₃e₃₃｜lia₂₁｜hia₃₃\n大湖57｜tshien₁₁nyiet₂｜thai₃₃tshien₁₁nyit₂｜×｜lia₂₁teu₁₂｜kai₃₃teu₁₂｜lia₁₁vui₃₃｜kai₃₃vui₃₃\n②388",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3234,7 +3289,7 @@
 "text": "語言篇\n｜我｜汝｜他｜我們｜咱們｜你們｜他們｜懶惰｜遊戲\n新竹81｜gua₃₁｜luu₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜thit₃tho₁₂\n新竹76｜gua₃₁｜lir₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜tshit₃tho₁₂\n新竹24｜gua₃₁｜li₃₁｜i₂₂｜gun₃₁｜lan₃₁｜lin₃₁｜in₂₂｜pin₁₁tuann₂₂｜\n港南69｜｜｜｜｜｜｜｜｜\n港南30｜gua₃₁｜li₃₁｜i₂₂｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜tshit₃/thit₃tho₁₂\n大庄80｜gua₃₁｜luu₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₂₂｜pan₁₁tuann₂₂(pin₁₁~)｜thit₃tho₁₂\n大庄70｜gua₃₁｜li₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pan₁₁tuann₂₂｜thit₃tho₁₃\n大庄21｜gua₃₁｜li₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜thit₃/tho₁₂sng₃₁\n大庄19｜ua₃₁｜li₃₁｜i₃₃｜un₃₁｜lan₃₁｜lin₃₁｜in₂₂｜pin₁₁tuann₂₂｜thit₃tho₁₂\n蚵寮71｜｜｜｜｜｜｜｜｜\n蚵寮55｜｜｜｜｜｜｜｜｜\n蚵寮48｜gua₃₁｜li₃₁｜i₂₂｜gun₃₁｜lan₃₁｜｜in₃₃｜pan₁₁tuann₂₂｜tshit₃tho₁₂\n千甲71｜gua₃₁｜lir₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pun₁₁tuann₂₂｜tshit₃tho₁₂\n大湖57｜gua₃₁｜li₃₁｜i₃₃｜gun₃₁｜lan₃₁｜lin₃₁｜in₃₃｜pin₁₁tuann₂₂｜tshit₃tho₁₂\n千甲71｜ngai₃₃｜nyi₃₃｜ki₃₃｜ngai₃₃teu₃₁｜ngai₃₃li₃₃/en₃₁li₃₃｜nyi₃₃teu₃₁｜ki₃₃teu₃₁｜lan₃₁shi₃₁｜liau₁₁\n青草湖64｜ngai₁₁｜nyi₁₁｜ki₁₁｜ngai₁₁teu₁₂｜ngai₁₁li₁₁｜nyi₁₁teu₁₂｜ki₁₁teu₁₂｜lan₁₁shi₁₂｜liau₃₃\n竹中62｜ngai₃₃｜nyi₃₃｜ki₃₃｜ngai₃₃li₃₃a₃₃teu₃₁｜ngai₃₃li₃₃a₃₃teu₃₁｜nyi₃₃a₃₃teu₃₁｜ki₃₃a₃₃teu₃₁｜lan₃₁shi₃₁｜liau₁₁\n新埔｜ngai₁₁｜nyi₁₁｜ki₁₁｜ngai₁₁li₂₁｜ngai₁₁li₁₁｜｜｜lan₁₁shi₁₂｜liau₃₁\n大湖57｜ngai₁₁｜nyi₁₁｜ki₁₁｜ngai₁₁teu₁₂｜en₂₃li₁₁｜nyi₁₁teu₁₂｜ki₁₁teu₁₂｜lan₁₁si₁₂｜liau₃₃\n②389",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -3247,6 +3302,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"

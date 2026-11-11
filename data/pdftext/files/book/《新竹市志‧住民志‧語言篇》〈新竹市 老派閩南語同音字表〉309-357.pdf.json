@@ -19,7 +19,7 @@
 "text": "住民志\n音韻系統表\n聲母(十五音)\n邊p[p]　頗ph[p']　文m[m]/b[b]\n地t[t]　他th[t']　柳n[n]/l[l]\n曾ts[ts]　出tsh[ts']　時s[s]　入j[dz]\n求k[k]　去kh[k']　語ng[ŋ]/g[g]\n英[ʔ]　喜h[h]\n韻母(四十五字母)\n一、口音韻\n1.嘉a[a]/ah[aʔ]　2.西e[e]/eh[eʔ]　3.基i[i]/ih[iʔ]　4.姑oo[ɔ]\n5.刀o[o] /oh[oʔ]　6.珠u[u]/uh[uʔ]　7.科er[ə]/erh[əʔ]　8.居ii[i]\n9.開ai[ai]　10.郊au[auʔ]/auh[auʔ]11.嗟 ia[ia]/iah[iaʔ]\n12.燒io[io]/ioh[ioʔ]13.秋iu[iu]/iuh[iuʔ]　14.朝iau[iau]\n15.花ua[ua]/uah[uaʔ]16.杯ue[ue]/ueh[ueʔ]　17.飛 ui[ui]/uih[uiʔ]\n18.乖uai[uai]\n二、鼻音韻\n19.監ann[a]/annh[aʔ]　20.夾ennh[eʔ]　21.青inn[i]/innh[iʔ]\n22.娥onn[ɔ]　23.梅m[m]/mh[mʔ]24.黄ng[ŋ]/ngh[ŋʔ]\n25.乃ainn[ai]　26.藕aunn[au]　27.京iann[ia]\n28.箱iunn[iu]/iunnh[iuʔ]29.貓iaunn[iau]　30.歡uann[ua]/\n31.夾uennh[ueʔ]　32.關uinn[ui]　33.桿uainn[uai]\n三、陽聲韻\n34.杉am[am]/ap[ap]　35.丹an[an]/at[at]　36.江ang[aŋ]/ak[ak]\n37.東ong[ɔŋ]/ok[ɔk]　38.金im[im]/ip[ip]　39.賓in[in]/it[it]\n40.卿ing[iəng]/iak[iək]　41.兼iam[iam]/iap[iap]　42.軒ian[iɛn]/iat[iɛt]\n43.涼iang[iaŋ] / iak[iak]44.香iong[iɔŋ]/iok[iɔk]45.君un[un]/ut[ut]\n46.川uan[uan]/uat[uat]　47.▢uang[uaŋ]\n聲調\n上平33:22[44>33]　上聲31:23[51>35]　下平12:11[13>11]—\n上去11:31[21>51]　上入2:3[32>4]/2:31[32>51]\n下去22:11[33:11]　下入3:1[4>2]/3:11[4>22]\n②310",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "看不清",
 "羅馬字多"
@@ -36,6 +36,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -52,6 +53,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -68,6 +70,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -84,6 +87,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -99,6 +103,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -114,6 +119,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -129,6 +135,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -142,7 +149,7 @@
 "text": "住民志\n八｜1上 平｜2上 聲｜3上 去｜4上 入｜5下 平｜7下 去｜8下 入\n居｜ir³³:²²｜ir³¹:²³｜ir¹¹:³¹｜｜ir¹²:¹¹｜ir²²:¹¹｜\n邊 p｜｜｜｜｜｜｜\n頗 ph｜｜｜｜｜｜｜\n文 b｜｜｜｜｜｜｜\n地 t｜豬｜｜著#置ˣ#在｜｜除鋤｜箸佇｜\n他 th｜｜貯#儲｜｜｜｜｜\n柳 l｜｜女旅汝｜置ˣ#在｜｜驢茹亂如｜呂慮濾｜\n曾 ts｜資書滋諸² 之｜子煮楮ˣ｜｜｜薯螿蠩* 慈｜自字#三~ 經住⁴｜\n出 tsh｜舒~被 差參~｜鼠處此｜次｜｜｜｜\n時 s｜思書司私 師斯#｜史使死#｜四#賜肆豎# 思意~，庶#｜□巴士｜詞辭#｜序嶼士祀 事仕緒｜\n入 j｜｜汝#｜｜｜薯~莨如# 愉#俞#｜喻#³比 ~｜\n求 k｜居俥据｜矩舉｜鋸據｜｜｜距巨拒｜\n去 kh｜｜｜去 課空~｜｜｜｜\n語 g｜｜語｜｜魚#漁｜御gu⁷｜\n英｜於#｜與#｜去出~飫#｜｜餘余與｜預譽豫#｜\n喜 h｜虛墟｜許｜｜魚漁｜｜\n説明｜○tsiunn¹ tsir⁵「螿蠩」：蟾蜍。\n○lir³〔置〕：正在。tir³〔置〕之訛變。再變調爲lirh₃，如：i₂₂ lirh₃ tshit₃ tho₁₂〔伊置迌迌〕：他在遊戲。tir³是tir⁷ ter³〔佇塊〕之合音。lir³ tir³再變調lirh₃、tirh₃，均出現喉塞尾，急讀之故也。\n○朱啓星(94)〔空課〕的〔課〕kher³、khuu³二讀。5.6.7.皆讀khir³\n○tsir²〔楮〕：紙也。用於tsir² king³〔楮敬〕同「紙敬」。\n○ba₃₃ sirh₄〔バス〕：巴士。\n②318",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -159,6 +166,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -174,6 +182,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -189,6 +198,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -204,6 +214,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -219,6 +230,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -232,7 +244,7 @@
 "text": "住民志\n十四朝｜1上　平｜2上　聲｜3上　去｜4上　入｜5下　平｜7下　去｜8下　入\n｜iau³³:²²｜iau³¹:²³｜iau¹¹:³¹｜iauh²:³¹｜iau¹²:¹¹｜iau²²:¹¹｜iauh³:¹¹\n邊p｜｜表婊｜｜｜｜｜\n頗ph｜標漂飄｜｜｜｜嫖｜｜\n文b｜｜藐｜｜｜描#苗｜妙｜\n地t｜刁雕凋貂朝調｜鳥*講話~~｜吊召｜｜調桐潮#條｜調兆#肇#掉｜\n他th｜挑#刁｜｜跳｜｜｜柱｜\n柳l｜｜了｜｜｜寮條療聊潦ˣ嘹瞭膫｜廖料繚｜\n曾ts｜招昭｜鳥｜照｜｜焦~勻椒#｜｜\n出tsh｜搜超｜｜笑~談｜｜樵｜｜□~~叫\n時s｜蕭消銷逍#硝□抽打｜猶小少｜少笑含~肖數｜｜韶精□啄~｜紹｜\n入j｜｜擾｜抓｜｜饒~裕絝鱙~仔魚｜｜\n求k｜交與及嬌#驕｜攪澆筊跤~袪跤~｜｜｜僑｜撟*｜\n去kh｜曲蹻｜巧｜翹竅#｜｜｜｜\n語g｜｜｜｜｜堯｜｜\n英｜枵妖邀｜夭~壽ˣ夭還｜要｜｜遙#搖#謠｜耀曜#｜\n喜h｜梟□搜□~反｜曉會³⁴⁸｜｜□剝落｜嬈｜｜\n説明\n○kiau⁷〔撟〕：①撬開；②用粗話罵人；③用粗野動作罵人。如：撟中指、撟中營。\n○kha¹ kiau²〔跤袙〕：綁腿。\n○〔調〕三音：tiau¹ 用在〔風調雨順〕；tiau⁵ 用在〔調整〕；tiau⁷ 用在〔音調〕\n○〔會曉〕：新竹市區説e⁷ hiang²，市郊多半唸e⁷ hiau²。\n○kiau¹〔交〕：與、及，官話音。又見lam⁵ pak⁴ kiau¹ ka〔南北交加〕：南北和。\n○liau⁵〔潦ˣ〕：涉水。\n○〔條〕只用於i² liau⁵〔椅條〕：長板凳。\n○liau⁵〔膫〕：拍子。\n○liau⁵〔膫〕：長條。用於phiann¹ liau⁵〔骿膫〕豬肋骨部份。\n○liau⁷〔繚〕：繞也。用於拉帆的叫liau⁷ soh⁴〔繚索〕。\n②324",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -249,6 +261,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -264,6 +277,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -277,7 +291,7 @@
 "text": "語言篇\n十八乖｜1上　平｜2上　聲｜3上　去｜4上　入｜5下　平｜7下　去｜8下　入\n｜uai³³:²²｜uai³¹:²³｜uai¹¹:³¹｜uaih²:³¹｜uai¹²:¹¹｜uai²²:¹¹｜uaih³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文b｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳l｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜乖｜枴｜怪｜｜｜乖~筋□搭｜\n去kh｜｜｜快｜｜｜｜\n語g｜｜｜｜｜｜｜\n英｜歪｜｜｜｜｜｜\n喜h｜｜｜壞#³毀~｜｜懷淮｜壞｜\n説明\n②327",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -294,6 +308,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -309,6 +324,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -322,7 +338,7 @@
 "text": "住民志\n二十夾｜1 上　平｜2 上　聲｜3 上　去｜4 上　入｜5 下　平｜7 下　去｜8 下　入\n　｜enn³³:²²｜enn³¹:²³｜enn¹¹:³¹｜ennh²:³¹｜enn¹²:¹¹｜enn²²:¹¹｜ennh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳l｜呢⁵按～｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜｜｜｜｜｜｜\n去kh｜｜｜｜｜｜｜\n語g｜｜｜｜夾～仔*夾¹蔡｜｜｜\n英｜｜｜嗯｜噫｜咦｜｜\n喜h｜｜｜係³ 是的｜｜咦｜｜\n說明｜○ngeh⁴ a²〔夾仔〕：鑷子，又當動詞，夾住。吸收漳腔。 ○an³ ne¹〔按呢〕：這樣。新竹本讀an³ ni¹，有時也說an³ ne¹，吸收漳腔。 ○本韻除嗯、噫、咦等語助詞之外，ne¹〔呢〕，ngeh⁴〔夾〕，henn³〔係〕都是吸收漳腔的讀法，新竹另外分別又讀ni¹〔呢〕，ngueh⁴〔夾〕， hann³〔喏〕。\n②330",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -339,6 +355,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -352,7 +369,7 @@
 "text": "住民志\n廿二娥｜1 上　平｜2 上　聲｜3 上　去｜4 上　入｜5 下　平｜7 下　去｜8 下　入\n　｜onn³³:²²｜onn³¹:²³｜onn¹¹:³¹｜onnh²:³¹｜onn¹²:¹¹｜onn²²:¹¹｜onnh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜□臭～～ 摸¹嗲～～｜｜｜扪抱｜毛姥耗消～ 魔摩｜冒｜膜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳n｜｜老｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜□臭～～｜｜｜｜肝｜｜\n去kh｜｜考可｜｜｜｜｜\n語ng｜｜五伍我｜｜｜吳蛾俄 吾｜傲臥誤悟｜\n英｜｜｜惡｜｜｜｜\n喜h｜｜火好｜好～色｜熇*｜｜｜\n說明｜○tshau³ mi¹ x〔臭□□〕：很臭(擬態詞) ○tshau³ konn¹ x〔臭□□〕：很臭(擬態詞) ○honnh⁴〔熇〕：貼著取熱。烘烤。 ○鄭(1)認爲mo¹〔摸〕是一般的摸，bong¹〔摸〕則有偷摸之義。\n②332",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -367,7 +384,7 @@
 "text": "語言篇\n廿三梅｜1 上　平｜2 上　聲｜3 上　去｜4 上　入｜5 下　平｜7 下　去｜8 下　入\n　｜m³³:²²｜m³¹:²³｜m¹¹:³¹｜mh²:³¹｜m¹²:¹¹｜m²²:¹¹｜mh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳n｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜｜｜｜｜｜｜\n去kh｜｜｜｜｜｜｜\n語ng｜｜｜｜｜｜｜\n英｜｜姆｜｜｜梅｜毋不｜\n喜h｜｜｜｜｜媒茅｜｜默\n說明｜○hmh⁸〔默〕只用於hmh⁸ x tsiah⁸ sann¹ uann² kong¹〔默默食三碗公〕(城府深)。\n②333",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -384,6 +401,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -397,7 +415,7 @@
 "text": "語言篇\n廿五乃｜1 上　平｜2 上　聲｜3 上　去｜4 上　入｜5 下　平｜7 下　去｜8 下　入\n　｜ainn³³:²²｜ainn³¹:²³｜ainn¹¹:³¹｜｜ainn¹²:¹¹｜ainn²²:¹¹｜\n邊p｜｜□*｜｜｜｜｜\n頗ph｜｜｜｜｜｜揹｜\n文m｜｜挽*｜勿｜｜｜邁｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜□*｜\n柳n｜妮*｜乃#眯｜｜｜｜耐賴#荔 奈#｜\n曾ts｜｜指中～ 怎～樣｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜猄*×｜｜｜｜｜｜\n去kh｜堅｜｜快～活⁸｜｜｜｜\n語ng｜｜研｜｜｜｜｜\n英｜｜搴挑｜｜｜｜｜\n喜h｜哼｜｜悅｜｜｜｜\n說明｜○sai¹ nai¹〔思妮〕：撒嬌。 ○painn² thainn⁷ □□：違背常情；不規矩；反復無常。 ○mai² x tshuah⁴ x〔挽挽掣掣〕：不情願的惡劣態度。 ○kainn¹〔猄x〕：狗叫聲。 ○ainn²〔搴〕：挑一頭曰ainn²〔搴〕；挑=頭曰tann¹〔擔〕。 ○ngai²〔研〕：咬韌物曰ngai²，研粉曰ging²，又曰ngai²，字皆作「研」。ngai²是同安腔遺音。\n②335",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -414,6 +432,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -429,6 +448,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -444,6 +464,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -459,6 +480,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -474,6 +496,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -487,7 +510,7 @@
 "text": "語言篇\n卅一英｜1上　平｜2上　聲｜3上　去｜4上　入｜5下　平｜7下　去｜8下　入\n｜uenn³³:²²｜uenn³¹:²³｜uenn¹¹:³¹｜uennh²:³¹｜uenn¹²:¹¹｜uenn²²:¹¹｜uennh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳n｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜｜｜｜｜｜｜\n去kh｜｜｜｜｜｜｜\n語ng｜｜｜｜夾～菜茭鋏～仔｜｜｜挾\n英｜｜｜｜｜｜｜\n喜h｜｜｜｜｜｜｜\n說明｜○ngueh⁴ a²〔鋏仔〕：鉗子。 ○ngueh⁸〔挾〕：挾在腋下。\n②341",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -504,6 +527,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -517,7 +541,7 @@
 "text": "語言篇\n卅三桿｜1上　平｜2上　聲｜3上　去｜4上　入｜5下　平｜7下　去｜8下　入\n｜uainn³³:²²｜uainn³¹:²³｜uainn¹¹:³¹｜uainnh¹¹:³¹｜uainn¹²:¹¹｜uainn²²:¹¹｜uainnh³:¹¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文m｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳n｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜樣｜□搖床聲\n入j｜｜｜｜｜｜｜\n求k｜｜桿稱～梗｜｜｜峘⁵高｜縣³｜\n去kh｜｜｜｜｜｜｜□敲擊聲\n語ng｜｜｜｜｜｜｜\n英｜｜□*｜｜｜｜｜□innh⁸×～～\n喜h｜橫｜｜｜｜莖芋～｜｜\n說明｜○sinn¹ x suainnh⁸ x □□□□/ inn¹ x uainnh⁸ x □□□□狀搖床或搖椅時木竹摩擦之聲。前者狀竹子摩擦聲，後者狀木頭摩擦聲。 ○uainn² □：扭到筋。 ○本韻與uinn韻重出的字。讀uainn是同安遺音，uinn是三邑遺音。\n②343",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -534,6 +558,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -549,6 +574,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -564,6 +590,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -580,6 +607,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -596,6 +624,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -612,6 +641,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -628,6 +658,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -644,6 +675,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -660,6 +692,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -676,6 +709,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "看不清",
 "羅馬字多",
 "表格"
@@ -690,7 +724,7 @@
 "text": "住民志\n四四香｜1上平｜2上聲｜3上去｜4上入｜5下平｜7下去｜8下入\n｜iong³³:²²｜iong³¹:²³｜iong¹¹:³¹｜iok²:³｜iong¹²:¹¹｜iong²²:¹¹｜iok³:¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文b｜｜｜｜｜｜｜\n地t｜中忠張#出~｜長｜漲中｜築｜重腸墜｜重丈#仲#｜著#逐#\n他th｜衷｜塚寵｜暢昶#｜畜｜蟲#｜｜\n柳l｜｜兩#｜｜｜良隆梁龍#娘#｜讓冗量諒｜六#陸\n曾ts｜將¹把章終彰｜種獎｜將｜足祝芍爵｜從｜將²把｜\n出tsh｜昌充｜｜縱放~｜觸矗｜｜｜擉~塗\n時s｜相商傷｜想賞｜相象印~｜淑宿｜松常祥詳嫦#嘗#｜誦頌上尚像訟｜續俗熟#塾屬贖\n入j｜｜嚷｜｜逐追｜絨｜讓｜肉#若#弱辱褥搦揉\n求k｜宮恭芎｜拱棋｜｜菊鞠｜強窮#｜共｜局\n去kh｜僵姜供｜恐供²~給｜｜曲卻｜｜｜\n語g｜｜仰｜｜｜｜｜虐玉瘧\n英｜央｜勇踴養｜映｜約｜容榕#陽揚庸楊｜用｜育欲\n喜h｜凶香胸慌~狂凶髒｜享#｜向餉｜旭蓄｜雄融#｜｜\n説明｜○hiong¹ x kong⁵ x〔慌慌狂狂〕:慌慌張張。\n○liong⁵〔娘〕:(鄭7)只用於守溫三十六字母ti¹〔知〕thiat⁴〔徹〕ting⁵〔澄〕liong⁵〔娘〕。\n○tshiok⁸〔擉〕:抓泥巴之類稀爛的東西。或揉成團,意近jiok⁸〔搦〕。\n○jiok⁸〔褥〕:墊被謂之jiok⁸ a² pher⁷〔褥仔被〕。\n②354",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -707,6 +741,7 @@
 "model": "claude-sonnet-5-5",
 "checked": "none",
 "flags": [
+"兩讀不一致",
 "羅馬字多",
 "表格"
 ],
@@ -720,7 +755,7 @@
 "text": "住民志\n四六川｜1上平｜2上聲｜3上去｜4上入｜5下平｜7下去｜8下入\n｜uan³³:²²｜uan³¹:²³｜uan¹¹:³¹｜uat²:³｜uan¹²:¹¹｜uan²²:¹¹｜uat³:¹\n邊p｜｜｜半｜｜｜｜拔提~\n頗ph｜｜｜｜｜盤~古｜叛背~｜潑活~\n文b｜｜滿輓# 挽#｜｜｜｜｜末\n地t｜端｜｜斷#｜｜｜斷# 緞｜奪\n他th｜｜｜鍛~鍊｜脫｜團傳｜｜\n柳l｜｜暖# 軟｜｜劣#²｜戀攣｜亂｜劣#²\n曾ts｜專｜轉□就按呢 攢~錢｜｜｜全泉｜纂#鏇水~仔 ~開撰｜絕\n出tsh｜川穿 村｜喘｜串篡｜□氣~~｜撰備｜｜\n時s｜辿溜~宣 珊~瑚｜選｜蒜算#｜雪說刷｜旋｜漩~尿 璇~石｜\n入j｜｜｜｜｜｜｜\n求k｜娟捐關棺 觀冠²｜館管｜慣冠卷貫 灌｜決括訣 抉 摑｜峘高權｜縣²｜\n去kh｜寬冠¹｜款｜勸｜缺｜環園｜｜\n語g｜｜頑｜｜｜元原源｜願｜月\n英｜冤鴛灣彎｜遠婉# 腕苑# 玩# 轉*｜怨｜斡轉彎｜完員灣×台~九圓園袁｜援緩｜越粵# 曰#\n喜h｜歡# 番翻｜反返#｜販範²煥#｜法發髮#｜還礬樊煩繁凡｜犯患凡下凡範¹｜罰活閥# 伐#\n説明｜○uan²〔轉〕:只用於tsir⁷ uan² tshia¹〔目轉車〕。\n○tsuan²□:tsu⁷ an³ ni¹〔就按呢〕合音。如:伊tsuan₁₃走去因兜揣伊。\n○uan⁵ a²〔員仔〕是iu¹ guan⁵ a²。〔猶×原仔〕合音。本字可能是〔依原仔〕:依舊。又讀iu¹ uan⁵, i¹ uan⁵(朱4)。\n○huan³〔範〕,(鄭1)於「師範」之「範」唸huan³。\n②356",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
@@ -735,7 +770,7 @@
 "text": "語言篇\n四七嚾｜1上平｜2上聲｜3上去｜4上入｜5下平｜7下去｜8下入\n｜uang³³:²²｜uang³¹:²³｜uang¹¹:³¹｜uak²:³｜uang¹²:¹¹｜uang²²:¹¹｜uang³:¹\n邊p｜｜｜｜｜｜｜\n頗ph｜｜｜｜｜｜｜\n文b｜｜｜｜｜｜｜\n地t｜｜｜｜｜｜｜\n他th｜｜｜｜｜｜｜\n柳l｜｜｜｜｜｜｜\n曾ts｜｜｜｜｜｜｜\n出tsh｜｜｜｜｜｜｜\n時s｜｜｜｜｜｜｜\n入j｜｜｜｜｜｜｜\n求k｜｜｜｜｜｜｜\n去kh｜｜｜｜｜｜｜\n語g｜｜｜｜｜｜｜\n英｜嚾x*｜｜｜｜｜｜\n喜h｜｜｜｜｜｜｜\n説明｜○uang¹〔嚾×〕:鬼混。kiat⁴ uang¹ kiat⁴ tong²〔結嚾結黨〕(結黨鬼混);i¹ x uang¹ x〔□□嚾嚾〕:無所事事,胡亂鬼混。\n②357",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "none",
+"checked": "second-read",
 "flags": [
 "羅馬字多",
 "表格"
