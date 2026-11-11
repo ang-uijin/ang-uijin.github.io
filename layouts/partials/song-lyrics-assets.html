@@ -1,0 +1,18 @@
+{{- /*
+  歌詞逐句對照（partials/song-lyrics.html）要用的樣式與「臺羅｜TLPA」切換。一頁輸出一次就夠；
+  萬一輸出了兩次也沒關係（script 有 window.__slInit 擋著，樣式表瀏覽器只抓一次）。
+*/ -}}
+<link rel="stylesheet" href="/css/song-lyrics.css">
+<script>(function(){var r=null;try{r=localStorage.getItem("class-rom")}catch(e){}var m=/[?&]rom=(tlpa|tailo)/.exec(location.search);if(m)r=m[1];document.documentElement.setAttribute("data-rom",r==="tlpa"?"tlpa":"tailo")})();</script>
+<script>
+(function(){
+  if(window.__slInit)return;window.__slInit=true;
+  function init(){
+    var d=document.documentElement,b=document.querySelectorAll(".sl-switch button");
+    function show(v){d.setAttribute("data-rom",v);for(var i=0;i<b.length;i++)b[i].setAttribute("aria-pressed",String(b[i].getAttribute("data-rom")===v))}
+    for(var i=0;i<b.length;i++)b[i].addEventListener("click",function(){var v=this.getAttribute("data-rom");show(v);try{localStorage.setItem("class-rom",v)}catch(e){}});
+    show(d.getAttribute("data-rom")||"tailo");
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
+})();
+</script>

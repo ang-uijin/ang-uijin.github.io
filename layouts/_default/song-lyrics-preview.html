@@ -10,6 +10,7 @@
     {{- $nos := slice -}}
     {{- range $k, $v := site.Data.song_lyrics }}{{ $nos = $nos | append $k }}{{ end -}}
     {{- $nos = sort $nos -}}
+    {{ partial "song-lyrics-assets.html" . }}
     <div class="sl-preview-bar">
       <div class="sl-switch" role="group" aria-label="拼音標法" title="原稿用 TLPA 標音，這裡預設改標臺羅；點一下可以切換，瀏覽器會記住">拼音
         <button type="button" data-rom="tailo">臺羅</button><button type="button" data-rom="tlpa">TLPA</button>
@@ -29,7 +30,7 @@
         {{- with $s.img.text }}｜<a href="https://uijin.idv.tw/taiwansong/{{ . }}" target="_blank" rel="noopener">歌詞原圖</a>{{ end }}
         {{- with $s.img.trans }}　<a href="https://uijin.idv.tw/taiwansong/{{ . }}" target="_blank" rel="noopener">中譯原圖</a>{{ end }}
         　<a href="#top">↑</a></p>
-      {{ partial "song-lyrics.html" (dict "no" . "page" $ "switch" false) }}
+      {{ partial "song-lyrics.html" (dict "no" . "switch" false "assets" false) }}
     </section>
     {{- end }}
   </article>
