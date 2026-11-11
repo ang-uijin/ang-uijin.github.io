@@ -7,7 +7,7 @@
 "text": "麥都思《福建方言字典》的價值・73・\n3.附錄\n3.1註釋\n①董同龢《廈門方言的音韻》，收入《董同龢先生語言學論文選集》P.277。\n②括孤( )的字為筆者所加以便讀者理解。\n③參照《漳州三種十五音的淵源與音讀》3.3.C。\n④參考董同龢《四個閩南方言》龍溪部份，P.852，中嶋幹起《閩語東山島基礎語彙集》P26-38。\n⑤參照拙著《漳州三種十五音的淵源與音讀》3.3.a。周長楫(1986)。\n⑥依Eugene J.Crook譯自Richard Jordan's \"Handbook of Middle English Grammar : Phonology\" (p.174)，中古 (16世紀) 英語young寫作yong音「juŋg」。依麥都思字典，young的發音應為[juŋ]。\n⑦參見周長楫(1986)，P.76。\n⑧周長楫(1986)附表二《四市十九縣閩南方言今聲調對照表》。\n⑨參照洪惟仁(1989)《漳州三種十五音之源流與音讀》，P.P.20-21。\n⑩見杜嘉德《廈英大辭典》序言P.8。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -17,7 +17,7 @@
 "text": "・74・\n3.2重要參考書目\n麥都思(W.H.Medhurst)《福建方言字典》1837。澳門：英國東印度公司出版部。\n羅啻 (E.Doty)《翻譯英華廈腔語彙》(Anglo-Chinese Manual with Romanized Colloquial in the Amoy Dialect) 1853，廣州：S.Wells Williams出版。\n杜嘉德(Carstairs Douglas)《廈英大辭典》(Chinese-English Dictionary of the Vernacular of Spoken Language of Amoy) 1873，London：Glasgow出版。\n台灣總督府《日臺大辭典》1907台北：編者。\n台灣總督府《台日大辭典》1931～32台北：編者。\n衛三畏(S.Wells Williams) \"New Orthography adopted for representing the Sounds of Chinese Characters.\" Jam 1842，Hongkong Chinese Repository 11：28-44。\n羅常培《廈門音與十五音的比較》1932，《廈門音系》：50-54。\n王育德《閩音系研究》1969，東京大學博士論文。\n王育德《十五音について》1968，東京東方學會《國際東方學會會議紀要》13號。\n洪惟仁《彙音妙悟與古代泉州音》1988年12月完稿，將收入彙編第一冊解題。\n洪惟仁《漳州三種十五音之源流與音讀》1989年10月完稿，載1990年《台灣風物》40・2，將收入彙編第二冊解題。\n董同龢《四個閩南方言》1959，史語所集刊30本。\n李如龍、陳章太《論閩方言內部的主要差異》1984，《中國語言學報》2：93-173。\n中嶋幹起《閩語東山島方言基礎語彙集》1977，《東京外國語大學》：亞非言語文化研究所。",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "羅馬字多"
 ]
@@ -27,7 +27,7 @@
 "text": "麥都思《福建方言字典》的價值‧75‧\n藍清漢《中國語宜蘭方言語彙集》1980，東京外國語大學：亞非言語文化研究所。\n周長楫《福建境內閩南方言的分類》1986，《語言研究》2(11)：69-84。\n張振興《漳平（永福）方言同音字匯》1982，《方言》3：203-228。\nHandbook of Middle English Grammar: Phonology, by Richard Jordan, translated and revised by Eugene J. Crook, 1974, Mouton, the Hague, Paris.",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": []
 },
 {
@@ -35,7 +35,7 @@
 "text": "",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "空白",
 "空白或圖"
@@ -46,7 +46,7 @@
 "text": "福建方言字典\n原編者｜麥都思\n編著者｜洪惟仁\n發行人｜林聰富\n出版者｜武陵出版有限公司\n社址｜台北市新生南路三段19巷19號\n電話｜3638329 • 3630730\n傳眞號碼｜3621183\n郵撥帳號｜0105063-5\n法律顧問｜王昧爽律師\n地址｜台北市羅斯福路二段1號11樓\n印刷者｜上英印刷股份有限公司\n裝訂者｜忠信裝訂廠\n登記證｜局版臺業字第1128號\n初版｜1993年2月\n版權所有‧翻印必究\n定價12000元\n●珍藏本200套●\nISBN 957-35-0614-9\nISBN 957-35-0617-3",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "表格"
 ]

@@ -108,12 +108,11 @@
 },
 {
 "n": 11,
-"text": "· 344 · 臺灣禮俗語典\nˊliˊtsuᵛbuᵛtsaiˇpianˇsi tik\n女子無才便是德 17\nˊliah-kan·ˇtsaiᵛchng ˊliahˊchatˇtsiuⁿ-tsng\n搦姦在床，搦賊上贓 25\nˊliahᵛkau·kuahᵛthau-tsang\n搦猴割頭鬃 25\nˇlaiˋhioh·pueˇtsiuⁿ-suan ˊginˊa·ˋkhuaiˋtso-kuaⁿ\n鴟鴞飛上山，囡仔快做官 4\nˇlaiˋhioh pueᵛkuanᵛkuanˊginˊaˋtiongˇtsiongᵛguan\n鴟鴞飛懸懸，囡仔中狀元\nˇlaiˋhioh pueˇkeˇke ˊginˊa·ˋkhuaiˋtsoˇpe\n鴟鴞飛下下，囡仔快做父\nlim-ta-ta seⁿˇlan-pha\n飲礁礁生卵脬 2\nˇlingˊiongˋchatˊtsu putˊlong chiᵛzi\n寧養賊予，不養痴兒 8\nˊlohᵛthooᵛsi pehˇziˇmia\n落塗時，八字命\nˊlun=a·ˊlun ˊlunˋtiohˋtsitᵛe kimˊtun\n忍啊忍，忍着蜀个金囤 8\nˇlunˋpue·ᵛboˇlunˋhue\n論輩無論歲 31\nM\nˇm-batˋtsiaⁿˋkue ti-bah ˇmaˋbatˋkuaⁿˋkue ti·ᵛkiaⁿˇloo\n毋捌食過豬肉，嘛捌看過豬行路 15\nˇm-batˋtsoˋkuo ta-ke·lak-lak-chuah\n毋捌做過大家慄慄顫 15\nˇmˇsiˊsai·ˋtohˇsiˇzio·ˇmˇsiˋkhau·ˋtohˇsiˋchio\n毋是屎着是尿，毋是哭着是笑 6\nˇmᵛtsiaⁿ-tsa-poo ˇmᵛtsiaⁿ-tsaˊboo\n毋成查夫，毋成查某 11\nˇmia-tiong·ˋtai siangˋhuˇpeˊbo\n命中帶雙付父母 7, 8\nᵛmng-hong siong-tong\n門風相當 17\nᵛmngˇhoo sioˋtui\n門戶胥對 17",
+"text": "· 344 · 臺灣禮俗語典\nˊliˊtsuˇbuˇtsai‶pian‶si tik\n女子無才便是德 17\nˋliah-kan·‶tsaiˇchng ˋliahˋchat‶tsiuN-tsng\n搦姦在床，搦賊上贓 25\nˋliahˇkau·kuahˇthau-tsang\n搦猴割頭鬃 25\n‶laiˋhioh·pue‶tsiuN-suan ˊginˊa·ˋkhuaiˋtso-kuaN\n鴟鴞飛上山，囡仔快做官 4\n‶laiˋhioh pueˇkuanˇkuanˊginˊaˋtiong‶tsiongˇguan\n鴟鴞飛懸懸，囡仔中狀元\n‶laiˋhioh pue‶ke‶ke ˊginˊa·ˋkhuaiˋtso‶pe\n鴟鴞飛下下，囡仔快做父\nlim-ta-ta seN‶lan-pha\n飲礁礁生卵脬 2\n‶lingˊiongˋchatˊtsu putˊlong chiˇzi\n寧養賊予，不養痴兒 8\nˋlohˇthooˇsi peh‶zi‶mia\n落塗時，八字命\nˊlun=a·ˊlun ˊlunˋtiohˋtsitˇe kimˊtun\n忍啊忍，忍着蜀个金囤 8\n‶lunˋpue·ˇbo‶lunˋhue\n論輩無論歲 31\nM\n‶m-batˋtsiaNˋkue ti-bah ‶ma·batˋkuaNˋkue ti·ˇkiaN‶loo\n毋捌食過豬肉，嘛捌看過豬行路 15\n‶m-batˋtsoˋkuo ta-ke·lak-lak-chuah\n毋捌做過大家慄慄顫 15\n‶m‶siˊsai·ˋtoh‶si‶zio·‶m‶siˋkhau·ˋtoh‶siˋchio\n毋是屎着是尿，毋是哭着是笑 6\n‶mˇtsiaN-tsa-poo ‶mˇtsiaN-tsaˊboo\n毋成查夫，毋成查某 11\n‶mia-tiong·ˋtai siangˋhu‶peˊbo\n命中帶雙付父母 7, 8\nˇmng-hong siong-tong\n門風相當 17\nˇmng‶hoo sioˋtui\n門戶胥對 17",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },

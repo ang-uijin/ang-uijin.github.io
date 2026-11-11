@@ -1840,14 +1840,12 @@
 },
 {
 "n": 182,
-"text": "台語文摘\n180",
+"text": "台語文摘\n笑話\n180",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
-"圖多字少",
-"空白或圖"
+"圖多字少"
 ]
 },
 {
@@ -1876,14 +1874,12 @@
 },
 {
 "n": 186,
-"text": "台語文摘\n184",
+"text": "台語文摘\n笑話\n184",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
-"圖多字少",
-"空白或圖"
+"圖多字少"
 ]
 },
 {

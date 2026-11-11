@@ -368,12 +368,10 @@
 "n": 27,
 "text": "時令篇",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
-"圖多字少",
-"空白或圖"
+"圖多字少"
 ],
 "copied_from": {
 "url": "/files/book/台灣哲諺典_compressed.pdf",

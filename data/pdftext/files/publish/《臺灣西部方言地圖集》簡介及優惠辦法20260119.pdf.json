@@ -45,7 +45,7 @@
 "text": "QR code：",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "圖多字少",
 "空白或圖"
@@ -56,7 +56,7 @@
 "text": "",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "空白",
 "空白或圖"

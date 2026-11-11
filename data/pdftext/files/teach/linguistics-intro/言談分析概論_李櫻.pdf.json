@@ -21,7 +21,7 @@
 "text": "",
 "source": "llm",
 "model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"checked": "second-read",
 "flags": [
 "空白",
 "空白或圖"

@@ -126,12 +126,11 @@
 },
 {
 "n": 13,
-"text": "6斷奶、發牙・49・\nᵛgau'puah'to ᵛgau\nᵛhau\nʷgua ᵛgia\nᵛho\nᵛgau\n【爻跋倒】 【爻】⑪ 善也。跋，顚也，跌也。「爻」，廣韵：胡茅切，今閩南讀音皆讀ᵛgau，胡屬匣母，匣母字讀 g- 者如：何、荷。林金鈔、陳冠學擬爲「▢」。說文：『▢，健也。』集韵：乎刀切。ᵛho 白話 ᵛgau 可通。段玉裁認爲此乃「豪」傑字。但廣雅釋詁云：「爻，效也」。其同源字有學、覺、曉，皆有明義。臺灣話 ᵛgau 是聰明能幹之義，與「健也」義稍遠。姑以【爻】爲正字。\n'hang-ling 'hing\n【臖奶】⑫ 廣韵：『腫起。許應切，音興（去聲）』字在曾開三，曾開三白話音多爲 -in，轉一等，參考崩 pang，北 pak，勉强可視爲準正字。\n'sanᵛpi-pa 'san 'sing 'sing\nthing ᵛling-sing\nsing\nᵛphi\npau phau phau\n'sanᵛpi-\npa\n【▢皮包】⑬ 【▢】，廣韵：『瘦。所景切，音省。又息井切』字在梗開二、三等。參考梗開三的〖蟶〗白 than。又〖零星〗白 lan-san，〖鉎〗生鏽，白 san/sian。〖皮〗，並母又可讀ᵛpi，〖包〗讀 pa，參考〖拋〗〖脬〗白 pha。【▢皮包】謂瘦得皮包骨。\nᵛgai\nᵛgai\n【啀】⑭ 無理取鬧，不乖之義。玉篇：『啀，狗欲齧。』廣韵：『犬鬪。五佳切。』\n'liah'khiᵛthai 'liah 'liok\n'lik\nᵛthai\n【搦去刣】 捉去殺之義。【搦】⑮ 俗作「掠」，非是。凡白話 -iah 多在梗攝二、三等（文 -ik）。廣韵：『搦：捉搦。女白切。』如爲掠（'liak/'liok）白話音必是 'lioh，如略（liak/liok→lioh）。【刣】⑯ 俗字。可能是百越遺音，今越",
+"text": "6斷奶、發牙 · 49 ·\nˇgauˋpuahˊto ˇgau\nˇhau\n‶gua ˇgia\nˇho\nˇgau\n【爻跋倒】 【爻】⑪ 善也。跋，顚也，跌也。「爻」，廣韵：胡茅切，今閩南讀音皆讀 ˇgau，胡屬匣母，匣母字讀 g- 者如：何、荷。林金鈔、陳冠學擬爲「𠢕」。說文：『𠢕，健也。』集韵：乎刀切。ˇho 白話 ˇgau 可通。段玉裁認爲此乃「豪」傑字。但廣雅釋詁云：「爻，效也」。其同源字有學、覺、曉，皆有明義。臺灣話 ˇgau 是聰明能幹之義，與「健也」義稍遠。姑以【爻】爲正字。\nˋhang-ling ˋhing\n【臖奶】⑫ 廣韵：『腫起。許應切，音興（去聲）』字在曾開三，曾開三白話音多爲 -in，轉一等，參考崩 pang，北 pak，勉强可視爲準正字。\nˊsanˇpi-pa ˊsan ˊsing ˊsing\nthing ˇling-sing\nsing ˇphi\npau phau phau ˊsanˇpi-\npa\n【㾪皮包】⑬ 【㾪】，廣韵：『瘦。所景切，音省。又息井切』字在梗開二、三等。參考梗開三的〖蟶〗白 than。又〖零星〗白 lan-san，〖鉎〗生鏽，白 san/sian。〖皮〗，並母又可讀 ˇpi，〖包〗讀 pa，參考〖拋〗〖脬〗白 pha。【㾪皮包】謂瘦得皮包骨。\nˇgai\nˇgai\n【啀】⑭ 無理取鬧，不乖之義。玉篇：『啀，狗欲齧。』廣韵：『犬鬪。五佳切。』\nˋliahˋkhiˇthai ˋliah ˋliok\nˋlik\nˇthai\n【搦去刣】 捉去殺之義。【搦】⑮ 俗作「掠」，非是。凡白話 -iah 多在梗攝二、三等（文 -ik）。廣韵：『搦：捉搦。女白切。』如爲掠（ˋliak/ˋliok）白話音必是 ˋlioh，如略（liak/liok→lioh）。【刣】⑯ 俗字。可能是百越遺音，今越",
 "source": "llm",
-"model": "claude-sonnet-5-5",
-"checked": "winocr-agree",
+"model": "claude-fable-5-2",
+"checked": "fable-adjudicated",
 "flags": [
-"兩讀不一致",
 "羅馬字多"
 ]
 },
