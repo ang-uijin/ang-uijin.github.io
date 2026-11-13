@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /student/
 
 Sitemap: {{ "sitemap.xml" | absURL }}
 Sitemap: {{ "sitemap-subsites.xml" | absURL }}
