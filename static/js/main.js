@@ -46,8 +46,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // 行動版下拉選單切換（使用事件委派）
   document.addEventListener('click', function(e) {
-    // 檢查是否點擊了 has-dropdown 內的 span
-    const dropdownTrigger = e.target.closest('.navbar-menu > li.has-dropdown > span');
+    // 手機：點了次目錄裡的連結就收起選單（同一頁的 #小標題 不會換頁，選單不收會蓋住內容）
+    const subLink = e.target.closest('.navbar-dropdown a');
+    if (subLink && window.innerWidth <= 883 && navbarToggle && navbarMenu) {
+      navbarToggle.classList.remove('active');
+      navbarToggle.setAttribute('aria-expanded', 'false');
+      navbarMenu.classList.remove('active');
+      document.querySelectorAll('.navbar-menu > li.dropdown-open').forEach(item => {
+        item.classList.remove('dropdown-open');
+      });
+      return;
+    }
+
+    // 檢查是否點擊了 has-dropdown 的上層項目：span（前四項）或連結（影音以下，2026-11-15 起也有次目錄；
+    // 手機點了是展開，不換頁——次目錄第一項「總覽」才連到該區）
+    const dropdownTrigger = e.target.closest('.navbar-menu > li.has-dropdown > span, .navbar-menu > li.has-dropdown > a');
 
     if (dropdownTrigger && window.innerWidth <= 883) {  // 與 style.css 漢堡選單的斷點一致
       e.preventDefault();
@@ -196,5 +209,18 @@ document.addEventListener('DOMContentLoaded', function() {
         opened.scrollIntoView();
       }
     }
+
+    // 已經在這頁、從頂端選單的次目錄點另一門課：網址只換 #，不會重新載入，要自己切頁籤
+    window.addEventListener('hashchange', function() {
+      const id = window.location.hash.slice(1);
+      const tab = Array.from(courseTabs).find(t => t.getAttribute('data-course') === id);
+      if (tab) {
+        tab.click();
+        const el = document.getElementById(id);
+        if (el) {
+          el.scrollIntoView();
+        }
+      }
+    });
   }
 });

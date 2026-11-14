@@ -437,6 +437,36 @@ body {
   transform: scaleY(1);
 }
 
+/* 影音以下的次目錄（2026-11-15，layouts/partials/nav-sub.html）：
+   項目長短不一（子站全名），寬度跟著內容、太長就換行 */
+.navbar-dropdown {
+  width: max-content;
+  max-width: 26em;
+}
+
+/* 第一項「總覽」只給手機用（手機點上層是展開、不換頁） */
+.navbar-dropdown .nav-overview {
+  display: none;
+}
+
+/* 靠右的幾區往左展開，免得超出視窗 */
+.navbar-menu > li.dropdown-right > .navbar-dropdown {
+  left: auto;
+  right: 0;
+}
+
+/* 課程講義十幾門課：排兩欄，免得比螢幕還長 */
+.navbar-dropdown.cols-2 {
+  column-count: 2;
+  column-gap: 0;
+  width: 400px;
+  max-width: none;
+}
+
+.navbar-dropdown.cols-2 li {
+  break-inside: avoid;
+}
+
 /* 搜尋按鈕 */
 .navbar-search-btn {
   background: none;
@@ -1181,11 +1211,29 @@ body {
 
   /* 點擊展開 */
   .navbar-menu > li.dropdown-open > .navbar-dropdown {
-    max-height: 500px !important;
+    max-height: 1600px !important;  /* 課程講義有十幾項；500px 會切掉 */
   }
 
-  /* 下拉箭頭指示器 */
-  .navbar-menu > li.has-dropdown > span::after {
+  /* 手機：次目錄一欄、寬度滿版，第一項「總覽」顯示出來 */
+  .navbar-menu .navbar-dropdown,
+  .navbar-menu .navbar-dropdown.cols-2 {
+    width: auto;
+    max-width: none;
+    column-count: 1;
+  }
+
+  .navbar-menu .navbar-dropdown .nav-overview {
+    display: block;
+  }
+
+  /* 下拉箭頭指示器（上層是 span 或連結都要有；2026-11-15 前少了 display，被上面的 display:none 蓋掉、手機上看不到） */
+  .navbar-menu > li.has-dropdown > span::after,
+  .navbar-menu > li.has-dropdown > a::after {
+    display: block;
+    position: static;      /* 重設桌面版底線動畫的絕對定位、漸層與圓角（同一個 ::after） */
+    background: none;
+    border-radius: 0;
+    flex-shrink: 0;
     content: '';
     width: 8px;
     height: 8px;
@@ -1196,7 +1244,8 @@ body {
     margin-left: 10px;
   }
 
-  .navbar-menu > li.has-dropdown.dropdown-open > span::after {
+  .navbar-menu > li.has-dropdown.dropdown-open > span::after,
+  .navbar-menu > li.has-dropdown.dropdown-open > a::after {
     transform: rotate(-135deg);
   }
 

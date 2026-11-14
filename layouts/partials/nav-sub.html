@@ -1,0 +1,39 @@
+{{/*
+  頂端選單的次目錄（下拉），2026-11-15 先生要「影音」以下也有次目錄。
+  依各區內容自動產生——後台加條目、加分類，選單會跟著變，不必另外改這裡。
+  傳入 dict：
+    path   區的路徑，例 "/literature"
+    mode   "cats"：列出條目的分類（＝頁面上的小標題），連到 #小標題（id 的寫法跟 entry-list.html 一樣用 urlize）
+           "links"：列出有連結的條目（研究、教學網站：直接連到各子站），文字取標題全形括號「（」前面那段
+           "tabs"：課程講義頁的頁籤（從 content/teach/_index.md 的 data-course 抓），連到 /teach/#頁籤
+    class  另加在 <ul> 上的 class（例 "cols-2" 排兩欄）
+  第一項「總覽」連到該區本身，只在手機的漢堡選單顯示：手機點上層項目是展開，不是換頁（main.js）。
+*/}}
+{{ $sec := site.GetPage .path }}
+{{ $url := $sec.RelPermalink }}
+<ul class="navbar-dropdown{{ with .class }} {{ . }}{{ end }}">
+  <li class="nav-overview"><a href="{{ $url }}">{{ $sec.Title }}（總覽）</a></li>
+  {{ if eq .mode "cats" }}
+    {{ $seen := slice }}
+    {{ range $sec.RegularPages.ByWeight }}
+      {{ with .Params.category }}
+        {{ if not (in $seen .) }}
+          {{ $seen = $seen | append . }}
+          {{/* urlize 已經是百分比編碼，要標成 safeURL，否則模板會再編一次（%25E6…）而對不上 h3 的 id */}}
+          <li><a href="{{ printf "%s#%s" $url (urlize .) | safeURL }}">{{ . }}</a></li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ else if eq .mode "links" }}
+    {{ range $sec.RegularPages.ByWeight }}
+      {{ $href := .Params.link | default .Params.file }}
+      {{ if $href }}
+        <li><a href="{{ $href }}"{{ if hasPrefix $href "http" }} target="_blank" rel="noopener"{{ end }}>{{ index (split .Title "（") 0 }}</a></li>
+      {{ end }}
+    {{ end }}
+  {{ else if eq .mode "tabs" }}
+    {{ range findRESubmatch `data-course="([^"]+)">([^<]+)<` $sec.RawContent }}
+      <li><a href="{{ $url }}#{{ index . 1 }}">{{ index . 2 }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>

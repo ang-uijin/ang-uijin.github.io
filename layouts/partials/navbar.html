@@ -62,24 +62,31 @@
         <li><a href="/commentary/">評論</a></li>
       </ul>
     </li>
-    <li {{ if hasPrefix .RelPermalink "/lecture/" }}class="active"{{ end }}>
+    <!-- 影音以下：上層仍是連到該區的連結（電腦點了換頁、滑過去出現次目錄），次目錄由 nav-sub.html 依內容自動產生（2026-11-15） -->
+    <li class="has-dropdown {{ if hasPrefix .RelPermalink "/lecture/" }}active{{ end }}">
       <a href="/lecture/">影音</a>
+      {{ partial "nav-sub.html" (dict "path" "/lecture" "mode" "cats") }}
     </li>
     <!-- 四區並列：研究／教學／文學／課程講義（選單用短名，頁面標題是「研究網站」等；課程講義的網址是 /teach/，教學是 /teaching/） -->
-    <li {{ if hasPrefix .RelPermalink "/study/" }}class="active"{{ end }}>
+    <li class="has-dropdown {{ if hasPrefix .RelPermalink "/study/" }}active{{ end }}">
       <a href="/study/">研究</a>
+      {{ partial "nav-sub.html" (dict "path" "/study" "mode" "links") }}
     </li>
-    <li {{ if or (hasPrefix .RelPermalink "/teaching/") (hasPrefix .RelPermalink "/podcast/") }}class="active"{{ end }}>
+    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/teaching/") (hasPrefix .RelPermalink "/podcast/") }}active{{ end }}">
       <a href="/teaching/">教學</a>
+      {{ partial "nav-sub.html" (dict "path" "/teaching" "mode" "links") }}
     </li>
-    <li {{ if hasPrefix .RelPermalink "/literature/" }}class="active"{{ end }}>
+    <li class="has-dropdown {{ if hasPrefix .RelPermalink "/literature/" }}active{{ end }}">
       <a href="/literature/">文學</a>
+      {{ partial "nav-sub.html" (dict "path" "/literature" "mode" "cats") }}
     </li>
-    <li {{ if hasPrefix .RelPermalink "/teach/" }}class="active"{{ end }}>
+    <li class="has-dropdown dropdown-right {{ if hasPrefix .RelPermalink "/teach/" }}active{{ end }}">
       <a href="/teach/">課程講義</a>
+      {{ partial "nav-sub.html" (dict "path" "/teach" "mode" "tabs" "class" "cols-2") }}
     </li>
-    <li {{ if hasPrefix .RelPermalink "/links/" }}class="active"{{ end }}>
+    <li class="has-dropdown dropdown-right {{ if hasPrefix .RelPermalink "/links/" }}active{{ end }}">
       <a href="/links/">相關連結</a>
+      {{ partial "nav-sub.html" (dict "path" "/links" "mode" "cats") }}
     </li>
     <li {{ if hasPrefix .RelPermalink "/news/" }}class="active"{{ end }}>
       <a href="/news/">最新動態</a>
