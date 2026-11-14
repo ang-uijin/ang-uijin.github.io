@@ -193,7 +193,7 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
 
 <div class="course-content" id="taiwan-documents">
   <h3>台灣語言文獻</h3>
-  <p class="course-moved">〈台語文學个分類與分期〉與〈台語文學的分期〉已移到<a href="/literature/">文學網站</a>。</p>
+  <p class="course-moved">〈台語文學个分類與分期〉與〈台語文學的分期〉已移到<a href="/literature/#台語文學概論">文學網站</a>。</p>
   <h4>講義教材</h4>
   <ul>
     <li><a href="/files/teach/taiwan-documents/2010台語文學个分類與分期_洪惟仁.pdf" target="_blank">台文文學个分類與分期（上）（下）：自開台至1995年</a></li>
