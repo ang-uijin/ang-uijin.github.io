@@ -105,7 +105,11 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
+      // 分類小標題的 id 是 urlize 的百分比編碼（#%E5%AD%B8…），querySelector 會把 % 當成不合法的選擇器而丟例外，
+      // 所以用 getElementById；找不到再試解碼後的（2026-11-18 學術論文分類次目錄）
+      const id = this.getAttribute('href').slice(1);
+      let target = id ? document.getElementById(id) : null;
+      if (!target && id) { try { target = document.getElementById(decodeURIComponent(id)); } catch (err) {} }
       if (target) {
         target.scrollIntoView({
           behavior: 'smooth',

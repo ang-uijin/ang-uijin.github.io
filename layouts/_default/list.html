@@ -65,7 +65,28 @@
   <article class="content-section">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{ with .RegularPages }}{{ partial "entry-list.html" .ByWeight }}{{ end }}
+    {{/* 分類次目錄（2026-11-18 先生：學術論文 10 類、138 篇，沒有次目錄真難找）：
+         列出本頁的分類小標題與篇數，連到 #小標題（id 寫法同 entry-list.html）；每個小標題右邊加「回分類」。
+         要給別頁也加，把 section 名加進下面這個 slice。 */}}
+    {{ $toc := in (slice "paper") $section }}
+    {{ with .RegularPages }}
+      {{ if $toc }}
+        {{ $cats := slice }}
+        {{ range .ByWeight }}{{ with .Params.category }}{{ if not (in $cats .) }}{{ $cats = $cats | append . }}{{ end }}{{ end }}{{ end }}
+        <nav class="cat-toc" id="cat-toc" aria-label="本頁分類">
+          <ul>
+            {{ range $cats }}
+            {{/* urlize 已是百分比編碼，要 safeURL，否則會再編一次（%25E6…）對不上 h3 的 id（同 nav-sub.html） */}}
+            <li><a href="{{ printf "#%s" (urlize .) | safeURL }}">{{ . }}<span class="cat-toc-n">{{ len (where $.RegularPages "Params.category" .) }}</span></a></li>
+            {{ end }}
+          </ul>
+        </nav>
+        {{ $list := partial "entry-list.html" .ByWeight }}
+        {{ replace $list "</h3>" `<a class="cat-top" href="#cat-toc">↑ 回分類</a></h3>` | safeHTML }}
+      {{ else }}
+        {{ partial "entry-list.html" .ByWeight }}
+      {{ end }}
+    {{ end }}
   </article>
 </main>
 {{ end }}
