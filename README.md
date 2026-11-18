@@ -24,13 +24,12 @@ static/js       前端腳本（輪播、選單、燈箱、課程講義分頁）
 static/files    論文、講義等 PDF
 static/images   照片與圖片
 static/song     民間歌謠網站（2004 年建置的靜態站，原樣保存）
-static/tailo    臺灣閩南語羅馬拼音及其發音學習網（靜態站）
 static/teacher  臺灣哲諺（靜態站）
 static/ogawa100 台灣語言學一百周年國際學術研討會（靜態站）
 hugo.toml       網站設定與選單
 ```
 
-其餘子站（`/class/`、`/taiwansong/`、`/gimsi/`、`/ogawa/`、`/ruffle/`）各自是獨立的 repository，網址掛在同一個網域底下。
+其餘子站（`/class/`、`/taiwansong/`、`/gimsi/`、`/ogawa/`、`/ruffle/`、`/tailo/`）各自是獨立的 repository，網址掛在同一個網域底下。
 
 ## 版權
 
