@@ -2040,3 +2040,88 @@ body {
     transition: none;
   }
 }
+
+/* 首頁在「寬但是矮」的視窗（筆電放大顯示、瀏覽器再放大）也要一眼看完七列：
+   (1) 861–1024px 寬、高度不到 800px：不要像手機那樣把相片與選單疊成一欄，維持左右並排、尺寸縮小；
+   (2) 高度不到 540px：再收掉上面那排相片，標頭只留書法題字。 */
+@media (min-width: 861px) and (max-width: 1024px) and (max-height: 800px) {
+  .homepage-header {
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    padding: 30px 30px 4px;
+  }
+
+  .homepage-logo img {
+    max-width: 250px;
+  }
+
+  .homepage-carousel {
+    width: 440px;
+    max-width: none;
+  }
+
+  .homepage-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 4px 30px 16px;
+  }
+
+  .homepage-nav {
+    width: auto;
+    min-width: 400px;
+    max-width: none;
+    padding: 0 10px;
+  }
+
+  .homepage-util {
+    position: absolute;
+    padding-top: 0;
+  }
+
+  .homepage-carousel,
+  .carousel-track img {
+    height: 80px;
+  }
+
+  .homepage-photo img {
+    width: 240px;
+    height: 316px;
+  }
+
+  .homepage-nav a {
+    padding: 4px 20px;
+  }
+}
+
+@media (min-width: 861px) and (max-height: 540px) {
+  .homepage-carousel {
+    display: none;
+  }
+
+  .homepage-header {
+    padding: 14px 40px 0;
+  }
+
+  .homepage-logo img {
+    max-width: 230px;
+  }
+
+  .homepage-content {
+    padding: 0 40px 8px;
+  }
+
+  .homepage-photo img {
+    width: 216px;
+    height: 284px;
+  }
+
+  .homepage-nav a {
+    padding: 2px 20px;
+  }
+
+  .homepage-nav a .nav-title-zh {
+    font-size: 20px;
+  }
+}
