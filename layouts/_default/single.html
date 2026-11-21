@@ -4,7 +4,7 @@
 {{ partial "section-nav.html" . }}
 
 <main class="main-content">
-  <article class="content-section">
+  <article class="content-section{{ with .File }} page-{{ .ContentBaseName }}{{ end }}">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
   </article>

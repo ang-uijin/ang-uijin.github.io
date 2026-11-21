@@ -363,7 +363,7 @@ body {
   box-shadow: var(--shadow-lg);
   border-radius: 8px;
   margin-top: 0;
-  padding-top: 8px;
+  padding: 6px 0;      /* 上下一樣：原本只有上面 8px，游標停在第一項時上面多一截、最後一項卻貼底 */
   list-style: none;
   border: 1px solid var(--color-border-light);
   overflow: hidden;
@@ -612,12 +612,12 @@ body {
 .main-content {
   max-width: 1400px;
   margin: 0 auto;
-  padding: var(--spacing-2xl) 80px;
+  padding: 36px 80px var(--spacing-2xl);   /* 上面原本 60px，加上 .content-section 的 40px，標題離選單太遠（2026-11-22） */
 }
 
 .content-section {
   background: transparent;
-  padding: var(--spacing-xl);
+  padding: 16px var(--spacing-xl) var(--spacing-xl);
   border-radius: 0;
   box-shadow: none;
   margin-bottom: 30px;
@@ -1962,4 +1962,81 @@ body {
   font-size: 12.5px;
   color: var(--color-text-muted);
   font-variant-numeric: tabular-nums;
+}
+
+/* 「治言齋書肆」：一本書一段——書影靠左、文字繞排，欄寬收窄好讀 */
+.section-publish {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-section.section-publish h3 {
+  clear: both;
+  margin: 0 0 18px;
+  font-size: 23px;
+  line-height: 1.5;
+  color: var(--color-accent-primary);
+}
+
+.content-section.section-publish img {
+  float: left;
+  width: 210px;
+  margin: 6px 32px 16px 0;
+  border-radius: 0;
+  box-shadow: var(--shadow-md);
+}
+
+.content-section.section-publish p {
+  font-size: 16.5px;
+}
+
+.content-section.section-publish hr {
+  clear: both;
+  margin: 44px 0;
+}
+
+/* 段落裡只有一個連結的（購書、優惠辦法）做成一顆按鈕 */
+.content-section.section-publish p > a:only-child {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 7px 18px;
+  border: 1px solid var(--color-accent-link);
+  border-radius: 3px;
+  font-size: 15px;
+  transition: all var(--transition-fast);
+}
+
+.content-section.section-publish p > a:only-child:hover {
+  background: var(--color-accent-link);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .content-section.section-publish img {
+    float: none;
+    width: 60%;
+    margin: 0 auto 20px;
+  }
+}
+
+/* 往下捲時，還沒看過的小標題、圖、格子第一次進到畫面裡淡入（main.js 加 class；
+   一開始就在畫面裡的不動；使用者設定「減少動態效果」時不做） */
+.reveal {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.reveal-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }

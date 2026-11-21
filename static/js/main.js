@@ -228,3 +228,29 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+// 往下捲時的淡入：小標題、圖片、「網站」頁的格子、總目錄的各區，第一次進到畫面裡才出現。
+// 一開始就在畫面裡的不處理（不會閃一下）；不支援 IntersectionObserver 或使用者要求減少動態時整段跳過。
+(function () {
+  if (!('IntersectionObserver' in window)) return;
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  function setup() {
+    var els = document.querySelectorAll('.content-section h2, .content-section h3, .content-section img, .sites-grid > li, .toc-branch');
+    if (!els.length) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('reveal-in'); io.unobserve(e.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    var vh = window.innerHeight;
+    els.forEach(function (el) {
+      // 收合起來的（寬高為 0）與已經在畫面裡的不動；錨點跳轉的目標也不藏
+      var r = el.getBoundingClientRect();
+      if ((r.width === 0 && r.height === 0) || r.top < vh) return;
+      if (location.hash && el.id && ('#' + el.id) === decodeURIComponent(location.hash)) return;
+      el.classList.add('reveal');
+      io.observe(el);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setup); else setup();
+})();
