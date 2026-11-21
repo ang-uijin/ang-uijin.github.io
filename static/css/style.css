@@ -2043,7 +2043,7 @@ body {
 
 /* 首頁在「寬但是矮」的視窗（筆電放大顯示、瀏覽器再放大）也要一眼看完七列：
    (1) 861–1024px 寬、高度不到 800px：不要像手機那樣把相片與選單疊成一欄，維持左右並排、尺寸縮小；
-   (2) 高度不到 540px：再收掉上面那排相片，標頭只留書法題字。 */
+   (2) 高度不到 540px：標頭、相片、列距再縮一級（上面那排相片縮小、不收掉）。 */
 @media (min-width: 861px) and (max-width: 1024px) and (max-height: 800px) {
   .homepage-header {
     flex-direction: row;
@@ -2096,11 +2096,21 @@ body {
 }
 
 @media (min-width: 861px) and (max-height: 540px) {
+  /* 相片那排不收掉（先生會以為相片不見了）：它跟書法題字本來就並排，只要不比題字高就不佔高度 */
   .homepage-carousel {
-    display: none;
+    width: 400px;
+    max-width: none;
+  }
+
+  .homepage-carousel,
+  .carousel-track img {
+    height: 70px;
   }
 
   .homepage-header {
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
     padding: 14px 40px 0;
   }
 
