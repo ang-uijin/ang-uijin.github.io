@@ -1,0 +1,24 @@
+{{/*
+  各頁上方的次選單：這一頁屬於 data/nav.yaml 的哪一區，就列出那一區的各頁。
+  只有寫了 children（一區有好幾頁）的區才有；單頁的區沒有次選單。
+  list.html 與 single.html 共用。
+*/}}
+{{ $p := .RelPermalink }}
+{{ range site.Data.nav.main }}
+  {{ $hit := false }}
+  {{ range .children }}{{ if eq .url $p }}{{ $hit = true }}{{ end }}{{ end }}
+  {{ if $hit }}
+<div class="section-nav">
+  <div class="section-nav-title">{{ .name }}</div>
+  <ul class="section-nav-menu">
+    {{ range .children }}
+      <li>
+        <a href="{{ .url }}" {{ if .external }}target="_blank" rel="noopener"{{ end }} {{ if eq $p .url }}class="active"{{ end }}>
+          {{ .name }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+  {{ end }}
+{{ end }}

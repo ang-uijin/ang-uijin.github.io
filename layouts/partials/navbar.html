@@ -1,3 +1,11 @@
+{{/*
+  頂端選單。項目全部來自 data/nav.yaml（規則也寫在那裡）：
+  七項都是連結；一區有好幾頁的（children）才有下拉，列出那幾頁。
+  只有一頁的區（開講、網站、講義）沒有下拉——點進去那一頁自己就有小標、各站、各門課可挑；
+  它們的 sub 設定只給總目錄頁用。右邊小字是工具連結（最新動態、相關連結）。
+  手機：有下拉的項目點了是展開（main.js），下拉第一項就是該區第一頁。
+*/}}
+{{ $p := .RelPermalink }}
 <nav class="navbar">
   <div class="navbar-logo">
     <a href="/"><img src="/images/biglogo.png" alt="{{ .Site.Title }}"></a>
@@ -11,87 +19,34 @@
   </button>
 
   <ul class="navbar-menu">
-    <!-- 我是啥人 dropdown -->
-    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/aboutme/") (hasPrefix .RelPermalink "/bio/") (hasPrefix .RelPermalink "/media/") (hasPrefix .RelPermalink "/preface/") (hasPrefix .RelPermalink "/history/") (hasPrefix .RelPermalink "/photo/") (hasPrefix .RelPermalink "/gallery/") (hasPrefix .RelPermalink "/contact_us/") }}active{{ end }}">
-      <span>我是啥人</span>
-      <ul class="navbar-dropdown">
-        <li><a href="/aboutme/">簡介</a></li>
-        <li><a href="/bio/">傳記與年表</a></li>
-        <li><a href="/media/">訪問與報導</a></li>
-        <li><a href="/preface/">著作序</a></li>
-        <li><a href="/history/">參與歷史事件</a></li>
-        <li><a href="/photo/">寫真館</a></li>
-        <li><a href="/gallery/">作品集</a></li>
-        <li><a href="https://www.facebook.com/uijin.ang" target="_blank" rel="noopener">
-          <svg width="16" height="16" fill="currentColor" style="vertical-align: middle; margin-right: 5px;">
-            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-          </svg>
-          花思木
-        </a></li>
-        <li><a href="/contact_us/">聯絡我</a></li>
-      </ul>
-    </li>
+    {{ range $i, $item := site.Data.nav.main }}
+      {{ $subs := $item.children }}
+      {{ $active := hasPrefix $p $item.url }}
+      {{ range $item.children }}{{ if and (not .external) (hasPrefix $p .url) }}{{ $active = true }}{{ end }}{{ end }}
+      {{ range $item.also }}{{ if hasPrefix $p . }}{{ $active = true }}{{ end }}{{ end }}
+      <li class="{{ if $subs }}has-dropdown{{ end }}{{ if ge $i 4 }} dropdown-right{{ end }}{{ if $active }} active{{ end }}">
+        <a href="{{ $item.url }}">{{ $item.name }}</a>
+        {{ with $subs }}
+        <ul class="navbar-dropdown">
+          {{ range . }}
+          <li><a href="{{ .url | safeURL }}"{{ if .external }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </li>
+    {{ end }}
 
-    <!-- 論文 dropdown -->
-    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/paper/") (hasPrefix .RelPermalink "/plan/") (hasPrefix .RelPermalink "/colloquium/") }}active{{ end }}">
-      <span>論文</span>
-      <ul class="navbar-dropdown">
-        <li><a href="/paper/">學術論文</a></li>
-        <li><a href="/plan/">研究計畫報告</a></li>
-        <li><a href="/colloquium/">研討會論文</a></li>
-      </ul>
-    </li>
-
-    <!-- 著書 dropdown -->
-    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/book/") (hasPrefix .RelPermalink "/write/") (hasPrefix .RelPermalink "/translate/") (hasPrefix .RelPermalink "/publish/") }}active{{ end }}">
-      <span>著書</span>
-      <ul class="navbar-dropdown">
-        <li><a href="/book/">專書</a></li>
-        <li><a href="/write/">編著</a></li>
-        <li><a href="/translate/">翻譯</a></li>
-        <li><a href="/publish/">治言齋書肆</a></li>
-      </ul>
-    </li>
-
-    <!-- Regular links -->
-    <!-- 雜文 dropdown -->
-    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/essay/") (hasPrefix .RelPermalink "/commentary/") }}active{{ end }}">
-      <span>雜文</span>
-      <ul class="navbar-dropdown">
-        <li><a href="/essay/">雜文</a></li>
-        <li><a href="/commentary/">評論</a></li>
-      </ul>
-    </li>
-    <!-- 影音以下：上層仍是連到該區的連結（電腦點了換頁、滑過去出現次目錄），次目錄由 nav-sub.html 依內容自動產生（2026-11-15） -->
-    <li class="has-dropdown {{ if hasPrefix .RelPermalink "/lecture/" }}active{{ end }}">
-      <a href="/lecture/">影音</a>
-      {{ partial "nav-sub.html" (dict "path" "/lecture" "mode" "cats") }}
-    </li>
-    <!-- 四區並列：研究／教學／文學／課程講義（選單用短名，頁面標題是「研究網站」等；課程講義的網址是 /teach/，教學是 /teaching/） -->
-    <li class="has-dropdown {{ if hasPrefix .RelPermalink "/study/" }}active{{ end }}">
-      <a href="/study/">研究</a>
-      {{ partial "nav-sub.html" (dict "path" "/study" "mode" "links") }}
-    </li>
-    <li class="has-dropdown {{ if or (hasPrefix .RelPermalink "/teaching/") (hasPrefix .RelPermalink "/podcast/") }}active{{ end }}">
-      <a href="/teaching/">教學</a>
-      {{ partial "nav-sub.html" (dict "path" "/teaching" "mode" "links") }}
-    </li>
-    <li class="has-dropdown {{ if hasPrefix .RelPermalink "/literature/" }}active{{ end }}">
-      <a href="/literature/">文學</a>
-      {{ partial "nav-sub.html" (dict "path" "/literature" "mode" "cats") }}
-    </li>
-    <li class="has-dropdown dropdown-right {{ if hasPrefix .RelPermalink "/teach/" }}active{{ end }}">
-      <a href="/teach/">課程講義</a>
-      {{ partial "nav-sub.html" (dict "path" "/teach" "mode" "tabs" "class" "cols-2") }}
-    </li>
-    <li class="has-dropdown dropdown-right {{ if hasPrefix .RelPermalink "/links/" }}active{{ end }}">
-      <a href="/links/">相關連結</a>
-      {{ partial "nav-sub.html" (dict "path" "/links" "mode" "cats") }}
-    </li>
-    <li {{ if hasPrefix .RelPermalink "/news/" }}class="active"{{ end }}>
-      <a href="/news/">最新動態</a>
-    </li>
+    <!-- 手機的漢堡選單裡，工具連結接在七項後面 -->
+    {{ range site.Data.nav.util }}
+    <li class="navbar-util-mobile{{ if hasPrefix $p .url }} active{{ end }}"><a href="{{ .url }}">{{ .name }}</a></li>
+    {{ end }}
   </ul>
+
+  <div class="navbar-util">
+    {{ range site.Data.nav.util }}
+    <a href="{{ .url }}"{{ if hasPrefix $p .url }} class="active"{{ end }}>{{ .name }}</a>
+    {{ end }}
+  </div>
 
   <div class="navbar-search">
     <a class="navbar-search-btn" href="/search/" aria-label="搜尋">

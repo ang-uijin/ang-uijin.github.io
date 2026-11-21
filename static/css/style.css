@@ -1122,11 +1122,11 @@ body {
 }
 
 /* 頂端選單有十項（研究／教學／文學與課程講義並列），分界是量出來的最小值：
-   一排原尺寸要 1225px、縮小版要 867px，各加 17px 給 Windows 的捲軸。
-   1242px 以上原尺寸；884–1241px 把間距、字級與 logo 縮小一點；
-   883px 以下改用漢堡選單（下一段，main.js 也用同一個寬度判斷）。
+   一排原尺寸要 1123px、縮小版要 809px（2026-11-22 選單改成七項後重量），各加 17px 給 Windows 的捲軸。
+   1141px 以上原尺寸；827–1140px 把間距、字級與 logo 縮小一點；
+   826px 以下改用漢堡選單（下一段，main.js 也用同一個寬度判斷）。
    選單標籤或字級有變動就要重量：在各段寬度下把 .navbar 設成 width: min-content，量它的寬。 */
-@media (min-width: 884px) and (max-width: 1241px) {
+@media (min-width: 827px) and (max-width: 1140px) {
   .navbar {
     padding: 12px 20px;
     gap: 16px;
@@ -1148,7 +1148,7 @@ body {
   }
 }
 
-@media (max-width: 883px) {
+@media (max-width: 826px) {
   /* 顯示漢堡選單按鈕 */
   .navbar-toggle {
     display: flex !important;
@@ -1616,13 +1616,13 @@ body {
   scroll-margin-top: 136px;
 }
 
-@media (max-width: 1241px) {
+@media (max-width: 1140px) {
   [id] {
     scroll-margin-top: 114px;
   }
 }
 
-@media (max-width: 883px) {
+@media (max-width: 826px) {
   [id] {
     scroll-margin-top: 96px;
   }
@@ -1652,4 +1652,314 @@ body {
     color: black;
     text-decoration: underline;
   }
+}
+
+/* ===================================
+   選單重整（2026-11-22，分支 nav-7；規則見 layouts/partials/navbar.html）
+   =================================== */
+
+/* 頂端選單右邊的工具連結（最新動態、相關連結）：比七項主選單小一級 */
+.navbar-util {
+  display: flex;
+  gap: 16px;
+  margin-right: 14px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.navbar-util a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.navbar-util a:hover,
+.navbar-util a.active {
+  color: var(--color-accent-primary);
+}
+
+.navbar-menu > li.navbar-util-mobile {
+  display: none;
+}
+
+@media (max-width: 826px) {
+  .navbar-util {
+    display: none;
+  }
+
+  .navbar-menu > li.navbar-util-mobile {
+    display: block;
+  }
+}
+
+/* 首頁右上角的工具連結：首頁全是書法與明體，這裡也用明體 */
+.homepage {
+  position: relative;
+}
+
+.homepage-util {
+  position: absolute;
+  top: 18px;
+  right: 34px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.homepage-util a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.homepage-util a:hover {
+  color: var(--color-accent-primary);
+}
+
+.homepage-util svg {
+  display: block;
+}
+
+/* 首頁七列：跟相片上下置中對齊 */
+.homepage-content {
+  align-items: center;
+}
+
+.homepage-nav {
+  padding: 0 40px;
+}
+
+/* 螢幕矮的時候（例如 1920×1080 放大 150%），標頭、相片、列距縮一點，七列才都在第一個畫面 */
+@media (max-height: 800px) and (min-width: 1025px) {
+  .homepage-header {
+    padding: 30px 80px 4px;
+    align-items: center;
+  }
+
+  .homepage-logo img {
+    max-width: 300px;
+  }
+
+  .homepage-carousel,
+  .carousel-track img {
+    height: 88px;
+  }
+
+  .homepage-content {
+    padding: 4px 40px 16px;
+  }
+
+  .homepage-photo img {
+    width: 262px;
+    height: 344px;
+  }
+
+  .homepage-nav a {
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homepage-util {
+    position: static;
+    justify-content: center;
+    padding-top: 14px;
+  }
+}
+
+/* 「網站」頁：一站一格（截圖、站名、年份與一句話） */
+.sites-group {
+  margin-top: 44px;
+}
+
+.content-section .sites-group h2 {
+  margin: 0 0 22px;
+  padding: 0 0 10px;
+  border-top: none;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 20px;
+  color: var(--color-text-primary);
+}
+
+.sites-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 38px 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content-section .sites-grid a {
+  display: block;
+  border-bottom: none;
+  color: inherit;
+}
+
+.sites-shot {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-card);
+}
+
+.content-section .sites-shot img {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transition: transform var(--transition-slow);
+}
+
+.sites-grid a:hover .sites-shot img {
+  transform: scale(1.03);
+}
+
+.sites-title {
+  display: block;
+  margin-top: 13px;
+  font-family: var(--font-serif);
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--color-text-primary);
+  transition: color var(--transition-fast);
+}
+
+.sites-grid a:hover .sites-title {
+  color: var(--color-accent-active);
+}
+
+.sites-meta {
+  display: block;
+  margin-top: 3px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.sites-rest {
+  margin: 26px 0 0;
+  padding-left: 1.2em;
+  font-size: 15px;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 900px) {
+  .sites-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .sites-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 「網站」頁：年份與簡介、整理中的格子 */
+.sites-years {
+  margin-right: 0.9em;
+  font-variant-numeric: tabular-nums;
+}
+
+.sites-blank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 8 / 5;
+  background: var(--color-bg-secondary);
+  font-family: var(--font-serif);
+  font-size: 24px;
+  letter-spacing: 4px;
+  color: var(--color-text-muted);
+}
+
+.sites-pending .sites-title {
+  color: var(--color-text-secondary);
+}
+
+/* 頁尾的「總目錄」連結 */
+.footer-toc {
+  margin-left: 1.5em;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.footer-toc:hover {
+  color: var(--color-accent-primary);
+}
+
+/* 總目錄頁（/toc/）：一棵樹，分欄排 */
+.toc-tree {
+  columns: 3 260px;
+  column-gap: 48px;
+  margin-top: 10px;
+}
+
+.toc-branch {
+  break-inside: avoid;
+  margin: 0 0 30px;
+}
+
+.content-section .toc-branch h2 {
+  margin: 0 0 8px;
+  padding: 0 0 6px;
+  border-top: none;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 20px;
+}
+
+.content-section .toc-branch h2 a {
+  color: var(--color-accent-primary);
+}
+
+.toc-branch ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toc-branch li {
+  margin: 0;
+  padding: 2px 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* 第三層往內縮，左邊一條細線，像檔案目錄樹 */
+.toc-branch ul ul {
+  margin: 2px 0 6px 6px;
+  padding-left: 14px;
+  border-left: 1px solid var(--color-border);
+}
+
+.toc-branch ul ul li {
+  font-size: 14.5px;
+  line-height: 1.65;
+}
+
+.content-section .toc-branch ul ul a {
+  color: var(--color-text-secondary);
+}
+
+.toc-branch .toc-group {
+  margin-top: 8px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: var(--color-text-muted);
+}
+
+.toc-n {
+  margin-left: 0.5em;
+  font-size: 12.5px;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
 }

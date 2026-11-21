@@ -1,0 +1,41 @@
+{{/*
+  傳入 data/nav.yaml 的一項，回傳它的次目錄：slice of dict（name、url、external、n）。
+  children 照抄；sub 依該頁內容自動產生（規則見 data/nav.yaml）。n 是該分類的條數（只有 cats 有）。
+  頂端選單的下拉與總目錄頁都用這一份。
+*/}}
+{{ $item := . }}
+{{ $out := slice }}
+{{ with $item.children }}
+  {{ range . }}{{ $out = $out | append (dict "name" .name "url" .url "external" (.external | default false)) }}{{ end }}
+{{ else }}
+  {{ $sec := site.GetPage (strings.TrimSuffix "/" $item.url) }}
+  {{ with $sec }}
+    {{ $url := .RelPermalink }}
+    {{ if eq $item.sub "cats" }}
+      {{ $seen := slice }}
+      {{ $pages := .RegularPages }}
+      {{ range $pages.ByWeight }}
+        {{ with .Params.category }}
+          {{ if not (in $seen .) }}
+            {{ $seen = $seen | append . }}
+            {{/* 錨點寫法跟 entry-list.html 的小標題 id 一樣（urlize） */}}
+            {{ $out = $out | append (dict "name" . "url" (printf "%s#%s" $url (urlize .)) "external" false "n" (len (where $pages "Params.category" .))) }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ else if eq $item.sub "sites" }}
+      {{ range .RegularPages.ByWeight }}
+        {{ if and .Params.link .Params.image }}
+          {{ $out = $out | append (dict "name" (.Params.short_title | default .Title) "url" .Params.link "external" false "group" .Params.category) }}
+        {{ end }}
+      {{ end }}
+    {{ else if eq $item.sub "tabs" }}
+      {{ range findRESubmatch `data-course="([^"]+)">([^<]+)<` .RawContent }}
+        {{ if ne (index . 1) "online" }}
+          {{ $out = $out | append (dict "name" (index . 2) "url" (printf "%s#%s" $url (index . 1)) "external" false) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $out }}

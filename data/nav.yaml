@@ -1,0 +1,69 @@
+# 全站選單的唯一來源（2026-11-22）。下面四處都從這個檔產生，改這裡就一起變：
+#   頂端選單（layouts/partials/navbar.html）、首頁七列（layouts/index.html）、
+#   各頁上方的次選單（layouts/partials/section-nav.html）、總目錄頁（layouts/_default/toc.html）。
+#
+# 規則：
+#   1. main 是第一層，七項為限；每一項都有 url（點了到該區第一頁）。
+#   2. 一區有好幾頁的寫 children：頂端選單的下拉、各頁上方的次選單都列這幾頁。
+#   3. 只有一頁的區不寫 children，頂端選單就沒有下拉（那一頁自己有小標、各站、各門課可挑）；
+#      改寫 sub，讓總目錄頁從該頁內容自動列出底下有什麼：
+#        cats  頁內的分類小標題（條目的 category）
+#        sites 「網站」頁有截圖的各站（條目的 short_title 與 link）
+#        tabs  「講義」頁的各門課（content/teach/_index.md 的頁籤）
+#      後台加條目、加分類、加課，總目錄會自己跟著變，不必改這個檔。
+#   4. also 是「也算在這一區」的網址（選單亮起來用）。
+#   5. 要新增內容，先放進現有七項底下；第一層不再加。util 是右上角小字的工具連結。
+main:
+  - name: 我是啥人
+    en: About Me
+    url: /aboutme/
+    children:
+      - { name: 簡介, url: /aboutme/ }
+      - { name: 傳記與年表, url: /bio/ }
+      - { name: 訪問與報導, url: /media/ }
+      - { name: 著作序, url: /preface/ }
+      - { name: 參與歷史事件, url: /history/ }
+      - { name: 寫真館, url: /photo/ }
+      - { name: 作品集, url: /gallery/ }
+      - { name: 花思木, url: "https://www.facebook.com/uijin.ang", external: true }
+      - { name: 聯絡我, url: /contact_us/ }
+  - name: 論文
+    en: Articles
+    url: /paper/
+    children:
+      - { name: 學術論文, url: /paper/ }
+      - { name: 研究計畫報告, url: /plan/ }
+      - { name: 研討會論文, url: /colloquium/ }
+  - name: 著書
+    en: Books
+    url: /book/
+    children:
+      - { name: 專書, url: /book/ }
+      - { name: 編著, url: /write/ }
+      - { name: 翻譯, url: /translate/ }
+      - { name: 治言齋書肆, url: /publish/ }
+  - name: 雜文
+    en: Essays
+    url: /essay/
+    children:
+      - { name: 雜文, url: /essay/ }
+      - { name: 評論, url: /commentary/ }
+  - name: 開講
+    en: Talks & Media
+    url: /lecture/
+    sub: cats
+    also: [/podcast/]
+  - name: 網站
+    en: Websites
+    url: /sites/
+    sub: sites
+  - name: 講義
+    en: Course Notes
+    url: /teach/
+    sub: tabs
+util:
+  - name: 最新動態
+    url: /news/
+  - name: 相關連結
+    url: /links/
+    sub: cats

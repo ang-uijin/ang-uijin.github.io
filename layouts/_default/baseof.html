@@ -19,6 +19,7 @@
 
   <footer class="content-footer">
     {{ replaceRE "©\\d{4}" (printf "©%d" now.Year) .Site.Params.copyright }}
+    <a class="footer-toc" href="/toc/">總目錄</a>
   </footer>
 
   <script src="/js/main.js"></script>

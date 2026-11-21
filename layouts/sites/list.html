@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{/*
+  「網站」頁：先生歷年做的子站，一站一格——畫面截圖、站名、年份與一句簡介。
+  條目在 content/sites/*.md：category（組名：研究／教學／文學）、weight、link、image、short_title、years、summary。
+  - 補助單位、得獎、重建經過等長說明留在各子站自己的首頁與條目的 source 欄（站內搜尋找得到），這一頁不印。
+  - pending: true ＝已經決定要做、還在整理的網站：有一格、沒有連結，寫「整理中」。
+  - 沒有 image 也不是 pending 的條目（網站已不存、沒有東西可連）列在該組最後，用一般書目的樣子。
+  次目錄（頂端下拉）與總目錄會自動列出有截圖的各站，見 partials/nav-items.html。
+*/}}
+<main class="main-content">
+  <article class="content-section sites-page">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ $pages := .RegularPages.ByWeight }}
+    {{ $cats := slice }}
+    {{ range $pages }}{{ with .Params.category }}{{ if not (in $cats .) }}{{ $cats = $cats | append . }}{{ end }}{{ end }}{{ end }}
+    {{ range $cat := $cats }}
+    <section class="sites-group">
+      <h2 id="{{ urlize $cat | safeURL }}">{{ $cat }}</h2>
+      <ul class="sites-grid">
+        {{ range where $pages "Params.category" $cat }}
+        {{ if .Params.image }}
+        <li>
+          <a href="{{ .Params.link }}">
+            <span class="sites-shot"><img src="{{ .Params.image }}" alt="" loading="lazy" width="800" height="500"></span>
+            <span class="sites-title">{{ .Params.short_title | default .Title }}</span>
+            <span class="sites-meta">{{ with .Params.years }}<span class="sites-years">{{ . }}</span>{{ end }}{{ .Params.summary }}</span>
+          </a>
+        </li>
+        {{ else if .Params.pending }}
+        <li class="sites-pending">
+          <span class="sites-shot"><span class="sites-blank">{{ .Params.short_title | default .Title }}</span></span>
+          <span class="sites-title">{{ .Params.short_title | default .Title }}</span>
+          <span class="sites-meta">{{ with .Params.years }}<span class="sites-years">{{ . }}</span>{{ end }}{{ .Params.summary }}</span>
+        </li>
+        {{ end }}
+        {{ end }}
+      </ul>
+      {{ $rest := slice }}
+      {{ range where $pages "Params.category" $cat }}{{ if and (not .Params.image) (not .Params.pending) }}{{ $rest = $rest | append . }}{{ end }}{{ end }}
+      {{ with $rest }}
+      <ul class="sites-rest">
+        {{ range . }}<li><span class="date">{{ .Params.date_text }}</span>{{ .Title }}{{ with .Params.source }} <span class="source">{{ . }}</span>{{ end }}</li>{{ end }}
+      </ul>
+      {{ end }}
+    </section>
+    {{ end }}
+  </article>
+</main>
+{{ end }}

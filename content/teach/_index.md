@@ -163,7 +163,6 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
 
 <div class="course-content" id="folklore-intro">
   <h3>民間文學概論</h3>
-  <p class="course-moved">本課已移到<a href="/literature/#民間文學概論">文學網站</a>。</p>
   <h4>講義教材</h4>
   <ul>
     <li><a href="/files/teach/folklore-intro/01民間文學概論.pdf" target="_blank">民間文學概論</a></li>
@@ -185,7 +184,6 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
 
 <div class="course-content" id="poetry-chanting">
   <h3>詩詞吟唱</h3>
-  <p class="course-moved">本課已移到<a href="/literature/#詩詞吟唱">文學網站</a>。</p>
   <p class="course-empty">課程資料整理中。</p>
 <ul><li><a href="/files/teach/詩吟新論20260909.pdf" target="_blank">詩吟新論20260909</a></li></ul>
 <ul><li><a href="https://www.youtube.com/watch?v=IuSzZsSYpH4" target="_blank">20260830 治言齋學堂 - 蘇軾《定風波》</a></li></ul>
@@ -193,7 +191,6 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
 
 <div class="course-content" id="taiwan-documents">
   <h3>台灣語言文獻</h3>
-  <p class="course-moved">〈台語文學个分類與分期〉與〈台語文學的分期〉已移到<a href="/literature/#台語文學概論">文學網站</a>。</p>
   <h4>講義教材</h4>
   <ul>
     <li><a href="/files/teach/taiwan-documents/2010台語文學个分類與分期_洪惟仁.pdf" target="_blank">台文文學个分類與分期（上）（下）：自開台至1995年</a></li>
@@ -205,7 +202,7 @@ description: 洪惟仁教授的課程講義：15 門課程的教學大綱與講�
 
 <div class="course-content" id="online">
   <h3>線上教材</h3>
-  <p>洪惟仁歷年製作的線上教材與網站，現在分成三區（頂端選單的「教學」「文學」「研究」）：<a href="/teaching/">教學網站</a>（台灣話e網情深、臺灣話羅馬拼音及其發音學習網、臺灣哲諺、Podcast「這馬講台語」）、<a href="/literature/">文學網站</a>（吟詩集錦）、<a href="/study/">研究網站</a>（民間歌謠網站、工作坊與研討會）。</p>
+  <p>洪惟仁歷年製作的線上教材與網站，都列在頂端選單的<a href="/sites/">「網站」</a>：台灣話e網情深、臺羅學習網、臺灣哲諺、學生作品，以及民間歌謠網站、吟詩集錦、工作坊與研討會網站。Podcast「這馬講台語」在<a href="/lecture/">「影音」</a>。</p>
 </div>
 
 

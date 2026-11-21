@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('click', function(e) {
     // 手機：點了次目錄裡的連結就收起選單（同一頁的 #小標題 不會換頁，選單不收會蓋住內容）
     const subLink = e.target.closest('.navbar-dropdown a');
-    if (subLink && window.innerWidth <= 883 && navbarToggle && navbarMenu) {
+    if (subLink && window.innerWidth <= 826 && navbarToggle && navbarMenu) {
       navbarToggle.classList.remove('active');
       navbarToggle.setAttribute('aria-expanded', 'false');
       navbarMenu.classList.remove('active');
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 手機點了是展開，不換頁——次目錄第一項「總覽」才連到該區）
     const dropdownTrigger = e.target.closest('.navbar-menu > li.has-dropdown > span, .navbar-menu > li.has-dropdown > a');
 
-    if (dropdownTrigger && window.innerWidth <= 883) {  // 與 style.css 漢堡選單的斷點一致
+    if (dropdownTrigger && window.innerWidth <= 826) {  // 與 style.css 漢堡選單的斷點一致
       e.preventDefault();
       e.stopPropagation();
 
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', function() {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(function() {
-      if (window.innerWidth > 883) {
+      if (window.innerWidth > 826) {
         // 桌面版：重置所有行動版狀態
         if (navbarToggle) {
           navbarToggle.classList.remove('active');

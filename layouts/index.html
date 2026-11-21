@@ -12,6 +12,11 @@
 </head>
 <body>
   <div class="homepage">
+    <!-- 工具連結：跟內頁頂端選單右邊同一組 -->
+    <div class="homepage-util">
+      {{ range site.Data.nav.util }}<a href="{{ .url }}">{{ .name }}</a>
+      {{ end }}<a href="/search/" aria-label="搜尋"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6.5"/><path d="m17 17-4.2-4.2"/></svg></a>
+    </div>
     <!-- Header with logo and carousel -->
     <header class="homepage-header">
       <div class="homepage-logo">
@@ -40,73 +45,16 @@
       </div>
 
       <nav class="homepage-nav">
+        <!-- 七列＝頂端選單的七項，同順序（data/nav.yaml）。兩個字的名稱中間加兩格全形空白，跟四個字的對齊 -->
         <ul>
+          {{ range site.Data.nav.main }}
           <li>
-            <a href="/aboutme/">
-              <span class="nav-title-zh">我是啥人</span>
-              <span class="nav-title-en">About Me</span>
+            <a href="{{ .url }}">
+              <span class="nav-title-zh">{{ if eq (strings.RuneCount .name) 2 }}{{ substr .name 0 1 }}　　{{ substr .name 1 1 }}{{ else }}{{ .name }}{{ end }}</span>
+              <span class="nav-title-en">{{ .en }}</span>
             </a>
           </li>
-          <li>
-            <a href="/paper/">
-              <span class="nav-title-zh">論　　文</span>
-              <span class="nav-title-en">Articles</span>
-            </a>
-          </li>
-          <li>
-            <a href="/book/">
-              <span class="nav-title-zh">著　　書</span>
-              <span class="nav-title-en">Books</span>
-            </a>
-          </li>
-          <li>
-            <a href="/essay/">
-              <span class="nav-title-zh">雜　　文</span>
-              <span class="nav-title-en">Essays</span>
-            </a>
-          </li>
-          <li>
-            <a href="/lecture/">
-              <span class="nav-title-zh">影　　音</span>
-              <span class="nav-title-en">Audio &amp; Video</span>
-            </a>
-          </li>
-          <li>
-            <a href="/study/">
-              <span class="nav-title-zh">研　　究</span>
-              <span class="nav-title-en">Research</span>
-            </a>
-          </li>
-          <li>
-            <a href="/teaching/">
-              <span class="nav-title-zh">教　　學</span>
-              <span class="nav-title-en">Teaching</span>
-            </a>
-          </li>
-          <li>
-            <a href="/literature/">
-              <span class="nav-title-zh">文　　學</span>
-              <span class="nav-title-en">Literature</span>
-            </a>
-          </li>
-          <li>
-            <a href="/teach/">
-              <span class="nav-title-zh">課程講義</span>
-              <span class="nav-title-en">Course Materials</span>
-            </a>
-          </li>
-          <li>
-            <a href="/links/">
-              <span class="nav-title-zh">相關連結</span>
-              <span class="nav-title-en">Links</span>
-            </a>
-          </li>
-          <li>
-            <a href="/news/">
-              <span class="nav-title-zh">最新動態</span>
-              <span class="nav-title-en">Recent Updates</span>
-            </a>
-          </li>
+          {{ end }}
         </ul>
       </nav>
     </div>
@@ -114,6 +62,7 @@
     <!-- Footer -->
     <footer class="homepage-footer">
       {{ replaceRE "©\\d{4}" (printf "©%d" now.Year) .Site.Params.copyright }}
+      <a class="footer-toc" href="/toc/">總目錄</a>
     </footer>
   </div>
 

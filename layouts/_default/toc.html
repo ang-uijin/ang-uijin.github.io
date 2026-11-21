@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{/*
+  總目錄（/toc/）：全站每一區、每一頁、每頁的分類、各子站、各門課，列成一棵樹。
+  全部從 data/nav.yaml 與各頁內容自動產生——選單改了、後台加了分類或條目，這一頁會跟著變，不必另外維護。
+  第一層＝選單七項與工具連結；第二層＝各區的頁（或單頁區的小標／各站／各門課）；
+  第三層＝書目頁的分類（附條數）。最新動態列出各篇。
+*/}}
+<main class="main-content">
+  <article class="content-section toc-page">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <div class="toc-tree">
+      {{ range site.Data.nav.main }}
+      {{ $item := . }}
+      <section class="toc-branch">
+        <h2><a href="{{ .url }}">{{ .name }}</a></h2>
+        <ul>
+          {{ $lastGroup := "" }}
+          {{ range partial "nav-items.html" $item }}
+            {{ $sub := . }}
+            {{ with .group }}{{ if ne . $lastGroup }}<li class="toc-group">{{ . }}</li>{{ $lastGroup = . }}{{ end }}{{ end }}
+            <li>
+              <a href="{{ .url | safeURL }}"{{ if .external }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>{{ with .n }}<span class="toc-n">{{ . }}</span>{{ end }}
+              {{/* 第三層：這一頁如果是書目頁，列出它的分類與條數 */}}
+              {{ if and $item.children (not .external) }}
+                {{ with site.GetPage (strings.TrimSuffix "/" .url) }}
+                  {{ if .IsSection }}
+                    {{ $pages := .RegularPages }}
+                    {{ $url := .RelPermalink }}
+                    {{ $cats := slice }}
+                    {{ range $pages.ByWeight }}{{ with .Params.category }}{{ if not (in $cats .) }}{{ $cats = $cats | append . }}{{ end }}{{ end }}{{ end }}
+                    {{ if $cats }}
+                    <ul>
+                      {{ range $cats }}<li><a href="{{ printf "%s#%s" $url (urlize .) | safeURL }}">{{ . }}</a><span class="toc-n">{{ len (where $pages "Params.category" .) }}</span></li>{{ end }}
+                    </ul>
+                    {{ else if $pages }}<span class="toc-n">{{ len $pages }}</span>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
+
+      {{ range site.Data.nav.util }}
+      {{ $item := . }}
+      <section class="toc-branch">
+        <h2><a href="{{ .url }}">{{ .name }}</a></h2>
+        <ul>
+          {{ range partial "nav-items.html" $item }}
+          <li><a href="{{ .url | safeURL }}">{{ .name }}</a>{{ with .n }}<span class="toc-n">{{ . }}</span>{{ end }}</li>
+          {{ end }}
+          {{ if eq .url "/news/" }}
+            {{ with site.GetPage "/news" }}
+              {{ range .RegularPages.ByDate.Reverse }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
+
+      <section class="toc-branch">
+        <h2><a href="/search/">站內搜尋</a></h2>
+      </section>
+    </div>
+  </article>
+</main>
+{{ end }}
