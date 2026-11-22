@@ -48,8 +48,8 @@ main:
     children:
       - { name: 雜文, url: /essay/ }
       - { name: 評論, url: /commentary/ }
-  - name: 開講
-    en: Talks & Media
+  - name: 講壇
+    en: Talks
     url: /lecture/
     sub: cats
     also: [/podcast/]

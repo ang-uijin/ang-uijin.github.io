@@ -364,8 +364,8 @@ collections:
       # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
       - {name: "weight", widget: "hidden", default: 0}
   - name: "lecture"
-    label: "開講"
-    label_singular: "一筆影音或演講"
+    label: "講壇"
+    label_singular: "一筆影片、Podcast 或演講"
     folder: "content/lecture"
     create: true
     slug: "{{fields.date_text}}-{{slug}}"
@@ -383,7 +383,7 @@ collections:
         - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
         - {label: "舊網址（轉址用，不要動）", name: "aliases", widget: "list", required: false}
     fields:
-      - {label: "分類", name: "category", widget: "string", required: false, hint: "例：影片、Podcast、演講紀錄。同一個分類的條目要排在一起（用列表的排序功能拖），分類名會變成小標題"}
+      - {label: "分類", name: "category", widget: "string", required: false, hint: "目前依序：臺語學開講、治言齋學堂、演講紀錄。同一個分類的條目要排在一起（用列表的排序功能拖），分類名會變成小標題"}
       - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
       - {label: "標題", name: "title", widget: "string"}
       - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
@@ -414,7 +414,7 @@ collections:
         - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
         - {label: "舊網址（轉址用，不要動）", name: "aliases", widget: "list", required: false}
     fields:
-      - {label: "分組", name: "category", widget: "select", options: ["研究", "教學", "文學"], hint: "同一組的要排在一起（用列表的排序功能拖）"}
+      - {label: "分組", name: "category", widget: "select", options: ["研究", "相褒歌", "教學", "文學"], hint: "同一組的要排在一起（用列表的排序功能拖）"}
       - {label: "網站全名", name: "title", widget: "string"}
       - {label: "格子上的站名（短）", name: "short_title", widget: "string", required: false, hint: "留空就用全名"}
       - {label: "建置年份（排序與搜尋用）", name: "date_text", widget: "string", required: false, hint: "例：2007"}
@@ -515,7 +515,7 @@ singletons:
       - {label: "標題", name: "title", widget: "string"}
       - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
       - {label: "內容", name: "body", widget: "markdown"}
-  # Podcast「這馬講台語」的集數頁（/podcast/），2026-10-16 從課程講義拆出來、列在「開講」
+  # Podcast「這馬講台語」的集數頁（/podcast/），2026-10-16 從課程講義拆出來、列在「講壇」
   - name: "podcast"
     label: "Podcast 這馬講台語"
     file: "content/podcast.md"

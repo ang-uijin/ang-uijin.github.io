@@ -39,4 +39,4 @@ description: 洪惟仁主講的台語 Podcast「這馬講台語」，2024 年 9 
 
 <p style="font-size:15px;color:var(--color-text-muted)">各集簡介引自 TaiwanSchool 的節目頁。</p>
 
-<p><a href="/lecture/">← 回影音</a></p>
+<p><a href="/lecture/">← 回講壇</a></p>
