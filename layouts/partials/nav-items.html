@@ -26,7 +26,7 @@
     {{ else if eq $item.sub "sites" }}
       {{ range .RegularPages.ByWeight }}
         {{ if and .Params.link .Params.image }}
-          {{ $out = $out | append (dict "name" (.Params.short_title | default .Title) "url" .Params.link "external" false "group" .Params.category) }}
+          {{ $out = $out | append (dict "name" (.Params.short_title | default .Title) "url" .Params.link "external" (hasPrefix .Params.link "http") "group" .Params.category) }}
         {{ end }}
       {{ end }}
     {{ else if eq $item.sub "tabs" }}

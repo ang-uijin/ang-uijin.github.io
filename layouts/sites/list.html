@@ -21,7 +21,7 @@
         {{ range where $pages "Params.category" $cat }}
         {{ if .Params.image }}
         <li>
-          <a href="{{ .Params.link }}">
+          <a href="{{ .Params.link }}"{{ if hasPrefix .Params.link "http" }} target="_blank" rel="noopener"{{ end }}>
             <span class="sites-shot"><img src="{{ .Params.image }}" alt="" loading="lazy" width="800" height="500"></span>
             <span class="sites-title">{{ .Params.short_title | default .Title }}</span>
             <span class="sites-meta">{{ with .Params.years }}<span class="sites-years">{{ . }}</span>{{ end }}{{ .Params.summary }}</span>
