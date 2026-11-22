@@ -26,7 +26,8 @@ static/images   照片與圖片
 static/song     民間歌謠網站（2004 年建置的靜態站，原樣保存）
 static/teacher  臺灣哲諺（靜態站）
 static/ogawa100 台灣語言學一百周年國際學術研討會（靜態站）
-hugo.toml       網站設定與選單
+data/nav.yaml   選單
+hugo.toml       網站設定
 ```
 
 其餘子站（`/class/`、`/taiwansong/`、`/gimsi/`、`/ogawa/`、`/ruffle/`、`/tailo/`）各自是獨立的 repository，網址掛在同一個網域底下。

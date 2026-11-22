@@ -363,7 +363,7 @@ body {
   box-shadow: var(--shadow-lg);
   border-radius: 8px;
   margin-top: 0;
-  padding: 6px 0;      /* 上下一樣：原本只有上面 8px，游標停在第一項時上面多一截、最後一項卻貼底 */
+  padding: 6px 0;      /* 上下留白一樣，第一項與最後一項離框的距離相同 */
   list-style: none;
   border: 1px solid var(--color-border-light);
   overflow: hidden;
@@ -437,8 +437,7 @@ body {
   transform: scaleY(1);
 }
 
-/* 影音以下的次目錄（2026-11-15，layouts/partials/nav-sub.html）：
-   項目長短不一（子站全名），寬度跟著內容、太長就換行 */
+/* 次目錄項目長短不一：寬度跟著內容、太長就換行 */
 .navbar-dropdown {
   width: max-content;
   max-width: 26em;
@@ -612,7 +611,7 @@ body {
 .main-content {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 36px 80px var(--spacing-2xl);   /* 上面原本 60px，加上 .content-section 的 40px，標題離選單太遠（2026-11-22） */
+  padding: 36px 80px var(--spacing-2xl);   /* 上方留白跟 .content-section 的內距合起來算，標題不要離選單太遠 */
 }
 
 .content-section {
@@ -733,7 +732,7 @@ body {
   margin: var(--spacing-xl) 0;
 }
 
-/* 分類次目錄（書目頁頂端，2026-11-18；目前只開學術論文，見 list.html） */
+/* 分類次目錄（書目頁頂端，見 list.html） */
 .content-section .cat-toc {
   max-width: 960px;
   margin: 0 auto var(--spacing-xl);
@@ -1121,11 +1120,12 @@ body {
   }
 }
 
-/* 頂端選單有十項（研究／教學／文學與課程講義並列），分界是量出來的最小值：
-   一排原尺寸要 1123px、縮小版要 809px（2026-11-22 選單改成七項後重量），各加 17px 給 Windows 的捲軸。
-   1141px 以上原尺寸；827–1140px 把間距、字級與 logo 縮小一點；
-   826px 以下改用漢堡選單（下一段，main.js 也用同一個寬度判斷）。
-   選單標籤或字級有變動就要重量：在各段寬度下把 .navbar 設成 width: min-content，量它的寬。 */
+/*
+  頂端選單的斷點是量出來的最小寬度：一排原尺寸要 1123px、縮小版要 809px，各加 17px 給 Windows 的捲軸。
+  1141px 以上原尺寸；827–1140px 把間距、字級與 logo 縮小一點；
+  826px 以下改用漢堡選單（下一段，main.js 也用同一個寬度判斷）。
+  選單標籤或字級有變動就要重量：在各段寬度下把 .navbar 設成 width: min-content，量它的寬。
+*/
 @media (min-width: 827px) and (max-width: 1140px) {
   .navbar {
     padding: 12px 20px;
@@ -1172,7 +1172,7 @@ body {
     box-shadow: var(--shadow-lg);
     border-top: 1px solid var(--color-border-light);
     max-height: 70vh;
-    max-height: calc(100dvh - 80px);  /* 選單有十項，盡量用滿螢幕高度；不支援 dvh 的瀏覽器用上一行 */
+    max-height: calc(100dvh - 80px);  /* 盡量用滿螢幕高度；不支援 dvh 的瀏覽器用上一行 */
     overflow-y: auto;
     overflow-x: hidden;
     z-index: 999;
@@ -1265,7 +1265,7 @@ body {
 
   /* 點擊展開 */
   .navbar-menu > li.dropdown-open > .navbar-dropdown {
-    max-height: 1600px !important;  /* 課程講義有十幾項；500px 會切掉 */
+    max-height: 1600px !important;  /* 項目多的下拉，500px 會切掉 */
   }
 
   /* 手機：次目錄一欄、寬度滿版，第一項「總覽」顯示出來 */
@@ -1280,7 +1280,7 @@ body {
     display: block;
   }
 
-  /* 下拉箭頭指示器（上層是 span 或連結都要有；2026-11-15 前少了 display，被上面的 display:none 蓋掉、手機上看不到） */
+  /* 下拉箭頭指示器（上層是 span 或連結都要有；要寫 display，否則被上面的 display:none 蓋掉） */
   .navbar-menu > li.has-dropdown > span::after,
   .navbar-menu > li.has-dropdown > a::after {
     display: block;
@@ -1336,8 +1336,7 @@ body {
     height: 320px;
   }
 
-  /* 首頁選單在手機上原本左右各留 60px，最長的一項（中文＋英文）會把頁面撐出橫向捲動；
-     左右邊距收到 16px，現在的十項在 320px 寬也放得下 */
+  /* 首頁選單在手機上左右邊距 16px：最長的一項（中文＋英文）在 320px 寬也不會撐出橫向捲動 */
   .homepage-content {
     padding: 20px 16px 40px;
   }
@@ -1531,7 +1530,7 @@ body {
   color: var(--color-text-muted);
 }
 
-/* 課程已移到別區（例如文學網站）時，在原課程頁籤留的一行提示 */
+/* 課程已移到別處時，在原課程頁籤留的一行提示 */
 .course-moved {
   margin-bottom: 16px;
   padding: 8px 14px;
@@ -1609,9 +1608,10 @@ body {
 /* ===================================
    列印樣式
    =================================== */
-/* 頂端選單是 sticky，錨點（/teach/#links、書目頁的分類小標 #…）捲到的標題會被它蓋住：
-   目標元素上方留出選單的高度＋16px。選單高：≥1242 寬 120px、884–1241 寬 98px、≤883 寬 79～84px
-   （2026-11-18 量的；原本一律 96px，寬螢幕的小標題會被蓋掉 24px） */
+/*
+  頂端選單是 sticky，錨點（/teach/#links、書目頁的分類小標 #…）捲到的標題會被它蓋住：
+  目標元素上方留出選單的高度＋16px。選單高：≥1242 寬 120px、884–1241 寬 98px、≤883 寬 79～84px。
+*/
 [id] {
   scroll-margin-top: 136px;
 }
@@ -1655,7 +1655,7 @@ body {
 }
 
 /* ===================================
-   選單重整（2026-11-22，分支 nav-7；規則見 layouts/partials/navbar.html）
+   選單（項目與規則見 data/nav.yaml）
    =================================== */
 
 /* 頂端選單右邊的工具連結（最新動態、相關連結）：比七項主選單小一級 */
@@ -2096,7 +2096,7 @@ body {
 }
 
 @media (min-width: 861px) and (max-height: 540px) {
-  /* 相片那排不收掉（先生會以為相片不見了）：它跟書法題字本來就並排，只要不比題字高就不佔高度 */
+  /* 相片那排不收掉：它跟書法題字並排，只要不比題字高就不佔高度 */
   .homepage-carousel {
     width: 400px;
     max-width: none;

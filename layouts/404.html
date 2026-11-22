@@ -1,7 +1,9 @@
 {{ define "main" }}
-{{/* 舊站（遠振主機）的 PDF 網址，例如 /storage/uploads/<uuid>/檔名.pdf、/doc/A/檔名.pdf，
-     Google 還收著、也還有人點。這裡把 static/files/ 底下每個檔的檔名（去掉全形／半形空白、轉小寫）對到新網址，
-     找不到的網頁若最後一段檔名對得上就直接跳過去。新增的 PDF 自動算進來，不用維護清單。 */}}
+{{/*
+  舊站的 PDF 網址（/storage/uploads/<uuid>/檔名.pdf、/doc/A/檔名.pdf 等）：
+  把 static/files/ 底下每個檔的檔名（去掉全形／半形空白、轉小寫）對到新網址，
+  找不到的網頁若最後一段檔名對得上就轉過去。
+*/}}
 {{ $map := dict }}
 {{ range os.ReadDir "static/files" }}
   {{ $sub := .Name }}

@@ -7,9 +7,10 @@
   <article class="content-section{{ with .Section }} section-{{ . }}{{ end }}">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{/* 分類次目錄（2026-11-18 先生：學術論文 10 類、138 篇，沒有次目錄真難找）：
-         列出本頁的分類小標題與篇數，連到 #小標題（id 寫法同 entry-list.html）；每個小標題右邊加「回分類」。
-         2026-11-22 起不必指定頁面：分類有四個以上的書目頁自動出現，篇數自動算。 */}}
+    {{/*
+      分類次目錄：分類有四個以上的書目頁，在頂端列出各分類小標題與篇數，
+      連到 #小標題（id 寫法同 entry-list.html）；每個小標題右邊加「回分類」。
+    */}}
     {{ $allcats := slice }}
     {{ range .RegularPages }}{{ with .Params.category }}{{ if not (in $allcats .) }}{{ $allcats = $allcats | append . }}{{ end }}{{ end }}{{ end }}
     {{ $toc := ge (len $allcats) 4 }}

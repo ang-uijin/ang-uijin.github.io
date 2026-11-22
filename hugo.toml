@@ -26,7 +26,7 @@ disableKinds = ['taxonomy', 'term']
     path = '{/bio,/book,/colloquium,/commentary,/essay,/history,/lecture,/links,/media,/paper,/plan,/preface,/sites,/translate,/write}/**'
 
 # 首頁多出一份 index.json 給站內搜尋用；section 頁一律不出 RSS
-# （否則 12 個書目 section 會把 445 條沒有網址的條目當成文章列出來）。
+# （否則沒有網址的書目條目會被當成文章列出來）。
 [outputs]
   home = ['html', 'rss', 'json']
   section = ['html']

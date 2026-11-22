@@ -1,6 +1,4 @@
-/* 治言齋 2026：歌曲頁的影片與歌詞圖左右同框（洪教授 2026-09-18 要求，
-   「同時會凍看著影片佮歌詞」）。由 docs/tools/song_merge.py 套到 song-m2/ 的歌詞頁與影片頁。
-   框架視窗不到 880px 寬時退回原本 447px 的邊框、影片在上歌詞在下。原站沒有這個檔。 */
+/* 歌曲頁的影片與歌詞圖左右同框；框架視窗不到 880px 寬時退回 447px 的邊框、影片在上歌詞在下。 */
 .zz-pair { display: flex; flex-direction: column; align-items: center; gap: 8px; padding-bottom: 4px; }
 .zz-pair iframe, .zz-pair img { display: block; }
 img.zz-w { display: none; }

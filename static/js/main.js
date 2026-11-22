@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
 
-    // 檢查是否點擊了 has-dropdown 的上層項目：span（前四項）或連結（影音以下，2026-11-15 起也有次目錄；
+    // 檢查是否點擊了 has-dropdown 的上層項目（span 或連結；
     // 手機點了是展開，不換頁——次目錄第一項「總覽」才連到該區）
     const dropdownTrigger = e.target.closest('.navbar-menu > li.has-dropdown > span, .navbar-menu > li.has-dropdown > a');
 
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
       // 分類小標題的 id 是 urlize 的百分比編碼（#%E5%AD%B8…），querySelector 會把 % 當成不合法的選擇器而丟例外，
-      // 所以用 getElementById；找不到再試解碼後的（2026-11-18 學術論文分類次目錄）
+      // 所以用 getElementById；找不到再試解碼後的
       const id = this.getAttribute('href').slice(1);
       let target = id ? document.getElementById(id) : null;
       if (!target && id) { try { target = document.getElementById(decodeURIComponent(id)); } catch (err) {} }
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Open the tab named in the URL hash (e.g. /teach/#online)
     const hashCourse = window.location.hash.slice(1);
-    if (hashCourse === 'links') { window.location.replace('/links/'); }   // 2026-10-21 推薦連結分頁搬去 /links/（相關連結），舊網址轉過去
+    if (hashCourse === 'links') { window.location.replace('/links/'); }   // 舊的推薦連結分頁（/teach/#links）轉到 /links/
     const hashTab = Array.from(courseTabs).find(t => t.getAttribute('data-course') === hashCourse);
     if (hashTab) {
       hashTab.click();

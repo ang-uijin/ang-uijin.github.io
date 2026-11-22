@@ -32,11 +32,11 @@ collections:
       - {label: "原始連結（可不填）", name: "link", widget: "string", required: false}
       - {label: "內文", name: "body", widget: "markdown"}
 
-  # 以下 17 個頁面是 entry collection（14 個書目頁，加上開講、網站、相關連結）：一條一個檔（content/<section>/*.md），
+  # 以下各頁是 entry collection（書目頁，以及講壇、網站、相關連結）：一條一個檔（content/<section>/*.md），
   # 後台搜尋直接搜到單篇。weight 是排序用，列表頁的「排序」模式拖曳會自動改；
   # 新增的條目 weight 為 0，Hugo 會排在最底下，要調位置就進排序模式拖。
   # index_file 是各頁自己的 _index.md（標題、頁面說明）。
-  # sortable_fields 的「檔案」是給家銓盤點用的：照它排序，還沒有 PDF 的條目會排在一起。
+  # sortable_fields 加「檔案」：照它排序，還沒有 PDF 的條目會排在一起。
 
   - divider: true
 
@@ -392,7 +392,7 @@ collections:
       - {label: "原始碼（進階，通常留空）", name: "html", widget: "text", required: false, hint: "填了就整條照這段輸出，上面欄位會被忽略。"}
       # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
       - {name: "weight", widget: "hidden", default: 0}
-  # 「網站」頁（/sites/，2026-11-22 由研究網站、教學網站、文學網站三頁併成）：先生做的子站，一站一格。
+  # 「網站」頁（/sites/）：子站一站一格。
   # 有截圖的才會出現在格子裡；「整理中」的格子沒有連結。版面在 layouts/sites/list.html。
   - name: "sites"
     label: "網站"
@@ -426,7 +426,7 @@ collections:
       - {label: "沿革說明（不印在格子上，站內搜尋找得到）", name: "source", widget: "text", required: false}
       # 排序用；hidden 欄位不可以有 label（官方 JSON schema 不收），後台也不會顯示
       - {name: "weight", widget: "hidden", default: 0}
-  # 相關連結（/links/）：2026-10-21 從課程講義頁的「推薦連結」分頁獨立出來，一條一檔；分類名就是列表上的小標題。
+  # 相關連結（/links/）：一條一檔；分類名就是列表上的小標題。
   - name: "links"
     label: "相關連結"
     label_singular: "一筆連結"
@@ -515,7 +515,7 @@ singletons:
       - {label: "標題", name: "title", widget: "string"}
       - {label: "更新日期", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
       - {label: "內容", name: "body", widget: "markdown"}
-  # Podcast「這馬講台語」的集數頁（/podcast/），2026-10-16 從課程講義拆出來、列在「講壇」
+  # Podcast「這馬講台語」的集數頁（/podcast/），講壇「臺語學開講」連到這裡
   - name: "podcast"
     label: "Podcast 這馬講台語"
     file: "content/podcast.md"

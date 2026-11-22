@@ -1,18 +1,14 @@
-# 全站選單的唯一來源（2026-11-22）。下面四處都從這個檔產生，改這裡就一起變：
-#   頂端選單（layouts/partials/navbar.html）、首頁七列（layouts/index.html）、
-#   各頁上方的次選單（layouts/partials/section-nav.html）、總目錄頁（layouts/_default/toc.html）。
+# 全站選單。頂端選單（partials/navbar.html）、首頁七列（index.html）、
+# 各頁上方的次選單（partials/section-nav.html）、總目錄（_default/toc.html）都讀這個檔。
 #
-# 規則：
-#   1. main 是第一層，七項為限；每一項都有 url（點了到該區第一頁）。
-#   2. 一區有好幾頁的寫 children：頂端選單的下拉、各頁上方的次選單都列這幾頁。
-#   3. 只有一頁的區不寫 children，頂端選單就沒有下拉（那一頁自己有小標、各站、各門課可挑）；
-#      改寫 sub，讓總目錄頁從該頁內容自動列出底下有什麼：
-#        cats  頁內的分類小標題（條目的 category）
-#        sites 「網站」頁有截圖的各站（條目的 short_title 與 link）
-#        tabs  「講義」頁的各門課（content/teach/_index.md 的頁籤）
-#      後台加條目、加分類、加課，總目錄會自己跟著變，不必改這個檔。
-#   4. also 是「也算在這一區」的網址（選單亮起來用）。
-#   5. 要新增內容，先放進現有七項底下；第一層不再加。util 是右上角小字的工具連結。
+#   main      第一層；每一項都有 url（該區第一頁）。
+#   children  一區有好幾頁時列出各頁：頂端選單的下拉與次選單用。
+#   sub       沒有 children 的區，次目錄由頁面內容自動產生（總目錄用）：
+#               cats   頁內的分類小標題（條目的 category）
+#               sites  「網站」頁有截圖的各站（short_title、link）
+#               tabs   「講義」頁的各門課（content/teach/_index.md 的頁籤）
+#   also      也算在這一區的網址（選單亮燈用）。
+#   util      右上角的工具連結。
 main:
   - name: 我是啥人
     en: About Me
