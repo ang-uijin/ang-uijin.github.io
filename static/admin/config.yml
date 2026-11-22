@@ -383,7 +383,7 @@ collections:
         - {label: "頁面說明（給搜尋引擎看，可不改）", name: "description", widget: "text", required: false}
         - {label: "舊網址（轉址用，不要動）", name: "aliases", widget: "list", required: false}
     fields:
-      - {label: "分類", name: "category", widget: "string", required: false, hint: "目前依序：臺語學開講、治言齋學堂、演講紀錄。同一個分類的條目要排在一起（用列表的排序功能拖），分類名會變成小標題"}
+      - {label: "分類", name: "category", widget: "string", required: false, hint: "目前依序：臺語學開講、治言齋學堂、論文精進諮詢會、演講紀錄。同一個分類的條目要排在一起（用列表的排序功能拖），分類名會變成小標題"}
       - {label: "年份／日期", name: "date_text", widget: "string", required: false, hint: "例：2019 或 1993/06"}
       - {label: "標題", name: "title", widget: "string"}
       - {label: "連結（外部網址）", name: "link", widget: "string", required: false, hint: "填了就用這個，底下的檔案會被忽略"}
